@@ -32,24 +32,44 @@ const bank = () => (G.mistakes[L.id] = G.mistakes[L.id] || []);
 
 /* ---------- sound (gentle, optional) ---------- */
 let ac = null;
-function tone(freqs, type = "sine", dur = 0.14, gap = 0.09, vol = 0.06) {
+/* Phones only allow web audio once it has been started inside a tap, and they
+   suspend it again when the page goes to the background. So: create and resume the
+   audio context on the first touch, play a silent sample to unlock it (iPhone), and
+   resume again before each sound if needed. */
+function audio() {
+  if (!ac) { try { ac = new (window.AudioContext || window.webkitAudioContext)(); } catch { return null; } }
+  if (ac.state !== "running") ac.resume().catch(() => {});
+  return ac;
+}
+function unlockAudio() {
+  const c = audio(); if (!c) return;
+  try { const b = c.createBuffer(1, 1, 22050), src = c.createBufferSource(); src.buffer = b; src.connect(c.destination); src.start(0); } catch { /* ignore */ }
+  if (c.state === "running") ["pointerdown", "touchend", "keydown"].forEach((ev) => document.removeEventListener(ev, unlockAudio, true));
+}
+["pointerdown", "touchend", "keydown"].forEach((ev) => document.addEventListener(ev, unlockAudio, true));
+document.addEventListener("visibilitychange", () => { if (!document.hidden && ac) ac.resume().catch(() => {}); });
+
+function tone(freqs, type = "sine", dur = 0.14, gap = 0.09, vol = 0.2) {
   if (!G.sound) return;
-  try {
-    ac = ac || new (window.AudioContext || window.webkitAudioContext)();
-    freqs.forEach((f, i) => {
-      const o = ac.createOscillator(), g = ac.createGain(), st = ac.currentTime + i * gap;
-      o.type = type; o.frequency.value = f; g.gain.setValueAtTime(0, st); g.gain.linearRampToValueAtTime(vol, st + 0.015);
-      g.gain.exponentialRampToValueAtTime(0.0001, st + dur); o.connect(g).connect(ac.destination); o.start(st); o.stop(st + dur + 0.03);
-    });
-  } catch { /* no audio */ }
+  const c = audio(); if (!c) return;
+  const play = () => {
+    try {
+      freqs.forEach((f, i) => {
+        const o = c.createOscillator(), g = c.createGain(), st = c.currentTime + 0.01 + i * gap;
+        o.type = type; o.frequency.value = f; g.gain.setValueAtTime(0.0001, st); g.gain.linearRampToValueAtTime(vol, st + 0.015);
+        g.gain.exponentialRampToValueAtTime(0.0001, st + dur); o.connect(g).connect(c.destination); o.start(st); o.stop(st + dur + 0.03);
+      });
+    } catch { /* no audio */ }
+  };
+  if (c.state === "running") play(); else c.resume().then(play).catch(() => {});
 }
 const buzz = (p) => { try { if (navigator.vibrate) navigator.vibrate(p); } catch { /* no vibration */ } };
-const SFX = {
-  tap: () => tone([520], "sine", 0.05, 0, 0.025),
-  pair: () => tone([740], "sine", 0.08, 0, 0.04),
-  good: () => { tone([659, 880], "sine", 0.16, 0.08); buzz(12); },
-  bad: () => { tone([233, 196], "triangle", 0.2, 0.11, 0.05); buzz([30, 40, 30]); },
-  done: () => tone([523, 659, 784, 1047], "sine", 0.22, 0.11, 0.06),
+const SFX = {   // volumes are set for phone speakers, which are much quieter than desktop ones
+  tap: () => tone([520], "sine", 0.06, 0, 0.08),
+  pair: () => tone([740], "sine", 0.1, 0, 0.16),
+  good: () => { tone([659, 880], "sine", 0.18, 0.09, 0.22); buzz(12); },
+  bad: () => { tone([233, 196], "triangle", 0.22, 0.12, 0.2); buzz([30, 40, 30]); },
+  done: () => tone([523, 659, 784, 1047], "sine", 0.24, 0.11, 0.2),
 };
 
 /* ---------- icons and art ---------- */
@@ -517,7 +537,7 @@ function openSheet() {
 }
 function closeSheet() { $("#sheet-root").innerHTML = ""; }
 
-if (/[?&]debug\b/.test(location.search)) window.__L = { LESSON: L, run: () => U, render: renderStep, G, P };   // test hook only
+if (/[?&]debug\b/.test(location.search)) window.__L = { LESSON: L, run: () => U, render: renderStep, G, P, audioState: () => (ac ? ac.state : "none") };   // test hook only
 showView("v-path");
 renderPath();
 })();
