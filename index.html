@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ahom Kings · AxomRank</title>
+<meta name="description" content="Learn the history of the Ahom kingdom, one Swargadeo at a time. Bilingual (English and Assamese) lessons for ADRE, Assam TET, APSC and Assam Police SI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Noto+Sans+Bengali:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/engine.css">
+</head>
+<body>
+<input type="checkbox" id="as" aria-label="Show in Assamese">
+<div class="stage"><div class="device">
+  <div class="view on" id="v-home">
+    <div class="p-top">
+      <label class="lang" for="as"><span class="en">অ</span><span class="as">EN</span></label>
+      <span class="spacer"></span>
+      <span class="fire" id="fire"></span>
+      <span class="gem" id="gem"></span>
+    </div>
+    <div class="p-scroll">
+      <section class="c-hero">
+        <svg class="roof" viewBox="0 0 320 26" preserveAspectRatio="none"><path d="M0 4c22 2 30 10 52 13 44 6 172 6 216 0 22-3 30-11 52-13" fill="none" stroke="#fff" stroke-width="2"/><path d="M60 17v7M100 19v6M140 20v5M180 20v5M220 19v6M260 17v7" stroke="#fff" stroke-width="1.6"/></svg>
+        <div class="eyebrow"><span class="en">Assam History · Course 1</span><span class="as">অসমৰ ইতিহাস · পাঠ্যক্ৰম ১</span></div>
+        <h1><span class="en">The Ahom Kings</span><span class="as">আহোম ৰজাসকল</span></h1>
+        <p><span class="en">1228–1838 · 41 reigns, one lesson each</span><span class="as">১২২৮–১৮৩৮ · ৪১টা ৰাজত্ব, প্ৰতিটোৰ এটা পাঠ</span></p>
+      </section>
+      <div id="list"></div>
+      <div class="p-foot"><span class="en">Bilingual · English / অসমীয়া · Written and checked by people, no AI content. Portraits are artistic reconstructions.</span><span class="as">দ্বিভাষিক · English / অসমীয়া · মানুহে লিখা আৰু পৰীক্ষা কৰা, AI বিষয়বস্তু নাই। প্ৰতিকৃতিবোৰ শিল্পীৰ কল্পনা।</span></div>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+</div></div>
+<script>
+(() => {
+"use strict";
+const KINGS = [{"n":1,"id":"sukaphaa","en":"Chaolung Sukaphaa","alt":"","as":"চাওলুং চুকাফা","reign":"1228–1268"},{"n":2,"id":"suteuphaa","en":"Suteuphaa","alt":"","as":"চুতেউফা","reign":"1268–1281"},{"n":3,"id":"subinphaa","en":"Subinphaa","alt":"","as":"চুবিনফা","reign":"1281–1293"},{"n":4,"id":"sukhaangphaa","en":"Sukhaangphaa","alt":"","as":"চুখাংফা","reign":"1293–1332"},{"n":5,"id":"sukhrangphaa","en":"Sukhrangphaa","alt":"","as":"চুখ্ৰাংফা","reign":"1332–1364"},{"n":6,"id":"sutuphaa","en":"Sutuphaa","alt":"","as":"চুতুফা","reign":"1369–1376"},{"n":7,"id":"tyao-khamti","en":"Tyao Khamti","alt":"","as":"ত্যাও খামতি","reign":"1380–1389"},{"n":8,"id":"sudangphaa","en":"Sudangphaa","alt":"Bamuni Konwar","as":"চুদাংফা","reign":"1397–1407"},{"n":9,"id":"sujangphaa","en":"Sujangphaa","alt":"","as":"চুজাংফা","reign":"1407–1422"},{"n":10,"id":"suphakphaa","en":"Suphakphaa","alt":"","as":"চুফাকফা","reign":"1422–1439"},{"n":11,"id":"susenphaa","en":"Susenphaa","alt":"","as":"চুচেনফা","reign":"1439–1488"},{"n":12,"id":"suhenphaa","en":"Suhenphaa","alt":"","as":"চুহেনফা","reign":"1488–1493"},{"n":13,"id":"supimphaa","en":"Supimphaa","alt":"","as":"চুপিম্ফা","reign":"1493–1497"},{"n":14,"id":"suhungmung","en":"Suhungmung","alt":"Swarganarayan","as":"চুহুংমুং","reign":"1497–1539"},{"n":15,"id":"suklenmung","en":"Suklenmung","alt":"Garhgayan Roja","as":"চুক্লেনমুং","reign":"1539–1552"},{"n":16,"id":"sukhaamphaa","en":"Sukhaamphaa","alt":"Khora Roja","as":"চুখাম্ফা (খোৰা ৰজা)","reign":"1552–1603"},{"n":17,"id":"pratap-singha","en":"Pratap Singha","alt":"Susenghphaa","as":"প্ৰতাপ সিংহ","reign":"1603–1641"},{"n":18,"id":"suramphaa","en":"Suramphaa","alt":"Jayaditya Singha, Bhoga Roja","as":"চুৰম্ফা (ভোগা ৰজা)","reign":"1641–1644"},{"n":19,"id":"sutingphaa","en":"Sutingphaa","alt":"Noriya Roja","as":"চুটিংফা (নৰীয়া ৰজা)","reign":"1644–1648"},{"n":20,"id":"jayadhwaj-singha","en":"Jayadhwaj Singha","alt":"Sutamla","as":"জয়ধ্বজ সিংহ","reign":"1648–1663"},{"n":21,"id":"chakradhwaj-singha","en":"Chakradhwaj Singha","alt":"Supangmung","as":"চক্ৰধ্বজ সিংহ","reign":"1663–1670"},{"n":22,"id":"udayaditya-singha","en":"Udayaditya Singha","alt":"Sunyatphaa","as":"উদয়াদিত্য সিংহ","reign":"1670–1672"},{"n":23,"id":"ramdhwaj-singha","en":"Ramdhwaj Singha","alt":"Suklamphaa","as":"ৰামধ্বজ সিংহ","reign":"1672–1674"},{"n":24,"id":"suhung","en":"Suhung","alt":"Samaguria Roja","as":"সমগুৰিয়া ৰজা","reign":"1674–1675"},{"n":25,"id":"gobar-roja","en":"Gobar Roja","alt":"","as":"গোবৰ ৰজা","reign":"1675 (about 24 days)"},{"n":26,"id":"sujinphaa","en":"Sujinphaa","alt":"Arjun Konwar","as":"চুজিনফা","reign":"1675–1677"},{"n":27,"id":"sudoiphaa","en":"Sudoiphaa","alt":"Parvatia Roja","as":"চুদইফা (পৰ্বতীয়া ৰজা)","reign":"1677–1679"},{"n":28,"id":"sulikphaa","en":"Sulikphaa","alt":"Ratnadhwaj Singha, Lora Roja","as":"চুলিকফা (লোৰা ৰজা)","reign":"1679–1681"},{"n":29,"id":"gadadhar-singha","en":"Gadadhar Singha","alt":"Supaatphaa","as":"গদাধৰ সিংহ","reign":"1681–1696"},{"n":30,"id":"rudra-singha","en":"Rudra Singha","alt":"Sukhrungphaa","as":"ৰুদ্ৰ সিংহ","reign":"1696–1714"},{"n":31,"id":"siva-singha","en":"Siva Singha","alt":"Sutanphaa","as":"শিৱ সিংহ","reign":"1714–1744"},{"n":32,"id":"pramatta-singha","en":"Pramatta Singha","alt":"Sunenphaa","as":"প্ৰমত্ত সিংহ","reign":"1744–1751"},{"n":33,"id":"rajeswar-singha","en":"Rajeswar Singha","alt":"Suremphaa","as":"ৰাজেশ্বৰ সিংহ","reign":"1751–1769"},{"n":34,"id":"lakshmi-singha","en":"Lakshmi Singha","alt":"Sunyeophaa","as":"লক্ষ্মী সিংহ","reign":"1769–1780"},{"n":35,"id":"gaurinath-singha","en":"Gaurinath Singha","alt":"Suhitpangphaa","as":"গৌৰীনাথ সিংহ","reign":"1780–1795"},{"n":36,"id":"kamaleswar-singha","en":"Kamaleswar Singha","alt":"Suklingphaa","as":"কমলেশ্বৰ সিংহ","reign":"1795–1811"},{"n":37,"id":"chandrakanta-singha","en":"Chandrakanta Singha","alt":"Sudingphaa · first reign","as":"চন্দ্ৰকান্ত সিংহ","reign":"1811–1818"},{"n":38,"id":"purandar-singha","en":"Purandar Singha","alt":"first reign","as":"পুৰন্দৰ সিংহ","reign":"1818–1819"},{"n":39,"id":"chandrakanta-singha","en":"Chandrakanta Singha","alt":"Sudingphaa · second reign","as":"চন্দ্ৰকান্ত সিংহ","reign":"1819–1821"},{"n":40,"id":"jogeswar-singha","en":"Jogeswar Singha","alt":"","as":"যোগেশ্বৰ সিংহ","reign":"1821–1822"},{"n":41,"id":"purandar-singha","en":"Purandar Singha","alt":"second reign","as":"পুৰন্দৰ সিংহ","reign":"1833–1838"}];
+/* lessons that exist so far: king number → lesson */
+const LESSONS = {
+  1: { id: "sukaphaa", file: "lessons/01-sukaphaa.html", steps: 7 },
+  2: { id: "suteuphaa", file: "lessons/02-suteuphaa.html", steps: 5 },
+};
+const ERAS = [
+  { from: 1, to: 13, en: "The founding kings · 1228–1497", as: "প্ৰতিষ্ঠাকালৰ ৰজা · ১২২৮–১৪৯৭" },
+  { from: 14, to: 16, en: "Expansion · 1497–1603", as: "সম্প্ৰসাৰণ · ১৪৯৭–১৬০৩" },
+  { from: 17, to: 28, en: "Against the Mughals · 1603–1681", as: "মোগলৰ বিৰুদ্ধে · ১৬০৩–১৬৮১" },
+  { from: 29, to: 33, en: "The Tungkhungia kings · 1681–1769", as: "তুংখুঙীয়া ৰজা · ১৬৮১–১৭৬৯" },
+  { from: 34, to: 41, en: "Decline and the last kings · 1769–1838", as: "অৱক্ষয় আৰু শেষৰ ৰজা · ১৭৬৯–১৮৩৮" },
+];
+const $ = (s) => document.querySelector(s);
+const AS = "০১২৩৪৫৬৭৮৯", asNum = (s) => String(s).replace(/\d/g, (d) => AS[d]);
+const T = (en, as) => `<span class="en">${en}</span><span class="as">${as}</span>`;
+const get = (k, d) => { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch { return d; } };
+const G = Object.assign({ xp: 0, streak: { n: 0, last: null }, as: false, mistakes: {} }, get("axom:global", {}));
+const langBox = $("#as");
+if (G.as) langBox.checked = true;
+langBox.addEventListener("change", () => { G.as = langBox.checked; try { localStorage.setItem("axom:global", JSON.stringify(G)); } catch {} });
+const UNLOCK_ALL = /[?&]all\b/.test(location.search);
+const dayKey = (d) => `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+const streak = [dayKey(new Date()), dayKey(new Date(Date.now() - 864e5))].includes(G.streak.last) ? G.streak.n : 0;
+const FIRE = '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.6 2.2c.3 2.8-1 4.4-2.4 6-1.4 1.6-2.9 3.3-2.9 6.1A5.2 5.2 0 0 0 12.5 20a5.6 5.6 0 0 0 5.7-5.6c0-2.3-1-3.9-2-5.2-.2 1.3-.8 2.3-1.9 2.8.4-3.3-.4-6.8-1.7-9.8z"/></svg>';
+const GEM = '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 3h10l4 5.5L12 21 3 8.5z"/><path fill="#fff" opacity=".35" d="M7 3l2.5 5.5H3zM12 21 9.5 8.5h5z"/></svg>';
+$("#fire").innerHTML = FIRE + T(streak, asNum(streak)); $("#fire").classList.toggle("on", streak > 0);
+$("#gem").innerHTML = GEM + T(G.xp, asNum(G.xp));
+
+function status(n) {
+  const L = LESSONS[n];
+  if (!L) return { s: "soon" };
+  const p = get(`axom:lesson:${L.id}`, { done: {} }), done = Object.keys(p.done || {}).length;
+  if (p.done && p.done.test) return { s: "done", done, L };
+  const prev = LESSONS[n - 1];
+  const prevDone = n === 1 || (prev && get(`axom:lesson:${prev.id}`, { done: {} }).done.test);
+  return { s: UNLOCK_ALL || prevDone ? "open" : "locked", done, L };
+}
+const LABEL = { done: T("Review", "পুনৰীক্ষণ"), open: T("Start", "আৰম্ভ"), locked: T("Locked", "বন্ধ"), soon: T("Soon", "সোনকালে") };
+$("#list").innerHTML = ERAS.map((e) => `<div class="era">${T(e.en, e.as)}</div><div class="kings">${KINGS.filter((k) => k.n >= e.from && k.n <= e.to).map((k) => {
+  const st = status(k.n), started = st.s === "open" && st.done > 0;
+  const miss = st.L ? (G.mistakes[st.L.id] || []).length : 0;
+  const tag = st.L && (st.s === "open" || st.s === "done") ? "a" : "div";
+  const sub = `${T(k.reign, asNum(k.reign))}${k.alt ? ` · ${k.alt}` : ""}`;
+  return `<${tag} class="king ${st.s}" ${tag === "a" ? `href="${st.L.file}"` : `data-why="${st.s}"`}>
+    <span class="face"><img src="assets/faces/${k.id}.webp" alt="" loading="lazy"></span><span class="n">${T(k.n, asNum(k.n))}</span>
+    <span class="who"><b>${T(k.en, k.as)}</b><span class="sub2">${sub}</span>
+      ${started ? `<span class="bar2"><i style="width:${(st.done / st.L.steps) * 100}%"></i></span>` : ""}</span>
+    <span class="state">${started ? T("Continue", "আগবাঢ়া") : LABEL[st.s]}</span>
+    ${miss ? `<span class="badge">${T(`${miss} to revise`, `${asNum(miss)}টা ভুল`)}</span>` : ""}
+  </${tag}>`;
+}).join("")}</div>`).join("");
+
+document.addEventListener("click", (e) => {
+  const k = e.target.closest("[data-why]"); if (!k) return;
+  const msg = k.dataset.why === "locked" ? T("Finish the lesson before this one first", "আগৰ পাঠটো আগতে শেষ কৰা") : T("This lesson is being written", "এই পাঠটো লিখি থকা হৈছে");
+  const t = $("#toast"); t.innerHTML = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 2000);
+});
+})();
+</script>
+</body>
+</html>

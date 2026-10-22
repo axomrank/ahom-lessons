@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lesson 2 · Suteuphaa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Noto+Sans+Bengali:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/engine.css">
+</head>
+<body>
+<script>
+/* =========================================================
+   Lesson 2 · Swargadeo Suteuphaa (1268–1281)
+   Content only: every text is { en, as }. Engine: ../assets/engine.js
+   Sources: Wikipedia "Suteuphaa", citing E. A. Gait, A History of Assam (1926), p. 79,
+   and H. Barbaruah, Ahomar-Din (1981), pp. 24, 75.
+   Not used: the "Naga hills campaign" in the AHOM scene notes, which has no source.
+   ========================================================= */
+const B = (en, as) => ({ en, as });
+
+window.LESSON = {
+  id: "suteuphaa", no: 2,
+  king: B("Swargadeo Suteuphaa", "স্বৰ্গদেউ চুতেউফা"),
+  reign: B("Reign 1268–1281", "ৰাজত্বকাল ১২৬৮–১২৮১"),
+  portrait: "images/suteuphaa-portrait.webp",
+
+  /* schematic map: the Dikhou and its neighbours (not to scale) */
+  map: {
+    view: "0 0 340 250",
+    texts: [{ t: B("KACHARI LAND", "কছাৰী এলেকা"), x: 10, y: 238 }, { t: B("AHOM LAND", "আহোম এলেকা"), x: 116, y: 238 }],
+    rivers: [
+      { id: "brahmaputra", d: "M6 92 C 90 80, 180 70, 334 34", label: { t: B("Brahmaputra", "ব্ৰহ্মপুত্ৰ"), x: 214, y: 50, rot: -9, cls: "" } },
+      { id: "dikhou", small: true, d: "M96 248 C 104 214, 88 178, 104 150 S 112 110, 112 86", label: { t: B("Dikhou", "দিখৌ"), x: 60, y: 196 } },
+      { id: "disang", small: true, d: "M196 248 C 190 214, 206 176, 194 140 S 186 100, 192 78", label: { t: B("Disang", "দিচাং"), x: 204, y: 206 } },
+      { id: "dihing", small: true, d: "M334 196 C 300 186, 276 150, 270 116 S 262 80, 262 68", label: { t: B("Dihing", "ডিহিং"), x: 282, y: 152 } },
+    ],
+    routes: ["M176 214 C 150 214, 120 214, 30 214"],
+    places: [
+      { id: "sivasagar", x: 104, y: 150, label: { t: B("Sivasagar (today)", "শিৱসাগৰ (আজি)"), x: 96, y: 138, anchor: "end" } },
+      { id: "charaideo", x: 150, y: 168, label: { t: B("Charaideo", "চৰাইদেউ"), x: 128, y: 190 } },
+    ],
+  },
+
+  units: [
+    /* ---------- UNIT 1 ---------- */
+    {
+      id: "u1", icon: "crown", title: B("A new king", "নতুন ৰজা"),
+      learned: [B("Suteuphaa was Sukaphaa's eldest son", "চুতেউফা চুকাফাৰ জ্যেষ্ঠ পুত্ৰ"), B("He became the second Ahom king in 1268", "১২৬৮ চনত তেওঁ দ্বিতীয় আহোম ৰজা হয়"), B("He sent an embassy to the old homeland, Mong Mao", "তেওঁ পুৰণি জন্মভূমি মং মাওলৈ দূত পঠিয়াইছিল")],
+      steps: [
+        { type: "story", img: "suteuphaa-court.webp", title: B("The second king", "দ্বিতীয় ৰজা"),
+          text: [B("When Sukaphaa died in 1268, the nobles placed his <mark>eldest son</mark> on the throne.", "১২৬৮ চনত চুকাফাৰ মৃত্যুৰ পিছত সম্ভ্ৰান্ত লোকসকলে তেওঁৰ <mark>জ্যেষ্ঠ পুত্ৰ</mark>ক সিংহাসনত বহুৱাইছিল।"),
+                 B("He was <mark>Suteuphaa</mark>, the second king of the Ahom kingdom.", "তেওঁ আছিল <mark>চুতেউফা</mark>, আহোম ৰাজ্যৰ দ্বিতীয় ৰজা।")] },
+        { type: "mcq", q: B("Who was Suteuphaa?", "চুতেউফা কোন আছিল?"),
+          options: [B("Sukaphaa's eldest son", "চুকাফাৰ জ্যেষ্ঠ পুত্ৰ"), B("Sukaphaa's brother", "চুকাফাৰ ভাই"), B("A Moran chief", "এজন মৰাণ ৰজা"), B("A Kachari king", "এজন কছাৰী ৰজা")], answer: 0,
+          why: B("Suteuphaa was the eldest son of Sukaphaa and the second Ahom king.", "চুতেউফা আছিল চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আৰু দ্বিতীয় আহোম ৰজা।") },
+        { type: "inline", before: B("Suteuphaa became king in", "চুতেউফা"), after: B(".", "চনত ৰজা হৈছিল।"),
+          options: [B("1228","১২২৮"), B("1253","১২৫৩"), B("1268","১২৬৮"), B("1281","১২৮১")], answer: 2, big: true,
+          why: B("1268, the year Sukaphaa died. 1281 is when Suteuphaa's own reign ended.", "১২৬৮, যিবছৰ চুকাফাৰ মৃত্যু হয়। ১২৮১ চনত চুতেউফাৰ নিজৰ ৰাজত্ব শেষ হয়।") },
+        { type: "story", art: "embassy", title: B("A message home", "জন্মভূমিলৈ বাৰ্তা"),
+          text: [B("Suteuphaa sent an <mark>embassy</mark> (a group of envoys) to the Ahoms' old homeland, <mark>Mong Mao</mark>.", "চুতেউফাই আহোমসকলৰ পুৰণি জন্মভূমি <mark>মং মাও</mark>লৈ <mark>দূত</mark> পঠিয়াইছিল।"),
+                 B("Its ruler replied with gifts and congratulations.", "তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল।")] },
+        { type: "tf", s: B("Suteuphaa cut all ties with the old homeland, Mong Mao.", "চুতেউফাই পুৰণি জন্মভূমি মং মাওৰ সৈতে সকলো সম্পৰ্ক ছিন্ন কৰিছিল।"), answer: false,
+          why: B("False. He sent an embassy to Mong Mao, and its ruler sent back gifts and congratulations.", "অশুদ্ধ। তেওঁ মং মাওলৈ দূত পঠিয়াইছিল, আৰু তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল।") },
+        { type: "whoami", clues: [B("I was the eldest son of Sukaphaa.", "মই চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আছিলোঁ।"), B("I became king in 1268.", "মই ১২৬৮ চনত ৰজা হৈছিলোঁ।"), B("I sent an embassy to Mong Mao.", "মই মং মাওলৈ দূত পঠিয়াইছিলোঁ।")],
+          options: [B("Suteuphaa","চুতেউফা"), B("Subinphaa","চুবিনফা"), B("Sukhaangphaa","চুখাংফা"), B("Sudangphaa","চুদাংফা")], answer: 0,
+          why: B("Suteuphaa, the second Ahom king (1268–1281).", "চুতেউফা, দ্বিতীয় আহোম ৰজা (১২৬৮–১২৮১)।") },
+        { type: "match", q: B("Tap the matching pairs.", "যোৰাবোৰ মিলোৱা।"),
+          pairs: [[B("Suteuphaa","চুতেউফা"), B("Second Ahom king","দ্বিতীয় আহোম ৰজা")], [B("Sukaphaa","চুকাফা"), B("His father","তেওঁৰ পিতৃ")], [B("Mong Mao","মং মাও"), B("Old homeland","পুৰণি জন্মভূমি")], [B("1268","১২৬৮"), B("Became king","ৰজা হয়")]],
+          why: B("Suteuphaa, son of Sukaphaa, became king in 1268 and kept ties with Mong Mao.", "চুকাফাৰ পুত্ৰ চুতেউফা ১২৬৮ চনত ৰজা হৈছিল আৰু মং মাওৰ সৈতে সম্পৰ্ক ৰাখিছিল।") },
+      ],
+    },
+
+    /* ---------- UNIT 2 ---------- */
+    {
+      id: "u2", icon: "river", title: B("The Dikhou frontier", "দিখৌ সীমান্ত"),
+      learned: [B("Kacharis lived in parts of Upper Assam", "উজনি অসমৰ কিছু অংশত কছাৰীসকল আছিল"), B("Suteuphaa made them leave the land east of the Dikhou", "চুতেউফাই তেওঁলোকক দিখৌৰ পূব পাৰৰ মাটি এৰিবলৈ বাধ্য কৰিছিল"), B("He continued his father's expansion", "তেওঁ পিতৃৰ সম্প্ৰসাৰণ নীতি আগবঢ়াইছিল")],
+      steps: [
+        { type: "story", img: "dikhou-frontier.webp", title: B("A river border", "নদীৰ সীমা"),
+          text: [B("The <mark>Kacharis</mark> also lived in parts of Upper Assam, close to the young Ahom kingdom.", "নতুন আহোম ৰাজ্যৰ ওচৰতে, উজনি অসমৰ কিছু অংশত <mark>কছাৰী</mark>সকলো বাস কৰিছিল।"),
+                 B("Suteuphaa forced them to leave the land <mark>east of the Dikhou river</mark>.", "চুতেউফাই তেওঁলোকক <mark>দিখৌ নদীৰ পূব পাৰৰ</mark> মাটি এৰিবলৈ বাধ্য কৰিছিল।")] },
+        { type: "story", map: { route: true }, title: B("Where is the Dikhou?", "দিখৌ ক'ত?"),
+          text: [B("The Dikhou flows north into the Brahmaputra, near today's Sivasagar.", "দিখৌ উত্তৰলৈ বৈ গৈ আজিৰ শিৱসাগৰৰ ওচৰত ব্ৰহ্মপুত্ৰত মিলিছে।"),
+                 B("Charaideo lies to its east. After Suteuphaa, the Kacharis lived west of the river.", "চৰাইদেউ ইয়াৰ পূবে। চুতেউফাৰ পিছত কছাৰীসকল নদীৰ পশ্চিমে থাকিল।")] },
+        { type: "map", q: B("Tap the Dikhou river.", "দিখৌ নদী টিপা।"), target: "dikhou", choices: ["dikhou", "disang", "dihing"],
+          answerText: B("The Dikhou, the westernmost of the three", "দিখৌ, তিনিখনৰ ভিতৰত আটাইতকৈ পশ্চিমৰখন"),
+          why: B("The Dikhou is west of the Disang and the Dihing, near today's Sivasagar.", "দিখৌ দিচাং আৰু ডিহিঙৰ পশ্চিমে, আজিৰ শিৱসাগৰৰ ওচৰত।") },
+        { type: "mcq", q: B("Which land did the Kacharis have to leave?", "কছাৰীসকলে কোন মাটি এৰিব লগা হৈছিল?"),
+          options: [B("The land east of the Dikhou", "দিখৌৰ পূব পাৰৰ মাটি"), B("The land west of the Dikhou", "দিখৌৰ পশ্চিম পাৰৰ মাটি"), B("The land north of the Brahmaputra", "ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ মাটি"), B("The Patkai hills", "পাটকাই পাহাৰ")], answer: 0,
+          why: B("East of the Dikhou. That side, with Charaideo, became Ahom land.", "দিখৌৰ পূব পাৰ। চৰাইদেউ থকা সেই পাৰ আহোম এলেকা হয়।") },
+        { type: "fill", before: B("The Kacharis left the land east of the", "কছাৰীসকলে"), after: B("river.", "নদীৰ পূব পাৰৰ মাটি এৰিছিল।"), answer: "Dikhou",
+          asOptions: ["দিখৌ", "দিচাং", "ডিহিং", "ধনশিৰি"], asAnswer: 0,
+          answerText: B("Dikhou", "দিখৌ"), why: B("The Dikhou became the dividing line between Ahom and Kachari land.", "দিখৌ আহোম আৰু কছাৰী এলেকাৰ মাজৰ সীমা হৈ পৰিল।") },
+        { type: "odd", q: B("Which one is NOT a river?", "কোনটো নদী নহয়?"),
+          options: [B("Dikhou","দিখৌ"), B("Disang","দিচাং"), B("Charaideo","চৰাইদেউ"), B("Dihing","ডিহিং")], answer: 2,
+          why: B("Charaideo is the capital Sukaphaa founded. The others are rivers of Upper Assam.", "চৰাইদেউ হৈছে চুকাফাই পতা ৰাজধানী। বাকীবোৰ উজনি অসমৰ নদী।") },
+        { type: "tf", s: B("Suteuphaa forced the Kacharis to leave the land WEST of the Dikhou.", "চুতেউফাই কছাৰীসকলক দিখৌৰ পশ্চিম পাৰৰ মাটি এৰিবলৈ বাধ্য কৰিছিল।"), answer: false,
+          why: B("False. It was the land EAST of the Dikhou. This east/west switch is a common exam trap.", "অশুদ্ধ। সেয়া আছিল দিখৌৰ পূব পাৰৰ মাটি। পূব/পশ্চিম সলনি কৰা পৰীক্ষাৰ এটা সাধাৰণ ফান্দ।") },
+      ],
+    },
+
+    /* ---------- UNIT 3 ---------- */
+    {
+      id: "u3", icon: "moon", title: B("The rooster trick", "কুকুৰাৰ কৌশল"),
+      learned: [B("A chronicle story: a canal to dig in one night", "বুৰঞ্জীৰ কাহিনী: এক নিশাতে খাল খন্দাৰ চৰ্ত"), B("Ahom soldiers made roosters crow early", "আহোম সৈন্যই কুকুৰা আগতীয়াকৈ ডাকিবলৈ বাধ্য কৰিছিল"), B("The Kacharis gave up the land; the Ahoms took it", "কছাৰীসকলে মাটি এৰিলে; আহোমসকলে দখল কৰিলে")],
+      steps: [
+        { type: "story", img: "kachari-envoys.webp", title: B("A challenge", "এটা চৰ্ত"),
+          text: [B("An Ahom chronicle tells how the land dispute was settled.", "এখন আহোম বুৰঞ্জীত মাটিৰ বিবাদ কেনেকৈ মীমাংসা হৈছিল, তাৰ কাহিনী আছে।"),
+                 B("The Kacharis were challenged to dig a <mark>canal to the Dikhou</mark> in a <mark>single night</mark>.", "কছাৰীসকলক <mark>এক নিশাতে</mark> <mark>দিখৌলৈকে এটা খাল</mark> খান্দিবলৈ চৰ্ত দিয়া হৈছিল।")] },
+        { type: "story", art: "rooster", title: B("Before dawn", "পুৱাৰ আগতে"),
+          text: [B("It was a <mark>full-moon</mark> night. Ahom soldiers hiding in the forest made the <mark>roosters crow</mark> early.", "সেইটো আছিল <mark>পূৰ্ণিমা</mark>ৰ নিশা। হাবিত লুকাই থকা আহোম সৈন্যই আগতীয়াকৈ <mark>কুকুৰা ডাকিবলৈ</mark> বাধ্য কৰিছিল।"),
+                 B("The Kacharis thought morning had come and their time was up. They left the land, and the Ahoms took it.", "কছাৰীসকলে ভাবিলে পুৱা হ'ল আৰু সময় শেষ। তেওঁলোকে মাটি এৰি গ'ল, আৰু আহোমসকলে দখল কৰিলে।")] },
+        { type: "order", q: B("Put the story in order.", "কাহিনীটো ক্ৰম অনুসৰি সজোৱা।"),
+          items: [B("The Kacharis are given a challenge", "কছাৰীসকলক চৰ্ত দিয়া হয়"), B("They dig a canal at night", "তেওঁলোকে ৰাতি খাল খান্দে"), B("Roosters crow early", "কুকুৰা আগতীয়াকৈ ডাকে"), B("The Ahoms occupy the land", "আহোমসকলে মাটি দখল কৰে")],
+          why: B("Challenge → digging at night → roosters crow early → the Kacharis leave and the Ahoms occupy the land.", "চৰ্ত → ৰাতি খন্দা → কুকুৰাৰ আগতীয়া ডাক → কছাৰীসকলে এৰি যায় আৰু আহোমসকলে দখল কৰে।") },
+        { type: "mcq", q: B("What made the Kacharis stop digging?", "কছাৰীসকলে কিয় খন্দা বন্ধ কৰিলে?"),
+          options: [B("Roosters crowing early", "কুকুৰাৰ আগতীয়া ডাক"), B("A sudden flood", "হঠাৎ বানপানী"), B("An Ahom attack", "আহোমৰ আক্ৰমণ"), B("Heavy rain", "প্ৰবল বৰষুণ")], answer: 0,
+          why: B("The roosters made them think dawn had come, so they believed they had lost the challenge.", "কুকুৰাৰ ডাকত তেওঁলোকে ভাবিলে পুৱা হ'ল, সেয়ে চৰ্তত হাৰিলোঁ বুলি ভাবিলে।") },
+        { type: "spot", q: B("One word in this sentence is wrong. Tap it.", "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"),
+          tokens: { en: ["On", "a", "dark", "new-moon", "night,", "Ahom", "soldiers", "made", "the", "roosters", "crow", "early."], as: ["এক", "আন্ধাৰ", "অমাৱস্যাৰ", "নিশা", "আহোম", "সৈন্যই", "কুকুৰা", "আগতীয়াকৈ", "ডাকিবলৈ", "বাধ্য", "কৰিছিল।"] },
+          wrong: { en: 3, as: 2 }, fix: B("→ full-moon", "→ পূৰ্ণিমাৰ"),
+          answerText: B("new-moon → full-moon", "অমাৱস্যা → পূৰ্ণিমা"),
+          why: B("The story says it was a full-moon night.", "কাহিনীমতে সেইটো আছিল পূৰ্ণিমাৰ নিশা।") },
+        { type: "unscramble", q: B("Unscramble the name of the people who lost the land.", "মাটি হেৰুওৱা লোকসকলৰ নামটো সজাই লিখা।"), word: { en: ["K","A","C","H","A","R","I"], as: ["ক","ছা","ৰী"] },
+          answerText: B("KACHARI", "কছাৰী"), why: B("The Kacharis left the land east of the Dikhou.", "কছাৰীসকলে দিখৌৰ পূব পাৰৰ মাটি এৰিছিল।") },
+        { type: "tf", s: B("After the Kacharis gave up, the Ahoms occupied the land.", "কছাৰীসকলে এৰি দিয়াৰ পিছত আহোমসকলে মাটি দখল কৰিছিল।"), answer: true,
+          why: B("True. The chronicle says the Ahoms occupied it at once.", "শুদ্ধ। বুৰঞ্জীমতে আহোমসকলে লগে লগে দখল কৰিছিল।") },
+      ],
+    },
+
+    /* ---------- UNIT 4 ---------- */
+    {
+      id: "u4", icon: "flag", title: B("War and succession", "যুদ্ধ আৰু উত্তৰাধিকাৰ"),
+      learned: [B("Expedition against the Naras (Shans) of Mungkang", "মুংকাঙৰ নৰা (শ্যান)সকলৰ বিৰুদ্ধে অভিযান"), B("The Burhagohain's army was defeated", "বুঢ়াগোহাঁইৰ সৈন্য পৰাজিত হৈছিল"), B("The Borgohain made a deal, was jailed, then pardoned", "বৰগোহাঁইয়ে বুজাবুজি কৰিছিল, বন্দী হৈছিল, পিছত ক্ষমা পাইছিল"), B("Died 1281; son Subinphaa became king", "১২৮১ চনত মৃত্যু; পুত্ৰ চুবিনফা ৰজা")],
+      steps: [
+        { type: "story", img: "ahom-army.webp", title: B("Trouble with Mungkang", "মুংকাঙৰ সৈতে বিবাদ"),
+          text: [B("A quarrel broke out with the <mark>Naras</mark>, the Shans of <mark>Mungkang</mark>, a kingdom in Upper Burma.", "উজনি বাৰ্মাৰ ৰাজ্য <mark>মুংকাং</mark>ৰ শ্যান লোক <mark>নৰা</mark>সকলৰ সৈতে বিবাদ হৈছিল।"),
+                 B("Suteuphaa sent an army under the <mark>Burhagohain</mark>. It was <mark>defeated</mark>.", "চুতেউফাই <mark>বুঢ়াগোহাঁই</mark>ৰ নেতৃত্বত সৈন্য পঠিয়াইছিল। সেই সৈন্য <mark>পৰাজিত</mark> হৈছিল।")] },
+        { type: "story", img: "suteuphaa-court.webp", title: B("A deal instead of a fight", "যুদ্ধৰ সলনি বুজাবুজি"),
+          text: [B("A second force went under the <mark>Borgohain</mark>. He made a deal with the enemy instead of fighting.", "দ্বিতীয় দল এটা <mark>বৰগোহাঁই</mark>ৰ নেতৃত্বত গৈছিল। তেওঁ যুদ্ধ নকৰি শত্ৰুৰ সৈতে বুজাবুজি কৰিছিল।"),
+                 B("He was <mark>imprisoned</mark>, and later pardoned. Some historians think these events happened under a later king.", "তেওঁক <mark>বন্দী</mark> কৰা হৈছিল, পিছত ক্ষমা কৰা হৈছিল। কিছুমান ইতিহাসবিদৰ মতে এই ঘটনা পিছৰ এজন ৰজাৰ দিনত হৈছিল।")] },
+        { type: "whoami", clues: [B("I led the second Ahom force against the Naras.", "মই নৰাসকলৰ বিৰুদ্ধে দ্বিতীয় আহোম দলৰ নেতৃত্ব দিছিলোঁ।"), B("I made a deal with the enemy instead of fighting.", "মই যুদ্ধ নকৰি শত্ৰুৰ সৈতে বুজাবুজি কৰিছিলোঁ।"), B("I was imprisoned, then pardoned.", "মোক বন্দী কৰা হৈছিল, পিছত ক্ষমা কৰা হৈছিল।")],
+          options: [B("Burhagohain","বুঢ়াগোহাঁই"), B("Borgohain","বৰগোহাঁই"), B("Borpatrogohain","বৰপাত্ৰগোহাঁই"), B("Borphukan","বৰফুকন")], answer: 1,
+          why: B("The Borgohain. The Burhagohain led the first force, which was defeated.", "বৰগোহাঁই। বুঢ়াগোহাঁইয়ে প্ৰথম দলৰ নেতৃত্ব দিছিল, যি পৰাজিত হৈছিল।") },
+        { type: "match", q: B("Tap the matching pairs.", "যোৰাবোৰ মিলোৱা।"),
+          pairs: [[B("Burhagohain","বুঢ়াগোহাঁই"), B("Led the army that was defeated","পৰাজিত সৈন্যৰ নেতা")], [B("Borgohain","বৰগোহাঁই"), B("Made a deal, jailed, pardoned","বুজাবুজি, বন্দী, ক্ষমা")], [B("Naras","নৰা"), B("Shans of Mungkang","মুংকাঙৰ শ্যান")], [B("Mungkang","মুংকাং"), B("Kingdom in Upper Burma","উজনি বাৰ্মাৰ ৰাজ্য")]],
+          why: B("Both great ministers Sukaphaa created, the Burhagohain and the Borgohain, led forces against the Naras.", "চুকাফাই সৃষ্টি কৰা দুয়োজন ডাঙৰীয়া, বুঢ়াগোহাঁই আৰু বৰগোহাঁই, নৰাসকলৰ বিৰুদ্ধে দলৰ নেতৃত্ব দিছিল।") },
+        { type: "story", img: "dikhou-settled.webp", title: B("The end of the reign", "ৰাজত্বৰ অন্ত"),
+          text: [B("Suteuphaa died in <mark>1281</mark>. He had kept growing the kingdom his father founded.", "<mark>১২৮১</mark> চনত চুতেউফাৰ মৃত্যু হয়। পিতৃয়ে পতা ৰাজ্য তেওঁ বঢ়াই গৈছিল।"),
+                 B("The eldest of his four sons, <mark>Subinphaa</mark>, became the next king.", "তেওঁৰ চাৰিজন পুত্ৰৰ ভিতৰত জ্যেষ্ঠ <mark>চুবিনফা</mark> পৰৱৰ্তী ৰজা হয়।")] },
+        { type: "timeline", q: B("Place each event on the timeline.", "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"),
+          anchors: [{ y: "1268", l: B("Suteuphaa becomes king", "চুতেউফা ৰজা হয়") }, { y: "1281", l: B("Suteuphaa dies", "চুতেউফাৰ মৃত্যু") }],
+          items: [{ t: B("Charaideo founded", "চৰাইদেউ স্থাপন"), slot: 0 }, { t: B("Kacharis leave land east of the Dikhou", "কছাৰীয়ে দিখৌৰ পূব পাৰ এৰে"), slot: 1 }, { t: B("Subinphaa becomes king", "চুবিনফা ৰজা হয়"), slot: 2 }],
+          why: B("Charaideo (1253, Sukaphaa) → Suteuphaa's reign 1268–1281, when the Kacharis left the land east of the Dikhou → Subinphaa from 1281.", "চৰাইদেউ (১২৫৩, চুকাফা) → চুতেউফাৰ ৰাজত্ব ১২৬৮–১২৮১, যেতিয়া কছাৰীয়ে দিখৌৰ পূব পাৰ এৰে → ১২৮১ৰ পৰা চুবিনফা।") },
+        { type: "inline", before: B("Suteuphaa was succeeded by his son", "চুতেউফাৰ পিছত তেওঁৰ পুত্ৰ"), after: B(".", "ৰজা হয়।"),
+          options: [B("Subinphaa","চুবিনফা"), B("Sukhaangphaa","চুখাংফা"), B("Sudangphaa","চুদাংফা"), B("Suhungmung","চুহুংমুং")], answer: 0,
+          why: B("Subinphaa (1281–1293) was the eldest of Suteuphaa's four sons.", "চুবিনফা (১২৮১–১২৯৩) আছিল চুতেউফাৰ চাৰিজন পুত্ৰৰ ভিতৰত জ্যেষ্ঠ।") },
+      ],
+    },
+  ],
+
+  /* ---------- LESSON TEST ---------- */
+  test: {
+    id: "test", title: B("Lesson test", "পাঠৰ পৰীক্ষা"),
+    learned: [B("You have completed the reign of Swargadeo Suteuphaa", "তুমি স্বৰ্গদেউ চুতেউফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা")],
+    steps: [
+      { type: "mcq", q: B("Consider the statements:<br>1. Suteuphaa was the eldest son of Sukaphaa.<br>2. Suteuphaa forced the Kacharis to leave the land west of the Dikhou.<br>Which is/are correct?", "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুতেউফা চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আছিল।<br>২. চুতেউফাই কছাৰীসকলক দিখৌৰ পশ্চিম পাৰৰ মাটি এৰিবলৈ বাধ্য কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"),
+        options: [B("1 only","কেৱল ১"), B("2 only","কেৱল ২"), B("Both 1 and 2","১ আৰু ২ দুয়োটা"), B("Neither 1 nor 2","১ বা ২ কোনোটো নহয়")], answer: 0, small: true,
+        why: B("Only 1. The Kacharis left the land EAST of the Dikhou.", "কেৱল ১। কছাৰীসকলে দিখৌৰ পূব পাৰৰ মাটি এৰিছিল।") },
+      { type: "order", q: B("Put the first three Ahom kings in order.", "প্ৰথম তিনিজন আহোম ৰজাক ক্ৰম অনুসৰি সজোৱা।"),
+        items: [B("Sukaphaa (1228)", "চুকাফা (১২২৮)"), B("Suteuphaa (1268)", "চুতেউফা (১২৬৮)"), B("Subinphaa (1281)", "চুবিনফা (১২৮১)")],
+        why: B("Father, son, grandson: Sukaphaa → Suteuphaa → Subinphaa.", "পিতৃ, পুত্ৰ, নাতি: চুকাফা → চুতেউফা → চুবিনফা।") },
+      { type: "map", q: B("Tap the river that became the Ahom–Kachari boundary.", "আহোম–কছাৰী সীমা হোৱা নদীখন টিপা।"), target: "dikhou", choices: ["dikhou", "disang", "dihing"],
+        answerText: B("The Dikhou", "দিখৌ"), why: B("The Kacharis left the land east of the Dikhou.", "কছাৰীসকলে দিখৌৰ পূব পাৰৰ মাটি এৰিছিল।") },
+      { type: "tf", s: B("The army sent against the Naras under the Burhagohain won the war.", "বুঢ়াগোহাঁইৰ নেতৃত্বত নৰাসকলৰ বিৰুদ্ধে পঠোৱা সৈন্যই যুদ্ধত জয়ী হৈছিল।"), answer: false,
+        why: B("False. The Burhagohain's army was defeated.", "অশুদ্ধ। বুঢ়াগোহাঁইৰ সৈন্য পৰাজিত হৈছিল।") },
+      { type: "odd", q: B("Which one did NOT happen in Suteuphaa's reign?", "কোনটো চুতেউফাৰ ৰাজত্বকালত হোৱা নাছিল?"),
+        options: [B("Embassy to Mong Mao","মং মাওলৈ দূত"), B("Kacharis leave east of the Dikhou","কছাৰীয়ে দিখৌৰ পূব পাৰ এৰে"), B("Charaideo founded","চৰাইদেউ স্থাপন"), B("Expedition against the Naras","নৰাৰ বিৰুদ্ধে অভিযান")], answer: 2,
+        why: B("Charaideo was founded by Sukaphaa in 1253, before Suteuphaa's reign.", "চৰাইদেউ ১২৫৩ চনত চুকাফাই স্থাপন কৰিছিল, চুতেউফাৰ ৰাজত্বৰ আগতে।") },
+      { type: "whoami", clues: [B("We were challenged to dig a canal in one night.", "আমাক এক নিশাতে খাল খান্দিবলৈ চৰ্ত দিয়া হৈছিল।"), B("Roosters crowing early tricked us.", "কুকুৰাৰ আগতীয়া ডাকে আমাক ঠগিছিল।"), B("We left the land east of the Dikhou.", "আমি দিখৌৰ পূব পাৰৰ মাটি এৰিছিলোঁ।")],
+        options: [B("The Kacharis","কছাৰীসকল"), B("The Morans","মৰাণসকল"), B("The Naras","নৰাসকল"), B("The Barahis","বৰাহীসকল")], answer: 0,
+        why: B("The Kacharis, in the rooster story from the Ahom chronicles.", "কছাৰীসকল, আহোম বুৰঞ্জীৰ কুকুৰাৰ কাহিনীত।") },
+      { type: "inline", before: B("Suteuphaa's reign ended in", "চুতেউফাৰ ৰাজত্ব"), after: B(".", "চনত শেষ হয়।"),
+        options: [B("1268","১২৬৮"), B("1281","১২৮১"), B("1293","১২৯৩"), B("1253","১২৫৩")], answer: 1, big: true,
+        why: B("1268–1281. Subinphaa then ruled until 1293.", "১২৬৮–১২৮১। তাৰ পিছত চুবিনফাই ১২৯৩ লৈকে ৰাজত্ব কৰে।") },
+    ],
+  },
+};
+</script>
+<script src="../assets/engine.js"></script>
+</body>
+</html>

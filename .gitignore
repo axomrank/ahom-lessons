@@ -1,0 +1,6 @@
+# Published site = index.html, assets/, lessons/. Everything below stays local.
+.claude/
+.test/
+docs/
+product-plan.md
+government-exam-prep-app-brief.txt
