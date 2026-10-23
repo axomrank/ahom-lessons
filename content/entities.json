@@ -1725,5 +1725,42 @@
    "en": "North-bank river from the Dafla hills, flowing past today's Lakhimpur",
    "as": "ডফলা পাহাৰৰ পৰা নামি অহা উত্তৰ পাৰৰ নদী, আজিৰ লখিমপুৰৰ কাষেৰে"
   }
+ },
+ "mungdunsunkham": {
+  "type": "term",
+  "name": {
+   "en": "Mung-dun-sun-kham",
+   "as": "মুং-দুন-চুন-খাম"
+  },
+  "meaning": {
+   "en": "Ahom name for their country: 'the country full of golden gardens'",
+   "as": "আহোমসকলে নিজৰ দেশক দিয়া নাম: 'সোণৰ বাগিচাৰে ভৰা দেশ'"
+  }
+ },
+ "kamatapur": {
+  "type": "place",
+  "name": {
+   "en": "Kamatapur",
+   "as": "কামতাপুৰ"
+  },
+  "meaning": {
+   "en": "Capital of the Kamata kingdom, near today's Cooch Behar in West Bengal",
+   "as": "কামতা ৰাজ্যৰ ৰাজধানী, আজিৰ পশ্চিমবংগৰ কোচবিহাৰৰ ওচৰত"
+  },
+  "geo": [
+   26.16,
+   89.36
+  ]
+ },
+ "deodhai": {
+  "type": "term",
+  "name": {
+   "en": "Deodhai",
+   "as": "দেওধাই"
+  },
+  "meaning": {
+   "en": "One of the Ahom priestly clans; the Deodhais read omens and kept the old Tai rites",
+   "as": "আহোম পুৰোহিত খেলসমূহৰ এটা; দেওধাইসকলে লক্ষণ গণিছিল আৰু পুৰণি টাই ৰীতি ৰক্ষা কৰিছিল"
+  }
  }
 }
