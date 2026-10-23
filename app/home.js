@@ -108,6 +108,13 @@ if ((window.AXOM_CONFIG || {}).firebase) {
   });
 }
 
+/* When a new app version takes over, reload the course home once so it shows the update.
+   (Lesson pages never reload by themselves, so a unit in progress is never lost.) */
+if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => { if (!reloaded) { reloaded = true; location.reload(); } });
+}
+
 stats();
 render().catch((e) => { $("#course").innerHTML = `<div class="load-error"><h2>${T(B("Could not load the course", "পাঠ্যক্ৰম খুলিব পৰা নগ'ল"))}</h2><p>${T(B("Check your internet connection and try again.", "ইণ্টাৰনেট সংযোগ পৰীক্ষা কৰি আকৌ চেষ্টা কৰা।"))}</p></div>`; console.warn(e); });
 })();

@@ -3,7 +3,7 @@
    VERSION is stamped by scripts/build.py on every build, so phones
    fetch the new app files after each release.
    ========================================================= */
-const VERSION = "a2abb3e2e8";
+const VERSION = "14db3dbd59";
 const SHELL = `axom-shell-${VERSION}`;
 const RUNTIME = "axom-runtime";
 const OFFLINE = "axom-offline";   // lessons the learner downloaded (see app/common.js)
@@ -30,7 +30,8 @@ self.addEventListener("install", (e) => {
   })());
 });
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith("axom-shell-") && k !== SHELL).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+  // New version: drop old app files and the runtime copies (lessons saved for offline live in OFFLINE and are kept).
+  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => (k.startsWith("axom-shell-") && k !== SHELL) || k === RUNTIME).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 });
 
 async function fromCache(req) {
@@ -40,7 +41,7 @@ async function fromCache(req) {
 }
 async function networkFirst(req) {
   try {
-    const res = await fetch(req);
+    const res = await fetch(req, { cache: "no-cache" });
     if (res.ok && !res.redirected) (await caches.open(RUNTIME)).put(req, res.clone());
     return res;
   } catch {
@@ -55,8 +56,9 @@ async function cacheFirst(req) {
   return res;
 }
 async function staleWhileRevalidate(req) {
-  const hit = await caches.match(req);
-  const fresh = fetch(req).then(async (res) => { if (res.ok || res.type === "opaque") (await caches.open(RUNTIME)).put(req, res.clone()); return res; }).catch(() => hit);
+  // This version's app files come first, so an older runtime copy can never win.
+  const hit = (await (await caches.open(SHELL)).match(req)) || (await caches.match(req));
+  const fresh = fetch(req, { cache: "no-cache" }).then(async (res) => { if (res.ok || res.type === "opaque") (await caches.open(RUNTIME)).put(req, res.clone()); return res; }).catch(() => hit);
   return hit || fresh;
 }
 

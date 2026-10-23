@@ -96,7 +96,8 @@ for d in ("app", "content", "icons"):
         for f in sorted(fs):
             if f == "manifest.json" and dp == "content": continue
             h.update(open(os.path.join(dp, f), "rb").read())
-for f in ("index.html", "lesson.html", "manifest.webmanifest"): h.update(open(f, "rb").read())
+for f in ("index.html", "lesson.html", "manifest.webmanifest", "_headers"): h.update(open(f, "rb").read())
+h.update(re.sub(r'const VERSION = "[^"]*";', "", open("sw.js", encoding="utf-8").read()).encode())   # the worker itself, minus its version line
 version = h.hexdigest()[:10]
 
 manifest = {"version": version, "courses": [{"id": course["id"], "file": "content/courses/ahom-kings.json"}],
