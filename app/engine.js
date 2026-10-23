@@ -591,7 +591,9 @@ function feedback(right) {
   const b = bankOf(lid);
   if (right && b.includes(it.ref) && (U.practice || VIRTUAL || !it.retry)) b.splice(b.indexOf(it.ref), 1);
   if (!right && !b.includes(it.ref) && !s.id.startsWith("bank.")) b.push(it.ref);
-  if (!right && !it.retry) { U.mistakes.push({ s }); if (!slips && mode !== "checkpoint" && mode !== "jump" && !U.testout) U.queue.push({ s, ref: it.ref, retry: true }); }
+  // Learning loop, for every exercise type in every unit, test and round: a missed question comes back at the end,
+  // again and again (up to 3 times) until it is answered right. Scores count first attempts only.
+  if (!right) { if (!it.retry) U.mistakes.push({ s }); if ((it.tries || 0) < 3) U.queue.push({ s, ref: it.ref, retry: true, tries: (it.tries || 0) + 1 }); }
   if (!it.retry) U.done = Math.min(U.total, U.done + 1);
   $("#progress").style.width = `${(U.done / U.total) * 100}%`;
   $("#fb-badge").textContent = right || slips ? "✓" : "✕";
