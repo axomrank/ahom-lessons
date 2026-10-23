@@ -15,7 +15,9 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const shuffle = (a) => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 const shuffledIdx = (n) => { let s; do { s = shuffle([...Array(n).keys()]); } while (n > 1 && s.every((v, k) => v === k)); return s; };
 const params = new URLSearchParams(location.search);
-const UNLOCK_ALL = params.has("all");
+// reviewer mode: ?review=1 turns it on (remembered on this device), ?review=0 turns it off; ?all works for one page
+if (params.has("review")) { try { params.get("review") === "0" ? localStorage.removeItem("axom.review") : localStorage.setItem("axom.review", "1"); } catch { /* storage blocked */ } }
+const UNLOCK_ALL = params.has("all") || (() => { try { return localStorage.getItem("axom.review") === "1"; } catch { return false; } })();
 
 /* ---------- shared names list: [[id]] or [[id|text]] inside lesson text ---------- */
 let ENT = {};
@@ -38,7 +40,7 @@ async function load() {
     const id = (params.get("id") || "sukaphaa").replace(/[^a-z0-9-]/g, "");
     const L = await AXOM.getJSON(`content/lessons/${id}.json`);
     NEXT = await nextLesson(L.no).catch(() => null);
-    GATE = await lessonGate(L).catch(() => null);
+    GATE = UNLOCK_ALL ? null : await lessonGate(L).catch(() => null);
     COURSE = await coursePath().catch(() => []);
     boot(L, "lesson");
   } catch (e) {

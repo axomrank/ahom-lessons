@@ -8,7 +8,9 @@
 const { B, T, N, asNum, G, ICON } = window.AXOM;
 const $ = (s) => document.querySelector(s);
 const params = new URLSearchParams(location.search);
-const UNLOCK_ALL = params.has("all");
+// reviewer mode: ?review=1 turns it on (remembered on this device), ?review=0 turns it off; ?all works for one page
+if (params.has("review")) { try { params.get("review") === "0" ? localStorage.removeItem("axom.review") : localStorage.setItem("axom.review", "1"); } catch { /* storage blocked */ } }
+const UNLOCK_ALL = params.has("all") || (() => { try { return localStorage.getItem("axom.review") === "1"; } catch { return false; } })();
 const UI = Object.assign({ tab: "lessons", open: {} }, AXOM.store.get("axom:ui", {}));
 const saveUI = () => AXOM.store.set("axom:ui", UI);
 const ROOF = '<svg class="roof" viewBox="0 0 320 26" preserveAspectRatio="none"><path d="M0 4c22 2 30 10 52 13 44 6 172 6 216 0 22-3 30-11 52-13" fill="none" stroke="#fff" stroke-width="2"/><path d="M60 17v7M100 19v6M140 20v5M180 20v5M220 19v6M260 17v7" stroke="#fff" stroke-width="1.6"/></svg>';
