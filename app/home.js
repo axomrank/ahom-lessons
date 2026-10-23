@@ -91,11 +91,12 @@ function lessonsTab(status) {
     </section>`;
   }).join("");
 }
-const LABEL = { done: B("Review", "পুনৰীক্ষণ"), open: B("Start", "আৰম্ভ"), locked: B("Locked", "বন্ধ"), soon: B("Soon", "সোনকালে") };
+const LABEL = { done: B("Review", "পুনৰীক্ষণ"), open: B("Start", "আৰম্ভ"), locked: B("Jump here", "ইয়ালৈ জঁপিওৱা"), soon: B("Soon", "সোনকালে") };
 function card(k, st) {
   const started = st.s === "open" && st.done > 0, miss = st.id ? (G.mistakes[st.id] || []).length : 0;
-  const link = st.s === "open" || st.s === "done", tag = link ? "a" : "div";
-  return `<${tag} class="king ${st.s} tier-${k.tier}" ${link ? `href="lesson.html?id=${st.id}"` : `data-why="${st.s}"`}>
+  // a locked lesson can be reached by passing a test on the lessons before it
+  const href = st.s === "open" || st.s === "done" ? `lesson.html?id=${st.id}` : st.s === "locked" ? `lesson.html?jump=${st.id}` : "", tag = href ? "a" : "div";
+  return `<${tag} class="king ${st.s} tier-${k.tier}" ${href ? `href="${href}"` : `data-why="${st.s}"`}>
     <span class="face"><img src="${AXOM.media(k.face)}" alt="" loading="lazy"></span><span class="n">${N(k.n)}</span>
     <span class="who"><b>${T(k.name)}</b><span class="sub2">${N(k.reign)} · <span class="stars" title="Exam importance">${STAR[k.tier]}</span></span>
       ${started ? `<span class="bar2"><i style="width:${(st.done / st.steps) * 100}%"></i></span>` : ""}</span>
@@ -168,7 +169,7 @@ document.addEventListener("click", (e) => {
   if ((b = e.target.closest("[data-tab]"))) { UI.tab = b.dataset.tab; saveUI(); render(); $("#scroll").scrollTop = 0; return; }
   if ((b = e.target.closest("[data-era]"))) { const id = b.dataset.era, sec = b.closest(".era-sec"); UI.open[id] = !sec.classList.contains("open"); saveUI(); render(); return; }
   if (e.target.closest("#settings")) return AXOM.openSettings(settingsExtra());
-  if ((b = e.target.closest("[data-why]"))) toast(b.dataset.why === "locked" ? T(B("Finish the lesson before this one first", "আগৰ পাঠটো আগতে শেষ কৰা")) : T(B("This lesson is being written", "এই পাঠটো লিখি থকা হৈছে")));
+  if (e.target.closest("[data-why]")) toast(T(B("This lesson is being written", "এই পাঠটো লিখি থকা হৈছে")));
   if (e.target.closest("[data-close]")) $("#sheet-root").innerHTML = "";
   if (e.target.closest("#reset")) {
     if (!confirm("Reset all progress on this device?")) return;

@@ -8,7 +8,7 @@ Short, game-like lessons on the Ahom kingdom (1228–1838) for students preparin
 
 ```
 index.html               course home (all 41 kings)
-lesson.html              lesson player: ?id=sukaphaa · ?review=1 (daily review) · ?checkpoint=<era>[&testout=1]
+lesson.html              lesson player: ?id=sukaphaa · ?review=1 (daily review) · ?checkpoint=<era>[&testout=1] · ?jump=<lesson>
 sw.js                    offline support (version stamped by scripts/build.py)
 manifest.webmanifest     install as an app
 app/
