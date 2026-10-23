@@ -2,7 +2,7 @@
   "name": "Ahom Kings · AxomRank",
   "short_name": "Ahom Kings",
   "description": "Short bilingual lessons on the Ahom kingdom for ADRE, TET, APSC and SI aspirants.",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

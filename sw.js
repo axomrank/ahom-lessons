@@ -3,7 +3,7 @@
    VERSION is stamped by scripts/build.py on every build, so phones
    fetch the new app files after each release.
    ========================================================= */
-const VERSION = "d87976a6b9";
+const VERSION = "a15222aba1";
 const SHELL = `axom-shell-${VERSION}`;
 const RUNTIME = "axom-runtime";
 const OFFLINE = "axom-offline";   // lessons the learner downloaded (see app/common.js)
@@ -14,20 +14,37 @@ const SHELL_FILES = [
   "content/manifest.json", "content/courses/ahom-kings.json",
 ];
 
+// Hosts like Cloudflare Pages redirect "lesson.html" to "/lesson". Browsers refuse to use a
+// saved redirected response for a page, so store a clean copy instead.
+const clean = (res) => (res.redirected ? new Response(res.body, { status: res.status, statusText: res.statusText, headers: res.headers }) : res);
+
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES.map((f) => new Request(f, { cache: "reload" })))).then(() => self.skipWaiting()));
+  e.waitUntil((async () => {
+    const c = await caches.open(SHELL);
+    await Promise.all(SHELL_FILES.map(async (f) => {
+      const res = await fetch(new Request(f, { cache: "reload" }));
+      if (!res.ok) throw new Error(`${f}: ${res.status}`);
+      await c.put(f, clean(res));
+    }));
+    await self.skipWaiting();
+  })());
 });
 self.addEventListener("activate", (e) => {
   e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith("axom-shell-") && k !== SHELL).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 });
 
+async function fromCache(req) {
+  const url = new URL(req.url);
+  const alt = url.pathname.endsWith("/") ? "index.html" : url.pathname.endsWith(".html") ? null : `${url.pathname}.html`;   // "/lesson" → "lesson.html"
+  return (await caches.match(req)) || (await caches.match(req, { ignoreSearch: true })) || (alt && (await caches.match(new URL(alt, url).href, { ignoreSearch: true })));
+}
 async function networkFirst(req) {
   try {
     const res = await fetch(req);
-    if (res.ok) (await caches.open(RUNTIME)).put(req, res.clone());
+    if (res.ok && !res.redirected) (await caches.open(RUNTIME)).put(req, res.clone());
     return res;
   } catch {
-    return (await caches.match(req)) || (await caches.match(req, { ignoreSearch: true })) || Response.error();
+    return (await fromCache(req)) || Response.error();
   }
 }
 async function cacheFirst(req) {
