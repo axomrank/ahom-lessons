@@ -1,0 +1,1937 @@
+{
+ "id": "sukaphaa",
+ "no": 1,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Sukaphaa",
+  "as": "স্বৰ্গদেউ চুকাফা"
+ },
+ "reign": {
+  "en": "Reign 1228–1268",
+  "as": "ৰাজত্বকাল ১২২৮–১২৬৮"
+ },
+ "portrait": "sukaphaa-portrait.webp",
+ "map": {
+  "view": "0 0 340 250",
+  "texts": [
+   {
+    "t": {
+     "en": "ASSAM",
+     "as": "অসম"
+    },
+    "x": 20,
+    "y": 34
+   }
+  ],
+  "rivers": [
+   {
+    "id": "brahmaputra",
+    "d": "M6 186 C 60 168, 104 132, 150 118 S 246 78, 334 30",
+    "label": {
+     "t": {
+      "en": "Brahmaputra",
+      "as": "ব্ৰহ্মপুত্ৰ"
+     },
+     "x": 44,
+     "y": 160,
+     "rot": -24,
+     "cls": ""
+    }
+   }
+  ],
+  "hills": [
+   {
+    "id": "patkai",
+    "peaks": [
+     [
+      214,
+      232
+     ],
+     [
+      232,
+      206
+     ],
+     [
+      250,
+      186
+     ],
+     [
+      268,
+      168
+     ],
+     [
+      286,
+      150
+     ],
+     [
+      304,
+      132
+     ],
+     [
+      322,
+      116
+     ]
+    ],
+    "zone": "M214 232 L250 186 L286 150 L322 116",
+    "label": {
+     "t": {
+      "en": "Patkai hills →",
+      "as": "পাটকাই পাহাৰ →"
+     },
+     "x": 224,
+     "y": 206,
+     "anchor": "end"
+    }
+   }
+  ],
+  "routes": [
+   "M318 214 C 300 196, 286 182, 268 170 S 238 156, 226 150"
+  ],
+  "passes": [
+   {
+    "id": "pangsau",
+    "x": 262,
+    "y": 174,
+    "label": {
+     "t": {
+      "en": "Pangsau Pass",
+      "as": "পাংচাউ গিৰিপথ"
+     },
+     "x": 336,
+     "y": 194,
+     "anchor": "end"
+    }
+   }
+  ],
+  "places": [
+   {
+    "id": "mongmao",
+    "x": 318,
+    "y": 214,
+    "label": {
+     "t": {
+      "en": "← via Myanmar to Mong Mao",
+      "as": "← ম্যানমাৰ হৈ মং মাওলৈ"
+     },
+     "x": 334,
+     "y": 240,
+     "anchor": "end"
+    }
+   },
+   {
+    "id": "namrup",
+    "x": 226,
+    "y": 150,
+    "label": {
+     "t": {
+      "en": "Namrup",
+      "as": "নামৰূপ"
+     },
+     "x": 208,
+     "y": 136
+    }
+   },
+   {
+    "id": "charaideo",
+    "x": 168,
+    "y": 158,
+    "label": {
+     "t": {
+      "en": "Charaideo",
+      "as": "চৰাইদেউ"
+     },
+     "x": 134,
+     "y": 182
+    }
+   },
+   {
+    "id": "habung",
+    "x": 146,
+    "y": 76,
+    "label": {
+     "t": {
+      "en": "Habung",
+      "as": "হাবুং"
+     },
+     "x": 156,
+     "y": 68
+    }
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "walk",
+   "title": {
+    "en": "The journey",
+    "as": "যাত্ৰা"
+   },
+   "learned": [
+    {
+     "en": "Sukaphaa founded the Ahom kingdom",
+     "as": "চুকাফাই আহোম ৰাজ্য প্ৰতিষ্ঠা কৰিছিল"
+    },
+    {
+     "en": "He came from Mong Mao, Yunnan",
+     "as": "তেওঁ ইউনানৰ মং মাওৰ পৰা আহিছিল"
+    },
+    {
+     "en": "He crossed the Patkai hills",
+     "as": "তেওঁ পাটকাই পাহাৰ পাৰ হৈছিল"
+    },
+    {
+     "en": "He entered Assam in 1228",
+     "as": "তেওঁ ১২২৮ চনত অসমত প্ৰৱেশ কৰিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "leaving-mong-mao.webp",
+     "title": {
+      "en": "A prince leaves home",
+      "as": "ঘৰ এৰি অহা ৰাজকুমাৰ"
+     },
+     "text": [
+      {
+       "en": "In 1215, a Tai prince named <mark>Chaolung Sukaphaa</mark> left his homeland, <mark>Mong Mao</mark>, in present-day Yunnan, China.",
+       "as": "১২১৫ চনত <mark>চাওলুং চুকাফা</mark> নামৰ এজন টাই ৰাজকুমাৰে বৰ্তমান চীনৰ ইউনানত থকা নিজৰ জন্মভূমি <mark>মং মাও</mark> এৰি আহিছিল।"
+      },
+      {
+       "en": "About <mark>9,000 followers</mark> went with him.",
+       "as": "তেওঁৰ লগত প্ৰায় <mark>৯,০০০ অনুগামী</mark> আহিছিল।"
+      }
+     ],
+     "id": "suk.u1.01"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Who is regarded as the founder of the Ahom kingdom?",
+      "as": "আহোম ৰাজ্যৰ প্ৰতিষ্ঠাপক বুলি কাক গণ্য কৰা হয়?"
+     },
+     "options": [
+      {
+       "en": "Lachit Borphukan",
+       "as": "লাচিত বৰফুকন"
+      },
+      {
+       "en": "Chaolung Sukaphaa",
+       "as": "চাওলুং চুকাফা"
+      },
+      {
+       "en": "Rudra Singha",
+       "as": "ৰুদ্ৰ সিংহ"
+      },
+      {
+       "en": "Suhungmung",
+       "as": "চুহুংমুং"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Sukaphaa is regarded as the founder. Lachit Borphukan, Rudra Singha and Suhungmung lived centuries later.",
+      "as": "চুকাফাক প্ৰতিষ্ঠাপক বুলি গণ্য কৰা হয়। লাচিত বৰফুকন, ৰুদ্ৰ সিংহ আৰু চুহুংমুং বহু শতিকা পিছৰ।"
+     },
+     "id": "suk.u1.02"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sukaphaa came from Thailand.",
+      "as": "চুকাফা থাইলেণ্ডৰ পৰা আহিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "He came from Mong Mao, a Tai state in Yunnan, China. The Tai are related to the Thai, which makes this a common trap.",
+      "as": "তেওঁ চীনৰ ইউনানৰ টাই ৰাজ্য মং মাওৰ পৰা আহিছিল। টাইসকল থাইসকলৰ সম্পৰ্কীয়, সেয়ে এইটো এটা সাধাৰণ ফান্দ।"
+     },
+     "id": "suk.u1.03"
+    },
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": true
+     },
+     "title": {
+      "en": "Across the Patkai",
+      "as": "পাটকাই পাৰ হৈ"
+     },
+     "text": [
+      {
+       "en": "For 13 years they travelled through Upper Burma. They crossed the <mark>Patkai hills</mark> through the <mark>Pangsau Pass</mark>.",
+       "as": "১৩ বছৰ ধৰি তেওঁলোকে উজনি বাৰ্মাৰ মাজেৰে যাত্ৰা কৰে। <mark>পাংচাউ গিৰিপথেদি</mark> তেওঁলোকে <mark>পাটকাই পাহাৰ</mark> পাৰ হয়।"
+      },
+      {
+       "en": "In <mark>December 1228</mark> Sukaphaa reached <mark>Namrup</mark> in Upper Assam.",
+       "as": "<mark>১২২৮ চনৰ ডিচেম্বৰ</mark>ত চুকাফা উজনি অসমৰ <mark>নামৰূপ</mark> পায়।"
+      }
+     ],
+     "id": "suk.u1.04"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the hills Sukaphaa crossed to enter Assam.",
+      "as": "অসমলৈ আহোঁতে চুকাফাই পাৰ হোৱা পাহাৰখন টিপা।"
+     },
+     "target": "patkai",
+     "choices": [
+      "patkai",
+      "namrup",
+      "charaideo",
+      "habung"
+     ],
+     "answerText": {
+      "en": "The Patkai hills",
+      "as": "পাটকাই পাহাৰ"
+     },
+     "why": {
+      "en": "The Patkai hills lie on today's India–Myanmar border, between Mong Mao and the Assam valley.",
+      "as": "পাটকাই পাহাৰ আজিৰ ভাৰত–ম্যানমাৰ সীমান্তত, মং মাও আৰু অসম উপত্যকাৰ মাজত।"
+     },
+     "id": "suk.u1.05"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of the hills.",
+      "as": "পাহাৰখনৰ নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "P",
+       "A",
+       "T",
+       "K",
+       "A",
+       "I"
+      ],
+      "as": [
+       "পা",
+       "ট",
+       "কা",
+       "ই"
+      ]
+     },
+     "answerText": {
+      "en": "PATKAI",
+      "as": "পাটকাই"
+     },
+     "why": {
+      "en": "He crossed the Patkai hills through the Pangsau Pass.",
+      "as": "তেওঁ পাংচাউ গিৰিপথেদি পাটকাই পাহাৰ পাৰ হৈছিল।"
+     },
+     "id": "suk.u1.06"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "He crossed the Patkai hills through the",
+      "as": "তেওঁ"
+     },
+     "after": {
+      "en": "Pass.",
+      "as": "গিৰিপথেদি পাটকাই পাহাৰ পাৰ হৈছিল।"
+     },
+     "options": [
+      {
+       "en": "Pangsau",
+       "as": "পাংচাউ"
+      },
+      {
+       "en": "Nathu La",
+       "as": "নাথু লা"
+      },
+      {
+       "en": "Bomdila",
+       "as": "বমডিলা"
+      },
+      {
+       "en": "Sela",
+       "as": "চেলা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Pangsau Pass is on the India–Myanmar border, in today's Changlang district of Arunachal Pradesh. The Second World War Stilwell (Ledo) Road later crossed the same pass. Nathu La is in Sikkim; Bomdila and Sela are in western Arunachal.",
+      "as": "পাংচাউ গিৰিপথ ভাৰত–ম্যানমাৰ সীমান্তত, আজিৰ অৰুণাচল প্ৰদেশৰ চাংলাং জিলাত। দ্বিতীয় বিশ্বযুদ্ধৰ ষ্টিলৱেল (লেডো) পথো পিছত এই গিৰিপথেদি গৈছিল। নাথু লা চিকিমত; বমডিলা আৰু চেলা পশ্চিম অৰুণাচলত।"
+     },
+     "id": "suk.u1.07"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Sukaphaa entered Assam in",
+      "as": "চুকাফাই"
+     },
+     "after": {
+      "en": ".",
+      "as": "চনত অসমত প্ৰৱেশ কৰিছিল।"
+     },
+     "options": [
+      {
+       "en": "1215",
+       "as": "১২১৫"
+      },
+      {
+       "en": "1228",
+       "as": "১২২৮"
+      },
+      {
+       "en": "1253",
+       "as": "১২৫৩"
+      },
+      {
+       "en": "1268",
+       "as": "১২৬৮"
+      }
+     ],
+     "answer": 1,
+     "big": true,
+     "why": {
+      "en": "He left Mong Mao in 1215 and entered Assam in 1228. Charaideo came later (1253), and he died in 1268.",
+      "as": "তেওঁ ১২১৫ চনত মং মাও এৰি ১২২৮ চনত অসমত প্ৰৱেশ কৰিছিল। চৰাইদেউ পিছত (১২৫৩), আৰু ১২৬৮ চনত তেওঁৰ মৃত্যু হয়।"
+     },
+     "id": "suk.u1.08"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Tap the steps of the journey in order.",
+      "as": "যাত্ৰাৰ স্তৰবোৰ ক্ৰম অনুসৰি টিপা।"
+     },
+     "items": [
+      {
+       "en": "Left Mong Mao",
+       "as": "মং মাও এৰিলে"
+      },
+      {
+       "en": "Crossed the Patkai hills",
+       "as": "পাটকাই পাহাৰ পাৰ হ'ল"
+      },
+      {
+       "en": "Reached Namrup",
+       "as": "নামৰূপ পালে"
+      }
+     ],
+     "why": {
+      "en": "Mong Mao (1215) → Patkai hills → Namrup (December 1228).",
+      "as": "মং মাও (১২১৫) → পাটকাই পাহাৰ → নামৰূপ (ডিচেম্বৰ ১২২৮)।"
+     },
+     "id": "suk.u1.09"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Sukaphaa",
+        "as": "চুকাফা"
+       },
+       {
+        "en": "Founder of the kingdom",
+        "as": "ৰাজ্যৰ প্ৰতিষ্ঠাপক"
+       }
+      ],
+      [
+       {
+        "en": "Mong Mao",
+        "as": "মং মাও"
+       },
+       {
+        "en": "His homeland",
+        "as": "তেওঁৰ জন্মভূমি"
+       }
+      ],
+      [
+       {
+        "en": "Patkai",
+        "as": "পাটকাই"
+       },
+       {
+        "en": "Hills he crossed",
+        "as": "পাৰ হোৱা পাহাৰ"
+       }
+      ],
+      [
+       {
+        "en": "1228",
+        "as": "১২২৮"
+       },
+       {
+        "en": "Year he entered Assam",
+        "as": "অসমত প্ৰৱেশৰ চন"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Sukaphaa, a Tai prince from Mong Mao, crossed the Patkai and entered Assam in 1228.",
+      "as": "মং মাওৰ টাই ৰাজকুমাৰ চুকাফাই পাটকাই পাৰ হৈ ১২২৮ চনত অসমত প্ৰৱেশ কৰিছিল।"
+     },
+     "id": "suk.u1.10"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "home",
+   "title": {
+    "en": "Finding a home",
+    "as": "ঘৰৰ সন্ধান"
+   },
+   "learned": [
+    {
+     "en": "He moved for about 25 years before building a capital",
+     "as": "ৰাজধানী সজাৰ আগতে তেওঁ প্ৰায় ২৫ বছৰ ঠাই সলনি কৰিছিল"
+    },
+    {
+     "en": "First settlement: Tipam",
+     "as": "প্ৰথম বসতি: তিপাম"
+    },
+    {
+     "en": "Abhoypur → Habung → Ligirigaon → Simaluguri",
+     "as": "অভয়পুৰ → হাবুং → লিগিৰীগাঁও → চিমলুগুৰি"
+    },
+    {
+     "en": "His people grew wet rice",
+     "as": "তেওঁৰ লোকসকলে পানীখেতি কৰিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "first-view-valley.webp",
+     "title": {
+      "en": "A valley of rivers",
+      "as": "নদীৰ উপত্যকা"
+     },
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "He reached Namrup in December 1228. The search for a home began from there.",
+       "as": "১২২৮ চনৰ ডিচেম্বৰত তেওঁ নামৰূপ পাইছিল। তাৰ পৰাই ঘৰৰ সন্ধান আৰম্ভ হৈছিল।"
+      }
+     },
+     "text": [
+      {
+       "en": "Sukaphaa did not build a capital at once. For about <mark>25 years</mark> he moved from place to place.",
+       "as": "চুকাফাই লগে লগে ৰাজধানী সজা নাছিল। প্ৰায় <mark>২৫ বছৰ</mark> ধৰি তেওঁ ঠাইৰ পৰা ঠাইলৈ গৈছিল।"
+      },
+      {
+       "en": "His people grew <mark>wet rice</mark>, so they looked for flat, fertile land near rivers.",
+       "as": "তেওঁৰ লোকসকলে <mark>পানীখেতি</mark> কৰিছিল, সেয়ে তেওঁলোকে নদীৰ কাষৰ সমতল, উৰ্বৰ মাটি বিচাৰিছিল।"
+      }
+     ],
+     "id": "suk.u2.01"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sukaphaa built his capital as soon as he arrived in 1228.",
+      "as": "১২২৮ চনত অহাৰ লগে লগে চুকাফাই ৰাজধানী সাজিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "He moved for about 25 years and founded his capital at Charaideo only in 1253.",
+      "as": "প্ৰায় ২৫ বছৰ ঠাই সলনি কৰাৰ পিছত ১২৫৩ চনতহে তেওঁ চৰাইদেউত ৰাজধানী পাতিছিল।"
+     },
+     "id": "suk.u2.02"
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "His first settlement in the valley was at",
+      "as": "উপত্যকাত তেওঁৰ প্ৰথম বসতি আছিল"
+     },
+     "after": {
+      "en": ".",
+      "as": "ত।"
+     },
+     "answer": "Tipam",
+     "asOptions": [
+      "তিপাম",
+      "চৰাইদেউ",
+      "গড়গাঁও",
+      "ৰংপুৰ"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "Tipam",
+      "as": "তিপাম"
+     },
+     "why": {
+      "en": "He settled first at Tipam, near the Dihing river.",
+      "as": "তেওঁ প্ৰথমে ডিহিং নদীৰ কাষৰ তিপামত বসতি পাতিছিল।"
+     },
+     "id": "suk.u2.03"
+    },
+    {
+     "type": "story",
+     "img": "first-settlement.webp",
+     "title": {
+      "en": "Moving on",
+      "as": "আগবাঢ়ি যোৱা"
+     },
+     "text": [
+      {
+       "en": "From Tipam he moved to <mark>Abhoypur</mark> (1236), <mark>Habung</mark> (1240), <mark>Ligirigaon</mark> (1244) and <mark>Simaluguri</mark> (1246).",
+       "as": "তিপামৰ পৰা তেওঁ <mark>অভয়পুৰ</mark> (১২৩৬), <mark>হাবুং</mark> (১২৪০), <mark>লিগিৰীগাঁও</mark> (১২৪৪) আৰু <mark>চিমলুগুৰি</mark>লৈ (১২৪৬) গৈছিল।"
+      },
+      {
+       "en": "At each place his people built houses and cleared land for rice fields.",
+       "as": "প্ৰতিখন ঠাইতে তেওঁৰ লোকসকলে ঘৰ সাজিছিল আৰু ধাননিৰ বাবে মাটি চাফা কৰিছিল।"
+      }
+     ],
+     "id": "suk.u2.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put his settlements in order.",
+      "as": "তেওঁৰ বসতিস্থানসমূহ ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Tipam",
+       "as": "তিপাম"
+      },
+      {
+       "en": "Abhoypur",
+       "as": "অভয়পুৰ"
+      },
+      {
+       "en": "Habung",
+       "as": "হাবুং"
+      },
+      {
+       "en": "Simaluguri",
+       "as": "চিমলুগুৰি"
+      }
+     ],
+     "why": {
+      "en": "Tipam → Abhoypur (1236) → Habung (1240) → Simaluguri (1246). Then Charaideo in 1253.",
+      "as": "তিপাম → অভয়পুৰ (১২৩৬) → হাবুং (১২৪০) → চিমলুগুৰি (১২৪৬)। তাৰ পিছত ১২৫৩ চনত চৰাইদেউ।"
+     },
+     "id": "suk.u2.05"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one was NOT an early settlement of Sukaphaa?",
+      "as": "কোনখন চুকাফাৰ আৰম্ভণিৰ বসতি নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Tipam",
+       "as": "তিপাম"
+      },
+      {
+       "en": "Habung",
+       "as": "হাবুং"
+      },
+      {
+       "en": "Garhgaon",
+       "as": "গড়গাঁও"
+      },
+      {
+       "en": "Abhoypur",
+       "as": "অভয়পুৰ"
+      }
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Garhgaon became an Ahom capital much later, under Suklenmung (1540). It is a common wrong option.",
+      "as": "গড়গাঁও বহু পিছত, চুক্লেনমুঙৰ দিনত (১৫৪০) আহোম ৰাজধানী হৈছিল। এইটো এটা সাধাৰণ ভুল বিকল্প।"
+     },
+     "id": "suk.u2.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows wet-rice farming?",
+      "as": "কোনখন ছবিত পানীখেতি দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "wet-rice.webp",
+      "moidams.webp",
+      "gohains.webp",
+      "crossing-patkai.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The flooded rice fields",
+      "as": "পানী ভৰা ধাননি"
+     },
+     "why": {
+      "en": "Wet-rice farming needs flat land and water. That is why Sukaphaa's people searched along the rivers.",
+      "as": "পানীখেতিৰ বাবে সমতল মাটি আৰু পানী লাগে। সেয়ে চুকাফাৰ লোকসকলে নদীৰ কাষে কাষে ঠাই বিচাৰিছিল।"
+     },
+     "id": "suk.u2.07"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "hands",
+   "title": {
+    "en": "Friends, not enemies",
+    "as": "শত্ৰু নহয়, বন্ধু"
+   },
+   "learned": [
+    {
+     "en": "Married the daughter of Moran chief Badaucha",
+     "as": "মৰাণ ৰজা বদৌচাৰ জীয়েকক বিয়া কৰাইছিল"
+    },
+    {
+     "en": "Married the daughter of Barahi chief Thakumatha",
+     "as": "বৰাহী ৰজা থাকুমথাৰ জীয়েকক বিয়া কৰাইছিল"
+    },
+    {
+     "en": "Remembered as the builder of Bor Asom",
+     "as": "বৰ অসমৰ ৰূপকাৰ হিচাপে স্মৰণীয়"
+    },
+    {
+     "en": "Those who resisted were put down by force",
+     "as": "বিৰোধ কৰাসকলক বলেৰে দমন কৰা হৈছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "marriage-alliance.webp",
+     "title": {
+      "en": "New neighbours",
+      "as": "নতুন চুবুৰীয়া"
+     },
+     "text": [
+      {
+       "en": "The valley already had its own people, such as the <mark>Morans</mark> and the <mark>Barahis</mark>.",
+       "as": "উপত্যকাখনত আগৰে পৰা নিজা লোক আছিল, যেনে <mark>মৰাণ</mark> আৰু <mark>বৰাহী</mark>।"
+      },
+      {
+       "en": "Sukaphaa married the daughter of the Moran chief <mark>Badaucha</mark> and the daughter of the Barahi chief <mark>Thakumatha</mark>.",
+       "as": "চুকাফাই মৰাণ ৰজা <mark>বদৌচা</mark> আৰু বৰাহী ৰজা <mark>থাকুমথা</mark>ৰ জীয়েকক বিয়া কৰাইছিল।"
+      }
+     ],
+     "id": "suk.u3.01"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was the chief of the Moran people.",
+       "as": "মই মৰাণসকলৰ ৰজা আছিলোঁ।"
+      },
+      {
+       "en": "My daughter married Sukaphaa.",
+       "as": "মোৰ জীয়েকক চুকাফাই বিয়া কৰাইছিল।"
+      },
+      {
+       "en": "My name begins with the letter B.",
+       "as": "মোৰ নাম 'ব'ৰে আৰম্ভ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Badaucha",
+       "as": "বদৌচা"
+      },
+      {
+       "en": "Thakumatha",
+       "as": "থাকুমথা"
+      },
+      {
+       "en": "Suteuphaa",
+       "as": "চুতেউফা"
+      },
+      {
+       "en": "Sandhya",
+       "as": "সন্ধ্যা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Badaucha was the Moran chief. Thakumatha was the Barahi chief.",
+      "as": "বদৌচা আছিল মৰাণ ৰজা। থাকুমথা আছিল বৰাহী ৰজা।"
+     },
+     "id": "suk.u3.02"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Thakumatha was the chief of the",
+      "as": "থাকুমথা আছিল"
+     },
+     "after": {
+      "en": "people.",
+      "as": "লোকসকলৰ ৰজা।"
+     },
+     "options": [
+      {
+       "en": "Moran",
+       "as": "মৰাণ"
+      },
+      {
+       "en": "Barahi",
+       "as": "বৰাহী"
+      },
+      {
+       "en": "Chutia",
+       "as": "চুতীয়া"
+      },
+      {
+       "en": "Kachari",
+       "as": "কছাৰী"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Thakumatha led the Barahis. Badaucha led the Morans.",
+      "as": "থাকুমথা বৰাহীসকলৰ ৰজা। বদৌচা মৰাণসকলৰ ৰজা।"
+     },
+     "id": "suk.u3.03"
+    },
+    {
+     "type": "story",
+     "img": "royal-court.webp",
+     "title": {
+      "en": "Bor Asom",
+      "as": "বৰ অসম"
+     },
+     "text": [
+      {
+       "en": "By making local peoples his family, Sukaphaa joined many communities into one kingdom.",
+       "as": "স্থানীয় লোকসকলক আত্মীয় কৰি চুকাফাই বহু জনগোষ্ঠীক এখন ৰাজ্যত একত্ৰিত কৰিছিল।"
+      },
+      {
+       "en": "That is why he is remembered as the builder of <mark>\"Bor Asom\"</mark> (Greater Assam). Those who resisted him were put down by force.",
+       "as": "সেইবাবেই তেওঁক <mark>\"বৰ অসম\"</mark>ৰ ৰূপকাৰ বুলি স্মৰণ কৰা হয়। যিসকলে বিৰোধ কৰিছিল, তেওঁলোকক বলেৰে দমন কৰা হৈছিল।"
+      }
+     ],
+     "id": "suk.u3.04"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Why is Sukaphaa called the builder of \"Bor Asom\"?",
+      "as": "চুকাফাক কিয় \"বৰ অসম\"ৰ ৰূপকাৰ বোলা হয়?"
+     },
+     "options": [
+      {
+       "en": "He united local peoples into one kingdom",
+       "as": "তেওঁ স্থানীয় জনগোষ্ঠীক এখন ৰাজ্যত একত্ৰিত কৰিছিল"
+      },
+      {
+       "en": "He built the largest fort in Assam",
+       "as": "তেওঁ অসমৰ আটাইতকৈ ডাঙৰ গড় সাজিছিল"
+      },
+      {
+       "en": "He defeated the Mughals",
+       "as": "তেওঁ মোগলক পৰাস্ত কৰিছিল"
+      },
+      {
+       "en": "He wrote the first Assamese book",
+       "as": "তেওঁ প্ৰথম অসমীয়া গ্ৰন্থ লিখিছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "\"Bor Asom\" means one land for many peoples. The Mughal wars came centuries later.",
+      "as": "\"বৰ অসম\" মানে বহু জনগোষ্ঠীৰ এখন দেশ। মোগলৰ সৈতে যুদ্ধ বহু শতিকা পিছৰ কথা।"
+     },
+     "id": "suk.u3.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sukaphaa only made friends and never used force.",
+      "as": "চুকাফাই কেৱল মিত্ৰতা কৰিছিল, কেতিয়াও বল প্ৰয়োগ কৰা নাছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "He made alliances with those who joined him, but those who resisted were put down by force.",
+      "as": "যিসকলে যোগ দিছিল তেওঁলোকৰ সৈতে মিত্ৰতা কৰিছিল, কিন্তু বিৰোধীসকলক বলেৰে দমন কৰিছিল।"
+     },
+     "id": "suk.u3.06"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "Mong Mao, the homeland Sukaphaa left in 1215.",
+       "as": "মং মাও, যি জন্মভূমি চুকাফাই ১২১৫ চনত এৰিছিল।"
+      }
+     },
+     "pairs": [
+      [
+       {
+        "en": "Badaucha",
+        "as": "বদৌচা"
+       },
+       {
+        "en": "Moran chief",
+        "as": "মৰাণ ৰজা"
+       }
+      ],
+      [
+       {
+        "en": "Thakumatha",
+        "as": "থাকুমথা"
+       },
+       {
+        "en": "Barahi chief",
+        "as": "বৰাহী ৰজা"
+       }
+      ],
+      [
+       {
+        "en": "Bor Asom",
+        "as": "বৰ অসম"
+       },
+       {
+        "en": "Greater Assam",
+        "as": "বৃহত্তৰ অসম"
+       }
+      ],
+      [
+       {
+        "en": "Mong Mao",
+        "as": "মং মাও"
+       },
+       {
+        "en": "Sukaphaa's homeland",
+        "as": "চুকাফাৰ জন্মভূমি"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Two marriage alliances (Moran and Barahi) built the idea of Bor Asom.",
+      "as": "দুটা বৈবাহিক সম্বন্ধই (মৰাণ আৰু বৰাহী) বৰ অসমৰ ধাৰণা গঢ়িছিল।"
+     },
+     "id": "suk.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "crown",
+   "title": {
+    "en": "Running the kingdom",
+    "as": "ৰাজ্য পৰিচালনা"
+   },
+   "learned": [
+    {
+     "en": "He created the Burhagohain and the Borgohain",
+     "as": "তেওঁ বুঢ়াগোহাঁই আৰু বৰগোহাঁই পদ সৃষ্টি কৰিছিল"
+    },
+    {
+     "en": "Together they were the Dangarias",
+     "as": "দুয়োজনক ডাঙৰীয়া বোলা হৈছিল"
+    },
+    {
+     "en": "Borpatrogohain came later (Suhungmung, 1527)",
+     "as": "বৰপাত্ৰগোহাঁই পিছত (চুহুংমুং, ১৫২৭)"
+    },
+    {
+     "en": "He began the Buranji tradition",
+     "as": "তেওঁ বুৰঞ্জী পৰম্পৰা আৰম্ভ কৰিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "gohains.webp",
+     "title": {
+      "en": "Two great ministers",
+      "as": "দুজন প্ৰধান মন্ত্ৰী"
+     },
+     "text": [
+      {
+       "en": "To run the kingdom, Sukaphaa created two great offices: the <mark>Burhagohain</mark> and the <mark>Borgohain</mark>.",
+       "as": "ৰাজ্য চলাবলৈ চুকাফাই দুটা প্ৰধান পদ সৃষ্টি কৰিছিল: <mark>বুঢ়াগোহাঁই</mark> আৰু <mark>বৰগোহাঁই</mark>।"
+      },
+      {
+       "en": "Together they were called the <mark>Dangarias</mark>, the king's chief ministers.",
+       "as": "দুয়োজনক একেলগে <mark>ডাঙৰীয়া</mark> বোলা হৈছিল, ৰজাৰ প্ৰধান মন্ত্ৰী।"
+      }
+     ],
+     "id": "suk.u4.01"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Which two offices did Sukaphaa create?",
+      "as": "চুকাফাই কোনকেইটা পদ সৃষ্টি কৰিছিল?"
+     },
+     "options": [
+      {
+       "en": "Burhagohain and Borgohain",
+       "as": "বুঢ়াগোহাঁই আৰু বৰগোহাঁই"
+      },
+      {
+       "en": "Borphukan and Borbarua",
+       "as": "বৰফুকন আৰু বৰবৰুৱা"
+      },
+      {
+       "en": "Borpatrogohain and Borgohain",
+       "as": "বৰপাত্ৰগোহাঁই আৰু বৰগোহাঁই"
+      },
+      {
+       "en": "Burhagohain and Borphukan",
+       "as": "বুঢ়াগোহাঁই আৰু বৰফুকন"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sukaphaa created the Burhagohain and the Borgohain. The other offices were added by later kings.",
+      "as": "চুকাফাই বুঢ়াগোহাঁই আৰু বৰগোহাঁই সৃষ্টি কৰিছিল। বাকী পদবোৰ পিছৰ ৰজাসকলে যোগ কৰিছিল।"
+     },
+     "id": "suk.u4.02"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Sukaphaa",
+       "created",
+       "the",
+       "Burhagohain,",
+       "the",
+       "Borgohain",
+       "and",
+       "the",
+       "Borpatrogohain."
+      ],
+      "as": [
+       "চুকাফাই",
+       "বুঢ়াগোহাঁই,",
+       "বৰগোহাঁই",
+       "আৰু",
+       "বৰপাত্ৰগোহাঁই",
+       "পদ",
+       "সৃষ্টি",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 8,
+      "as": 4
+     },
+     "fix": {
+      "en": "(only two offices)",
+      "as": "(কেৱল দুটা পদ)"
+     },
+     "answerText": {
+      "en": "Borpatrogohain",
+      "as": "বৰপাত্ৰগোহাঁই"
+     },
+     "why": {
+      "en": "The Borpatrogohain was added much later, by Suhungmung in 1527.",
+      "as": "বৰপাত্ৰগোহাঁই পদ বহু পিছত, ১৫২৭ চনত চুহুংমুঙে যোগ কৰিছিল।"
+     },
+     "id": "suk.u4.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Writing it down",
+      "as": "লিখি ৰখা"
+     },
+     "text": [
+      {
+       "en": "Sukaphaa ordered that the events of his reign be written down.",
+       "as": "চুকাফাই তেওঁৰ ৰাজত্বকালৰ ঘটনাসমূহ লিখি ৰাখিবলৈ আদেশ দিছিল।"
+      },
+      {
+       "en": "This began the <mark>Buranjis</mark>, the Ahom court chronicles. They are a major source for Assam's history.",
+       "as": "ইয়াৰ পৰাই আহোম ৰাজসভাৰ ইতিহাস <mark>বুৰঞ্জী</mark>ৰ আৰম্ভণি হয়। বুৰঞ্জী অসমৰ ইতিহাসৰ এক প্ৰধান উৎস।"
+      }
+     ],
+     "id": "suk.u4.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of the Ahom chronicles.",
+      "as": "আহোম ইতিহাস-গ্ৰন্থৰ নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "B",
+       "U",
+       "R",
+       "A",
+       "N",
+       "J",
+       "I"
+      ],
+      "as": [
+       "বু",
+       "ৰ",
+       "ঞ্জী"
+      ]
+     },
+     "answerText": {
+      "en": "BURANJI",
+      "as": "বুৰঞ্জী"
+     },
+     "why": {
+      "en": "Buranjis are the court chronicles that the Ahoms kept from Sukaphaa's time.",
+      "as": "বুৰঞ্জী হৈছে চুকাফাৰ দিনৰে পৰা আহোমসকলে ৰখা ৰাজসভাৰ ইতিহাস।"
+     },
+     "id": "suk.u4.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Buranjis are a major source for the history of Assam.",
+      "as": "বুৰঞ্জী অসমৰ ইতিহাসৰ এক প্ৰধান উৎস।"
+     },
+     "answer": true,
+     "why": {
+      "en": "Historians still rely on the Buranjis for dates, kings and events.",
+      "as": "তাৰিখ, ৰজা আৰু ঘটনাৰ বাবে ইতিহাসবিদসকলে আজিও বুৰঞ্জীৰ ওপৰত নিৰ্ভৰ কৰে।"
+     },
+     "id": "suk.u4.06"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Burhagohain",
+        "as": "বুঢ়াগোহাঁই"
+       },
+       {
+        "en": "Created by Sukaphaa",
+        "as": "চুকাফাই সৃষ্টি কৰা"
+       }
+      ],
+      [
+       {
+        "en": "Borpatrogohain",
+        "as": "বৰপাত্ৰগোহাঁই"
+       },
+       {
+        "en": "Added in 1527",
+        "as": "১৫২৭ চনত যোগ"
+       }
+      ],
+      [
+       {
+        "en": "Dangaria",
+        "as": "ডাঙৰীয়া"
+       },
+       {
+        "en": "Title of the great ministers",
+        "as": "প্ৰধান মন্ত্ৰীৰ উপাধি"
+       }
+      ],
+      [
+       {
+        "en": "Buranji",
+        "as": "বুৰঞ্জী"
+       },
+       {
+        "en": "Court chronicle",
+        "as": "ৰাজসভাৰ ইতিহাস"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Sukaphaa set up two offices and the Buranji tradition. The Borpatrogohain came under Suhungmung.",
+      "as": "চুকাফাই দুটা পদ আৰু বুৰঞ্জী পৰম্পৰা আৰম্ভ কৰিছিল। বৰপাত্ৰগোহাঁই চুহুংমুঙৰ দিনৰ।"
+     },
+     "id": "suk.u4.07"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "hill",
+   "title": {
+    "en": "Charaideo",
+    "as": "চৰাইদেউ"
+   },
+   "learned": [
+    {
+     "en": "Charaideo became the capital in 1253",
+     "as": "১২৫৩ চনত চৰাইদেউ ৰাজধানী হয়"
+    },
+    {
+     "en": "Che-Rai-Doi: a shining town on a hilltop",
+     "as": "চে-ৰাই-দৈ: পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ"
+    },
+    {
+     "en": "Sukaphaa died in 1268",
+     "as": "১২৬৮ চনত চুকাফাৰ মৃত্যু হয়"
+    },
+    {
+     "en": "His son Suteuphaa became king",
+     "as": "তেওঁৰ পুত্ৰ চুতেউফা ৰজা হয়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "building-charaideo.webp",
+     "title": {
+      "en": "The first capital",
+      "as": "প্ৰথম ৰাজধানী"
+     },
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "Charaideo was the last stop after Tipam, Abhoypur, Habung, Ligirigaon and Simaluguri.",
+       "as": "তিপাম, অভয়পুৰ, হাবুং, লিগিৰীগাঁও আৰু চিমলুগুৰিৰ পিছত চৰাইদেউ আছিল শেষ ঠাই।"
+      }
+     },
+     "text": [
+      {
+       "en": "In <mark>1253</mark> Sukaphaa founded his capital at <mark>Charaideo</mark>.",
+       "as": "<mark>১২৫৩</mark> চনত চুকাফাই <mark>চৰাইদেউ</mark>ত ৰাজধানী স্থাপন কৰিছিল।"
+      },
+      {
+       "en": "The name comes from the Tai words <i>Che-Rai-Doi</i>: <mark>\"a shining town on a hilltop\"</mark>.",
+       "as": "এই নাম টাই শব্দ <i>চে-ৰাই-দৈ</i>ৰ পৰা আহিছে: <mark>\"পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ\"</mark>।"
+      }
+     ],
+     "id": "suk.u5.01"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "What does Che-Rai-Doi mean?",
+      "as": "চে-ৰাই-দৈৰ অৰ্থ কি?"
+     },
+     "options": [
+      {
+       "en": "A shining town on a hilltop",
+       "as": "পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ"
+      },
+      {
+       "en": "Land of golden gardens",
+       "as": "সোণৰ বাগিচাৰ দেশ"
+      },
+      {
+       "en": "City of the great river",
+       "as": "মহানদীৰ নগৰ"
+      },
+      {
+       "en": "Home of the tiger",
+       "as": "বাঘৰ ঘৰ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Che = town, Rai = shining, Doi = hill. \"Land of golden gardens\" (Mong Dun Shun Kham) was the Ahom name for the whole country.",
+      "as": "চে = নগৰ, ৰাই = উজ্জ্বল, দৈ = পাহাৰ। \"সোণৰ বাগিচাৰ দেশ\" (মুং-দুন-চুন-খাম) আছিল গোটেই দেশখনৰ আহোম নাম।"
+     },
+     "id": "suk.u5.02"
+    },
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": false
+     },
+     "title": {
+      "en": "Where is Charaideo?",
+      "as": "চৰাইদেউ ক'ত?"
+     },
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "Compare it with Namrup, where he first arrived in 1228, east of Charaideo.",
+       "as": "চৰাইদেউৰ পূবে থকা নামৰূপৰ সৈতে তুলনা কৰা, য'ত তেওঁ ১২২৮ চনত প্ৰথম উপস্থিত হৈছিল।"
+      }
+     },
+     "text": [
+      {
+       "en": "Charaideo lies on the south bank of the Brahmaputra, west of Namrup, near today's Sivasagar.",
+       "as": "চৰাইদেউ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত, নামৰূপৰ পশ্চিমে, আজিৰ শিৱসাগৰৰ ওচৰত।"
+      },
+      {
+       "en": "Today it is a district of its own.",
+       "as": "আজি ই এখন সুকীয়া জিলা।"
+      }
+     ],
+     "id": "suk.u5.03"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Charaideo on the map.",
+      "as": "মানচিত্ৰত চৰাইদেউ টিপা।"
+     },
+     "target": "charaideo",
+     "choices": [
+      "charaideo",
+      "namrup",
+      "habung",
+      "mongmao"
+     ],
+     "answerText": {
+      "en": "Charaideo, near Sivasagar",
+      "as": "চৰাইদেউ, শিৱসাগৰৰ ওচৰত"
+     },
+     "why": {
+      "en": "Charaideo is on the south bank, west of Namrup. Namrup is where he first arrived in 1228.",
+      "as": "চৰাইদেউ দক্ষিণ পাৰত, নামৰূপৰ পশ্চিমে। নামৰূপতহে তেওঁ ১২২৮ চনত প্ৰথম উপস্থিত হৈছিল।"
+     },
+     "id": "suk.u5.04"
+    },
+    {
+     "type": "story",
+     "img": "sukaphaa-throne.webp",
+     "top": true,
+     "title": {
+      "en": "The end of a reign",
+      "as": "এক ৰাজত্বৰ অন্ত"
+     },
+     "text": [
+      {
+       "en": "Sukaphaa died at Charaideo in <mark>1268</mark>, after a reign of 40 years.",
+       "as": "৪০ বছৰ ৰাজত্ব কৰাৰ পিছত <mark>১২৬৮</mark> চনত চৰাইদেউত চুকাফাৰ মৃত্যু হয়।"
+      },
+      {
+       "en": "His son <mark>Suteuphaa</mark> became the next king.",
+       "as": "তেওঁৰ পুত্ৰ <mark>চুতেউফা</mark> পৰৱৰ্তী ৰজা হয়।"
+      }
+     ],
+     "id": "suk.u5.05"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1228",
+       "l": {
+        "en": "Enters Assam",
+        "as": "অসমত প্ৰৱেশ"
+       }
+      },
+      {
+       "y": "1268",
+       "l": {
+        "en": "Sukaphaa dies",
+        "as": "চুকাফাৰ মৃত্যু"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Leaves Mong Mao",
+        "as": "মং মাও এৰে"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Founds Charaideo",
+        "as": "চৰাইদেউ স্থাপন"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Suteuphaa becomes king",
+        "as": "চুতেউফা ৰজা হয়"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1215 Leaves Mong Mao → 1228 Enters Assam → 1253 Founds Charaideo → 1268 Dies; Suteuphaa succeeds.",
+      "as": "১২১৫ মং মাও এৰে → ১২২৮ অসমত প্ৰৱেশ → ১২৫৩ চৰাইদেউ স্থাপন → ১২৬৮ মৃত্যু; চুতেউফা ৰজা।"
+     },
+     "id": "suk.u5.06"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Sukaphaa's son.",
+       "as": "মই চুকাফাৰ পুত্ৰ আছিলোঁ।"
+      },
+      {
+       "en": "I became king in 1268.",
+       "as": "মই ১২৬৮ চনত ৰজা হৈছিলোঁ।"
+      },
+      {
+       "en": "My name begins with \"Sute…\".",
+       "as": "মোৰ নাম \"চুতে…\"ৰে আৰম্ভ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Suteuphaa",
+       "as": "চুতেউফা"
+      },
+      {
+       "en": "Subinphaa",
+       "as": "চুবিনফা"
+      },
+      {
+       "en": "Sudangphaa",
+       "as": "চুদাংফা"
+      },
+      {
+       "en": "Suhungmung",
+       "as": "চুহুংমুং"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Suteuphaa (1268–1281) was Sukaphaa's son and successor.",
+      "as": "চুতেউফা (১২৬৮–১২৮১) আছিল চুকাফাৰ পুত্ৰ আৰু উত্তৰাধিকাৰী।"
+     },
+     "id": "suk.u5.07"
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "icon": "star",
+   "title": {
+    "en": "Legacy",
+    "as": "উত্তৰাধিকাৰ"
+   },
+   "learned": [
+    {
+     "en": "Moidams: royal burial mounds at Charaideo",
+     "as": "মৈদাম: চৰাইদেউৰ ৰাজকীয় সমাধি"
+    },
+    {
+     "en": "UNESCO World Heritage Site in 2024, India's 43rd",
+     "as": "২০২৪ চনত ইউনেস্কো বিশ্ব ঐতিহ্য, ভাৰতৰ ৪৩তম"
+    },
+    {
+     "en": "Asom Divas: 2 December",
+     "as": "অসম দিৱস: ২ ডিচেম্বৰ"
+    },
+    {
+     "en": "Official since 1996",
+     "as": "১৯৯৬ৰ পৰা চৰকাৰী"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "moidams.webp",
+     "title": {
+      "en": "The moidams",
+      "as": "মৈদাম"
+     },
+     "link": {
+      "unit": "u5",
+      "note": {
+       "en": "Charaideo, the capital founded in 1253, became the royal burial ground.",
+       "as": "১২৫৩ চনত পতা ৰাজধানী চৰাইদেউ ৰাজকীয় সমাধিস্থল হৈ পৰিল।"
+      }
+     },
+     "text": [
+      {
+       "en": "Ahom kings and queens were buried at Charaideo in <mark>moidams</mark>, earthen mounds built over burial vaults.",
+       "as": "আহোম ৰজা-ৰাণীসকলক চৰাইদেউত <mark>মৈদাম</mark>ত সমাধিস্থ কৰা হৈছিল। মৈদাম হৈছে সমাধি-কোঠাৰ ওপৰত সজা মাটিৰ স্তূপ।"
+      },
+      {
+       "en": "In <mark>2024</mark> the Moidams of Charaideo became a <mark>UNESCO World Heritage Site</mark>.",
+       "as": "<mark>২০২৪</mark> চনত চৰাইদেউৰ মৈদাম <mark>ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ</mark> হয়।"
+      }
+     ],
+     "id": "suk.u6.01"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which one is a moidam?",
+      "as": "কোনখন মৈদাম?"
+     },
+     "options": [
+      "moidams.webp",
+      "building-charaideo.webp",
+      "first-settlement.webp",
+      "first-view-valley.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The grass-covered mounds",
+      "as": "ঘাঁহেৰে ঢকা স্তূপবোৰ"
+     },
+     "why": {
+      "en": "Moidams look like grass-covered hills. Inside each is a burial vault.",
+      "as": "মৈদাম ঘাঁহেৰে ঢকা টিলাৰ দৰে দেখি। প্ৰতিটোৰ ভিতৰত এটা সমাধি-কোঠা থাকে।"
+     },
+     "id": "suk.u6.02"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "The Charaideo Moidams are India's",
+      "as": "চৰাইদেউৰ মৈদাম ভাৰতৰ"
+     },
+     "after": {
+      "en": "World Heritage Site.",
+      "as": "বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"
+     },
+     "options": [
+      {
+       "en": "40th",
+       "as": "৪০তম"
+      },
+      {
+       "en": "42nd",
+       "as": "৪২তম"
+      },
+      {
+       "en": "43rd",
+       "as": "৪৩তম"
+      },
+      {
+       "en": "45th",
+       "as": "৪৫তম"
+      }
+     ],
+     "answer": 2,
+     "big": true,
+     "why": {
+      "en": "They became India's 43rd site on 26 July 2024. The 42nd was the Hoysala temples (2023).",
+      "as": "২০২৪ চনৰ ২৬ জুলাইত ই ভাৰতৰ ৪৩তম ক্ষেত্ৰ হয়। ৪২তম আছিল হৈচালা মন্দিৰ (২০২৩)।"
+     },
+     "id": "suk.u6.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Charaideo Moidams are the first cultural World Heritage Site in Northeast India.",
+      "as": "চৰাইদেউৰ মৈদাম উত্তৰ-পূব ভাৰতৰ প্ৰথম সাংস্কৃতিক বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. Assam's earlier sites, Kaziranga and Manas, are natural sites.",
+      "as": "শুদ্ধ। অসমৰ আগৰ দুটা ক্ষেত্ৰ কাজিৰঙা আৰু মানাহ প্ৰাকৃতিক ক্ষেত্ৰ।"
+     },
+     "id": "suk.u6.04"
+    },
+    {
+     "type": "story",
+     "art": "calendar",
+     "title": {
+      "en": "Asom Divas",
+      "as": "অসম দিৱস"
+     },
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "2 December marks his arrival in Assam in December 1228.",
+       "as": "২ ডিচেম্বৰে ১২২৮ চনৰ ডিচেম্বৰত তেওঁৰ অসম আগমন সোঁৱৰায়।"
+      }
+     },
+     "text": [
+      {
+       "en": "Every <mark>2 December</mark>, Assam celebrates <mark>Asom Divas</mark> (Sukaphaa Divas) to remember his arrival.",
+       "as": "প্ৰতি বছৰে <mark>২ ডিচেম্বৰ</mark>ত তেওঁৰ আগমন সোঁৱৰি <mark>অসম দিৱস</mark> (চুকাফা দিৱস) পালন কৰা হয়।"
+      },
+      {
+       "en": "The Assam government made it an official observance in <mark>1996</mark>.",
+       "as": "অসম চৰকাৰে <mark>১৯৯৬</mark> চনত ইয়াক চৰকাৰীভাৱে পালন কৰাৰ সিদ্ধান্ত লয়।"
+      }
+     ],
+     "id": "suk.u6.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One part of this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা অংশ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Asom Divas",
+       "is celebrated on",
+       "24 November",
+       "to remember",
+       "Sukaphaa's arrival."
+      ],
+      "as": [
+       "চুকাফাৰ আগমন",
+       "সোঁৱৰি",
+       "২৪ নৱেম্বৰত",
+       "অসম দিৱস",
+       "পালন কৰা হয়।"
+      ]
+     },
+     "wrong": {
+      "en": 2,
+      "as": 2
+     },
+     "fix": {
+      "en": "→ 2 December",
+      "as": "→ ২ ডিচেম্বৰ"
+     },
+     "answerText": {
+      "en": "24 November → 2 December",
+      "as": "২৪ নৱেম্বৰ → ২ ডিচেম্বৰ"
+     },
+     "why": {
+      "en": "24 November is Lachit Divas. Asom Divas is on 2 December.",
+      "as": "২৪ নৱেম্বৰ লাচিত দিৱস। অসম দিৱস ২ ডিচেম্বৰত।"
+     },
+     "id": "suk.u6.06"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each date to its meaning.",
+      "as": "প্ৰতিটো তাৰিখ ইয়াৰ অৰ্থৰ সৈতে মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "2 December",
+        "as": "২ ডিচেম্বৰ"
+       },
+       {
+        "en": "Asom Divas",
+        "as": "অসম দিৱস"
+       }
+      ],
+      [
+       {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+       },
+       {
+        "en": "Lachit Divas",
+        "as": "লাচিত দিৱস"
+       }
+      ],
+      [
+       {
+        "en": "1996",
+        "as": "১৯৯৬"
+       },
+       {
+        "en": "Asom Divas made official",
+        "as": "অসম দিৱস চৰকাৰী হয়"
+       }
+      ],
+      [
+       {
+        "en": "2024",
+        "as": "২০২৪"
+       },
+       {
+        "en": "Moidams on UNESCO list",
+        "as": "মৈদাম ইউনেস্কো তালিকাত"
+       }
+      ]
+     ],
+     "why": {
+      "en": "2 December and 24 November are a common exam pair. Keep them apart.",
+      "as": "২ ডিচেম্বৰ আৰু ২৪ নৱেম্বৰ পৰীক্ষাত প্ৰায়ে একেলগে আহে। দুয়োটা পৃথককৈ মনত ৰাখা।"
+     },
+     "id": "suk.u6.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Sukaphaa",
+    "as": "তুমি স্বৰ্গদেউ চুকাফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I came from Mong Mao.",
+      "as": "মই মং মাওৰ পৰা আহিছিলোঁ।"
+     },
+     {
+      "en": "I crossed the Patkai hills.",
+      "as": "মই পাটকাই পাহাৰ পাৰ হৈছিলোঁ।"
+     },
+     {
+      "en": "My arrival is remembered on 2 December.",
+      "as": "মোৰ আগমন ২ ডিচেম্বৰত সোঁৱৰা হয়।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Sukaphaa",
+      "as": "চুকাফা"
+     },
+     {
+      "en": "Suteuphaa",
+      "as": "চুতেউফা"
+     },
+     {
+      "en": "Suhungmung",
+      "as": "চুহুংমুং"
+     },
+     {
+      "en": "Lachit Borphukan",
+      "as": "লাচিত বৰফুকন"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Chaolung Sukaphaa, founder of the Ahom kingdom (1228).",
+     "as": "চাওলুং চুকাফা, আহোম ৰাজ্যৰ প্ৰতিষ্ঠাপক (১২২৮)।"
+    },
+    "id": "suk.test.01"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these years in order of events.",
+     "as": "ঘটনাৰ ক্ৰম অনুসৰি চনবোৰ সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "1215 · Leaves Mong Mao",
+      "as": "১২১৫ · মং মাও এৰে"
+     },
+     {
+      "en": "1228 · Enters Assam",
+      "as": "১২২৮ · অসমত প্ৰৱেশ"
+     },
+     {
+      "en": "1253 · Founds Charaideo",
+      "as": "১২৫৩ · চৰাইদেউ স্থাপন"
+     },
+     {
+      "en": "1268 · Dies",
+      "as": "১২৬৮ · মৃত্যু"
+     }
+    ],
+    "why": {
+     "en": "1215 → 1228 → 1253 → 1268: leave, arrive, build, die.",
+     "as": "১২১৫ → ১২২৮ → ১২৫৩ → ১২৬৮: যাত্ৰা, আগমন, নিৰ্মাণ, মৃত্যু।"
+    },
+    "id": "suk.test.02"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Sukaphaa created the Burhagohain and the Borgohain.<br>2. Sukaphaa created the Borpatrogohain.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুকাফাই বুঢ়াগোহাঁই আৰু বৰগোহাঁই সৃষ্টি কৰিছিল।<br>২. চুকাফাই বৰপাত্ৰগোহাঁই সৃষ্টি কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "small": true,
+    "why": {
+     "en": "Only 1. The Borpatrogohain was created by Suhungmung in 1527.",
+     "as": "কেৱল ১। বৰপাত্ৰগোহাঁই ১৫২৭ চনত চুহুংমুঙে সৃষ্টি কৰিছিল।"
+    },
+    "id": "suk.test.03"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Sukaphaa's first capital was Charaideo, founded in 1228.",
+     "as": "চুকাফাৰ প্ৰথম ৰাজধানী চৰাইদেউ, ১২২৮ চনত স্থাপিত।"
+    },
+    "answer": false,
+    "why": {
+     "en": "He arrived in 1228. Charaideo was founded in 1253, after 25 years of moving.",
+     "as": "তেওঁ ১২২৮ চনত আহিছিল। ২৫ বছৰ ঠাই সলনি কৰাৰ পিছত ১২৫৩ চনত চৰাইদেউ স্থাপন হয়।"
+    },
+    "id": "suk.test.04"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap the pass Sukaphaa used to cross the Patkai.",
+     "as": "পাটকাই পাৰ হ'বলৈ চুকাফাই ব্যৱহাৰ কৰা গিৰিপথটো টিপা।"
+    },
+    "target": "pangsau",
+    "choices": [
+     "pangsau",
+     "namrup",
+     "charaideo",
+     "habung"
+    ],
+    "answerText": {
+     "en": "The Pangsau Pass",
+     "as": "পাংচাউ গিৰিপথ"
+    },
+    "why": {
+     "en": "The Pangsau Pass is on the Patkai ridge, on today's India–Myanmar border.",
+     "as": "পাংচাউ গিৰিপথ পাটকাই পৰ্বতমালাত, আজিৰ ভাৰত–ম্যানমাৰ সীমান্তত।"
+    },
+    "id": "suk.test.05"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Where did Sukaphaa first arrive in December 1228?",
+     "as": "১২২৮ চনৰ ডিচেম্বৰত চুকাফা প্ৰথমে ক'ত উপস্থিত হৈছিল?"
+    },
+    "target": "namrup",
+    "choices": [
+     "namrup",
+     "charaideo",
+     "habung",
+     "mongmao"
+    ],
+    "answerText": {
+     "en": "Namrup",
+     "as": "নামৰূপ"
+    },
+    "why": {
+     "en": "He came down from the Patkai into Namrup. Charaideo came 25 years later.",
+     "as": "পাটকাইৰ পৰা তেওঁ নামৰূপলৈ নামি আহিছিল। চৰাইদেউ ২৫ বছৰ পিছত।"
+    },
+    "id": "suk.test.06"
+   },
+   {
+    "type": "odd",
+    "q": {
+     "en": "Which one did NOT happen in Sukaphaa's reign?",
+     "as": "কোনটো চুকাফাৰ ৰাজত্বকালত হোৱা নাছিল?"
+    },
+    "options": [
+     {
+      "en": "Burhagohain office created",
+      "as": "বুঢ়াগোহাঁই পদ সৃষ্টি"
+     },
+     {
+      "en": "Charaideo founded",
+      "as": "চৰাইদেউ স্থাপন"
+     },
+     {
+      "en": "First Hindu title taken",
+      "as": "প্ৰথম হিন্দু উপাধি গ্ৰহণ"
+     },
+     {
+      "en": "Moran alliance",
+      "as": "মৰাণৰ সৈতে মিত্ৰতা"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "The first Ahom king to take a Hindu title was Suhungmung (Swarganarayan), not Sukaphaa.",
+     "as": "হিন্দু উপাধি লোৱা প্ৰথম আহোম ৰজা চুহুংমুং (স্বৰ্গনাৰায়ণ), চুকাফা নহয়।"
+    },
+    "id": "suk.test.07"
+   },
+   {
+    "type": "fill",
+    "before": {
+     "en": "The Ahom court chronicles are called",
+     "as": "আহোম ৰাজসভাৰ ইতিহাসক"
+    },
+    "after": {
+     "en": ".",
+     "as": "বোলা হয়।"
+    },
+    "answer": "Buranji",
+    "asOptions": [
+     "বুৰঞ্জী",
+     "চৰিতপুথি",
+     "বংশাৱলী",
+     "কীৰ্তন"
+    ],
+    "asAnswer": 0,
+    "answerText": {
+     "en": "Buranji",
+     "as": "বুৰঞ্জী"
+    },
+    "why": {
+     "en": "Sukaphaa began the Buranji tradition.",
+     "as": "চুকাফাই বুৰঞ্জী পৰম্পৰা আৰম্ভ কৰিছিল।"
+    },
+    "id": "suk.test.08"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "Asom Divas is celebrated on",
+     "as": "অসম দিৱস পালন কৰা হয়"
+    },
+    "after": {
+     "en": ".",
+     "as": "ত।"
+    },
+    "options": [
+     {
+      "en": "24 November",
+      "as": "২৪ নৱেম্বৰ"
+     },
+     {
+      "en": "2 December",
+      "as": "২ ডিচেম্বৰ"
+     },
+     {
+      "en": "14 April",
+      "as": "১৪ এপ্ৰিল"
+     },
+     {
+      "en": "26 July",
+      "as": "২৬ জুলাই"
+     }
+    ],
+    "answer": 1,
+    "why": {
+     "en": "2 December. 24 November is Lachit Divas; 26 July 2024 is when the Moidams got UNESCO status.",
+     "as": "২ ডিচেম্বৰ। ২৪ নৱেম্বৰ লাচিত দিৱস; ২০২৪ চনৰ ২৬ জুলাইত মৈদামে ইউনেস্কো স্বীকৃতি পায়।"
+    },
+    "id": "suk.test.09"
+   }
+  ]
+ }
+}

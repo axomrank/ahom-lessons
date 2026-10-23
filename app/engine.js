@@ -6,71 +6,30 @@
    ========================================================= */
 (() => {
 "use strict";
-const L = window.LESSON;
-const B = (en, as) => ({ en, as });
+const { B, T, N, asNum, G, SFX, media } = window.AXOM;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
-const AS_DIGITS = "০১২৩৪৫৬৭৮৯";
-const asNum = (s) => String(s).replace(/\d/g, (d) => AS_DIGITS[d]);
-const T = (o) => (o == null ? "" : typeof o === "string" ? o : `<span class="en">${o.en}</span><span class="as">${o.as}</span>`);
-const N = (n) => T(B(String(n), asNum(n)));
 const shuffle = (a) => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 const shuffledIdx = (n) => { let s; do { s = shuffle([...Array(n).keys()]); } while (n > 1 && s.every((v, k) => v === k)); return s; };
+const params = new URLSearchParams(location.search);
+const UNLOCK_ALL = params.has("all");
 
-/* ---------- storage: shared across the course ---------- */
-const store = {
-  get(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch { return d; } },
-  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* storage blocked */ } },
-};
-const G = Object.assign({ xp: 0, streak: { n: 0, last: null }, sound: true, as: false, mistakes: {} }, store.get("axom:global", {}));
-const P = Object.assign({ done: {} }, store.get(`axom:lesson:${L.id}`, {}));
-const saveAll = () => { store.set("axom:global", G); store.set(`axom:lesson:${L.id}`, P); };
-const dayKey = (d) => `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
-const streakNow = () => { const t = dayKey(new Date()), y = dayKey(new Date(Date.now() - 864e5)); return G.streak.last === t || G.streak.last === y ? G.streak.n : 0; };
-const UNLOCK_ALL = /[?&]all\b/.test(location.search);
+/* Load content/lessons/<id>.json, then build the lesson. */
+async function load() {
+  const id = (params.get("id") || "sukaphaa").replace(/[^a-z0-9-]/g, "");
+  try { boot(await AXOM.getJSON(`content/lessons/${id}.json`)); }
+  catch (e) {
+    document.body.insertAdjacentHTML("afterbegin", `<div class="stage"><div class="device"><div class="load-error"><h2>${T(B("This lesson could not be opened", "পাঠটো খুলিব পৰা নগ'ল"))}</h2><p>${T(B("Check your internet connection, or download the lesson for offline use when you are online.", "ইণ্টাৰনেট সংযোগ পৰীক্ষা কৰা, বা অনলাইন থকাৰ সময়ত পাঠটো অফলাইনৰ বাবে ডাউনলোড কৰি ৰাখা।"))}</p><a class="btn" href="index.html">${T(B("All lessons", "সকলো পাঠ"))}</a></div></div></div>`);
+    console.warn(e);
+  }
+}
+
+/* Everything below runs once the lesson data L is loaded. */
+function boot(L) {
+const P = AXOM.getLesson(L.id);
+const saveAll = () => AXOM.saveLesson(L.id, P);
+const streakNow = AXOM.streakNow;
 const bank = () => (G.mistakes[L.id] = G.mistakes[L.id] || []);
-
-/* ---------- sound (gentle, optional) ---------- */
-let ac = null;
-/* Phones only allow web audio once it has been started inside a tap, and they
-   suspend it again when the page goes to the background. So: create and resume the
-   audio context on the first touch, play a silent sample to unlock it (iPhone), and
-   resume again before each sound if needed. */
-function audio() {
-  if (!ac) { try { ac = new (window.AudioContext || window.webkitAudioContext)(); } catch { return null; } }
-  if (ac.state !== "running") ac.resume().catch(() => {});
-  return ac;
-}
-function unlockAudio() {
-  const c = audio(); if (!c) return;
-  try { const b = c.createBuffer(1, 1, 22050), src = c.createBufferSource(); src.buffer = b; src.connect(c.destination); src.start(0); } catch { /* ignore */ }
-  if (c.state === "running") ["pointerdown", "touchend", "keydown"].forEach((ev) => document.removeEventListener(ev, unlockAudio, true));
-}
-["pointerdown", "touchend", "keydown"].forEach((ev) => document.addEventListener(ev, unlockAudio, true));
-document.addEventListener("visibilitychange", () => { if (!document.hidden && ac) ac.resume().catch(() => {}); });
-
-function tone(freqs, type = "sine", dur = 0.14, gap = 0.09, vol = 0.2) {
-  if (!G.sound) return;
-  const c = audio(); if (!c) return;
-  const play = () => {
-    try {
-      freqs.forEach((f, i) => {
-        const o = c.createOscillator(), g = c.createGain(), st = c.currentTime + 0.01 + i * gap;
-        o.type = type; o.frequency.value = f; g.gain.setValueAtTime(0.0001, st); g.gain.linearRampToValueAtTime(vol, st + 0.015);
-        g.gain.exponentialRampToValueAtTime(0.0001, st + dur); o.connect(g).connect(c.destination); o.start(st); o.stop(st + dur + 0.03);
-      });
-    } catch { /* no audio */ }
-  };
-  if (c.state === "running") play(); else c.resume().then(play).catch(() => {});
-}
-const buzz = (p) => { try { if (navigator.vibrate) navigator.vibrate(p); } catch { /* no vibration */ } };
-const SFX = {   // volumes are set for phone speakers, which are much quieter than desktop ones
-  tap: () => tone([520], "sine", 0.06, 0, 0.08),
-  pair: () => tone([740], "sine", 0.1, 0, 0.16),
-  good: () => { tone([659, 880], "sine", 0.18, 0.09, 0.22); buzz(12); },
-  bad: () => { tone([233, 196], "triangle", 0.22, 0.12, 0.2); buzz([30, 40, 30]); },
-  done: () => tone([523, 659, 784, 1047], "sine", 0.24, 0.11, 0.2),
-};
 
 /* ---------- icons and art ---------- */
 const ICONS = {
@@ -148,7 +107,7 @@ document.body.insertAdjacentHTML("afterbegin", `
   <div class="confetti" id="confetti" aria-hidden="true"></div>
   <div class="view" id="v-path">
     <div class="p-top">
-      <a class="icon-btn" href="${L.home || "../index.html"}" aria-label="All lessons">${ICONS.back}</a>
+      <a class="icon-btn" href="index.html" aria-label="All lessons">${ICONS.back}</a>
       <label class="lang" for="as"><span class="en">অ</span><span class="as">EN</span></label>
       <span class="spacer"></span>
       <span class="fire" id="fire">${ICONS.fire}<span id="streak"></span></span>
@@ -157,14 +116,15 @@ document.body.insertAdjacentHTML("afterbegin", `
     </div>
     <div class="p-scroll">
       <section class="hero">
-        <img src="${L.portrait}" alt="">
+        <img src="${media(`${L.id}/${L.portrait}`)}" alt="">
         <div class="txt">
           <div class="eyebrow">${T(B(`Ahom kings · Lesson ${L.no}`, `আহোম ৰজা · পাঠ ${asNum(L.no)}`))}</div>
           <h1>${T(L.king)}</h1>
           <div class="reign">${T(L.reign)}</div>
-          ${L.buildsOn ? `<a class="builds-on" href="${L.buildsOn.file}">${T(B(`Builds on Lesson ${L.buildsOn.no}: ${L.buildsOn.title.en}`, `পাঠ ${asNum(L.buildsOn.no)}ৰ ভেটিত: ${L.buildsOn.title.as}`))}</a>` : ""}
+          ${L.buildsOn ? `<a class="builds-on" href="lesson.html?id=${L.buildsOn.id}">${T(B(`Builds on Lesson ${L.buildsOn.no}: ${L.buildsOn.title.en}`, `পাঠ ${asNum(L.buildsOn.no)}ৰ ভেটিত: ${L.buildsOn.title.as}`))}</a>` : ""}
           <div class="meter"><i id="meter"></i></div>
           <div class="count" id="count"></div>
+          <button class="offline-btn" id="offline"></button>
         </div>
       </section>
       <div id="mistake-slot"></div>
@@ -194,9 +154,9 @@ document.body.insertAdjacentHTML("afterbegin", `
   </div>
   <div id="sheet-root"></div>
 </div></div>`);
+AXOM.initLang();
 const langBox = $("#as");
 const isAS = () => langBox.checked;
-if (G.as) langBox.checked = true;
 document.title = `${L.king.en} · Lesson ${L.no}`;
 
 /* ---------- lesson path ---------- */
@@ -213,10 +173,12 @@ function topStats() {
   $("#sound").innerHTML = G.sound ? ICONS.soundOn : ICONS.soundOff;
   $("#sound").classList.toggle("off", !G.sound);
 }
-function resolveStep(ref) {
-  const [uid, i] = ref.split(":"), u = ALL.find((x) => x.id === uid);
-  return u && u.steps[+i] ? { s: u.steps[+i], ref } : null;
-}
+const BY_ID = new Map(ALL.flatMap((u) => u.steps.map((s) => [s.id, s])));
+(() => {   // migrate mistakes saved by position before steps had ids
+  const b = bank(), conv = b.map((ref) => { const m = /^(\w+):(\d+)$/.exec(ref); if (!m) return ref; const u = ALL.find((x) => x.id === m[1]); return u && u.steps[+m[2]] ? u.steps[+m[2]].id : null; }).filter(Boolean);
+  if (conv.join() !== b.join()) { G.mistakes[L.id] = [...new Set(conv)]; saveAll(); }
+})();
+function resolveStep(ref) { const s = BY_ID.get(ref); return s ? { s, ref } : null; }
 function renderPath() {
   topStats();
   const doneCount = ALL.filter((u) => P.done[u.id]).length;
@@ -262,7 +224,7 @@ function linkCallout(link) {
 function openLinkSheet(link) {
   let body = `<p class="note">${T(link.note)}</p>`;
   if (link.lesson) {
-    body += `<a class="btn" href="${link.file}" target="_blank" rel="noopener">${T(B(`Open Lesson ${link.lesson} in a new tab`, `পাঠ ${asNum(link.lesson)} নতুন টেবত খোলা`))}</a>`;
+    body += `<a class="btn" href="lesson.html?id=${link.lessonId}" target="_blank" rel="noopener">${T(B(`Open Lesson ${link.lesson} in a new tab`, `পাঠ ${asNum(link.lesson)} নতুন টেবত খোলা`))}</a>`;
   } else {
     const u = ALL.find((x) => x.id === link.unit);
     if (u && u.learned) body += `<ul class="recap">${u.learned.map((l) => `<li>${T(l)}</li>`).join("")}</ul>`;
@@ -279,7 +241,7 @@ const unitLinks = (u) => {
 let U = null;
 function startUnit(k) {
   const unit = ALL[k];
-  U = { unit, practice: false, queue: unit.steps.map((s, i) => ({ s, ref: `${unit.id}:${i}` })), pos: 0, done: 0, total: unit.steps.length, xp: 0, ok: 0, asked: 0, mistakes: [], start: Date.now(), phase: "answer", st: {} };
+  U = { unit, practice: false, queue: unit.steps.map((s) => ({ s, ref: s.id })), pos: 0, done: 0, total: unit.steps.length, xp: 0, ok: 0, asked: 0, mistakes: [], start: Date.now(), phase: "answer", st: {} };
   pop = null; showView("v-play"); renderStep(true);
 }
 function startPractice() {
@@ -306,10 +268,11 @@ function renderStep(animate) {
   if (SETUP[s.type]) SETUP[s.type](s, scr);
   refresh();
 }
-const img = (f) => (f.includes("/") ? f : `images/${f}`);
+const img = (f, size) => media(`${L.id}/${f}`, size);
+const picture = (f, cls = "") => `<img src="${img(f)}" srcset="${img(f, 480)} 480w, ${img(f)} 1080w" sizes="(max-width: 440px) 92vw, 360px" alt="" ${cls}>`;
 const RENDER = {
   story: (s) => `<h1 class="t">${T(s.title)}</h1>
-    ${s.img ? `<figure class="frame ${s.top ? "top" : ""}"><img src="${img(s.img)}" alt=""><span class="credit">${T(B("Artistic reconstruction", "শিল্পীৰ কল্পনা"))}</span></figure>`
+    ${s.img ? `<figure class="frame ${s.top ? "top" : ""}">${picture(s.img)}<span class="credit">${T(B("Artistic reconstruction", "শিল্পীৰ কল্পনা"))}</span></figure>`
       : s.map ? `<figure class="frame mapframe">${mapSVG(L.map, { story: true, route: s.map.route })}</figure>`
       : `<figure class="frame art${s.art === "rooster" ? " full" : ""}">${ART[s.art]}</figure>`}
     <div class="story">${s.text.map((p) => `<p>${T(p)}</p>`).join("")}</div>`,
@@ -326,7 +289,7 @@ const RENDER = {
     <div class="as"><p class="sentence">${s.before.as} <span class="blank" data-fillchip>&nbsp;</span> ${s.after.as}</p>
       <div class="chips">${s.asOptions.map((o, k) => `<button class="tile" data-chip="${k}">${o}</button>`).join("")}</div></div>`,
   map: (s) => `<p class="prompt">${T(s.q)}</p>${mapSVG(L.map, { choices: s.choices })}`,
-  picture: (s) => `<p class="prompt">${T(s.q)}</p><div class="pics">${s.options.map((src, k) => `<button class="tile pic" data-opt="${k}"><img src="${img(src)}" alt=""></button>`).join("")}</div>`,
+  picture: (s) => `<p class="prompt">${T(s.q)}</p><div class="pics">${s.options.map((src, k) => `<button class="tile pic" data-opt="${k}"><img src="${img(src, 480)}" alt=""></button>`).join("")}</div>`,
   whoami: (s) => `<div class="clues" id="clues"></div><div class="more"><button class="chip-btn" id="more">${T(B("Show another clue", "আৰু এটা সূত্ৰ"))}</button></div>
     <div class="opts grid2">${s.options.map((o, k) => `<button class="tile opt" data-opt="${k}"><span>${T(o)}</span></button>`).join("")}</div>`,
   unscramble: (s) => `<p class="prompt">${T(s.q)}</p>
@@ -469,8 +432,7 @@ function finishUnit() {
   const u = U.unit, wasDone = !!P.done[u.id];
   if (!U.practice) P.done[u.id] = true;
   G.xp += U.xp;
-  const t = dayKey(new Date()), y = dayKey(new Date(Date.now() - 864e5));
-  if (G.streak.last !== t) G.streak = { n: G.streak.last === y ? G.streak.n + 1 : 1, last: t };
+  AXOM.bumpStreak();
   saveAll();
   SFX.done();
   const secs = Math.round((Date.now() - U.start) / 1000), time = `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
@@ -573,7 +535,36 @@ function openSheet() {
 }
 function closeSheet() { $("#sheet-root").innerHTML = ""; }
 
-if (/[?&]debug\b/.test(location.search)) window.__L = { LESSON: L, run: () => U, render: renderStep, G, P, audioState: () => (ac ? ac.state : "none") };   // test hook only
+if (/[?&]debug\b/.test(location.search)) window.__L = { LESSON: L, run: () => U, render: renderStep, G, P, audioState: AXOM._audioState };   // test hook only
+/* ---------- download this lesson for offline use ---------- */
+function lessonFiles() {
+  const files = new Set([L.portrait]);
+  ALL.forEach((u) => u.steps.forEach((s) => { if (s.img) files.add(s.img); if (s.type === "picture") s.options.forEach((o) => files.add(o)); }));
+  const urls = [`content/lessons/${L.id}.json`];
+  files.forEach((f) => { urls.push(img(f), img(f, 480)); });
+  return urls.map((u) => new URL(u, location.href).href);
+}
+async function setupOffline() {
+  const btn = $("#offline");
+  if (!("caches" in window)) { btn.remove(); return; }
+  const urls = lessonFiles();
+  const show = (state, a, b) => {
+    btn.disabled = state !== "idle";
+    btn.innerHTML = state === "saved" ? `${AXOM.ICON.check}${T(B("Available offline", "অফলাইনত উপলব্ধ"))}`
+      : state === "busy" ? `${AXOM.ICON.download}${T(B(`Downloading ${a}/${b}`, `ডাউনলোড হৈছে ${asNum(a)}/${asNum(b)}`))}`
+      : `${AXOM.ICON.download}${T(B("Download for offline", "অফলাইনৰ বাবে ডাউনলোড"))}`;
+  };
+  show((await AXOM.isOffline(urls)) ? "saved" : "idle");
+  btn.addEventListener("click", async () => {
+    try { show("busy", 0, urls.length); await AXOM.saveOffline(urls, (a, b) => show("busy", a, b)); show("saved"); }
+    catch (e) { show("idle"); console.warn(e); }
+  });
+}
+
 showView("v-path");
 renderPath();
+setupOffline();
+}   // end boot
+
+load();
 })();

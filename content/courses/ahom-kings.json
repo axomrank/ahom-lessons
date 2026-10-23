@@ -1,0 +1,498 @@
+{
+ "id": "ahom-kings",
+ "title": {
+  "en": "The Ahom Kings",
+  "as": "আহোম ৰজাসকল"
+ },
+ "eyebrow": {
+  "en": "Assam History · Course 1",
+  "as": "অসমৰ ইতিহাস · পাঠ্যক্ৰম ১"
+ },
+ "subtitle": {
+  "en": "1228–1838 · 41 reigns, one lesson each",
+  "as": "১২২৮–১৮৩৮ · ৪১টা ৰাজত্ব, প্ৰতিটোৰ এটা পাঠ"
+ },
+ "eras": [
+  {
+   "from": 1,
+   "to": 13,
+   "title": {
+    "en": "The founding kings · 1228–1497",
+    "as": "প্ৰতিষ্ঠাকালৰ ৰজা · ১২২৮–১৪৯৭"
+   }
+  },
+  {
+   "from": 14,
+   "to": 16,
+   "title": {
+    "en": "Expansion · 1497–1603",
+    "as": "সম্প্ৰসাৰণ · ১৪৯৭–১৬০৩"
+   }
+  },
+  {
+   "from": 17,
+   "to": 28,
+   "title": {
+    "en": "Against the Mughals · 1603–1681",
+    "as": "মোগলৰ বিৰুদ্ধে · ১৬০৩–১৬৮১"
+   }
+  },
+  {
+   "from": 29,
+   "to": 33,
+   "title": {
+    "en": "The Tungkhungia kings · 1681–1769",
+    "as": "তুংখুঙীয়া ৰজা · ১৬৮১–১৭৬৯"
+   }
+  },
+  {
+   "from": 34,
+   "to": 41,
+   "title": {
+    "en": "Decline and the last kings · 1769–1838",
+    "as": "অৱক্ষয় আৰু শেষৰ ৰজা · ১৭৬৯–১৮৩৮"
+   }
+  }
+ ],
+ "kings": [
+  {
+   "n": 1,
+   "id": "sukaphaa",
+   "name": {
+    "en": "Chaolung Sukaphaa",
+    "as": "চাওলুং চুকাফা"
+   },
+   "reign": "1228–1268",
+   "face": "faces/sukaphaa.webp",
+   "lesson": "sukaphaa"
+  },
+  {
+   "n": 2,
+   "id": "suteuphaa",
+   "name": {
+    "en": "Suteuphaa",
+    "as": "চুতেউফা"
+   },
+   "reign": "1268–1281",
+   "face": "faces/suteuphaa.webp",
+   "lesson": "suteuphaa"
+  },
+  {
+   "n": 3,
+   "id": "subinphaa",
+   "name": {
+    "en": "Subinphaa",
+    "as": "চুবিনফা"
+   },
+   "reign": "1281–1293",
+   "face": "faces/subinphaa.webp"
+  },
+  {
+   "n": 4,
+   "id": "sukhaangphaa",
+   "name": {
+    "en": "Sukhaangphaa",
+    "as": "চুখাংফা"
+   },
+   "reign": "1293–1332",
+   "face": "faces/sukhaangphaa.webp"
+  },
+  {
+   "n": 5,
+   "id": "sukhrangphaa",
+   "name": {
+    "en": "Sukhrangphaa",
+    "as": "চুখ্ৰাংফা"
+   },
+   "reign": "1332–1364",
+   "face": "faces/sukhrangphaa.webp"
+  },
+  {
+   "n": 6,
+   "id": "sutuphaa",
+   "name": {
+    "en": "Sutuphaa",
+    "as": "চুতুফা"
+   },
+   "reign": "1369–1376",
+   "face": "faces/sutuphaa.webp"
+  },
+  {
+   "n": 7,
+   "id": "tyao-khamti",
+   "name": {
+    "en": "Tyao Khamti",
+    "as": "ত্যাও খামতি"
+   },
+   "reign": "1380–1389",
+   "face": "faces/tyao-khamti.webp"
+  },
+  {
+   "n": 8,
+   "id": "sudangphaa",
+   "name": {
+    "en": "Sudangphaa",
+    "as": "চুদাংফা"
+   },
+   "alt": "Bamuni Konwar",
+   "reign": "1397–1407",
+   "face": "faces/sudangphaa.webp"
+  },
+  {
+   "n": 9,
+   "id": "sujangphaa",
+   "name": {
+    "en": "Sujangphaa",
+    "as": "চুজাংফা"
+   },
+   "reign": "1407–1422",
+   "face": "faces/sujangphaa.webp"
+  },
+  {
+   "n": 10,
+   "id": "suphakphaa",
+   "name": {
+    "en": "Suphakphaa",
+    "as": "চুফাকফা"
+   },
+   "reign": "1422–1439",
+   "face": "faces/suphakphaa.webp"
+  },
+  {
+   "n": 11,
+   "id": "susenphaa",
+   "name": {
+    "en": "Susenphaa",
+    "as": "চুচেনফা"
+   },
+   "reign": "1439–1488",
+   "face": "faces/susenphaa.webp"
+  },
+  {
+   "n": 12,
+   "id": "suhenphaa",
+   "name": {
+    "en": "Suhenphaa",
+    "as": "চুহেনফা"
+   },
+   "reign": "1488–1493",
+   "face": "faces/suhenphaa.webp"
+  },
+  {
+   "n": 13,
+   "id": "supimphaa",
+   "name": {
+    "en": "Supimphaa",
+    "as": "চুপিম্ফা"
+   },
+   "reign": "1493–1497",
+   "face": "faces/supimphaa.webp"
+  },
+  {
+   "n": 14,
+   "id": "suhungmung",
+   "name": {
+    "en": "Suhungmung",
+    "as": "চুহুংমুং"
+   },
+   "alt": "Swarganarayan",
+   "reign": "1497–1539",
+   "face": "faces/suhungmung.webp"
+  },
+  {
+   "n": 15,
+   "id": "suklenmung",
+   "name": {
+    "en": "Suklenmung",
+    "as": "চুক্লেনমুং"
+   },
+   "alt": "Garhgayan Roja",
+   "reign": "1539–1552",
+   "face": "faces/suklenmung.webp"
+  },
+  {
+   "n": 16,
+   "id": "sukhaamphaa",
+   "name": {
+    "en": "Sukhaamphaa",
+    "as": "চুখাম্ফা (খোৰা ৰজা)"
+   },
+   "alt": "Khora Roja",
+   "reign": "1552–1603",
+   "face": "faces/sukhaamphaa.webp"
+  },
+  {
+   "n": 17,
+   "id": "pratap-singha",
+   "name": {
+    "en": "Pratap Singha",
+    "as": "প্ৰতাপ সিংহ"
+   },
+   "alt": "Susenghphaa",
+   "reign": "1603–1641",
+   "face": "faces/pratap-singha.webp"
+  },
+  {
+   "n": 18,
+   "id": "suramphaa",
+   "name": {
+    "en": "Suramphaa",
+    "as": "চুৰম্ফা (ভোগা ৰজা)"
+   },
+   "alt": "Jayaditya Singha, Bhoga Roja",
+   "reign": "1641–1644",
+   "face": "faces/suramphaa.webp"
+  },
+  {
+   "n": 19,
+   "id": "sutingphaa",
+   "name": {
+    "en": "Sutingphaa",
+    "as": "চুটিংফা (নৰীয়া ৰজা)"
+   },
+   "alt": "Noriya Roja",
+   "reign": "1644–1648",
+   "face": "faces/sutingphaa.webp"
+  },
+  {
+   "n": 20,
+   "id": "jayadhwaj-singha",
+   "name": {
+    "en": "Jayadhwaj Singha",
+    "as": "জয়ধ্বজ সিংহ"
+   },
+   "alt": "Sutamla",
+   "reign": "1648–1663",
+   "face": "faces/jayadhwaj-singha.webp"
+  },
+  {
+   "n": 21,
+   "id": "chakradhwaj-singha",
+   "name": {
+    "en": "Chakradhwaj Singha",
+    "as": "চক্ৰধ্বজ সিংহ"
+   },
+   "alt": "Supangmung",
+   "reign": "1663–1670",
+   "face": "faces/chakradhwaj-singha.webp"
+  },
+  {
+   "n": 22,
+   "id": "udayaditya-singha",
+   "name": {
+    "en": "Udayaditya Singha",
+    "as": "উদয়াদিত্য সিংহ"
+   },
+   "alt": "Sunyatphaa",
+   "reign": "1670–1672",
+   "face": "faces/udayaditya-singha.webp"
+  },
+  {
+   "n": 23,
+   "id": "ramdhwaj-singha",
+   "name": {
+    "en": "Ramdhwaj Singha",
+    "as": "ৰামধ্বজ সিংহ"
+   },
+   "alt": "Suklamphaa",
+   "reign": "1672–1674",
+   "face": "faces/ramdhwaj-singha.webp"
+  },
+  {
+   "n": 24,
+   "id": "suhung",
+   "name": {
+    "en": "Suhung",
+    "as": "সমগুৰিয়া ৰজা"
+   },
+   "alt": "Samaguria Roja",
+   "reign": "1674–1675",
+   "face": "faces/suhung.webp"
+  },
+  {
+   "n": 25,
+   "id": "gobar-roja",
+   "name": {
+    "en": "Gobar Roja",
+    "as": "গোবৰ ৰজা"
+   },
+   "reign": "1675 (about 24 days)",
+   "face": "faces/gobar-roja.webp"
+  },
+  {
+   "n": 26,
+   "id": "sujinphaa",
+   "name": {
+    "en": "Sujinphaa",
+    "as": "চুজিনফা"
+   },
+   "alt": "Arjun Konwar",
+   "reign": "1675–1677",
+   "face": "faces/sujinphaa.webp"
+  },
+  {
+   "n": 27,
+   "id": "sudoiphaa",
+   "name": {
+    "en": "Sudoiphaa",
+    "as": "চুদইফা (পৰ্বতীয়া ৰজা)"
+   },
+   "alt": "Parvatia Roja",
+   "reign": "1677–1679",
+   "face": "faces/sudoiphaa.webp"
+  },
+  {
+   "n": 28,
+   "id": "sulikphaa",
+   "name": {
+    "en": "Sulikphaa",
+    "as": "চুলিকফা (লোৰা ৰজা)"
+   },
+   "alt": "Ratnadhwaj Singha, Lora Roja",
+   "reign": "1679–1681",
+   "face": "faces/sulikphaa.webp"
+  },
+  {
+   "n": 29,
+   "id": "gadadhar-singha",
+   "name": {
+    "en": "Gadadhar Singha",
+    "as": "গদাধৰ সিংহ"
+   },
+   "alt": "Supaatphaa",
+   "reign": "1681–1696",
+   "face": "faces/gadadhar-singha.webp"
+  },
+  {
+   "n": 30,
+   "id": "rudra-singha",
+   "name": {
+    "en": "Rudra Singha",
+    "as": "ৰুদ্ৰ সিংহ"
+   },
+   "alt": "Sukhrungphaa",
+   "reign": "1696–1714",
+   "face": "faces/rudra-singha.webp"
+  },
+  {
+   "n": 31,
+   "id": "siva-singha",
+   "name": {
+    "en": "Siva Singha",
+    "as": "শিৱ সিংহ"
+   },
+   "alt": "Sutanphaa",
+   "reign": "1714–1744",
+   "face": "faces/siva-singha.webp"
+  },
+  {
+   "n": 32,
+   "id": "pramatta-singha",
+   "name": {
+    "en": "Pramatta Singha",
+    "as": "প্ৰমত্ত সিংহ"
+   },
+   "alt": "Sunenphaa",
+   "reign": "1744–1751",
+   "face": "faces/pramatta-singha.webp"
+  },
+  {
+   "n": 33,
+   "id": "rajeswar-singha",
+   "name": {
+    "en": "Rajeswar Singha",
+    "as": "ৰাজেশ্বৰ সিংহ"
+   },
+   "alt": "Suremphaa",
+   "reign": "1751–1769",
+   "face": "faces/rajeswar-singha.webp"
+  },
+  {
+   "n": 34,
+   "id": "lakshmi-singha",
+   "name": {
+    "en": "Lakshmi Singha",
+    "as": "লক্ষ্মী সিংহ"
+   },
+   "alt": "Sunyeophaa",
+   "reign": "1769–1780",
+   "face": "faces/lakshmi-singha.webp"
+  },
+  {
+   "n": 35,
+   "id": "gaurinath-singha",
+   "name": {
+    "en": "Gaurinath Singha",
+    "as": "গৌৰীনাথ সিংহ"
+   },
+   "alt": "Suhitpangphaa",
+   "reign": "1780–1795",
+   "face": "faces/gaurinath-singha.webp"
+  },
+  {
+   "n": 36,
+   "id": "kamaleswar-singha",
+   "name": {
+    "en": "Kamaleswar Singha",
+    "as": "কমলেশ্বৰ সিংহ"
+   },
+   "alt": "Suklingphaa",
+   "reign": "1795–1811",
+   "face": "faces/kamaleswar-singha.webp"
+  },
+  {
+   "n": 37,
+   "id": "chandrakanta-singha",
+   "name": {
+    "en": "Chandrakanta Singha",
+    "as": "চন্দ্ৰকান্ত সিংহ"
+   },
+   "alt": "Sudingphaa · first reign",
+   "reign": "1811–1818",
+   "face": "faces/chandrakanta-singha.webp"
+  },
+  {
+   "n": 38,
+   "id": "purandar-singha",
+   "name": {
+    "en": "Purandar Singha",
+    "as": "পুৰন্দৰ সিংহ"
+   },
+   "alt": "first reign",
+   "reign": "1818–1819",
+   "face": "faces/purandar-singha.webp"
+  },
+  {
+   "n": 39,
+   "id": "chandrakanta-singha",
+   "name": {
+    "en": "Chandrakanta Singha",
+    "as": "চন্দ্ৰকান্ত সিংহ"
+   },
+   "alt": "Sudingphaa · second reign",
+   "reign": "1819–1821",
+   "face": "faces/chandrakanta-singha.webp"
+  },
+  {
+   "n": 40,
+   "id": "jogeswar-singha",
+   "name": {
+    "en": "Jogeswar Singha",
+    "as": "যোগেশ্বৰ সিংহ"
+   },
+   "reign": "1821–1822",
+   "face": "faces/jogeswar-singha.webp"
+  },
+  {
+   "n": 41,
+   "id": "purandar-singha",
+   "name": {
+    "en": "Purandar Singha",
+    "as": "পুৰন্দৰ সিংহ"
+   },
+   "alt": "second reign",
+   "reign": "1833–1838",
+   "face": "faces/purandar-singha.webp"
+  }
+ ]
+}

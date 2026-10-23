@@ -394,3 +394,16 @@ body:has(#as:checked) .linkback small { letter-spacing: 0; text-transform: none;
 @media (prefers-reduced-motion: reduce) { .map .pass-glow { animation: none; } }
 .map .lbl { paint-order: stroke; stroke: var(--land); stroke-width: 4px; stroke-linejoin: round; }
 .map .lbl.passlbl { font-size: 11.5px; }
+
+/* ---------- app shell additions: offline, install, account, errors ---------- */
+.offline-btn { margin-top: 10px; display: inline-flex; align-items: center; gap: 6px; border: 1.5px solid rgba(255,255,255,.35); background: rgba(255,255,255,.12); color: #FFF6EC; border-radius: 99px; padding: 5px 11px; font: inherit; font-size: 12.5px; font-weight: 800; cursor: pointer; }
+.offline-btn:disabled { cursor: default; opacity: .9; }
+.offline-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.chip-top { display: inline-flex; align-items: center; gap: 5px; border: 2px solid var(--line); background: var(--surface); color: var(--terra); border-radius: 10px; padding: 4px 9px; font: inherit; font-size: 12.5px; font-weight: 900; cursor: pointer; }
+.chip-top svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.icon-btn .avatar { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; }
+.icon-btn.signed-in { color: var(--good); }
+.load-error { padding: 60px 26px; text-align: center; }
+.load-error h2 { font-size: 22px; font-weight: 900; margin: 0 0 10px; }
+.load-error p { color: var(--ink-2); font-weight: 700; margin: 0 0 20px; }
+.load-error .btn { text-decoration: none; max-width: 260px; margin: 0 auto; }

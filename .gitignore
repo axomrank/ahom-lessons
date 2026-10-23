@@ -1,6 +1,12 @@
-# Published site = index.html, assets/, lessons/. Everything below stays local.
+# Published site: index.html, lesson.html, app/, content/, icons/, sw.js, manifest, _headers, _redirects.
+# Kept local:
 .claude/
 .test/
 docs/
 product-plan.md
 government-exam-prep-app-brief.txt
+# tool caches
+node_modules/
+.wrangler/
+.firebase/
+*.log

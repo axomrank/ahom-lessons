@@ -1,0 +1,17 @@
+{
+  "name": "Ahom Kings · AxomRank",
+  "short_name": "Ahom Kings",
+  "description": "Short bilingual lessons on the Ahom kingdom for ADRE, TET, APSC and SI aspirants.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F0E4",
+  "theme_color": "#C1572F",
+  "lang": "en",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "version": "d87976a6b9",
+ "courses": [
+  {
+   "id": "ahom-kings",
+   "file": "content/courses/ahom-kings.json"
+  }
+ ],
+ "lessons": {
+  "sukaphaa": {
+   "no": 1,
+   "version": 1,
+   "steps": 7,
+   "title": {
+    "en": "Swargadeo Sukaphaa",
+    "as": "স্বৰ্গদেউ চুকাফা"
+   }
+  },
+  "suteuphaa": {
+   "no": 2,
+   "version": 1,
+   "steps": 5,
+   "title": {
+    "en": "Swargadeo Suteuphaa",
+    "as": "স্বৰ্গদেউ চুতেউফা"
+   }
+  }
+ }
+}

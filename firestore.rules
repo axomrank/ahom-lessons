@@ -1,0 +1,13 @@
+rules_version = '2';
+// Each learner can read and write only their own progress document: users/{uid}.
+// Writes may contain only the fields the app uses (see app/common.js snapshot()).
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if request.auth != null && request.auth.uid == uid
+                   && request.resource.data.keys().hasOnly(["xp", "streak", "lessons", "mistakes", "updated"])
+                   && request.resource.data.xp is int;
+    }
+  }
+}

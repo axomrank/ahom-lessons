@@ -1,0 +1,15 @@
+# Cloudflare Pages caching rules
+/sw.js
+  Cache-Control: no-cache
+/content/manifest.json
+  Cache-Control: no-cache
+/content/lessons/*
+  Cache-Control: public, max-age=300
+/content/courses/*
+  Cache-Control: public, max-age=300
+/content/media/*
+  Cache-Control: public, max-age=604800
+/app/*
+  Cache-Control: public, max-age=3600
+/icons/*
+  Cache-Control: public, max-age=604800
