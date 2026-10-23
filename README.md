@@ -65,6 +65,7 @@ Exercise types: story, mcq, tf, inline, fill, match, order, unscramble, odd, pic
 - Missed questions are saved to the lesson's mistakes list ("Practise your mistakes") and to the daily review (1, 3, 7, 15, 30 days).
 - Passing a lesson test (80%+) opens Unit 1 of the next lesson. A locked lesson keeps its units locked; its last circle is "Jump here".
 - Every lesson page shows the whole course as one path, scrolled to the open lesson.
+
 Add `?all` to the course home or a lesson to unlock everything for review.
 
 Services and deployment: see [SETUP.md](SETUP.md).
