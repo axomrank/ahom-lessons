@@ -1,0 +1,896 @@
+{
+ "id": "suramphaa",
+ "no": 18,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Suramphaa",
+  "as": "স্বৰ্গদেউ চুৰম্ফা"
+ },
+ "reign": {
+  "en": "Reign 1641–1644",
+  "as": "ৰাজত্বকাল ১৬৪১–১৬৪৪"
+ },
+ "portrait": "suramphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VI, pp. 119–121",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Sons Surampha, Sutyinpha and Sai; Sai's plot; promise to make Sutyinpha heir; Sai put to death; Chetia woman, adopted heir, nobles' sons for burial; deposed, poisoned in the hills; Bhaga Raja; Salaguri road; Kachari envoys expelled over the seal; 1642 flood and earthquakes; Ahom burial customs"
+  },
+  {
+   "title": "Suramphaa",
+   "url": "https://en.wikipedia.org/wiki/Suramphaa",
+   "used_for": "Jayaditya Singha, Bhaga Raja, 1641–1644"
+  }
+ ],
+ "review_notes": "Gait gives the popular name as Bhaga Raja, 'deposed king'; the course list spelled it Bhoga Roja (ভোগা), which is changed to Bhaga Roja (ভগা ৰজা).",
+ "buildsOn": {
+  "no": 17,
+  "title": {
+   "en": "Pratap Singha",
+   "as": "প্ৰতাপ সিংহ"
+  },
+  "id": "pratap-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1641",
+    "t": {
+     "en": "Becomes king; promises the throne to his brother",
+     "as": "ৰজা হয়; ভাইক উত্তৰাধিকাৰী পাতিম বুলি প্ৰতিশ্ৰুতি"
+    }
+   },
+   {
+    "y": "1642",
+    "t": {
+     "en": "Great flood and earthquakes",
+     "as": "ডাঙৰ বান আৰু ভূমিকম্প"
+    }
+   },
+   {
+    "y": "1644",
+    "t": {
+     "en": "Deposed by the nobles; Sutingphaa king",
+     "as": "বিষয়াসকলে সিংহাসনচ্যুত কৰে; চুটিংফা ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   94.2,
+   26.45,
+   95.35,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "disang",
+   "garhgaon",
+   "charaideo",
+   "sivasagar"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "sivasagar": {
+    "pos": "w",
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    }
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "disang": {
+    "at": [
+     27.1,
+     95.2
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.12,
+     94.42
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A promise to a brother",
+    "as": "ভাইৰ আগত প্ৰতিশ্ৰুতি"
+   },
+   "learned": [
+    {
+     "en": "Suramphaa, eldest son of Pratap Singha, became king in 1641",
+     "as": "প্ৰতাপ সিংহৰ জ্যেষ্ঠ পুত্ৰ চুৰম্ফা ১৬৪১ চনত ৰজা হয়"
+    },
+    {
+     "en": "He promised his brother Sutingphaa that he would be the heir",
+     "as": "তেওঁ ভাই চুটিংফাক উত্তৰাধিকাৰী পাতিম বুলি প্ৰতিশ্ৰুতি দিয়ে"
+    },
+    {
+     "en": "The youngest brother, Sai, plotted and was put to death",
+     "as": "সৰু ভাই চাইয়ে ষড়যন্ত্ৰ কৰাত মৃত্যুদণ্ড পায়"
+    },
+    {
+     "en": "He sent back Kachari envoys over a royal seal",
+     "as": "ৰাজকীয় মোহৰক লৈ কছাৰী দূতক উভতাই পঠিয়ায়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "court-intrigue.webp",
+     "title": {
+      "en": "Three brothers",
+      "as": "তিনি ভাই"
+     },
+     "text": [
+      {
+       "en": "When [[pratap-singha]] died in <mark>1641</mark>, his three sons stood by. The youngest, Sai, had armed men ready to seize the throne.",
+       "as": "<mark>১৬৪১</mark> চনত [[pratap-singha]]ৰ মৃত্যু হওঁতে তেওঁৰ তিনিজন পুত্ৰ ওচৰতে আছিল। সৰুজন চাইয়ে সিংহাসন দখলৰ বাবে অস্ত্ৰধাৰী লোক সাজু কৰি ৰাখিছিল।"
+      },
+      {
+       "en": "The eldest, [[suramphaa]], told the second, [[sutingphaa]]: 'I have no children; you will be my heir.' Together they shut the gates and stopped Sai.",
+       "as": "জ্যেষ্ঠজন [[suramphaa]]ই দ্বিতীয়জন [[sutingphaa]]ক ক'লে: 'মোৰ সন্তান নাই; তুমিয়েই মোৰ উত্তৰাধিকাৰী।' দুয়ো মিলি দুৱাৰ বন্ধ কৰি চাইক ৰখালে।"
+      }
+     ],
+     "id": "srm.u1.01",
+     "link": {
+      "lesson": 17,
+      "lessonId": "pratap-singha",
+      "unitNo": 7,
+      "unitTitle": {
+       "en": "The end of a long reign",
+       "as": "দীঘলীয়া ৰাজত্বৰ অন্ত"
+      },
+      "note": {
+       "en": "Pratap Singha died in 1641 after a reign of 38 years.",
+       "as": "৩৮ বছৰ ৰাজত্বৰ পিছত ১৬৪১ চনত প্ৰতাপ সিংহৰ মৃত্যু হয়।"
+      }
+     }
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "What did Suramphaa promise Sutingphaa?",
+      "as": "চুৰম্ফাই চুটিংফাক কি প্ৰতিশ্ৰুতি দিছিল?"
+     },
+     "options": [
+      {
+       "en": "To make him his heir",
+       "as": "তেওঁক উত্তৰাধিকাৰী পাতিব"
+      },
+      {
+       "en": "To give him Garhgaon",
+       "as": "তেওঁক গড়গাঁও দিব"
+      },
+      {
+       "en": "To make him Borbarua",
+       "as": "তেওঁক বৰবৰুৱা পাতিব"
+      },
+      {
+       "en": "To marry his daughter",
+       "as": "তেওঁৰ জীয়েকক বিয়া কৰাব"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "He said he was childless and would make Sutingphaa his heir. He later broke this promise.",
+      "as": "তেওঁ নিঃসন্তান বুলি কৈ চুটিংফাক উত্তৰাধিকাৰী পাতিম বুলিছিল। পিছত এই প্ৰতিশ্ৰুতি ভংগ কৰে।"
+     },
+     "id": "srm.u1.02"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The nobles first offered the throne to Sutingphaa, who refused it.",
+      "as": "বিষয়াসকলে প্ৰথমে চুটিংফাক সিংহাসন আগবঢ়াইছিল, তেওঁ নুই কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. Sutingphaa kept his word and would not take the throne over his elder brother.",
+      "as": "শুদ্ধ। চুটিংফাই কথা ৰাখিলে, ককাইৰ ঠাইত সিংহাসন নল'লে।"
+     },
+     "id": "srm.u1.03"
+    },
+    {
+     "type": "story",
+     "art": "embassy",
+     "title": {
+      "en": "A matter of seals",
+      "as": "মোহৰৰ কথা"
+     },
+     "text": [
+      {
+       "en": "Sai plotted again and was put to death. Then [[kachari]] envoys came with congratulations.",
+       "as": "চাইয়ে আকৌ ষড়যন্ত্ৰ কৰিলে আৰু মৃত্যুদণ্ড পালে। তাৰ পিছত কছাৰী দূতে অভিনন্দন লৈ আহিল।"
+      },
+      {
+       "en": "Their letter bore the seal of a <mark>Singha</mark> (an independent king), not of a <mark>Phukan</mark> (a lesser chief). The angry court sent them away in disgrace.",
+       "as": "তেওঁলোকৰ চিঠিত <mark>সিংহ</mark>ৰ (স্বাধীন ৰজাৰ) মোহৰ আছিল, <mark>ফুকন</mark>ৰ (অধীন মুখিয়াৰ) নহয়। খঙত ৰাজসভাই তেওঁলোকক অপমান কৰি পঠিয়াই দিলে।"
+      }
+     ],
+     "id": "srm.u1.04"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "The Kachari letter angered the court because of its",
+      "as": "কছাৰী চিঠিখনে ৰাজসভাক খং তুলিছিল, কাৰণ ইয়াৰ"
+     },
+     "after": {
+      "en": ".",
+      "as": "।"
+     },
+     "options": [
+      {
+       "en": "seal",
+       "as": "মোহৰ"
+      },
+      {
+       "en": "language",
+       "as": "ভাষা"
+      },
+      {
+       "en": "gifts",
+       "as": "উপহাৰ"
+      },
+      {
+       "en": "date",
+       "as": "তাৰিখ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The seal claimed the Kachari king was an equal, not a subordinate.",
+      "as": "মোহৰে কছাৰী ৰজাক অধীন নহয়, সমান বুলি দাবী কৰিছিল।"
+     },
+     "id": "srm.u1.05"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Pratap Singha's youngest son.",
+       "as": "মই প্ৰতাপ সিংহৰ সৰু পুত্ৰ।"
+      },
+      {
+       "en": "I gathered armed men to seize the throne.",
+       "as": "মই সিংহাসন দখলৰ বাবে অস্ত্ৰধাৰী গোটাইছিলোঁ।"
+      },
+      {
+       "en": "I was put to death for plotting.",
+       "as": "ষড়যন্ত্ৰৰ বাবে মোক মৃত্যুদণ্ড দিয়া হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Sai",
+       "as": "চাই"
+      },
+      {
+       "en": "Sutingphaa",
+       "as": "চুটিংফা"
+      },
+      {
+       "en": "Suramphaa",
+       "as": "চুৰম্ফা"
+      },
+      {
+       "en": "Sutamla",
+       "as": "চুতামলা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sai, the youngest son.",
+      "as": "চাই, সৰু পুত্ৰ।"
+     },
+     "id": "srm.u1.06"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these in order.",
+      "as": "ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Pratap Singha falls ill",
+       "as": "প্ৰতাপ সিংহ অসুস্থ"
+      },
+      {
+       "en": "Sai gathers armed men",
+       "as": "চাইয়ে অস্ত্ৰধাৰী গোটায়"
+      },
+      {
+       "en": "Suramphaa promises Sutingphaa",
+       "as": "চুৰম্ফাৰ প্ৰতিশ্ৰুতি"
+      },
+      {
+       "en": "Suramphaa becomes king",
+       "as": "চুৰম্ফা ৰজা হয়"
+      }
+     ],
+     "why": {
+      "en": "Illness → Sai's plot → the promise → Suramphaa crowned in 1641.",
+      "as": "অসুখ → চাইৰ ষড়যন্ত্ৰ → প্ৰতিশ্ৰুতি → ১৬৪১ চনত চুৰম্ফাৰ অভিষেক।"
+     },
+     "id": "srm.u1.07"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Suramphaa",
+        "as": "চুৰম্ফা"
+       },
+       {
+        "en": "Eldest son, king 1641",
+        "as": "জ্যেষ্ঠ পুত্ৰ, ১৬৪১ত ৰজা"
+       }
+      ],
+      [
+       {
+        "en": "Sutingphaa",
+        "as": "চুটিংফা"
+       },
+       {
+        "en": "Second son, promised heir",
+        "as": "দ্বিতীয় পুত্ৰ, প্ৰতিশ্ৰুত উত্তৰাধিকাৰী"
+       }
+      ],
+      [
+       {
+        "en": "Sai",
+        "as": "চাই"
+       },
+       {
+        "en": "Youngest son, executed",
+        "as": "সৰু পুত্ৰ, মৃত্যুদণ্ড"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Pratap Singha's three sons.",
+      "as": "প্ৰতাপ সিংহৰ তিনিজন পুত্ৰ।"
+     },
+     "id": "srm.u1.08"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "moon",
+   "title": {
+    "en": "The deposed king",
+    "as": "ভগা ৰজা"
+   },
+   "learned": [
+    {
+     "en": "He broke his promise and named an adopted boy as heir",
+     "as": "প্ৰতিশ্ৰুতি ভংগ কৰি তেওঁ এজন পোষ্যপুত্ৰক উত্তৰাধিকাৰী পাতে"
+    },
+    {
+     "en": "He demanded nobles' sons to be buried with the dead boy",
+     "as": "মৃত ল'ৰাৰ লগত বিষয়াৰ পুত্ৰক সমাধি দিবলৈ দাবী কৰে"
+    },
+    {
+     "en": "The nobles deposed him in 1644; he was later poisoned",
+     "as": "১৬৪৪ চনত বিষয়াসকলে সিংহাসনচ্যুত কৰে; পিছত বিষপ্ৰয়োগ"
+    },
+    {
+     "en": "So he is remembered as the Bhaga Roja",
+     "as": "সেয়ে তেওঁক ভগা ৰজা বুলি মনত ৰখা হয়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "deposition.webp",
+     "title": {
+      "en": "A broken promise",
+      "as": "ভঙা প্ৰতিশ্ৰুতি"
+     },
+     "text": [
+      {
+       "en": "Suramphaa took a married woman of the Chetia clan into his palace after having her husband poisoned. She adopted a boy, and the king declared him heir.",
+       "as": "চুৰম্ফাই চেতিয়া খেলৰ এগৰাকী বিবাহিতা মহিলাৰ স্বামীক বিষ খুৱাই তেওঁক ৰাজপ্ৰসাদলৈ আনিলে। তেওঁ এটা ল'ৰা পোষ্য ল'লে, আৰু ৰজাই তাক উত্তৰাধিকাৰী ঘোষণা কৰিলে।"
+      },
+      {
+       "en": "So the promise to Sutingphaa was broken. When the boy died, Sutingphaa's son was blamed and Sutingphaa lost all he had.",
+       "as": "এইদৰে চুটিংফাৰ আগত দিয়া প্ৰতিশ্ৰুতি ভাঙিল। ল'ৰাটোৰ মৃত্যু হোৱাত চুটিংফাৰ পুত্ৰক দোষ দিয়া হ'ল, আৰু চুটিংফাই সৰ্বস্ব হেৰুৱালে।"
+      }
+     ],
+     "id": "srm.u2.01"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Suramphaa kept his promise to make Sutingphaa his heir.",
+      "as": "চুৰম্ফাই চুটিংফাক উত্তৰাধিকাৰী পতাৰ প্ৰতিশ্ৰুতি ৰাখিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He named an adopted boy as heir instead.",
+      "as": "অশুদ্ধ। তাৰ সলনি তেওঁ এজন পোষ্যপুত্ৰক উত্তৰাধিকাৰী পাতিছিল।"
+     },
+     "id": "srm.u2.02"
+    },
+    {
+     "type": "story",
+     "img": "shared/moidams.webp",
+     "title": {
+      "en": "Buried with the dead",
+      "as": "মৃতৰ লগত সমাধি"
+     },
+     "text": [
+      {
+       "en": "The Ahoms had an old custom of burying servants and animals in the tombs of great people. When Pratap Singha's mother died, elephants, horses and seven men were buried with her.",
+       "as": "বিশিষ্ট লোকৰ সমাধিত দাস আৰু পশু পুতি থোৱাৰ এক পুৰণি আহোম প্ৰথা আছিল। প্ৰতাপ সিংহৰ মাতৃৰ মৃত্যু হওঁতে তেওঁৰ লগত হাতী, ঘোঁৰা আৰু সাতজন মানুহ পোতা হৈছিল।"
+      },
+      {
+       "en": "Suramphaa went further: he ordered each chief noble to give a son to be buried with the adopted boy. The nobles had had enough.",
+       "as": "চুৰম্ফাই আৰু আগবাঢ়িল: তেওঁ প্ৰতিজন প্ৰধান বিষয়াক পোষ্যপুত্ৰৰ লগত পুতিবলৈ এজন পুত্ৰ দিবলৈ আদেশ দিলে। বিষয়াসকলৰ ধৈৰ্যৰ বান্ধ ভাঙিল।"
+      }
+     ],
+     "id": "srm.u2.03",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 6,
+      "unitTitle": {
+       "en": "Legacy",
+       "as": "উত্তৰাধিকাৰ"
+      },
+      "note": {
+       "en": "Ahom kings and queens were buried in moidams at Charaideo.",
+       "as": "আহোম ৰজা-ৰাণীসকলক চৰাইদেউৰ মৈদামত সমাধিস্থ কৰা হৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Why did the nobles finally turn against Suramphaa?",
+      "as": "শেষত বিষয়াসকল কিয় চুৰম্ফাৰ বিৰুদ্ধে গৈছিল?"
+     },
+     "options": [
+      {
+       "en": "He wanted their sons buried with his adopted heir",
+       "as": "পোষ্যপুত্ৰৰ লগত তেওঁলোকৰ পুত্ৰক পুতিব বিচাৰিছিল"
+      },
+      {
+       "en": "He lost a war to the Mughals",
+       "as": "মোগলৰ হাতত যুদ্ধত হাৰিছিল"
+      },
+      {
+       "en": "He became a Vaishnava",
+       "as": "বৈষ্ণৱ হৈছিল"
+      },
+      {
+       "en": "He moved the capital",
+       "as": "ৰাজধানী সলাইছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gait notes it was not the old custom itself, but who the victims were to be, that caused the revolt.",
+      "as": "গেইটৰ মতে পুৰণি প্ৰথাটো নহয়, বলি হ'বলগীয়াসকল কোন সেয়াহে বিদ্ৰোহৰ কাৰণ।"
+     },
+     "id": "srm.u2.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The fall",
+      "as": "পতন"
+     },
+     "text": [
+      {
+       "en": "The nobles turned to Sutingphaa, who agreed, though unwillingly. Armed men entered the city and took Suramphaa by surprise in <mark>1644</mark>.",
+       "as": "বিষয়াসকলে চুটিংফাৰ ওচৰলৈ গ'ল; তেওঁ অনিচ্ছাৰে মান্তি হ'ল। <mark>১৬৪৪</mark> চনত অস্ত্ৰধাৰী লোক নগৰত সোমাই চুৰম্ফাক অতৰ্কিতে ধৰিলে।"
+      },
+      {
+       "en": "He was sent to a remote place in the hills and later poisoned. Because he was deposed, he is called the [[bhaga-roja|Bhaga Roja]].",
+       "as": "তেওঁক পাহাৰৰ এক দূৰৈৰ ঠাইলৈ পঠোৱা হ'ল আৰু পিছত বিষ খুৱাই মৰা হ'ল। সিংহাসনচ্যুত হোৱা বাবে তেওঁক [[bhaga-roja]] বোলা হয়।"
+      }
+     ],
+     "id": "srm.u2.05"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Suramphaa is known as the",
+      "as": "চুৰম্ফাক কোৱা হয়"
+     },
+     "after": {
+      "en": "Roja.",
+      "as": "ৰজা।"
+     },
+     "options": [
+      {
+       "en": "Bhaga",
+       "as": "ভগা"
+      },
+      {
+       "en": "Khora",
+       "as": "খোৰা"
+      },
+      {
+       "en": "Noriya",
+       "as": "নৰীয়া"
+      },
+      {
+       "en": "Burha",
+       "as": "বুঢ়া"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Bhaga Roja, 'the deposed king'. Noriya Roja was his brother Sutingphaa.",
+      "as": "ভগা ৰজা, 'সিংহাসনচ্যুত ৰজা'। নৰীয়া ৰজা তেওঁৰ ভাই চুটিংফা।"
+     },
+     "id": "srm.u2.06"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Suramphaa",
+       "ruled",
+       "for",
+       "thirty",
+       "years",
+       "before",
+       "he",
+       "was",
+       "deposed."
+      ],
+      "as": [
+       "চুৰম্ফাই",
+       "সিংহাসনচ্যুত",
+       "হোৱাৰ",
+       "আগতে",
+       "ত্ৰিশ",
+       "বছৰ",
+       "ৰাজত্ব",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 3,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ three",
+      "as": "→ তিনি"
+     },
+     "answerText": {
+      "en": "thirty → three",
+      "as": "ত্ৰিশ → তিনি"
+     },
+     "why": {
+      "en": "He ruled only three years, 1641–1644.",
+      "as": "তেওঁ মাত্ৰ তিনি বছৰ, ১৬৪১–১৬৪৪ লৈকে ৰাজত্ব কৰিছিল।"
+     },
+     "id": "srm.u2.07"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one is NOT part of Suramphaa's story?",
+      "as": "কোনটো চুৰম্ফাৰ কাহিনীৰ অংশ নহয়?"
+     },
+     "options": [
+      {
+       "en": "A broken promise",
+       "as": "ভঙা প্ৰতিশ্ৰুতি"
+      },
+      {
+       "en": "An adopted heir",
+       "as": "পোষ্য উত্তৰাধিকাৰী"
+      },
+      {
+       "en": "Deposed by nobles",
+       "as": "বিষয়াৰ হাতত সিংহাসনচ্যুত"
+      },
+      {
+       "en": "Treaty with Mir Jumla",
+       "as": "মীৰজুমলাৰ সৈতে সন্ধি"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "The treaty with Mir Jumla came in 1663, under Jayadhwaj Singha.",
+      "as": "মীৰজুমলাৰ সৈতে সন্ধি ১৬৬৩ চনত, জয়ধ্বজ সিংহৰ দিনত।"
+     },
+     "id": "srm.u2.08"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Suramphaa",
+    "as": "তুমি স্বৰ্গদেউ চুৰম্ফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was Pratap Singha's eldest son.",
+      "as": "মই প্ৰতাপ সিংহৰ জ্যেষ্ঠ পুত্ৰ।"
+     },
+     {
+      "en": "I broke my promise to my brother.",
+      "as": "মই ভাইৰ আগত দিয়া প্ৰতিশ্ৰুতি ভাঙিছিলোঁ।"
+     },
+     {
+      "en": "I am called the Bhaga Roja.",
+      "as": "মোক ভগা ৰজা বোলা হয়।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Suramphaa",
+      "as": "চুৰম্ফা"
+     },
+     {
+      "en": "Sutingphaa",
+      "as": "চুটিংফা"
+     },
+     {
+      "en": "Sukhaamphaa",
+      "as": "চুখাম্ফা"
+     },
+     {
+      "en": "Suhenphaa",
+      "as": "চুহেনফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Suramphaa (1641–1644).",
+     "as": "চুৰম্ফা (১৬৪১–১৬৪৪)।"
+    },
+    "id": "srm.test.01"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "Suramphaa was deposed in",
+     "as": "চুৰম্ফা সিংহাসনচ্যুত হৈছিল"
+    },
+    "after": {
+     "en": ".",
+     "as": "চনত।"
+    },
+    "options": [
+     {
+      "en": "1641",
+      "as": "১৬৪১"
+     },
+     {
+      "en": "1644",
+      "as": "১৬৪৪"
+     },
+     {
+      "en": "1648",
+      "as": "১৬৪৮"
+     },
+     {
+      "en": "1663",
+      "as": "১৬৬৩"
+     }
+    ],
+    "answer": 1,
+    "why": {
+     "en": "1644.",
+     "as": "১৬৪৪।"
+    },
+    "big": true,
+    "id": "srm.test.02"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Suramphaa was the son of Pratap Singha.<br>2. Suramphaa died on the throne of old age.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুৰম্ফা প্ৰতাপ সিংহৰ পুত্ৰ আছিল।<br>২. চুৰম্ফাৰ সিংহাসনতে বাৰ্ধক্যত মৃত্যু হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. He was deposed and later poisoned.",
+     "as": "কেৱল ১। তেওঁ সিংহাসনচ্যুত হৈছিল আৰু পিছত বিষপ্ৰয়োগত মৃত্যু।"
+    },
+    "small": true,
+    "id": "srm.test.03"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The nobles who deposed Suramphaa made his brother Sutingphaa king.",
+     "as": "চুৰম্ফাক সিংহাসনচ্যুত কৰা বিষয়াসকলে তেওঁৰ ভাই চুটিংফাক ৰজা পাতিছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "srm.test.04"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Why were Kachari envoys sent away in Suramphaa's reign?",
+     "as": "চুৰম্ফাৰ দিনত কছাৰী দূতক কিয় উভতাই পঠোৱা হৈছিল?"
+    },
+    "options": [
+     {
+      "en": "Their letter bore a king's seal, not a chief's",
+      "as": "চিঠিত মুখিয়াৰ নহয়, ৰজাৰ মোহৰ"
+     },
+     {
+      "en": "They came armed",
+      "as": "তেওঁলোক অস্ত্ৰ লৈ আহিছিল"
+     },
+     {
+      "en": "They were spies",
+      "as": "তেওঁলোক চোৰাংচোৱা"
+     },
+     {
+      "en": "They brought no gifts",
+      "as": "উপহাৰ অনা নাছিল"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "The seal of a 'Singha' claimed independence.",
+     "as": "'সিংহ'ৰ মোহৰে স্বাধীনতা দাবী কৰিছিল।"
+    },
+    "id": "srm.test.05"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Match each king to his nickname.",
+     "as": "প্ৰতিজন ৰজাক উপনামৰ সৈতে মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Sukhaamphaa",
+       "as": "চুখাম্ফা"
+      },
+      {
+       "en": "Khora Roja",
+       "as": "খোৰা ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Pratap Singha",
+       "as": "প্ৰতাপ সিংহ"
+      },
+      {
+       "en": "Burha Roja",
+       "as": "বুঢ়া ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Suramphaa",
+       "as": "চুৰম্ফা"
+      },
+      {
+       "en": "Bhaga Roja",
+       "as": "ভগা ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Sutingphaa",
+       "as": "চুটিংফা"
+      },
+      {
+       "en": "Noriya Roja",
+       "as": "নৰীয়া ৰজা"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Four kings in a row, four nicknames.",
+     "as": "পৰ পৰে চাৰিজন ৰজা, চাৰিটা উপনাম।"
+    },
+    "id": "srm.test.06"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Pratap Singha dies",
+      "as": "প্ৰতাপ সিংহৰ মৃত্যু"
+     },
+     {
+      "en": "Suramphaa crowned",
+      "as": "চুৰম্ফাৰ অভিষেক"
+     },
+     {
+      "en": "Adopted boy named heir",
+      "as": "পোষ্যপুত্ৰ উত্তৰাধিকাৰী"
+     },
+     {
+      "en": "Suramphaa deposed",
+      "as": "চুৰম্ফা সিংহাসনচ্যুত"
+     }
+    ],
+    "why": {
+     "en": "1641 → 1641 → about 1643 → 1644.",
+     "as": "১৬৪১ → ১৬৪১ → প্ৰায় ১৬৪৩ → ১৬৪৪।"
+    },
+    "id": "srm.test.07"
+   }
+  ]
+ }
+}

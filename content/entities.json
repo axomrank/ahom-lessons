@@ -1426,5 +1426,304 @@
    "en": "Susengphaa, king 1603–1641; created the Borbarua and Borphukan; fought the Mughals",
    "as": "চুচেংফা, ১৬০৩–১৬৪১ লৈকে ৰজা; বৰবৰুৱা আৰু বৰফুকন পদ সৃষ্টি কৰে; মোগলৰ সৈতে যুঁজে"
   }
+ },
+ "borbarua": {
+  "type": "office",
+  "name": {
+   "en": "Borbarua",
+   "as": "বৰবৰুৱা"
+  },
+  "meaning": {
+   "en": "High office created by Pratap Singha: chief of the Upper Assam administration, judge and commander; Momai Tamuli was the first",
+   "as": "প্ৰতাপ সিংহই সৃষ্টি কৰা উচ্চ পদ: উজনি অসমৰ প্ৰশাসন, বিচাৰ আৰু সেনাৰ মুৰব্বী; মোমাই তামুলী প্ৰথম"
+  }
+ },
+ "borphukan": {
+  "type": "office",
+  "name": {
+   "en": "Borphukan",
+   "as": "বৰফুকন"
+  },
+  "meaning": {
+   "en": "Viceroy of the west, from Kaliabor and later Guwahati; created by Pratap Singha, first held by Langi Panisiya",
+   "as": "পশ্চিমৰ শাসনকৰ্তা, কলিয়াবৰ আৰু পিছত গুৱাহাটীৰ পৰা; প্ৰতাপ সিংহই সৃষ্টি কৰে; প্ৰথম লাংগী পানীচিয়া"
+  }
+ },
+ "momai-tamuli": {
+  "type": "person",
+  "name": {
+   "en": "Momai Tamuli Borbarua",
+   "as": "মোমাই তামুলী বৰবৰুৱা"
+  },
+  "meaning": {
+   "en": "First Borbarua; reorganised the paik system; signed the Treaty of Asurar Ali (1639); father of Lachit Borphukan",
+   "as": "প্ৰথম বৰবৰুৱা; পাইক ব্যৱস্থা পুনৰ গঢ়ে; অসুৰৰ আলিৰ সন্ধি (১৬৩৯) কৰে; লাচিত বৰফুকনৰ পিতৃ"
+  }
+ },
+ "langi-panisiya": {
+  "type": "person",
+  "name": {
+   "en": "Langi Panisiya",
+   "as": "লাংগী পানীচিয়া"
+  },
+  "meaning": {
+   "en": "First Borphukan, rewarded for rallying the army after the defeat at Hajo",
+   "as": "প্ৰথম বৰফুকন; হাজোৰ পৰাজয়ৰ পিছত সৈন্য একত্ৰিত কৰাৰ পুৰস্কাৰ"
+  }
+ },
+ "got": {
+  "type": "term",
+  "name": {
+   "en": "Got",
+   "as": "গোট"
+  },
+  "meaning": {
+   "en": "A unit of three or four paiks: one served the state while the others worked his land",
+   "as": "তিনি বা চাৰিজন পাইকৰ দল: এজনে ৰাজ্যৰ সেৱা কৰে, বাকীসকলে তেওঁৰ মাটি চোৱে"
+  }
+ },
+ "khel": {
+  "type": "term",
+  "name": {
+   "en": "Khel",
+   "as": "খেল"
+  },
+  "meaning": {
+   "en": "A larger group of paiks under an officer, organised by work or service",
+   "as": "বিষয়াৰ অধীনত পাইকৰ ডাঙৰ দল, কাম বা সেৱা অনুসৰি গঠিত"
+  }
+ },
+ "mughal": {
+  "type": "people",
+  "name": {
+   "en": "Mughals",
+   "as": "মোগল"
+  },
+  "meaning": {
+   "en": "The empire ruling north India from Delhi and Agra; fought the Ahoms from 1615 to 1682",
+   "as": "দিল্লী-আগ্ৰাৰ পৰা উত্তৰ ভাৰত শাসন কৰা সাম্ৰাজ্য; ১৬১৫ৰ পৰা ১৬৮২ লৈকে আহোমৰ সৈতে যুঁজে"
+  }
+ },
+ "hajo": {
+  "type": "place",
+  "name": {
+   "en": "Hajo",
+   "as": "হাজো"
+  },
+  "meaning": {
+   "en": "Town on the north bank west of Guwahati; Mughal base in Kamrup in the 1600s",
+   "as": "গুৱাহাটীৰ পশ্চিমে উত্তৰ পাৰৰ নগৰ; ১৬০০ৰ দশকত কামৰূপত মোগলৰ ঘাঁটি"
+  },
+  "geo": [
+   26.25,
+   91.53
+  ]
+ },
+ "guwahati": {
+  "type": "place",
+  "name": {
+   "en": "Guwahati",
+   "as": "গুৱাহাটী"
+  },
+  "meaning": {
+   "en": "Chief town of Lower Assam on the Brahmaputra; fought over by the Ahoms and Mughals; seat of the Borphukan from 1667",
+   "as": "ব্ৰহ্মপুত্ৰৰ পাৰৰ নামনি অসমৰ মূল নগৰ; আহোম-মোগলৰ যুদ্ধৰ কেন্দ্ৰ; ১৬৬৭ৰ পৰা বৰফুকনৰ ঠাই"
+  },
+  "geo": [
+   26.18,
+   91.75
+  ]
+ },
+ "samdhara": {
+  "type": "place",
+  "name": {
+   "en": "Samdhara",
+   "as": "সমধাৰা"
+  },
+  "meaning": {
+   "en": "Ahom fort on the north bank near the mouth of the Bharali, where Abu Bakr's fleet was destroyed in 1616",
+   "as": "ভৰলীৰ মুখৰ ওচৰৰ উত্তৰ পাৰৰ আহোম গড়; ১৬১৬ চনত ইয়াতে আবু বকৰৰ নৌবহৰ ধ্বংস হয়"
+  },
+  "geo": [
+   26.62,
+   92.88
+  ]
+ },
+ "asurar-ali": {
+  "type": "term",
+  "name": {
+   "en": "Treaty of Asurar Ali",
+   "as": "অসুৰৰ আলিৰ সন্ধি"
+  },
+  "meaning": {
+   "en": "1639 treaty between the Ahoms and Mughals: the Barnadi (north bank) and the Asurar Ali road (south bank) became the border",
+   "as": "১৬৩৯ চনৰ আহোম-মোগল সন্ধি: উত্তৰ পাৰত বৰনদী আৰু দক্ষিণ পাৰত অসুৰৰ আলি সীমা হয়"
+  }
+ },
+ "jaintia": {
+  "type": "people",
+  "name": {
+   "en": "Jaintias",
+   "as": "জয়ন্তীয়া"
+  },
+  "meaning": {
+   "en": "People of the Jaintia kingdom in the hills south of the Kacharis, capital Jaintiapur",
+   "as": "কছাৰীৰ দক্ষিণৰ পাহাৰৰ জয়ন্তীয়া ৰাজ্যৰ লোক; ৰাজধানী জয়ন্তীয়াপুৰ"
+  }
+ },
+ "mangaldoi": {
+  "type": "person",
+  "name": {
+   "en": "Mangaldoi",
+   "as": "মংগলদৈ"
+  },
+  "meaning": {
+   "en": "Koch princess married to Pratap Singha in 1608; the town of Mangaldai is said to be named after her",
+   "as": "১৬০৮ চনত প্ৰতাপ সিংহক বিয়া দিয়া কোচ কুমাৰী; মংগলদৈ নগৰ তেওঁৰ নামেৰে বুলি কোৱা হয়"
+  }
+ },
+ "balinarayan": {
+  "type": "person",
+  "name": {
+   "en": "Balinarayan",
+   "as": "বলিনাৰায়ণ"
+  },
+  "meaning": {
+   "en": "Koch prince who fled to Pratap Singha from the Mughals; made Raja of Darrang as Dharma Narayan; killed in 1637",
+   "as": "মোগলৰ পৰা পলাই প্ৰতাপ সিংহৰ ওচৰলৈ অহা কোচ কোঁৱৰ; ধৰ্মনাৰায়ণ নামেৰে দৰঙৰ ৰজা; ১৬৩৭ চনত নিহত"
+  }
+ },
+ "satrajit": {
+  "type": "person",
+  "name": {
+   "en": "Satrajit",
+   "as": "সত্ৰাজিৎ"
+  },
+  "meaning": {
+   "en": "Zamindar who served the Mughals as thanadar of Pandu and Guwahati and changed sides often; executed by them in 1637",
+   "as": "মোগলৰ পাণ্ডু আৰু গুৱাহাটীৰ থানাদাৰ জমিদাৰ; বাৰে বাৰে পক্ষ সলায়; ১৬৩৭ চনত মোগলে প্ৰাণদণ্ড দিয়ে"
+  }
+ },
+ "biswanath": {
+  "type": "place",
+  "name": {
+   "en": "Biswanath",
+   "as": "বিশ্বনাথ"
+  },
+  "meaning": {
+   "en": "Town on the north bank; Pratap Singha built a Siva temple here",
+   "as": "উত্তৰ পাৰৰ নগৰ; প্ৰতাপ সিংহই ইয়াত শিৱ মন্দিৰ সাজিছিল"
+  },
+  "geo": [
+   26.73,
+   93.15
+  ]
+ },
+ "dergaon": {
+  "type": "place",
+  "name": {
+   "en": "Dergaon",
+   "as": "দেৰগাঁও"
+  },
+  "meaning": {
+   "en": "Town in Golaghat; Pratap Singha built a Siva temple here",
+   "as": "গোলাঘাটৰ নগৰ; প্ৰতাপ সিংহই ইয়াত শিৱ মন্দিৰ সাজিছিল"
+  },
+  "geo": [
+   26.7,
+   93.97
+  ]
+ },
+ "kajali": {
+  "type": "place",
+  "name": {
+   "en": "Kajali",
+   "as": "কাজলী"
+  },
+  "meaning": {
+   "en": "Fort at the mouth of the Kolong, opposite Guwahati's eastern approaches; early seat of the Borphukan",
+   "as": "কলঙৰ মুখৰ গড়; বৰফুকনৰ আৰম্ভণিৰ কেন্দ্ৰ"
+  },
+  "geo": [
+   26.24,
+   92.05
+  ]
+ },
+ "suramphaa": {
+  "type": "person",
+  "name": {
+   "en": "Suramphaa",
+   "as": "চুৰম্ফা"
+  },
+  "meaning": {
+   "en": "Bhaga Roja, eldest son of Pratap Singha; king 1641–1644, deposed",
+   "as": "ভগা ৰজা, প্ৰতাপ সিংহৰ জ্যেষ্ঠ পুত্ৰ; ১৬৪১–১৬৪৪ লৈকে ৰজা, পদচ্যুত"
+  }
+ },
+ "bhaga-roja": {
+  "type": "term",
+  "name": {
+   "en": "Bhaga Roja",
+   "as": "ভগা ৰজা"
+  },
+  "meaning": {
+   "en": "'The deposed king': Suramphaa, removed from the throne by the nobles in 1644",
+   "as": "'ভগা ৰজা': ১৬৪৪ চনত বিষয়াসকলে সিংহাসনচ্যুত কৰা চুৰম্ফা"
+  }
+ },
+ "noriya-roja": {
+  "type": "term",
+  "name": {
+   "en": "Noriya Roja",
+   "as": "নৰীয়া ৰজা"
+  },
+  "meaning": {
+   "en": "'The sick king': Sutingphaa, who was often ill and had a bent spine",
+   "as": "'নৰীয়া ৰজা': প্ৰায়ে অসুস্থ আৰু কুঁজা মেৰুদণ্ডৰ চুটিংফা"
+  }
+ },
+ "sutingphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sutingphaa",
+   "as": "চুটিংফা"
+  },
+  "meaning": {
+   "en": "Noriya Roja, son of Pratap Singha; king 1644–1648; deposed and poisoned",
+   "as": "নৰীয়া ৰজা, প্ৰতাপ সিংহৰ পুত্ৰ; ১৬৪৪–১৬৪৮ লৈকে ৰজা; সিংহাসনচ্যুত আৰু বিষপ্ৰয়োগত হত্যা"
+  }
+ },
+ "jayadhwaj-singha": {
+  "type": "person",
+  "name": {
+   "en": "Jayadhwaj Singha",
+   "as": "জয়ধ্বজ সিংহ"
+  },
+  "meaning": {
+   "en": "Sutamla, son of Sutingphaa; king 1648–1663; lost Garhgaon to Mir Jumla and signed the Treaty of Ghilajharighat",
+   "as": "চুতামলা, চুটিংফাৰ পুত্ৰ; ১৬৪৮–১৬৬৩ লৈকে ৰজা; মীৰজুমলাৰ হাতত গড়গাঁও হেৰুৱায় আৰু ঘিলাধাৰীঘাটৰ সন্ধি কৰে"
+  }
+ },
+ "dafla": {
+  "type": "people",
+  "name": {
+   "en": "Daflas (Nyishi)",
+   "as": "ডফলা (নিচি)"
+  },
+  "meaning": {
+   "en": "Hill people north of the Brahmaputra, in today's Arunachal Pradesh; now called the Nyishi",
+   "as": "ব্ৰহ্মপুত্ৰৰ উত্তৰৰ পাহাৰৰ লোক, আজিৰ অৰুণাচল প্ৰদেশত; এতিয়া নিচি বোলা হয়"
+  }
+ },
+ "dikrong": {
+  "type": "river",
+  "name": {
+   "en": "Dikrong",
+   "as": "ডিক্ৰং"
+  },
+  "meaning": {
+   "en": "North-bank river from the Dafla hills, flowing past today's Lakhimpur",
+   "as": "ডফলা পাহাৰৰ পৰা নামি অহা উত্তৰ পাৰৰ নদী, আজিৰ লখিমপুৰৰ কাষেৰে"
+  }
  }
 }

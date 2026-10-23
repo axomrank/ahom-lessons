@@ -1479,6 +1479,246 @@
     "en": "Sukhaamphaa, 51 years (1552–1603). Susenphaa ruled 49, Suhungmung 42.",
     "as": "চুখাম্ফা, ৫১ বছৰ (১৫৫২–১৬০৩)। চুচেনফা ৪৯, চুহুংমুং ৪২।"
    }
+  },
+  {
+   "id": "bank.mughal.01",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "pratap-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The offices of Borbarua and Borphukan were created by:",
+    "as": "বৰবৰুৱা আৰু বৰফুকন পদ কোনে সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    },
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Pratap Singha.",
+    "as": "প্ৰতাপ সিংহই।"
+   }
+  },
+  {
+   "id": "bank.mughal.02",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "pratap-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first Borbarua was:",
+    "as": "প্ৰথম বৰবৰুৱা আছিল:"
+   },
+   "options": [
+    {
+     "en": "Lachit",
+     "as": "লাচিত"
+    },
+    {
+     "en": "Momai Tamuli",
+     "as": "মোমাই তামুলী"
+    },
+    {
+     "en": "Langi Panisiya",
+     "as": "লাংগী পানীচিয়া"
+    },
+    {
+     "en": "Atan Burhagohain",
+     "as": "আতন বুঢ়াগোহাঁই"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Momai Tamuli, father of Lachit.",
+    "as": "মোমাই তামুলী, লাচিতৰ পিতৃ।"
+   }
+  },
+  {
+   "id": "bank.mughal.03",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "pratap-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Treaty of Asurar Ali (1639) was signed between the Ahoms and the:",
+    "as": "অসুৰৰ আলিৰ সন্ধি (১৬৩৯) আহোম আৰু কাৰ মাজত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Koches",
+     "as": "কোচ"
+    },
+    {
+     "en": "Mughals",
+     "as": "মোগল"
+    },
+    {
+     "en": "Kacharis",
+     "as": "কছাৰী"
+    },
+    {
+     "en": "Burmese",
+     "as": "মান"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "The Mughals; the Barnadi and the Asurar Ali became the border.",
+    "as": "মোগলৰ সৈতে; বৰনদী আৰু অসুৰৰ আলি সীমা হ'ল।"
+   }
+  },
+  {
+   "id": "bank.mughal.04",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "pratap-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which Ahom king was known as Buddhiswarganarayan?",
+    "as": "কোনজন আহোম ৰজা বুদ্ধিস্বৰ্গনাৰায়ণ নামে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Siva Singha",
+     "as": "শিৱ সিংহ"
+    },
+    {
+     "en": "Rajeswar Singha",
+     "as": "ৰাজেশ্বৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Pratap Singha, for his wisdom.",
+    "as": "প্ৰতাপ সিংহ, জ্ঞানৰ বাবে।"
+   }
+  },
+  {
+   "id": "bank.mughal.05",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "suramphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which Ahom king is known as the Bhaga Roja?",
+    "as": "কোনজন আহোম ৰজাক ভগা ৰজা বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Suramphaa",
+     "as": "চুৰম্ফা"
+    },
+    {
+     "en": "Sutingphaa",
+     "as": "চুটিংফা"
+    },
+    {
+     "en": "Sukhaamphaa",
+     "as": "চুখাম্ফা"
+    },
+    {
+     "en": "Sulikphaa",
+     "as": "চুলিকফা"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Suramphaa, deposed in 1644.",
+    "as": "চুৰম্ফা, ১৬৪৪ চনত সিংহাসনচ্যুত।"
+   }
+  },
+  {
+   "id": "bank.mughal.06",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "suramphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Ahom king known as the Noriya Roja was:",
+    "as": "নৰীয়া ৰজা নামে জনাজাত আহোম ৰজা:"
+   },
+   "options": [
+    {
+     "en": "Sutingphaa",
+     "as": "চুটিংফা"
+    },
+    {
+     "en": "Suhung",
+     "as": "চুহুং"
+    },
+    {
+     "en": "Sudoiphaa",
+     "as": "চুদৈফা"
+    },
+    {
+     "en": "Pramatta Singha",
+     "as": "প্ৰমত্ত সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Sutingphaa, often sick.",
+    "as": "চুটিংফা, প্ৰায়ে অসুস্থ।"
+   }
   }
  ]
 }

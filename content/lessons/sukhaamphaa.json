@@ -30,12 +30,12 @@
  ],
  "review_notes": "The name 'Treaty of Majuli' is used by textbooks and Wikipedia; Gait gives the terms without naming the place. Gait dates Chilarai's main invasion to January 1563 (some books say 1562). Reign length follows the Buranjis (51 years), as Gait prefers, not Kasinath (59).",
  "buildsOn": {
-  "no": 14,
+  "no": 15,
   "title": {
-   "en": "Suhungmung",
-   "as": "চুহুংমুং"
+   "en": "Suklenmung",
+   "as": "চুক্লেনমুং"
   },
-  "id": "suhungmung"
+  "id": "suklenmung"
  },
  "guide": {
   "timeline": [
@@ -275,8 +275,8 @@
      ],
      "answer": 0,
      "why": {
-      "en": "'Khora' means lame. He hurt his foot catching elephants. Do not mix him up with the Bhoga Roja (Suramphaa) or Burha Roja (Pratap Singha).",
-      "as": "'খোৰা' মানে লেঙেৰা। হাতী ধৰোঁতে তেওঁৰ ভৰিত আঘাত লাগিছিল। ভোগা ৰজা (চুৰম্ফা) বা বুঢ়া ৰজা (প্ৰতাপ সিংহ)ৰ সৈতে খেলিমেলি নকৰিবা।"
+      "en": "'Khora' means lame. He hurt his foot catching elephants. Do not mix him up with the Bhaga Roja (Suramphaa) or Burha Roja (Pratap Singha).",
+      "as": "'খোৰা' মানে লেঙেৰা। হাতী ধৰোঁতে তেওঁৰ ভৰিত আঘাত লাগিছিল। ভগা ৰজা (চুৰম্ফা) বা বুঢ়া ৰজা (প্ৰতাপ সিংহ)ৰ সৈতে খেলিমেলি নকৰিবা।"
      },
      "id": "skp.u1.02"
     },
@@ -1588,7 +1588,7 @@
     "answer": "Khora",
     "asOptions": [
      "খোৰা",
-     "ভোগা",
+     "ভগা",
      "নৰীয়া",
      "বুঢ়া"
     ],

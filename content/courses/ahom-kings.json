@@ -402,16 +402,17 @@
      "en": "Son of Sukhaamphaa",
      "as": "চুখাম্ফা (খোৰা ৰজা)ৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "pratap-singha"
   },
   {
    "n": 18,
    "id": "suramphaa",
    "name": {
     "en": "Suramphaa",
-    "as": "চুৰম্ফা (ভোগা ৰজা)"
+    "as": "চুৰম্ফা (ভগা ৰজা)"
    },
-   "alt": "Jayaditya Singha, Bhoga Roja",
+   "alt": "Jayaditya Singha, Bhaga Roja",
    "reign": "1641–1644",
    "face": "faces/suramphaa.webp",
    "tier": "C",
@@ -422,7 +423,8 @@
      "en": "Son of Pratap Singha",
      "as": "প্ৰতাপ সিংহৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "suramphaa"
   },
   {
    "n": 19,
@@ -440,9 +442,10 @@
     "of": "suramphaa",
     "t": {
      "en": "Brother of Suramphaa",
-     "as": "চুৰম্ফা (ভোগা ৰজা)ৰ ভাই"
+     "as": "চুৰম্ফা (ভগা ৰজা)ৰ ভাই"
     }
-   }
+   },
+   "lesson": "sutingphaa"
   },
   {
    "n": 20,

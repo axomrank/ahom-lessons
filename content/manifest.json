@@ -1,5 +1,5 @@
 {
- "version": "e16eecbe7c",
+ "version": "679b3001b4",
  "courses": [
   {
    "id": "ahom-kings",
@@ -7,6 +7,15 @@
   }
  ],
  "lessons": {
+  "pratap-singha": {
+   "no": 17,
+   "version": 1,
+   "steps": 8,
+   "title": {
+    "en": "Swargadeo Pratap Singha",
+    "as": "স্বৰ্গদেউ প্ৰতাপ সিংহ"
+   }
+  },
   "subinphaa": {
    "no": 3,
    "version": 1,
@@ -115,6 +124,15 @@
     "as": "স্বৰ্গদেউ চুপিম্ফা"
    }
   },
+  "suramphaa": {
+   "no": 18,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Suramphaa",
+    "as": "স্বৰ্গদেউ চুৰম্ফা"
+   }
+  },
   "susenphaa": {
    "no": 11,
    "version": 1,
@@ -131,6 +149,15 @@
    "title": {
     "en": "Swargadeo Suteuphaa",
     "as": "স্বৰ্গদেউ চুতেউফা"
+   }
+  },
+  "sutingphaa": {
+   "no": 19,
+   "version": 1,
+   "steps": 5,
+   "title": {
+    "en": "Swargadeo Sutingphaa",
+    "as": "স্বৰ্গদেউ চুটিংফা"
    }
   },
   "sutuphaa": {

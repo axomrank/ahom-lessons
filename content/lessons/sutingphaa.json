@@ -1,0 +1,1358 @@
+{
+ "id": "sutingphaa",
+ "no": 19,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Sutingphaa",
+  "as": "স্বৰ্গদেউ চুটিংফা"
+ },
+ "reign": {
+  "en": "Reign 1644–1648",
+  "as": "ৰাজত্বকাল ১৬৪৪–১৬৪৮"
+ },
+ "portrait": "sutingphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VI, pp. 121–123",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Nariya (sick) Raja, Kekora (crooked); coronation fights of elephants, tiger and crocodile; officials put to death; queen's intrigue: son of the chief queen killed, Barpatra Gohain executed; Dafla expedition June 1646 up the Dikrang fails, commanders made to wear women's clothes; January 1647 second expedition succeeds; Tipam Raja executed; Khamting Nagas; Kukure Khowa Gohain; Kachari status; deposed November 1648 by nobles under the Burha Gohain; son Sutamla king; poisoned"
+  },
+  {
+   "title": "Sutingphaa",
+   "url": "https://en.wikipedia.org/wiki/Sutingphaa",
+   "used_for": "Noriya Roja, 1644–1648"
+  }
+ ],
+ "review_notes": "Gait notes that some Buranjis say Sutingphaa abdicated when ill and died naturally; this lesson follows Gait's main account (deposed, then poisoned).",
+ "buildsOn": {
+  "no": 18,
+  "title": {
+   "en": "Suramphaa",
+   "as": "চুৰম্ফা"
+  },
+  "id": "suramphaa"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1644",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1646",
+    "t": {
+     "en": "First Dafla expedition fails",
+     "as": "প্ৰথম ডফলা অভিযান বিফল"
+    }
+   },
+   {
+    "y": "1647",
+    "t": {
+     "en": "Daflas submit",
+     "as": "ডফলাসকলৰ বশ্যতা"
+    }
+   },
+   {
+    "y": "1648",
+    "t": {
+     "en": "Deposed; his son Sutamla becomes king",
+     "as": "সিংহাসনচ্যুত; পুত্ৰ চুতামলা ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.3,
+   26.4,
+   95.2,
+   27.6
+  ],
+  "show": [
+   "brahmaputra",
+   "dikrong",
+   "subansiri",
+   "dikhou",
+   "garhgaon",
+   "narayanpur",
+   "majuli"
+  ],
+  "routes": [
+   [
+    "narayanpur",
+    [
+     27.35,
+     93.85
+    ]
+   ]
+  ],
+  "texts": [
+   {
+    "t": {
+     "en": "DAFLA HILLS",
+     "as": "ডফলা পাহাৰ"
+    },
+    "at": [
+     27.48,
+     93.5
+    ]
+   }
+  ],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "narayanpur": {
+    "pos": "s"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "dikrong": {
+    "at": [
+     27.25,
+     93.95
+    ],
+    "pos": "e"
+   },
+   "subansiri": {
+    "at": [
+     27.35,
+     94.2
+    ],
+    "pos": "e"
+   },
+   "dikhou": {
+    "at": [
+     26.75,
+     94.8
+    ],
+    "pos": "w"
+   },
+   "brahmaputra": {
+    "at": [
+     26.65,
+     93.8
+    ],
+    "pos": "s"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "The sick king",
+    "as": "নৰীয়া ৰজা"
+   },
+   "learned": [
+    {
+     "en": "Sutingphaa became king in 1644",
+     "as": "চুটিংফা ১৬৪৪ চনত ৰজা হয়"
+    },
+    {
+     "en": "Often ill: the Noriya Roja; bent spine: Kekora",
+     "as": "প্ৰায়ে অসুস্থ: নৰীয়া ৰজা; কুঁজা মেৰুদণ্ড: কেকোৰা"
+    },
+    {
+     "en": "His crowning was celebrated with animal fights",
+     "as": "পশুৰ যুঁজেৰে অভিষেক উদযাপন"
+    },
+    {
+     "en": "A queen's lies led him to kill his own son",
+     "as": "এগৰাকী ৰাণীৰ মিছাত তেওঁ নিজৰ পুত্ৰকে হত্যা কৰে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "sickly-king.webp",
+     "title": {
+      "en": "A crooked crown",
+      "as": "কুঁজা ৰজা"
+     },
+     "text": [
+      {
+       "en": "In <mark>1644</mark> [[sutingphaa]] took his brother's throne. His health was poor, so he was the [[noriya-roja|Noriya Roja]]. A bent spine also earned him the name <i>Kekora</i>, 'crooked'.",
+       "as": "<mark>১৬৪৪</mark> চনত [[sutingphaa]]ই ককাইৰ সিংহাসন ল'লে। স্বাস্থ্য দুৰ্বল আছিল, সেয়ে তেওঁ [[noriya-roja]]। কুঁজা মেৰুদণ্ডৰ বাবে তেওঁক <i>কেকোৰা</i> বুলিও কোৱা হৈছিল।"
+      },
+      {
+       "en": "To celebrate, crowds watched fights between elephants, an elephant and a tiger, and even a tiger and a crocodile.",
+       "as": "উদযাপনত লোকে হাতীৰ যুঁজ, হাতী আৰু বাঘৰ যুঁজ, আনকি বাঘ আৰু কুম্ভীৰৰ যুঁজো চাইছিল।"
+      }
+     ],
+     "id": "stg.u1.01",
+     "link": {
+      "lesson": 18,
+      "lessonId": "suramphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The deposed king",
+       "as": "ভগা ৰজা"
+      },
+      "note": {
+       "en": "The nobles had deposed his brother Suramphaa in 1644.",
+       "as": "১৬৪৪ চনত বিষয়াসকলে তেওঁৰ ককাই চুৰম্ফাক সিংহাসনচ্যুত কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Why was Sutingphaa called the Noriya Roja?",
+      "as": "চুটিংফাক কিয় নৰীয়া ৰজা বোলা হৈছিল?"
+     },
+     "options": [
+      {
+       "en": "He was often ill",
+       "as": "তেওঁ প্ৰায়ে অসুস্থ আছিল"
+      },
+      {
+       "en": "He was deposed",
+       "as": "তেওঁ সিংহাসনচ্যুত হৈছিল"
+      },
+      {
+       "en": "He was lame",
+       "as": "তেওঁ খোৰা আছিল"
+      },
+      {
+       "en": "He was old",
+       "as": "তেওঁ বুঢ়া আছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "'Noriya' means sick. Bhaga (deposed) was Suramphaa; Khora (lame) was Sukhaamphaa; Burha (old) was Pratap Singha.",
+      "as": "'নৰীয়া' মানে অসুস্থ। ভগা চুৰম্ফা; খোৰা চুখাম্ফা; বুঢ়া প্ৰতাপ সিংহ।"
+     },
+     "id": "stg.u1.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Poison in the palace",
+      "as": "ৰাজপ্ৰসাদত বিষ"
+     },
+     "text": [
+      {
+       "en": "One of his wives, sister of the Burhagohain, told him that the chief queen's son was plotting with the Borpatrogohain.",
+       "as": "তেওঁৰ এগৰাকী পত্নী, বুঢ়াগোহাঁইৰ ভনীয়েকে কৈছিল যে প্ৰধান ৰাণীৰ পুত্ৰই বৰপাত্ৰগোহাঁইৰ সৈতে ষড়যন্ত্ৰ কৰিছে।"
+      },
+      {
+       "en": "The king invited his son to dinner and had him killed. The Borpatrogohain was executed, and the woman who spread the lie became chief queen.",
+       "as": "ৰজাই পুত্ৰক ভোজলৈ মাতি হত্যা কৰালে। বৰপাত্ৰগোহাঁইক মৃত্যুদণ্ড দিয়া হ'ল, আৰু মিছা কথা বিয়পোৱা মহিলাগৰাকী প্ৰধান ৰাণী হ'ল।"
+      }
+     ],
+     "id": "stg.u1.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sutingphaa had the Borpatrogohain executed on a false charge.",
+      "as": "চুটিংফাই মিছা অভিযোগত বৰপাত্ৰগোহাঁইক মৃত্যুদণ্ড দিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True, misled by a scheming queen.",
+      "as": "শুদ্ধ, এগৰাকী কুচক্ৰী ৰাণীৰ কথাত বিভ্ৰান্ত হৈ।"
+     },
+     "id": "stg.u1.04"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "A bent spine gave Sutingphaa another nickname:",
+      "as": "কুঁজা মেৰুদণ্ডৰ বাবে চুটিংফাৰ আন এটা উপনাম আছিল:"
+     },
+     "after": {
+      "en": ".",
+      "as": "।"
+     },
+     "options": [
+      {
+       "en": "Kekora",
+       "as": "কেকোৰা"
+      },
+      {
+       "en": "Khora",
+       "as": "খোৰা"
+      },
+      {
+       "en": "Bhaga",
+       "as": "ভগা"
+      },
+      {
+       "en": "Lora",
+       "as": "লৰা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Kekora, 'crooked'.",
+      "as": "কেকোৰা, 'বেঁকা'।"
+     },
+     "id": "stg.u1.05"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his nickname: 'sick'.",
+      "as": "তেওঁৰ উপনামটো সজাই লিখা: 'অসুস্থ'।"
+     },
+     "word": {
+      "en": [
+       "N",
+       "O",
+       "R",
+       "I",
+       "Y",
+       "A"
+      ],
+      "as": [
+       "ন",
+       "ৰী",
+       "য়া"
+      ]
+     },
+     "answerText": {
+      "en": "NORIYA",
+      "as": "নৰীয়া"
+     },
+     "why": {
+      "en": "Noriya Roja.",
+      "as": "নৰীয়া ৰজা।"
+     },
+     "id": "stg.u1.06"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each word to its meaning.",
+      "as": "প্ৰতিটো শব্দক অৰ্থৰ সৈতে মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Noriya",
+        "as": "নৰীয়া"
+       },
+       {
+        "en": "Sick",
+        "as": "অসুস্থ"
+       }
+      ],
+      [
+       {
+        "en": "Kekora",
+        "as": "কেকোৰা"
+       },
+       {
+        "en": "Crooked",
+        "as": "বেঁকা"
+       }
+      ],
+      [
+       {
+        "en": "Bhaga",
+        "as": "ভগা"
+       },
+       {
+        "en": "Deposed",
+        "as": "সিংহাসনচ্যুত"
+       }
+      ],
+      [
+       {
+        "en": "Khora",
+        "as": "খোৰা"
+       },
+       {
+        "en": "Lame",
+        "as": "লেঙেৰা"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Nicknames of Ahom kings tell their stories.",
+      "as": "আহোম ৰজাৰ উপনামবোৰে তেওঁলোকৰ কাহিনী কয়।"
+     },
+     "id": "stg.u1.07"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "hill",
+   "title": {
+    "en": "The Dafla hills",
+    "as": "ডফলা পাহাৰ"
+   },
+   "learned": [
+    {
+     "en": "1646: an expedition up the Dikrong against the Daflas failed",
+     "as": "১৬৪৬: ডিক্ৰঙেদি ডফলাৰ বিৰুদ্ধে অভিযান বিফল"
+    },
+    {
+     "en": "The failed commanders had to appear in women's clothes",
+     "as": "বিফল সেনাপতিসকলক মহিলাৰ সাজত ৰাজহুৱাকৈ উলিওৱা হয়"
+    },
+    {
+     "en": "1647: a second expedition won; the hillmen submitted",
+     "as": "১৬৪৭: দ্বিতীয় অভিযান সফল; পাহাৰীয়াসকলৰ বশ্যতা"
+    },
+    {
+     "en": "The Tipam Raja was put to death for not paying tribute",
+     "as": "কৰ নিদিয়াৰ বাবে তিপাম ৰজাক মৃত্যুদণ্ড"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": true
+     },
+     "title": {
+      "en": "Up the Dikrong",
+      "as": "ডিক্ৰঙৰ উজনিলৈ"
+     },
+     "text": [
+      {
+       "en": "The [[dafla|Daflas]] in the hills north of the Brahmaputra often raided the plains. In June <mark>1646</mark> an Ahom force marched up the [[dikrong]].",
+       "as": "ব্ৰহ্মপুত্ৰৰ উত্তৰৰ পাহাৰৰ [[dafla]]সকলে প্ৰায়ে ভৈয়ামত আক্ৰমণ কৰিছিল। <mark>১৬৪৬</mark> চনৰ জুনত আহোম সৈন্য [[dikrong]]ৰ উজনিলৈ গ'ল।"
+      },
+      {
+       "en": "The Daflas fought with bows from the hills, and the Ahoms had to turn back.",
+       "as": "ডফলাসকলে পাহাৰৰ পৰা ধনুৰে যুঁজিলে, আৰু আহোমে উভতি আহিবলগীয়া হ'ল।"
+      }
+     ],
+     "id": "stg.u2.01"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the river the Ahom army marched up in 1646.",
+      "as": "১৬৪৬ চনত আহোম সৈন্যই উজাই যোৱা নদীখন টিপা।"
+     },
+     "target": "dikrong",
+     "choices": [
+      "dikrong",
+      "subansiri",
+      "dikhou",
+      "majuli"
+     ],
+     "answerText": {
+      "en": "The Dikrong",
+      "as": "ডিক্ৰং"
+     },
+     "why": {
+      "en": "The Dikrong comes down from the Dafla hills past today's North Lakhimpur.",
+      "as": "ডিক্ৰং ডফলা পাহাৰৰ পৰা আজিৰ উত্তৰ লখিমপুৰৰ কাষেৰে নামি আহে।"
+     },
+     "id": "stg.u2.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Shame and success",
+      "as": "লাজ আৰু সফলতা"
+     },
+     "text": [
+      {
+       "en": "The furious king dismissed the two commanders, the Burhagohain and Borpatrogohain, and made them appear in public in women's clothes.",
+       "as": "খঙাল ৰজাই দুয়োজন সেনাপতি, বুঢ়াগোহাঁই আৰু বৰপাত্ৰগোহাঁইক পদচ্যুত কৰিলে আৰু মহিলাৰ সাজ পিন্ধাই ৰাজহুৱাকৈ উলিয়ালে।"
+      },
+      {
+       "en": "In January <mark>1647</mark> a second force beat the Daflas and Miris in open battle and burned their granaries. The hillmen submitted.",
+       "as": "<mark>১৬৪৭</mark> চনৰ জানুৱাৰীত দ্বিতীয় বাহিনীয়ে মুকলি যুদ্ধত ডফলা আৰু মিৰিক পৰাস্ত কৰি ভঁৰাল জ্বলাই দিলে। পাহাৰীয়াসকলে বশ্যতা মানিলে।"
+      }
+     ],
+     "id": "stg.u2.03"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "How were the commanders of the failed expedition punished?",
+      "as": "বিফল অভিযানৰ সেনাপতিসকলক কেনেকৈ শাস্তি দিয়া হৈছিল?"
+     },
+     "options": [
+      {
+       "en": "Made to appear in women's clothes",
+       "as": "মহিলাৰ সাজত উলিওৱা হৈছিল"
+      },
+      {
+       "en": "Sent to the Mughals",
+       "as": "মোগলৰ ওচৰলৈ পঠোৱা হৈছিল"
+      },
+      {
+       "en": "Made Borphukan",
+       "as": "বৰফুকন পতা হৈছিল"
+      },
+      {
+       "en": "Given more troops",
+       "as": "অধিক সৈন্য দিয়া হৈছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "They were dismissed and publicly shamed.",
+      "as": "তেওঁলোকক পদচ্যুত কৰি ৰাজহুৱাকৈ অপমান কৰা হৈছিল।"
+     },
+     "id": "stg.u2.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The second Dafla expedition of 1647 also failed.",
+      "as": "১৬৪৭ চনৰ দ্বিতীয় ডফলা অভিযানো বিফল হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. The 1647 expedition won and the Daflas submitted.",
+      "as": "অশুদ্ধ। ১৬৪৭ চনৰ অভিযান সফল হৈছিল আৰু ডফলাসকলে বশ্যতা মানিছিল।"
+     },
+     "id": "stg.u2.05"
+    },
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": false
+     },
+     "title": {
+      "en": "Tribute from all",
+      "as": "সকলোৰে পৰা কৰ"
+     },
+     "text": [
+      {
+       "en": "The same year the Tipam Raja, who had stopped paying tribute, was arrested and put to death.",
+       "as": "সেই বছৰতে কৰ দিয়া বন্ধ কৰা তিপাম ৰজাক বন্দী কৰি মৃত্যুদণ্ড দিয়া হ'ল।"
+      },
+      {
+       "en": "An expedition also went against the Khamting Nagas in the east.",
+       "as": "পূবৰ খামটিং নগাৰ বিৰুদ্ধেও এটা অভিযান গৈছিল।"
+      }
+     ],
+     "id": "stg.u2.06"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these in order.",
+      "as": "ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Sutingphaa crowned (1644)",
+       "as": "চুটিংফাৰ অভিষেক (১৬৪৪)"
+      },
+      {
+       "en": "First Dafla expedition fails (1646)",
+       "as": "প্ৰথম ডফলা অভিযান বিফল (১৬৪৬)"
+      },
+      {
+       "en": "Daflas defeated (1647)",
+       "as": "ডফলা পৰাস্ত (১৬৪৭)"
+      },
+      {
+       "en": "Sutingphaa deposed (1648)",
+       "as": "চুটিংফা সিংহাসনচ্যুত (১৬৪৮)"
+      }
+     ],
+     "why": {
+      "en": "1644 → 1646 → 1647 → 1648.",
+      "as": "১৬৪৪ → ১৬৪৬ → ১৬৪৭ → ১৬৪৮।"
+     },
+     "id": "stg.u2.07"
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "The Daflas are today called the",
+      "as": "ডফলাসকলক আজি কোৱা হয়"
+     },
+     "after": {
+      "en": ".",
+      "as": "।"
+     },
+     "answer": "Nyishi",
+     "asOptions": [
+      "নিচি",
+      "মিচিং",
+      "আদি",
+      "খামটি"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "Nyishi",
+      "as": "নিচি"
+     },
+     "why": {
+      "en": "The Nyishi of Arunachal Pradesh.",
+      "as": "অৰুণাচল প্ৰদেশৰ নিচি।"
+     },
+     "id": "stg.u2.08"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "moon",
+   "title": {
+    "en": "A cruel prince",
+    "as": "নিষ্ঠুৰ কোঁৱৰ"
+   },
+   "learned": [
+    {
+     "en": "The chief queen's son, Kukure Khowa Gohain, was cruel and insulting",
+     "as": "প্ৰধান ৰাণীৰ পুত্ৰ কুকুৰাখোৱা গোহাঁই নিষ্ঠুৰ আৰু অপমানকাৰী আছিল"
+    },
+    {
+     "en": "The king would not check him",
+     "as": "ৰজাই তেওঁক শাসন নকৰিলে"
+    },
+    {
+     "en": "The Kachari king argued about his status",
+     "as": "কছাৰী ৰজাই নিজৰ মৰ্যাদা লৈ যুক্তি দিলে"
+    },
+    {
+     "en": "Ill health kept the king from his duties",
+     "as": "অসুখৰ বাবে ৰজাই কৰ্তব্য পালন কৰিব নোৱাৰিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "sutamla-loyalists.webp",
+     "title": {
+      "en": "Kukure Khowa Gohain",
+      "as": "কুকুৰাখোৱা গোহাঁই"
+     },
+     "text": [
+      {
+       "en": "The son of the new chief queen, the Kukure Khowa Gohain, was cruel to the people and rude to the nobles.",
+       "as": "নতুন প্ৰধান ৰাণীৰ পুত্ৰ কুকুৰাখোৱা গোহাঁই প্ৰজাৰ প্ৰতি নিষ্ঠুৰ আৰু বিষয়াসকলৰ প্ৰতি অভদ্ৰ আছিল।"
+      },
+      {
+       "en": "The nobles begged the king to stop him. He refused. Too ill to attend to business, he grew more and more unpopular.",
+       "as": "বিষয়াসকলে ৰজাক তেওঁক ৰখাবলৈ অনুৰোধ কৰিলে। ৰজাই নুশুনিলে। অসুস্থতাৰ বাবে কাম চাব নোৱাৰি তেওঁ ক্ৰমে অপ্ৰিয় হৈ পৰিল।"
+      }
+     ],
+     "id": "stg.u3.01"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Why did Sutingphaa become unpopular?",
+      "as": "চুটিংফা কিয় অপ্ৰিয় হৈ পৰিছিল?"
+     },
+     "options": [
+      {
+       "en": "He would not check his cruel son",
+       "as": "নিষ্ঠুৰ পুত্ৰক শাসন নকৰিলে"
+      },
+      {
+       "en": "He lost Garhgaon",
+       "as": "গড়গাঁও হেৰুৱালে"
+      },
+      {
+       "en": "He raised taxes on rice",
+       "as": "ধানৰ কৰ বঢ়ালে"
+      },
+      {
+       "en": "He left for Bengal",
+       "as": "বংগলৈ গুচি গ'ল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "His son's cruelty and his own illness turned the nobles against him.",
+      "as": "পুত্ৰৰ নিষ্ঠুৰতা আৰু নিজৰ অসুখে বিষয়াসকলক তেওঁৰ বিৰুদ্ধে নিলে।"
+     },
+     "id": "stg.u3.02"
+    },
+    {
+     "type": "story",
+     "art": "embassy",
+     "title": {
+      "en": "An argument with the Kacharis",
+      "as": "কছাৰীৰ সৈতে তৰ্ক"
+     },
+     "text": [
+      {
+       "en": "The [[kachari]] king objected to being called 'set up and protected by the Ahoms'.",
+       "as": "কছাৰী ৰজাই 'আহোমে পতা আৰু ৰক্ষা কৰা' বুলি কোৱাত আপত্তি কৰিছিল।"
+      },
+      {
+       "en": "He dropped the matter when he was promised an Ahom princess in marriage.",
+       "as": "এগৰাকী আহোম কুমাৰীক বিয়া দিয়াৰ প্ৰতিশ্ৰুতি পোৱাত তেওঁ কথাটো এৰি দিলে।"
+      }
+     ],
+     "id": "stg.u3.03",
+     "link": {
+      "lesson": 18,
+      "lessonId": "suramphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "A promise to a brother",
+       "as": "ভাইৰ আগত প্ৰতিশ্ৰুতি"
+      },
+      "note": {
+       "en": "Under Suramphaa, Kachari envoys had been sent away over a royal seal.",
+       "as": "চুৰম্ফাৰ দিনত ৰাজকীয় মোহৰক লৈ কছাৰী দূতক উভতাই পঠোৱা হৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Kachari king accepted being called a protected king without any argument.",
+      "as": "কছাৰী ৰজাই কোনো তৰ্ক নকৰাকৈ সুৰক্ষিত ৰজা বুলি কোৱাটো মানি লৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He objected, and gave way only when promised an Ahom princess.",
+      "as": "অশুদ্ধ। তেওঁ আপত্তি কৰিছিল, আহোম কুমাৰীৰ প্ৰতিশ্ৰুতিতহে মান্তি হৈছিল।"
+     },
+     "id": "stg.u3.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was the son of Sutingphaa's chief queen.",
+       "as": "মই চুটিংফাৰ প্ৰধান ৰাণীৰ পুত্ৰ।"
+      },
+      {
+       "en": "I was cruel to the people and rude to nobles.",
+       "as": "মই প্ৰজাৰ প্ৰতি নিষ্ঠুৰ আৰু বিষয়াৰ প্ৰতি অভদ্ৰ আছিলোঁ।"
+      },
+      {
+       "en": "My name has 'Kukure' in it.",
+       "as": "মোৰ নামত 'কুকুৰা' আছে।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Kukure Khowa Gohain",
+       "as": "কুকুৰাখোৱা গোহাঁই"
+      },
+      {
+       "en": "Sutamla",
+       "as": "চুতামলা"
+      },
+      {
+       "en": "Sai",
+       "as": "চাই"
+      },
+      {
+       "en": "Aikhek",
+       "as": "আইখেক"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Kukure Khowa Gohain.",
+      "as": "কুকুৰাখোৱা গোহাঁই।"
+     },
+     "id": "stg.u3.05"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Consider the statements:<br>1. Sutingphaa's son's cruelty made the nobles angry.<br>2. Sutingphaa was a healthy, active king.<br>Which is/are correct?",
+      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুটিংফাৰ পুত্ৰৰ নিষ্ঠুৰতাই বিষয়াসকলক খং তুলিছিল।<br>২. চুটিংফা সুস্থ, কৰ্মঠ ৰজা আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+     },
+     "options": [
+      {
+       "en": "1 only",
+       "as": "কেৱল ১"
+      },
+      {
+       "en": "2 only",
+       "as": "কেৱল ২"
+      },
+      {
+       "en": "Both 1 and 2",
+       "as": "১ আৰু ২ দুয়োটা"
+      },
+      {
+       "en": "Neither 1 nor 2",
+       "as": "১ বা ২ কোনোটো নহয়"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Only 1. He was often ill: the Noriya Roja.",
+      "as": "কেৱল ১। তেওঁ প্ৰায়ে অসুস্থ আছিল: নৰীয়া ৰজা।"
+     },
+     "small": true,
+     "id": "stg.u3.06"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which does NOT belong to Sutingphaa's reign?",
+      "as": "কোনটো চুটিংফাৰ ৰাজত্বকালৰ নহয়?"
+     },
+     "options": [
+      {
+       "en": "Dafla expeditions",
+       "as": "ডফলা অভিযান"
+      },
+      {
+       "en": "Tipam Raja executed",
+       "as": "তিপাম ৰজাৰ মৃত্যুদণ্ড"
+      },
+      {
+       "en": "Kukure Khowa Gohain",
+       "as": "কুকুৰাখোৱা গোহাঁই"
+      },
+      {
+       "en": "Battle of Saraighat",
+       "as": "শৰাইঘাটৰ যুদ্ধ"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Saraighat was fought in 1671.",
+      "as": "শৰাইঘাটৰ যুদ্ধ ১৬৭১ চনত হৈছিল।"
+     },
+     "id": "stg.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "star",
+   "title": {
+    "en": "Father and son",
+    "as": "পিতৃ আৰু পুত্ৰ"
+   },
+   "learned": [
+    {
+     "en": "November 1648: the nobles under the Burhagohain deposed him",
+     "as": "১৬৪৮ নৱেম্বৰ: বুঢ়াগোহাঁইৰ নেতৃত্বত বিষয়াসকলে সিংহাসনচ্যুত কৰে"
+    },
+    {
+     "en": "His own son Sutamla was made king",
+     "as": "তেওঁৰ নিজৰ পুত্ৰ চুতামলাক ৰজা পতা হয়"
+    },
+    {
+     "en": "A few days later he was poisoned",
+     "as": "কেইদিনমান পিছত বিষপ্ৰয়োগ"
+    },
+    {
+     "en": "Sutamla took the name Jayadhwaj Singha",
+     "as": "চুতামলাই জয়ধ্বজ সিংহ নাম লয়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "sutamla-crowned.webp",
+     "top": true,
+     "title": {
+      "en": "Deposed",
+      "as": "সিংহাসনচ্যুত"
+     },
+     "text": [
+      {
+       "en": "In November <mark>1648</mark> the nobles, led by the Burhagohain, deposed Sutingphaa and crowned his son Sutamla.",
+       "as": "<mark>১৬৪৮</mark> চনৰ নৱেম্বৰত বুঢ়াগোহাঁইৰ নেতৃত্বত বিষয়াসকলে চুটিংফাক সিংহাসনচ্যুত কৰি তেওঁৰ পুত্ৰ চুতামলাক অভিষেক কৰিলে।"
+      },
+      {
+       "en": "A few days later the old king was poisoned. Some say his chief queen was buried alive with him.",
+       "as": "কেইদিনমান পিছত পুৰণি ৰজাক বিষ খুৱাই মৰা হ'ল। কোনোৱে কয় তেওঁৰ প্ৰধান ৰাণীক তেওঁৰ লগত জীয়াই পোতা হৈছিল।"
+      }
+     ],
+     "id": "stg.u4.01"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Sutingphaa was deposed in",
+      "as": "চুটিংফা সিংহাসনচ্যুত হৈছিল"
+     },
+     "after": {
+      "en": ".",
+      "as": "চনত।"
+     },
+     "options": [
+      {
+       "en": "1644",
+       "as": "১৬৪৪"
+      },
+      {
+       "en": "1646",
+       "as": "১৬৪৬"
+      },
+      {
+       "en": "1648",
+       "as": "১৬৪৮"
+      },
+      {
+       "en": "1662",
+       "as": "১৬৬২"
+      }
+     ],
+     "answer": 2,
+     "why": {
+      "en": "November 1648.",
+      "as": "১৬৪৮ চনৰ নৱেম্বৰ।"
+     },
+     "big": true,
+     "id": "stg.u4.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A new name",
+      "as": "নতুন নাম"
+     },
+     "text": [
+      {
+       "en": "Sutamla took the Hindu name [[jayadhwaj-singha]]. On his crowning day the Somdeo, the old Ahom god, was placed on the throne and guns were fired.",
+       "as": "চুতামলাই [[jayadhwaj-singha]] হিন্দু নাম ল'লে। অভিষেকৰ দিনা পুৰণি আহোম দেৱতা চোমদেওক সিংহাসনত বহুওৱা হ'ল আৰু বন্দুক ফুটোৱা হ'ল।"
+      },
+      {
+       "en": "His reign would see the greatest Mughal invasion yet.",
+       "as": "তেওঁৰ ৰাজত্বকালত আজিলৈকে আটাইতকৈ ডাঙৰ মোগল আক্ৰমণ হ'ব।"
+      }
+     ],
+     "id": "stg.u4.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Sutingphaa's son.",
+       "as": "মই চুটিংফাৰ পুত্ৰ।"
+      },
+      {
+       "en": "The nobles made me king in 1648.",
+       "as": "১৬৪৮ চনত বিষয়াসকলে মোক ৰজা পাতিছিল।"
+      },
+      {
+       "en": "My Hindu name was Jayadhwaj Singha.",
+       "as": "মোৰ হিন্দু নাম জয়ধ্বজ সিংহ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Sutamla",
+       "as": "চুতামলা"
+      },
+      {
+       "en": "Sai",
+       "as": "চাই"
+      },
+      {
+       "en": "Suramphaa",
+       "as": "চুৰম্ফা"
+      },
+      {
+       "en": "Supangmung",
+       "as": "চুপাংমুং"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sutamla, King Jayadhwaj Singha.",
+      "as": "চুতামলা, ৰজা জয়ধ্বজ সিংহ।"
+     },
+     "id": "stg.u4.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sutingphaa was succeeded by his own son.",
+      "as": "চুটিংফাৰ পিছত তেওঁৰ নিজৰ পুত্ৰ ৰজা হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: Sutamla (Jayadhwaj Singha).",
+      "as": "শুদ্ধ: চুতামলা (জয়ধ্বজ সিংহ)।"
+     },
+     "id": "stg.u4.05"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1641",
+       "l": {
+        "en": "Pratap Singha dies",
+        "as": "প্ৰতাপ সিংহৰ মৃত্যু"
+       }
+      },
+      {
+       "y": "1648",
+       "l": {
+        "en": "Sutamla crowned",
+        "as": "চুতামলাৰ অভিষেক"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Treaty of Asurar Ali",
+        "as": "অসুৰৰ আলিৰ সন্ধি"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Suramphaa deposed",
+        "as": "চুৰম্ফা সিংহাসনচ্যুত"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Mir Jumla takes Garhgaon",
+        "as": "মীৰজুমলাই গড়গাঁও লয়"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1639 → 1641 → 1644 → 1648 → 1662.",
+      "as": "১৬৩৯ → ১৬৪১ → ১৬৪৪ → ১৬৪৮ → ১৬৬২।"
+     },
+     "id": "stg.u4.06"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each year to its event.",
+      "as": "প্ৰতিটো চনক ঘটনাৰ সৈতে মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "1641",
+        "as": "১৬৪১"
+       },
+       {
+        "en": "Suramphaa crowned",
+        "as": "চুৰম্ফাৰ অভিষেক"
+       }
+      ],
+      [
+       {
+        "en": "1644",
+        "as": "১৬৪৪"
+       },
+       {
+        "en": "Sutingphaa crowned",
+        "as": "চুটিংফাৰ অভিষেক"
+       }
+      ],
+      [
+       {
+        "en": "1648",
+        "as": "১৬৪৮"
+       },
+       {
+        "en": "Jayadhwaj crowned",
+        "as": "জয়ধ্বজৰ অভিষেক"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Three kings in seven years.",
+      "as": "সাত বছৰত তিনিজন ৰজা।"
+     },
+     "id": "stg.u4.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Sutingphaa",
+    "as": "তুমি স্বৰ্গদেউ চুটিংফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was called the Noriya Roja.",
+      "as": "মোক নৰীয়া ৰজা বোলা হৈছিল।"
+     },
+     {
+      "en": "I sent armies against the Daflas.",
+      "as": "মই ডফলাৰ বিৰুদ্ধে সৈন্য পঠাইছিলোঁ।"
+     },
+     {
+      "en": "My son replaced me in 1648.",
+      "as": "১৬৪৮ চনত মোৰ পুত্ৰই মোৰ ঠাই লৈছিল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Sutingphaa",
+      "as": "চুটিংফা"
+     },
+     {
+      "en": "Suramphaa",
+      "as": "চুৰম্ফা"
+     },
+     {
+      "en": "Sukhaamphaa",
+      "as": "চুখাম্ফা"
+     },
+     {
+      "en": "Sujinphaa",
+      "as": "চুজিনফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sutingphaa (1644–1648).",
+     "as": "চুটিংফা (১৬৪৪–১৬৪৮)।"
+    },
+    "id": "stg.test.01"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Who succeeded Sutingphaa?",
+     "as": "চুটিংফাৰ পিছত কোন ৰজা হৈছিল?"
+    },
+    "options": [
+     {
+      "en": "Jayadhwaj Singha",
+      "as": "জয়ধ্বজ সিংহ"
+     },
+     {
+      "en": "Chakradhwaj Singha",
+      "as": "চক্ৰধ্বজ সিংহ"
+     },
+     {
+      "en": "Suramphaa",
+      "as": "চুৰম্ফা"
+     },
+     {
+      "en": "Pratap Singha",
+      "as": "প্ৰতাপ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "His son Sutamla, Jayadhwaj Singha.",
+     "as": "তেওঁৰ পুত্ৰ চুতামলা, জয়ধ্বজ সিংহ।"
+    },
+    "id": "stg.test.02"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Sutingphaa was the brother of Suramphaa.<br>2. The Ahoms defeated the Daflas in 1647.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুটিংফা চুৰম্ফাৰ ভাই আছিল।<br>২. ১৬৪৭ চনত আহোমে ডফলাক পৰাস্ত কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "Both are correct.",
+     "as": "দুয়োটা শুদ্ধ।"
+    },
+    "small": true,
+    "id": "stg.test.03"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap the Dikrong.",
+     "as": "ডিক্ৰং টিপা।"
+    },
+    "target": "dikrong",
+    "choices": [
+     "dikrong",
+     "subansiri",
+     "dikhou",
+     "majuli"
+    ],
+    "answerText": {
+     "en": "The Dikrong",
+     "as": "ডিক্ৰং"
+    },
+    "why": {
+     "en": "The Dikrong, route of the Dafla expedition.",
+     "as": "ডফলা অভিযানৰ পথ ডিক্ৰং।"
+    },
+    "id": "stg.test.04"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Sutingphaa was deposed by the Mughals.",
+     "as": "চুটিংফাক মোগলে সিংহাসনচ্যুত কৰিছিল।"
+    },
+    "answer": false,
+    "why": {
+     "en": "False. The Ahom nobles deposed him.",
+     "as": "অশুদ্ধ। আহোম বিষয়াসকলে তেওঁক সিংহাসনচ্যুত কৰিছিল।"
+    },
+    "id": "stg.test.05"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "Sutingphaa's nickname 'Noriya' means",
+     "as": "চুটিংফাৰ উপনাম 'নৰীয়া'ৰ অৰ্থ"
+    },
+    "after": {
+     "en": ".",
+     "as": "।"
+    },
+    "options": [
+     {
+      "en": "sick",
+      "as": "অসুস্থ"
+     },
+     {
+      "en": "lame",
+      "as": "খোৰা"
+     },
+     {
+      "en": "old",
+      "as": "বুঢ়া"
+     },
+     {
+      "en": "deposed",
+      "as": "সিংহাসনচ্যুত"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sick.",
+     "as": "অসুস্থ।"
+    },
+    "id": "stg.test.06"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Pratap Singha",
+      "as": "প্ৰতাপ সিংহ"
+     },
+     {
+      "en": "Suramphaa",
+      "as": "চুৰম্ফা"
+     },
+     {
+      "en": "Sutingphaa",
+      "as": "চুটিংফা"
+     },
+     {
+      "en": "Jayadhwaj Singha",
+      "as": "জয়ধ্বজ সিংহ"
+     }
+    ],
+    "why": {
+     "en": "Kings 17, 18, 19, 20.",
+     "as": "১৭, ১৮, ১৯, ২০ নম্বৰ ৰজা।"
+    },
+    "id": "stg.test.07"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Daflas",
+       "as": "ডফলা"
+      },
+      {
+       "en": "Hill people of the north",
+       "as": "উত্তৰৰ পাহাৰীয়া লোক"
+      }
+     ],
+     [
+      {
+       "en": "Tipam Raja",
+       "as": "তিপাম ৰজা"
+      },
+      {
+       "en": "Executed for not paying tribute",
+       "as": "কৰ নিদিয়াৰ বাবে মৃত্যুদণ্ড"
+      }
+     ],
+     [
+      {
+       "en": "Kukure Khowa Gohain",
+       "as": "কুকুৰাখোৱা গোহাঁই"
+      },
+      {
+       "en": "The cruel prince",
+       "as": "নিষ্ঠুৰ কোঁৱৰ"
+      }
+     ],
+     [
+      {
+       "en": "Sutamla",
+       "as": "চুতামলা"
+      },
+      {
+       "en": "The son who replaced him",
+       "as": "ঠাই লোৱা পুত্ৰ"
+      }
+     ]
+    ],
+    "why": {
+     "en": "People of Sutingphaa's reign.",
+     "as": "চুটিংফাৰ ৰাজত্বকালৰ লোকসকল।"
+    },
+    "id": "stg.test.08"
+   }
+  ]
+ }
+}
