@@ -999,6 +999,486 @@
     "en": "Supimphaa; he was born in a Naga village and made Borpatrogohain by Suhungmung.",
     "as": "চুপিম্ফাৰ; নগা গাঁৱত তেওঁৰ জন্ম হৈছিল আৰু চুহুংমুঙে তেওঁক বৰপাত্ৰগোহাঁই পাতিছিল।"
    }
+  },
+  {
+   "id": "bank.expansion.01",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suhungmung",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first Ahom king to adopt a Hindu title was:",
+    "as": "হিন্দু উপাধি গ্ৰহণ কৰা প্ৰথম আহোম ৰজা:"
+   },
+   "options": [
+    {
+     "en": "Sudangphaa",
+     "as": "চুদাংফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    },
+    {
+     "en": "Jayadhwaj Singha",
+     "as": "জয়ধ্বজ সিংহ"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Suhungmung took the title Swarganarayan.",
+    "as": "চুহুংমুঙে স্বৰ্গনাৰায়ণ উপাধি লৈছিল।"
+   }
+  },
+  {
+   "id": "bank.expansion.02",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suhungmung",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The office of Borpatrogohain was created by:",
+    "as": "বৰপাত্ৰগোহাঁই পদ কোনে সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sukaphaa",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Suhungmung, in 1527, for Konseng.",
+    "as": "চুহুংমুঙে, ১৫২৭ চনত, কনচেঙৰ বাবে।"
+   }
+  },
+  {
+   "id": "bank.expansion.03",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suhungmung",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Chutia kingdom was annexed by the Ahoms in:",
+    "as": "আহোমে চুতীয়া ৰাজ্য অধিকাৰ কৰিছিল:"
+   },
+   "options": [
+    {
+     "en": "1497",
+     "as": "১৪৯৭"
+    },
+    {
+     "en": "1510",
+     "as": "১৫১০"
+    },
+    {
+     "en": "1523",
+     "as": "১৫২৩"
+    },
+    {
+     "en": "1563",
+     "as": "১৫৬৩"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "1523, under Suhungmung; Dhirnarayan was killed.",
+    "as": "১৫২৩, চুহুংমুঙৰ দিনত; ধীৰনাৰায়ণ নিহত হয়।"
+   }
+  },
+  {
+   "id": "bank.expansion.04",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suhungmung",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Mula Gabharu died fighting against:",
+    "as": "মূলা গাভৰুৱে কাৰ বিৰুদ্ধে যুঁজি প্ৰাণ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mir Jumla",
+     "as": "মীৰজুমলা"
+    },
+    {
+     "en": "Turbak",
+     "as": "তুৰবক"
+    },
+    {
+     "en": "Chilarai",
+     "as": "চিলাৰায়"
+    },
+    {
+     "en": "Ram Singh",
+     "as": "ৰামসিংহ"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Turbak's army, in 1533.",
+    "as": "তুৰবকৰ সৈন্যৰ বিৰুদ্ধে, ১৫৩৩ চনত।"
+   }
+  },
+  {
+   "id": "bank.expansion.05",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suhungmung",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which era did Suhungmung adopt for dating?",
+    "as": "চুহুংমুঙে তাৰিখৰ বাবে কোনটো অব্দ গ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Saka",
+     "as": "শকাব্দ"
+    },
+    {
+     "en": "Vikram",
+     "as": "বিক্ৰমাব্দ"
+    },
+    {
+     "en": "Hijri",
+     "as": "হিজৰী"
+    },
+    {
+     "en": "Bhaskarabda",
+     "as": "ভাস্কৰাব্দ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The Saka era, in place of the Tai 60-year cycle.",
+    "as": "শকাব্দ, টাই ষাঠি বছৰীয়া চক্ৰৰ ঠাইত।"
+   }
+  },
+  {
+   "id": "bank.expansion.06",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suklenmung",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Garhgaon was made the Ahom capital by:",
+    "as": "গড়গাঁওক আহোম ৰাজধানী কোনে কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Suklenmung",
+     "as": "চুক্লেনমুং"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Suklenmung, around 1540.",
+    "as": "চুক্লেনমুঙে, প্ৰায় ১৫৪০ চনত।"
+   }
+  },
+  {
+   "id": "bank.expansion.07",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suklenmung",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first Ahom king to strike coins was:",
+    "as": "মুদ্ৰা প্ৰচলন কৰা প্ৰথম আহোম ৰজা:"
+   },
+   "options": [
+    {
+     "en": "Sukaphaa",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Suklenmung",
+     "as": "চুক্লেনমুং"
+    },
+    {
+     "en": "Sukhaamphaa",
+     "as": "চুখাম্ফা"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Suklenmung; the coins were octagonal.",
+    "as": "চুক্লেনমুং; মুদ্ৰাবোৰ অষ্টভুজ আছিল।"
+   }
+  },
+  {
+   "id": "bank.expansion.08",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "suklenmung",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Sankardev left the Ahom kingdom and found shelter under:",
+    "as": "শংকৰদেৱে আহোম ৰাজ্য এৰি কাৰ আশ্ৰয় লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Nara Narayan",
+     "as": "নৰনাৰায়ণ"
+    },
+    {
+     "en": "Biswa Singha",
+     "as": "বিশ্ব সিংহ"
+    },
+    {
+     "en": "Parikshit Narayan",
+     "as": "পৰীক্ষিত নাৰায়ণ"
+    },
+    {
+     "en": "Raghudev",
+     "as": "ৰঘুদেৱ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The Koch king Nara Narayan.",
+    "as": "কোচ ৰজা নৰনাৰায়ণৰ।"
+   }
+  },
+  {
+   "id": "bank.expansion.09",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "sukhaamphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which Ahom king was known as the Khora Roja?",
+    "as": "কোনজন আহোম ৰজা খোৰা ৰজা নামে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Suklenmung",
+     "as": "চুক্লেনমুং"
+    },
+    {
+     "en": "Sukhaamphaa",
+     "as": "চুখাম্ফা"
+    },
+    {
+     "en": "Suramphaa",
+     "as": "চুৰম্ফা"
+    },
+    {
+     "en": "Sutingphaa",
+     "as": "চুটিংফা"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Sukhaamphaa; he hurt his foot hunting elephants.",
+    "as": "চুখাম্ফা; হাতী ধৰোঁতে ভৰিত আঘাত পাইছিল।"
+   }
+  },
+  {
+   "id": "bank.expansion.10",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "sukhaamphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Chilarai, who invaded the Ahom kingdom in 1563, was a general of:",
+    "as": "১৫৬৩ চনত আহোম ৰাজ্য আক্ৰমণ কৰা চিলাৰায় কাৰ সেনাপতি আছিল?"
+   },
+   "options": [
+    {
+     "en": "the Koch kingdom",
+     "as": "কোচ ৰাজ্যৰ"
+    },
+    {
+     "en": "the Mughals",
+     "as": "মোগলৰ"
+    },
+    {
+     "en": "the Bengal Sultanate",
+     "as": "বংগৰ চুলতানৰ"
+    },
+    {
+     "en": "the Kacharis",
+     "as": "কছাৰীৰ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The Koch kingdom of Nara Narayan, his brother.",
+    "as": "তেওঁৰ ককাই নৰনাৰায়ণৰ কোচ ৰাজ্যৰ।"
+   }
+  },
+  {
+   "id": "bank.expansion.11",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "sukhaamphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Treaty of Majuli (1563) was signed between the Ahoms and the:",
+    "as": "মাজুলীৰ সন্ধি (১৫৬৩) আহোম আৰু কাৰ মাজত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Koches",
+     "as": "কোচ"
+    },
+    {
+     "en": "Mughals",
+     "as": "মোগল"
+    },
+    {
+     "en": "Burmese",
+     "as": "মান"
+    },
+    {
+     "en": "Kacharis",
+     "as": "কছাৰী"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The Koches, after Chilarai took Garhgaon.",
+    "as": "কোচৰ সৈতে, চিলাৰায়ে গড়গাঁও লোৱাৰ পিছত।"
+   }
+  },
+  {
+   "id": "bank.expansion.12",
+   "type": "mcq",
+   "era": "expansion",
+   "lesson": "sukhaamphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The longest-reigning Ahom king was:",
+    "as": "আটাইতকৈ দীঘলীয়া ৰাজত্ব কৰা আহোম ৰজা:"
+   },
+   "options": [
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Sukhaamphaa",
+     "as": "চুখাম্ফা"
+    },
+    {
+     "en": "Susenphaa",
+     "as": "চুচেনফা"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Sukhaamphaa, 51 years (1552–1603). Susenphaa ruled 49, Suhungmung 42.",
+    "as": "চুখাম্ফা, ৫১ বছৰ (১৫৫২–১৬০৩)। চুচেনফা ৪৯, চুহুংমুং ৪২।"
+   }
   }
  ]
 }

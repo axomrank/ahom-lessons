@@ -1,5 +1,5 @@
 {
- "version": "b0c475ede0",
+ "version": "e16eecbe7c",
  "courses": [
   {
    "id": "ahom-kings",
@@ -34,6 +34,15 @@
     "as": "স্বৰ্গদেউ চুহেনফা"
    }
   },
+  "suhungmung": {
+   "no": 14,
+   "version": 1,
+   "steps": 8,
+   "title": {
+    "en": "Swargadeo Suhungmung",
+    "as": "স্বৰ্গদেউ চুহুংমুং"
+   }
+  },
   "sujangphaa": {
    "no": 9,
    "version": 1,
@@ -52,6 +61,15 @@
     "as": "স্বৰ্গদেউ চুকাফা"
    }
   },
+  "sukhaamphaa": {
+   "no": 16,
+   "version": 1,
+   "steps": 6,
+   "title": {
+    "en": "Swargadeo Sukhaamphaa",
+    "as": "স্বৰ্গদেউ চুখাম্ফা"
+   }
+  },
   "sukhaangphaa": {
    "no": 4,
    "version": 1,
@@ -68,6 +86,15 @@
    "title": {
     "en": "Swargadeo Sukhrangphaa",
     "as": "স্বৰ্গদেউ চুখ্ৰাংফা"
+   }
+  },
+  "suklenmung": {
+   "no": 15,
+   "version": 1,
+   "steps": 5,
+   "title": {
+    "en": "Swargadeo Suklenmung",
+    "as": "স্বৰ্গদেউ চুক্লেনমুং"
    }
   },
   "suphakphaa": {
