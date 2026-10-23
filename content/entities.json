@@ -1,0 +1,517 @@
+{
+ "mongmao": {
+  "type": "place",
+  "name": {
+   "en": "Mong Mao",
+   "as": "মং মাও"
+  },
+  "meaning": {
+   "en": "Tai state near present-day Ruili, Yunnan (China); Sukaphaa's homeland",
+   "as": "বৰ্তমান চীনৰ ইউনানৰ ৰুইলিৰ ওচৰৰ টাই ৰাজ্য; চুকাফাৰ জন্মভূমি"
+  },
+  "geo": [
+   24.0,
+   97.85
+  ],
+  "lessons": [
+   "sukaphaa",
+   "suteuphaa"
+  ]
+ },
+ "patkai": {
+  "type": "ridge",
+  "name": {
+   "en": "Patkai hills",
+   "as": "পাটকাই পাহাৰ"
+  },
+  "meaning": {
+   "en": "Hills on today's India–Myanmar border, crossed by Sukaphaa",
+   "as": "আজিৰ ভাৰত–ম্যানমাৰ সীমান্তৰ পাহাৰ, চুকাফাই পাৰ হৈছিল"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "pangsau": {
+  "type": "pass",
+  "name": {
+   "en": "Pangsau Pass",
+   "as": "পাংচাউ গিৰিপথ"
+  },
+  "meaning": {
+   "en": "Pass over the Patkai in Changlang district, Arunachal Pradesh; Sukaphaa's route, later the Stilwell (Ledo) Road",
+   "as": "অৰুণাচলৰ চাংলাং জিলাত পাটকাইৰ গিৰিপথ; চুকাফাৰ পথ, পিছত ষ্টিলৱেল (লেডো) পথ"
+  },
+  "geo": [
+   27.27,
+   96.17
+  ],
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "namrup": {
+  "type": "place",
+  "name": {
+   "en": "Namrup",
+   "as": "নামৰূপ"
+  },
+  "meaning": {
+   "en": "Where Sukaphaa arrived in December 1228",
+   "as": "১২২৮ চনৰ ডিচেম্বৰত চুকাফা য'ত উপস্থিত হৈছিল"
+  },
+  "geo": [
+   27.1836,
+   95.3469
+  ],
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "tipam": {
+  "type": "place",
+  "name": {
+   "en": "Tipam",
+   "as": "তিপাম"
+  },
+  "meaning": {
+   "en": "Sukaphaa's first settlement, near the Dihing river",
+   "as": "ডিহিং নদীৰ কাষত চুকাফাৰ প্ৰথম বসতি"
+  },
+  "geo": [
+   27.2723,
+   95.4018
+  ],
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "abhoypur": {
+  "type": "place",
+  "name": {
+   "en": "Abhoypur",
+   "as": "অভয়পুৰ"
+  },
+  "meaning": {
+   "en": "Sukaphaa's settlement from 1236",
+   "as": "১২৩৬ৰ পৰা চুকাফাৰ বসতি"
+  },
+  "lessons": [
+   "sukaphaa"
+  ],
+  "geo": [
+   27.001,
+   94.9593
+  ]
+ },
+ "habung": {
+  "type": "place",
+  "name": {
+   "en": "Habung",
+   "as": "হাবুং"
+  },
+  "meaning": {
+   "en": "Sukaphaa's settlement from 1240, north of the Brahmaputra",
+   "as": "১২৪০ৰ পৰা চুকাফাৰ বসতি, ব্ৰহ্মপুত্ৰৰ উত্তৰে"
+  },
+  "geo": [
+   27.3415,
+   94.5009
+  ],
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "ligirigaon": {
+  "type": "place",
+  "name": {
+   "en": "Ligirigaon",
+   "as": "লিগিৰীগাঁও"
+  },
+  "meaning": {
+   "en": "Sukaphaa's settlement from 1244",
+   "as": "১২৪৪ৰ পৰা চুকাফাৰ বসতি"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "simaluguri": {
+  "type": "place",
+  "name": {
+   "en": "Simaluguri",
+   "as": "চিমলুগুৰি"
+  },
+  "meaning": {
+   "en": "Sukaphaa's settlement from 1246",
+   "as": "১২৪৬ৰ পৰা চুকাফাৰ বসতি"
+  },
+  "lessons": [
+   "sukaphaa"
+  ],
+  "geo": [
+   26.9199,
+   94.7614
+  ]
+ },
+ "charaideo": {
+  "type": "place",
+  "name": {
+   "en": "Charaideo",
+   "as": "চৰাইদেউ"
+  },
+  "meaning": {
+   "en": "First Ahom capital (1253), from Tai Che-Rai-Doi, 'a shining town on a hilltop'; royal burial ground",
+   "as": "প্ৰথম আহোম ৰাজধানী (১২৫৩), টাই চে-ৰাই-দৈ, 'পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ'; ৰাজকীয় সমাধিস্থল"
+  },
+  "geo": [
+   26.94,
+   94.85
+  ],
+  "lessons": [
+   "sukaphaa",
+   "suteuphaa"
+  ]
+ },
+ "sivasagar": {
+  "type": "place",
+  "name": {
+   "en": "Sivasagar",
+   "as": "শিৱসাগৰ"
+  },
+  "meaning": {
+   "en": "Town on the Dikhou river, near Charaideo",
+   "as": "দিখৌ নদীৰ পাৰৰ নগৰ, চৰাইদেউৰ ওচৰত"
+  },
+  "geo": [
+   26.98,
+   94.64
+  ]
+ },
+ "brahmaputra": {
+  "type": "river",
+  "name": {
+   "en": "Brahmaputra",
+   "as": "ব্ৰহ্মপুত্ৰ"
+  },
+  "meaning": {
+   "en": "The great river of the Assam valley",
+   "as": "অসম উপত্যকাৰ মহানদী"
+  }
+ },
+ "dikhou": {
+  "type": "river",
+  "name": {
+   "en": "Dikhou",
+   "as": "দিখৌ"
+  },
+  "meaning": {
+   "en": "River near Sivasagar; under Suteuphaa the Kacharis left the land east of it",
+   "as": "শিৱসাগৰৰ ওচৰৰ নদী; চুতেউফাৰ দিনত কছাৰীসকলে ইয়াৰ পূব পাৰ এৰিছিল"
+  },
+  "lessons": [
+   "suteuphaa"
+  ]
+ },
+ "disang": {
+  "type": "river",
+  "name": {
+   "en": "Disang",
+   "as": "দিচাং"
+  },
+  "meaning": {
+   "en": "South-bank river of Upper Assam, east of the Dikhou",
+   "as": "দিখৌৰ পূবে উজনি অসমৰ দক্ষিণ পাৰৰ নদী"
+  }
+ },
+ "dihing": {
+  "type": "river",
+  "name": {
+   "en": "Dihing",
+   "as": "ডিহিং"
+  },
+  "meaning": {
+   "en": "The Burhidihing, a south-bank river of Upper Assam",
+   "as": "বুঢ়ীডিহিং, উজনি অসমৰ দক্ষিণ পাৰৰ নদী"
+  }
+ },
+ "mungkang": {
+  "type": "place",
+  "name": {
+   "en": "Mungkang",
+   "as": "মুংকাং"
+  },
+  "meaning": {
+   "en": "Shan kingdom in Upper Burma (Mong Kawng)",
+   "as": "উজনি বাৰ্মাৰ শ্যান ৰাজ্য (মং কাং)"
+  },
+  "lessons": [
+   "suteuphaa"
+  ]
+ },
+ "moran": {
+  "type": "people",
+  "name": {
+   "en": "Morans",
+   "as": "মৰাণ"
+  },
+  "meaning": {
+   "en": "People of the valley; Sukaphaa married the daughter of their chief Badaucha",
+   "as": "উপত্যকাৰ জনগোষ্ঠী; চুকাফাই তেওঁলোকৰ ৰজা বদৌচাৰ জীয়েকক বিয়া কৰাইছিল"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "barahi": {
+  "type": "people",
+  "name": {
+   "en": "Barahis",
+   "as": "বৰাহী"
+  },
+  "meaning": {
+   "en": "People of the valley; Sukaphaa married the daughter of their chief Thakumatha",
+   "as": "উপত্যকাৰ জনগোষ্ঠী; চুকাফাই তেওঁলোকৰ ৰজা থাকুমথাৰ জীয়েকক বিয়া কৰাইছিল"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "kachari": {
+  "type": "people",
+  "name": {
+   "en": "Kacharis",
+   "as": "কছাৰী"
+  },
+  "meaning": {
+   "en": "Neighbouring people and kingdom; left the land east of the Dikhou under Suteuphaa",
+   "as": "চুবুৰীয়া জনগোষ্ঠী আৰু ৰাজ্য; চুতেউফাৰ দিনত দিখৌৰ পূব পাৰ এৰিছিল"
+  },
+  "lessons": [
+   "suteuphaa"
+  ]
+ },
+ "naras": {
+  "type": "people",
+  "name": {
+   "en": "Naras",
+   "as": "নৰা"
+  },
+  "meaning": {
+   "en": "The Shans of Mungkang in Upper Burma",
+   "as": "উজনি বাৰ্মাৰ মুংকাঙৰ শ্যান লোক"
+  },
+  "lessons": [
+   "suteuphaa"
+  ]
+ },
+ "sukaphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sukaphaa",
+   "as": "চুকাফা"
+  },
+  "meaning": {
+   "en": "Founder and first Ahom king (1228–1268), title Chaolung",
+   "as": "আহোম ৰাজ্যৰ প্ৰতিষ্ঠাপক আৰু প্ৰথম ৰজা (১২২৮–১২৬৮), উপাধি চাওলুং"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "suteuphaa": {
+  "type": "person",
+  "name": {
+   "en": "Suteuphaa",
+   "as": "চুতেউফা"
+  },
+  "meaning": {
+   "en": "Second Ahom king (1268–1281), Sukaphaa's eldest son",
+   "as": "দ্বিতীয় আহোম ৰজা (১২৬৮–১২৮১), চুকাফাৰ জ্যেষ্ঠ পুত্ৰ"
+  },
+  "lessons": [
+   "suteuphaa"
+  ]
+ },
+ "subinphaa": {
+  "type": "person",
+  "name": {
+   "en": "Subinphaa",
+   "as": "চুবিনফা"
+  },
+  "meaning": {
+   "en": "Third Ahom king (1281–1293), Suteuphaa's son",
+   "as": "তৃতীয় আহোম ৰজা (১২৮১–১২৯৩), চুতেউফাৰ পুত্ৰ"
+  }
+ },
+ "badaucha": {
+  "type": "person",
+  "name": {
+   "en": "Badaucha",
+   "as": "বদৌচা"
+  },
+  "meaning": {
+   "en": "Moran chief whose daughter married Sukaphaa",
+   "as": "মৰাণ ৰজা, যাৰ জীয়েকক চুকাফাই বিয়া কৰাইছিল"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "thakumatha": {
+  "type": "person",
+  "name": {
+   "en": "Thakumatha",
+   "as": "থাকুমথা"
+  },
+  "meaning": {
+   "en": "Barahi chief whose daughter married Sukaphaa",
+   "as": "বৰাহী ৰজা, যাৰ জীয়েকক চুকাফাই বিয়া কৰাইছিল"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "burhagohain": {
+  "type": "office",
+  "name": {
+   "en": "Burhagohain",
+   "as": "বুঢ়াগোহাঁই"
+  },
+  "meaning": {
+   "en": "One of the two great ministers (Dangarias) created by Sukaphaa",
+   "as": "চুকাফাই সৃষ্টি কৰা দুজন প্ৰধান মন্ত্ৰী (ডাঙৰীয়া)ৰ এজন"
+  },
+  "lessons": [
+   "sukaphaa",
+   "suteuphaa"
+  ]
+ },
+ "borgohain": {
+  "type": "office",
+  "name": {
+   "en": "Borgohain",
+   "as": "বৰগোহাঁই"
+  },
+  "meaning": {
+   "en": "One of the two great ministers (Dangarias) created by Sukaphaa",
+   "as": "চুকাফাই সৃষ্টি কৰা দুজন প্ৰধান মন্ত্ৰী (ডাঙৰীয়া)ৰ এজন"
+  },
+  "lessons": [
+   "sukaphaa",
+   "suteuphaa"
+  ]
+ },
+ "borpatrogohain": {
+  "type": "office",
+  "name": {
+   "en": "Borpatrogohain",
+   "as": "বৰপাত্ৰগোহাঁই"
+  },
+  "meaning": {
+   "en": "Third great minister, added by Suhungmung in 1527 (not by Sukaphaa)",
+   "as": "তৃতীয় প্ৰধান মন্ত্ৰী, ১৫২৭ চনত চুহুংমুঙে যোগ কৰিছিল (চুকাফাই নহয়)"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "dangaria": {
+  "type": "office",
+  "name": {
+   "en": "Dangaria",
+   "as": "ডাঙৰীয়া"
+  },
+  "meaning": {
+   "en": "Title of the great ministers (Burhagohain, Borgohain)",
+   "as": "প্ৰধান মন্ত্ৰীসকলৰ উপাধি (বুঢ়াগোহাঁই, বৰগোহাঁই)"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "buranji": {
+  "type": "term",
+  "name": {
+   "en": "Buranji",
+   "as": "বুৰঞ্জী"
+  },
+  "meaning": {
+   "en": "Ahom court chronicles, begun under Sukaphaa; a major source of Assam's history",
+   "as": "চুকাফাৰ দিনৰ পৰা লিখা আহোম ৰাজসভাৰ ইতিহাস; অসমৰ ইতিহাসৰ প্ৰধান উৎস"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "moidam": {
+  "type": "term",
+  "name": {
+   "en": "Moidam",
+   "as": "মৈদাম"
+  },
+  "meaning": {
+   "en": "Ahom royal burial mound; the Charaideo Moidams became India's 43rd UNESCO World Heritage Site in 2024",
+   "as": "আহোম ৰাজকীয় সমাধি-স্তূপ; ২০২৪ চনত চৰাইদেউৰ মৈদাম ভাৰতৰ ৪৩তম ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ হয়"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "bor-asom": {
+  "type": "term",
+  "name": {
+   "en": "Bor Asom",
+   "as": "বৰ অসম"
+  },
+  "meaning": {
+   "en": "'Greater Assam': one land for many peoples, the idea linked with Sukaphaa",
+   "as": "'বৃহত্তৰ অসম': বহু জনগোষ্ঠীৰ এক দেশ, চুকাফাৰ সৈতে জড়িত ধাৰণা"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "asom-divas": {
+  "type": "term",
+  "name": {
+   "en": "Asom Divas",
+   "as": "অসম দিৱস"
+  },
+  "meaning": {
+   "en": "2 December, marking Sukaphaa's arrival; official since 1996 (24 November is Lachit Divas)",
+   "as": "২ ডিচেম্বৰ, চুকাফাৰ আগমন সোঁৱৰি; ১৯৯৬ৰ পৰা চৰকাৰী (২৪ নৱেম্বৰ লাচিত দিৱস)"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "chaolung": {
+  "type": "term",
+  "name": {
+   "en": "Chaolung",
+   "as": "চাওলুং"
+  },
+  "meaning": {
+   "en": "Sukaphaa's title: Chao = lord, Lung = great",
+   "as": "চুকাফাৰ উপাধি: চাও = প্ৰভু, লুং = মহান"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ },
+ "wet-rice": {
+  "type": "term",
+  "name": {
+   "en": "wet-rice farming",
+   "as": "পানীখেতি"
+  },
+  "meaning": {
+   "en": "Rice grown in flooded fields; the Tai settlers looked for flat land near rivers",
+   "as": "পানী ভৰা পথাৰত ধান খেতি; টাই বসতিস্থাপনকাৰীয়ে নদীৰ কাষৰ সমতল মাটি বিচাৰিছিল"
+  },
+  "lessons": [
+   "sukaphaa"
+  ]
+ }
+}

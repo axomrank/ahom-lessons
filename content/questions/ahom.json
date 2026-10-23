@@ -1,0 +1,484 @@
+{
+ "note": "Exam-style questions for era checkpoints and practice. Facts come from the lessons' sources.",
+ "questions": [
+  {
+   "id": "bank.founding.01",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Ahom kingdom was founded in:",
+    "as": "আহোম ৰাজ্য প্ৰতিষ্ঠা হৈছিল:"
+   },
+   "options": [
+    {
+     "en": "1215",
+     "as": "১২১৫"
+    },
+    {
+     "en": "1228",
+     "as": "১২২৮"
+    },
+    {
+     "en": "1253",
+     "as": "১২৫৩"
+    },
+    {
+     "en": "1268",
+     "as": "১২৬৮"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Sukaphaa reached Namrup in December 1228. He left Mong Mao in 1215 and founded Charaideo in 1253.",
+    "as": "১২২৮ চনৰ ডিচেম্বৰত চুকাফা নামৰূপ পায়। ১২১৫ চনত মং মাও এৰিছিল আৰু ১২৫৩ চনত চৰাইদেউ স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "bank.founding.02",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Through which pass did Sukaphaa cross the Patkai hills?",
+    "as": "চুকাফাই কোনটো গিৰিপথেদি পাটকাই পাহাৰ পাৰ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Nathu La",
+     "as": "নাথু লা"
+    },
+    {
+     "en": "Bomdila",
+     "as": "বমডিলা"
+    },
+    {
+     "en": "Pangsau",
+     "as": "পাংচাউ"
+    },
+    {
+     "en": "Sela",
+     "as": "চেলা"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "The Pangsau Pass, in Changlang district of Arunachal Pradesh.",
+    "as": "অৰুণাচল প্ৰদেশৰ চাংলাং জিলাৰ পাংচাউ গিৰিপথ।"
+   }
+  },
+  {
+   "id": "bank.founding.03",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first permanent capital of the Ahoms was:",
+    "as": "আহোমসকলৰ প্ৰথম স্থায়ী ৰাজধানী আছিল:"
+   },
+   "options": [
+    {
+     "en": "Garhgaon",
+     "as": "গড়গাঁও"
+    },
+    {
+     "en": "Rangpur",
+     "as": "ৰংপুৰ"
+    },
+    {
+     "en": "Charaideo",
+     "as": "চৰাইদেউ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "Sukaphaa founded Charaideo in 1253. Garhgaon, Rangpur and Jorhat were later capitals.",
+    "as": "চুকাফাই ১২৫৩ চনত চৰাইদেউ স্থাপন কৰিছিল। গড়গাঁও, ৰংপুৰ আৰু যোৰহাট পিছৰ ৰাজধানী।"
+   }
+  },
+  {
+   "id": "bank.founding.04",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Asom Divas is observed on:",
+    "as": "অসম দিৱস পালন কৰা হয়:"
+   },
+   "options": [
+    {
+     "en": "24 November",
+     "as": "২৪ নৱেম্বৰ"
+    },
+    {
+     "en": "2 December",
+     "as": "২ ডিচেম্বৰ"
+    },
+    {
+     "en": "14 April",
+     "as": "১৪ এপ্ৰিল"
+    },
+    {
+     "en": "26 July",
+     "as": "২৬ জুলাই"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "2 December marks Sukaphaa's arrival (official since 1996). 24 November is Lachit Divas.",
+    "as": "২ ডিচেম্বৰে চুকাফাৰ আগমন সোঁৱৰায় (১৯৯৬ৰ পৰা চৰকাৰী)। ২৪ নৱেম্বৰ লাচিত দিৱস।"
+   }
+  },
+  {
+   "id": "bank.founding.05",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Sukaphaa married the daughters of the chiefs of which two communities?",
+    "as": "চুকাফাই কোনটো দুটা জনগোষ্ঠীৰ ৰজাৰ জীয়েক বিয়া কৰাইছিল?"
+   },
+   "options": [
+    {
+     "en": "Chutia and Kachari",
+     "as": "চুতীয়া আৰু কছাৰী"
+    },
+    {
+     "en": "Moran and Barahi",
+     "as": "মৰাণ আৰু বৰাহী"
+    },
+    {
+     "en": "Koch and Mech",
+     "as": "কোচ আৰু মেচ"
+    },
+    {
+     "en": "Naga and Mishing",
+     "as": "নাগা আৰু মিচিং"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "The Moran chief Badaucha and the Barahi chief Thakumatha.",
+    "as": "মৰাণ ৰজা বদৌচা আৰু বৰাহী ৰজা থাকুমথা।"
+   }
+  },
+  {
+   "id": "bank.founding.06",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Consider the statements:<br>1. Sukaphaa created the Burhagohain and the Borgohain.<br>2. Sukaphaa created the Borpatrogohain.<br>Which is/are correct?",
+    "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুকাফাই বুঢ়াগোহাঁই আৰু বৰগোহাঁই সৃষ্টি কৰিছিল।<br>২. চুকাফাই বৰপাত্ৰগোহাঁই সৃষ্টি কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "1 only",
+     "as": "কেৱল ১"
+    },
+    {
+     "en": "2 only",
+     "as": "কেৱল ২"
+    },
+    {
+     "en": "Both",
+     "as": "দুয়োটা"
+    },
+    {
+     "en": "Neither",
+     "as": "কোনোটো নহয়"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Only 1. Suhungmung created the Borpatrogohain in 1527.",
+    "as": "কেৱল ১। ১৫২৭ চনত চুহুংমুঙে বৰপাত্ৰগোহাঁই সৃষ্টি কৰিছিল।"
+   },
+   "small": true
+  },
+  {
+   "id": "bank.founding.07",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Moidams of Charaideo became India's which World Heritage Site in 2024?",
+    "as": "২০২৪ চনত চৰাইদেউৰ মৈদাম ভাৰতৰ কেইনম্বৰ বিশ্ব ঐতিহ্য ক্ষেত্ৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "41st",
+     "as": "৪১তম"
+    },
+    {
+     "en": "42nd",
+     "as": "৪২তম"
+    },
+    {
+     "en": "43rd",
+     "as": "৪৩তম"
+    },
+    {
+     "en": "44th",
+     "as": "৪৪তম"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "43rd, and the first cultural World Heritage Site in Northeast India. The 42nd was the Hoysala temples (2023).",
+    "as": "৪৩তম, আৰু উত্তৰ-পূব ভাৰতৰ প্ৰথম সাংস্কৃতিক বিশ্ব ঐতিহ্য ক্ষেত্ৰ। ৪২তম আছিল হৈচালা মন্দিৰ (২০২৩)।"
+   }
+  },
+  {
+   "id": "bank.founding.08",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukaphaa",
+   "difficulty": "hard",
+   "exams": [
+    "APSC",
+    "ADRE"
+   ],
+   "q": {
+    "en": "Assertion (A): Sukaphaa is remembered as the builder of 'Bor Asom'.<br>Reason (R): He brought the Morans and Barahis into his kingdom through marriage alliances.",
+    "as": "উক্তি (A): চুকাফাক 'বৰ অসম'ৰ ৰূপকাৰ বুলি স্মৰণ কৰা হয়।<br>কাৰণ (R): তেওঁ বৈবাহিক সম্বন্ধৰে মৰাণ আৰু বৰাহীসকলক ৰাজ্যৰ অংশ কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "Both true; R explains A",
+     "as": "দুয়োটা শুদ্ধ; R-এ A-ক ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both true; R does not explain A",
+     "as": "দুয়োটা শুদ্ধ; R-এ A-ক ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A true, R false",
+     "as": "A শুদ্ধ, R অশুদ্ধ"
+    },
+    {
+     "en": "A false, R true",
+     "as": "A অশুদ্ধ, R শুদ্ধ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The 'Bor Asom' idea comes from bringing local peoples into one kingdom, so R explains A.",
+    "as": "স্থানীয় জনগোষ্ঠীক এক ৰাজ্যত অনাৰ পৰাই 'বৰ অসম'ৰ ধাৰণা, সেয়ে R-এ A-ক ব্যাখ্যা কৰে।"
+   },
+   "small": true
+  },
+  {
+   "id": "bank.founding.09",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "suteuphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Who succeeded Sukaphaa?",
+    "as": "চুকাফাৰ পিছত কোন ৰজা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Subinphaa",
+     "as": "চুবিনফা"
+    },
+    {
+     "en": "Suteuphaa",
+     "as": "চুতেউফা"
+    },
+    {
+     "en": "Sudangphaa",
+     "as": "চুদাংফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "His eldest son Suteuphaa (1268–1281). Subinphaa came next, from 1281.",
+    "as": "তেওঁৰ জ্যেষ্ঠ পুত্ৰ চুতেউফা (১২৬৮–১২৮১)। ১২৮১ৰ পৰা চুবিনফা।"
+   }
+  },
+  {
+   "id": "bank.founding.10",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "suteuphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Under Suteuphaa, the Kacharis were made to leave the land:",
+    "as": "চুতেউফাৰ দিনত কছাৰীসকলক কোন মাটি এৰিবলৈ বাধ্য কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "east of the Dikhou",
+     "as": "দিখৌৰ পূব পাৰ"
+    },
+    {
+     "en": "west of the Dikhou",
+     "as": "দিখৌৰ পশ্চিম পাৰ"
+    },
+    {
+     "en": "north of the Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰ"
+    },
+    {
+     "en": "around Charaideo only",
+     "as": "কেৱল চৰাইদেউৰ চাৰিওফালে"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "East of the Dikhou (Gait). East/west is a common trap.",
+    "as": "দিখৌৰ পূব পাৰ (গেইট)। পূব/পশ্চিম এটা সাধাৰণ ফান্দ।"
+   }
+  },
+  {
+   "id": "bank.founding.11",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "suteuphaa",
+   "difficulty": "medium",
+   "exams": [
+    "APSC",
+    "ADRE"
+   ],
+   "q": {
+    "en": "The Naras, against whom Suteuphaa sent an expedition, were the Shans of:",
+    "as": "চুতেউফাই অভিযান পঠোৱা নৰাসকল আছিল কোন ঠাইৰ শ্যান?"
+   },
+   "options": [
+    {
+     "en": "Mong Mao",
+     "as": "মং মাও"
+    },
+    {
+     "en": "Mungkang",
+     "as": "মুংকাং"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Kamata",
+     "as": "কমতা"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Mungkang (Mong Kawng), a Shan kingdom in Upper Burma. The Burhagohain's army was defeated.",
+    "as": "উজনি বাৰ্মাৰ শ্যান ৰাজ্য মুংকাং (মং কাং)। বুঢ়াগোহাঁইৰ সৈন্য পৰাজিত হৈছিল।"
+   }
+  },
+  {
+   "id": "bank.founding.12",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "suteuphaa",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Arrange the first three Ahom kings in order:<br>1. Subinphaa  2. Sukaphaa  3. Suteuphaa",
+    "as": "প্ৰথম তিনিজন আহোম ৰজাক ক্ৰমত সজোৱা:<br>১. চুবিনফা  ২. চুকাফা  ৩. চুতেউফা"
+   },
+   "options": [
+    {
+     "en": "2, 3, 1",
+     "as": "২, ৩, ১"
+    },
+    {
+     "en": "2, 1, 3",
+     "as": "২, ১, ৩"
+    },
+    {
+     "en": "3, 2, 1",
+     "as": "৩, ২, ১"
+    },
+    {
+     "en": "1, 2, 3",
+     "as": "১, ২, ৩"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Sukaphaa (1228) → Suteuphaa (1268) → Subinphaa (1281).",
+    "as": "চুকাফা (১২২৮) → চুতেউফা (১২৬৮) → চুবিনফা (১২৮১)।"
+   },
+   "small": true
+  }
+ ]
+}

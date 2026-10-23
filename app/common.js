@@ -17,7 +17,8 @@ const store = {
   get(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* storage blocked */ } },
 };
-const G = Object.assign({ xp: 0, streak: { n: 0, last: null }, sound: true, as: false, mistakes: {}, updated: 0 }, store.get("axom:global", {}));
+const G = Object.assign({ xp: 0, streak: { n: 0, last: null }, sound: true, as: false, fs: 1, motion: true,
+  mistakes: {}, srs: {}, days: {}, stats: {}, checkpoints: {}, updated: 0 }, store.get("axom:global", {}));
 const lessonKey = (id) => `axom:lesson:${id}`;
 const getLesson = (id) => Object.assign({ done: {} }, store.get(lessonKey(id), {}));
 const listeners = [];
@@ -25,6 +26,24 @@ function saveGlobal() { G.updated = Date.now(); store.set("axom:global", G); lis
 function saveLesson(id, P) { store.set(lessonKey(id), P); saveGlobal(); }
 
 const dayKey = (d) => `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+const iso = (offset = 0) => { const d = new Date(Date.now() + offset * 864e5); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+
+/* ---------- spaced repetition (rule-based): a step returns after 1, 3, 7, 15, 30 days ---------- */
+const INTERVALS = [1, 3, 7, 15, 30];
+function srsLearn(stepId, lessonId) { if (!G.srs[stepId]) G.srs[stepId] = { l: lessonId, s: 0, d: iso(1) }; }
+function srsAnswer(stepId, lessonId, right) {
+  const cur = G.srs[stepId] || { l: lessonId, s: 0 };
+  const s = right ? Math.min(cur.s + 1, INTERVALS.length - 1) : 0;
+  G.srs[stepId] = { l: lessonId, s, d: iso(right ? INTERVALS[s] : 1) };
+}
+function reviewQueue() {   // due steps + saved mistakes, as [{ l, id }]
+  const today = iso(), seen = new Set(), out = [];
+  Object.entries(G.srs).filter(([, v]) => v.d <= today).sort((a, b) => (a[1].d < b[1].d ? -1 : 1)).forEach(([id, v]) => { seen.add(id); out.push({ l: v.l, id }); });
+  Object.entries(G.mistakes).forEach(([l, ids]) => ids.forEach((id) => { if (!seen.has(id)) { seen.add(id); out.push({ l, id }); } }));
+  return out;
+}
+function record(lessonId, right) { const st = (G.stats[lessonId] = G.stats[lessonId] || { a: 0, o: 0 }); st.a++; if (right) st.o++; }
+function addDayXP(xp) { const k = iso(); G.days[k] = (G.days[k] || 0) + xp; }
 const streakNow = () => { const t = dayKey(new Date()), y = dayKey(new Date(Date.now() - 864e5)); return G.streak.last === t || G.streak.last === y ? G.streak.n : 0; };
 function bumpStreak() {
   const t = dayKey(new Date()), y = dayKey(new Date(Date.now() - 864e5));
@@ -32,11 +51,11 @@ function bumpStreak() {
 }
 
 /* ---------- account sync: one document per user ---------- */
-// Shape of users/{uid}: { xp, streak, lessons: { id: { done: [...] } }, mistakes: { id: [...] }, updated }
+// Shape of users/{uid}: { xp, streak, lessons: { id: { done: [...] } }, mistakes, srs, days, stats, checkpoints, updated }
 function snapshot() {
   const lessons = {};
   Object.keys(localStorage).filter((k) => k.startsWith("axom:lesson:")).forEach((k) => { lessons[k.slice(12)] = { done: Object.keys(store.get(k, {}).done || {}) }; });
-  return { xp: G.xp, streak: G.streak, lessons, mistakes: G.mistakes, updated: G.updated };
+  return { xp: G.xp, streak: G.streak, lessons, mistakes: G.mistakes, srs: G.srs, days: G.days, stats: G.stats, checkpoints: G.checkpoints, updated: G.updated };
 }
 // Merge rule: never lose progress. XP = higher, finished units = union of both,
 // streak and mistakes = whichever side was updated more recently.
@@ -46,10 +65,14 @@ function merge(a, b) {
   new Set([...Object.keys(a.lessons || {}), ...Object.keys(b.lessons || {})]).forEach((id) => {
     lessons[id] = { done: [...new Set([...((a.lessons || {})[id] || {}).done || [], ...((b.lessons || {})[id] || {}).done || []])] };
   });
-  return { xp: Math.max(a.xp || 0, b.xp || 0), streak: newer.streak || { n: 0, last: null }, lessons, mistakes: newer.mistakes || {}, updated: Math.max(a.updated || 0, b.updated || 0) };
+  const days = { ...(a.days || {}) };
+  Object.entries(b.days || {}).forEach(([k, v]) => (days[k] = Math.max(days[k] || 0, v)));
+  return { xp: Math.max(a.xp || 0, b.xp || 0), streak: newer.streak || { n: 0, last: null }, lessons, mistakes: newer.mistakes || {},
+    srs: newer.srs || {}, days, stats: newer.stats || {}, checkpoints: { ...(a.checkpoints || {}), ...(b.checkpoints || {}) }, updated: Math.max(a.updated || 0, b.updated || 0) };
 }
 function applySnapshot(s) {
   G.xp = s.xp; G.streak = s.streak; G.mistakes = s.mistakes; G.updated = s.updated;
+  G.srs = s.srs || {}; G.days = s.days || {}; G.stats = s.stats || {}; G.checkpoints = s.checkpoints || {};
   store.set("axom:global", G);
   Object.entries(s.lessons).forEach(([id, v]) => { const P = getLesson(id); v.done.forEach((u) => (P.done[u] = true)); store.set(lessonKey(id), P); });
 }
@@ -93,7 +116,7 @@ const SFX = {   // volumes set for phone speakers
 
 /* ---------- content + media ---------- */
 const mediaBase = CFG.mediaBase || "content/media/";
-const media = (path, size) => mediaBase + (size === 480 ? path.replace(/\.webp$/, "@480.webp") : path);
+const media = (path, size) => mediaBase + (size === 480 ? path.replace(/\.webp$/, "@480.webp") : path);   // path like "sukaphaa/x.webp", "shared/x.webp", "faces/x.webp"
 async function getJSON(url) {
   const r = await fetch(url, { cache: "no-cache" });
   if (!r.ok) throw new Error(`${url}: ${r.status}`);
@@ -124,7 +147,40 @@ const ICON = {
   user: '<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>',
   download: '<svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>',
   check: '<svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+  gear: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>',
+  book: '<svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></svg>',
+  repeat: '<svg viewBox="0 0 24 24"><path d="M17 2l3 3-3 3M4 11V9a4 4 0 0 1 4-4h12M7 22l-3-3 3-3M20 13v2a4 4 0 0 1-4 4H4"/></svg>',
+  chevron: '<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>',
 };
+
+/* ---------- reading settings ---------- */
+function applySettings() {
+  document.documentElement.style.setProperty("--zoom", G.fs || 1);
+  document.documentElement.classList.toggle("no-motion", G.motion === false);
+}
+applySettings();
+function openSettings(extra = "") {
+  const root = document.getElementById("sheet-root");
+  const seg = (key, opts) => `<div class="seg">${opts.map(([v, l]) => `<button data-set="${key}" data-val="${v}" class="${String(G[key]) === String(v) ? "on" : ""}">${l}</button>`).join("")}</div>`;
+  root.innerHTML = `<div class="backdrop" data-close-settings></div><div class="sheet left"><div class="grab"></div><h2>${T(B("Settings", "ছেটিং"))}</h2>
+    <div class="setting"><span>${T(B("Language", "ভাষা"))}</span>${seg("as", [[false, "English"], [true, "অসমীয়া"]])}</div>
+    <div class="setting"><span>${T(B("Sound", "শব্দ"))}</span>${seg("sound", [[true, T(B("On", "অন"))], [false, T(B("Off", "অফ"))]])}</div>
+    <div class="setting"><span>${T(B("Text size", "আখৰৰ আকাৰ"))}</span>${seg("fs", [[0.92, "A−"], [1, "A"], [1.12, "A+"]])}</div>
+    <div class="setting"><span>${T(B("Animations", "এনিমেচন"))}</span>${seg("motion", [[true, T(B("On", "অন"))], [false, T(B("Off", "অফ"))]])}</div>
+    ${extra}<button class="link" data-close-settings>${T(B("Close", "বন্ধ কৰা"))}</button></div>`;
+}
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-set]");
+  if (b) {
+    const k = b.dataset.set, raw = b.dataset.val;
+    G[k] = raw === "true" ? true : raw === "false" ? false : +raw;
+    if (k === "as") { const box = document.getElementById("as"); if (box) { box.checked = G.as; box.dispatchEvent(new Event("change")); } }
+    saveGlobal(); applySettings();
+    b.parentElement.querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
+    return;
+  }
+  if (e.target.closest("[data-close-settings]")) document.getElementById("sheet-root").innerHTML = "";
+});
 
 /* ---------- language switch (both languages are in the page; CSS shows one) ---------- */
 function initLang() {
@@ -146,5 +202,6 @@ if (CFG.firebase) {
 }
 
 window.AXOM = { B, T, N, asNum, store, G, getLesson, saveGlobal, saveLesson, streakNow, bumpStreak, SFX, tone, media, getJSON,
-  isOffline, saveOffline, ICON, initLang, auth, merge, snapshot, applySnapshot, onSave: (f) => listeners.push(f), _audioState: () => (ac ? ac.state : "none") };
+  isOffline, saveOffline, ICON, initLang, auth, merge, snapshot, applySnapshot, onSave: (f) => listeners.push(f), _audioState: () => (ac ? ac.state : "none"),
+  iso, srsLearn, srsAnswer, reviewQueue, record, addDayXP, openSettings };
 })();

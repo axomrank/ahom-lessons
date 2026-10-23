@@ -6,7 +6,7 @@ service cloud.firestore {
     match /users/{uid} {
       allow read: if request.auth != null && request.auth.uid == uid;
       allow write: if request.auth != null && request.auth.uid == uid
-                   && request.resource.data.keys().hasOnly(["xp", "streak", "lessons", "mistakes", "updated"])
+                   && request.resource.data.keys().hasOnly(["xp", "streak", "lessons", "mistakes", "srs", "days", "stats", "checkpoints", "updated"])
                    && request.resource.data.xp is int;
     }
   }

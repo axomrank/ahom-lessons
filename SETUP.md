@@ -21,7 +21,7 @@ The build stamps a new version into `sw.js`, so phones replace old app files on 
 
 ## Firestore security rules
 
-Rules are in `firestore.rules`: each learner can read and write only their own document, with only the fields the app uses. To publish changes (uses gcloud):
+Rules are in `firestore.rules`: each learner can read and write only their own document, with only the fields the app uses (xp, streak, lessons, mistakes, srs, days, stats, checkpoints, updated). To publish changes (uses gcloud):
 
 ```bash
 scripts/deploy_rules.sh

@@ -50,10 +50,10 @@ for lid, L in lessons.items():
     if not L.get("sources"): err(f"{lid}: list at least one source (title, url, used_for)")
     mdir = f"content/media/{lid}"
     def need_img(name, where):
+        folder = "content/media" if name.startswith("shared/") else mdir
         for n in (name, name.replace(".webp", "@480.webp")):
-            if not os.path.exists(f"{mdir}/{n}"): err(f"{where}: missing image {mdir}/{n}")
+            if not os.path.exists(f"{folder}/{n}"): err(f"{where}: missing image {folder}/{n}")
     need_img(L["portrait"], f"{lid} portrait")
-    map_ids = {x["id"] for key in ("rivers", "hills", "places", "passes") for x in L["map"].get(key, [])}
     units = L["units"] + [L["test"]]
     unit_ids = {u["id"] for u in units}
     for u in units:
@@ -69,10 +69,7 @@ for lid, L in lessons.items():
             if s["type"] == "story" and not (s.get("img") or s.get("map") or s.get("art")): err(f"{where}: story needs img, map or art")
             if s.get("img"): need_img(s["img"], where)
             if s["type"] == "picture": [need_img(o, where) for o in s["options"]]
-            if s["type"] == "map":
-                for c in s["choices"]:
-                    if c not in map_ids: err(f"{where}: map choice '{c}' is not in the lesson map")
-                if s["target"] not in s["choices"]: err(f"{where}: map target must be one of the choices")
+            if s["type"] == "map" and s["target"] not in s["choices"]: err(f"{where}: map target must be one of the choices")
             if "answer" in s and isinstance(s["answer"], int) and "options" in s and not 0 <= s["answer"] < len(s["options"]): err(f"{where}: answer index out of range")
             link = s.get("link")
             if link:
@@ -83,7 +80,45 @@ for lid, L in lessons.items():
                 if k in s: bilingual(s[k], where)
     if L.get("buildsOn") and L["buildsOn"]["id"] not in lessons: err(f"{lid}: buildsOn unknown lesson")
 
+# shared names list, base map, question bank
+ENT = json.load(open("content/entities.json", encoding="utf-8"))
+BASE = json.load(open("content/maps/assam.json", encoding="utf-8"))
+base_ids = set(BASE.get("rivers", {})) | set(BASE.get("ridges", {}))
+for eid, e in ENT.items():
+    for k in ("type", "name", "meaning"):
+        if k not in e: err(f"entities: '{eid}' needs '{k}'")
+    bilingual(e.get("name"), f"entities/{eid}"); bilingual(e.get("meaning"), f"entities/{eid}")
+for lid, L in lessons.items():
+    for m in re.finditer(r"\[\[([a-z0-9-]+)(?:\|[^\]]+)?\]\]", json.dumps(L, ensure_ascii=False)):
+        if m.group(1) not in ENT: err(f"{lid}: [[{m.group(1)}]] is not in content/entities.json")
+    mp = L["map"]
+    for k in ("box", "show"):
+        if k not in mp: err(f"{lid}: map needs '{k}'")
+    for i in mp.get("show", []):
+        if i not in base_ids and not (i in ENT and ENT[i].get("geo")): err(f"{lid}: map shows '{i}' but it is neither in the base map nor an entity with geo")
+    for rt in mp.get("routes", []):
+        for ref in rt:
+            if isinstance(ref, str) and not (ref in ENT and ENT[ref].get("geo")): err(f"{lid}: route point '{ref}' has no geo")
+    for u in L["units"] + [L["test"]]:
+        for s in u["steps"]:
+            if s["type"] == "map":
+                for c in s["choices"]:
+                    if c not in mp.get("show", []): err(f"{lid}/{s['id']}: map choice '{c}' is not shown on the lesson map")
+bank = json.load(open("content/questions/ahom.json", encoding="utf-8"))
+for q in bank["questions"]:
+    if q["id"] in all_ids: err(f"bank: duplicate id {q['id']}")
+    all_ids[q["id"]] = "bank"
+    for k in ("era", "lesson", "q", "options", "answer", "why"):
+        if k not in q: err(f"bank/{q['id']}: missing '{k}'")
+    if q.get("lesson") not in lessons: err(f"bank/{q['id']}: unknown lesson '{q.get('lesson')}'")
+    if not 0 <= q.get("answer", -1) < len(q.get("options", [])): err(f"bank/{q['id']}: answer out of range")
+
 course = json.load(open("content/courses/ahom-kings.json", encoding="utf-8"))
+era_ids = {e["id"] for e in course["eras"]}
+for q in bank["questions"]:
+    if q.get("era") not in era_ids: err(f"bank/{q['id']}: unknown era '{q.get('era')}'")
+for k in course["kings"]:
+    if k.get("tier") not in ("A", "B", "C"): err(f"course: king {k['n']} needs tier A, B or C")
 for k in course["kings"]:
     if not os.path.exists(f"content/media/{k['face']}"): err(f"course: missing face content/media/{k['face']}")
     if k.get("lesson") and k["lesson"] not in lessons: err(f"course: king {k['n']} points to missing lesson {k['lesson']}")

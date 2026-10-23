@@ -1,12 +1,14 @@
 /* =========================================================
    AxomRank lesson engine
-   A lesson page sets window.LESSON (content) and loads this file.
-   The engine builds the lesson path, the units, the feedback,
-   progress, streak, sounds and the mistakes bank.
+   lesson.html?id=<lesson>           one lesson: path of units + lesson test
+   lesson.html?review=1              daily review across all lessons (spaced repetition + mistakes)
+   lesson.html?checkpoint=<era>      era checkpoint (&testout=1 to skip the era's lessons)
+   Shared data: content/entities.json (names, places, terms), content/maps/assam.json (base map),
+   content/questions/ahom.json (exam question bank).
    ========================================================= */
 (() => {
 "use strict";
-const { B, T, N, asNum, G, SFX, media } = window.AXOM;
+const { B, N, asNum, G, SFX, media } = window.AXOM;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const shuffle = (a) => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
@@ -14,22 +16,128 @@ const shuffledIdx = (n) => { let s; do { s = shuffle([...Array(n).keys()]); } wh
 const params = new URLSearchParams(location.search);
 const UNLOCK_ALL = params.has("all");
 
-/* Load content/lessons/<id>.json, then build the lesson. */
+/* ---------- shared names list: [[id]] or [[id|text]] inside lesson text ---------- */
+let ENT = {};
+const MARK = /\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g;
+const entText = (lang, id, text) => text || (ENT[id] ? ENT[id].name[lang] : id);
+const plain = (str, lang) => String(str).replace(MARK, (m, id, text) => entText(lang, id, text));
+const rich = (str, lang) => String(str).replace(MARK, (m, id, text) => `<button class="ent" data-ent="${id}">${entText(lang, id, text)}</button>`);
+// T: bilingual text with names as plain words. TR: names become tappable.
+const T = (o) => (o == null ? "" : typeof o === "string" ? o : `<span class="en">${plain(o.en, "en")}</span><span class="as">${plain(o.as, "as")}</span>`);
+const TR = (o) => (o == null ? "" : typeof o === "string" ? o : `<span class="en">${rich(o.en, "en")}</span><span class="as">${rich(o.as, "as")}</span>`);
+
+/* ---------- loading ---------- */
 async function load() {
-  const id = (params.get("id") || "sukaphaa").replace(/[^a-z0-9-]/g, "");
-  try { boot(await AXOM.getJSON(`content/lessons/${id}.json`)); }
-  catch (e) {
+  try {
+    const [entities, basemap] = await Promise.all([AXOM.getJSON("content/entities.json"), AXOM.getJSON("content/maps/assam.json")]);
+    ENT = entities; BASE = basemap;
+    if (params.has("review")) return boot(await buildReview(), "review");
+    if (params.get("checkpoint")) return boot(await buildCheckpoint(params.get("checkpoint").replace(/[^a-z-]/g, "")), "checkpoint");
+    const id = (params.get("id") || "sukaphaa").replace(/[^a-z0-9-]/g, "");
+    boot(await AXOM.getJSON(`content/lessons/${id}.json`), "lesson");
+  } catch (e) {
     document.body.insertAdjacentHTML("afterbegin", `<div class="stage"><div class="device"><div class="load-error"><h2>${T(B("This lesson could not be opened", "পাঠটো খুলিব পৰা নগ'ল"))}</h2><p>${T(B("Check your internet connection, or download the lesson for offline use when you are online.", "ইণ্টাৰনেট সংযোগ পৰীক্ষা কৰা, বা অনলাইন থকাৰ সময়ত পাঠটো অফলাইনৰ বাবে ডাউনলোড কৰি ৰাখা।"))}</p><a class="btn" href="index.html">${T(B("All lessons", "সকলো পাঠ"))}</a></div></div></div>`);
     console.warn(e);
   }
 }
+// A step taken from another lesson keeps that lesson's id (for images, maps, progress)
+const tagStep = (s, Lsrc) => ({ ...s, _lesson: Lsrc.id, _map: Lsrc.map });
+async function lessonsById(ids) {
+  const out = {};
+  await Promise.all([...new Set(ids)].map(async (id) => { try { out[id] = await AXOM.getJSON(`content/lessons/${id}.json`); } catch { /* not available offline */ } }));
+  return out;
+}
+async function buildReview() {
+  const queue = AXOM.reviewQueue();
+  const lessons = await lessonsById(queue.map((q) => q.l));
+  const steps = [];
+  for (const q of queue) {
+    const Ls = lessons[q.l]; if (!Ls) continue;
+    const s = [...Ls.units, Ls.test].flatMap((u) => u.steps).find((x) => x.id === q.id);
+    if (s && s.type !== "story") steps.push(tagStep(s, Ls));
+    if (steps.length >= 15) break;
+  }
+  return { id: "review", virtual: true, king: B("Daily review", "দৈনিক পুনৰীক্ষণ"), reign: B(`${steps.length} questions due`, `${asNum(steps.length)}টা প্ৰশ্ন বাকী`), units: [],
+    test: { id: "review", title: B("Daily review", "দৈনিক পুনৰীক্ষণ"), learned: [], steps } };
+}
+async function buildCheckpoint(eraId) {
+  const [course, manifest, bank] = await Promise.all([AXOM.getJSON("content/courses/ahom-kings.json"), AXOM.getJSON("content/manifest.json"), AXOM.getJSON("content/questions/ahom.json")]);
+  const era = course.eras.find((e) => e.id === eraId);
+  const ids = course.kings.filter((k) => k.n >= era.from && k.n <= era.to && k.lesson && manifest.lessons[k.lesson]).map((k) => k.lesson);
+  const lessons = await lessonsById(ids);
+  const fromBank = bank.questions.filter((q) => q.era === eraId && lessons[q.lesson]).map((q) => tagStep(q, lessons[q.lesson]));
+  const fromTests = ids.flatMap((id) => (lessons[id] ? shuffle(lessons[id].test.steps.filter((s) => s.type !== "story")).slice(0, 3).map((s) => tagStep(s, lessons[id])) : []));
+  const steps = shuffle([...shuffle(fromBank).slice(0, 10), ...fromTests]).slice(0, 15);
+  const eraUnits = Object.fromEntries(Object.entries(lessons).map(([id, Ls]) => [id, [...Ls.units.map((u) => u.id), "test"]]));
+  return { id: `checkpoint-${eraId}`, virtual: true, era, eraUnits, king: B("Era checkpoint", "যুগৰ পৰীক্ষা"), reign: era.title, units: [],
+    test: { id: "checkpoint", title: era.title, learned: [], steps } };
+}
 
-/* Everything below runs once the lesson data L is loaded. */
-function boot(L) {
-const P = AXOM.getLesson(L.id);
-const saveAll = () => AXOM.saveLesson(L.id, P);
-const streakNow = AXOM.streakNow;
-const bank = () => (G.mistakes[L.id] = G.mistakes[L.id] || []);
+/* ---------- base map (real district + river shapes from the KMZ) ---------- */
+let BASE = { districts: {}, rivers: {}, ridges: {} };
+function smoothPath(pts) {
+  if (pts.length < 3) return `M${pts.map((p) => p.join(" ")).join(" L")}`;
+  let d = `M${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
+  for (let i = 1; i < pts.length - 1; i++) {
+    const mx = (pts[i][0] + pts[i + 1][0]) / 2, my = (pts[i][1] + pts[i + 1][1]) / 2;
+    d += ` Q${pts[i][0].toFixed(1)} ${pts[i][1].toFixed(1)} ${mx.toFixed(1)} ${my.toFixed(1)}`;
+  }
+  const l = pts[pts.length - 1];
+  return d + ` L${l[0].toFixed(1)} ${l[1].toFixed(1)}`;
+}
+// spec: { box: [lonMin, latMin, lonMax, latMax], show: [ids], routes: [[id or [lat,lon], ...]], texts: [{ t, at }], labels: { id: { pos, at, t } } }
+function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
+  const [lonMin, latMin, lonMax, latMax] = spec.box;
+  const c = Math.cos(((latMin + latMax) / 2) * Math.PI / 180), k = 340 / ((lonMax - lonMin) * c);
+  const W = 340, H = Math.round((latMax - latMin) * k);
+  const P = ([lat, lon]) => [(lon - lonMin) * c * k, (latMax - lat) * k];
+  const clamp = ([x, y]) => [Math.min(W - 14, Math.max(14, x)), Math.min(H - 14, Math.max(14, y))];
+  const name = (id) => (ENT[id] ? ENT[id].name : { en: (BASE.rivers[id] || {}).name || id, as: (BASE.rivers[id] || {}).name || id });
+  const OFF = { e: [10, 4, "start"], w: [-10, 4, "end"], n: [0, -11, "middle"], s: [0, 17, "middle"], ne: [8, -8, "start"], nw: [-8, -8, "end"], se: [8, 14, "start"], sw: [-8, 14, "end"] };
+  const label = (id, [x, y], fallback, cls = "place") => {
+    const o = (spec.labels || {})[id] || {}, [dx, dy, anchor] = OFF[o.pos || fallback], t = o.t || name(id);
+    return `<text class="lbl ${cls}" x="${(x + dx).toFixed(1)}" y="${(y + dy).toFixed(1)}" text-anchor="${anchor}"><tspan class="en">${t.en}</tspan></text><text class="lbl ${cls} as" x="${(x + dx).toFixed(1)}" y="${(y + dy).toFixed(1)}" text-anchor="${anchor}">${t.as}</text>`;
+  };
+  const show = new Set(spec.show || []), isChoice = (id) => choices.includes(id);
+  // label anchor: labels[id].at = [lat, lon] on the map, or a fraction (0–1) along the line
+  const labelAt = (id, pts, def) => { const at = ((spec.labels || {})[id] || {}).at; return Array.isArray(at) ? P(at) : pts[Math.round((pts.length - 1) * (at ?? def))]; };
+  let out = `<svg class="map" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map"><defs><marker id="arrowhead" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--terra)"/></marker><clipPath id="mapclip"><rect width="${W}" height="${H}" rx="18"/></clipPath></defs><g clip-path="url(#mapclip)"><rect class="sea" width="${W}" height="${H}"/>`;
+  Object.values(BASE.districts).forEach((d) => d.rings.forEach((r) => (out += `<path class="district" d="M${r.map((p) => P(p).map((v) => v.toFixed(1)).join(" ")).join(" L")} Z"/>`)));
+  if (story) (spec.texts || []).forEach((t) => { const [x, y] = P(t.at); out += `<text class="lbl big" x="${x.toFixed(1)}" y="${y.toFixed(1)}"><tspan class="en">${t.t.en}</tspan></text><text class="lbl big as" x="${x.toFixed(1)}" y="${y.toFixed(1)}">${t.t.as}</text>`; });
+  Object.entries(BASE.rivers).forEach(([id, r]) => {
+    const main = id === "brahmaputra", pts = r.pts.map(P);
+    out += `<path class="river${main ? " main" : show.has(id) ? "" : " faint"}" d="${smoothPath(pts)}"/>`;
+    if (!show.has(id)) return;
+    if (isChoice(id) && !story) out += `<g class="hit" data-place="${id}"><path class="zone" d="${smoothPath(pts)}"/></g>`;
+    if (story || !isChoice(id)) out += label(id, labelAt(id, pts, 0.5), "e", "river-lbl");
+  });
+  Object.entries(BASE.ridges).forEach(([id, line]) => {
+    if (!show.has(id)) return;
+    const pts = line.map(P); let peaks = "";
+    for (let i = 0; i < pts.length - 1; i++) { const [x1, y1] = pts[i], [x2, y2] = pts[i + 1], n = Math.max(1, Math.round(Math.hypot(x2 - x1, y2 - y1) / 22)); for (let j = 0; j < n; j++) { const x = x1 + ((x2 - x1) * j) / n, y = y1 + ((y2 - y1) * j) / n; peaks += `<path d="M${(x - 12).toFixed(1)} ${(y + 8).toFixed(1)} L${x.toFixed(1)} ${(y - 11).toFixed(1)} L${(x + 12).toFixed(1)} ${(y + 8).toFixed(1)} Z"/>`; } }
+    out += `<g class="hills">${peaks}</g>`;
+    if (isChoice(id) && !story) out += `<g class="hit" data-place="${id}"><path class="zone" d="M${pts.map((p) => p.join(" ")).join(" L")}"/></g>`;
+    if (story || !isChoice(id)) out += label(id, labelAt(id, pts, 0.5), "w");
+  });
+  if (story && route) (spec.routes || []).forEach((r) => { const pts = r.map((ref) => (Array.isArray(ref) ? P(ref) : clamp(P(ENT[ref].geo)))); out += `<path class="route" d="${smoothPath(pts)}" marker-end="url(#arrowhead)"/>`; });
+  [...show].filter((id) => ENT[id] && ENT[id].geo).forEach((id) => {
+    const e = ENT[id], [x, y] = clamp(P(e.geo)), pass = e.type === "pass";
+    if (!story && !isChoice(id) && !pass) return;
+    if (isChoice(id) && !story) { out += `<g class="hit${pass ? " pass-hit" : ""}" data-place="${id}"><circle class="ring" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="17"/><circle class="${pass ? "pass" : "dot"}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${pass ? 8 : 7}"/></g>`; return; }
+    out += pass ? `<circle class="pass-glow" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="13"/><circle class="pass" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="8"/><path class="pass-mark" d="M${(x - 4).toFixed(1)} ${(y + 3).toFixed(1)} L${x.toFixed(1)} ${(y - 3).toFixed(1)} L${(x + 4).toFixed(1)} ${(y + 3).toFixed(1)}"/>`
+      : `<circle class="dot" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6"/>`;
+    if (story || (pass && !choices.length)) out += label(id, [x, y], "e", pass ? "place passlbl" : "place");
+  });
+  return out + `</g></svg><div class="map-note">${T(B("Districts and rivers of today's Assam; places approximate", "আজিৰ অসমৰ জিলা আৰু নদী; ঠাইবোৰ আনুমানিক"))}</div>`;
+}
+
+/* ========================================================= */
+function boot(L, mode) {
+const VIRTUAL = mode !== "lesson";
+const P = VIRTUAL ? { done: {} } : AXOM.getLesson(L.id);
+const saveAll = () => (VIRTUAL ? AXOM.saveGlobal() : AXOM.saveLesson(L.id, P));
+const bankOf = (lid) => (G.mistakes[lid] = G.mistakes[lid] || []);
+const lessonOf = (s) => s._lesson || L.id;
 
 /* ---------- icons and art ---------- */
 const ICONS = {
@@ -52,39 +160,6 @@ const ART = {
   rooster: `<svg viewBox="0 0 200 150" preserveAspectRatio="xMidYMid slice"><rect width="200" height="150" fill="#2E3170"/><circle cx="160" cy="34" r="22" fill="#F6E7C4" opacity=".18"/><circle cx="160" cy="34" r="15" fill="#F6E7C4"/>${[[30, 20], [70, 40], [120, 18], [40, 60], [180, 70], [95, 70]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="1.6" fill="#F6E7C4"/>`).join("")}<path d="M0 128c40-10 80-10 120-4s60 6 80 2v24H0z" fill="#1D1F4D"/><g transform="translate(62 54)"><path d="M30 70c-22 0-34-16-30-34 3-12 14-20 26-20 6-10 18-14 26-8l-4 6c8 0 12 6 10 12l-10-2c4 8 4 20-2 30" fill="var(--terra)"/><path d="M50 8c2-6 8-8 10-4-4 0-6 2-6 6z" fill="#D2483E"/><path d="M62 18l10 3-10 3z" fill="var(--gold)"/><circle cx="55" cy="16" r="2" fill="#1D1F4D"/><path d="M6 44c-10-6-16-20-8-30 2 10 8 16 14 18" fill="var(--gold)"/><path d="M24 70v12M36 68v14M18 82h10M30 82h12" stroke="var(--gold)" stroke-width="3" stroke-linecap="round"/></g><path d="M140 70q8-6 16 0M146 60q10-8 20 0" stroke="#F6E7C4" stroke-width="2" fill="none" stroke-linecap="round" opacity=".7"/></svg>`,
   embassy: `<svg viewBox="0 0 200 150"><path d="M20 120 C 60 60, 140 60, 180 120" fill="none" stroke="var(--terra)" stroke-width="4" stroke-dasharray="8 7" stroke-linecap="round"/><circle cx="20" cy="120" r="12" fill="var(--indigo)"/><circle cx="180" cy="120" r="12" fill="var(--gold)"/><rect x="82" y="44" width="36" height="26" rx="4" fill="var(--surface)" stroke="var(--terra)" stroke-width="3"/><path d="M82 46l18 14 18-14" fill="none" stroke="var(--terra)" stroke-width="3"/></svg>`,
 };
-
-/* ---------- maps (each lesson supplies its own spec) ---------- */
-function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
-  const lab = (o, hide) => (hide || !o ? "" : `<text class="lbl ${o.cls || "place"}" x="${o.x}" y="${o.y}" text-anchor="${o.anchor || "start"}" ${o.rot ? `transform="rotate(${o.rot} ${o.x} ${o.y})"` : ""}><tspan class="en">${o.t.en}</tspan></text><text class="lbl ${o.cls || "place"} as" x="${o.x}" y="${o.y}" text-anchor="${o.anchor || "start"}" ${o.rot ? `transform="rotate(${o.rot} ${o.x} ${o.y})"` : ""}>${o.t.as}</text>`);
-  const isChoice = (id) => choices.includes(id);
-  let out = `<svg class="map" viewBox="${spec.view}" role="img" aria-label="Schematic map"><defs><marker id="arrowhead" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--terra)"/></marker></defs>`;
-  if (story) (spec.texts || []).forEach((t) => (out += lab({ ...t, cls: t.cls || "big" })));   // region names only on story maps (they would give answers away)
-  (spec.rivers || []).forEach((r) => {
-    out += `<path class="river${r.small ? " small" : ""}" d="${r.d}" ${r.small ? 'style="stroke-width:4"' : ""}/>`;
-    if (isChoice(r.id)) out += `<g class="hit" data-place="${r.id}"><path class="zone" d="${r.d}"/></g>`;
-    out += lab(r.label, !story && isChoice(r.id));
-  });
-  (spec.hills || []).forEach((h) => {
-    out += `<g class="hills">${h.peaks.map(([x, y]) => `<path d="M${x - 16} ${y + 10} L${x} ${y - 14} L${x + 16} ${y + 10} Z"/>`).join("")}</g>`;
-    if (isChoice(h.id)) out += `<g class="hit" data-place="${h.id}"><path class="zone" d="${h.zone}"/></g>`;
-    out += lab(h.label, !story && isChoice(h.id));
-  });
-  if (story && route) (spec.routes || []).forEach((r) => (out += `<path class="route" d="${r}" marker-end="url(#arrowhead)"/>`));
-  (spec.passes || []).forEach((p) => {   // mountain passes: always highlighted, so learners notice them
-    if (isChoice(p.id) && !story) { out += `<g class="hit pass-hit" data-place="${p.id}"><circle class="ring" cx="${p.x}" cy="${p.y}" r="17"/><circle class="pass" cx="${p.x}" cy="${p.y}" r="8"/></g>`; return; }
-    out += `<circle class="pass-glow" cx="${p.x}" cy="${p.y}" r="13"/><circle class="pass" cx="${p.x}" cy="${p.y}" r="8"/><path class="pass-mark" d="M${p.x - 4} ${p.y + 3} L${p.x} ${p.y - 3} L${p.x + 4} ${p.y + 3}"/>`;
-    out += lab({ ...p.label, cls: "place passlbl" }, !story && choices.length > 0);
-  });
-  (spec.places || []).forEach((p) => {
-    if (!story && !isChoice(p.id)) return;
-    if (isChoice(p.id) && !story) out += `<g class="hit" data-place="${p.id}"><circle class="ring" cx="${p.x}" cy="${p.y}" r="17"/><circle class="dot" cx="${p.x}" cy="${p.y}" r="7"/></g>`;
-    else out += `<circle class="dot" cx="${p.x}" cy="${p.y}" r="6"/>`;
-    if (story) out += lab(p.label);
-  });
-  return out + `</svg><div class="map-note">${T(B("Schematic map, not to scale", "আনুমানিক মানচিত্ৰ, জোখ অনুসৰি নহয়"))}</div>`;
-}
-
-/* ---------- labels ---------- */
 const KICK = {
   mcq: B("Choose the correct answer", "শুদ্ধ উত্তৰটো বাছি লোৱা"), tf: B("True or false?", "শুদ্ধ নে অশুদ্ধ?"),
   map: B("Tap on the map", "মানচিত্ৰত টিপা"), unscramble: B("Unscramble", "সজাই লিখা"), inline: B("Complete the sentence", "বাক্যটো সম্পূৰ্ণ কৰা"),
@@ -97,7 +172,7 @@ const PRAISE = [B("Correct!", "শুদ্ধ!"), B("Excellent!", "বঢ়ি
 /* ---------- page skeleton ---------- */
 document.body.insertAdjacentHTML("afterbegin", `
 <input type="checkbox" id="as" aria-label="Show in Assamese">
-<div class="stage"><div class="device" id="device">
+<div class="stage"><div class="device lesson-page${VIRTUAL ? " virtual" : ""}" id="device">
   <div class="confetti" id="confetti" aria-hidden="true"></div>
   <div class="view" id="v-path">
     <div class="p-top">
@@ -106,29 +181,30 @@ document.body.insertAdjacentHTML("afterbegin", `
       <span class="spacer"></span>
       <span class="fire" id="fire">${AXOM.ICON.fire}<span id="streak"></span></span>
       <span class="gem">${AXOM.ICON.gem}<span id="xp-total"></span></span>
-      <button class="icon-btn" id="sound" aria-label="Sound on or off"></button>
+      <button class="icon-btn" id="settings" aria-label="Settings">${AXOM.ICON.gear}</button>
     </div>
     <div class="p-scroll">
       <section class="hero">
-        <img src="${media(`${L.id}/${L.portrait}`)}" alt="">
+        ${L.portrait ? `<img src="${media(`${L.id}/${L.portrait}`)}" alt="">` : ""}
         <div class="txt">
-          <div class="eyebrow">${T(B(`Ahom kings · Lesson ${L.no}`, `আহোম ৰজা · পাঠ ${asNum(L.no)}`))}</div>
+          ${L.no ? `<div class="eyebrow">${T(B(`Ahom kings · Lesson ${L.no}`, `আহোম ৰজা · পাঠ ${asNum(L.no)}`))}</div>` : ""}
           <h1>${T(L.king)}</h1>
           <div class="reign">${T(L.reign)}</div>
           ${L.buildsOn ? `<a class="builds-on" href="lesson.html?id=${L.buildsOn.id}">${T(B(`Builds on Lesson ${L.buildsOn.no}: ${L.buildsOn.title.en}`, `পাঠ ${asNum(L.buildsOn.no)}ৰ ভেটিত: ${L.buildsOn.title.as}`))}</a>` : ""}
           <div class="meter"><i id="meter"></i></div>
           <div class="count" id="count"></div>
-          <button class="offline-btn" id="offline"></button>
+          <div class="hero-btns"><button class="offline-btn" id="guide">${AXOM.ICON.book}${T(B("Guidebook", "নিৰ্দেশিকা"))}</button><button class="offline-btn" id="offline"></button></div>
         </div>
       </section>
       <div id="mistake-slot"></div>
       <div class="path" id="path"></div>
-      <div class="p-foot">${T(B("Paintings are artistic reconstructions. Maps are schematic, not to scale.", "ছবিবোৰ শিল্পীৰ কল্পনা। মানচিত্ৰবোৰ আনুমানিক, জোখ অনুসৰি নহয়।"))}</div>
+      <div class="p-foot">${T(B("Paintings are artistic reconstructions.", "ছবিবোৰ শিল্পীৰ কল্পনা।"))}</div>
     </div>
   </div>
+  <div class="view" id="v-empty"><div class="empty-pane">${AXOM.ICON.book}<p>${T(B("Choose a unit on the left to start.", "আৰম্ভ কৰিবলৈ বাওঁফালৰ পৰা এটা অধ্যায় বাছি লোৱা।"))}</p></div></div>
   <div class="view" id="v-play">
     <div class="top">
-      <button class="close" id="exit" aria-label="Leave unit">×</button>
+      <button class="close" id="exit" aria-label="Leave">×</button>
       <div class="bar"><i id="progress"></i></div>
       <label class="lang" for="as"><span class="en">অ</span><span class="as">EN</span></label>
     </div>
@@ -151,25 +227,25 @@ document.body.insertAdjacentHTML("afterbegin", `
 AXOM.initLang();
 const langBox = $("#as");
 const isAS = () => langBox.checked;
-document.title = `${L.king.en} · Lesson ${L.no}`;
+document.title = L.no ? `${L.king.en} · Lesson ${L.no}` : `${L.king.en} · Ahom Kings`;
 
 /* ---------- lesson path ---------- */
 const ALL = [...L.units, L.test];
 const unlocked = (k) => UNLOCK_ALL || k === 0 || !!P.done[ALL[k - 1].id];
-const showView = (id) => $$(".view").forEach((v) => v.classList.toggle("on", v.id === id));
+function showView(id) {
+  $$(".view").forEach((v) => v.classList.toggle("on", v.id === id));
+  if (id === "v-path") $("#v-empty").classList.add("on");   // wide screens show an empty right pane beside the path
+}
 let pop = null;
-
 function topStats() {
-  const s = streakNow();
+  const s = AXOM.streakNow();
   $("#fire").classList.toggle("on", s > 0);
   $("#streak").innerHTML = N(s);
   $("#xp-total").innerHTML = N(G.xp);
-  $("#sound").innerHTML = G.sound ? AXOM.ICON.soundOn : AXOM.ICON.soundOff;
-  $("#sound").classList.toggle("off", !G.sound);
 }
 const BY_ID = new Map(ALL.flatMap((u) => u.steps.map((s) => [s.id, s])));
-(() => {   // migrate mistakes saved by position before steps had ids
-  const b = bank(), conv = b.map((ref) => { const m = /^(\w+):(\d+)$/.exec(ref); if (!m) return ref; const u = ALL.find((x) => x.id === m[1]); return u && u.steps[+m[2]] ? u.steps[+m[2]].id : null; }).filter(Boolean);
+if (!VIRTUAL) (() => {   // migrate mistakes saved by position before steps had ids
+  const b = bankOf(L.id), conv = b.map((ref) => { const m = /^(\w+):(\d+)$/.exec(ref); if (!m) return ref; const u = ALL.find((x) => x.id === m[1]); return u && u.steps[+m[2]] ? u.steps[+m[2]].id : null; }).filter(Boolean);
   if (conv.join() !== b.join()) { G.mistakes[L.id] = [...new Set(conv)]; saveAll(); }
 })();
 function resolveStep(ref) { const s = BY_ID.get(ref); return s ? { s, ref } : null; }
@@ -178,7 +254,7 @@ function renderPath() {
   const doneCount = ALL.filter((u) => P.done[u.id]).length;
   $("#meter").style.width = `${(doneCount / ALL.length) * 100}%`;
   $("#count").innerHTML = T(B(`${doneCount} of ${ALL.length} steps complete`, `${asNum(ALL.length)}টাৰ ভিতৰত ${asNum(doneCount)}টা সম্পূৰ্ণ`));
-  const m = bank().map(resolveStep).filter(Boolean);
+  const m = bankOf(L.id).map(resolveStep).filter(Boolean);
   $("#mistake-slot").innerHTML = m.length ? `<button class="mistake-card" id="practise"><span class="ic">${N(m.length)}</span><span><b>${T(B("Practise your mistakes", "তোমাৰ ভুলবোৰ অনুশীলন কৰা"))}</b><span class="s">${T(B("Questions you missed in this lesson", "এই পাঠত ভুল হোৱা প্ৰশ্নবোৰ"))}</span></span><span class="go">›</span></button>` : "";
   const cur = ALL.findIndex((u, k) => unlocked(k) && !P.done[u.id]);
   const offs = [0, -64, -88, -50, 30, 80, 0];
@@ -204,8 +280,6 @@ function renderPath() {
 }
 
 /* ---------- connections between units / lessons ---------- */
-// step.link = { unit: "u1", note }                       → a unit earlier in this lesson
-// step.link = { lesson: 1, file, unitNo, unitTitle, note } → a unit in another lesson
 function linkLabel(link) {
   if (link.lesson) return B(`Lesson ${link.lesson} · ${link.unitTitle.en}`, `পাঠ ${asNum(link.lesson)} · ${link.unitTitle.as}`);
   const k = ALL.findIndex((u) => u.id === link.unit);
@@ -215,21 +289,39 @@ const CHAIN = '<svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 
 function linkCallout(link) {
   return `<button class="linkback" data-link><span class="ic">${CHAIN}</span><span><small>${T(B("Connects to", "সংযোগ"))} · ${T(linkLabel(link))}</small>${T(link.note)}</span></button>`;
 }
+function sheet(inner) { $("#sheet-root").innerHTML = `<div class="backdrop" data-keep></div><div class="sheet left"><div class="grab"></div>${inner}<button class="link" data-keep>${T(B("Close", "বন্ধ কৰা"))}</button></div>`; }
 function openLinkSheet(link) {
   let body = `<p class="note">${T(link.note)}</p>`;
-  if (link.lesson) {
-    body += `<a class="btn" href="lesson.html?id=${link.lessonId}" target="_blank" rel="noopener">${T(B(`Open Lesson ${link.lesson} in a new tab`, `পাঠ ${asNum(link.lesson)} নতুন টেবত খোলা`))}</a>`;
-  } else {
-    const u = ALL.find((x) => x.id === link.unit);
-    if (u && u.learned) body += `<ul class="recap">${u.learned.map((l) => `<li>${T(l)}</li>`).join("")}</ul>`;
-  }
-  $("#sheet-root").innerHTML = `<div class="backdrop" data-keep></div><div class="sheet left"><div class="grab"></div><h2>${T(linkLabel(link))}</h2>${body}<button class="link" data-keep>${T(B("Back to the exercise", "অনুশীলনলৈ উভতি যোৱা"))}</button></div>`;
+  if (link.lesson) body += `<a class="btn" href="lesson.html?id=${link.lessonId}" target="_blank" rel="noopener">${T(B(`Open Lesson ${link.lesson} in a new tab`, `পাঠ ${asNum(link.lesson)} নতুন টেবত খোলা`))}</a>`;
+  else { const u = ALL.find((x) => x.id === link.unit); if (u && u.learned) body += `<ul class="recap">${u.learned.map((l) => `<li>${T(l)}</li>`).join("")}</ul>`; }
+  sheet(`<h2>${T(linkLabel(link))}</h2>${body}`);
 }
 const unitLinks = (u) => {
   const seen = new Map();
   u.steps.forEach((s) => { if (s.link) { const key = s.link.lesson ? `L${s.link.lesson}:${s.link.unitNo}` : s.link.unit; if (!seen.has(key)) seen.set(key, s.link); } });
   return [...seen.values()];
 };
+const TYPE = { place: B("Place", "ঠাই"), river: B("River", "নদী"), ridge: B("Hills", "পাহাৰ"), pass: B("Mountain pass", "গিৰিপথ"), people: B("People", "জনগোষ্ঠী"), person: B("Person", "ব্যক্তি"), office: B("Office", "পদ"), term: B("Term", "শব্দ") };
+function openEntity(id) {
+  const e = ENT[id]; if (!e) return;
+  const links = (e.lessons || []).filter((l) => l !== L.id);
+  sheet(`<div class="ent-type">${T(TYPE[e.type] || B("", ""))}</div><h2>${T(e.name)}</h2><p class="note">${T(e.meaning)}</p>
+    ${links.length ? `<p class="also">${T(B("Also in", "আৰু আছে"))}: ${links.map((l) => `<a href="lesson.html?id=${l}" target="_blank" rel="noopener">${l[0].toUpperCase() + l.slice(1)}</a>`).join(", ")}</p>` : ""}`);
+}
+
+/* ---------- guidebook: one-screen revision note built from the lesson ---------- */
+function openGuide() {
+  const facts = L.units.flatMap((u) => u.learned || []);
+  const traps = ALL.flatMap((u) => u.steps).filter((s) => (s.type === "tf" && s.answer === false) || s.type === "spot");
+  const names = new Set();
+  JSON.stringify(L.units).replace(MARK, (m, id) => names.add(id));
+  const tl = (L.guide && L.guide.timeline) || [];
+  sheet(`<h2>${T(B("Guidebook", "নিৰ্দেশিকা"))} · ${T(L.king)}</h2>
+    <h4>${T(B("Key facts", "মূল তথ্য"))}</h4><ul class="recap">${facts.map((f) => `<li>${T(f)}</li>`).join("")}</ul>
+    ${tl.length ? `<h4>${T(B("Timeline", "সময়ৰেখা"))}</h4><div class="g-tl">${tl.map((x) => `<div><b>${x.y ? N(x.y) : "·"}</b><span>${T(x.t)}</span></div>`).join("")}</div>` : ""}
+    ${traps.length ? `<h4>${T(B("Exam traps", "পৰীক্ষাৰ ফান্দ"))}</h4>${traps.map((s) => `<div class="trap"><div class="w">✕ ${T(s.type === "tf" ? s.s : B(s.tokens.en.join(" "), s.tokens.as.join(" ")))}</div><div class="r">✓ ${T(s.why)}</div></div>`).join("")}` : ""}
+    ${names.size ? `<h4>${T(B("Names to know", "জানিবলগীয়া নাম"))}</h4><div class="g-names">${[...names].filter((id) => ENT[id]).map((id) => `<button class="ent" data-ent="${id}">${T(ENT[id].name)}</button>`).join("")}</div>` : ""}`);
+}
 
 /* ---------- unit play ---------- */
 let U = null;
@@ -239,7 +331,7 @@ function startUnit(k) {
   pop = null; showView("v-play"); renderStep(true);
 }
 function startPractice() {
-  const items = shuffle(bank().map(resolveStep).filter(Boolean)).slice(0, 10);
+  const items = shuffle(bankOf(L.id).map(resolveStep).filter(Boolean)).slice(0, 10);
   if (!items.length) return;
   const unit = { id: "practice", title: B("Practise your mistakes", "ভুলৰ অনুশীলন"), learned: [], steps: items.map((x) => x.s) };
   U = { unit, practice: true, queue: items, pos: 0, done: 0, total: items.length, xp: 0, ok: 0, asked: 0, mistakes: [], start: Date.now(), phase: "answer", st: {} };
@@ -254,22 +346,24 @@ function renderStep(animate) {
   $("#foot").className = "foot";
   const scr = $("#screen");
   scr.classList.remove("enter"); void scr.offsetWidth; if (animate) scr.classList.add("enter");
+  const from = s._lesson && s._lesson !== L.id ? `<span class="from">${T(B(s._lesson[0].toUpperCase() + s._lesson.slice(1), s._lesson[0].toUpperCase() + s._lesson.slice(1)))}</span>` : "";
   const kick = s.type === "story" ? `<div class="kicker story">${T(KICK.story)}</div>`
     : it.retry ? `<div class="kicker retry">${T(B("Previous mistake", "আগৰ ভুল"))}</div>`
-    : `<div class="kicker">${T(KICK[s.type])}${s.link ? `<button class="linkchip" data-link>${CHAIN}${T(linkLabel(s.link))}</button>` : ""}${s.type === "whoami" ? `<span class="xp" id="who-xp"></span>` : ""}</div>`;
+    : `<div class="kicker">${T(KICK[s.type])}${from}${s.link && !VIRTUAL ? `<button class="linkchip" data-link>${CHAIN}${T(linkLabel(s.link))}</button>` : ""}${s.type === "whoami" ? `<span class="xp" id="who-xp"></span>` : ""}</div>`;
   scr.innerHTML = kick + RENDER[s.type](s) + (s.type === "story" && s.link ? linkCallout(s.link) : "");
   scr.scrollTop = 0;
   if (SETUP[s.type]) SETUP[s.type](s, scr);
   refresh();
 }
-const img = (f, size) => media(`${L.id}/${f}`, size);
-const picture = (f, cls = "") => `<img src="${img(f)}" srcset="${img(f, 480)} 480w, ${img(f)} 1080w" sizes="(max-width: 440px) 92vw, 360px" alt="" ${cls}>`;
+const img = (f, size, lid = L.id) => media(f.startsWith("shared/") ? f : `${lid}/${f}`, size);
+const picture = (f, lid) => `<img src="${img(f, 0, lid)}" srcset="${img(f, 480, lid)} 480w, ${img(f, 0, lid)} 1080w" sizes="(max-width: 440px) 92vw, 360px" alt="">`;
+const mapOf = (s) => s._map || L.map;
 const RENDER = {
   story: (s) => `<h1 class="t">${T(s.title)}</h1>
-    ${s.img ? `<figure class="frame ${s.top ? "top" : ""}">${picture(s.img)}<span class="credit">${T(B("Artistic reconstruction", "শিল্পীৰ কল্পনা"))}</span></figure>`
-      : s.map ? `<figure class="frame mapframe">${mapSVG(L.map, { story: true, route: s.map.route })}</figure>`
+    ${s.img ? `<figure class="frame ${s.top ? "top" : ""}">${picture(s.img, lessonOf(s))}<span class="credit">${T(B("Artistic reconstruction", "শিল্পীৰ কল্পনা"))}</span></figure>`
+      : s.map ? `<figure class="frame mapframe">${mapSVG(mapOf(s), { story: true, route: s.map.route })}</figure>`
       : `<figure class="frame art${s.art === "rooster" ? " full" : ""}">${ART[s.art]}</figure>`}
-    <div class="story">${s.text.map((p) => `<p>${T(p)}</p>`).join("")}</div>`,
+    <div class="story">${s.text.map((p) => `<p>${TR(p)}</p>`).join("")}</div>`,
   mcq: (s) => `<p class="prompt" ${s.small ? 'style="font-size:18px"' : ""}>${T(s.q)}</p>
     <div class="opts">${s.options.map((o, k) => `<button class="tile opt" data-opt="${k}"><span class="k">${"ABCD"[k]}</span><span>${T(o)}</span></button>`).join("")}</div>`,
   odd: (s) => `<p class="prompt">${T(s.q)}</p><div class="opts grid2">${s.options.map((o, k) => `<button class="tile opt" data-opt="${k}"><span>${T(o)}</span></button>`).join("")}</div>`,
@@ -278,12 +372,12 @@ const RENDER = {
   tf: (s) => `<div class="statement">${T(s.s)}</div><div class="tf">
     <button class="tile t" data-tf="1"><span class="sym">✓</span>${T(B("True", "শুদ্ধ"))}</button>
     <button class="tile f" data-tf="0"><span class="sym">✕</span>${T(B("False", "অশুদ্ধ"))}</button></div>`,
-  fill: (s) => `<div class="en"><p class="sentence">${s.before.en} <span class="blank"><span class="given">${s.answer[0]}</span><input type="text" maxlength="${s.answer.length - 1}" style="--n:${s.answer.length - 1}" placeholder="${"_".repeat(s.answer.length - 1)}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type the rest of the word"></span>${s.after.en}</p>
+  fill: (s) => `<div class="en"><p class="sentence">${plain(s.before.en, "en")} <span class="blank"><span class="given">${s.answer[0]}</span><input type="text" maxlength="${s.answer.length - 1}" style="--n:${s.answer.length - 1}" placeholder="${"_".repeat(s.answer.length - 1)}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type the rest of the word"></span>${plain(s.after.en, "en")}</p>
       <p class="help">The first letter is given. Type the rest.</p></div>
-    <div class="as"><p class="sentence">${s.before.as} <span class="blank" data-fillchip>&nbsp;</span> ${s.after.as}</p>
+    <div class="as"><p class="sentence">${plain(s.before.as, "as")} <span class="blank" data-fillchip>&nbsp;</span> ${plain(s.after.as, "as")}</p>
       <div class="chips">${s.asOptions.map((o, k) => `<button class="tile" data-chip="${k}">${o}</button>`).join("")}</div></div>`,
-  map: (s) => `<p class="prompt">${T(s.q)}</p>${mapSVG(L.map, { choices: s.choices })}`,
-  picture: (s) => `<p class="prompt">${T(s.q)}</p><div class="pics">${s.options.map((src, k) => `<button class="tile pic" data-opt="${k}"><img src="${img(src, 480)}" alt=""></button>`).join("")}</div>`,
+  map: (s) => `<p class="prompt">${T(s.q)}</p>${mapSVG(mapOf(s), { choices: s.choices })}`,
+  picture: (s) => `<p class="prompt">${T(s.q)}</p><div class="pics">${s.options.map((src, k) => `<button class="tile pic" data-opt="${k}"><img src="${img(src, 480, lessonOf(s))}" alt=""></button>`).join("")}</div>`,
   whoami: (s) => `<div class="clues" id="clues"></div><div class="more"><button class="chip-btn" id="more">${T(B("Show another clue", "আৰু এটা সূত্ৰ"))}</button></div>
     <div class="opts grid2">${s.options.map((o, k) => `<button class="tile opt" data-opt="${k}"><span>${T(o)}</span></button>`).join("")}</div>`,
   unscramble: (s) => `<p class="prompt">${T(s.q)}</p>
@@ -390,17 +484,19 @@ function answerHTML(s) {
   return "";
 }
 function feedback(right) {
-  const it = step(), s = it.s, slips = s.type === "match" && !right;
+  const it = step(), s = it.s, slips = s.type === "match" && !right, lid = lessonOf(s);
   let gain = 0;
-  if (!it.retry) U.asked++;
+  if (!it.retry) { U.asked++; AXOM.record(lid, right); }
   if (right) { if (!it.retry) U.ok++; gain = it.retry ? 5 : s.type === "whoami" ? whoXP() : ["order", "timeline"].includes(s.type) ? 20 : 10; SFX.good(); }
   else { if (slips) gain = 5; SFX.bad(); }
   U.xp += gain;
-  // mistakes bank: wrong answers are kept for "Practise your mistakes"; a correct answer clears them
-  const b = bank();
-  if (right && b.includes(it.ref) && (U.practice || !it.retry)) b.splice(b.indexOf(it.ref), 1);   // the quick retry inside the same unit does not clear it
-  if (!right && !b.includes(it.ref)) b.push(it.ref);
-  if (!right && !it.retry) { U.mistakes.push({ s }); if (!slips) U.queue.push({ s, ref: it.ref, retry: true }); }
+  // spaced repetition: learned steps come back after 1, 3, 7, 15, 30 days; review answers move them along
+  if (!it.retry && !s.id.startsWith("bank.")) { if (mode === "review") AXOM.srsAnswer(s.id, lid, right); else if (right) AXOM.srsLearn(s.id, lid); }
+  // mistakes bank: kept for "Practise your mistakes" and daily review; a later correct answer clears them
+  const b = bankOf(lid);
+  if (right && b.includes(it.ref) && (U.practice || VIRTUAL || !it.retry)) b.splice(b.indexOf(it.ref), 1);
+  if (!right && !b.includes(it.ref) && !s.id.startsWith("bank.")) b.push(it.ref);
+  if (!right && !it.retry) { U.mistakes.push({ s }); if (!slips && mode !== "checkpoint") U.queue.push({ s, ref: it.ref, retry: true }); }
   if (!it.retry) U.done = Math.min(U.total, U.done + 1);
   $("#progress").style.width = `${(U.done / U.total) * 100}%`;
   $("#fb-badge").textContent = right || slips ? "✓" : "✕";
@@ -408,7 +504,7 @@ function feedback(right) {
     : slips ? T(B(`All matched, ${U.st.misses} slip${U.st.misses > 1 ? "s" : ""}`, `সকলো মিলিল, ${asNum(U.st.misses)}টা ভুল`)) : T(B("Not quite", "হোৱা নাই"));
   $("#fb-xp").innerHTML = gain ? `+${N(gain)} XP` : "";
   $("#fb-ans").innerHTML = right || slips ? "" : `<small>${T(B("Correct answer", "শুদ্ধ উত্তৰ"))}</small>${answerHTML(s)}`;
-  $("#fb-why").innerHTML = T(s.why);
+  $("#fb-why").innerHTML = TR(s.why);
   $("#foot").className = `foot ${right ? "fb-good" : "fb-bad"}`;
   U.phase = "feedback";
   saveAll(); refresh();
@@ -424,19 +520,29 @@ function next() {
 /* ---------- unit complete ---------- */
 function finishUnit() {
   const u = U.unit, wasDone = !!P.done[u.id];
-  if (!U.practice) P.done[u.id] = true;
-  G.xp += U.xp;
-  AXOM.bumpStreak();
+  if (!U.practice && !VIRTUAL) P.done[u.id] = true;
+  G.xp += U.xp; AXOM.addDayXP(U.xp); AXOM.bumpStreak();
+  let note = "";
+  if (mode === "checkpoint") {
+    const pass = U.asked && U.ok / U.asked >= 0.8;
+    if (pass) {
+      G.checkpoints[L.era.id] = true;
+      if (params.has("testout")) Object.entries(L.eraUnits).forEach(([id, units]) => { const Pl = AXOM.getLesson(id); units.forEach((u) => (Pl.done[u] = true)); AXOM.store.set(`axom:lesson:${id}`, Pl); });
+    }
+    note = pass ? T(B(params.has("testout") ? "Passed! The lessons of this era are marked complete." : "Passed! Era checkpoint complete.", params.has("testout") ? "উত্তীৰ্ণ! এই যুগৰ পাঠবোৰ সম্পূৰ্ণ বুলি চিহ্নিত কৰা হ'ল।" : "উত্তীৰ্ণ! যুগৰ পৰীক্ষা সম্পূৰ্ণ।"))
+      : T(B("You need 80% to pass. Review the lessons and try again.", "উত্তীৰ্ণ হ'বলৈ ৮০% লাগে। পাঠবোৰ আকৌ চাই পুনৰ চেষ্টা কৰা।"));
+  }
   saveAll();
   SFX.done();
   const secs = Math.round((Date.now() - U.start) / 1000), time = `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
-  const allDone = ALL.every((x) => P.done[x.id]);
+  const allDone = !VIRTUAL && ALL.every((x) => P.done[x.id]);
   const promptOf = (s) => s.q || s.s || (s.before ? B(`${s.before.en} ___ ${s.after.en}`, `${s.before.as} ___ ${s.after.as}`) : s.clues ? s.clues[0] : B("", ""));
-  const title = U.practice ? B("Practice complete!", "অনুশীলন সম্পূৰ্ণ!") : u === L.test && allDone ? B("Lesson complete!", "পাঠ সম্পূৰ্ণ!") : B("Unit complete!", "অধ্যায় সম্পূৰ্ণ!");
+  const title = mode === "review" ? B("Review complete!", "পুনৰীক্ষণ সম্পূৰ্ণ!") : mode === "checkpoint" ? B("Checkpoint finished", "যুগৰ পৰীক্ষা শেষ") : U.practice ? B("Practice complete!", "অনুশীলন সম্পূৰ্ণ!") : u === L.test && allDone ? B("Lesson complete!", "পাঠ সম্পূৰ্ণ!") : B("Unit complete!", "অধ্যায় সম্পূৰ্ণ!");
   $("#done").innerHTML = `
     <svg class="done-art" viewBox="0 0 180 150" aria-hidden="true"><path d="M10 40c14 2 20 10 34 13 30 6 62 6 92 0 14-3 20-11 34-13" fill="none" stroke="var(--terra)" stroke-width="5" stroke-linecap="round"/><path d="M30 52v70M150 52v70M22 124h136" stroke="var(--terra)" stroke-width="5" stroke-linecap="round"/><circle cx="90" cy="92" r="30" fill="var(--gold)"/><path d="M76 92l10 10 18-20" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <h1>${T(title)}</h1>
-    <p class="sub">${T(u.title)}${wasDone && !U.practice ? " · " + T(B("practice", "অনুশীলন")) : ""}</p>
+    <p class="sub">${T(u.title)}${wasDone && !U.practice && !VIRTUAL ? " · " + T(B("practice", "অনুশীলন")) : ""}</p>
+    ${note ? `<p class="cp-note">${note}</p>` : ""}
     <div class="stats">
       <div class="stat" style="--c:var(--gold)"><div class="h">XP</div><div class="v">+${N(U.xp)}</div></div>
       <div class="stat" style="--c:var(--good)"><div class="h">${T(B("Correct", "শুদ্ধ"))}</div><div class="v">${N(`${U.ok}/${U.asked}`)}</div></div>
@@ -458,16 +564,18 @@ function refreshSlotsHint() {
 document.addEventListener("click", (e) => {
   const g = (sel) => e.target.closest(sel);
   let b;
-  if (g("#sound")) { G.sound = !G.sound; saveAll(); topStats(); if (G.sound) SFX.tap(); return; }
+  if ((b = g("[data-ent]"))) { e.preventDefault(); return openEntity(b.dataset.ent); }
+  if (g("#settings")) return AXOM.openSettings();
+  if (g("#guide")) return openGuide();
   if (g("#practise")) return startPractice();
   if ((b = g("[data-node]"))) { const k = +b.dataset.node; pop = pop === k ? null : k; SFX.tap(); return renderPath(); }
   if ((b = g("[data-start]"))) return startUnit(+b.dataset.start);
   if ($("#v-path").classList.contains("on") && pop != null && !g(".pop")) { pop = null; return renderPath(); }
-  if (g("#done-btn")) { showView("v-path"); renderPath(); return; }
-  if (g("#exit")) return openSheet();
+  if (g("#done-btn")) { if (VIRTUAL) { location.href = "index.html"; return; } showView("v-path"); renderPath(); return; }
+  if (g("#exit")) return openLeave();
   if (g("[data-link]") && U) { const s0 = step().s; if (s0.link) return openLinkSheet(s0.link); }
   if (g("[data-keep]")) return closeSheet();
-  if (g("[data-leave]")) { closeSheet(); showView("v-path"); renderPath(); return; }
+  if (g("[data-leave]")) { closeSheet(); if (VIRTUAL) { location.href = "index.html"; return; } showView("v-path"); renderPath(); return; }
   if (!$("#v-play").classList.contains("on") || !U || U.phase !== "answer") return;
 
   const s = step().s, st = U.st, scr = $("#screen");
@@ -519,22 +627,22 @@ $("#action").addEventListener("click", () => { if (U.phase === "feedback" || ste
 document.addEventListener("input", (e) => { if (!$("#v-play").classList.contains("on") || step().s.type !== "fill") return; e.target.value = e.target.value.replace(/[^a-zA-Z]/g, ""); refresh(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Enter" && $("#v-play").classList.contains("on") && !$("#action").disabled && !$("#sheet-root").innerHTML) { e.preventDefault(); $("#action").click(); } });
 langBox.addEventListener("change", () => {
-  G.as = isAS(); saveAll();
   if ($("#v-play").classList.contains("on") && U.phase === "answer" && ["fill", "unscramble", "spot"].includes(step().s.type)) renderStep(false);
   else if ($("#v-play").classList.contains("on")) refresh();
 });
-function openSheet() {
-  $("#sheet-root").innerHTML = `<div class="backdrop" data-keep></div><div class="sheet"><h2>${T(B("Leave this unit?", "অধ্যায়টো এৰি যাবা নে?"))}</h2><p>${T(B("Your progress in this unit will be lost.", "এই অধ্যায়ৰ অগ্ৰগতি হেৰাব।"))}</p>
+function openLeave() {
+  $("#sheet-root").innerHTML = `<div class="backdrop" data-keep></div><div class="sheet"><h2>${T(B("Leave now?", "এতিয়া এৰি যাবা নে?"))}</h2><p>${T(B("Your progress in this round will be lost.", "এই পৰ্যায়ৰ অগ্ৰগতি হেৰাব।"))}</p>
     <button class="btn" data-keep>${T(B("Keep learning", "শিকি থাকোঁ"))}</button><button class="link" data-leave>${T(B("Leave", "এৰি যাওঁ"))}</button></div>`;
 }
 function closeSheet() { $("#sheet-root").innerHTML = ""; }
 
 if (/[?&]debug\b/.test(location.search)) window.__L = { LESSON: L, run: () => U, render: renderStep, G, P, audioState: AXOM._audioState };   // test hook only
+
 /* ---------- download this lesson for offline use ---------- */
 function lessonFiles() {
   const files = new Set([L.portrait]);
   ALL.forEach((u) => u.steps.forEach((s) => { if (s.img) files.add(s.img); if (s.type === "picture") s.options.forEach((o) => files.add(o)); }));
-  const urls = [`content/lessons/${L.id}.json`];
+  const urls = [`content/lessons/${L.id}.json`, "content/entities.json", "content/maps/assam.json"];
   files.forEach((f) => { urls.push(img(f), img(f, 480)); });
   return urls.map((u) => new URL(u, location.href).href);
 }
@@ -544,9 +652,9 @@ async function setupOffline() {
   const urls = lessonFiles();
   const show = (state, a, b) => {
     btn.disabled = state !== "idle";
-    btn.innerHTML = state === "saved" ? `${AXOM.ICON.check}${T(B("Available offline", "অফলাইনত উপলব্ধ"))}`
-      : state === "busy" ? `${AXOM.ICON.download}${T(B(`Downloading ${a}/${b}`, `ডাউনলোড হৈছে ${asNum(a)}/${asNum(b)}`))}`
-      : `${AXOM.ICON.download}${T(B("Download for offline", "অফলাইনৰ বাবে ডাউনলোড"))}`;
+    btn.innerHTML = state === "saved" ? `${AXOM.ICON.check}${T(B("Offline", "অফলাইন"))}`
+      : state === "busy" ? `${AXOM.ICON.download}${T(B(`${a}/${b}`, `${asNum(a)}/${asNum(b)}`))}`
+      : `${AXOM.ICON.download}${T(B("Download", "ডাউনলোড"))}`;
   };
   show((await AXOM.isOffline(urls)) ? "saved" : "idle");
   btn.addEventListener("click", async () => {
@@ -555,9 +663,14 @@ async function setupOffline() {
   });
 }
 
-showView("v-path");
-renderPath();
-setupOffline();
+if (VIRTUAL) {
+  if (!L.test.steps.length) {
+    showView("v-done");
+    $("#done").innerHTML = `<svg class="done-art" viewBox="0 0 180 150" aria-hidden="true"><circle cx="90" cy="80" r="40" fill="var(--good)"/><path d="M70 80l14 14 26-28" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <h1>${T(mode === "review" ? B("All caught up!", "সকলো শেষ!") : B("Nothing to test yet", "পৰীক্ষা কৰিবলৈ এতিয়াও একো নাই"))}</h1>
+      <p class="sub">${T(mode === "review" ? B("No questions are due today. Come back tomorrow.", "আজি কোনো প্ৰশ্ন বাকী নাই। কাইলৈ আহিবা।") : B("Finish some lessons of this era first.", "প্ৰথমে এই যুগৰ কিছু পাঠ শেষ কৰা।"))}</p>`;
+  } else startUnit(ALL.length - 1);
+} else { showView("v-path"); renderPath(); setupOffline(); }
 }   // end boot
 
 load();

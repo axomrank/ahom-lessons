@@ -42,113 +42,131 @@
   },
   "id": "sukaphaa"
  },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1268",
+    "t": {
+     "en": "Becomes the second Ahom king",
+     "as": "দ্বিতীয় আহোম ৰজা হয়"
+    }
+   },
+   {
+    "y": "",
+    "t": {
+     "en": "Embassy to Mong Mao",
+     "as": "মং মাওলৈ দূত"
+    }
+   },
+   {
+    "y": "",
+    "t": {
+     "en": "Kacharis leave the land east of the Dikhou",
+     "as": "কছাৰীয়ে দিখৌৰ পূব পাৰ এৰে"
+    }
+   },
+   {
+    "y": "",
+    "t": {
+     "en": "Expedition against the Naras of Mungkang",
+     "as": "মুংকাঙৰ নৰাৰ বিৰুদ্ধে অভিযান"
+    }
+   },
+   {
+    "y": "1281",
+    "t": {
+     "en": "Dies; Subinphaa succeeds",
+     "as": "মৃত্যু; চুবিনফা ৰজা"
+    }
+   }
+  ]
+ },
  "map": {
-  "view": "0 0 340 250",
+  "box": [
+   94.2,
+   26.45,
+   95.35,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "disang",
+   "dihing",
+   "sivasagar",
+   "charaideo"
+  ],
+  "routes": [
+   [
+    [
+     26.86,
+     95.08
+    ],
+    [
+     26.86,
+     94.36
+    ]
+   ]
+  ],
   "texts": [
    {
     "t": {
      "en": "KACHARI LAND",
      "as": "কছাৰী এলেকা"
     },
-    "x": 10,
-    "y": 238
+    "at": [
+     26.62,
+     94.22
+    ]
    },
    {
     "t": {
      "en": "AHOM LAND",
      "as": "আহোম এলেকা"
     },
-    "x": 116,
-    "y": 238
+    "at": [
+     26.62,
+     94.92
+    ]
    }
   ],
-  "rivers": [
-   {
-    "id": "brahmaputra",
-    "d": "M6 92 C 90 80, 180 70, 334 34",
-    "label": {
-     "t": {
-      "en": "Brahmaputra",
-      "as": "ব্ৰহ্মপুত্ৰ"
-     },
-     "x": 214,
-     "y": 50,
-     "rot": -9,
-     "cls": ""
-    }
+  "labels": {
+   "sivasagar": {
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    },
+    "pos": "w"
    },
-   {
-    "id": "dikhou",
-    "small": true,
-    "d": "M96 248 C 104 214, 88 178, 104 150 S 112 110, 112 86",
-    "label": {
-     "t": {
-      "en": "Dikhou",
-      "as": "দিখৌ"
-     },
-     "x": 60,
-     "y": 196
-    }
+   "charaideo": {
+    "pos": "ne"
    },
-   {
-    "id": "disang",
-    "small": true,
-    "d": "M196 248 C 190 214, 206 176, 194 140 S 186 100, 192 78",
-    "label": {
-     "t": {
-      "en": "Disang",
-      "as": "দিচাং"
-     },
-     "x": 204,
-     "y": 206
-    }
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
    },
-   {
-    "id": "dihing",
-    "small": true,
-    "d": "M334 196 C 300 186, 276 150, 270 116 S 262 80, 262 68",
-    "label": {
-     "t": {
-      "en": "Dihing",
-      "as": "ডিহিং"
-     },
-     "x": 282,
-     "y": 152
-    }
+   "disang": {
+    "at": [27.1, 95.2],
+    "pos": "s"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.12,
+     94.42
+    ],
+    "pos": "n"
    }
-  ],
-  "routes": [
-   "M176 214 C 150 214, 120 214, 30 214"
-  ],
-  "places": [
-   {
-    "id": "sivasagar",
-    "x": 104,
-    "y": 150,
-    "label": {
-     "t": {
-      "en": "Sivasagar (today)",
-      "as": "শিৱসাগৰ (আজি)"
-     },
-     "x": 96,
-     "y": 138,
-     "anchor": "end"
-    }
-   },
-   {
-    "id": "charaideo",
-    "x": 150,
-    "y": 168,
-    "label": {
-     "t": {
-      "en": "Charaideo",
-      "as": "চৰাইদেউ"
-     },
-     "x": 128,
-     "y": 190
-    }
-   }
-  ]
+  }
  },
  "units": [
   {
@@ -199,8 +217,8 @@
        "as": "১২৬৮ চনত চুকাফাৰ মৃত্যুৰ পিছত সম্ভ্ৰান্ত লোকসকলে তেওঁৰ <mark>জ্যেষ্ঠ পুত্ৰ</mark>ক সিংহাসনত বহুৱাইছিল।"
       },
       {
-       "en": "He was <mark>Suteuphaa</mark>, the second king of the Ahom kingdom.",
-       "as": "তেওঁ আছিল <mark>চুতেউফা</mark>, আহোম ৰাজ্যৰ দ্বিতীয় ৰজা।"
+       "en": "He was [[suteuphaa]], the second king of the Ahom kingdom.",
+       "as": "তেওঁ আছিল [[suteuphaa]], আহোম ৰাজ্যৰ দ্বিতীয় ৰজা।"
       }
      ],
      "id": "sut.u1.01"
@@ -294,8 +312,8 @@
      },
      "text": [
       {
-       "en": "Suteuphaa sent an <mark>embassy</mark> (a group of envoys) to the Ahoms' old homeland, <mark>Mong Mao</mark>.",
-       "as": "চুতেউফাই আহোমসকলৰ পুৰণি জন্মভূমি <mark>মং মাও</mark>লৈ <mark>দূত</mark> পঠিয়াইছিল।"
+       "en": "Suteuphaa sent an <mark>embassy</mark> (a group of envoys) to the Ahoms' old homeland, [[mongmao]].",
+       "as": "চুতেউফাই আহোমসকলৰ পুৰণি জন্মভূমি [[mongmao]]লৈ <mark>দূত</mark> পঠিয়াইছিল।"
       },
       {
        "en": "Its ruler replied with gifts and congratulations.",
@@ -445,8 +463,8 @@
      },
      "text": [
       {
-       "en": "The <mark>Kacharis</mark> also lived in parts of Upper Assam, close to the young Ahom kingdom.",
-       "as": "নতুন আহোম ৰাজ্যৰ ওচৰতে, উজনি অসমৰ কিছু অংশত <mark>কছাৰী</mark>সকলো বাস কৰিছিল।"
+       "en": "The [[kachari]] also lived in parts of Upper Assam, close to the young Ahom kingdom.",
+       "as": "নতুন আহোম ৰাজ্যৰ ওচৰতে, উজনি অসমৰ কিছু অংশত [[kachari]]সকলো বাস কৰিছিল।"
       },
       {
        "en": "Suteuphaa forced them to leave the land <mark>east of the Dikhou river</mark>.",
@@ -879,12 +897,12 @@
      },
      "text": [
       {
-       "en": "A quarrel broke out with the <mark>Naras</mark>, the Shans of <mark>Mungkang</mark>, a kingdom in Upper Burma.",
-       "as": "উজনি বাৰ্মাৰ ৰাজ্য <mark>মুংকাং</mark>ৰ শ্যান লোক <mark>নৰা</mark>সকলৰ সৈতে বিবাদ হৈছিল।"
+       "en": "A quarrel broke out with the [[naras]], the Shans of [[mungkang]], a kingdom in Upper Burma.",
+       "as": "উজনি বাৰ্মাৰ ৰাজ্য [[mungkang]]ৰ শ্যান লোক [[naras]]সকলৰ সৈতে বিবাদ হৈছিল।"
       },
       {
-       "en": "Suteuphaa sent an army under the <mark>Burhagohain</mark>. It was <mark>defeated</mark>.",
-       "as": "চুতেউফাই <mark>বুঢ়াগোহাঁই</mark>ৰ নেতৃত্বত সৈন্য পঠিয়াইছিল। সেই সৈন্য <mark>পৰাজিত</mark> হৈছিল।"
+       "en": "Suteuphaa sent an army under the [[burhagohain]]. It was <mark>defeated</mark>.",
+       "as": "চুতেউফাই [[burhagohain]]ৰ নেতৃত্বত সৈন্য পঠিয়াইছিল। সেই সৈন্য <mark>পৰাজিত</mark> হৈছিল।"
       }
      ],
      "id": "sut.u4.01"
@@ -911,8 +929,8 @@
      },
      "text": [
       {
-       "en": "A second force went under the <mark>Borgohain</mark>. He made a deal with the enemy instead of fighting.",
-       "as": "দ্বিতীয় দল এটা <mark>বৰগোহাঁই</mark>ৰ নেতৃত্বত গৈছিল। তেওঁ যুদ্ধ নকৰি শত্ৰুৰ সৈতে বুজাবুজি কৰিছিল।"
+       "en": "A second force went under the [[borgohain]]. He made a deal with the enemy instead of fighting.",
+       "as": "দ্বিতীয় দল এটা [[borgohain]]ৰ নেতৃত্বত গৈছিল। তেওঁ যুদ্ধ নকৰি শত্ৰুৰ সৈতে বুজাবুজি কৰিছিল।"
       },
       {
        "en": "He was <mark>imprisoned</mark>, and later pardoned. Some historians think these events happened under a later king.",
@@ -1029,8 +1047,8 @@
        "as": "<mark>১২৮১</mark> চনত চুতেউফাৰ মৃত্যু হয়। পিতৃয়ে পতা ৰাজ্য তেওঁ বঢ়াই গৈছিল।"
       },
       {
-       "en": "The eldest of his four sons, <mark>Subinphaa</mark>, became the next king.",
-       "as": "তেওঁৰ চাৰিজন পুত্ৰৰ ভিতৰত জ্যেষ্ঠ <mark>চুবিনফা</mark> পৰৱৰ্তী ৰজা হয়।"
+       "en": "The eldest of his four sons, [[subinphaa]], became the next king.",
+       "as": "তেওঁৰ চাৰিজন পুত্ৰৰ ভিতৰত জ্যেষ্ঠ [[subinphaa]] পৰৱৰ্তী ৰজা হয়।"
       }
      ],
      "id": "sut.u4.05"

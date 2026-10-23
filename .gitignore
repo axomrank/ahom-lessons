@@ -8,3 +8,4 @@ nesfic_2026_challenges.csv
 node_modules/
 .wrangler/
 *.log
+*.kmz

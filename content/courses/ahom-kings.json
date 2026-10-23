@@ -14,6 +14,7 @@
  },
  "eras": [
   {
+   "id": "founding",
    "from": 1,
    "to": 13,
    "title": {
@@ -22,6 +23,7 @@
    }
   },
   {
+   "id": "expansion",
    "from": 14,
    "to": 16,
    "title": {
@@ -30,6 +32,7 @@
    }
   },
   {
+   "id": "mughal",
    "from": 17,
    "to": 28,
    "title": {
@@ -38,6 +41,7 @@
    }
   },
   {
+   "id": "tungkhungia",
    "from": 29,
    "to": 33,
    "title": {
@@ -46,6 +50,7 @@
    }
   },
   {
+   "id": "decline",
    "from": 34,
    "to": 41,
    "title": {
@@ -64,7 +69,16 @@
    },
    "reign": "1228–1268",
    "face": "faces/sukaphaa.webp",
-   "lesson": "sukaphaa"
+   "lesson": "sukaphaa",
+   "tier": "A",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Founder of the dynasty",
+     "as": "ৰাজবংশৰ প্ৰতিষ্ঠাপক"
+    }
+   }
   },
   {
    "n": 2,
@@ -75,7 +89,16 @@
    },
    "reign": "1268–1281",
    "face": "faces/suteuphaa.webp",
-   "lesson": "suteuphaa"
+   "lesson": "suteuphaa",
+   "tier": "B",
+   "rel": {
+    "type": "son",
+    "of": "sukaphaa",
+    "t": {
+     "en": "Son of Chaolung Sukaphaa",
+     "as": "চাওলুং চুকাফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 3,
@@ -85,7 +108,16 @@
     "as": "চুবিনফা"
    },
    "reign": "1281–1293",
-   "face": "faces/subinphaa.webp"
+   "face": "faces/subinphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "son",
+    "of": "suteuphaa",
+    "t": {
+     "en": "Son of Suteuphaa",
+     "as": "চুতেউফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 4,
@@ -95,7 +127,16 @@
     "as": "চুখাংফা"
    },
    "reign": "1293–1332",
-   "face": "faces/sukhaangphaa.webp"
+   "face": "faces/sukhaangphaa.webp",
+   "tier": "B",
+   "rel": {
+    "type": "son",
+    "of": "subinphaa",
+    "t": {
+     "en": "Son of Subinphaa",
+     "as": "চুবিনফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 5,
@@ -105,7 +146,16 @@
     "as": "চুখ্ৰাংফা"
    },
    "reign": "1332–1364",
-   "face": "faces/sukhrangphaa.webp"
+   "face": "faces/sukhrangphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "son",
+    "of": "sukhaangphaa",
+    "t": {
+     "en": "Son of Sukhaangphaa",
+     "as": "চুখাংফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 6,
@@ -115,7 +165,16 @@
     "as": "চুতুফা"
    },
    "reign": "1369–1376",
-   "face": "faces/sutuphaa.webp"
+   "face": "faces/sutuphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "brother",
+    "of": "sukhrangphaa",
+    "t": {
+     "en": "Brother of Sukhrangphaa",
+     "as": "চুখ্ৰাংফাৰ ভাই"
+    }
+   }
   },
   {
    "n": 7,
@@ -125,7 +184,16 @@
     "as": "ত্যাও খামতি"
    },
    "reign": "1380–1389",
-   "face": "faces/tyao-khamti.webp"
+   "face": "faces/tyao-khamti.webp",
+   "tier": "C",
+   "rel": {
+    "type": "brother",
+    "of": "sutuphaa",
+    "t": {
+     "en": "Brother of Sutuphaa",
+     "as": "চুতুফাৰ ভাই"
+    }
+   }
   },
   {
    "n": 8,
@@ -136,7 +204,16 @@
    },
    "alt": "Bamuni Konwar",
    "reign": "1397–1407",
-   "face": "faces/sudangphaa.webp"
+   "face": "faces/sudangphaa.webp",
+   "tier": "B",
+   "rel": {
+    "type": "son",
+    "of": "tyao-khamti",
+    "t": {
+     "en": "Son of Tyao Khamti",
+     "as": "ত্যাও খামতিৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 9,
@@ -146,7 +223,16 @@
     "as": "চুজাংফা"
    },
    "reign": "1407–1422",
-   "face": "faces/sujangphaa.webp"
+   "face": "faces/sujangphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "son",
+    "of": "sudangphaa",
+    "t": {
+     "en": "Son of Sudangphaa",
+     "as": "চুদাংফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 10,
@@ -156,7 +242,16 @@
     "as": "চুফাকফা"
    },
    "reign": "1422–1439",
-   "face": "faces/suphakphaa.webp"
+   "face": "faces/suphakphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "son",
+    "of": "sujangphaa",
+    "t": {
+     "en": "Son of Sujangphaa",
+     "as": "চুজাংফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 11,
@@ -166,7 +261,16 @@
     "as": "চুচেনফা"
    },
    "reign": "1439–1488",
-   "face": "faces/susenphaa.webp"
+   "face": "faces/susenphaa.webp",
+   "tier": "B",
+   "rel": {
+    "type": "son",
+    "of": "suphakphaa",
+    "t": {
+     "en": "Son of Suphakphaa",
+     "as": "চুফাকফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 12,
@@ -176,7 +280,16 @@
     "as": "চুহেনফা"
    },
    "reign": "1488–1493",
-   "face": "faces/suhenphaa.webp"
+   "face": "faces/suhenphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "son",
+    "of": "susenphaa",
+    "t": {
+     "en": "Son of Susenphaa",
+     "as": "চুচেনফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 13,
@@ -186,7 +299,16 @@
     "as": "চুপিম্ফা"
    },
    "reign": "1493–1497",
-   "face": "faces/supimphaa.webp"
+   "face": "faces/supimphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "son",
+    "of": "suhenphaa",
+    "t": {
+     "en": "Son of Suhenphaa",
+     "as": "চুহেনফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 14,
@@ -197,7 +319,16 @@
    },
    "alt": "Swarganarayan",
    "reign": "1497–1539",
-   "face": "faces/suhungmung.webp"
+   "face": "faces/suhungmung.webp",
+   "tier": "A",
+   "rel": {
+    "type": "son",
+    "of": "supimphaa",
+    "t": {
+     "en": "Son of Supimphaa",
+     "as": "চুপিম্ফাৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 15,
@@ -208,7 +339,16 @@
    },
    "alt": "Garhgayan Roja",
    "reign": "1539–1552",
-   "face": "faces/suklenmung.webp"
+   "face": "faces/suklenmung.webp",
+   "tier": "B",
+   "rel": {
+    "type": "son",
+    "of": "suhungmung",
+    "t": {
+     "en": "Son of Suhungmung",
+     "as": "চুহুংমুংৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 16,
@@ -219,7 +359,16 @@
    },
    "alt": "Khora Roja",
    "reign": "1552–1603",
-   "face": "faces/sukhaamphaa.webp"
+   "face": "faces/sukhaamphaa.webp",
+   "tier": "B",
+   "rel": {
+    "type": "son",
+    "of": "suklenmung",
+    "t": {
+     "en": "Son of Suklenmung",
+     "as": "চুক্লেনমুংৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 17,
@@ -230,7 +379,16 @@
    },
    "alt": "Susenghphaa",
    "reign": "1603–1641",
-   "face": "faces/pratap-singha.webp"
+   "face": "faces/pratap-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "son",
+    "of": "sukhaamphaa",
+    "t": {
+     "en": "Son of Sukhaamphaa",
+     "as": "চুখাম্ফা (খোৰা ৰজা)ৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 18,
@@ -241,7 +399,16 @@
    },
    "alt": "Jayaditya Singha, Bhoga Roja",
    "reign": "1641–1644",
-   "face": "faces/suramphaa.webp"
+   "face": "faces/suramphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "son",
+    "of": "pratap-singha",
+    "t": {
+     "en": "Son of Pratap Singha",
+     "as": "প্ৰতাপ সিংহৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 19,
@@ -252,7 +419,16 @@
    },
    "alt": "Noriya Roja",
    "reign": "1644–1648",
-   "face": "faces/sutingphaa.webp"
+   "face": "faces/sutingphaa.webp",
+   "tier": "B",
+   "rel": {
+    "type": "brother",
+    "of": "suramphaa",
+    "t": {
+     "en": "Brother of Suramphaa",
+     "as": "চুৰম্ফা (ভোগা ৰজা)ৰ ভাই"
+    }
+   }
   },
   {
    "n": 20,
@@ -263,7 +439,16 @@
    },
    "alt": "Sutamla",
    "reign": "1648–1663",
-   "face": "faces/jayadhwaj-singha.webp"
+   "face": "faces/jayadhwaj-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "son",
+    "of": "sutingphaa",
+    "t": {
+     "en": "Son of Sutingphaa",
+     "as": "চুটিংফা (নৰীয়া ৰজা)ৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 21,
@@ -274,7 +459,16 @@
    },
    "alt": "Supangmung",
    "reign": "1663–1670",
-   "face": "faces/chakradhwaj-singha.webp"
+   "face": "faces/chakradhwaj-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "cousin",
+    "of": "jayadhwaj-singha",
+    "t": {
+     "en": "Cousin of Jayadhwaj Singha",
+     "as": "জয়ধ্বজ সিংহৰ সম্পৰ্কীয় ভাই"
+    }
+   }
   },
   {
    "n": 22,
@@ -285,7 +479,16 @@
    },
    "alt": "Sunyatphaa",
    "reign": "1670–1672",
-   "face": "faces/udayaditya-singha.webp"
+   "face": "faces/udayaditya-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "brother",
+    "of": "chakradhwaj-singha",
+    "t": {
+     "en": "Brother of Chakradhwaj Singha",
+     "as": "চক্ৰধ্বজ সিংহৰ ভাই"
+    }
+   }
   },
   {
    "n": 23,
@@ -296,7 +499,16 @@
    },
    "alt": "Suklamphaa",
    "reign": "1672–1674",
-   "face": "faces/ramdhwaj-singha.webp"
+   "face": "faces/ramdhwaj-singha.webp",
+   "tier": "B",
+   "rel": {
+    "type": "brother",
+    "of": "udayaditya-singha",
+    "t": {
+     "en": "Brother of Udayaditya Singha",
+     "as": "উদয়াদিত্য সিংহৰ ভাই"
+    }
+   }
   },
   {
    "n": 24,
@@ -307,7 +519,16 @@
    },
    "alt": "Samaguria Roja",
    "reign": "1674–1675",
-   "face": "faces/suhung.webp"
+   "face": "faces/suhung.webp",
+   "tier": "C",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Raised to the throne by the nobles",
+     "as": "সম্ভ্ৰান্ত লোকে সিংহাসনত বহুওৱা"
+    }
+   }
   },
   {
    "n": 25,
@@ -317,7 +538,16 @@
     "as": "গোবৰ ৰজা"
    },
    "reign": "1675 (about 24 days)",
-   "face": "faces/gobar-roja.webp"
+   "face": "faces/gobar-roja.webp",
+   "tier": "C",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Raised to the throne by the nobles",
+     "as": "সম্ভ্ৰান্ত লোকে সিংহাসনত বহুওৱা"
+    }
+   }
   },
   {
    "n": 26,
@@ -328,7 +558,16 @@
    },
    "alt": "Arjun Konwar",
    "reign": "1675–1677",
-   "face": "faces/sujinphaa.webp"
+   "face": "faces/sujinphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "grandson",
+    "of": "pratap-singha",
+    "t": {
+     "en": "Grandson of Pratap Singha",
+     "as": "প্ৰতাপ সিংহৰ নাতি"
+    }
+   }
   },
   {
    "n": 27,
@@ -339,7 +578,16 @@
    },
    "alt": "Parvatia Roja",
    "reign": "1677–1679",
-   "face": "faces/sudoiphaa.webp"
+   "face": "faces/sudoiphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Raised to the throne by the nobles",
+     "as": "সম্ভ্ৰান্ত লোকে সিংহাসনত বহুওৱা"
+    }
+   }
   },
   {
    "n": 28,
@@ -350,7 +598,16 @@
    },
    "alt": "Ratnadhwaj Singha, Lora Roja",
    "reign": "1679–1681",
-   "face": "faces/sulikphaa.webp"
+   "face": "faces/sulikphaa.webp",
+   "tier": "C",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Raised to the throne by the nobles",
+     "as": "সম্ভ্ৰান্ত লোকে সিংহাসনত বহুওৱা"
+    }
+   }
   },
   {
    "n": 29,
@@ -361,7 +618,16 @@
    },
    "alt": "Supaatphaa",
    "reign": "1681–1696",
-   "face": "faces/gadadhar-singha.webp"
+   "face": "faces/gadadhar-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "son",
+    "of": "gobar-roja",
+    "t": {
+     "en": "Son of Gobar Roja; first Tungkhungia king",
+     "as": "গোবৰ ৰজাৰ পুত্ৰ; প্ৰথম তুংখুঙীয়া ৰজা"
+    }
+   }
   },
   {
    "n": 30,
@@ -372,7 +638,16 @@
    },
    "alt": "Sukhrungphaa",
    "reign": "1696–1714",
-   "face": "faces/rudra-singha.webp"
+   "face": "faces/rudra-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "son",
+    "of": "gadadhar-singha",
+    "t": {
+     "en": "Son of Gadadhar Singha",
+     "as": "গদাধৰ সিংহৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 31,
@@ -383,7 +658,16 @@
    },
    "alt": "Sutanphaa",
    "reign": "1714–1744",
-   "face": "faces/siva-singha.webp"
+   "face": "faces/siva-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "son",
+    "of": "rudra-singha",
+    "t": {
+     "en": "Son of Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 32,
@@ -394,7 +678,16 @@
    },
    "alt": "Sunenphaa",
    "reign": "1744–1751",
-   "face": "faces/pramatta-singha.webp"
+   "face": "faces/pramatta-singha.webp",
+   "tier": "C",
+   "rel": {
+    "type": "brother",
+    "of": "siva-singha",
+    "t": {
+     "en": "Brother of Siva Singha",
+     "as": "শিৱ সিংহৰ ভাই"
+    }
+   }
   },
   {
    "n": 33,
@@ -405,7 +698,16 @@
    },
    "alt": "Suremphaa",
    "reign": "1751–1769",
-   "face": "faces/rajeswar-singha.webp"
+   "face": "faces/rajeswar-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "brother",
+    "of": "pramatta-singha",
+    "t": {
+     "en": "Brother of Pramatta Singha",
+     "as": "প্ৰমত্ত সিংহৰ ভাই"
+    }
+   }
   },
   {
    "n": 34,
@@ -416,7 +718,16 @@
    },
    "alt": "Sunyeophaa",
    "reign": "1769–1780",
-   "face": "faces/lakshmi-singha.webp"
+   "face": "faces/lakshmi-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "brother",
+    "of": "rajeswar-singha",
+    "t": {
+     "en": "Brother of Rajeswar Singha",
+     "as": "ৰাজেশ্বৰ সিংহৰ ভাই"
+    }
+   }
   },
   {
    "n": 35,
@@ -427,7 +738,16 @@
    },
    "alt": "Suhitpangphaa",
    "reign": "1780–1795",
-   "face": "faces/gaurinath-singha.webp"
+   "face": "faces/gaurinath-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "son",
+    "of": "lakshmi-singha",
+    "t": {
+     "en": "Son of Lakshmi Singha",
+     "as": "লক্ষ্মী সিংহৰ পুত্ৰ"
+    }
+   }
   },
   {
    "n": 36,
@@ -438,7 +758,16 @@
    },
    "alt": "Suklingphaa",
    "reign": "1795–1811",
-   "face": "faces/kamaleswar-singha.webp"
+   "face": "faces/kamaleswar-singha.webp",
+   "tier": "B",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Placed on the throne as an infant",
+     "as": "শিশু অৱস্থাত সিংহাসনত বহুওৱা"
+    }
+   }
   },
   {
    "n": 37,
@@ -449,7 +778,16 @@
    },
    "alt": "Sudingphaa · first reign",
    "reign": "1811–1818",
-   "face": "faces/chandrakanta-singha.webp"
+   "face": "faces/chandrakanta-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "brother",
+    "of": "kamaleswar-singha",
+    "t": {
+     "en": "Brother of Kamaleswar Singha",
+     "as": "কমলেশ্বৰ সিংহৰ ভাই"
+    }
+   }
   },
   {
    "n": 38,
@@ -460,7 +798,16 @@
    },
    "alt": "first reign",
    "reign": "1818–1819",
-   "face": "faces/purandar-singha.webp"
+   "face": "faces/purandar-singha.webp",
+   "tier": "B",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Installed by Ruchinath Burhagohain",
+     "as": "ৰুচিনাথ বুঢ়াগোহাঁইয়ে বহুওৱা"
+    }
+   }
   },
   {
    "n": 39,
@@ -471,7 +818,16 @@
    },
    "alt": "Sudingphaa · second reign",
    "reign": "1819–1821",
-   "face": "faces/chandrakanta-singha.webp"
+   "face": "faces/chandrakanta-singha.webp",
+   "tier": "A",
+   "rel": {
+    "type": "brother",
+    "of": "kamaleswar-singha",
+    "t": {
+     "en": "Brother of Kamaleswar Singha",
+     "as": "কমলেশ্বৰ সিংহৰ ভাই"
+    }
+   }
   },
   {
    "n": 40,
@@ -481,7 +837,16 @@
     "as": "যোগেশ্বৰ সিংহ"
    },
    "reign": "1821–1822",
-   "face": "faces/jogeswar-singha.webp"
+   "face": "faces/jogeswar-singha.webp",
+   "tier": "C",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Puppet king of the Burmese",
+     "as": "মানৰ পুতলা ৰজা"
+    }
+   }
   },
   {
    "n": 41,
@@ -492,7 +857,16 @@
    },
    "alt": "second reign",
    "reign": "1833–1838",
-   "face": "faces/purandar-singha.webp"
+   "face": "faces/purandar-singha.webp",
+   "tier": "B",
+   "rel": {
+    "type": "other",
+    "of": null,
+    "t": {
+     "en": "Installed by Ruchinath Burhagohain",
+     "as": "ৰুচিনাথ বুঢ়াগোহাঁইয়ে বহুওৱা"
+    }
+   }
   }
  ]
 }

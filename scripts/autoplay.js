@@ -4,7 +4,8 @@
         document.body.append(Object.assign(document.createElement("script"), { src: "scripts/autoplay.js" }))
    3. Run:  await playUnit(0, "en")              play unit 1 in English
             await playUnit(2, "as", ["mcq"])     unit 3 in Assamese, answering the first mcq wrong
-            await practise()                     play the "Practise your mistakes" round */
+            await practise()                     play the "Practise your mistakes" round
+            await playRun()                      play an open round (daily review, era checkpoint) */
 (() => {
 const sl=ms=>new Promise(r=>setTimeout(r,ms)); const $=(s,r=document)=>r.querySelector(s); const $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const click=el=>el.dispatchEvent(new MouseEvent('click',{bubbles:true})); const act=()=>click($('#action')); const isAS=()=>$('#as').checked;
@@ -35,5 +36,7 @@ window.playUnit = async function(k, lang, wrongTypes=[]){
   return 'U'+(k+1)+' '+lang+' '+(done?'DONE':'STUCK')+' ['+st+'] '+seq.join(' ');
 };
 window.practise = async function(){ const b=$('#practise'); if(!b) return 'no practise card'; click(b); await sl(10); const seq=[]; let g=0; while($('#v-play').classList.contains('on') && g++<30){ const U=__L.run(); const it=U.queue[U.pos]; seq.push(await solve(it.s,false)); await sl(8);} const t=$('#done h1').textContent; click($('#done-btn')); await sl(10); return 'PRACTICE '+t+' :: '+seq.join(' '); };
+window.playRun = async function(wrongEvery=0){ const seq=[]; let g=0; while($('#v-play').classList.contains('on') && g++<60){ const U=__L.run(); const it=U.queue[U.pos]; seq.push(await solve(it.s, wrongEvery && g%wrongEvery===0)); await sl(8);} return ($('#done h1')||{}).textContent+' :: '+seq.join(' '); };
+window.solveStep = solve;
 window.solverReady = true;
 })();
