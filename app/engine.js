@@ -306,7 +306,7 @@ function openEntity(id) {
   const e = ENT[id]; if (!e) return;
   const links = (e.lessons || []).filter((l) => l !== L.id);
   sheet(`<div class="ent-type">${T(TYPE[e.type] || B("", ""))}</div><h2>${T(e.name)}</h2><p class="note">${T(e.meaning)}</p>
-    ${links.length ? `<p class="also">${T(B("Also in", "আৰু আছে"))}: ${links.map((l) => `<a href="lesson.html?id=${l}" target="_blank" rel="noopener">${l[0].toUpperCase() + l.slice(1)}</a>`).join(", ")}</p>` : ""}`);
+    ${links.length ? `<p class="also">${T(B("Also in", "আৰু আছে"))}: ${links.map((l) => `<a href="lesson.html?id=${l}" target="_blank" rel="noopener">${ENT[l] ? T(ENT[l].name) : l}</a>`).join(", ")}</p>` : ""}`);
 }
 
 /* ---------- guidebook: one-screen revision note built from the lesson ---------- */

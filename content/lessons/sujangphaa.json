@@ -1,0 +1,476 @@
+{
+ "id": "sujangphaa",
+ "no": 9,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Sujangphaa",
+  "as": "স্বৰ্গদেউ চুজাংফা"
+ },
+ "reign": {
+  "en": "Reign 1407–1422",
+  "as": "ৰাজত্বকাল ১৪০৭–১৪২২"
+ },
+ "portrait": "sujangphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. IV, pp. 77–83",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "p. 82: son of Sudangphaa; nothing of importance recorded; died 1422"
+  }
+ ],
+ "review_notes": "A short lesson: the chronicles record nothing of importance for this reign, and nothing has been added.",
+ "buildsOn": {
+  "no": 8,
+  "title": {
+   "en": "Sudangphaa",
+   "as": "চুদাংফা"
+  },
+  "id": "sudangphaa"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1407",
+    "t": {
+     "en": "Becomes the ninth Ahom king",
+     "as": "নৱম আহোম ৰজা হয়"
+    }
+   },
+   {
+    "y": "1422",
+    "t": {
+     "en": "Dies; Suphakphaa succeeds",
+     "as": "মৃত্যু; চুফাকফা ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   94.2,
+   26.45,
+   95.35,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "disang",
+   "dihing",
+   "charaideo",
+   "sivasagar"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "sivasagar": {
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    },
+    "pos": "w"
+   },
+   "charaideo": {
+    "pos": "ne"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "disang": {
+    "at": [
+     27.1,
+     95.2
+    ],
+    "pos": "s"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.12,
+     94.42
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "star",
+   "title": {
+    "en": "A quiet reign",
+    "as": "শান্ত ৰাজত্ব"
+   },
+   "learned": [
+    {
+     "en": "Sujangphaa, son of Sudangphaa, ruled 1407–1422",
+     "as": "চুদাংফাৰ পুত্ৰ চুজাংফাই ১৪০৭–১৪২২ লৈকে ৰাজত্ব কৰিছিল"
+    },
+    {
+     "en": "The chronicles record nothing of importance in his reign",
+     "as": "বুৰঞ্জীত তেওঁৰ ৰাজত্বকালৰ কোনো গুৰুত্বপূৰ্ণ ঘটনা লিপিবদ্ধ নাই"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "The ninth king",
+      "as": "নৱম ৰজা"
+     },
+     "text": [
+      {
+       "en": "[[sujangphaa]], son of Sudangphaa, became king in <mark>1407</mark>.",
+       "as": "চুদাংফাৰ পুত্ৰ [[sujangphaa]] <mark>১৪০৭</mark> চনত ৰজা হয়।"
+      },
+      {
+       "en": "He ruled for 15 years, until <mark>1422</mark>.",
+       "as": "তেওঁ <mark>১৪২২</mark> লৈকে ১৫ বছৰ ৰাজত্ব কৰিছিল।"
+      }
+     ],
+     "id": "sjg.u1.01",
+     "img": "sujangphaa-court.webp",
+     "link": {
+      "lesson": 8,
+      "lessonId": "sudangphaa",
+      "unitNo": 5,
+      "unitTitle": {
+       "en": "Kamata and the last years",
+       "as": "কামতা আৰু শেষৰ বছৰবোৰ"
+      },
+      "note": {
+       "en": "Sudangphaa died in 1407 after a reign of ten years.",
+       "as": "দহ বছৰ ৰাজত্বৰ পিছত ১৪০৭ চনত চুদাংফাৰ মৃত্যু হয়।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Nothing to record",
+      "as": "লিখিবলগীয়া একো নাই"
+     },
+     "text": [
+      {
+       "en": "The chronicles record <mark>nothing of importance</mark> in his reign.",
+       "as": "বুৰঞ্জীত তেওঁৰ ৰাজত্বকালৰ <mark>কোনো গুৰুত্বপূৰ্ণ ঘটনা</mark> লিপিবদ্ধ নাই।"
+      },
+      {
+       "en": "After his father's eventful rule, the kingdom had a quiet time.",
+       "as": "পিতৃৰ ঘটনাবহুল শাসনৰ পিছত ৰাজ্যখনে এক শান্ত সময় পালে।"
+      }
+     ],
+     "id": "sjg.u1.02",
+     "art": "scroll"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Sujangphaa ruled from 1407 to",
+      "as": "চুজাংফাই ১৪০৭ৰ পৰা"
+     },
+     "after": {
+      "en": ".",
+      "as": "চনলৈ ৰাজত্ব কৰিছিল।"
+     },
+     "options": [
+      {
+       "en": "1397",
+       "as": "১৩৯৭"
+      },
+      {
+       "en": "1422",
+       "as": "১৪২২"
+      },
+      {
+       "en": "1439",
+       "as": "১৪৩৯"
+      },
+      {
+       "en": "1488",
+       "as": "১৪৮৮"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "1407–1422. His son Suphakphaa followed.",
+      "as": "১৪০৭–১৪২২। তাৰ পিছত তেওঁৰ পুত্ৰ চুফাকফা।"
+     },
+     "id": "sjg.u1.03",
+     "big": true
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Buranjis record great wars in Sujangphaa's reign.",
+      "as": "বুৰঞ্জীত চুজাংফাৰ ৰাজত্বকালৰ ডাঙৰ ডাঙৰ যুদ্ধৰ কথা আছে।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Nothing of importance is recorded for his reign.",
+      "as": "অশুদ্ধ। তেওঁৰ ৰাজত্বকালৰ কোনো গুৰুত্বপূৰ্ণ ঘটনা লিপিবদ্ধ নাই।"
+     },
+     "id": "sjg.u1.04"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Whose son was Sujangphaa?",
+      "as": "চুজাংফা কাৰ পুত্ৰ আছিল?"
+     },
+     "options": [
+      {
+       "en": "Sudangphaa",
+       "as": "চুদাংফা"
+      },
+      {
+       "en": "Tyao Khamti",
+       "as": "ত্যাও খামতি"
+      },
+      {
+       "en": "Suphakphaa",
+       "as": "চুফাকফা"
+      },
+      {
+       "en": "Susenphaa",
+       "as": "চুচেনফা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sudangphaa, the Bamuni Konwar.",
+      "as": "চুদাংফা, বামুণী কোঁৱৰ।"
+     },
+     "id": "sjg.u1.05"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Sutuphaa",
+        "as": "চুতুফা"
+       },
+       {
+        "en": "1369–1376",
+        "as": "১৩৬৯–১৩৭৬"
+       }
+      ],
+      [
+       {
+        "en": "Tyao Khamti",
+        "as": "ত্যাও খামতি"
+       },
+       {
+        "en": "1380–1389",
+        "as": "১৩৮০–১৩৮৯"
+       }
+      ],
+      [
+       {
+        "en": "Sudangphaa",
+        "as": "চুদাংফা"
+       },
+       {
+        "en": "1397–1407",
+        "as": "১৩৯৭–১৪০৭"
+       }
+      ],
+      [
+       {
+        "en": "Sujangphaa",
+        "as": "চুজাংফা"
+       },
+       {
+        "en": "1407–1422",
+        "as": "১৪০৭–১৪২২"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Notice the gaps: no king in 1376–1380 and 1389–1397.",
+      "as": "ফাঁকবোৰ মন কৰা: ১৩৭৬–১৩৮০ আৰু ১৩৮৯–১৩৯৭ত ৰজা নাছিল।"
+     },
+     "id": "sjg.u1.06"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the kings in order.",
+      "as": "ৰজাসকলক ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Tyao Khamti (1380)",
+       "as": "ত্যাও খামতি (১৩৮০)"
+      },
+      {
+       "en": "Sudangphaa (1397)",
+       "as": "চুদাংফা (১৩৯৭)"
+      },
+      {
+       "en": "Sujangphaa (1407)",
+       "as": "চুজাংফা (১৪০৭)"
+      }
+     ],
+     "why": {
+      "en": "Grandfather, father, son.",
+      "as": "ককা, পিতৃ, পুত্ৰ।"
+     },
+     "id": "sjg.u1.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Sujangphaa",
+    "as": "তুমি স্বৰ্গদেউ চুজাংফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the son of Sudangphaa.",
+      "as": "মই চুদাংফাৰ পুত্ৰ আছিলোঁ।"
+     },
+     {
+      "en": "I became king in 1407.",
+      "as": "মই ১৪০৭ চনত ৰজা হৈছিলোঁ।"
+     },
+     {
+      "en": "Nothing of importance is recorded in my reign.",
+      "as": "মোৰ ৰাজত্বকালৰ কোনো গুৰুত্বপূৰ্ণ ঘটনা লিপিবদ্ধ নাই।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Sujangphaa",
+      "as": "চুজাংফা"
+     },
+     {
+      "en": "Suphakphaa",
+      "as": "চুফাকফা"
+     },
+     {
+      "en": "Susenphaa",
+      "as": "চুচেনফা"
+     },
+     {
+      "en": "Sukhrangphaa",
+      "as": "চুখ্ৰাংফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sujangphaa (1407–1422).",
+     "as": "চুজাংফা (১৪০৭–১৪২২)।"
+    },
+    "id": "sjg.test.01"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "Sujangphaa died in",
+     "as": "চুজাংফাৰ"
+    },
+    "after": {
+     "en": ".",
+     "as": "চনত মৃত্যু হৈছিল।"
+    },
+    "options": [
+     {
+      "en": "1407",
+      "as": "১৪০৭"
+     },
+     {
+      "en": "1422",
+      "as": "১৪২২"
+     },
+     {
+      "en": "1439",
+      "as": "১৪৩৯"
+     },
+     {
+      "en": "1401",
+      "as": "১৪০১"
+     }
+    ],
+    "answer": 1,
+    "why": {
+     "en": "1422, after 15 years.",
+     "as": "১৪২২, ১৫ বছৰৰ পিছত।"
+    },
+    "id": "sjg.test.02",
+    "big": true
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Sujangphaa was the son of Sudangphaa.<br>2. Sujangphaa fixed the Patkai boundary.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুজাংফা চুদাংফাৰ পুত্ৰ আছিল।<br>২. চুজাংফাই পাটকাই সীমা নিৰ্ধাৰণ কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. His father Sudangphaa fixed the Patkai boundary in 1401.",
+     "as": "কেৱল ১। তেওঁৰ পিতৃ চুদাংফাই ১৪০১ চনত পাটকাই সীমা নিৰ্ধাৰণ কৰিছিল।"
+    },
+    "id": "sjg.test.03",
+    "small": true
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Sujangphaa reigned for about 15 years.",
+     "as": "চুজাংফাই প্ৰায় ১৫ বছৰ ৰাজত্ব কৰিছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True: 1407–1422.",
+     "as": "শুদ্ধ: ১৪০৭–১৪২২।"
+    },
+    "id": "sjg.test.04"
+   }
+  ]
+ }
+}

@@ -1,0 +1,659 @@
+{
+ "id": "subinphaa",
+ "no": 3,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Subinphaa",
+  "as": "স্বৰ্গদেউ চুবিনফা"
+ },
+ "reign": {
+  "en": "Reign 1281–1293",
+  "as": "ৰাজত্বকাল ১২৮১–১২৯৩"
+ },
+ "portrait": "subinphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. IV, pp. 77–83",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "p. 77: son of Suteuphaa, 1281–1293, no new territory, Ahom subjects shared equally between the Bar Gohain and Burha Gohain"
+  },
+  {
+   "title": "Subinphaa",
+   "url": "https://en.wikipedia.org/wiki/Subinphaa",
+   "used_for": "Satgharia Ahoms: rulers and ruled; three state clans and four priestly clans (citing S. L. Baruah 1993)"
+  }
+ ],
+ "review_notes": "Left out as unsourced: the swamp-reclamation scene in the AHOM catalogue.",
+ "buildsOn": {
+  "no": 2,
+  "title": {
+   "en": "Suteuphaa",
+   "as": "চুতেউফা"
+  },
+  "id": "suteuphaa"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1281",
+    "t": {
+     "en": "Becomes the third Ahom king",
+     "as": "তৃতীয় আহোম ৰজা হয়"
+    }
+   },
+   {
+    "y": "",
+    "t": {
+     "en": "Shares the Ahom subjects between the Burhagohain and Borgohain",
+     "as": "আহোম প্ৰজাক বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত ভগায়"
+    }
+   },
+   {
+    "y": "",
+    "t": {
+     "en": "The nobility become the Satgharia, the seven houses",
+     "as": "অভিজাত বৰ্গ সাতঘৰীয়া হয়"
+    }
+   },
+   {
+    "y": "1293",
+    "t": {
+     "en": "Dies; Sukhaangphaa succeeds",
+     "as": "মৃত্যু; চুখাংফা ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   94.2,
+   26.45,
+   95.35,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "disang",
+   "dihing",
+   "charaideo",
+   "sivasagar"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "sivasagar": {
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    },
+    "pos": "w"
+   },
+   "charaideo": {
+    "pos": "ne"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "disang": {
+    "at": [
+     27.1,
+     95.2
+    ],
+    "pos": "s"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.12,
+     94.42
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "home",
+   "title": {
+    "en": "The seven houses",
+    "as": "সাতঘৰীয়া"
+   },
+   "learned": [
+    {
+     "en": "Subinphaa, son of Suteuphaa, ruled 1281–1293",
+     "as": "চুতেউফাৰ পুত্ৰ চুবিনফাই ১২৮১–১২৯৩ লৈকে ৰাজত্ব কৰিছিল"
+    },
+    {
+     "en": "No new land was added in his reign",
+     "as": "তেওঁৰ ৰাজত্বকালত নতুন মাটি যোগ হোৱা নাছিল"
+    },
+    {
+     "en": "He shared the Ahom subjects equally between the Burhagohain and the Borgohain",
+     "as": "তেওঁ আহোম প্ৰজাক বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে ভগাই দিছিল"
+    },
+    {
+     "en": "The nobility became the Satgharia: three ruling and four priestly clans",
+     "as": "অভিজাত বৰ্গ সাতঘৰীয়া হ'ল: তিনিটা শাসক আৰু চাৰিটা পুৰোহিত ফৈদ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "The third king",
+      "as": "তৃতীয় ৰজা"
+     },
+     "text": [
+      {
+       "en": "[[subinphaa]], son of Suteuphaa, became the third Ahom king in <mark>1281</mark>.",
+       "as": "চুতেউফাৰ পুত্ৰ [[subinphaa]] <mark>১২৮১</mark> চনত তৃতীয় আহোম ৰজা হয়।"
+      },
+      {
+       "en": "He ruled until 1293. <mark>No new land</mark> was added to the kingdom in his time.",
+       "as": "তেওঁ ১২৯৩ লৈকে ৰাজত্ব কৰিছিল। তেওঁৰ দিনত ৰাজ্যত <mark>নতুন মাটি</mark> যোগ হোৱা নাছিল।"
+      }
+     ],
+     "id": "sbn.u1.01",
+     "img": "divides.webp",
+     "link": {
+      "lesson": 2,
+      "lessonId": "suteuphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "War and succession",
+       "as": "যুদ্ধ আৰু উত্তৰাধিকাৰ"
+      },
+      "note": {
+       "en": "Suteuphaa died in 1281; Subinphaa was the eldest of his four sons.",
+       "as": "১২৮১ চনত চুতেউফাৰ মৃত্যু হয়; চুবিনফা তেওঁৰ চাৰি পুত্ৰৰ জ্যেষ্ঠ।"
+      }
+     }
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Subinphaa ruled from 1281 to",
+      "as": "চুবিনফাই ১২৮১ চনৰ পৰা"
+     },
+     "after": {
+      "en": ".",
+      "as": "চনলৈ ৰাজত্ব কৰিছিল।"
+     },
+     "options": [
+      {
+       "en": "1268",
+       "as": "১২৬৮"
+      },
+      {
+       "en": "1293",
+       "as": "১২৯৩"
+      },
+      {
+       "en": "1332",
+       "as": "১৩৩২"
+      },
+      {
+       "en": "1253",
+       "as": "১২৫৩"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "1281–1293. His son Sukhaangphaa ruled next, from 1293.",
+      "as": "১২৮১–১২৯৩। তাৰ পিছত ১২৯৩ৰ পৰা তেওঁৰ পুত্ৰ চুখাংফাই ৰাজত্ব কৰে।"
+     },
+     "id": "sbn.u1.02",
+     "big": true
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Two equal shares",
+      "as": "দুটা সমান ভাগ"
+     },
+     "text": [
+      {
+       "en": "Subinphaa shared out his Ahom subjects in <mark>equal shares</mark> between the [[burhagohain]] and the [[borgohain]].",
+       "as": "চুবিনফাই তেওঁৰ আহোম প্ৰজাক [[burhagohain]] আৰু [[borgohain]]ৰ মাজত <mark>সমানে</mark> ভগাই দিছিল।"
+      },
+      {
+       "en": "Each of the two great ministers now had his own half of the people.",
+       "as": "এতিয়া দুয়োজন ডাঙৰীয়াৰ নিজা নিজা আধা প্ৰজা হ'ল।"
+      }
+     ],
+     "id": "sbn.u1.03",
+     "img": "shared/gohains.webp",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Running the kingdom",
+       "as": "ৰাজ্য পৰিচালনা"
+      },
+      "note": {
+       "en": "Sukaphaa created these two offices, the Burhagohain and the Borgohain.",
+       "as": "চুকাফাই এই দুটা পদ, বুঢ়াগোহাঁই আৰু বৰগোহাঁই, সৃষ্টি কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "How did Subinphaa share out his Ahom subjects?",
+      "as": "চুবিনফাই আহোম প্ৰজাক কেনেকৈ ভগাইছিল?"
+     },
+     "options": [
+      {
+       "en": "Equally between the Burhagohain and the Borgohain",
+       "as": "বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে"
+      },
+      {
+       "en": "All of them to the Burhagohain",
+       "as": "সকলোকে বুঢ়াগোহাঁইক"
+      },
+      {
+       "en": "Among the Morans and the Barahis",
+       "as": "মৰাণ আৰু বৰাহীৰ মাজত"
+      },
+      {
+       "en": "Among the Naras of Mungkang",
+       "as": "মুংকাঙৰ নৰাসকলৰ মাজত"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "In equal shares between the two great ministers, the Burhagohain and the Borgohain.",
+      "as": "দুয়োজন ডাঙৰীয়া, বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে।"
+     },
+     "id": "sbn.u1.04"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Rulers and ruled",
+      "as": "শাসক আৰু শাসিত"
+     },
+     "text": [
+      {
+       "en": "In his reign the Ahoms divided themselves into <mark>rulers and ruled</mark>.",
+       "as": "তেওঁৰ ৰাজত্বকালত আহোমসকল <mark>শাসক আৰু শাসিত</mark> দুই ভাগত বিভক্ত হ'ল।"
+      },
+      {
+       "en": "The nobles were called the [[satgharia]], the 'Ahoms of the seven houses'. The other Ahoms joined the general population.",
+       "as": "অভিজাতসকলক [[satgharia]], অৰ্থাৎ 'সাত ঘৰৰ আহোম' বোলা হ'ল। বাকী আহোমসকল সাধাৰণ প্ৰজাৰ লগত মিলি গ'ল।"
+      }
+     ],
+     "id": "sbn.u1.05",
+     "art": "scroll"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Who were the seven?",
+      "as": "সাতটা ঘৰ কোন?"
+     },
+     "text": [
+      {
+       "en": "<mark>Three</mark> were ruling clans: the royal Gohain clan, the Burhagohain and the Borgohain.",
+       "as": "<mark>তিনিটা</mark> আছিল শাসক ফৈদ: ৰাজকীয় গোহাঁই ফৈদ, বুঢ়াগোহাঁই আৰু বৰগোহাঁই।"
+      },
+      {
+       "en": "<mark>Four</mark> were priestly clans: the Deodhai, Bailung, Mohan and Siring.",
+       "as": "<mark>চাৰিটা</mark> আছিল পুৰোহিত ফৈদ: দেওধাই, বাইলুং, মোহন আৰু চিৰিং।"
+      }
+     ],
+     "id": "sbn.u1.06",
+     "art": "scroll"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Satgharia",
+        "as": "সাতঘৰীয়া"
+       },
+       {
+        "en": "Nobles of the seven houses",
+        "as": "সাত ঘৰৰ অভিজাত"
+       }
+      ],
+      [
+       {
+        "en": "Ruling clans",
+        "as": "শাসক ফৈদ"
+       },
+       {
+        "en": "Three",
+        "as": "তিনিটা"
+       }
+      ],
+      [
+       {
+        "en": "Priestly clans",
+        "as": "পুৰোহিত ফৈদ"
+       },
+       {
+        "en": "Four",
+        "as": "চাৰিটা"
+       }
+      ],
+      [
+       {
+        "en": "Deodhai",
+        "as": "দেওধাই"
+       },
+       {
+        "en": "A priestly clan",
+        "as": "এটা পুৰোহিত ফৈদ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Seven houses: three ruling clans and four priestly clans, including the Deodhai.",
+      "as": "সাতটা ঘৰ: তিনিটা শাসক ফৈদ আৰু দেওধাইকে ধৰি চাৰিটা পুৰোহিত ফৈদ।"
+     },
+     "id": "sbn.u1.07"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one is NOT a priestly clan?",
+      "as": "কোনটো পুৰোহিত ফৈদ নহয়?"
+     },
+     "options": [
+      {
+       "en": "Deodhai",
+       "as": "দেওধাই"
+      },
+      {
+       "en": "Bailung",
+       "as": "বাইলুং"
+      },
+      {
+       "en": "Borgohain",
+       "as": "বৰগোহাঁই"
+      },
+      {
+       "en": "Mohan",
+       "as": "মোহন"
+      }
+     ],
+     "answer": 2,
+     "why": {
+      "en": "The Borgohain was one of the three ruling clans. The others are priestly clans.",
+      "as": "বৰগোহাঁই তিনিটা শাসক ফৈদৰ এটা। বাকীবোৰ পুৰোহিত ফৈদ।"
+     },
+     "id": "sbn.u1.08"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of the 'seven houses' nobility.",
+      "as": "'সাত ঘৰ'ৰ অভিজাত বৰ্গৰ নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "S",
+       "A",
+       "T",
+       "G",
+       "H",
+       "A",
+       "R",
+       "I",
+       "A"
+      ],
+      "as": [
+       "সাত",
+       "ঘ",
+       "ৰী",
+       "য়া"
+      ]
+     },
+     "answerText": {
+      "en": "SATGHARIA",
+      "as": "সাতঘৰীয়া"
+     },
+     "why": {
+      "en": "Satgharia means 'of the seven houses'.",
+      "as": "সাতঘৰীয়া মানে 'সাত ঘৰৰ'।"
+     },
+     "id": "sbn.u1.09"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Subinphaa added a lot of new land to the kingdom.",
+      "as": "চুবিনফাই ৰাজ্যত বহুত নতুন মাটি যোগ কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. No land was added in his reign. He is remembered for organising the people.",
+      "as": "অশুদ্ধ। তেওঁৰ ৰাজত্বকালত মাটি যোগ হোৱা নাছিল। প্ৰজা সংগঠনৰ বাবেহে তেওঁক মনত ৰখা হয়।"
+     },
+     "id": "sbn.u1.10"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Subinphaa",
+    "as": "তুমি স্বৰ্গদেউ চুবিনফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Subinphaa was the son of Suteuphaa.<br>2. Subinphaa shared his Ahom subjects equally between the Burhagohain and the Borgohain.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুবিনফা চুতেউফাৰ পুত্ৰ আছিল।<br>২. চুবিনফাই আহোম প্ৰজাক বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে ভগাইছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "Both are correct.",
+     "as": "দুয়োটা শুদ্ধ।"
+    },
+    "id": "sbn.test.01",
+    "small": true
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "The Satgharia were the Ahom nobles of the",
+     "as": "সাতঘৰীয়া আছিল"
+    },
+    "after": {
+     "en": "houses.",
+     "as": "ঘৰৰ আহোম অভিজাত।"
+    },
+    "options": [
+     {
+      "en": "seven",
+      "as": "সাত"
+     },
+     {
+      "en": "four",
+      "as": "চাৰি"
+     },
+     {
+      "en": "three",
+      "as": "তিনি"
+     },
+     {
+      "en": "nine",
+      "as": "ন"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Seven: three ruling clans and four priestly clans.",
+     "as": "সাত: তিনিটা শাসক ফৈদ আৰু চাৰিটা পুৰোহিত ফৈদ।"
+    },
+    "id": "sbn.test.02"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kings in order.",
+     "as": "ৰজাসকলক ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Sukaphaa (1228)",
+      "as": "চুকাফা (১২২৮)"
+     },
+     {
+      "en": "Suteuphaa (1268)",
+      "as": "চুতেউফা (১২৬৮)"
+     },
+     {
+      "en": "Subinphaa (1281)",
+      "as": "চুবিনফা (১২৮১)"
+     },
+     {
+      "en": "Sukhaangphaa (1293)",
+      "as": "চুখাংফা (১২৯৩)"
+     }
+    ],
+    "why": {
+     "en": "Four generations, father to son: Sukaphaa → Suteuphaa → Subinphaa → Sukhaangphaa.",
+     "as": "চাৰি পুৰুষ, পিতৃৰ পৰা পুত্ৰলৈ: চুকাফা → চুতেউফা → চুবিনফা → চুখাংফা।"
+    },
+    "id": "sbn.test.03"
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the third Ahom king.",
+      "as": "মই তৃতীয় আহোম ৰজা আছিলোঁ।"
+     },
+     {
+      "en": "I shared my Ahom subjects equally between two great ministers.",
+      "as": "মই আহোম প্ৰজাক দুজন ডাঙৰীয়াৰ মাজত সমানে ভগাই দিছিলোঁ।"
+     },
+     {
+      "en": "In my time the nobles became the 'seven houses'.",
+      "as": "মোৰ দিনত অভিজাতসকল 'সাতঘৰীয়া' হৈছিল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Subinphaa",
+      "as": "চুবিনফা"
+     },
+     {
+      "en": "Suteuphaa",
+      "as": "চুতেউফা"
+     },
+     {
+      "en": "Sukhaangphaa",
+      "as": "চুখাংফা"
+     },
+     {
+      "en": "Sukaphaa",
+      "as": "চুকাফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Subinphaa (1281–1293).",
+     "as": "চুবিনফা (১২৮১–১২৯৩)।"
+    },
+    "id": "sbn.test.04"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "The",
+      "Satgharia",
+      "had",
+      "three",
+      "ruling",
+      "clans",
+      "and",
+      "five",
+      "priestly",
+      "clans."
+     ],
+     "as": [
+      "সাতঘৰীয়াত",
+      "তিনিটা",
+      "শাসক",
+      "ফৈদ",
+      "আৰু",
+      "পাঁচটা",
+      "পুৰোহিত",
+      "ফৈদ",
+      "আছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 7,
+     "as": 5
+    },
+    "fix": {
+     "en": "→ four",
+     "as": "→ চাৰিটা"
+    },
+    "answerText": {
+     "en": "five → four",
+     "as": "পাঁচটা → চাৰিটা"
+    },
+    "why": {
+     "en": "There were four priestly clans: Deodhai, Bailung, Mohan and Siring.",
+     "as": "পুৰোহিত ফৈদ আছিল চাৰিটা: দেওধাই, বাইলুং, মোহন আৰু চিৰিং।"
+    },
+    "id": "sbn.test.05"
+   }
+  ]
+ }
+}

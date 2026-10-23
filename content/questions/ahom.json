@@ -479,6 +479,526 @@
     "as": "চুকাফা (১২২৮) → চুতেউফা (১২৬৮) → চুবিনফা (১২৮১)।"
    },
    "small": true
+  },
+  {
+   "id": "bank.founding.13",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "subinphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Satgharia Ahoms took shape during the reign of:",
+    "as": "সাতঘৰীয়া আহোমৰ গঠন হৈছিল কাৰ ৰাজত্বকালত?"
+   },
+   "options": [
+    {
+     "en": "Subinphaa",
+     "as": "চুবিনফা"
+    },
+    {
+     "en": "Sukaphaa",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Sudangphaa",
+     "as": "চুদাংফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Under Subinphaa (1281–1293) the Ahom nobles became the 'seven houses': three ruling and four priestly clans.",
+    "as": "চুবিনফাৰ (১২৮১–১২৯৩) দিনত আহোম অভিজাতসকল 'সাতঘৰীয়া' হয়: তিনিটা শাসক আৰু চাৰিটা পুৰোহিত ফৈদ।"
+   }
+  },
+  {
+   "id": "bank.founding.14",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukhaangphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first major war of the Ahoms was fought against:",
+    "as": "আহোমৰ প্ৰথম ডাঙৰ যুদ্ধ কাৰ বিৰুদ্ধে হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Kamata",
+     "as": "কামতা"
+    },
+    {
+     "en": "The Chutias",
+     "as": "চুতীয়া"
+    },
+    {
+     "en": "The Kacharis",
+     "as": "কছাৰী"
+    },
+    {
+     "en": "The Mughals",
+     "as": "মোগল"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Under Sukhaangphaa, against the Raja of Kamata; it ended in a treaty and his marriage to Rajani.",
+    "as": "চুখাংফাৰ দিনত কামতা ৰজাৰ বিৰুদ্ধে; সন্ধি আৰু ৰজনীৰ সৈতে বিবাহেৰে শেষ হৈছিল।"
+   }
+  },
+  {
+   "id": "bank.founding.15",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukhaangphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Rajani, a princess of Kamata, was married to:",
+    "as": "কামতাৰ কুঁৱৰী ৰজনীৰ বিয়া হৈছিল কাৰ সৈতে?"
+   },
+   "options": [
+    {
+     "en": "Sukhaangphaa",
+     "as": "চুখাংফা"
+    },
+    {
+     "en": "Sukaphaa",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Sudangphaa",
+     "as": "চুদাংফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Sukhaangphaa, to seal the treaty that ended the Kamata war.",
+    "as": "চুখাংফাৰ সৈতে, কামতা যুদ্ধ শেষ কৰা সন্ধি পকা কৰিবলৈ।"
+   }
+  },
+  {
+   "id": "bank.founding.16",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sukhrangphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Chao Pulai was made the Charing Raja by:",
+    "as": "চাও পুলাইক চাৰিং ৰজা পাতিছিল কোনে?"
+   },
+   "options": [
+    {
+     "en": "Sukhrangphaa",
+     "as": "চুখ্ৰাংফা"
+    },
+    {
+     "en": "Sukhaangphaa",
+     "as": "চুখাংফা"
+    },
+    {
+     "en": "Sutuphaa",
+     "as": "চুতুফা"
+    },
+    {
+     "en": "Tyao Khamti",
+     "as": "ত্যাও খামতি"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "His half-brother Sukhrangphaa. Chao Pulai later plotted and fled to Kamata.",
+    "as": "তেওঁৰ বৈমাত্ৰেয় ভাই চুখ্ৰাংফাই। পিছত চাও পুলাইয়ে ষড়যন্ত্ৰ কৰি কামতালৈ পলাইছিল।"
+   }
+  },
+  {
+   "id": "bank.founding.17",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sutuphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which Ahom king was killed by the Chutia king during a regatta on the Safrai river?",
+    "as": "কোনজন আহোম ৰজাক চাফ্ৰাই নদীত নাওখেলৰ সময়ত চুতীয়া ৰজাই হত্যা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sutuphaa",
+     "as": "চুতুফা"
+    },
+    {
+     "en": "Tyao Khamti",
+     "as": "ত্যাও খামতি"
+    },
+    {
+     "en": "Suhenphaa",
+     "as": "চুহেনফা"
+    },
+    {
+     "en": "Supimphaa",
+     "as": "চুপিম্ফা"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Sutuphaa, in 1376. Suhenphaa was killed in his palace in 1493.",
+    "as": "চুতুফা, ১৩৭৬ চনত। চুহেনফা ১৪৯৩ চনত ৰাজকাৰেঙত নিহত হৈছিল।"
+   }
+  },
+  {
+   "id": "bank.founding.18",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "tyao-khamti",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "According to modern historians, how many interregnums (periods with no king) were there between 1364 and 1397?",
+    "as": "আধুনিক ইতিহাসবিদৰ মতে ১৩৬৪ৰ পৰা ১৩৯৭ৰ ভিতৰত কেইটা ৰজাবিহীন কাল আছিল?"
+   },
+   "options": [
+    {
+     "en": "One",
+     "as": "এটা"
+    },
+    {
+     "en": "Two",
+     "as": "দুটা"
+    },
+    {
+     "en": "Three",
+     "as": "তিনিটা"
+    },
+    {
+     "en": "Four",
+     "as": "চাৰিটা"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "Three: 1364–1369, 1376–1380 and 1389–1397.",
+    "as": "তিনিটা: ১৩৬৪–১৩৬৯, ১৩৭৬–১৩৮০ আৰু ১৩৮৯–১৩৯৭।"
+   }
+  },
+  {
+   "id": "bank.founding.19",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sudangphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which Ahom king is known as Bamuni Konwar?",
+    "as": "কোনজন আহোম ৰজা বামুণী কোঁৱৰ নামে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Sudangphaa",
+     "as": "চুদাংফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Sukhaangphaa",
+     "as": "চুখাংফা"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Sudangphaa, raised in a Brahman's house at Habung.",
+    "as": "হাবুঙত ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হোৱা চুদাংফা।"
+   }
+  },
+  {
+   "id": "bank.founding.20",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sudangphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Patkai was fixed as the boundary between the Ahom kingdom and Mungkang in:",
+    "as": "পাটকাইক আহোম ৰাজ্য আৰু মুংকাঙৰ সীমা হিচাপে নিৰ্ধাৰণ কৰা হৈছিল:"
+   },
+   "options": [
+    {
+     "en": "1228",
+     "as": "১২২৮"
+    },
+    {
+     "en": "1401",
+     "as": "১৪০১"
+    },
+    {
+     "en": "1497",
+     "as": "১৪৯৭"
+    },
+    {
+     "en": "1527",
+     "as": "১৫২৭"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "1401, under Sudangphaa; the oath was sworn at Nongnyang lake.",
+    "as": "১৪০১, চুদাংফাৰ দিনত; নংনিয়াং হ্ৰদৰ পাৰত শপত খোৱা হৈছিল।"
+   }
+  },
+  {
+   "id": "bank.founding.21",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sudangphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Singarigharutha ceremony of the Ahoms was a:",
+    "as": "আহোমৰ সিংগৰিঘৰ উঠা অনুষ্ঠান আছিল:"
+   },
+   "options": [
+    {
+     "en": "Coronation ceremony",
+     "as": "অভিষেক অনুষ্ঠান"
+    },
+    {
+     "en": "Burial rite",
+     "as": "সমাধি ৰীতি"
+    },
+    {
+     "en": "Harvest festival",
+     "as": "শস্যৰ উৎসৱ"
+    },
+    {
+     "en": "Peace oath",
+     "as": "শান্তিৰ শপত"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "A coronation ceremony begun by Sudangphaa and followed by later kings.",
+    "as": "চুদাংফাই আৰম্ভ কৰা আৰু পিছৰ ৰজাসকলে মনা অভিষেক অনুষ্ঠান।"
+   }
+  },
+  {
+   "id": "bank.founding.22",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "sudangphaa",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Brahmanical influence among the Ahoms first grew under Sudangphaa mainly because:",
+    "as": "চুদাংফাৰ দিনত আহোমৰ মাজত ব্ৰাহ্মণ্য প্ৰভাৱ প্ৰথমে বাঢ়িছিল মূলতঃ কিয়?"
+   },
+   "options": [
+    {
+     "en": "He was raised by a Brahman, whom he made his adviser",
+     "as": "তেওঁ এজন ব্ৰাহ্মণৰ হাতত ডাঙৰ হৈছিল আৰু তেওঁক পৰামৰ্শদাতা পাতিছিল"
+    },
+    {
+     "en": "He married a Kamata princess",
+     "as": "তেওঁ কামতাৰ কুঁৱৰী বিয়া কৰাইছিল"
+    },
+    {
+     "en": "He signed the Patkai treaty",
+     "as": "তেওঁ পাটকাই সন্ধি কৰিছিল"
+    },
+    {
+     "en": "He defeated the Tipam chiefs",
+     "as": "তেওঁ টিপামৰ মুখিয়ালক পৰাস্ত কৰিছিল"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The Brahman of Habung became his trusted adviser and many Hindu rites began at court.",
+    "as": "হাবুঙৰ ব্ৰাহ্মণজন তেওঁৰ বিশ্বাসী পৰামৰ্শদাতা হ'ল আৰু ৰাজসভাত বহুতো হিন্দু ৰীতি আৰম্ভ হ'ল।"
+   }
+  },
+  {
+   "id": "bank.founding.23",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "susenphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Ahom king who reigned for 49 years and led an expedition against the Tangsu Nagas was:",
+    "as": "৪৯ বছৰ ৰাজত্ব কৰা আৰু টাংচু নগাৰ বিৰুদ্ধে অভিযান চলোৱা আহোম ৰজা:"
+   },
+   "options": [
+    {
+     "en": "Susenphaa",
+     "as": "চুচেনফা"
+    },
+    {
+     "en": "Suhenphaa",
+     "as": "চুহেনফা"
+    },
+    {
+     "en": "Sujangphaa",
+     "as": "চুজাংফা"
+    },
+    {
+     "en": "Suphakphaa",
+     "as": "চুফাকফা"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Susenphaa (1439–1488).",
+    "as": "চুচেনফা (১৪৩৯–১৪৮৮)।"
+   }
+  },
+  {
+   "id": "bank.founding.24",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "suhenphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "In 1490 the Ahoms were defeated by the Kacharis at Dampuk, on the bank of the:",
+    "as": "১৪৯০ চনত কছাৰীয়ে আহোমক দামপুকত পৰাস্ত কৰিছিল, কোন নদীৰ পাৰত?"
+   },
+   "options": [
+    {
+     "en": "Dikhou",
+     "as": "দিখৌ"
+    },
+    {
+     "en": "Dihing",
+     "as": "ডিহিং"
+    },
+    {
+     "en": "Disang",
+     "as": "দিচাং"
+    },
+    {
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The Dikhou, the old Ahom–Kachari frontier.",
+    "as": "দিখৌ, পুৰণি আহোম–কছাৰী সীমান্ত।"
+   }
+  },
+  {
+   "id": "bank.founding.25",
+   "type": "mcq",
+   "era": "founding",
+   "lesson": "supimphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Konseng, the first Borpatrogohain, was the son of:",
+    "as": "প্ৰথম বৰপাত্ৰগোহাঁই কনচেং কাৰ পুত্ৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Supimphaa",
+     "as": "চুপিম্ফা"
+    },
+    {
+     "en": "Suhenphaa",
+     "as": "চুহেনফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Sudangphaa",
+     "as": "চুদাংফা"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Supimphaa; he was born in a Naga village and made Borpatrogohain by Suhungmung.",
+    "as": "চুপিম্ফাৰ; নগা গাঁৱত তেওঁৰ জন্ম হৈছিল আৰু চুহুংমুঙে তেওঁক বৰপাত্ৰগোহাঁই পাতিছিল।"
+   }
   }
  ]
 }

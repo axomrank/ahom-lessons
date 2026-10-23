@@ -1,0 +1,535 @@
+{
+ "id": "suphakphaa",
+ "no": 10,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Suphakphaa",
+  "as": "স্বৰ্গদেউ চুফাকফা"
+ },
+ "reign": {
+  "en": "Reign 1422–1439",
+  "as": "ৰাজত্বকাল ১৪২২–১৪৩৯"
+ },
+ "portrait": "suphakphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. IV, pp. 77–83",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "p. 82: a son of Sujangphaa, reigned seventeen years, died 1439, uneventful; Susenphaa his son by a Tipam princess"
+  }
+ ],
+ "review_notes": "A short lesson: the reign was uneventful according to the chronicles.",
+ "buildsOn": {
+  "no": 9,
+  "title": {
+   "en": "Sujangphaa",
+   "as": "চুজাংফা"
+  },
+  "id": "sujangphaa"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1422",
+    "t": {
+     "en": "Becomes the tenth Ahom king",
+     "as": "দশম আহোম ৰজা হয়"
+    }
+   },
+   {
+    "y": "1439",
+    "t": {
+     "en": "Dies; Susenphaa succeeds",
+     "as": "মৃত্যু; চুচেনফা ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   94.2,
+   26.45,
+   95.35,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "disang",
+   "dihing",
+   "charaideo",
+   "sivasagar"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "sivasagar": {
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    },
+    "pos": "w"
+   },
+   "charaideo": {
+    "pos": "ne"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "disang": {
+    "at": [
+     27.1,
+     95.2
+    ],
+    "pos": "s"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.12,
+     94.42
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "star",
+   "title": {
+    "en": "Another quiet reign",
+    "as": "আন এক শান্ত ৰাজত্ব"
+   },
+   "learned": [
+    {
+     "en": "Suphakphaa, a son of Sujangphaa, ruled 1422–1439",
+     "as": "চুজাংফাৰ পুত্ৰ চুফাকফাই ১৪২২–১৪৩৯ লৈকে ৰাজত্ব কৰিছিল"
+    },
+    {
+     "en": "His reign was uneventful",
+     "as": "তেওঁৰ ৰাজত্বকাল ঘটনাবিহীন আছিল"
+    },
+    {
+     "en": "His son Susenphaa was born to a Tipam princess",
+     "as": "তেওঁৰ পুত্ৰ চুচেনফাৰ মাতৃ আছিল টিপামৰ কুঁৱৰী"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "The tenth king",
+      "as": "দশম ৰজা"
+     },
+     "text": [
+      {
+       "en": "One of Sujangphaa's sons, [[suphakphaa]], became king in <mark>1422</mark>.",
+       "as": "চুজাংফাৰ এজন পুত্ৰ [[suphakphaa]] <mark>১৪২২</mark> চনত ৰজা হয়।"
+      },
+      {
+       "en": "He reigned for <mark>17 years</mark> and died in 1439.",
+       "as": "তেওঁ <mark>১৭ বছৰ</mark> ৰাজত্ব কৰি ১৪৩৯ চনত মৃত্যুবৰণ কৰে।"
+      }
+     ],
+     "id": "spk.u1.01",
+     "img": "suphakphaa-court.webp",
+     "link": {
+      "lesson": 9,
+      "lessonId": "sujangphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "A quiet reign",
+       "as": "শান্ত ৰাজত্ব"
+      },
+      "note": {
+       "en": "His father Sujangphaa's reign was quiet too.",
+       "as": "তেওঁৰ পিতৃ চুজাংফাৰ ৰাজত্বকালো শান্ত আছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Remember the mother",
+      "as": "মাতৃক মনত ৰাখা"
+     },
+     "text": [
+      {
+       "en": "His reign, too, was <mark>uneventful</mark>.",
+       "as": "তেওঁৰ ৰাজত্বকালো <mark>ঘটনাবিহীন</mark> আছিল।"
+      },
+      {
+       "en": "One fact to remember: his son and heir, [[susenphaa]], was born to a <mark>Tipam princess</mark>.",
+       "as": "মনত ৰখাৰ মতে এটা কথা: তেওঁৰ পুত্ৰ আৰু উত্তৰাধিকাৰী [[susenphaa]]ৰ মাতৃ আছিল <mark>টিপামৰ কুঁৱৰী</mark>।"
+      }
+     ],
+     "id": "spk.u1.02",
+     "art": "scroll",
+     "link": {
+      "lesson": 8,
+      "lessonId": "sudangphaa",
+      "unitNo": 3,
+      "unitTitle": {
+       "en": "The feast trap",
+       "as": "ভোজৰ ফান্দ"
+      },
+      "note": {
+       "en": "Sudangphaa had also married a Tipam chief's daughter, to win over the Tipam people.",
+       "as": "চুদাংফায়ো টিপামীয়াক আপোন কৰিবলৈ টিপাম মুখিয়ালৰ কন্যা বিয়া কৰাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Suphakphaa reigned for",
+      "as": "চুফাকফাই"
+     },
+     "after": {
+      "en": "years.",
+      "as": "বছৰ ৰাজত্ব কৰিছিল।"
+     },
+     "options": [
+      {
+       "en": "10",
+       "as": "১০"
+      },
+      {
+       "en": "15",
+       "as": "১৫"
+      },
+      {
+       "en": "17",
+       "as": "১৭"
+      },
+      {
+       "en": "49",
+       "as": "৪৯"
+      }
+     ],
+     "answer": 2,
+     "why": {
+      "en": "17 years (1422–1439). Sujangphaa ruled 15, and Susenphaa will rule 49.",
+      "as": "১৭ বছৰ (১৪২২–১৪৩৯)। চুজাংফাই ১৫ আৰু চুচেনফাই ৪৯ বছৰ ৰাজত্ব কৰে।"
+     },
+     "id": "spk.u1.03",
+     "big": true
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Susenphaa's mother was a princess of:",
+      "as": "চুচেনফাৰ মাতৃ আছিল কোন ঠাইৰ কুঁৱৰী?"
+     },
+     "options": [
+      {
+       "en": "Tipam",
+       "as": "টিপাম"
+      },
+      {
+       "en": "Kamata",
+       "as": "কামতা"
+      },
+      {
+       "en": "The Chutia kingdom",
+       "as": "চুতীয়া ৰাজ্য"
+      },
+      {
+       "en": "Mungkang",
+       "as": "মুংকাং"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Tipam. Kamata princesses married Sukhaangphaa and Sudangphaa.",
+      "as": "টিপাম। কামতাৰ কুঁৱৰী চুখাংফা আৰু চুদাংফাৰ সৈতে বিয়া হৈছিল।"
+     },
+     "id": "spk.u1.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Suphakphaa's reign was full of wars.",
+      "as": "চুফাকফাৰ ৰাজত্বকাল যুদ্ধৰে ভৰা আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. It was uneventful.",
+      "as": "অশুদ্ধ। ই ঘটনাবিহীন আছিল।"
+     },
+     "id": "spk.u1.05"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1422",
+       "l": {
+        "en": "Suphakphaa becomes king",
+        "as": "চুফাকফা ৰজা হয়"
+       }
+      },
+      {
+       "y": "1439",
+       "l": {
+        "en": "Suphakphaa dies",
+        "as": "চুফাকফাৰ মৃত্যু"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Sujangphaa's reign",
+        "as": "চুজাংফাৰ ৰাজত্ব"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "17 quiet years",
+        "as": "১৭টা শান্ত বছৰ"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Susenphaa becomes king",
+        "as": "চুচেনফা ৰজা হয়"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "Sujangphaa (1407–1422) → Suphakphaa (1422–1439) → Susenphaa from 1439.",
+      "as": "চুজাংফা (১৪০৭–১৪২২) → চুফাকফা (১৪২২–১৪৩৯) → ১৪৩৯ৰ পৰা চুচেনফা।"
+     },
+     "id": "spk.u1.06"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the kings in order.",
+      "as": "ৰজাসকলক ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Sudangphaa",
+       "as": "চুদাংফা"
+      },
+      {
+       "en": "Sujangphaa",
+       "as": "চুজাংফা"
+      },
+      {
+       "en": "Suphakphaa",
+       "as": "চুফাকফা"
+      },
+      {
+       "en": "Susenphaa",
+       "as": "চুচেনফা"
+      }
+     ],
+     "why": {
+      "en": "Four generations, father to son, from 1397 to 1488.",
+      "as": "১৩৯৭ৰ পৰা ১৪৮৮ লৈকে পিতৃৰ পৰা পুত্ৰলৈ চাৰি পুৰুষ।"
+     },
+     "id": "spk.u1.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Suphakphaa",
+    "as": "তুমি স্বৰ্গদেউ চুফাকফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Suphakphaa was a son of Sujangphaa.<br>2. Suphakphaa's son Susenphaa was born to a Kamata princess.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুফাকফা চুজাংফাৰ পুত্ৰ আছিল।<br>২. চুফাকফাৰ পুত্ৰ চুচেনফাৰ মাতৃ আছিল কামতাৰ কুঁৱৰী।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Susenphaa's mother was a Tipam princess.",
+     "as": "কেৱল ১। চুচেনফাৰ মাতৃ আছিল টিপামৰ কুঁৱৰী।"
+    },
+    "id": "spk.test.01",
+    "small": true
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "My father was Sujangphaa.",
+      "as": "মোৰ পিতৃ আছিল চুজাংফা।"
+     },
+     {
+      "en": "I reigned for 17 years.",
+      "as": "মই ১৭ বছৰ ৰাজত্ব কৰিছিলোঁ।"
+     },
+     {
+      "en": "My son's mother was a Tipam princess.",
+      "as": "মোৰ পুত্ৰৰ মাতৃ আছিল টিপামৰ কুঁৱৰী।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Suphakphaa",
+      "as": "চুফাকফা"
+     },
+     {
+      "en": "Sujangphaa",
+      "as": "চুজাংফা"
+     },
+     {
+      "en": "Susenphaa",
+      "as": "চুচেনফা"
+     },
+     {
+      "en": "Suhenphaa",
+      "as": "চুহেনফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Suphakphaa (1422–1439).",
+     "as": "চুফাকফা (১৪২২–১৪৩৯)।"
+    },
+    "id": "spk.test.02"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "Suphakphaa died in",
+     "as": "চুফাকফাৰ"
+    },
+    "after": {
+     "en": ".",
+     "as": "চনত মৃত্যু হৈছিল।"
+    },
+    "options": [
+     {
+      "en": "1422",
+      "as": "১৪২২"
+     },
+     {
+      "en": "1439",
+      "as": "১৪৩৯"
+     },
+     {
+      "en": "1488",
+      "as": "১৪৮৮"
+     },
+     {
+      "en": "1493",
+      "as": "১৪৯৩"
+     }
+    ],
+    "answer": 1,
+    "why": {
+     "en": "1439.",
+     "as": "১৪৩৯।"
+    },
+    "id": "spk.test.03",
+    "big": true
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "8th king",
+       "as": "৮ম ৰজা"
+      },
+      {
+       "en": "Sudangphaa",
+       "as": "চুদাংফা"
+      }
+     ],
+     [
+      {
+       "en": "9th king",
+       "as": "৯ম ৰজা"
+      },
+      {
+       "en": "Sujangphaa",
+       "as": "চুজাংফা"
+      }
+     ],
+     [
+      {
+       "en": "10th king",
+       "as": "১০ম ৰজা"
+      },
+      {
+       "en": "Suphakphaa",
+       "as": "চুফাকফা"
+      }
+     ],
+     [
+      {
+       "en": "11th king",
+       "as": "১১শ ৰজা"
+      },
+      {
+       "en": "Susenphaa",
+       "as": "চুচেনফা"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Sudangphaa → Sujangphaa → Suphakphaa → Susenphaa.",
+     "as": "চুদাংফা → চুজাংফা → চুফাকফা → চুচেনফা।"
+    },
+    "id": "spk.test.04"
+   }
+  ]
+ }
+}

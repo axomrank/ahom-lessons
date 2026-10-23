@@ -117,7 +117,8 @@
      "en": "Son of Suteuphaa",
      "as": "চুতেউফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "subinphaa"
   },
   {
    "n": 4,
@@ -136,7 +137,8 @@
      "en": "Son of Subinphaa",
      "as": "চুবিনফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "sukhaangphaa"
   },
   {
    "n": 5,
@@ -155,7 +157,8 @@
      "en": "Son of Sukhaangphaa",
      "as": "চুখাংফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "sukhrangphaa"
   },
   {
    "n": 6,
@@ -174,7 +177,8 @@
      "en": "Brother of Sukhrangphaa",
      "as": "চুখ্ৰাংফাৰ ভাই"
     }
-   }
+   },
+   "lesson": "sutuphaa"
   },
   {
    "n": 7,
@@ -193,7 +197,8 @@
      "en": "Brother of Sutuphaa",
      "as": "চুতুফাৰ ভাই"
     }
-   }
+   },
+   "lesson": "tyao-khamti"
   },
   {
    "n": 8,
@@ -213,7 +218,8 @@
      "en": "Son of Tyao Khamti",
      "as": "ত্যাও খামতিৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "sudangphaa"
   },
   {
    "n": 9,
@@ -232,7 +238,8 @@
      "en": "Son of Sudangphaa",
      "as": "চুদাংফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "sujangphaa"
   },
   {
    "n": 10,
@@ -251,7 +258,8 @@
      "en": "Son of Sujangphaa",
      "as": "চুজাংফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "suphakphaa"
   },
   {
    "n": 11,
@@ -270,7 +278,8 @@
      "en": "Son of Suphakphaa",
      "as": "চুফাকফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "susenphaa"
   },
   {
    "n": 12,
@@ -289,7 +298,8 @@
      "en": "Son of Susenphaa",
      "as": "চুচেনফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "suhenphaa"
   },
   {
    "n": 13,
@@ -308,7 +318,8 @@
      "en": "Son of Suhenphaa",
      "as": "চুহেনফাৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "supimphaa"
   },
   {
    "n": 14,

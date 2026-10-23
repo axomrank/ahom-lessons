@@ -1,0 +1,1633 @@
+{
+ "id": "sudangphaa",
+ "no": 8,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Sudangphaa",
+  "as": "স্বৰ্গদেউ চুদাংফা"
+ },
+ "reign": {
+  "en": "Reign 1397–1407",
+  "as": "ৰাজত্বকাল ১৩৯৭–১৪০৭"
+ },
+ "portrait": "sudangphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. IV, pp. 77–83",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "pp. 79–82: Habung and the Brahman, Thao Cheoken, accession at fifteen (1397), 'Brahman Prince', Dhola and Charguya, Brahmanical influence, Tipam feast, Khuntai's daughter and Tai Sulai, Mungkang invasion and Kuhiarbari, 1401 Patkai treaty at Nongnyang lake, Kamata princess and dowry, Tipam/Khamjang/Aiton tribute, death in 1407"
+  },
+  {
+   "title": "Sudangphaa",
+   "url": "https://en.wikipedia.org/wiki/Sudangphaa",
+   "used_for": "Bamuni Konwar; Singarigharutha ceremony begun by him; capital moved to Charguwa in 1403"
+  }
+ ],
+ "review_notes": "Gait names the Kamata princess Bhajani; other chroniclers dispute this, so the lesson does not name her. Tai Sulai's origin has two versions; the lesson tells Gait's (the ring).",
+ "buildsOn": {
+  "no": 7,
+  "title": {
+   "en": "Tyao Khamti",
+   "as": "ত্যাও খামতি"
+  },
+  "id": "tyao-khamti"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1397",
+    "t": {
+     "en": "Found in Habung; crowned at fifteen",
+     "as": "হাবুঙত বিচাৰি পোৱা যায়; পোন্ধৰ বছৰত অভিষেক"
+    }
+   },
+   {
+    "y": "",
+    "t": {
+     "en": "Tipam plotters killed after a feast",
+     "as": "ভোজৰ পিছত টিপামৰ ষড়যন্ত্ৰকাৰী নিধন"
+    }
+   },
+   {
+    "y": "",
+    "t": {
+     "en": "Defeats Mungkang near Kuhiarbari",
+     "as": "কুঁহিয়াৰবাৰীৰ ওচৰত মুংকাঙক পৰাস্ত"
+    }
+   },
+   {
+    "y": "1401",
+    "t": {
+     "en": "Treaty: the Patkai becomes the boundary",
+     "as": "সন্ধি: পাটকাই সীমা হয়"
+    }
+   },
+   {
+    "y": "1403",
+    "t": {
+     "en": "Capital at Charguya; Singarigharutha coronation",
+     "as": "চৰগুৱাত ৰাজধানী; সিংগৰিঘৰ উঠা অভিষেক"
+    }
+   },
+   {
+    "y": "1407",
+    "t": {
+     "en": "Dies; Sujangphaa succeeds",
+     "as": "মৃত্যু; চুজাংফা ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.35,
+   96.5,
+   27.85
+  ],
+  "show": [
+   "brahmaputra",
+   "patkai",
+   "habung",
+   "charaideo",
+   "tipam",
+   "nongnyang"
+  ],
+  "routes": [
+   [
+    "habung",
+    "charaideo"
+   ]
+  ],
+  "texts": [],
+  "labels": {
+   "habung": {
+    "pos": "ne"
+   },
+   "charaideo": {
+    "pos": "s"
+   },
+   "tipam": {
+    "pos": "n"
+   },
+   "nongnyang": {
+    "t": {
+     "en": "Nongnyang",
+     "as": "নংনিয়াং"
+    },
+    "pos": "s"
+   },
+   "patkai": {
+    "at": [
+     26.6,
+     95.75
+    ],
+    "pos": "w"
+   },
+   "brahmaputra": {
+    "at": [
+     26.95,
+     94.35
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "walk",
+   "title": {
+    "en": "The lost prince",
+    "as": "হেৰোৱা কোঁৱৰ"
+   },
+   "learned": [
+    {
+     "en": "The raft reached a Habung village, where a Brahman sheltered the queen",
+     "as": "ভূৰখন হাবুঙৰ এখন গাঁৱত লাগিল, তাতে এজন ব্ৰাহ্মণে ৰাণীক আশ্ৰয় দিলে"
+    },
+    {
+     "en": "She died after giving birth to Sudang, whom the Brahman raised",
+     "as": "সুদাঙক জন্ম দি তেওঁৰ মৃত্যু হয়; ব্ৰাহ্মণে তেওঁক ডাঙৰ কৰে"
+    },
+    {
+     "en": "The trader Thao Cheoken recognised him; the Burhagohain brought him home",
+     "as": "বেপাৰী থাও চেওকেনে তেওঁক চিনি পালে; বুঢ়াগোহাঁইয়ে তেওঁক ঘূৰাই আনিলে"
+    },
+    {
+     "en": "He became king in 1397, aged about fifteen",
+     "as": "প্ৰায় পোন্ধৰ বছৰ বয়সত ১৩৯৭ চনত তেওঁ ৰজা হয়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "Where the raft landed",
+      "as": "ভূৰ ক'ত লাগিল"
+     },
+     "text": [
+      {
+       "en": "The raft floated to a village in [[habung]]. There a <mark>Brahman</mark> gave the queen shelter.",
+       "as": "ভূৰখন উটি উটি [[habung]]ৰ এখন গাঁৱত লাগিল। তাতে এজন <mark>ব্ৰাহ্মণে</mark> ৰাণীক আশ্ৰয় দিলে।"
+      },
+      {
+       "en": "She died after giving birth to a boy, <mark>Sudang</mark>. The Brahman raised him with his own children.",
+       "as": "এটি ল'ৰা, <mark>সুদাং</mark>ক জন্ম দি তেওঁৰ মৃত্যু হ'ল। ব্ৰাহ্মণে তেওঁক নিজৰ সন্তানৰ লগতে ডাঙৰ-দীঘল কৰিলে।"
+      }
+     ],
+     "id": "sdg.u1.01",
+     "img": "birth-habung.webp",
+     "link": {
+      "lesson": 7,
+      "lessonId": "tyao-khamti",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The two queens",
+       "as": "দুগৰাকী ৰাণী"
+      },
+      "note": {
+       "en": "Tyao Khamti's pregnant younger queen was set adrift on a raft on the Brahmaputra.",
+       "as": "ত্যাও খামতিৰ সন্তানসম্ভৱা সৰু ৰাণীক ব্ৰহ্মপুত্ৰত ভূৰত উটাই দিয়া হৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Where did the queen's raft come ashore?",
+      "as": "ৰাণীৰ ভূৰখন ক'ত পাৰ পাইছিল?"
+     },
+     "options": [
+      {
+       "en": "At a village in Habung",
+       "as": "হাবুঙৰ এখন গাঁৱত"
+      },
+      {
+       "en": "In Kamata",
+       "as": "কামতাত"
+      },
+      {
+       "en": "At Sadiya",
+       "as": "শদিয়াত"
+      },
+      {
+       "en": "In Mong Mao",
+       "as": "মং মাওত"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "At a Habung village, where a Brahman took her in.",
+      "as": "হাবুঙৰ এখন গাঁৱত, য'ত এজন ব্ৰাহ্মণে তেওঁক আশ্ৰয় দিছিল।"
+     },
+     "id": "sdg.u1.02",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Finding a home",
+       "as": "ঘৰৰ সন্ধান"
+      },
+      "note": {
+       "en": "Habung, north of the Brahmaputra, was one of Sukaphaa's settlements (1240).",
+       "as": "ব্ৰহ্মপুত্ৰৰ উত্তৰৰ হাবুং আছিল চুকাফাৰ এটা বসতি (১২৪০)।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "A trader's eye",
+      "as": "বেপাৰীৰ চকু"
+     },
+     "text": [
+      {
+       "en": "Years later, a man named [[thao-cheoken]] crossed the Brahmaputra to trade in <mark>cattle</mark>.",
+       "as": "কেইবছৰমানৰ পিছত [[thao-cheoken]] নামৰ এজন মানুহে <mark>গৰু</mark>ৰ বেহা কৰিবলৈ ব্ৰহ্মপুত্ৰ পাৰ হৈছিল।"
+      },
+      {
+       "en": "In a Habung village he saw a youth of such noble looks that he asked who he was, and learned the truth.",
+       "as": "হাবুঙৰ এখন গাঁৱত তেওঁ এনে এজন অভিজাত চেহেৰাৰ ডেকা দেখিলে যে তেওঁৰ পৰিচয় সুধিলে, আৰু সঁচা কথা জানিলে।"
+      }
+     ],
+     "id": "sdg.u1.03",
+     "img": "found.webp"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Brought home",
+      "as": "ঘৰলৈ ঘূৰাই অনা"
+     },
+     "text": [
+      {
+       "en": "The [[burhagohain]] checked the story and consulted the other ministers.",
+       "as": "[[burhagohain]]য়ে কথাটো পৰীক্ষা কৰি আন মন্ত্ৰীসকলৰ সৈতে আলোচনা কৰিলে।"
+      },
+      {
+       "en": "He brought the youth to the capital and placed him on the <mark>throne</mark>.",
+       "as": "তেওঁ ডেকাজনক ৰাজধানীলৈ আনি <mark>সিংহাসন</mark>ত বহুৱালে।"
+      }
+     ],
+     "id": "sdg.u1.04",
+     "img": "revelation.webp"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "A king at fifteen",
+      "as": "পোন্ধৰ বছৰৰ ৰজা"
+     },
+     "text": [
+      {
+       "en": "Sudang became king in <mark>1397</mark>, at about <mark>fifteen</mark>, as [[sudangphaa]].",
+       "as": "প্ৰায় <mark>পোন্ধৰ</mark> বছৰ বয়সত <mark>১৩৯৭</mark> চনত সুদাং [[sudangphaa]] নামেৰে ৰজা হ'ল।"
+      },
+      {
+       "en": "The eight years without a king were over.",
+       "as": "আঠ বছৰৰ ৰজাবিহীন কাল শেষ হ'ল।"
+      }
+     ],
+     "id": "sdg.u1.05",
+     "img": "coronation.webp"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the events in order.",
+      "as": "ঘটনাবোৰ ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "The queen is set adrift",
+       "as": "ৰাণীক উটাই দিয়া হয়"
+      },
+      {
+       "en": "The raft reaches Habung",
+       "as": "ভূৰ হাবুঙত লাগে"
+      },
+      {
+       "en": "Sudang is born and raised by a Brahman",
+       "as": "সুদাঙৰ জন্ম; ব্ৰাহ্মণে ডাঙৰ কৰে"
+      },
+      {
+       "en": "Thao Cheoken recognises him",
+       "as": "থাও চেওকেনে তেওঁক চিনি পায়"
+      },
+      {
+       "en": "The Burhagohain puts him on the throne",
+       "as": "বুঢ়াগোহাঁইয়ে তেওঁক সিংহাসনত বহুৱায়"
+      }
+     ],
+     "why": {
+      "en": "Raft → Habung → birth and childhood with the Brahman → found by Thao Cheoken → crowned in 1397.",
+      "as": "ভূৰ → হাবুং → ব্ৰাহ্মণৰ ঘৰত জন্ম আৰু শৈশৱ → থাও চেওকেনে বিচাৰি পায় → ১৩৯৭ত অভিষেক।"
+     },
+     "id": "sdg.u1.06"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I traded in cattle.",
+       "as": "মই গৰুৰ বেহা কৰিছিলোঁ।"
+      },
+      {
+       "en": "I crossed the Brahmaputra to a Habung village.",
+       "as": "মই ব্ৰহ্মপুত্ৰ পাৰ হৈ হাবুঙৰ এখন গাঁৱলৈ গৈছিলোঁ।"
+      },
+      {
+       "en": "I recognised the lost prince.",
+       "as": "মই হেৰোৱা কোঁৱৰজনক চিনি পাইছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Thao Cheoken",
+       "as": "থাও চেওকেন"
+      },
+      {
+       "en": "The Burhagohain",
+       "as": "বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Tai Sulai",
+       "as": "তাই চুলাই"
+      },
+      {
+       "en": "Chao Pulai",
+       "as": "চাও পুলাই"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Thao Cheoken. The Burhagohain then checked the story and brought Sudang home.",
+      "as": "থাও চেওকেন। তাৰ পিছত বুঢ়াগোহাঁইয়ে কথাটো পৰীক্ষা কৰি সুদাঙক ঘূৰাই আনিছিল।"
+     },
+     "id": "sdg.u1.07"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Habung, where Sudang grew up.",
+      "as": "সুদাং ডাঙৰ হোৱা হাবুং টিপা।"
+     },
+     "target": "habung",
+     "choices": [
+      "habung",
+      "charaideo",
+      "tipam"
+     ],
+     "answerText": {
+      "en": "Habung, north of the Brahmaputra",
+      "as": "হাবুং, ব্ৰহ্মপুত্ৰৰ উত্তৰে"
+     },
+     "why": {
+      "en": "Habung is on the north bank; the trader had to cross the Brahmaputra to get there.",
+      "as": "হাবুং উত্তৰ পাৰত; তালৈ যাবলৈ বেপাৰীজনে ব্ৰহ্মপুত্ৰ পাৰ হ'ব লগা হৈছিল।"
+     },
+     "id": "sdg.u1.08"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Sudangphaa became king in",
+      "as": "চুদাংফা"
+     },
+     "after": {
+      "en": ".",
+      "as": "চনত ৰজা হৈছিল।"
+     },
+     "options": [
+      {
+       "en": "1389",
+       "as": "১৩৮৯"
+      },
+      {
+       "en": "1397",
+       "as": "১৩৯৭"
+      },
+      {
+       "en": "1401",
+       "as": "১৪০১"
+      },
+      {
+       "en": "1407",
+       "as": "১৪০৭"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "1397, ending the interregnum of 1389–1397.",
+      "as": "১৩৯৭, ১৩৮৯–১৩৯৭ৰ ৰজাবিহীন কালৰ অন্ত।"
+     },
+     "id": "sdg.u1.09",
+     "big": true
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "home",
+   "title": {
+    "en": "The Brahman prince",
+    "as": "বামুণী কোঁৱৰ"
+   },
+   "learned": [
+    {
+     "en": "He is known as Bamuni Konwar, the Brahman prince",
+     "as": "তেওঁ বামুণী কোঁৱৰ নামে জনাজাত"
+    },
+    {
+     "en": "The Brahman became his adviser: the first stage of Brahmanical influence",
+     "as": "ব্ৰাহ্মণজন তেওঁৰ পৰামৰ্শদাতা হ'ল: ব্ৰাহ্মণ্য প্ৰভাৱৰ প্ৰথম স্তৰ"
+    },
+    {
+     "en": "He began the Singarigharutha coronation ceremony",
+     "as": "তেওঁ সিংগৰিঘৰ উঠা অভিষেক অনুষ্ঠান আৰম্ভ কৰিছিল"
+    },
+    {
+     "en": "He made his capital at Charguya, near the Dihing",
+     "as": "ডিহিঙৰ ওচৰৰ চৰগুৱাত তেওঁ ৰাজধানী পাতিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "Bamuni Konwar",
+      "as": "বামুণী কোঁৱৰ"
+     },
+     "text": [
+      {
+       "en": "Raised in a Brahman's house, Sudangphaa is often called <mark>Bamuni Konwar</mark>, the 'Brahman prince'.",
+       "as": "ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হোৱাৰ বাবে চুদাংফাক প্ৰায়ে <mark>বামুণী কোঁৱৰ</mark> বুলি কোৱা হয়।"
+      },
+      {
+       "en": "He brought the Brahman who had sheltered him, and the Brahman's sons, to his court.",
+       "as": "আশ্ৰয় দিয়া ব্ৰাহ্মণজন আৰু তেওঁৰ পুত্ৰসকলক তেওঁ ৰাজসভালৈ আনিছিল।"
+      }
+     ],
+     "id": "sdg.u2.01",
+     "img": "court-rituals.webp"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Hindu rites at court",
+      "as": "ৰাজসভাত হিন্দু ৰীতি"
+     },
+     "text": [
+      {
+       "en": "The Brahman's sons got important posts on the frontier. The old Brahman became the king's <mark>trusted adviser</mark>.",
+       "as": "ব্ৰাহ্মণৰ পুত্ৰসকলে সীমান্তত গুৰুত্বপূৰ্ণ পদ পালে। বুঢ়া ব্ৰাহ্মণজন ৰজাৰ <mark>বিশ্বাসী পৰামৰ্শদাতা</mark> হ'ল।"
+      },
+      {
+       "en": "Under his influence many <mark>Hindu rites</mark> began at court: the first stage of Brahmanical influence among the Ahoms.",
+       "as": "তেওঁৰ প্ৰভাৱত ৰাজসভাত বহুতো <mark>হিন্দু ৰীতি-নীতি</mark> আৰম্ভ হ'ল: আহোমৰ মাজত ব্ৰাহ্মণ্য প্ৰভাৱৰ প্ৰথম স্তৰ।"
+      }
+     ],
+     "id": "sdg.u2.02",
+     "art": "scroll"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Why is Sudangphaa called Bamuni Konwar?",
+      "as": "চুদাংফাক কিয় বামুণী কোঁৱৰ বোলা হয়?"
+     },
+     "options": [
+      {
+       "en": "He was raised in a Brahman's house",
+       "as": "তেওঁ ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হৈছিল"
+      },
+      {
+       "en": "He became a priest",
+       "as": "তেওঁ পুৰোহিত হৈছিল"
+      },
+      {
+       "en": "He married a Brahman princess",
+       "as": "তেওঁ ব্ৰাহ্মণ কুঁৱৰী বিয়া কৰাইছিল"
+      },
+      {
+       "en": "He built many temples",
+       "as": "তেওঁ বহুতো মন্দিৰ সাজিছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Bamuni Konwar means 'Brahman prince': he grew up in the Brahman's house at Habung.",
+      "as": "বামুণী কোঁৱৰ মানে 'ব্ৰাহ্মণৰ কোঁৱৰ': তেওঁ হাবুঙত ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হৈছিল।"
+     },
+     "id": "sdg.u2.03"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "A new coronation",
+      "as": "নতুন অভিষেক"
+     },
+     "text": [
+      {
+       "en": "Sudangphaa began the [[singarigharutha]] coronation ceremony, which later kings followed.",
+       "as": "চুদাংফাই [[singarigharutha]] অভিষেক অনুষ্ঠান আৰম্ভ কৰিছিল, যিটো পিছৰ ৰজাসকলেও মানি চলিছিল।"
+      },
+      {
+       "en": "Its name comes from the wood of the <mark>Singari tree</mark>, used for the king's platform.",
+       "as": "ৰজাৰ মঞ্চত ব্যৱহৃত <mark>সিংগৰি গছ</mark>ৰ কাঠৰ পৰা ইয়াৰ নাম।"
+      }
+     ],
+     "id": "sdg.u2.04",
+     "img": "singarigharutha.webp"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "A new capital",
+      "as": "নতুন ৰাজধানী"
+     },
+     "text": [
+      {
+       "en": "He first built a town at Dhola.",
+       "as": "তেওঁ প্ৰথমে ঢোলাত এখন নগৰ পাতিছিল।"
+      },
+      {
+       "en": "Then, in <mark>1403</mark>, he made his capital at [[charguya]], near the [[dihing]] river.",
+       "as": "তাৰ পিছত <mark>১৪০৩</mark> চনত [[dihing]] নদীৰ ওচৰৰ [[charguya]]ত ৰাজধানী পাতিলে।"
+      }
+     ],
+     "id": "sdg.u2.05",
+     "art": "scroll"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Bamuni Konwar",
+        "as": "বামুণী কোঁৱৰ"
+       },
+       {
+        "en": "The Brahman prince",
+        "as": "ব্ৰাহ্মণৰ কোঁৱৰ"
+       }
+      ],
+      [
+       {
+        "en": "Charguya",
+        "as": "চৰগুৱা"
+       },
+       {
+        "en": "New capital near the Dihing",
+        "as": "ডিহিঙৰ ওচৰৰ নতুন ৰাজধানী"
+       }
+      ],
+      [
+       {
+        "en": "Singarigharutha",
+        "as": "সিংগৰিঘৰ উঠা"
+       },
+       {
+        "en": "Coronation ceremony",
+        "as": "অভিষেক অনুষ্ঠান"
+       }
+      ],
+      [
+       {
+        "en": "Habung",
+        "as": "হাবুং"
+       },
+       {
+        "en": "Where he grew up",
+        "as": "য'ত তেওঁ ডাঙৰ হৈছিল"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Four names to remember for Sudangphaa.",
+      "as": "চুদাংফাৰ বাবে মনত ৰখা চাৰিটা নাম।"
+     },
+     "id": "sdg.u2.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sudangphaa's reign marks the first stage of Brahmanical influence among the Ahoms.",
+      "as": "চুদাংফাৰ ৰাজত্বকালতে আহোমৰ মাজত ব্ৰাহ্মণ্য প্ৰভাৱৰ প্ৰথম স্তৰ আৰম্ভ হয়।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. The Brahman from Habung became his adviser and Hindu rites began at court.",
+      "as": "শুদ্ধ। হাবুঙৰ ব্ৰাহ্মণজন তেওঁৰ পৰামৰ্শদাতা হ'ল আৰু ৰাজসভাত হিন্দু ৰীতি আৰম্ভ হ'ল।"
+     },
+     "id": "sdg.u2.07"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the first word of Sudangphaa's popular name.",
+      "as": "চুদাংফাৰ জনপ্ৰিয় নামৰ প্ৰথম শব্দটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "B",
+       "A",
+       "M",
+       "U",
+       "N",
+       "I"
+      ],
+      "as": [
+       "বা",
+       "মু",
+       "ণী"
+      ]
+     },
+     "answerText": {
+      "en": "BAMUNI (Konwar)",
+      "as": "বামুণী (কোঁৱৰ)"
+     },
+     "why": {
+      "en": "Bamuni Konwar, the Brahman prince.",
+      "as": "বামুণী কোঁৱৰ, ব্ৰাহ্মণৰ কোঁৱৰ।"
+     },
+     "id": "sdg.u2.08"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "hands",
+   "title": {
+    "en": "The feast trap",
+    "as": "ভোজৰ ফান্দ"
+   },
+   "learned": [
+    {
+     "en": "The Tipam chiefs plotted against the young king",
+     "as": "টিপামৰ মুখিয়ালসকলে ডেকা ৰজাৰ বিৰুদ্ধে ষড়যন্ত্ৰ কৰিছিল"
+    },
+    {
+     "en": "He invited them to a feast and had them seized and killed",
+     "as": "তেওঁ তেওঁলোকক ভোজলৈ মাতি ধৰি নিধন কৰাইছিল"
+    },
+    {
+     "en": "He married the daughter of the Tipam chief Khuntai",
+     "as": "তেওঁ টিপামৰ মুখিয়াল খুনতাইৰ কন্যাক বিয়া কৰাইছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "A plot in Tipam",
+      "as": "টিপামত ষড়যন্ত্ৰ"
+     },
+     "text": [
+      {
+       "en": "The chiefs of [[tipam]] were unhappy with the new king and <mark>plotted</mark> against him.",
+       "as": "[[tipam]]ৰ মুখিয়ালসকল নতুন ৰজাৰ প্ৰতি অসন্তুষ্ট আছিল আৰু তেওঁৰ বিৰুদ্ধে <mark>ষড়যন্ত্ৰ</mark> কৰিলে।"
+      },
+      {
+       "en": "Sudangphaa heard of it, but did not act openly.",
+       "as": "চুদাংফাই কথাটো গম পালে, কিন্তু প্ৰকাশ্যে একো নকৰিলে।"
+      }
+     ],
+     "id": "sdg.u3.01",
+     "art": "scroll",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Finding a home",
+       "as": "ঘৰৰ সন্ধান"
+      },
+      "note": {
+       "en": "Tipam was one of the first places the Ahoms settled.",
+       "as": "টিপাম আছিল আহোমে প্ৰথমে বসতি কৰা ঠাইবোৰৰ এটা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "The feast",
+      "as": "ভোজ"
+     },
+     "text": [
+      {
+       "en": "He had a stockade built to catch <mark>elephants</mark>. When some were caught, he invited the plotters to a <mark>feast</mark>.",
+       "as": "তেওঁ <mark>হাতী</mark> ধৰিবলৈ এটা গড় সজালে। কেইটামান হাতী ধৰা পৰাত তেওঁ ষড়যন্ত্ৰকাৰীসকলক <mark>ভোজ</mark>লৈ মাতিলে।"
+      },
+      {
+       "en": "When all suspicion was gone, the plotters were suddenly seized and put to death.",
+       "as": "সকলো সন্দেহ আঁতৰ হোৱাৰ পিছত হঠাৎ ষড়যন্ত্ৰকাৰীসকলক ধৰি প্ৰাণদণ্ড দিয়া হ'ল।"
+      }
+     ],
+     "id": "sdg.u3.02",
+     "img": "feast-trap.webp"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the events in order.",
+      "as": "ঘটনাবোৰ ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Tipam chiefs plot against the king",
+       "as": "টিপামৰ মুখিয়ালৰ ষড়যন্ত্ৰ"
+      },
+      {
+       "en": "An elephant stockade is built",
+       "as": "হাতী ধৰা গড় সজা হয়"
+      },
+      {
+       "en": "The plotters are invited to a feast",
+       "as": "ষড়যন্ত্ৰকাৰীক ভোজলৈ মতা হয়"
+      },
+      {
+       "en": "The plotters are seized and killed",
+       "as": "ষড়যন্ত্ৰকাৰীক ধৰি নিধন"
+      }
+     ],
+     "why": {
+      "en": "Plot → elephant stockade → feast → seized when off guard.",
+      "as": "ষড়যন্ত্ৰ → হাতী গড় → ভোজ → অসাৱধান অৱস্থাত ধৰা।"
+     },
+     "id": "sdg.u3.03"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "How did Sudangphaa deal with the Tipam plotters?",
+      "as": "চুদাংফাই টিপামৰ ষড়যন্ত্ৰকাৰীৰ সৈতে কি কৰিছিল?"
+     },
+     "options": [
+      {
+       "en": "Invited them to a feast and had them seized",
+       "as": "ভোজলৈ মাতি ধৰাই আনিছিল"
+      },
+      {
+       "en": "Fought them openly at Tipam",
+       "as": "টিপামত প্ৰকাশ্যে যুদ্ধ কৰিছিল"
+      },
+      {
+       "en": "Sent them to Mungkang",
+       "as": "মুংকাঙলৈ পঠিয়াই দিছিল"
+      },
+      {
+       "en": "Forgave them all",
+       "as": "সকলোকে ক্ষমা কৰিছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "He lured them to a feast after an elephant hunt, then had them put to death.",
+      "as": "হাতী ধৰাৰ পিছত ভোজলৈ মাতি তেওঁলোকক প্ৰাণদণ্ড দিছিল।"
+     },
+     "id": "sdg.u3.04"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "A marriage, and a rival",
+      "as": "বিবাহ আৰু প্ৰতিদ্বন্দ্বী"
+     },
+     "text": [
+      {
+       "en": "To win over the other Tipam people, he married the daughter of a Tipam chief named <mark>Khuntai</mark>.",
+       "as": "বাকী টিপামীয়াসকলক আপোন কৰিবলৈ তেওঁ <mark>খুনতাই</mark> নামৰ এজন টিপাম মুখিয়ালৰ কন্যাক বিয়া কৰালে।"
+      },
+      {
+       "en": "But she already loved a Tipam man named [[tai-sulai]]. That led to war.",
+       "as": "কিন্তু তাই আগৰে পৰা [[tai-sulai]] নামৰ এজন টিপামীয়াক ভাল পাইছিল। ইয়াৰ পৰাই যুদ্ধৰ সূচনা।"
+      }
+     ],
+     "id": "sdg.u3.05",
+     "art": "scroll"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sudangphaa attacked the Tipam chiefs openly as soon as he heard of the plot.",
+      "as": "ষড়যন্ত্ৰৰ কথা শুনাৰ লগে লগে চুদাংফাই টিপামৰ মুখিয়ালসকলক প্ৰকাশ্যে আক্ৰমণ কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He waited, built an elephant stockade and caught them off guard at a feast.",
+      "as": "অশুদ্ধ। তেওঁ অপেক্ষা কৰি হাতী গড় সজালে আৰু ভোজত অসাৱধান অৱস্থাত তেওঁলোকক ধৰিলে।"
+     },
+     "id": "sdg.u3.06"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "To win over Tipam, Sudangphaa married the daughter of the chief",
+      "as": "টিপামক আপোন কৰিবলৈ চুদাংফাই"
+     },
+     "after": {
+      "en": ".",
+      "as": "নামৰ মুখিয়ালৰ কন্যাক বিয়া কৰাইছিল।"
+     },
+     "options": [
+      {
+       "en": "Khuntai",
+       "as": "খুনতাই"
+      },
+      {
+       "en": "Badaucha",
+       "as": "বদৌচা"
+      },
+      {
+       "en": "Thakumatha",
+       "as": "থাকুমথা"
+      },
+      {
+       "en": "Surumpha",
+       "as": "চুৰুমফা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Khuntai of Tipam. Badaucha and Thakumatha were the Moran and Barahi chiefs of Sukaphaa's time.",
+      "as": "টিপামৰ খুনতাই। বদৌচা আৰু থাকুমথা আছিল চুকাফাৰ দিনৰ মৰাণ আৰু বৰাহী মুখিয়াল।"
+     },
+     "id": "sdg.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "hill",
+   "title": {
+    "en": "The Patkai treaty",
+    "as": "পাটকাই সন্ধি"
+   },
+   "learned": [
+    {
+     "en": "Tai Sulai fled to Mungkang, whose king sent an army",
+     "as": "তাই চুলাই মুংকাঙলৈ পলাল, আৰু তাৰ ৰজাই সৈন্য পঠিয়ালে"
+    },
+    {
+     "en": "Sudangphaa won near Kuhiarbari, slightly wounded by a spear",
+     "as": "চুদাংফাই কুঁহিয়াৰবাৰীৰ ওচৰত জয়ী হ'ল, যাঠিৰ আঘাতত সামান্য আহত হৈ"
+    },
+    {
+     "en": "In 1401 a treaty made the Patkai the boundary",
+     "as": "১৪০১ চনৰ সন্ধিমতে পাটকাই সীমা হ'ল"
+    },
+    {
+     "en": "The two Borgohains swore an oath at Nongnyang lake",
+     "as": "দুয়োজন বৰগোহাঁইয়ে নংনিয়াং হ্ৰদৰ পাৰত শপত খালে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "A ring and a flight",
+      "as": "আঙঠি আৰু পলায়ন"
+     },
+     "text": [
+      {
+       "en": "After dining with the king one night, Tai Sulai sent a <mark>ring</mark> to the queen. The king asked him to explain.",
+       "as": "এদিন ৰাতি ৰজাৰ লগত ভোজন কৰাৰ পিছত তাই চুলাইয়ে ৰাণীলৈ এটা <mark>আঙঠি</mark> পঠিয়ালে। ৰজাই তেওঁৰ পৰা কৈফিয়ত বিচাৰিলে।"
+      },
+      {
+       "en": "Tai Sulai fled to Surumpha, king of [[mungkang]], and begged for help.",
+       "as": "তাই চুলাই [[mungkang]]ৰ ৰজা চুৰুমফাৰ ওচৰলৈ পলাই গৈ সহায় বিচাৰিলে।"
+      }
+     ],
+     "id": "sdg.u4.01",
+     "art": "scroll",
+     "link": {
+      "lesson": 2,
+      "lessonId": "suteuphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "War and succession",
+       "as": "যুদ্ধ আৰু উত্তৰাধিকাৰ"
+      },
+      "note": {
+       "en": "Suteuphaa's armies had fought Mungkang too.",
+       "as": "চুতেউফাৰ সৈন্যয়ো মুংকাঙৰ সৈতে যুঁজিছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "Battle at Kuhiarbari",
+      "as": "কুঁহিয়াৰবাৰীৰ যুদ্ধ"
+     },
+     "text": [
+      {
+       "en": "Mungkang sent its Borgohain with an army. Sudangphaa met the invaders <mark>in person</mark>, near Kuhiarbari in the Tipam country.",
+       "as": "মুংকাঙে নিজৰ বৰগোহাঁইৰ সৈতে সৈন্য পঠিয়ালে। চুদাংফাই <mark>নিজে</mark> টিপাম অঞ্চলৰ কুঁহিয়াৰবাৰীৰ ওচৰত আক্ৰমণকাৰীৰ সন্মুখীন হ'ল।"
+      },
+      {
+       "en": "Riding an elephant at the head of his troops, he was slightly <mark>wounded by a spear</mark>, but he won.",
+       "as": "হাতীত উঠি সৈন্যৰ আগত থাকোঁতে তেওঁ <mark>যাঠিৰ আঘাতত</mark> সামান্য আহত হ'ল, কিন্তু জয়ী হ'ল।"
+      }
+     ],
+     "id": "sdg.u4.02",
+     "img": "kuhiarbari.webp"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Who sent an army against Sudangphaa to help Tai Sulai?",
+      "as": "তাই চুলাইক সহায় কৰিবলৈ চুদাংফাৰ বিৰুদ্ধে কোনে সৈন্য পঠিয়াইছিল?"
+     },
+     "options": [
+      {
+       "en": "The king of Mungkang",
+       "as": "মুংকাঙৰ ৰজা"
+      },
+      {
+       "en": "The king of Kamata",
+       "as": "কামতাৰ ৰজা"
+      },
+      {
+       "en": "The Chutia king",
+       "as": "চুতীয়া ৰজা"
+      },
+      {
+       "en": "The Kachari king",
+       "as": "কছাৰী ৰজা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Surumpha, king of Mungkang, sent his Borgohain with an army.",
+      "as": "মুংকাঙৰ ৰজা চুৰুমফাই নিজৰ বৰগোহাঁইৰ সৈতে সৈন্য পঠিয়াইছিল।"
+     },
+     "id": "sdg.u4.03"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "To the Patkai",
+      "as": "পাটকাইলৈ"
+     },
+     "text": [
+      {
+       "en": "The Ahom Borgohain chased the enemy as far as the [[patkai]].",
+       "as": "আহোম বৰগোহাঁইয়ে শত্ৰুক [[patkai]]লৈকে খেদি নিলে।"
+      },
+      {
+       "en": "In <mark>1401</mark> a treaty fixed the Patkai as the <mark>boundary</mark> between the Ahom kingdom and Mungkang.",
+       "as": "<mark>১৪০১</mark> চনৰ সন্ধিমতে পাটকাই আহোম ৰাজ্য আৰু মুংকাঙৰ মাজৰ <mark>সীমা</mark> হ'ল।"
+      }
+     ],
+     "id": "sdg.u4.04",
+     "map": {
+      "route": false
+     }
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "An oath by the lake",
+      "as": "হ্ৰদৰ পাৰত শপত"
+     },
+     "text": [
+      {
+       "en": "The two Borgohains met beside [[nongnyang]] lake to make peace. They swore an oath of friendship and cut a <mark>fowl</mark> to seal it.",
+       "as": "দুয়োজন বৰগোহাঁই শান্তিৰ বাবে [[nongnyang]] হ্ৰদৰ পাৰত মিলিত হ'ল। তেওঁলোকে বন্ধুত্বৰ শপত খালে আৰু এটা <mark>কুকুৰা</mark> কাটি তাক পকা কৰিলে।"
+      },
+      {
+       "en": "The name Patkai is said to come from this: 'Pat-kai-seng-kau', meaning 'cut-fowl-oath-sworn'.",
+       "as": "পাটকাই নামটো ইয়াৰ পৰাই অহা বুলি কোৱা হয়: 'পাট-কাই-চেং-কাউ', অৰ্থাৎ 'কুকুৰা কাটি শপত খোৱা'।"
+      }
+     ],
+     "id": "sdg.u4.05",
+     "img": "patkai-treaty.webp"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the hills that became the boundary in 1401.",
+      "as": "১৪০১ চনত সীমা হোৱা পাহাৰশ্ৰেণী টিপা।"
+     },
+     "target": "patkai",
+     "choices": [
+      "patkai",
+      "habung",
+      "charaideo"
+     ],
+     "answerText": {
+      "en": "The Patkai hills",
+      "as": "পাটকাই পাহাৰ"
+     },
+     "why": {
+      "en": "The Patkai, the same hills Sukaphaa crossed in 1228.",
+      "as": "পাটকাই, যিখন পাহাৰ চুকাফাই ১২২৮ চনত পাৰ হৈছিল।"
+     },
+     "id": "sdg.u4.06"
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "In 1401 a treaty made the",
+      "as": "১৪০১ চনৰ সন্ধিমতে"
+     },
+     "after": {
+      "en": "the boundary with Mungkang.",
+      "as": "মুংকাঙৰ সৈতে সীমা হ'ল।"
+     },
+     "answer": "Patkai",
+     "asOptions": [
+      "পাটকাই",
+      "দিখৌ",
+      "ব্ৰহ্মপুত্ৰ",
+      "ডিহিং"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "Patkai",
+      "as": "পাটকাই"
+     },
+     "why": {
+      "en": "The Patkai range. The Dikhou was the Ahom–Kachari line, not the Mungkang one.",
+      "as": "পাটকাই পাহাৰশ্ৰেণী। দিখৌ আছিল আহোম–কছাৰী সীমা, মুংকাঙৰ নহয়।"
+     },
+     "id": "sdg.u4.07"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "In",
+       "1401",
+       "a",
+       "treaty",
+       "made",
+       "the",
+       "Dikhou",
+       "the",
+       "boundary",
+       "with",
+       "Mungkang."
+      ],
+      "as": [
+       "১৪০১",
+       "চনৰ",
+       "সন্ধিমতে",
+       "দিখৌ",
+       "মুংকাঙৰ",
+       "সৈতে",
+       "সীমা",
+       "হ'ল।"
+      ]
+     },
+     "wrong": {
+      "en": 6,
+      "as": 3
+     },
+     "fix": {
+      "en": "→ Patkai",
+      "as": "→ পাটকাই"
+     },
+     "answerText": {
+      "en": "Dikhou → Patkai",
+      "as": "দিখৌ → পাটকাই"
+     },
+     "why": {
+      "en": "The 1401 treaty made the Patkai the boundary.",
+      "as": "১৪০১ চনৰ সন্ধিমতে পাটকাইহে সীমা হৈছিল।"
+     },
+     "id": "sdg.u4.08"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Tai Sulai",
+        "as": "তাই চুলাই"
+       },
+       {
+        "en": "Fled to Mungkang",
+        "as": "মুংকাঙলৈ পলাল"
+       }
+      ],
+      [
+       {
+        "en": "Kuhiarbari",
+        "as": "কুঁহিয়াৰবাৰী"
+       },
+       {
+        "en": "Battle; the king wounded",
+        "as": "যুদ্ধ; ৰজা আহত"
+       }
+      ],
+      [
+       {
+        "en": "Nongnyang",
+        "as": "নংনিয়াং"
+       },
+       {
+        "en": "Lake of the peace oath",
+        "as": "শান্তিৰ শপতৰ হ্ৰদ"
+       }
+      ],
+      [
+       {
+        "en": "1401",
+        "as": "১৪০১"
+       },
+       {
+        "en": "Patkai boundary treaty",
+        "as": "পাটকাই সীমা সন্ধি"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Flight → battle → oath → treaty.",
+      "as": "পলায়ন → যুদ্ধ → শপত → সন্ধি।"
+     },
+     "id": "sdg.u4.09"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "crown",
+   "title": {
+    "en": "Kamata and the last years",
+    "as": "কামতা আৰু শেষৰ বছৰবোৰ"
+   },
+   "learned": [
+    {
+     "en": "Tai Sulai fled again, to Kamata",
+     "as": "তাই চুলাই আকৌ পলাল, এইবাৰ কামতালৈ"
+    },
+    {
+     "en": "The Kamata king avoided war by giving his daughter to Sudangphaa",
+     "as": "কন্যা দি কামতা ৰজাই চুদাংফাৰ সৈতে যুদ্ধ এৰাইছিল"
+    },
+    {
+     "en": "Tipam, Khamjang and Aiton chiefs were made to pay tribute",
+     "as": "টিপাম, খামজাং আৰু আইতন মুখিয়ালক কৰ দিবলৈ বাধ্য কৰা হ'ল"
+    },
+    {
+     "en": "He died in 1407 after ten years",
+     "as": "দহ বছৰৰ পিছত ১৪০৭ চনত তেওঁৰ মৃত্যু হয়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "title": {
+      "en": "On to Kamata",
+      "as": "কামতালৈ"
+     },
+     "text": [
+      {
+       "en": "Tai Sulai now took refuge with the king of [[kamata]], who refused to give him up.",
+       "as": "তাই চুলাইয়ে এইবাৰ [[kamata]]ৰ ৰজাৰ ওচৰত আশ্ৰয় ল'লে, আৰু ৰজাই তেওঁক এৰি দিবলৈ অমান্তি হ'ল।"
+      },
+      {
+       "en": "An Ahom army under the Borgohain marched to invade Kamata.",
+       "as": "বৰগোহাঁইৰ নেতৃত্বত আহোম সৈন্যই কামতা আক্ৰমণ কৰিবলৈ ৰাওনা হ'ল।"
+      }
+     ],
+     "id": "sdg.u5.01",
+     "img": "kamata-march.webp",
+     "link": {
+      "lesson": 4,
+      "lessonId": "sukhaangphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "War and a wedding",
+       "as": "যুদ্ধ আৰু বিবাহ"
+      },
+      "note": {
+       "en": "Kamata and the Ahoms had made peace by marriage once before, under Sukhaangphaa.",
+       "as": "চুখাংফাৰ দিনতো কামতা আৰু আহোমৰ মাজত বিবাহেৰে শান্তি হৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "War avoided",
+      "as": "যুদ্ধ এৰোৱা হ'ল"
+     },
+     "text": [
+      {
+       "en": "The Kamata king avoided war by giving his <mark>daughter</mark> in marriage to Sudangphaa.",
+       "as": "কামতা ৰজাই নিজৰ <mark>কন্যা</mark>ক চুদাংফালৈ বিয়া দি যুদ্ধ এৰালে।"
+      },
+      {
+       "en": "Her dowry included two elephants, horses, servants, gold and silver.",
+       "as": "তাইৰ যৌতুকত আছিল দুটা হাতী, ঘোঁৰা, দাস-দাসী, সোণ আৰু ৰূপ।"
+      }
+     ],
+     "id": "sdg.u5.02",
+     "art": "embassy"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "How did the Kamata king avoid war with Sudangphaa?",
+      "as": "কামতা ৰজাই কেনেকৈ চুদাংফাৰ সৈতে যুদ্ধ এৰাইছিল?"
+     },
+     "options": [
+      {
+       "en": "By giving his daughter in marriage",
+       "as": "কন্যা বিয়া দি"
+      },
+      {
+       "en": "By handing over Tai Sulai",
+       "as": "তাই চুলাইক গতাই দি"
+      },
+      {
+       "en": "By paying tribute in rice",
+       "as": "ধানেৰে কৰ দি"
+      },
+      {
+       "en": "By giving up his capital",
+       "as": "ৰাজধানী এৰি দি"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "He gave his daughter in marriage, with a rich dowry. Tai Sulai was not handed over.",
+      "as": "তেওঁ চহকী যৌতুকেৰে কন্যা বিয়া দিছিল। তাই চুলাইক গতাই দিয়া হোৱা নাছিল।"
+     },
+     "id": "sdg.u5.03"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "The last years",
+      "as": "শেষৰ বছৰবোৰ"
+     },
+     "text": [
+      {
+       "en": "He spent his last years making the Tipam, Khamjang and Aiton chiefs pay their <mark>tribute</mark> again.",
+       "as": "শেষৰ বছৰবোৰত তেওঁ টিপাম, খামজাং আৰু আইতন মুখিয়ালসকলক পুনৰ <mark>কৰ</mark> দিবলৈ বাধ্য কৰিছিল।"
+      },
+      {
+       "en": "Sudangphaa died in <mark>1407</mark>, after a reign of ten years. His son [[sujangphaa]] succeeded him.",
+       "as": "দহ বছৰ ৰাজত্বৰ পিছত <mark>১৪০৭</mark> চনত চুদাংফাৰ মৃত্যু হয়। তেওঁৰ পুত্ৰ [[sujangphaa]] ৰজা হয়।"
+      }
+     ],
+     "id": "sdg.u5.04",
+     "art": "calendar"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1397",
+       "l": {
+        "en": "Sudangphaa becomes king",
+        "as": "চুদাংফা ৰজা হয়"
+       }
+      },
+      {
+       "y": "1407",
+       "l": {
+        "en": "Sudangphaa dies",
+        "as": "চুদাংফাৰ মৃত্যু"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Nobles rule without a king",
+        "as": "ৰজা নোহোৱাকৈ ডাঙৰীয়াৰ শাসন"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Patkai boundary treaty",
+        "as": "পাটকাই সীমা সন্ধি"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Sujangphaa becomes king",
+        "as": "চুজাংফা ৰজা হয়"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "Interregnum 1389–1397 → Patkai treaty 1401 → Sujangphaa from 1407.",
+      "as": "ৰজাবিহীন কাল ১৩৮৯–১৩৯৭ → পাটকাই সন্ধি ১৪০১ → ১৪০৭ৰ পৰা চুজাংফা।"
+     },
+     "id": "sdg.u5.05"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one did NOT happen in Sudangphaa's reign?",
+      "as": "কোনটো চুদাংফাৰ ৰাজত্বকালত হোৱা নাছিল?"
+     },
+     "options": [
+      {
+       "en": "The Patkai treaty",
+       "as": "পাটকাই সন্ধি"
+      },
+      {
+       "en": "The feast trap at Tipam",
+       "as": "টিপামৰ ভোজৰ ফান্দ"
+      },
+      {
+       "en": "The Singarigharutha ceremony begins",
+       "as": "সিংগৰিঘৰ উঠা অনুষ্ঠানৰ আৰম্ভণি"
+      },
+      {
+       "en": "Sutuphaa killed on the Safrai",
+       "as": "চাফ্ৰাইত চুতুফা নিহত"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Sutuphaa was killed in 1376, more than twenty years earlier.",
+      "as": "চুতুফা নিহত হৈছিল ১৩৭৬ চনত, বিশ বছৰতকৈও আগতে।"
+     },
+     "id": "sdg.u5.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sudangphaa fought at the head of his troops in at least one battle.",
+      "as": "অন্ততঃ এখন যুদ্ধত চুদাংফাই নিজে সৈন্যৰ আগত থাকি যুঁজিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. At Kuhiarbari he led from an elephant and was wounded by a spear.",
+      "as": "শুদ্ধ। কুঁহিয়াৰবাৰীত তেওঁ হাতীৰ পিঠিৰ পৰা নেতৃত্ব দিছিল আৰু যাঠিৰ আঘাত পাইছিল।"
+     },
+     "id": "sdg.u5.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Sudangphaa",
+    "as": "তুমি স্বৰ্গদেউ চুদাংফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Sudangphaa is known as Bamuni Konwar.<br>2. The 1401 treaty made the Dikhou the boundary with Mungkang.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুদাংফা বামুণী কোঁৱৰ নামে জনাজাত।<br>২. ১৪০১ চনৰ সন্ধিমতে দিখৌ মুংকাঙৰ সৈতে সীমা হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. The 1401 treaty made the Patkai the boundary.",
+     "as": "কেৱল ১। ১৪০১ চনৰ সন্ধিমতে পাটকাইহে সীমা হৈছিল।"
+    },
+    "id": "sdg.test.01",
+    "small": true
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Who found the lost prince Sudang in Habung?",
+     "as": "হেৰোৱা কোঁৱৰ সুদাঙক হাবুঙত কোনে বিচাৰি পাইছিল?"
+    },
+    "options": [
+     {
+      "en": "Thao Cheoken, a cattle trader",
+      "as": "গৰুৰ বেপাৰী থাও চেওকেন"
+     },
+     {
+      "en": "Tai Sulai",
+      "as": "তাই চুলাই"
+     },
+     {
+      "en": "Chao Pulai",
+      "as": "চাও পুলাই"
+     },
+     {
+      "en": "Khuntai",
+      "as": "খুনতাই"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Thao Cheoken, who had crossed the Brahmaputra to trade in cattle.",
+     "as": "গৰুৰ বেহা কৰিবলৈ ব্ৰহ্মপুত্ৰ পাৰ হোৱা থাও চেওকেন।"
+    },
+    "id": "sdg.test.02"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "The Patkai boundary treaty was made in",
+     "as": "পাটকাই সীমা সন্ধি"
+    },
+    "after": {
+     "en": ".",
+     "as": "চনত হৈছিল।"
+    },
+    "options": [
+     {
+      "en": "1397",
+      "as": "১৩৯৭"
+     },
+     {
+      "en": "1401",
+      "as": "১৪০১"
+     },
+     {
+      "en": "1403",
+      "as": "১৪০৩"
+     },
+     {
+      "en": "1407",
+      "as": "১৪০৭"
+     }
+    ],
+    "answer": 1,
+    "why": {
+     "en": "1401. 1403 is when he moved his capital to Charguya.",
+     "as": "১৪০১। ১৪০৩ চনত তেওঁ চৰগুৱালৈ ৰাজধানী নিছিল।"
+    },
+    "id": "sdg.test.03",
+    "big": true
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap the Ahom–Mungkang boundary fixed in 1401.",
+     "as": "১৪০১ চনত নিৰ্ধাৰিত আহোম–মুংকাং সীমা টিপা।"
+    },
+    "target": "patkai",
+    "choices": [
+     "patkai",
+     "habung",
+     "charaideo"
+    ],
+    "answerText": {
+     "en": "The Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    "why": {
+     "en": "The Patkai range in the east.",
+     "as": "পূবৰ পাটকাই পাহাৰশ্ৰেণী।"
+    },
+    "id": "sdg.test.04"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "The Singarigharutha ceremony is:",
+     "as": "সিংগৰিঘৰ উঠা অনুষ্ঠান হ'ল:"
+    },
+    "options": [
+     {
+      "en": "The coronation begun by Sudangphaa",
+      "as": "চুদাংফাই আৰম্ভ কৰা অভিষেক"
+     },
+     {
+      "en": "The burial of kings in moidams",
+      "as": "মৈদামত ৰজাক সমাধি দিয়া"
+     },
+     {
+      "en": "The oath at Nongnyang lake",
+      "as": "নংনিয়াং হ্ৰদৰ শপত"
+     },
+     {
+      "en": "A harvest festival",
+      "as": "এটা শস্যৰ উৎসৱ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "A coronation ceremony named after the Singari wood of the king's platform; later kings followed it.",
+     "as": "ৰজাৰ মঞ্চৰ সিংগৰি কাঠৰ নামেৰে নামাকৰণ কৰা অভিষেক; পিছৰ ৰজাসকলেও মানিছিল।"
+    },
+    "id": "sdg.test.05"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the events in order.",
+     "as": "ঘটনাবোৰ ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Sudang born in Habung",
+      "as": "হাবুঙত সুদাঙৰ জন্ম"
+     },
+     {
+      "en": "Sudangphaa crowned (1397)",
+      "as": "চুদাংফাৰ অভিষেক (১৩৯৭)"
+     },
+     {
+      "en": "Patkai treaty (1401)",
+      "as": "পাটকাই সন্ধি (১৪০১)"
+     },
+     {
+      "en": "Sudangphaa dies (1407)",
+      "as": "চুদাংফাৰ মৃত্যু (১৪০৭)"
+     }
+    ],
+    "why": {
+     "en": "Birth in Habung → 1397 → 1401 → 1407.",
+     "as": "হাবুঙত জন্ম → ১৩৯৭ → ১৪০১ → ১৪০৭।"
+    },
+    "id": "sdg.test.06"
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I grew up in a Brahman's house.",
+      "as": "মই ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হৈছিলোঁ।"
+     },
+     {
+      "en": "I became king at about fifteen.",
+      "as": "প্ৰায় পোন্ধৰ বছৰ বয়সত মই ৰজা হৈছিলোঁ।"
+     },
+     {
+      "en": "I fixed the Patkai as the boundary.",
+      "as": "মই পাটকাইক সীমা হিচাপে নিৰ্ধাৰণ কৰিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Sudangphaa",
+      "as": "চুদাংফা"
+     },
+     {
+      "en": "Tyao Khamti",
+      "as": "ত্যাও খামতি"
+     },
+     {
+      "en": "Suhungmung",
+      "as": "চুহুংমুং"
+     },
+     {
+      "en": "Sukaphaa",
+      "as": "চুকাফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sudangphaa, the Bamuni Konwar.",
+     "as": "চুদাংফা, বামুণী কোঁৱৰ।"
+    },
+    "id": "sdg.test.07"
+   }
+  ]
+ }
+}

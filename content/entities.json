@@ -29,7 +29,8 @@
    "as": "আজিৰ ভাৰত–ম্যানমাৰ সীমান্তৰ পাহাৰ, চুকাফাই পাৰ হৈছিল"
   },
   "lessons": [
-   "sukaphaa"
+   "sukaphaa",
+   "sudangphaa"
   ]
  },
  "pangsau": {
@@ -83,7 +84,7 @@
    95.4018
   ],
   "lessons": [
-   "sukaphaa"
+   "sudangphaa"
   ]
  },
  "abhoypur": {
@@ -96,9 +97,6 @@
    "en": "Sukaphaa's settlement from 1236",
    "as": "১২৩৬ৰ পৰা চুকাফাৰ বসতি"
   },
-  "lessons": [
-   "sukaphaa"
-  ],
   "geo": [
    27.001,
    94.9593
@@ -119,7 +117,7 @@
    94.5009
   ],
   "lessons": [
-   "sukaphaa"
+   "sudangphaa"
   ]
  },
  "ligirigaon": {
@@ -131,10 +129,7 @@
   "meaning": {
    "en": "Sukaphaa's settlement from 1244",
    "as": "১২৪৪ৰ পৰা চুকাফাৰ বসতি"
-  },
-  "lessons": [
-   "sukaphaa"
-  ]
+  }
  },
  "simaluguri": {
   "type": "place",
@@ -146,9 +141,6 @@
    "en": "Sukaphaa's settlement from 1246",
    "as": "১২৪৬ৰ পৰা চুকাফাৰ বসতি"
   },
-  "lessons": [
-   "sukaphaa"
-  ],
   "geo": [
    26.9199,
    94.7614
@@ -169,8 +161,7 @@
    94.85
   ],
   "lessons": [
-   "sukaphaa",
-   "suteuphaa"
+   "sukaphaa"
   ]
  },
  "sivasagar": {
@@ -210,7 +201,7 @@
    "as": "শিৱসাগৰৰ ওচৰৰ নদী; চুতেউফাৰ দিনত কছাৰীসকলে ইয়াৰ পূব পাৰ এৰিছিল"
   },
   "lessons": [
-   "suteuphaa"
+   "suhenphaa"
   ]
  },
  "disang": {
@@ -233,7 +224,10 @@
   "meaning": {
    "en": "The Burhidihing, a south-bank river of Upper Assam",
    "as": "বুঢ়ীডিহিং, উজনি অসমৰ দক্ষিণ পাৰৰ নদী"
-  }
+  },
+  "lessons": [
+   "sudangphaa"
+  ]
  },
  "mungkang": {
   "type": "place",
@@ -246,7 +240,9 @@
    "as": "উজনি বাৰ্মাৰ শ্যান ৰাজ্য (মং কাং)"
   },
   "lessons": [
-   "suteuphaa"
+   "suteuphaa",
+   "sukhaangphaa",
+   "sudangphaa"
   ]
  },
  "moran": {
@@ -288,7 +284,9 @@
    "as": "চুবুৰীয়া জনগোষ্ঠী আৰু ৰাজ্য; চুতেউফাৰ দিনত দিখৌৰ পূব পাৰ এৰিছিল"
   },
   "lessons": [
-   "suteuphaa"
+   "suteuphaa",
+   "sukhaangphaa",
+   "suhenphaa"
   ]
  },
  "naras": {
@@ -330,6 +328,7 @@
    "as": "দ্বিতীয় আহোম ৰজা (১২৬৮–১২৮১), চুকাফাৰ জ্যেষ্ঠ পুত্ৰ"
   },
   "lessons": [
+   "sukaphaa",
    "suteuphaa"
   ]
  },
@@ -342,7 +341,11 @@
   "meaning": {
    "en": "Third Ahom king (1281–1293), Suteuphaa's son",
    "as": "তৃতীয় আহোম ৰজা (১২৮১–১২৯৩), চুতেউফাৰ পুত্ৰ"
-  }
+  },
+  "lessons": [
+   "suteuphaa",
+   "subinphaa"
+  ]
  },
  "badaucha": {
   "type": "person",
@@ -384,7 +387,12 @@
   },
   "lessons": [
    "sukaphaa",
-   "suteuphaa"
+   "suteuphaa",
+   "subinphaa",
+   "sutuphaa",
+   "sudangphaa",
+   "suhenphaa",
+   "supimphaa"
   ]
  },
  "borgohain": {
@@ -399,7 +407,10 @@
   },
   "lessons": [
    "sukaphaa",
-   "suteuphaa"
+   "suteuphaa",
+   "subinphaa",
+   "sukhrangphaa",
+   "sutuphaa"
   ]
  },
  "borpatrogohain": {
@@ -413,7 +424,7 @@
    "as": "তৃতীয় প্ৰধান মন্ত্ৰী, ১৫২৭ চনত চুহুংমুঙে যোগ কৰিছিল (চুকাফাই নহয়)"
   },
   "lessons": [
-   "sukaphaa"
+   "supimphaa"
   ]
  },
  "dangaria": {
@@ -467,10 +478,7 @@
   "meaning": {
    "en": "'Greater Assam': one land for many peoples, the idea linked with Sukaphaa",
    "as": "'বৃহত্তৰ অসম': বহু জনগোষ্ঠীৰ এক দেশ, চুকাফাৰ সৈতে জড়িত ধাৰণা"
-  },
-  "lessons": [
-   "sukaphaa"
-  ]
+  }
  },
  "asom-divas": {
   "type": "term",
@@ -495,10 +503,7 @@
   "meaning": {
    "en": "Sukaphaa's title: Chao = lord, Lung = great",
    "as": "চুকাফাৰ উপাধি: চাও = প্ৰভু, লুং = মহান"
-  },
-  "lessons": [
-   "sukaphaa"
-  ]
+  }
  },
  "wet-rice": {
   "type": "term",
@@ -512,6 +517,409 @@
   },
   "lessons": [
    "sukaphaa"
+  ]
+ },
+ "satgharia": {
+  "type": "term",
+  "name": {
+   "en": "Satgharia",
+   "as": "সাতঘৰীয়া"
+  },
+  "meaning": {
+   "en": "The Ahom nobility of 'seven houses': three ruling clans (royal Gohain, Burhagohain, Borgohain) and four priestly clans (Deodhai, Bailung, Mohan, Siring)",
+   "as": "'সাত ঘৰ'ৰ আহোম অভিজাত বৰ্গ: তিনিটা শাসক ফৈদ (ৰাজকীয় গোহাঁই, বুঢ়াগোহাঁই, বৰগোহাঁই) আৰু চাৰিটা পুৰোহিত ফৈদ (দেওধাই, বাইলুং, মোহন, চিৰিং)"
+  },
+  "lessons": [
+   "subinphaa"
+  ]
+ },
+ "sukhaangphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sukhaangphaa",
+   "as": "চুখাংফা"
+  },
+  "meaning": {
+   "en": "Fourth Ahom king (1293–1332); fought the first Ahom–Kamata war and married the Kamata princess Rajani",
+   "as": "চতুৰ্থ আহোম ৰজা (১২৯৩–১৩৩২); প্ৰথম আহোম–কামতা যুদ্ধ কৰিছিল আৰু কামতাৰ কুঁৱৰী ৰজনীক বিয়া কৰাইছিল"
+  },
+  "lessons": [
+   "sukhaangphaa"
+  ]
+ },
+ "sukhrangphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sukhrangphaa",
+   "as": "চুখ্ৰাংফা"
+  },
+  "meaning": {
+   "en": "Fifth Ahom king (1332–1364); made his half-brother Chao Pulai the Charing Raja",
+   "as": "পঞ্চম আহোম ৰজা (১৩৩২–১৩৬৪); বৈমাত্ৰেয় ভাই চাও পুলাইক চাৰিং ৰজা পাতিছিল"
+  },
+  "lessons": [
+   "sukhaangphaa",
+   "sukhrangphaa"
+  ]
+ },
+ "sutuphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sutuphaa",
+   "as": "চুতুফা"
+  },
+  "meaning": {
+   "en": "Sixth Ahom king (1369–1376); killed by the Chutia king on the Safrai river",
+   "as": "ষষ্ঠ আহোম ৰজা (১৩৬৯–১৩৭৬); চাফ্ৰাই নদীত চুতীয়া ৰজাৰ হাতত নিহত"
+  },
+  "lessons": [
+   "sukhaangphaa",
+   "sutuphaa"
+  ]
+ },
+ "tyao-khamti": {
+  "type": "person",
+  "name": {
+   "en": "Tyao Khamti",
+   "as": "ত্যাও খামতি"
+  },
+  "meaning": {
+   "en": "Seventh Ahom king (1380–1389); father of Sudangphaa; killed on his nobles' orders",
+   "as": "সপ্তম আহোম ৰজা (১৩৮০–১৩৮৯); চুদাংফাৰ পিতৃ; ডাঙৰীয়াৰ আদেশত নিহত"
+  },
+  "lessons": [
+   "sukhaangphaa",
+   "tyao-khamti"
+  ]
+ },
+ "sudangphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sudangphaa",
+   "as": "চুদাংফা"
+  },
+  "meaning": {
+   "en": "Eighth Ahom king (1397–1407), the Bamuni Konwar; fixed the Patkai boundary in 1401",
+   "as": "অষ্টম আহোম ৰজা (১৩৯৭–১৪০৭), বামুণী কোঁৱৰ; ১৪০১ চনত পাটকাই সীমা নিৰ্ধাৰণ কৰিছিল"
+  },
+  "lessons": [
+   "sudangphaa"
+  ]
+ },
+ "sujangphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sujangphaa",
+   "as": "চুজাংফা"
+  },
+  "meaning": {
+   "en": "Ninth Ahom king (1407–1422), son of Sudangphaa",
+   "as": "নৱম আহোম ৰজা (১৪০৭–১৪২২), চুদাংফাৰ পুত্ৰ"
+  },
+  "lessons": [
+   "sudangphaa",
+   "sujangphaa"
+  ]
+ },
+ "suphakphaa": {
+  "type": "person",
+  "name": {
+   "en": "Suphakphaa",
+   "as": "চুফাকফা"
+  },
+  "meaning": {
+   "en": "Tenth Ahom king (1422–1439), son of Sujangphaa",
+   "as": "দশম আহোম ৰজা (১৪২২–১৪৩৯), চুজাংফাৰ পুত্ৰ"
+  },
+  "lessons": [
+   "suphakphaa"
+  ]
+ },
+ "susenphaa": {
+  "type": "person",
+  "name": {
+   "en": "Susenphaa",
+   "as": "চুচেনফা"
+  },
+  "meaning": {
+   "en": "Eleventh Ahom king (1439–1488); reigned 49 years and fought the Tangsu Nagas",
+   "as": "একাদশ আহোম ৰজা (১৪৩৯–১৪৮৮); ৪৯ বছৰ ৰাজত্ব কৰিছিল আৰু টাংচু নগাৰ সৈতে যুঁজিছিল"
+  },
+  "lessons": [
+   "suphakphaa",
+   "susenphaa"
+  ]
+ },
+ "suhenphaa": {
+  "type": "person",
+  "name": {
+   "en": "Suhenphaa",
+   "as": "চুহেনফা"
+  },
+  "meaning": {
+   "en": "Twelfth Ahom king (1488–1493); lost to the Kacharis on the Dikhou; killed in his palace",
+   "as": "দ্বাদশ আহোম ৰজা (১৪৮৮–১৪৯৩); দিখৌত কছাৰীৰ হাতত পৰাজয়; ৰাজকাৰেঙত নিহত"
+  },
+  "lessons": [
+   "susenphaa",
+   "suhenphaa"
+  ]
+ },
+ "supimphaa": {
+  "type": "person",
+  "name": {
+   "en": "Supimphaa",
+   "as": "চুপিম্ফা"
+  },
+  "meaning": {
+   "en": "Thirteenth Ahom king (1493–1497), son of Suhenphaa",
+   "as": "ত্ৰয়োদশ আহোম ৰজা (১৪৯৩–১৪৯৭), চুহেনফাৰ পুত্ৰ"
+  },
+  "lessons": [
+   "supimphaa"
+  ]
+ },
+ "suhungmung": {
+  "type": "person",
+  "name": {
+   "en": "Suhungmung",
+   "as": "চুহুংমুং"
+  },
+  "meaning": {
+   "en": "Fourteenth Ahom king (1497–1539), also called Swarganarayan; created the post of Borpatrogohain",
+   "as": "চতুৰ্দশ আহোম ৰজা (১৪৯৭–১৫৩৯), স্বৰ্গনাৰায়ণ নামেও জনাজাত; বৰপাত্ৰগোহাঁই পদ সৃষ্টি কৰিছিল"
+  },
+  "lessons": [
+   "supimphaa"
+  ]
+ },
+ "kamata": {
+  "type": "place",
+  "name": {
+   "en": "Kamata",
+   "as": "কামতা"
+  },
+  "meaning": {
+   "en": "Kingdom west of the Ahoms, with its capital at Kamatapur, near today's Cooch Behar",
+   "as": "আহোমৰ পশ্চিমৰ ৰাজ্য; ৰাজধানী কামতাপুৰ, আজিৰ কোচবিহাৰৰ ওচৰত"
+  },
+  "geo": [
+   26.16,
+   89.36
+  ],
+  "lessons": [
+   "sukhaangphaa",
+   "sukhrangphaa",
+   "sudangphaa"
+  ]
+ },
+ "rajani": {
+  "type": "person",
+  "name": {
+   "en": "Rajani",
+   "as": "ৰজনী"
+  },
+  "meaning": {
+   "en": "Kamata princess married to Sukhaangphaa to seal the peace treaty",
+   "as": "শান্তি সন্ধি পকা কৰিবলৈ চুখাংফাৰ সৈতে বিয়া হোৱা কামতাৰ কুঁৱৰী"
+  },
+  "lessons": [
+   "sukhaangphaa"
+  ]
+ },
+ "chao-pulai": {
+  "type": "person",
+  "name": {
+   "en": "Chao Pulai",
+   "as": "চাও পুলাই"
+  },
+  "meaning": {
+   "en": "Son of Sukhaangphaa and a Kamata princess; Charing Raja under Sukhrangphaa; plotted and fled to Kamata",
+   "as": "চুখাংফা আৰু কামতাৰ কুঁৱৰীৰ পুত্ৰ; চুখ্ৰাংফাৰ দিনৰ চাৰিং ৰজা; ষড়যন্ত্ৰ কৰি কামতালৈ পলাইছিল"
+  },
+  "lessons": [
+   "sukhaangphaa",
+   "sukhrangphaa"
+  ]
+ },
+ "charing-raja": {
+  "type": "office",
+  "name": {
+   "en": "Charing Raja",
+   "as": "চাৰিং ৰজা"
+  },
+  "meaning": {
+   "en": "Title of a senior Ahom prince, named after Charing; later held by the heir to the throne",
+   "as": "চাৰিঙৰ নামেৰে এজন জ্যেষ্ঠ আহোম কোঁৱৰৰ উপাধি; পিছলৈ সিংহাসনৰ উত্তৰাধিকাৰীয়ে ধৰিছিল"
+  },
+  "lessons": [
+   "sukhrangphaa"
+  ]
+ },
+ "chutia": {
+  "type": "people",
+  "name": {
+   "en": "Chutias",
+   "as": "চুতীয়া"
+  },
+  "meaning": {
+   "en": "People of the Chutia kingdom in the north-east, centred on Sadiya",
+   "as": "উত্তৰ-পূবৰ শদিয়া কেন্দ্ৰিক চুতীয়া ৰাজ্যৰ লোক"
+  },
+  "lessons": [
+   "sukhaangphaa",
+   "sutuphaa",
+   "tyao-khamti"
+  ]
+ },
+ "sadiya": {
+  "type": "place",
+  "name": {
+   "en": "Sadiya",
+   "as": "শদিয়া"
+  },
+  "meaning": {
+   "en": "Centre of the Chutia kingdom, in today's Tinsukia district",
+   "as": "চুতীয়া ৰাজ্যৰ কেন্দ্ৰ, আজিৰ তিনিচুকীয়া জিলাত"
+  },
+  "geo": [
+   27.83,
+   95.67
+  ],
+  "lessons": [
+   "sukhaangphaa",
+   "sutuphaa"
+  ]
+ },
+ "safrai": {
+  "type": "river",
+  "name": {
+   "en": "Safrai",
+   "as": "চাফ্ৰাই"
+  },
+  "meaning": {
+   "en": "A river of Upper Assam; Sutuphaa was killed on it in 1376",
+   "as": "উজনি অসমৰ এখন নদী; ১৩৭৬ চনত ইয়াতে চুতুফা নিহত হৈছিল"
+  },
+  "lessons": [
+   "sutuphaa"
+  ]
+ },
+ "interregnum": {
+  "type": "term",
+  "name": {
+   "en": "Interregnum",
+   "as": "ৰজাবিহীন কাল"
+  },
+  "meaning": {
+   "en": "A period when the throne is empty and the great ministers rule. Three before 1397: 1364–69, 1376–80 and 1389–97",
+   "as": "যি সময়ত সিংহাসন খালী থাকে আৰু প্ৰধান ডাঙৰীয়াই শাসন কৰে। ১৩৯৭ৰ আগতে তিনিটা: ১৩৬৪–৬৯, ১৩৭৬–৮০ আৰু ১৩৮৯–৯৭"
+  },
+  "lessons": [
+   "sukhrangphaa"
+  ]
+ },
+ "thao-cheoken": {
+  "type": "person",
+  "name": {
+   "en": "Thao Cheoken",
+   "as": "থাও চেওকেন"
+  },
+  "meaning": {
+   "en": "Cattle trader who recognised the lost prince Sudang in Habung",
+   "as": "হাবুঙত হেৰোৱা কোঁৱৰ সুদাঙক চিনি পোৱা গৰুৰ বেপাৰী"
+  },
+  "lessons": [
+   "sudangphaa"
+  ]
+ },
+ "singarigharutha": {
+  "type": "term",
+  "name": {
+   "en": "Singarigharutha",
+   "as": "সিংগৰিঘৰ উঠা"
+  },
+  "meaning": {
+   "en": "Ahom coronation ceremony begun by Sudangphaa, named after the Singari wood of the king's platform",
+   "as": "চুদাংফাই আৰম্ভ কৰা আহোম অভিষেক অনুষ্ঠান; ৰজাৰ মঞ্চৰ সিংগৰি কাঠৰ নামেৰে"
+  },
+  "lessons": [
+   "sudangphaa"
+  ]
+ },
+ "charguya": {
+  "type": "place",
+  "name": {
+   "en": "Charguya",
+   "as": "চৰগুৱা"
+  },
+  "meaning": {
+   "en": "Sudangphaa's capital from 1403, near the Dihing river",
+   "as": "১৪০৩ৰ পৰা চুদাংফাৰ ৰাজধানী, ডিহিং নদীৰ ওচৰত"
+  },
+  "lessons": [
+   "sudangphaa"
+  ]
+ },
+ "tai-sulai": {
+  "type": "person",
+  "name": {
+   "en": "Tai Sulai",
+   "as": "তাই চুলাই"
+  },
+  "meaning": {
+   "en": "Tipam man who fled to Mungkang and then Kamata; his flight led to the war ended by the 1401 Patkai treaty",
+   "as": "মুংকাং আৰু পিছত কামতালৈ পলোৱা টিপামীয়া; তেওঁৰ পলায়নৰ পৰাই যুদ্ধ, যাৰ অন্ত ১৪০১ৰ পাটকাই সন্ধিত"
+  },
+  "lessons": [
+   "sudangphaa"
+  ]
+ },
+ "nongnyang": {
+  "type": "place",
+  "name": {
+   "en": "Nongnyang lake",
+   "as": "নংনিয়াং হ্ৰদ"
+  },
+  "meaning": {
+   "en": "Lake just beyond the Pangsau Pass where the oath of the 1401 Patkai treaty was sworn",
+   "as": "পাংচাউ গিৰিপথৰ সিপাৰৰ হ্ৰদ, য'ত ১৪০১ৰ পাটকাই সন্ধিৰ শপত খোৱা হৈছিল"
+  },
+  "geo": [
+   27.22,
+   96.17
+  ],
+  "lessons": [
+   "sudangphaa"
+  ]
+ },
+ "tangsu": {
+  "type": "people",
+  "name": {
+   "en": "Tangsu Nagas",
+   "as": "টাংচু নগা"
+  },
+  "meaning": {
+   "en": "A Naga group that raided Ahom villages; fought by Susenphaa and Suhenphaa",
+   "as": "আহোম গাঁৱত আক্ৰমণ কৰা এটা নগা গোষ্ঠী; চুচেনফা আৰু চুহেনফাই যুঁজিছিল"
+  },
+  "lessons": [
+   "susenphaa",
+   "suhenphaa"
+  ]
+ },
+ "konseng": {
+  "type": "person",
+  "name": {
+   "en": "Konseng",
+   "as": "কনচেং"
+  },
+  "meaning": {
+   "en": "Supimphaa's son (Senglung), born in a Naga village; the first Borpatrogohain, under Suhungmung",
+   "as": "চুপিম্ফাৰ পুত্ৰ (চেংলুং), নগা গাঁৱত জন্ম; চুহুংমুঙৰ দিনত প্ৰথম বৰপাত্ৰগোহাঁই"
+  },
+  "lessons": [
+   "supimphaa"
   ]
  }
 }

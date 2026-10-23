@@ -1,5 +1,5 @@
 {
- "version": "3887489b1c",
+ "version": "91dad4b2ae",
  "courses": [
   {
    "id": "ahom-kings",
@@ -7,6 +7,42 @@
   }
  ],
  "lessons": {
+  "subinphaa": {
+   "no": 3,
+   "version": 1,
+   "steps": 2,
+   "title": {
+    "en": "Swargadeo Subinphaa",
+    "as": "স্বৰ্গদেউ চুবিনফা"
+   }
+  },
+  "sudangphaa": {
+   "no": 8,
+   "version": 1,
+   "steps": 6,
+   "title": {
+    "en": "Swargadeo Sudangphaa",
+    "as": "স্বৰ্গদেউ চুদাংফা"
+   }
+  },
+  "suhenphaa": {
+   "no": 12,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Suhenphaa",
+    "as": "স্বৰ্গদেউ চুহেনফা"
+   }
+  },
+  "sujangphaa": {
+   "no": 9,
+   "version": 1,
+   "steps": 2,
+   "title": {
+    "en": "Swargadeo Sujangphaa",
+    "as": "স্বৰ্গদেউ চুজাংফা"
+   }
+  },
   "sukaphaa": {
    "no": 1,
    "version": 1,
@@ -16,6 +52,51 @@
     "as": "স্বৰ্গদেউ চুকাফা"
    }
   },
+  "sukhaangphaa": {
+   "no": 4,
+   "version": 1,
+   "steps": 4,
+   "title": {
+    "en": "Swargadeo Sukhaangphaa",
+    "as": "স্বৰ্গদেউ চুখাংফা"
+   }
+  },
+  "sukhrangphaa": {
+   "no": 5,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Sukhrangphaa",
+    "as": "স্বৰ্গদেউ চুখ্ৰাংফা"
+   }
+  },
+  "suphakphaa": {
+   "no": 10,
+   "version": 1,
+   "steps": 2,
+   "title": {
+    "en": "Swargadeo Suphakphaa",
+    "as": "স্বৰ্গদেউ চুফাকফা"
+   }
+  },
+  "supimphaa": {
+   "no": 13,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Supimphaa",
+    "as": "স্বৰ্গদেউ চুপিম্ফা"
+   }
+  },
+  "susenphaa": {
+   "no": 11,
+   "version": 1,
+   "steps": 4,
+   "title": {
+    "en": "Swargadeo Susenphaa",
+    "as": "স্বৰ্গদেউ চুচেনফা"
+   }
+  },
   "suteuphaa": {
    "no": 2,
    "version": 1,
@@ -23,6 +104,24 @@
    "title": {
     "en": "Swargadeo Suteuphaa",
     "as": "স্বৰ্গদেউ চুতেউফা"
+   }
+  },
+  "sutuphaa": {
+   "no": 6,
+   "version": 1,
+   "steps": 2,
+   "title": {
+    "en": "Swargadeo Sutuphaa",
+    "as": "স্বৰ্গদেউ চুতুফা"
+   }
+  },
+  "tyao-khamti": {
+   "no": 7,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Tyao Khamti",
+    "as": "স্বৰ্গদেউ ত্যাও খামতি"
    }
   }
  }
