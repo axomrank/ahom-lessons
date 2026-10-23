@@ -137,7 +137,10 @@ h.update(re.sub(r'const VERSION = "[^"]*";', "", open("sw.js", encoding="utf-8")
 version = h.hexdigest()[:10]
 
 manifest = {"version": version, "courses": [{"id": course["id"], "file": "content/courses/ahom-kings.json"}],
-            "lessons": {lid: {"no": L["no"], "version": L["version"], "steps": len(L["units"]) + 1, "title": L["king"]} for lid, L in lessons.items()}}
+            "lessons": {lid: {"no": L["no"], "version": L["version"], "steps": len(L["units"]) + 1, "title": L["king"],
+                              # unit summaries, so a lesson page can draw the whole course path without loading every lesson
+                              "units": [{"id": u["id"], "t": u["title"], "i": u.get("icon", "trophy"), "ex": sum(s["type"] != "story" for s in u["steps"])}
+                                        for u in L["units"] + [L["test"]]]} for lid, L in lessons.items()}}
 json.dump(manifest, open("content/manifest.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 sw = open("sw.js", encoding="utf-8").read()
 sw = re.sub(r'const VERSION = "[^"]*";', f'const VERSION = "{version}";', sw, count=1)

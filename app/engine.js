@@ -39,6 +39,7 @@ async function load() {
     const L = await AXOM.getJSON(`content/lessons/${id}.json`);
     NEXT = await nextLesson(L.no).catch(() => null);
     GATE = await lessonGate(L).catch(() => null);
+    COURSE = await coursePath().catch(() => []);
     boot(L, "lesson");
   } catch (e) {
     document.body.insertAdjacentHTML("afterbegin", `<div class="stage"><div class="device"><div class="load-error"><h2>${T(B("This lesson could not be opened", "পাঠটো খুলিব পৰা নগ'ল"))}</h2><p>${T(B("Check your internet connection, or download the lesson for offline use when you are online.", "ইণ্টাৰনেট সংযোগ পৰীক্ষা কৰা, বা অনলাইন থকাৰ সময়ত পাঠটো অফলাইনৰ বাবে ডাউনলোড কৰি ৰাখা।"))}</p><a class="btn" href="index.html">${T(B("All lessons", "সকলো পাঠ"))}</a></div></div></div>`);
@@ -72,7 +73,13 @@ async function publishedKings() {
 }
 let NEXT = null;   // the lesson after this one: { id, n, name }
 let pendingUpdate = false;   // a new app version took over while a unit was being played; reload on the way back to the path
-let GATE = null;   // the earlier lesson that must be finished before this one opens: { id, n, name }, or null
+let GATE = null;
+let COURSE = [];   // every published lesson in course order, with unit summaries from the manifest: the whole path
+async function coursePath() {
+  const [course, manifest] = await Promise.all([AXOM.getJSON("content/courses/ahom-kings.json"), AXOM.getJSON("content/manifest.json")]);
+  return course.kings.filter((k) => k.lesson && manifest.lessons[k.lesson] && manifest.lessons[k.lesson].units)
+    .map((k) => ({ n: k.n, id: k.lesson, name: k.name, face: k.face, reign: k.reign, units: manifest.lessons[k.lesson].units }));
+}   // the earlier lesson that must be finished before this one opens: { id, n, name }, or null
 async function lessonGate(L) {
   if (UNLOCK_ALL || AXOM.getLesson(L.id).done.test) return null;
   const prev = (await publishedKings()).filter((k) => k.n < L.no).pop();
@@ -272,7 +279,9 @@ function showView(id) {
   $$(".view").forEach((v) => v.classList.toggle("on", v.id === id));
   if (id === "v-path") $("#v-empty").classList.add("on");   // wide screens show an empty right pane beside the path
 }
-let pop = null;
+let pop = null, opop = null;   // open pop-up: a unit of this lesson (index) or of another lesson ("id:index")
+let HERE = null;               // this lesson's header and cards, moved into its place on the course path
+let scrolled = false;
 function topStats() {
   const s = AXOM.streakNow();
   $("#fire").classList.toggle("on", s > 0);
@@ -292,32 +301,63 @@ function renderPath() {
   $("#count").innerHTML = T(B(`${doneCount} of ${ALL.length} steps complete`, `${asNum(ALL.length)}টাৰ ভিতৰত ${asNum(doneCount)}টা সম্পূৰ্ণ`));
   const m = bankOf(L.id).map(resolveStep).filter(Boolean);
   const gate = GATE ? `<div class="gate-card"><span class="ic">${ICONS.lock}</span><div><b>${T(B("This lesson is locked", "এই পাঠটো বন্ধ"))}</b>
-      <span class="s">${T(B(`Finish Lesson ${GATE.n} · ${GATE.name.en.split(" (")[0]} first, or jump here by passing a test on the lessons before this one.`, `প্ৰথমে পাঠ ${asNum(GATE.n)} · ${GATE.name.as.split(" (")[0]} শেষ কৰা, নহ'লে আগৰ পাঠবোৰৰ পৰীক্ষা দি ইয়ালৈ জঁপিয়াই আহা।`))}</span>
-      <div class="gate-btns"><a class="cp-go" href="lesson.html?id=${GATE.id}">${T(B(`Go to Lesson ${GATE.n}`, `পাঠ ${asNum(GATE.n)}লৈ যোৱা`))}</a><a class="cp-skip" href="lesson.html?jump=${L.id}">${T(B("Jump here", "ইয়ালৈ জঁপিওৱা"))}</a></div></div></div>` : "";
+      <span class="s">${T(B(`Finish Lesson ${GATE.n} · ${GATE.name.en.split(" (")[0]} first, or tap Jump here at the end of this lesson to pass a test on the lessons before it.`, `প্ৰথমে পাঠ ${asNum(GATE.n)} · ${GATE.name.as.split(" (")[0]} শেষ কৰা, নহ'লে এই পাঠৰ শেষৰ 'ইয়ালৈ জঁপিওৱা' টিপি আগৰ পাঠবোৰৰ পৰীক্ষা দিয়া।`))}</span>
+      <div class="gate-btns"><a class="cp-go" href="lesson.html?id=${GATE.id}">${T(B(`Go to Lesson ${GATE.n}`, `পাঠ ${asNum(GATE.n)}লৈ যোৱা`))}</a></div></div></div>` : "";
   $("#mistake-slot").innerHTML = gate + (m.length ? `<button class="mistake-card" id="practise"><span class="ic">${N(m.length)}</span><span><b>${T(B("Practise your mistakes", "তোমাৰ ভুলবোৰ অনুশীলন কৰা"))}</b><span class="s">${T(B("Questions you missed in this lesson", "এই পাঠত ভুল হোৱা প্ৰশ্নবোৰ"))}</span></span><span class="go">›</span></button>` : "");
   const cur = ALL.findIndex((u, k) => unlocked(k) && !P.done[u.id]);
   const offs = [0, -64, -88, -50, 30, 80, 0];
-  $("#path").innerHTML = ALL.map((u, k) => {
-    const isTest = u === L.test, isDone = !!P.done[u.id], testout = isTest && !isDone && !unlocked(k) && !GATE, open = unlocked(k) || testout;
+  let g = 0;   // node number along the whole course, for the zig-zag
+  const label = (open, isTest, jump, k, title) => `<div class="node-label ${open ? "" : "locked"}">${jump ? T(B("Jump here", "ইয়ালৈ জঁপিওৱা")) : (isTest ? "" : T(B(`Unit ${k + 1}`, `অধ্যায় ${asNum(k + 1)}`)) + " · ") + T(title)}</div>`;
+  const wrap = (key, inner) => `<div class="node-wrap" style="transform:translateX(${offs[g++ % offs.length]}px);z-index:${pop === key || opop === key ? 6 : 1}">${inner}</div>`;
+  const jumpPop = (title) => `<div class="pop test"><h3>${T(title)}</h3><p>${T(B("Jump here: pass a test on the lessons before this one. If you get 80%, they are marked complete and this lesson opens.", "ইয়ালৈ জঁপিওৱা: আগৰ পাঠবোৰৰ পৰীক্ষা দিয়া। ৮০% পালে সেইবোৰ সম্পূৰ্ণ হ'ব আৰু এই পাঠ খোল খাব।"))}</p>`;
+  // this lesson's units, drawn in full (pop-ups start units here)
+  const mine = () => ALL.map((u, k) => {
+    const isTest = u === L.test, isDone = !!P.done[u.id], jump = isTest && !isDone && !!GATE, testout = isTest && !isDone && !unlocked(k) && !GATE, open = unlocked(k) || testout || jump;
     const cls = `${isTest ? "test " : ""}${isDone ? "done" : open ? "open" : "locked"}${k === cur ? " cur" : ""}`;
     const icon = isDone ? ICONS.done : !open ? ICONS.lock : ICONS[isTest ? "trophy" : u.icon] || ICONS.star;
     const ex = u.steps.filter((s) => s.type !== "story").length;
     const types = [...new Set(u.steps.filter((s) => s.type !== "story").map((s) => s.type))];
-    const popHTML = pop === k ? `<div class="pop ${isDone ? "done" : isTest ? "test" : open ? "" : "locked"}">
+    const popHTML = pop !== k ? "" : jump ? jumpPop(B("Jump here", "ইয়ালৈ জঁপিওৱা")) + `<a class="btn" href="lesson.html?jump=${L.id}">${T(B("Jump here", "ইয়ালৈ জঁপিওৱা"))}</a></div>` : `<div class="pop ${isDone ? "done" : isTest ? "test" : open ? "" : "locked"}">
         <h3>${T(u.title)}</h3>
         <p>${testout ? T(B(`Know this reign already? Get 80% on the ${ex} questions to complete the lesson and unlock the next one.`, `এই ৰাজত্বকাল আগৰে পৰা জানা নেকি? ${asNum(ex)}টা প্ৰশ্নত ৮০% পালে পাঠটো সম্পূৰ্ণ হ'ব আৰু পিছৰটো খোল খাব।`))
           : open ? T(B(`${ex} exercises · about 4 min`, `${asNum(ex)}টা অনুশীলন · প্ৰায় ৪ মিনিট`)) : GATE ? T(B(`This lesson opens when you finish Lesson ${GATE.n}.`, `পাঠ ${asNum(GATE.n)} শেষ কৰিলে এই পাঠ খোল খাব।`)) : T(B("Complete the step above to unlock this.", "ওপৰৰ স্তৰটো শেষ কৰিলে এইটো খোল খাব।"))}</p>
         ${open && unitLinks(u).length ? `<p class="builds">${CHAIN}${T(B("Builds on", "ভেটি"))}: ${unitLinks(u).map((l) => T(linkLabel(l))).join(", ")}</p>` : ""}
         ${open ? `<div class="types">${types.map((ty) => `<span>${T(KICK[ty])}</span>`).join("")}</div><button class="btn" data-start="${k}" ${testout ? "data-testout" : ""}>${isDone ? T(B("Practise again", "আকৌ অনুশীলন")) : testout ? T(B("Take the test", "পৰীক্ষা দিয়া")) : T(B("Start", "আৰম্ভ"))}</button>` : ""}
-      </div>` : "";
-    return `<div class="node-wrap" style="transform:translateX(${offs[k % offs.length]}px);z-index:${pop === k ? 6 : 1}">
-      ${k === cur && pop !== k ? `<span class="bubble">${T(B("Start", "আৰম্ভ"))}</span>` : ""}
-      <button class="node ${cls}${testout ? " testout" : ""}" data-node="${k}" aria-label="${u.title.en}">${testout ? ICONS.trophy : icon}</button>
-      <div class="node-label ${open ? "" : "locked"}">${isTest ? "" : T(B(`Unit ${k + 1}`, `অধ্যায় ${asNum(k + 1)}`)) + " · "}${T(u.title)}</div>
-      ${popHTML}
-    </div>`;
+      </div>`;
+    return wrap(k, `${k === cur && pop !== k ? `<span class="bubble">${T(B("Start", "আৰম্ভ"))}</span>` : ""}
+      <button class="node ${cls}${testout || jump ? " testout" : ""}" data-node="${k}" aria-label="${u.title.en}">${testout || jump ? ICONS.trophy : icon}</button>
+      ${label(open, isTest, jump, k, u.title)}${popHTML}`);
   }).join("");
-  drawTrail(cur < 0 ? ALL.length - 1 : cur);
+  // another lesson's units, from the manifest summary; their buttons open that lesson
+  const lessonDone = (id) => !!(id === L.id ? P : AXOM.getLesson(id)).done.test;
+  const other = (c, i) => {
+    const Pd = AXOM.getLesson(c.id).done, lessonOpen = UNLOCK_ALL || i === 0 || lessonDone(COURSE[i - 1].id) || lessonDone(c.id);
+    const done = lessonDone(c.id);
+    const banner = `<a class="sec-banner ${done ? "done" : lessonOpen ? "open" : "locked"}" href="lesson.html?id=${c.id}">
+        <span class="face"><img src="${media(c.face)}" alt="" loading="lazy"></span>
+        <span class="t"><small>${T(B(`Lesson ${c.n}`, `পাঠ ${asNum(c.n)}`))}</small><b>${T(B(c.name.en.split(" (")[0], c.name.as.split(" (")[0]))}</b><span>${N(c.reign)}</span></span>
+        <span class="st">${done ? ICONS.done : lessonOpen ? "›" : ICONS.lock}</span></a>`;
+    const nodes = c.units.map((u, j) => {
+      const key = `${c.id}:${j}`, isTest = j === c.units.length - 1, isDone = !!Pd[u.id];
+      const unl = lessonOpen && (UNLOCK_ALL || j === 0 || !!Pd[c.units[j - 1].id]);
+      const jump = isTest && !isDone && !lessonOpen, testout = isTest && !isDone && !unl && lessonOpen, open = unl || testout || jump;
+      const icon = isDone ? ICONS.done : !open ? ICONS.lock : ICONS[isTest ? "trophy" : u.i] || ICONS.star;
+      const href = jump ? `lesson.html?jump=${c.id}` : open ? `lesson.html?id=${c.id}&start=${j}${testout ? "&testout=1" : ""}` : "";
+      const popHTML = opop !== key ? "" : jump ? jumpPop(B("Jump here", "ইয়ালৈ জঁপিওৱা")) + `<a class="btn" href="${href}">${T(B("Jump here", "ইয়ালৈ জঁপিওৱা"))}</a></div>`
+        : `<div class="pop ${isDone ? "done" : isTest ? "test" : open ? "" : "locked"}"><h3>${T(u.t)}</h3>
+          <p>${open ? T(B(`Lesson ${c.n} · ${u.ex} exercises`, `পাঠ ${asNum(c.n)} · ${asNum(u.ex)}টা অনুশীলন`)) : T(B("Complete the step above to unlock this.", "ওপৰৰ স্তৰটো শেষ কৰিলে এইটো খোল খাব।"))}</p>
+          ${href ? `<a class="btn" href="${href}">${isDone ? T(B("Practise again", "আকৌ অনুশীলন")) : testout ? T(B("Take the test", "পৰীক্ষা দিয়া")) : T(B("Start", "আৰম্ভ"))}</a>` : ""}</div>`;
+      return wrap(key, `<button class="node ${isTest ? "test " : ""}${isDone ? "done" : open ? "open" : "locked"}${testout || jump ? " testout" : ""}" data-onode="${key}" aria-label="${u.t.en}">${testout || jump ? ICONS.trophy : icon}</button>
+        ${label(open, isTest, jump, j, u.t)}${popHTML}`);
+    }).join("");
+    return `<div class="sec">${banner}</div>${nodes}`;
+  };
+  const here = COURSE.findIndex((c) => c.id === L.id);
+  $("#path").innerHTML = here < 0 ? mine() : COURSE.map((c, i) => (c.id === L.id ? `<div class="sec here" id="sec-here"></div>${mine()}` : other(c, i))).join("");
+  if (here >= 0) $("#sec-here").append(...HERE);
+  const nodes = $$(".node", $("#path")), first = nodes.findIndex((n) => !n.classList.contains("done"));
+  drawTrail(first < 0 ? nodes.length - 1 : first);
+  if (!scrolled && here > 0) { scrolled = true; $("#sec-here").scrollIntoView({ block: "start" }); }
 }
 // one continuous curve through the unit circles; gold up to where the learner is
 function drawTrail(upTo) {
@@ -329,7 +369,7 @@ function drawTrail(upTo) {
   path.insertAdjacentHTML("afterbegin", `<svg class="trail" aria-hidden="true"><path class="trail-base" d="${curve(pts)}"/>${upTo > 0 ? `<path class="trail-done" d="${curve(pts.slice(0, upTo + 1))}"/>` : ""}</svg>`);
 }
 // labels change height with the language and once fonts load, so redraw the curve then too
-const redrawTrail = () => { if (!$("#v-path").classList.contains("on")) return; const k = $$(".node", $("#path")).findIndex((n) => n.classList.contains("cur")); drawTrail(k < 0 ? ALL.length - 1 : k); };
+const redrawTrail = () => { if (!$("#v-path").classList.contains("on")) return; const n = $$(".node", $("#path")), k = n.findIndex((x) => !x.classList.contains("done")); drawTrail(k < 0 ? n.length - 1 : k); };
 addEventListener("resize", redrawTrail);
 document.addEventListener("change", (e) => { if (e.target.id === "as") setTimeout(redrawTrail, 30); });
 if (document.fonts) document.fonts.addEventListener("loadingdone", redrawTrail);
@@ -634,9 +674,10 @@ document.addEventListener("click", (e) => {
   if (g("#settings")) return AXOM.openSettings();
   if (g("#guide")) return openGuide();
   if (g("#practise")) return startPractice();
-  if ((b = g("[data-node]"))) { const k = +b.dataset.node; pop = pop === k ? null : k; SFX.tap(); return renderPath(); }
+  if ((b = g("[data-node]"))) { const k = +b.dataset.node; pop = pop === k ? null : k; opop = null; SFX.tap(); return renderPath(); }
+  if ((b = g("[data-onode]"))) { const k = b.dataset.onode; opop = opop === k ? null : k; pop = null; SFX.tap(); return renderPath(); }
   if ((b = g("[data-start]"))) return startUnit(+b.dataset.start, b.hasAttribute("data-testout"));
-  if ($("#v-path").classList.contains("on") && pop != null && !g(".pop")) { pop = null; return renderPath(); }
+  if ($("#v-path").classList.contains("on") && (pop != null || opop != null) && !g(".pop")) { pop = opop = null; return renderPath(); }
   if (g("#done-btn")) { if (VIRTUAL) { location.href = "index.html"; return; } showView("v-path"); renderPath(); return; }
   if (g("#exit")) return openLeave();
   if (g("[data-link]") && U) { const s0 = step().s; if (s0.link) return openLinkSheet(s0.link); }
@@ -736,7 +777,13 @@ if (VIRTUAL) {
       <h1>${T(mode === "review" ? B("All caught up!", "সকলো শেষ!") : B("Nothing to test yet", "পৰীক্ষা কৰিবলৈ এতিয়াও একো নাই"))}</h1>
       <p class="sub">${T(mode === "review" ? B("No questions are due today. Come back tomorrow.", "আজি কোনো প্ৰশ্ন বাকী নাই। কাইলৈ আহিবা।") : B("Finish some lessons of this era first.", "প্ৰথমে এই যুগৰ কিছু পাঠ শেষ কৰা।"))}</p>`;
   } else startUnit(ALL.length - 1);
-} else { showView("v-path"); renderPath(); setupOffline(); }
+} else {
+  HERE = [$(".hero"), $("#mistake-slot")];
+  showView("v-path"); renderPath(); setupOffline();
+  const k = params.has("start") ? +params.get("start") : -1, testout = params.has("testout");
+  history.replaceState(null, "", `lesson.html?id=${L.id}${UNLOCK_ALL ? "&all" : ""}${params.has("debug") ? "&debug" : ""}`);
+  if (k >= 0 && k < ALL.length && (unlocked(k) || (testout && ALL[k] === L.test && !GATE))) startUnit(k, testout && !unlocked(k));
+}
 }   // end boot
 
 load();

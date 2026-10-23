@@ -197,6 +197,9 @@ function initLang() {
 }
 
 /* ---------- service worker (offline + install) ---------- */
+// Coming back with the browser's Back button can show a frozen copy of the page from before the
+// learner finished something (back/forward cache). Reload it so locks and progress are current.
+addEventListener("pageshow", (e) => { if (e.persisted) location.reload(); });
 if ("serviceWorker" in navigator && location.protocol !== "file:") {
   window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 }
