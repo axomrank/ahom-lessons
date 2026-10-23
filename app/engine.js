@@ -38,6 +38,7 @@ async function load() {
     const id = (params.get("id") || "sukaphaa").replace(/[^a-z0-9-]/g, "");
     const L = await AXOM.getJSON(`content/lessons/${id}.json`);
     NEXT = await nextLesson(L.no).catch(() => null);
+    GATE = await lessonGate(L).catch(() => null);
     boot(L, "lesson");
   } catch (e) {
     document.body.insertAdjacentHTML("afterbegin", `<div class="stage"><div class="device"><div class="load-error"><h2>${T(B("This lesson could not be opened", "পাঠটো খুলিব পৰা নগ'ল"))}</h2><p>${T(B("Check your internet connection, or download the lesson for offline use when you are online.", "ইণ্টাৰনেট সংযোগ পৰীক্ষা কৰা, বা অনলাইন থকাৰ সময়ত পাঠটো অফলাইনৰ বাবে ডাউনলোড কৰি ৰাখা।"))}</p><a class="btn" href="index.html">${T(B("All lessons", "সকলো পাঠ"))}</a></div></div></div>`);
@@ -70,6 +71,12 @@ async function publishedKings() {
   return course.kings.filter((k) => k.lesson && manifest.lessons[k.lesson]);
 }
 let NEXT = null;   // the lesson after this one: { id, n, name }
+let GATE = null;   // the earlier lesson that must be finished before this one opens: { id, n, name }, or null
+async function lessonGate(L) {
+  if (UNLOCK_ALL || AXOM.getLesson(L.id).done.test) return null;
+  const prev = (await publishedKings()).filter((k) => k.n < L.no).pop();
+  return prev && !AXOM.getLesson(prev.lesson).done.test ? { id: prev.lesson, n: prev.n, name: prev.name } : null;
+}
 async function nextLesson(no) {
   const k = (await publishedKings()).find((x) => x.n > no);
   return k ? { id: k.lesson, n: k.n, name: k.name } : null;
@@ -258,7 +265,7 @@ document.title = L.no ? `${L.king.en} · Lesson ${L.no}` : `${L.king.en} · Ahom
 
 /* ---------- lesson path ---------- */
 const ALL = [...L.units, L.test];
-const unlocked = (k) => UNLOCK_ALL || k === 0 || !!P.done[ALL[k - 1].id];
+const unlocked = (k) => !GATE && (UNLOCK_ALL || k === 0 || !!P.done[ALL[k - 1].id]);
 function showView(id) {
   $$(".view").forEach((v) => v.classList.toggle("on", v.id === id));
   if (id === "v-path") $("#v-empty").classList.add("on");   // wide screens show an empty right pane beside the path
@@ -282,11 +289,14 @@ function renderPath() {
   $("#meter").style.width = `${(doneCount / ALL.length) * 100}%`;
   $("#count").innerHTML = T(B(`${doneCount} of ${ALL.length} steps complete`, `${asNum(ALL.length)}টাৰ ভিতৰত ${asNum(doneCount)}টা সম্পূৰ্ণ`));
   const m = bankOf(L.id).map(resolveStep).filter(Boolean);
-  $("#mistake-slot").innerHTML = m.length ? `<button class="mistake-card" id="practise"><span class="ic">${N(m.length)}</span><span><b>${T(B("Practise your mistakes", "তোমাৰ ভুলবোৰ অনুশীলন কৰা"))}</b><span class="s">${T(B("Questions you missed in this lesson", "এই পাঠত ভুল হোৱা প্ৰশ্নবোৰ"))}</span></span><span class="go">›</span></button>` : "";
+  const gate = GATE ? `<div class="gate-card"><span class="ic">${ICONS.lock}</span><div><b>${T(B("This lesson is locked", "এই পাঠটো বন্ধ"))}</b>
+      <span class="s">${T(B(`Finish Lesson ${GATE.n} · ${GATE.name.en.split(" (")[0]} first, or jump here by passing a test on the lessons before this one.`, `প্ৰথমে পাঠ ${asNum(GATE.n)} · ${GATE.name.as.split(" (")[0]} শেষ কৰা, নহ'লে আগৰ পাঠবোৰৰ পৰীক্ষা দি ইয়ালৈ জঁপিয়াই আহা।`))}</span>
+      <div class="gate-btns"><a class="cp-go" href="lesson.html?id=${GATE.id}">${T(B(`Go to Lesson ${GATE.n}`, `পাঠ ${asNum(GATE.n)}লৈ যোৱা`))}</a><a class="cp-skip" href="lesson.html?jump=${L.id}">${T(B("Jump here", "ইয়ালৈ জঁপিওৱা"))}</a></div></div></div>` : "";
+  $("#mistake-slot").innerHTML = gate + (m.length ? `<button class="mistake-card" id="practise"><span class="ic">${N(m.length)}</span><span><b>${T(B("Practise your mistakes", "তোমাৰ ভুলবোৰ অনুশীলন কৰা"))}</b><span class="s">${T(B("Questions you missed in this lesson", "এই পাঠত ভুল হোৱা প্ৰশ্নবোৰ"))}</span></span><span class="go">›</span></button>` : "");
   const cur = ALL.findIndex((u, k) => unlocked(k) && !P.done[u.id]);
   const offs = [0, -64, -88, -50, 30, 80, 0];
   $("#path").innerHTML = ALL.map((u, k) => {
-    const isTest = u === L.test, isDone = !!P.done[u.id], testout = isTest && !isDone && !unlocked(k), open = unlocked(k) || testout;
+    const isTest = u === L.test, isDone = !!P.done[u.id], testout = isTest && !isDone && !unlocked(k) && !GATE, open = unlocked(k) || testout;
     const cls = `${isTest ? "test " : ""}${isDone ? "done" : open ? "open" : "locked"}${k === cur ? " cur" : ""}`;
     const icon = isDone ? ICONS.done : !open ? ICONS.lock : ICONS[isTest ? "trophy" : u.icon] || ICONS.star;
     const ex = u.steps.filter((s) => s.type !== "story").length;
@@ -294,7 +304,7 @@ function renderPath() {
     const popHTML = pop === k ? `<div class="pop ${isDone ? "done" : isTest ? "test" : open ? "" : "locked"}">
         <h3>${T(u.title)}</h3>
         <p>${testout ? T(B(`Know this reign already? Get 80% on the ${ex} questions to complete the lesson and unlock the next one.`, `এই ৰাজত্বকাল আগৰে পৰা জানা নেকি? ${asNum(ex)}টা প্ৰশ্নত ৮০% পালে পাঠটো সম্পূৰ্ণ হ'ব আৰু পিছৰটো খোল খাব।`))
-          : open ? T(B(`${ex} exercises · about 4 min`, `${asNum(ex)}টা অনুশীলন · প্ৰায় ৪ মিনিট`)) : T(B("Complete the step above to unlock this.", "ওপৰৰ স্তৰটো শেষ কৰিলে এইটো খোল খাব।"))}</p>
+          : open ? T(B(`${ex} exercises · about 4 min`, `${asNum(ex)}টা অনুশীলন · প্ৰায় ৪ মিনিট`)) : GATE ? T(B(`This lesson opens when you finish Lesson ${GATE.n}.`, `পাঠ ${asNum(GATE.n)} শেষ কৰিলে এই পাঠ খোল খাব।`)) : T(B("Complete the step above to unlock this.", "ওপৰৰ স্তৰটো শেষ কৰিলে এইটো খোল খাব।"))}</p>
         ${open && unitLinks(u).length ? `<p class="builds">${CHAIN}${T(B("Builds on", "ভেটি"))}: ${unitLinks(u).map((l) => T(linkLabel(l))).join(", ")}</p>` : ""}
         ${open ? `<div class="types">${types.map((ty) => `<span>${T(KICK[ty])}</span>`).join("")}</div><button class="btn" data-start="${k}" ${testout ? "data-testout" : ""}>${isDone ? T(B("Practise again", "আকৌ অনুশীলন")) : testout ? T(B("Take the test", "পৰীক্ষা দিয়া")) : T(B("Start", "আৰম্ভ"))}</button>` : ""}
       </div>` : "";

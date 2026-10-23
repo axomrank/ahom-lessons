@@ -332,6 +332,13 @@ body:has(#as:checked) .btn { letter-spacing: 0; text-transform: none; font-size:
 .mistake-card .ic { flex: none; width: 42px; height: 42px; border-radius: 12px; background: var(--bad-soft); color: var(--bad); display: grid; place-items: center; font-weight: 900; font-size: 18px; }
 .mistake-card b { display: block; font-size: 16px; }
 .mistake-card span.s { font-size: 13px; font-weight: 700; color: var(--ink-3); }
+.gate-card { display: flex; gap: 12px; margin: 10px 14px 0; padding: 12px 14px; border-radius: 18px; background: var(--surface); border: 2px dashed var(--line-2); }
+.gate-card .ic { flex: none; width: 42px; height: 42px; border-radius: 12px; background: var(--indigo-soft); color: var(--indigo); display: grid; place-items: center; }
+.gate-card .ic svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.gate-card b { display: block; font-size: 16px; }
+.gate-card span.s { display: block; font-size: 13px; font-weight: 700; color: var(--ink-2); }
+.gate-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.gate-btns .cp-go, .gate-btns .cp-skip { margin-left: 0; }
 .mistake-card .go { margin-left: auto; color: var(--ink-3); font-size: 22px; font-weight: 900; }
 
 /* ---------- course home ---------- */

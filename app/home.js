@@ -94,8 +94,8 @@ function lessonsTab(status) {
 const LABEL = { done: B("Review", "পুনৰীক্ষণ"), open: B("Start", "আৰম্ভ"), locked: B("Jump here", "ইয়ালৈ জঁপিওৱা"), soon: B("Soon", "সোনকালে") };
 function card(k, st) {
   const started = st.s === "open" && st.done > 0, miss = st.id ? (G.mistakes[st.id] || []).length : 0;
-  // a locked lesson can be reached by passing a test on the lessons before it
-  const href = st.s === "open" || st.s === "done" ? `lesson.html?id=${st.id}` : st.s === "locked" ? `lesson.html?jump=${st.id}` : "", tag = href ? "a" : "div";
+  // a locked lesson opens its page, which offers the jump test (passing it unlocks the lesson)
+  const href = st.s === "open" || st.s === "done" ? `lesson.html?id=${st.id}` : st.s === "locked" ? `lesson.html?id=${st.id}` : "", tag = href ? "a" : "div";
   return `<${tag} class="king ${st.s} tier-${k.tier}" ${href ? `href="${href}"` : `data-why="${st.s}"`}>
     <span class="face"><img src="${AXOM.media(k.face)}" alt="" loading="lazy"></span><span class="n">${N(k.n)}</span>
     <span class="who"><b>${T(k.name)}</b><span class="sub2">${N(k.reign)} · <span class="stars" title="Exam importance">${STAR[k.tier]}</span></span>
