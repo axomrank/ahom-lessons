@@ -1,0 +1,1683 @@
+{
+ "id": "chakradhwaj-singha",
+ "no": 21,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Chakradhwaj Singha",
+  "as": "স্বৰ্গদেউ চক্ৰধ্বজ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1663–1670",
+  "as": "ৰাজত্বকাল ১৬৬৩–১৬৭০"
+ },
+ "portrait": "chakradhwaj-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VI, pp. 144–149",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Saring Raja crowned (Supangmung), no sons of Jayadhvaj; indemnity withheld; Neog Phukan executed for treason; 1665 Naga and Miri expeditions; 1665 drought, the only total crop failure; 1667 Firuz Khan's demand; Deodhai omens; August 1667 army under Lachit, son of the Bar Barua, appointed Bar Phukan; Kajali and Bansbari; Gauhati and Pandu after two months; Manas, Firuz Khan captured; Gauhati seat of the Bar Phukan; census; Ram Singh appointed Dec 1667, 18,000 horse, 30,000 foot, 15,000 Koch archers, Rangamati Feb 1669; 'rather fight than yield'; battles near Tezpur, Sualkuchi, Sessa; heavy defeat and loss of ships; challenge to single combat; negotiations; death of Chakradhvaj"
+  },
+  {
+   "title": "Lachit Borphukan",
+   "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+   "used_for": "Born 24 November 1622; appointed Borphukan 1667; Itakhuli; Alaboi 1669"
+  },
+  {
+   "title": "Battle of Alaboi",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Alaboi",
+   "used_for": "5 August 1669, heavy Ahom losses"
+  },
+  {
+   "title": "Chakradhwaj Singha",
+   "url": "https://en.wikipedia.org/wiki/Chakradhwaj_Singha",
+   "used_for": "Reign 1663–1670; died April 1670"
+  }
+ ],
+ "review_notes": "Gait does not name Alaboi or Itakhuli; they come from Wikipedia and the AHOM catalogue. Gait's version of Lachit's appointment is simply that the Bar Barua's son was made Bar Phukan; the story of his testing is tradition. Ahom losses at Alaboi are given as about 10,000 in Wikipedia; the lesson says 'thousands'.",
+ "buildsOn": {
+  "no": 20,
+  "title": {
+   "en": "Jayadhwaj Singha",
+   "as": "জয়ধ্বজ সিংহ"
+  },
+  "id": "jayadhwaj-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1663",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1665",
+    "t": {
+     "en": "Great drought",
+     "as": "ভয়ংকৰ খৰাং"
+    }
+   },
+   {
+    "y": "1667",
+    "t": {
+     "en": "Lachit made Borphukan; Guwahati won back",
+     "as": "লাচিত বৰফুকন; গুৱাহাটী উদ্ধাৰ"
+    }
+   },
+   {
+    "y": "1669",
+    "t": {
+     "en": "Ram Singh arrives; defeat at Alaboi",
+     "as": "ৰামসিংহৰ আগমন; আলাবৈত পৰাজয়"
+    }
+   },
+   {
+    "y": "1670",
+    "t": {
+     "en": "Dies; Udayaditya succeeds",
+     "as": "মৃত্যু; উদয়াদিত্য ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   89.8,
+   25.9,
+   95.0,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "manas",
+   "bharali",
+   "kolong",
+   "guwahati",
+   "saraighat",
+   "kaliabor",
+   "garhgaon",
+   "samdhara"
+  ],
+  "routes": [
+   [
+    "garhgaon",
+    "kaliabor",
+    "guwahati",
+    [
+     26.2,
+     90.9
+    ]
+   ]
+  ],
+  "texts": [
+   {
+    "t": {
+     "en": "AHOM ARMY, 1667",
+     "as": "আহোম সৈন্য, ১৬৬৭"
+    },
+    "at": [
+     26.85,
+     93.4
+    ]
+   }
+  ],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "saraighat": {
+    "pos": "nw"
+   },
+   "kaliabor": {
+    "pos": "s"
+   },
+   "garhgaon": {
+    "pos": "s"
+   },
+   "samdhara": {
+    "pos": "n"
+   },
+   "manas": {
+    "at": [
+     26.6,
+     90.5
+    ],
+    "pos": "e"
+   },
+   "bharali": {
+    "at": [
+     26.95,
+     92.8
+    ],
+    "pos": "w"
+   },
+   "kolong": {
+    "at": [
+     26.35,
+     92.6
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     26.62,
+     93.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A king who would not pay",
+    "as": "কৰ নিদিয়া ৰজা"
+   },
+   "learned": [
+    {
+     "en": "Jayadhwaj left no sons; the nobles crowned the Saring Raja in 1663",
+     "as": "জয়ধ্বজৰ পুত্ৰ নাছিল; ১৬৬৩ চনত বিষয়াসকলে চাৰিং ৰজাক অভিষেক কৰিলে"
+    },
+    {
+     "en": "He took the names Supangmung and Chakradhwaj Singha",
+     "as": "তেওঁ চুপাংমুং আৰু চক্ৰধ্বজ সিংহ নাম ল'লে"
+    },
+    {
+     "en": "He refused to pay the rest of the Mughal indemnity",
+     "as": "তেওঁ মোগলৰ বাকী ক্ষতিপূৰণ দিবলৈ অস্বীকাৰ কৰিলে"
+    },
+    {
+     "en": "1665: the only time in Assam's history the rains failed completely",
+     "as": "১৬৬৫: অসমৰ ইতিহাসত একমাত্ৰ বাৰ সম্পূৰ্ণ খৰাং"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "oath.webp",
+     "title": {
+      "en": "No sons, a new king",
+      "as": "পুত্ৰ নাই, নতুন ৰজা"
+     },
+     "text": [
+      {
+       "en": "Jayadhwaj Singha had only daughters. In <mark>1663</mark> the nobles crowned the Saring Raja, his cousin, as [[chakradhwaj-singha]] (Supangmung).",
+       "as": "জয়ধ্বজ সিংহৰ কেৱল জীয়েক আছিল। <mark>১৬৬৩</mark> চনত বিষয়াসকলে তেওঁৰ সম্পৰ্কীয় ভাই চাৰিং ৰজাক [[chakradhwaj-singha]] (চুপাংমুং) হিচাপে অভিষেক কৰিলে।"
+      },
+      {
+       "en": "Mughal envoys soon came asking for the unpaid part of the indemnity. He received them coldly: 'Your master has not kept faith over the border.'",
+       "as": "সোনকালে মোগল দূতে বাকী ক্ষতিপূৰণ খুজিবলৈ আহিল। তেওঁ শীতলভাৱে আদৰিলে: 'তোমালোকৰ প্ৰভুৱে সীমাৰ কথা ৰখা নাই।'"
+      }
+     ],
+     "id": "cds.u1.01",
+     "link": {
+      "lesson": 20,
+      "lessonId": "jayadhwaj-singha",
+      "unitNo": 7,
+      "unitTitle": {
+       "en": "A king's last wish",
+       "as": "ৰজাৰ অন্তিম ইচ্ছা"
+      },
+      "note": {
+       "en": "Jayadhwaj, dying, asked his successor to wipe out the shame of 1663.",
+       "as": "মৃত্যুশয্যাত জয়ধ্বজে উত্তৰাধিকাৰীক ১৬৬৩ৰ লাজ ধুই পেলাবলৈ কৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Chakradhwaj Singha was Jayadhwaj Singha's son.",
+      "as": "চক্ৰধ্বজ সিংহ জয়ধ্বজ সিংহৰ পুত্ৰ আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Jayadhwaj had no sons; Chakradhwaj was a relative, most say a cousin.",
+      "as": "অশুদ্ধ। জয়ধ্বজৰ পুত্ৰ নাছিল; চক্ৰধ্বজ আত্মীয়, বেছিভাগৰ মতে সম্পৰ্কীয় ভাই।"
+     },
+     "id": "cds.u1.02"
+    },
+    {
+     "type": "story",
+     "art": "calendar",
+     "title": {
+      "en": "The year without rain",
+      "as": "বৰষুণ নোহোৱা বছৰ"
+     },
+     "text": [
+      {
+       "en": "In <mark>1665</mark> the rains failed. Wells had to be dug for drinking water and the crops died.",
+       "as": "<mark>১৬৬৫</mark> চনত বৰষুণ নহ'ল। খোৱা পানীৰ বাবে নাদ খান্দিব লগা হ'ল আৰু শস্য নষ্ট হ'ল।"
+      },
+      {
+       "en": "Gait calls it the only time in all of Assam's history that the rains failed so completely. Yet the king kept rebuilding his army and forts.",
+       "as": "গেইটৰ মতে অসমৰ গোটেই ইতিহাসত এইবাৰেই বৰষুণ ইমান সম্পূৰ্ণকৈ বিফল হৈছিল। তথাপি ৰজাই সৈন্য আৰু গড় পুনৰ গঢ়ি থাকিল।"
+      }
+     ],
+     "id": "cds.u1.03"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "In",
+       "1665",
+       "Assam",
+       "suffered",
+       "a",
+       "great",
+       "flood."
+      ],
+      "as": [
+       "১৬৬৫",
+       "চনত",
+       "অসমত",
+       "ভয়ংকৰ",
+       "বানপানী",
+       "হৈছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 6,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ drought",
+      "as": "→ খৰাং"
+     },
+     "answerText": {
+      "en": "flood → drought",
+      "as": "বানপানী → খৰাং"
+     },
+     "why": {
+      "en": "It was a drought: the only total failure of the rains in Assam's history.",
+      "as": "ই আছিল খৰাং: অসমৰ ইতিহাসত বৰষুণৰ একমাত্ৰ সম্পূৰ্ণ বিফলতা।"
+     },
+     "id": "cds.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his Hindu name.",
+      "as": "তেওঁৰ হিন্দু নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "C",
+       "H",
+       "A",
+       "K",
+       "R",
+       "A",
+       "D",
+       "H",
+       "W",
+       "A",
+       "J"
+      ],
+      "as": [
+       "চক্ৰ",
+       "ধ্ব",
+       "জ"
+      ]
+     },
+     "answerText": {
+      "en": "CHAKRADHWAJ",
+      "as": "চক্ৰধ্বজ"
+     },
+     "why": {
+      "en": "Chakradhwaj Singha: 'banner of the discus'.",
+      "as": "চক্ৰধ্বজ সিংহ: 'চক্ৰৰ ধ্বজা'।"
+     },
+     "id": "cds.u1.05"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was crowned in 1663.",
+       "as": "১৬৬৩ চনত মোৰ অভিষেক।"
+      },
+      {
+       "en": "I would not pay the Mughals.",
+       "as": "মই মোগলক কৰ দিয়া নাছিলোঁ।"
+      },
+      {
+       "en": "I chose Lachit as my commander.",
+       "as": "মই লাচিতক সেনাপতি বাছিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Chakradhwaj Singha",
+       "as": "চক্ৰধ্বজ সিংহ"
+      },
+      {
+       "en": "Jayadhwaj Singha",
+       "as": "জয়ধ্বজ সিংহ"
+      },
+      {
+       "en": "Udayaditya Singha",
+       "as": "উদয়াদিত্য সিংহ"
+      },
+      {
+       "en": "Gadadhar Singha",
+       "as": "গদাধৰ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Chakradhwaj Singha (1663–1670).",
+      "as": "চক্ৰধ্বজ সিংহ (১৬৬৩–১৬৭০)।"
+     },
+     "id": "cds.u1.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the new king's oath to resist?",
+      "as": "কোনখন ছবিত নতুন ৰজাৰ প্ৰতিৰোধৰ শপত দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "oath.webp",
+      "lachit-command.webp",
+      "guwahati-liberated.webp",
+      "alaboi.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The oath",
+      "as": "শপত"
+     },
+     "why": {
+      "en": "Chakradhwaj resolves to win back what was lost.",
+      "as": "হেৰুওৱা সকলো ঘূৰাই আনিবলৈ চক্ৰধ্বজৰ সংকল্প।"
+     },
+     "id": "cds.u1.07"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "flag",
+   "title": {
+    "en": "Choosing a commander",
+    "as": "সেনাপতি বাছনি"
+   },
+   "learned": [
+    {
+     "en": "In 1667 the Mughal thanadar of Guwahati demanded the indemnity",
+     "as": "১৬৬৭ চনত গুৱাহাটীৰ মোগল থানাদাৰে ক্ষতিপূৰণ দাবী কৰিলে"
+    },
+    {
+     "en": "The king chose war, though his nobles were afraid",
+     "as": "বিষয়াসকল ভয়াতুৰ হ'লেও ৰজাই যুদ্ধ বাছিলে"
+    },
+    {
+     "en": "He made Lachit, son of Momai Tamuli, the Borphukan",
+     "as": "তেওঁ মোমাই তামুলীৰ পুত্ৰ লাচিতক বৰফুকন পাতিলে"
+    },
+    {
+     "en": "Lachit was born on 24 November 1622: Lachit Divas",
+     "as": "লাচিতৰ জন্ম ১৬২২ চনৰ ২৪ নৱেম্বৰ: লাচিত দিৱস"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Chakradhwaj refused to pay the rest of the Mughal indemnity.",
+      "as": "মনত পেলোৱা: চক্ৰধ্বজে মোগলৰ বাকী ক্ষতিপূৰণ দিবলৈ অস্বীকাৰ কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. That refusal led straight to war.",
+      "as": "শুদ্ধ। সেই অস্বীকাৰেই যুদ্ধলৈ লৈ গ'ল।"
+     },
+     "id": "cds.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A king who would not pay.",
+       "as": "কৰ নিদিয়া ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "rebuilding.webp",
+     "title": {
+      "en": "A letter from Guwahati",
+      "as": "গুৱাহাটীৰ চিঠি"
+     },
+     "text": [
+      {
+       "en": "Early in <mark>1667</mark> Firuz Khan, the Mughal officer at [[guwahati]], wrote demanding the unpaid indemnity.",
+       "as": "<mark>১৬৬৭</mark> চনৰ আৰম্ভণিতে [[guwahati]]ৰ মোগল বিষয়া ফিৰুজ খানে বাকী ক্ষতিপূৰণ দাবী কৰি চিঠি দিলে।"
+      },
+      {
+       "en": "The nobles remembered Mir Jumla and begged for peace. The king said no. The Deodhais read the omens: victory.",
+       "as": "বিষয়াসকলে মীৰজুমলাৰ কথা মনত পেলাই শান্তি বিচাৰিলে। ৰজাই নাকচ কৰিলে। দেওধাইসকলে লক্ষণ চালে: জয়।"
+      }
+     ],
+     "id": "cds.u2.02"
+    },
+    {
+     "type": "story",
+     "img": "lachit-command.webp",
+     "title": {
+      "en": "Lachit",
+      "as": "লাচিত"
+     },
+     "text": [
+      {
+       "en": "To lead the army he chose [[lachit]], son of [[momai-tamuli]], the first Borbarua, and made him <mark>Borphukan</mark>.",
+       "as": "সৈন্য পৰিচালনাৰ বাবে তেওঁ প্ৰথম বৰবৰুৱা [[momai-tamuli]]ৰ পুত্ৰ [[lachit]]ক বাছি ল'লে আৰু <mark>বৰফুকন</mark> পাতিলে।"
+      },
+      {
+       "en": "Lachit was born on <mark>24 November 1622</mark>. Assam marks that day as [[lachit-divas]].",
+       "as": "লাচিতৰ জন্ম <mark>১৬২২ চনৰ ২৪ নৱেম্বৰ</mark>। অসমে সেইদিনটো [[lachit-divas]] হিচাপে পালন কৰে।"
+      }
+     ],
+     "id": "cds.u2.03",
+     "link": {
+      "lesson": 17,
+      "lessonId": "pratap-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "New officers",
+       "as": "নতুন বিষয়া"
+      },
+      "note": {
+       "en": "Momai Tamuli, Lachit's father, was the first Borbarua under Pratap Singha.",
+       "as": "লাচিতৰ পিতৃ মোমাই তামুলী প্ৰতাপ সিংহৰ দিনৰ প্ৰথম বৰবৰুৱা।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "My father was the first Borbarua.",
+       "as": "মোৰ পিতৃ প্ৰথম বৰবৰুৱা।"
+      },
+      {
+       "en": "I was made Borphukan in 1667.",
+       "as": "১৬৬৭ চনত মোক বৰফুকন পতা হৈছিল।"
+      },
+      {
+       "en": "My birthday is remembered on 24 November.",
+       "as": "মোৰ জন্মদিন ২৪ নৱেম্বৰত সোঁৱৰা হয়।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      },
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Momai Tamuli",
+       "as": "মোমাই তামুলী"
+      },
+      {
+       "en": "Laluk Sola",
+       "as": "লালুক চোলা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Lachit Borphukan.",
+      "as": "লাচিত বৰফুকন।"
+     },
+     "id": "cds.u2.04"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+       },
+       {
+        "en": "Lachit Divas",
+        "as": "লাচিত দিৱস"
+       }
+      ],
+      [
+       {
+        "en": "2 December",
+        "as": "২ ডিচেম্বৰ"
+       },
+       {
+        "en": "Asom Divas",
+        "as": "অসম দিৱস"
+       }
+      ],
+      [
+       {
+        "en": "Momai Tamuli",
+        "as": "মোমাই তামুলী"
+       },
+       {
+        "en": "Lachit's father",
+        "as": "লাচিতৰ পিতৃ"
+       }
+      ],
+      [
+       {
+        "en": "Borphukan",
+        "as": "বৰফুকন"
+       },
+       {
+        "en": "Lachit's office",
+        "as": "লাচিতৰ পদ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "24 November and 2 December are a classic exam pair.",
+      "as": "২৪ নৱেম্বৰ আৰু ২ ডিচেম্বৰ পৰীক্ষাৰ পৰিচিত যোৰা।"
+     },
+     "id": "cds.u2.05",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 6,
+      "unitTitle": {
+       "en": "Legacy",
+       "as": "উত্তৰাধিকাৰ"
+      },
+      "note": {
+       "en": "Asom Divas, 2 December, remembers Sukaphaa.",
+       "as": "২ ডিচেম্বৰৰ অসম দিৱসে চুকাফাক সোঁৱৰায়।"
+      }
+     }
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "Lachit was made Bor",
+      "as": "লাচিতক বৰ"
+     },
+     "after": {
+      "en": ".",
+      "as": "পতা হৈছিল।"
+     },
+     "answer": "Phukan",
+     "asOptions": [
+      "ফুকন",
+      "বৰুৱা",
+      "গোহাঁই",
+      "পাত্ৰ"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "Phukan",
+      "as": "ফুকন"
+     },
+     "why": {
+      "en": "Borphukan, governor and commander of the west.",
+      "as": "বৰফুকন, পশ্চিমৰ শাসনকৰ্তা আৰু সেনাপতি।"
+     },
+     "id": "cds.u2.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Lachit receiving command?",
+      "as": "কোনখন ছবিত লাচিতে দায়িত্ব লোৱা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "lachit-command.webp",
+      "oath.webp",
+      "alaboi.webp",
+      "rebuilding.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Lachit receives command",
+      "as": "লাচিতৰ দায়িত্ব গ্ৰহণ"
+     },
+     "why": {
+      "en": "1667.",
+      "as": "১৬৬৭।"
+     },
+     "id": "cds.u2.07"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "flag",
+   "title": {
+    "en": "Guwahati liberated",
+    "as": "গুৱাহাটী উদ্ধাৰ"
+   },
+   "learned": [
+    {
+     "en": "August 1667: the army set out to take back Guwahati",
+     "as": "১৬৬৭ চনৰ আগষ্ট: গুৱাহাটী উদ্ধাৰলৈ সৈন্যৰ যাত্ৰা"
+    },
+    {
+     "en": "Kajali and Bansbari fell at the first assault",
+     "as": "প্ৰথম আক্ৰমণতে কাজলী আৰু বাঁহবাৰীৰ পতন"
+    },
+    {
+     "en": "Guwahati and Pandu fell after a two-month siege",
+     "as": "দুমাহৰ অৱৰোধৰ পিছত গুৱাহাটী আৰু পাণ্ডুৰ পতন"
+    },
+    {
+     "en": "The Mughals were chased to the Manas; Firuz Khan was captured",
+     "as": "মোগলক মানাহলৈ খেদা হ'ল; ফিৰুজ খান বন্দী"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I was born on 24 November 1622.",
+       "as": "মনত পেলোৱা: মোৰ জন্ম ১৬২২ চনৰ ২৪ নৱেম্বৰ।"
+      },
+      {
+       "en": "My father was Momai Tamuli.",
+       "as": "মোৰ পিতৃ মোমাই তামুলী।"
+      },
+      {
+       "en": "I became Borphukan.",
+       "as": "মই বৰফুকন হৈছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      },
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
+      },
+      {
+       "en": "Firuz Khan",
+       "as": "ফিৰুজ খান"
+      },
+      {
+       "en": "Chakradhwaj",
+       "as": "চক্ৰধ্বজ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Lachit.",
+      "as": "লাচিত।"
+     },
+     "id": "cds.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "Choosing a commander.",
+       "as": "সেনাপতি বাছনি।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "guwahati-liberated.webp",
+     "title": {
+      "en": "On to Guwahati",
+      "as": "গুৱাহাটীলৈ"
+     },
+     "text": [
+      {
+       "en": "In <mark>August 1667</mark>, after sacrifices to Indra, the army sailed and marched west. The Mughal posts at Kajali and Bansbari fell at the first assault.",
+       "as": "<mark>১৬৬৭ চনৰ আগষ্ট</mark>ত ইন্দ্ৰক বলি দি সৈন্য পশ্চিমলৈ যাত্ৰা কৰিলে। কাজলী আৰু বাঁহবাৰীৰ মোগল চকী প্ৰথম আক্ৰমণতে পতন হ'ল।"
+      },
+      {
+       "en": "[[guwahati]] and Pandu were besieged for two months, and then taken.",
+       "as": "[[guwahati]] আৰু পাণ্ডু দুমাহ অৱৰোধ কৰি দখল কৰা হ'ল।"
+      }
+     ],
+     "id": "cds.u3.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Guwahati.",
+      "as": "গুৱাহাটী টিপা।"
+     },
+     "target": "guwahati",
+     "choices": [
+      "guwahati",
+      "kaliabor",
+      "garhgaon",
+      "samdhara"
+     ],
+     "answerText": {
+      "en": "Guwahati",
+      "as": "গুৱাহাটী"
+     },
+     "why": {
+      "en": "Guwahati, won back in 1667.",
+      "as": "১৬৬৭ চনত উদ্ধাৰ কৰা গুৱাহাটী।"
+     },
+     "id": "cds.u3.03"
+    },
+    {
+     "type": "story",
+     "img": "itakhuli.webp",
+     "title": {
+      "en": "To the Manas",
+      "as": "মানাহলৈ"
+     },
+     "text": [
+      {
+       "en": "A Mughal fleet came with help in November, but was beaten again and again. The Ahoms recaptured the hill fort of Itakhuli and chased the enemy to the [[manas]].",
+       "as": "নৱেম্বৰত মোগল নৌবহৰ সহায় লৈ আহিল, কিন্তু বাৰে বাৰে পৰাস্ত হ'ল। আহোমে ইটাখুলিৰ পাহাৰী গড় পুনৰ দখল কৰিলে আৰু শত্ৰুক [[manas]]লৈকে খেদিলে।"
+      },
+      {
+       "en": "Firuz Khan was taken prisoner. An old cannon still carries the boast: 'King Chakradhwaj Singha, having again destroyed the Muslims in battle…'",
+       "as": "ফিৰুজ খান বন্দী হ'ল। এটা পুৰণি কামানত আজিও লিখা আছে: 'ৰজা চক্ৰধ্বজ সিংহই যুদ্ধত পুনৰ মুছলমানক বিনাশ কৰি…'"
+      }
+     ],
+     "id": "cds.u3.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the campaign in order.",
+      "as": "অভিযান ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Army sets out (August 1667)",
+       "as": "সৈন্যৰ যাত্ৰা (১৬৬৭ আগষ্ট)"
+      },
+      {
+       "en": "Kajali and Bansbari fall",
+       "as": "কাজলী আৰু বাঁহবাৰীৰ পতন"
+      },
+      {
+       "en": "Guwahati taken after a siege",
+       "as": "অৱৰোধৰ পিছত গুৱাহাটী দখল"
+      },
+      {
+       "en": "Mughals chased to the Manas",
+       "as": "মোগলক মানাহলৈ খেদা"
+      }
+     ],
+     "why": {
+      "en": "A clean sweep down the river in a few months.",
+      "as": "কেইমাহমানতে নদীৰ ভাটিলৈ সম্পূৰ্ণ জয়।"
+     },
+     "id": "cds.u3.05"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the river the Mughals were chased to.",
+      "as": "মোগলক যি নদীলৈকে খেদা হৈছিল, সেইখন টিপা।"
+     },
+     "target": "manas",
+     "choices": [
+      "manas",
+      "bharali",
+      "kolong"
+     ],
+     "answerText": {
+      "en": "The Manas",
+      "as": "মানাহ"
+     },
+     "why": {
+      "en": "The Manas: later the long-term Ahom–Mughal border.",
+      "as": "মানাহ: পিছলৈ দীৰ্ঘদিনৰ আহোম-মোগল সীমা।"
+     },
+     "id": "cds.u3.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "After 1667 Guwahati became the seat of the Borphukan.",
+      "as": "১৬৬৭ৰ পিছত গুৱাহাটী বৰফুকনৰ কেন্দ্ৰ হ'ল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "cds.u3.07"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Guwahati being liberated?",
+      "as": "কোনখন ছবিত গুৱাহাটী উদ্ধাৰ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "guwahati-liberated.webp",
+      "itakhuli.webp",
+      "alaboi.webp",
+      "oath.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Guwahati liberated",
+      "as": "গুৱাহাটী উদ্ধাৰ"
+     },
+     "why": {
+      "en": "1667.",
+      "as": "১৬৬৭।"
+     },
+     "id": "cds.u3.08"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "hill",
+   "title": {
+    "en": "Ram Singh and Alaboi",
+    "as": "ৰামসিংহ আৰু আলাবৈ"
+   },
+   "learned": [
+    {
+     "en": "Aurangzeb sent Raja Ram Singh of Amber with a huge army",
+     "as": "ঔৰংজেবে অম্বৰৰ ৰজা ৰামসিংহক বিশাল সৈন্যৰে পঠালে"
+    },
+    {
+     "en": "18,000 horse, 30,000 foot and 15,000 Koch archers reached Rangamati in 1669",
+     "as": "১৮,০০০ অশ্বাৰোহী, ৩০,০০০ পদাতিক আৰু ১৫,০০০ কোচ ধনুৰ্দ্ধৰ ১৬৬৯ চনত ৰাঙামাটি পালে"
+    },
+    {
+     "en": "Lachit: 'rather fight than yield an inch'",
+     "as": "লাচিত: 'এক ইঞ্চিও এৰাতকৈ যুঁজাই শ্ৰেয়'"
+    },
+    {
+     "en": "August 1669: thousands of Ahoms fell at Alaboi",
+     "as": "১৬৬৯ চনৰ আগষ্ট: আলাবৈত হাজাৰ হাজাৰ আহোমৰ মৃত্যু"
+    }
+   ],
+   "steps": [
+    {
+     "type": "order",
+     "q": {
+      "en": "Warm-up: put the 1667 campaign in order.",
+      "as": "মনত পেলোৱা: ১৬৬৭ চনৰ অভিযান ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Lachit made Borphukan",
+       "as": "লাচিত বৰফুকন"
+      },
+      {
+       "en": "Kajali falls",
+       "as": "কাজলীৰ পতন"
+      },
+      {
+       "en": "Guwahati taken",
+       "as": "গুৱাহাটী দখল"
+      },
+      {
+       "en": "Firuz Khan captured",
+       "as": "ফিৰুজ খান বন্দী"
+      }
+     ],
+     "why": {
+      "en": "Appointment → advance → Guwahati → victory at the Manas.",
+      "as": "নিযুক্তি → আগবাঢ়া → গুৱাহাটী → মানাহত জয়।"
+     },
+     "id": "cds.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "Guwahati liberated.",
+       "as": "গুৱাহাটী উদ্ধাৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "war-council.webp",
+     "title": {
+      "en": "The emperor answers",
+      "as": "সম্ৰাটৰ উত্তৰ"
+     },
+     "text": [
+      {
+       "en": "[[aurangzeb]] heard of the loss in December 1667 and sent [[ram-singh]], Raja of Amber: <mark>18,000 horse, 30,000 foot and 15,000 Koch archers</mark>.",
+       "as": "১৬৬৭ চনৰ ডিচেম্বৰত [[aurangzeb]]এ এই পৰাজয়ৰ খবৰ পাই অম্বৰৰ ৰজা [[ram-singh]]ক পঠালে: <mark>১৮,০০০ অশ্বাৰোহী, ৩০,০০০ পদাতিক আৰু ১৫,০০০ কোচ ধনুৰ্দ্ধৰ</mark>।"
+      },
+      {
+       "en": "Ram Singh demanded the old border. Lachit replied that he would rather fight than yield an inch of his master's land.",
+       "as": "ৰামসিংহে পুৰণি সীমা দাবী কৰিলে। লাচিতে উত্তৰ দিলে যে প্ৰভুৰ এক ইঞ্চি মাটি এৰাতকৈ তেওঁ যুঁজিব।"
+      }
+     ],
+     "id": "cds.u4.02"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a Rajput king, Raja of Amber.",
+       "as": "মই ৰাজপুত ৰজা, অম্বৰৰ ৰজা।"
+      },
+      {
+       "en": "Aurangzeb sent me to Assam.",
+       "as": "ঔৰংজেবে মোক অসমলৈ পঠাইছিল।"
+      },
+      {
+       "en": "I lost at Saraighat.",
+       "as": "শৰাইঘাটত মই হাৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
+      },
+      {
+       "en": "Mir Jumla",
+       "as": "মীৰজুমলা"
+      },
+      {
+       "en": "Firuz Khan",
+       "as": "ফিৰুজ খান"
+      },
+      {
+       "en": "Abu Bakr",
+       "as": "আবু বকৰ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Raja Ram Singh.",
+      "as": "ৰজা ৰামসিংহ।"
+     },
+     "id": "cds.u4.03"
+    },
+    {
+     "type": "story",
+     "img": "alaboi.webp",
+     "title": {
+      "en": "Alaboi",
+      "as": "আলাবৈ"
+     },
+     "text": [
+      {
+       "en": "In <mark>August 1669</mark>, on the plain of [[alaboi]] north of Guwahati, the Ahoms were drawn into open battle against Mughal cavalry.",
+       "as": "<mark>১৬৬৯ চনৰ আগষ্ট</mark>ত গুৱাহাটীৰ উত্তৰৰ [[alaboi]] পথাৰত আহোম সৈন্য মোগল অশ্বাৰোহীৰ সৈতে মুকলি যুদ্ধত সোমাল।"
+      },
+      {
+       "en": "Thousands of Ahom soldiers died. Lachit learned the lesson: never fight horsemen in the open. Fight on the river.",
+       "as": "হাজাৰ হাজাৰ আহোম সৈন্যৰ মৃত্যু হ'ল। লাচিতে শিক্ষা ল'লে: মুকলি পথাৰত অশ্বাৰোহীৰ সৈতে নুযুঁজিবা। নদীত যুঁজা।"
+      }
+     ],
+     "id": "cds.u4.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Ahoms won a great victory at Alaboi.",
+      "as": "আলাবৈত আহোমে মহা জয় লাভ কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Alaboi (1669) was a heavy Ahom defeat. The great victory came later, at Saraighat (1671).",
+      "as": "অশুদ্ধ। আলাবৈ (১৬৬৯) আহোমৰ গুৰুতৰ পৰাজয়। মহা জয় পিছত, শৰাইঘাটত (১৬৭১)।"
+     },
+     "id": "cds.u4.05"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one was NOT in Ram Singh's army?",
+      "as": "কোনটো ৰামসিংহৰ সৈন্যত নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Cavalry",
+       "as": "অশ্বাৰোহী"
+      },
+      {
+       "en": "Infantry",
+       "as": "পদাতিক"
+      },
+      {
+       "en": "Koch archers",
+       "as": "কোচ ধনুৰ্দ্ধৰ"
+      },
+      {
+       "en": "Ahom paiks",
+       "as": "আহোম পাইক"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "The paiks were the Ahom army.",
+      "as": "পাইক আহোমৰ সৈন্য আছিল।"
+     },
+     "id": "cds.u4.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the aftermath of Alaboi?",
+      "as": "কোনখন ছবিত আলাবৈৰ পিছৰ অৱস্থা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "alaboi.webp",
+      "guwahati-liberated.webp",
+      "war-council.webp",
+      "itakhuli.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Lachit mourns the fallen",
+      "as": "লাচিতৰ শোক"
+     },
+     "why": {
+      "en": "August 1669.",
+      "as": "১৬৬৯ চনৰ আগষ্ট।"
+     },
+     "id": "cds.u4.07"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "moon",
+   "title": {
+    "en": "Holding on",
+    "as": "ধৰি ৰখা"
+   },
+   "learned": [
+    {
+     "en": "The war swung both ways near Guwahati",
+     "as": "গুৱাহাটীৰ ওচৰত যুদ্ধ দুয়োফালে ঘূৰিল"
+    },
+    {
+     "en": "Ram Singh challenged the king to single combat; he declined",
+     "as": "ৰামসিংহে ৰজাক দ্বন্দ্বযুদ্ধলৈ আহ্বান কৰিলে; ৰজাই নাকচ কৰিলে"
+    },
+    {
+     "en": "Both sides grew tired and began to talk",
+     "as": "দুয়োপক্ষই ভাগৰি আলোচনা আৰম্ভ কৰিলে"
+    },
+    {
+     "en": "Chakradhwaj died in 1670; his brother Udayaditya followed",
+     "as": "১৬৭০ চনত চক্ৰধ্বজৰ মৃত্যু; ভাই উদয়াদিত্য ৰজা"
+    }
+   ],
+   "steps": [
+    {
+     "type": "spot",
+     "q": {
+      "en": "Warm-up: one word is wrong. Tap it.",
+      "as": "মনত পেলোৱা: এটা শব্দ ভুল। টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "At",
+       "Alaboi",
+       "in",
+       "1669",
+       "the",
+       "Ahoms",
+       "won",
+       "a",
+       "great",
+       "victory."
+      ],
+      "as": [
+       "১৬৬৯",
+       "চনত",
+       "আলাবৈত",
+       "আহোমে",
+       "মহা",
+       "জয়",
+       "লাভ",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 6,
+      "as": 5
+     },
+     "fix": {
+      "en": "→ lost",
+      "as": "→ পৰাজয়"
+     },
+     "answerText": {
+      "en": "won → lost",
+      "as": "জয় → পৰাজয়"
+     },
+     "why": {
+      "en": "Alaboi was a heavy defeat.",
+      "as": "আলাবৈ গুৰুতৰ পৰাজয়।"
+     },
+     "id": "cds.u5.01",
+     "link": {
+      "unit": "u4",
+      "note": {
+       "en": "Ram Singh and Alaboi.",
+       "as": "ৰামসিংহ আৰু আলাবৈ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "army-rebuilt.webp",
+     "title": {
+      "en": "Win some, lose some",
+      "as": "কেতিয়াবা জয়, কেতিয়াবা পৰাজয়"
+     },
+     "text": [
+      {
+       "en": "Near Tezpur, Sualkuchi and Sessa the fighting swung back and forth. The Ahoms did best on the water and behind earth walls.",
+       "as": "তেজপুৰ, শুৱালকুছি আৰু চেচাৰ ওচৰত যুদ্ধ আগে-পিছে ঘূৰিল। আহোম আটাইতকৈ ভাল আছিল পানীত আৰু মাটিৰ গড়ৰ আঁৰত।"
+      },
+      {
+       "en": "Ram Singh even challenged Chakradhwaj to single combat, promising to go home if he lost. The king refused and ordered his generals to fight on.",
+       "as": "ৰামসিংহে চক্ৰধ্বজক দ্বন্দ্বযুদ্ধলৈ আহ্বান কৰিলে, হাৰিলে উভতি যাম বুলি প্ৰতিশ্ৰুতি দিলে। ৰজাই নাকচ কৰি সেনাপতিক যুঁজি থাকিবলৈ আদেশ দিলে।"
+      }
+     ],
+     "id": "cds.u5.02"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Chakradhwaj Singha accepted Ram Singh's challenge to single combat.",
+      "as": "চক্ৰধ্বজ সিংহই ৰামসিংহৰ দ্বন্দ্বযুদ্ধৰ আহ্বান গ্ৰহণ কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He declined and told his generals to fight on.",
+      "as": "অশুদ্ধ। তেওঁ নাকচ কৰি সেনাপতিক যুঁজি থাকিবলৈ ক'লে।"
+     },
+     "id": "cds.u5.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The king dies",
+      "as": "ৰজাৰ মৃত্যু"
+     },
+     "text": [
+      {
+       "en": "Both sides began to talk of peace. Before anything was settled, Chakradhwaj Singha died in <mark>1670</mark>.",
+       "as": "দুয়োপক্ষই শান্তিৰ কথা পাতিবলৈ ধৰিলে। কোনো সিদ্ধান্ত হোৱাৰ আগতেই <mark>১৬৭০</mark> চনত চক্ৰধ্বজ সিংহৰ মৃত্যু হ'ল।"
+      },
+      {
+       "en": "Remember him with <mark>N-L-G</mark>: <b>N</b>o tribute, <b>L</b>achit chosen, <b>G</b>uwahati won back. His brother [[udayaditya-singha]] would finish the war.",
+       "as": "তেওঁক মনত ৰাখা <mark>ক-লা-গু</mark>ৰে: <b>ক</b>ৰ নিদিলে, <b>লা</b>চিতক বাছিলে, <b>গু</b>ৱাহাটী উদ্ধাৰ। তেওঁৰ ভাই [[udayaditya-singha]]এ যুদ্ধ শেষ কৰিব।"
+      }
+     ],
+     "id": "cds.u5.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use N-L-G: put his reign in order.",
+      "as": "ক-লা-গু ব্যৱহাৰ কৰি তেওঁৰ ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "No tribute paid",
+       "as": "কৰ নিদিয়া"
+      },
+      {
+       "en": "Lachit chosen",
+       "as": "লাচিতক বাছনি"
+      },
+      {
+       "en": "Guwahati won back",
+       "as": "গুৱাহাটী উদ্ধাৰ"
+      }
+     ],
+     "why": {
+      "en": "N → L → G.",
+      "as": "ক → লা → গু।"
+     },
+     "id": "cds.u5.05"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1667",
+       "l": {
+        "en": "Guwahati won back",
+        "as": "গুৱাহাটী উদ্ধাৰ"
+       }
+      },
+      {
+       "y": "1670",
+       "l": {
+        "en": "Chakradhwaj dies",
+        "as": "চক্ৰধ্বজৰ মৃত্যু"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "The great drought",
+        "as": "ভয়ংকৰ খৰাং"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Defeat at Alaboi",
+        "as": "আলাবৈত পৰাজয়"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Battle of Saraighat",
+        "as": "শৰাইঘাটৰ যুদ্ধ"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1665 → 1667 → 1669 → 1670 → 1671.",
+      "as": "১৬৬৫ → ১৬৬৭ → ১৬৬৯ → ১৬৭০ → ১৬৭১।"
+     },
+     "id": "cds.u5.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Chakradhwaj Singha",
+    "as": "তুমি স্বৰ্গদেউ চক্ৰধ্বজ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Lachit Borphukan was the son of Momai Tamuli.",
+     "as": "লাচিত বৰফুকন মোমাই তামুলীৰ পুত্ৰ আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "cds.test.01",
+    "link": {
+     "lesson": 17,
+     "lessonId": "pratap-singha",
+     "unitNo": 2,
+     "unitTitle": {
+      "en": "New officers",
+      "as": "নতুন বিষয়া"
+     },
+     "note": {
+      "en": "Momai Tamuli was the first Borbarua.",
+      "as": "মোমাই তামুলী প্ৰথম বৰবৰুৱা।"
+     }
+    }
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I refused the Mughal indemnity.",
+      "as": "মই মোগলৰ ক্ষতিপূৰণ নিদিলোঁ।"
+     },
+     {
+      "en": "My army took back Guwahati in 1667.",
+      "as": "১৬৬৭ চনত মোৰ সৈন্যই গুৱাহাটী উদ্ধাৰ কৰিছিল।"
+     },
+     {
+      "en": "I died in 1670.",
+      "as": "১৬৭০ চনত মোৰ মৃত্যু।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Chakradhwaj Singha",
+      "as": "চক্ৰধ্বজ সিংহ"
+     },
+     {
+      "en": "Udayaditya Singha",
+      "as": "উদয়াদিত্য সিংহ"
+     },
+     {
+      "en": "Jayadhwaj Singha",
+      "as": "জয়ধ্বজ সিংহ"
+     },
+     {
+      "en": "Pratap Singha",
+      "as": "প্ৰতাপ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Chakradhwaj Singha.",
+     "as": "চক্ৰধ্বজ সিংহ।"
+    },
+    "id": "cds.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Guwahati.",
+     "as": "গুৱাহাটী টিপা।"
+    },
+    "target": "guwahati",
+    "choices": [
+     "guwahati",
+     "kaliabor",
+     "garhgaon",
+     "samdhara"
+    ],
+    "answerText": {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    "why": {
+     "en": "Guwahati.",
+     "as": "গুৱাহাটী।"
+    },
+    "id": "cds.test.03"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1663",
+      "l": {
+       "en": "Chakradhwaj crowned",
+       "as": "চক্ৰধ্বজৰ অভিষেক"
+      }
+     },
+     {
+      "y": "1669",
+      "l": {
+       "en": "Alaboi",
+       "as": "আলাবৈ"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Treaty of Ghilajharighat",
+       "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Guwahati won back",
+       "as": "গুৱাহাটী উদ্ধাৰ"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Chakradhwaj dies",
+       "as": "চক্ৰধ্বজৰ মৃত্যু"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "Jan 1663 → 1663 → 1667 → 1669 → 1670.",
+     "as": "১৬৬৩ জানুৱাৰী → ১৬৬৩ → ১৬৬৭ → ১৬৬৯ → ১৬৭০।"
+    },
+    "id": "cds.test.04"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Lachit's appointment?",
+     "as": "কোনখন ছবিত লাচিতৰ নিযুক্তি দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "lachit-command.webp",
+     "alaboi.webp",
+     "itakhuli.webp",
+     "oath.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Lachit receives command",
+     "as": "লাচিতৰ দায়িত্ব"
+    },
+    "why": {
+     "en": "1667.",
+     "as": "১৬৬৭।"
+    },
+    "id": "cds.test.05"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the battle of 1669.",
+     "as": "১৬৬৯ চনৰ যুদ্ধৰ নামটো সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "A",
+      "L",
+      "A",
+      "B",
+      "O",
+      "I"
+     ],
+     "as": [
+      "আ",
+      "লা",
+      "বৈ"
+     ]
+    },
+    "answerText": {
+     "en": "ALABOI",
+     "as": "আলাবৈ"
+    },
+    "why": {
+     "en": "Alaboi, a heavy defeat.",
+     "as": "আলাবৈ, গুৰুতৰ পৰাজয়।"
+    },
+    "id": "cds.test.06"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
+      },
+      {
+       "en": "Raja of Amber",
+       "as": "অম্বৰৰ ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Firuz Khan",
+       "as": "ফিৰুজ খান"
+      },
+      {
+       "en": "Mughal officer captured",
+       "as": "বন্দী মোগল বিষয়া"
+      }
+     ],
+     [
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      },
+      {
+       "en": "Borphukan",
+       "as": "বৰফুকন"
+      }
+     ],
+     [
+      {
+       "en": "Aurangzeb",
+       "as": "ঔৰংজেব"
+      },
+      {
+       "en": "Mughal emperor",
+       "as": "মোগল সম্ৰাট"
+      }
+     ]
+    ],
+    "why": {
+     "en": "The players of 1667–1670.",
+     "as": "১৬৬৭–১৬৭০ৰ চৰিত্ৰ।"
+    },
+    "id": "cds.test.07"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "Lachit",
+      "Divas",
+      "is",
+      "observed",
+      "on",
+      "2",
+      "December."
+     ],
+     "as": [
+      "লাচিত",
+      "দিৱস",
+      "২",
+      "ডিচেম্বৰত",
+      "পালন",
+      "কৰা",
+      "হয়।"
+     ]
+    },
+    "wrong": {
+     "en": 5,
+     "as": 2
+    },
+    "fix": {
+     "en": "→ 24 November",
+     "as": "→ ২৪ নৱেম্বৰ"
+    },
+    "answerText": {
+     "en": "2 December → 24 November",
+     "as": "২ ডিচেম্বৰ → ২৪ নৱেম্বৰ"
+    },
+    "why": {
+     "en": "2 December is Asom Divas.",
+     "as": "২ ডিচেম্বৰ অসম দিৱস।"
+    },
+    "id": "cds.test.08"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Great drought",
+      "as": "ভয়ংকৰ খৰাং"
+     },
+     {
+      "en": "Guwahati won back",
+      "as": "গুৱাহাটী উদ্ধাৰ"
+     },
+     {
+      "en": "Ram Singh reaches Rangamati",
+      "as": "ৰামসিংহ ৰাঙামাটি পায়"
+     },
+     {
+      "en": "Alaboi",
+      "as": "আলাবৈ"
+     }
+    ],
+    "why": {
+     "en": "1665 → 1667 → Feb 1669 → Aug 1669.",
+     "as": "১৬৬৫ → ১৬৬৭ → ১৬৬৯ ফেব্ৰুৱাৰী → ১৬৬৯ আগষ্ট।"
+    },
+    "id": "cds.test.09"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Chakradhwaj Singha won back Guwahati in 1667.<br>2. The Battle of Saraighat was fought in Chakradhwaj's reign.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চক্ৰধ্বজ সিংহই ১৬৬৭ চনত গুৱাহাটী উদ্ধাৰ কৰিছিল।<br>২. শৰাইঘাটৰ যুদ্ধ চক্ৰধ্বজৰ ৰাজত্বকালত হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Saraighat (1671) came under Udayaditya Singha.",
+     "as": "কেৱল ১। শৰাইঘাট (১৬৭১) উদয়াদিত্য সিংহৰ দিনত।"
+    },
+    "small": true,
+    "id": "cds.test.10"
+   }
+  ]
+ }
+}

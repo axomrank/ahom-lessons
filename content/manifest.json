@@ -1,5 +1,5 @@
 {
- "version": "52e535b000",
+ "version": "4ac58a9ca6",
  "courses": [
   {
    "id": "ahom-kings",
@@ -7,6 +7,71 @@
   }
  ],
  "lessons": {
+  "chakradhwaj-singha": {
+   "no": 21,
+   "version": 1,
+   "steps": 6,
+   "title": {
+    "en": "Swargadeo Chakradhwaj Singha",
+    "as": "স্বৰ্গদেউ চক্ৰধ্বজ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A king who would not pay",
+      "as": "কৰ নিদিয়া ৰজা"
+     },
+     "i": "crown",
+     "ex": 5
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Choosing a commander",
+      "as": "সেনাপতি বাছনি"
+     },
+     "i": "flag",
+     "ex": 5
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "Guwahati liberated",
+      "as": "গুৱাহাটী উদ্ধাৰ"
+     },
+     "i": "flag",
+     "ex": 6
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Ram Singh and Alaboi",
+      "as": "ৰামসিংহ আৰু আলাবৈ"
+     },
+     "i": "hill",
+     "ex": 5
+    },
+    {
+     "id": "u5",
+     "t": {
+      "en": "Holding on",
+      "as": "ধৰি ৰখা"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 10
+    }
+   ]
+  },
   "jayadhwaj-singha": {
    "no": 20,
    "version": 1,
@@ -1151,6 +1216,71 @@
      },
      "i": "trophy",
      "ex": 8
+    }
+   ]
+  },
+  "udayaditya-singha": {
+   "no": 22,
+   "version": 1,
+   "steps": 6,
+   "title": {
+    "en": "Swargadeo Udayaditya Singha",
+    "as": "স্বৰ্গদেউ উদয়াদিত্য সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "The war council",
+      "as": "ৰণ পৰিষদ"
+     },
+     "i": "crown",
+     "ex": 5
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "My country first",
+      "as": "দেশ আগত"
+     },
+     "i": "hill",
+     "ex": 5
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The Battle of Saraighat",
+      "as": "শৰাইঘাটৰ যুদ্ধ"
+     },
+     "i": "river",
+     "ex": 6
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Lachit's legacy",
+      "as": "লাচিতৰ উত্তৰাধিকাৰ"
+     },
+     "i": "star",
+     "ex": 5
+    },
+    {
+     "id": "u5",
+     "t": {
+      "en": "A king overthrown",
+      "as": "ৰজাৰ পতন"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 10
     }
    ]
   }

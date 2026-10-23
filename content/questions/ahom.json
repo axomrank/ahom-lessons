@@ -1879,6 +1879,246 @@
     "en": "17 March 1662.",
     "as": "১৬৬২ চনৰ ১৭ মাৰ্চ।"
    }
+  },
+  {
+   "id": "bank.mughal.11",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "chakradhwaj-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Guwahati was recovered from the Mughals in 1667 during the reign of:",
+    "as": "১৬৬৭ চনত গুৱাহাটী মোগলৰ পৰা উদ্ধাৰ হৈছিল কাৰ ৰাজত্বকালত?"
+   },
+   "options": [
+    {
+     "en": "Chakradhwaj Singha",
+     "as": "চক্ৰধ্বজ সিংহ"
+    },
+    {
+     "en": "Jayadhwaj Singha",
+     "as": "জয়ধ্বজ সিংহ"
+    },
+    {
+     "en": "Udayaditya Singha",
+     "as": "উদয়াদিত্য সিংহ"
+    },
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Chakradhwaj Singha, with Lachit as Borphukan.",
+    "as": "চক্ৰধ্বজ সিংহ, লাচিত বৰফুকনৰ সৈতে।"
+   }
+  },
+  {
+   "id": "bank.mughal.12",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "chakradhwaj-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Battle of Alaboi (1669) was:",
+    "as": "আলাবৈৰ যুদ্ধ (১৬৬৯):"
+   },
+   "options": [
+    {
+     "en": "A heavy Ahom defeat",
+     "as": "আহোমৰ গুৰুতৰ পৰাজয়"
+    },
+    {
+     "en": "A great Ahom victory",
+     "as": "আহোমৰ মহা জয়"
+    },
+    {
+     "en": "A treaty",
+     "as": "এখন সন্ধি"
+    },
+    {
+     "en": "A naval battle",
+     "as": "এখন নৌযুদ্ধ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "A heavy defeat in open battle.",
+    "as": "মুকলি যুদ্ধত গুৰুতৰ পৰাজয়।"
+   }
+  },
+  {
+   "id": "bank.mughal.13",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "udayaditya-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Battle of Saraighat was fought in:",
+    "as": "শৰাইঘাটৰ যুদ্ধ হৈছিল:"
+   },
+   "options": [
+    {
+     "en": "1662",
+     "as": "১৬৬২"
+    },
+    {
+     "en": "1667",
+     "as": "১৬৬৭"
+    },
+    {
+     "en": "1671",
+     "as": "১৬৭১"
+    },
+    {
+     "en": "1682",
+     "as": "১৬৮২"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "March 1671.",
+    "as": "১৬৭১ চনৰ মাৰ্চ।"
+   }
+  },
+  {
+   "id": "bank.mughal.14",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "udayaditya-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Lachit Divas is observed on:",
+    "as": "লাচিত দিৱস পালন কৰা হয়:"
+   },
+   "options": [
+    {
+     "en": "2 December",
+     "as": "২ ডিচেম্বৰ"
+    },
+    {
+     "en": "24 November",
+     "as": "২৪ নৱেম্বৰ"
+    },
+    {
+     "en": "26 January",
+     "as": "২৬ জানুৱাৰী"
+    },
+    {
+     "en": "14 April",
+     "as": "১৪ এপ্ৰিল"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "24 November, Lachit's birthday.",
+    "as": "২৪ নৱেম্বৰ, লাচিতৰ জন্মদিন।"
+   }
+  },
+  {
+   "id": "bank.mughal.15",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "udayaditya-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Mughal commander defeated at Saraighat was:",
+    "as": "শৰাইঘাটত পৰাস্ত মোগল সেনাপতি:"
+   },
+   "options": [
+    {
+     "en": "Mir Jumla",
+     "as": "মীৰজুমলা"
+    },
+    {
+     "en": "Ram Singh",
+     "as": "ৰামসিংহ"
+    },
+    {
+     "en": "Abu Bakr",
+     "as": "আবু বকৰ"
+    },
+    {
+     "en": "Firuz Khan",
+     "as": "ফিৰুজ খান"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "Raja Ram Singh of Amber.",
+    "as": "অম্বৰৰ ৰজা ৰামসিংহ।"
+   }
+  },
+  {
+   "id": "bank.mughal.16",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "udayaditya-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Lachit Borphukan gold medal is awarded to the best cadet of:",
+    "as": "লাচিত বৰফুকন সোণৰ পদক কাৰ শ্ৰেষ্ঠ কেডেটক দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "NDA",
+     "as": "এনডিএ"
+    },
+    {
+     "en": "IMA",
+     "as": "আইএমএ"
+    },
+    {
+     "en": "NCC",
+     "as": "এনচিচি"
+    },
+    {
+     "en": "Assam Police",
+     "as": "অসম আৰক্ষী"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The National Defence Academy, since 1999.",
+    "as": "১৯৯৯ৰ পৰা ৰাষ্ট্ৰীয় প্ৰতিৰক্ষা একাডেমী।"
+   }
   }
  ]
 }

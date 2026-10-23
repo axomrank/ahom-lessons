@@ -1902,5 +1902,101 @@
    "en": "Supangmung, cousin of Jayadhwaj Singha; king 1663–1670; won back Guwahati with Lachit Borphukan",
    "as": "চুপাংমুং, জয়ধ্বজ সিংহৰ সম্পৰ্কীয় ভাই; ১৬৬৩–১৬৭০ লৈকে ৰজা; লাচিত বৰফুকনৰ সৈতে গুৱাহাটী উদ্ধাৰ কৰে"
   }
+ },
+ "lachit": {
+  "type": "person",
+  "name": {
+   "en": "Lachit Borphukan",
+   "as": "লাচিত বৰফুকন"
+  },
+  "meaning": {
+   "en": "Son of Momai Tamuli; Borphukan from 1667; won back Guwahati and beat the Mughals at Saraighat (1671); died 1672. Lachit Divas: 24 November",
+   "as": "মোমাই তামুলীৰ পুত্ৰ; ১৬৬৭ৰ পৰা বৰফুকন; গুৱাহাটী উদ্ধাৰ কৰে আৰু শৰাইঘাটত (১৬৭১) মোগলক হৰুৱায়; ১৬৭২ চনত মৃত্যু। লাচিত দিৱস: ২৪ নৱেম্বৰ"
+  }
+ },
+ "ram-singh": {
+  "type": "person",
+  "name": {
+   "en": "Ram Singh",
+   "as": "ৰামসিংহ"
+  },
+  "meaning": {
+   "en": "Raja of Amber, sent by Aurangzeb with a great army (1669–1671); defeated at Saraighat",
+   "as": "অম্বৰৰ ৰজা; ঔৰংজেবে বিশাল সৈন্যৰে পঠাইছিল (১৬৬৯–১৬৭১); শৰাইঘাটত পৰাস্ত"
+  }
+ },
+ "saraighat": {
+  "type": "place",
+  "name": {
+   "en": "Saraighat",
+   "as": "শৰাইঘাট"
+  },
+  "meaning": {
+   "en": "Narrowest stretch of the Brahmaputra, at Guwahati; site of the great naval battle of 1671",
+   "as": "গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ঠেক অংশ; ১৬৭১ চনৰ মহা নৌযুদ্ধৰ ঠাই"
+  },
+  "geo": [
+   26.19,
+   91.66
+  ]
+ },
+ "alaboi": {
+  "type": "place",
+  "name": {
+   "en": "Alaboi",
+   "as": "আলাবৈ"
+  },
+  "meaning": {
+   "en": "Plain north of Guwahati where the Ahoms suffered a heavy defeat in August 1669",
+   "as": "গুৱাহাটীৰ উত্তৰৰ পথাৰ; ১৬৬৯ চনৰ আগষ্টত আহোমৰ গুৰুতৰ পৰাজয়"
+  },
+  "geo": [
+   26.3,
+   91.7
+  ]
+ },
+ "atan-burhagohain": {
+  "type": "person",
+  "name": {
+   "en": "Atan Burhagohain",
+   "as": "আতন বুঢ়াগোহাঁই"
+  },
+  "meaning": {
+   "en": "Burhagohain 1662–1679 under several kings; negotiated with Mir Jumla, fought at Saraighat, made and unmade kings; killed in 1679",
+   "as": "বহু ৰজাৰ দিনৰ বুঢ়াগোহাঁই (১৬৬২–১৬৭৯); মীৰজুমলাৰ সৈতে আলোচনা, শৰাইঘাটত যুঁজ, ৰজা পতা-আঁতৰোৱা; ১৬৭৯ চনত নিহত"
+  }
+ },
+ "udayaditya-singha": {
+  "type": "person",
+  "name": {
+   "en": "Udayaditya Singha",
+   "as": "উদয়াদিত্য সিংহ"
+  },
+  "meaning": {
+   "en": "Sunyatphaa, brother of Chakradhwaj; king 1670–1672; Saraighat was won in his reign; deposed and killed",
+   "as": "চুনয়াৎফা, চক্ৰধ্বজৰ ভাই; ১৬৭০–১৬৭২ লৈকে ৰজা; তেওঁৰ দিনত শৰাইঘাট জয়; সিংহাসনচ্যুত আৰু নিহত"
+  }
+ },
+ "ramdhwaj-singha": {
+  "type": "person",
+  "name": {
+   "en": "Ramdhwaj Singha",
+   "as": "ৰামধ্বজ সিংহ"
+  },
+  "meaning": {
+   "en": "Brother of Udayaditya, who seized the throne in a night coup; poisoned by Debera Borbarua",
+   "as": "উদয়াদিত্যৰ ভাই; নিশাৰ অভ্যুত্থানত সিংহাসন দখল; দেবেৰা বৰবৰুৱাৰ বিষপ্ৰয়োগত মৃত্যু"
+  }
+ },
+ "lachit-divas": {
+  "type": "term",
+  "name": {
+   "en": "Lachit Divas",
+   "as": "লাচিত দিৱস"
+  },
+  "meaning": {
+   "en": "24 November, Lachit Borphukan's birthday, observed in Assam",
+   "as": "২৪ নৱেম্বৰ, লাচিত বৰফুকনৰ জন্মদিন; অসমত পালন কৰা হয়"
+  }
  }
 }

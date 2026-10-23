@@ -1,0 +1,1547 @@
+{
+ "id": "udayaditya-singha",
+ "no": 22,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Udayaditya Singha",
+  "as": "স্বৰ্গদেউ উদয়াদিত্য সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1670–1672",
+  "as": "ৰাজত্বকাল ১৬৭০–১৬৭২"
+ },
+ "portrait": "udayaditya-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VI, pp. 149–152",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Maju Gohain, Sunyatpha, Udayaditya Singh; married his brother's widow; negotiations; Ram Singh advances to Sitamari; Burha Gohain with 20,000 men; land and naval battles; Bar Phukan arrives with more ships; Muhammadan navy beaten; Garos and Rani help; March 1671 Ram Singh retreats to Rangamati; Hadira the frontier; Dafla expedition under the Bar Barua; Chakrapani, descendant of Sankar Deb, made preceptor; nobles and the king's brother; night coup; Udayaditya poisoned at Charaideo; August 1673; cannon made in 1672"
+  },
+  {
+   "title": "Battle of Saraighat",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+   "used_for": "March 1671, Lachit commands from a boat while ill; narrow river; Mughal fleet defeated"
+  },
+  {
+   "title": "Lachit Borphukan",
+   "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+   "used_for": "Died 25 April 1672 at Kaliabor; maidam at Hoolungapara near Jorhat; NDA best cadet gold medal (Lachit medal) since 1999; Lachit Divas 24 November"
+  }
+ ],
+ "review_notes": "Gait's account of 1671 does not name Saraighat or describe Lachit's illness; those details and the uncle story ('my uncle is not greater than my country') are from Wikipedia and Assamese tradition, told as such. Gait dates Udayaditya's fall to August 1673; the course list and Wikipedia give 1670–1672, which the lesson uses.",
+ "buildsOn": {
+  "no": 21,
+  "title": {
+   "en": "Chakradhwaj Singha",
+   "as": "চক্ৰধ্বজ সিংহ"
+  },
+  "id": "chakradhwaj-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1670",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1671",
+    "t": {
+     "en": "Battle of Saraighat (March)",
+     "as": "শৰাইঘাটৰ যুদ্ধ (মাৰ্চ)"
+    }
+   },
+   {
+    "y": "1672",
+    "t": {
+     "en": "Lachit dies at Kaliabor (April)",
+     "as": "কলিয়াবৰত লাচিতৰ মৃত্যু (এপ্ৰিল)"
+    }
+   },
+   {
+    "y": "1672",
+    "t": {
+     "en": "Night coup; Udayaditya deposed and killed",
+     "as": "নিশাৰ অভ্যুত্থান; উদয়াদিত্য সিংহাসনচ্যুত আৰু নিহত"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.4,
+   25.9,
+   95.0,
+   27.2
+  ],
+  "show": [
+   "brahmaputra",
+   "manas",
+   "bharali",
+   "guwahati",
+   "saraighat",
+   "kaliabor",
+   "garhgaon",
+   "charaideo",
+   "jogighopa"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "saraighat": {
+    "pos": "nw"
+   },
+   "kaliabor": {
+    "pos": "s"
+   },
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "jogighopa": {
+    "pos": "n"
+   },
+   "manas": {
+    "at": [
+     26.6,
+     90.55
+    ],
+    "pos": "e"
+   },
+   "bharali": {
+    "at": [
+     26.95,
+     92.8
+    ],
+    "pos": "w"
+   },
+   "brahmaputra": {
+    "at": [
+     26.62,
+     93.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "The war council",
+    "as": "ৰণ পৰিষদ"
+   },
+   "learned": [
+    {
+     "en": "Udayaditya, brother of Chakradhwaj, became king in 1670",
+     "as": "চক্ৰধ্বজৰ ভাই উদয়াদিত্য ১৬৭০ চনত ৰজা হ'ল"
+    },
+    {
+     "en": "Peace talks with Ram Singh broke down",
+     "as": "ৰামসিংহৰ সৈতে শান্তি আলোচনা ভাঙিল"
+    },
+    {
+     "en": "He sent 20,000 men down to Lachit",
+     "as": "তেওঁ লাচিতৰ ওচৰলৈ ২০,০০০ সৈন্য পঠালে"
+    },
+    {
+     "en": "Lachit chose to fight on the river, at Saraighat",
+     "as": "লাচিতে নদীত, শৰাইঘাটত যুঁজিবলৈ বাছিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "war-council.webp",
+     "title": {
+      "en": "A brother takes over",
+      "as": "ভাইৰ দায়িত্ব"
+     },
+     "text": [
+      {
+       "en": "In <mark>1670</mark> Chakradhwaj's brother, Maju Gohain, became king as [[udayaditya-singha]] (Sunyatphaa).",
+       "as": "<mark>১৬৭০</mark> চনত চক্ৰধ্বজৰ ভাই মজু গোহাঁই [[udayaditya-singha]] (চুনয়াৎফা) নামেৰে ৰজা হ'ল।"
+      },
+      {
+       "en": "Ram Singh, reinforced, broke off the talks and advanced. Udayaditya ordered the Burhagohain down the river with <mark>20,000 men</mark>.",
+       "as": "শক্তি বঢ়োৱা ৰামসিংহে আলোচনা ভাঙি আগবাঢ়িল। উদয়াদিত্যই বুঢ়াগোহাঁইক <mark>২০,০০০ সৈন্য</mark>ৰে নদীৰ ভাটিলৈ পঠালে।"
+      }
+     ],
+     "id": "uds.u1.01",
+     "link": {
+      "lesson": 21,
+      "lessonId": "chakradhwaj-singha",
+      "unitNo": 5,
+      "unitTitle": {
+       "en": "Holding on",
+       "as": "ধৰি ৰখা"
+      },
+      "note": {
+       "en": "Chakradhwaj died in 1670 with the war unfinished.",
+       "as": "যুদ্ধ শেষ নোহোৱাকৈ ১৬৭০ চনত চক্ৰধ্বজৰ মৃত্যু হয়।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Udayaditya was Chakradhwaj's son.",
+      "as": "উদয়াদিত্য চক্ৰধ্বজৰ পুত্ৰ আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False: his brother.",
+      "as": "অশুদ্ধ: ভাই।"
+     },
+     "id": "uds.u1.02"
+    },
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": false
+     },
+     "title": {
+      "en": "Why the river?",
+      "as": "নদী কিয়?"
+     },
+     "text": [
+      {
+       "en": "Alaboi had taught Lachit that Mughal horsemen could not be beaten on open ground. But the Ahoms were masters of boats.",
+       "as": "আলাবৈয়ে লাচিতক শিকাইছিল যে মুকলি পথাৰত মোগল অশ্বাৰোহীক হৰুওৱা নাযায়। কিন্তু আহোমসকল নাওৰ ওস্তাদ আছিল।"
+      },
+      {
+       "en": "At [[saraighat]], near Guwahati, the Brahmaputra squeezes between hills to its narrowest. A big fleet there cannot spread out.",
+       "as": "[[guwahati]]ৰ ওচৰৰ [[saraighat]]ত ব্ৰহ্মপুত্ৰ পাহাৰৰ মাজত আটাইতকৈ ঠেক। তাত ডাঙৰ নৌবহৰে বিয়পিব নোৱাৰে।"
+      }
+     ],
+     "id": "uds.u1.03",
+     "link": {
+      "lesson": 21,
+      "lessonId": "chakradhwaj-singha",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Ram Singh and Alaboi",
+       "as": "ৰামসিংহ আৰু আলাবৈ"
+      },
+      "note": {
+       "en": "Alaboi, 1669: the defeat in the open field.",
+       "as": "আলাবৈ, ১৬৬৯: মুকলি পথাৰৰ পৰাজয়।"
+      }
+     }
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Saraighat, the narrowest point of the river.",
+      "as": "নদীৰ আটাইতকৈ ঠেক ঠাই শৰাইঘাট টিপা।"
+     },
+     "target": "saraighat",
+     "choices": [
+      "saraighat",
+      "kaliabor",
+      "jogighopa",
+      "garhgaon"
+     ],
+     "answerText": {
+      "en": "Saraighat",
+      "as": "শৰাইঘাট"
+     },
+     "why": {
+      "en": "Saraighat, at Guwahati.",
+      "as": "গুৱাহাটীৰ শৰাইঘাট।"
+     },
+     "id": "uds.u1.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one did NOT help Lachit choose Saraighat?",
+      "as": "কোনটোৱে লাচিতক শৰাইঘাট বাছিবলৈ সহায় কৰা নাছিল?"
+     },
+     "options": [
+      {
+       "en": "A narrow river",
+       "as": "ঠেক নদী"
+      },
+      {
+       "en": "Ahom skill with boats",
+       "as": "নাৱত আহোমৰ দক্ষতা"
+      },
+      {
+       "en": "Hills on both banks",
+       "as": "দুয়োপাৰে পাহাৰ"
+      },
+      {
+       "en": "Open plains for cavalry",
+       "as": "অশ্বাৰোহীৰ বাবে মুকলি পথাৰ"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Open plains favoured the Mughal horse: the lesson of Alaboi.",
+      "as": "মুকলি পথাৰে মোগল অশ্বাৰোহীকহে সুবিধা দিছিল: আলাবৈৰ শিক্ষা।"
+     },
+     "id": "uds.u1.05"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Chakradhwaj's brother.",
+       "as": "মই চক্ৰধ্বজৰ ভাই।"
+      },
+      {
+       "en": "I was king when Saraighat was won.",
+       "as": "শৰাইঘাট জয়ৰ সময়ত মই ৰজা।"
+      },
+      {
+       "en": "My Ahom name was Sunyatphaa.",
+       "as": "মোৰ আহোম নাম চুনয়াৎফা।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Udayaditya Singha",
+       "as": "উদয়াদিত্য সিংহ"
+      },
+      {
+       "en": "Ramdhwaj Singha",
+       "as": "ৰামধ্বজ সিংহ"
+      },
+      {
+       "en": "Chakradhwaj Singha",
+       "as": "চক্ৰধ্বজ সিংহ"
+      },
+      {
+       "en": "Gadadhar Singha",
+       "as": "গদাধৰ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Udayaditya Singha.",
+      "as": "উদয়াদিত্য সিংহ।"
+     },
+     "id": "uds.u1.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the king and Lachit planning?",
+      "as": "কোনখন ছবিত ৰজা আৰু লাচিতে পৰিকল্পনা কৰা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "war-council.webp",
+      "saraighat.webp",
+      "sickbed.webp",
+      "coup.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The war council",
+      "as": "ৰণ পৰিষদ"
+     },
+     "why": {
+      "en": "1670.",
+      "as": "১৬৭০।"
+     },
+     "id": "uds.u1.07"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "hill",
+   "title": {
+    "en": "My country first",
+    "as": "দেশ আগত"
+   },
+   "learned": [
+    {
+     "en": "Lachit had earth walls and forts built around Guwahati",
+     "as": "লাচিতে গুৱাহাটীৰ চাৰিওফালে মাটিৰ গড় আৰু দুৰ্গ সজালে"
+    },
+    {
+     "en": "Tradition: he found his uncle slack in building a wall",
+     "as": "পৰম্পৰা: তেওঁ এখন গড় নিৰ্মাণত মোমায়েকক এলাহ কৰা দেখিলে"
+    },
+    {
+     "en": "'My uncle is not greater than my country'",
+     "as": "'দেশতকৈ মোমাই ডাঙৰ নহয়'"
+    },
+    {
+     "en": "The wall was finished that night",
+     "as": "সেই নিশাই গড় সম্পূৰ্ণ হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "map",
+     "q": {
+      "en": "Warm-up: tap Saraighat.",
+      "as": "মনত পেলোৱা: শৰাইঘাট টিপা।"
+     },
+     "target": "saraighat",
+     "choices": [
+      "saraighat",
+      "kaliabor",
+      "jogighopa",
+      "garhgaon"
+     ],
+     "answerText": {
+      "en": "Saraighat",
+      "as": "শৰাইঘাট"
+     },
+     "why": {
+      "en": "The narrow river at Guwahati.",
+      "as": "গুৱাহাটীৰ ঠেক নদী।"
+     },
+     "id": "uds.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The war council.",
+       "as": "ৰণ পৰিষদ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "the-wall.webp",
+     "title": {
+      "en": "Walls by night",
+      "as": "নিশাৰ গড়"
+     },
+     "text": [
+      {
+       "en": "Lachit ordered earth walls to guard the river at Guwahati. Tradition tells that one wall, given to his maternal uncle, was not finished on time.",
+       "as": "লাচিতে গুৱাহাটীত নদী ৰক্ষাৰ বাবে মাটিৰ গড় বন্ধাবলৈ আদেশ দিলে। পৰম্পৰামতে মোমায়েকক দিয়া এখন গড় সময়মতে শেষ হোৱা নাছিল।"
+      },
+      {
+       "en": "Lachit said: <mark>'My uncle is not greater than my country'</mark>, and had him put to death. The soldiers finished the wall before dawn.",
+       "as": "লাচিতে ক'লে: <mark>'দেশতকৈ মোমাই ডাঙৰ নহয়'</mark>, আৰু তেওঁক প্ৰাণদণ্ড দিলে। সৈন্যসকলে ৰাতিপুৱাৰ আগতে গড় শেষ কৰিলে।"
+      }
+     ],
+     "id": "uds.u2.02"
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "'My uncle is not greater than my",
+      "as": "'দেশতকৈ মোমাই ডাঙৰ নহয়' — মোৰ"
+     },
+     "after": {
+      "en": "'.",
+      "as": "।"
+     },
+     "answer": "country",
+     "asOptions": [
+      "দেশ",
+      "ৰজা",
+      "সৈন্য",
+      "গড়"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "country",
+      "as": "দেশ"
+     },
+     "why": {
+      "en": "'…than my country': the line Lachit is remembered for.",
+      "as": "'দেশতকৈ…': লাচিতৰ বিখ্যাত উক্তি।"
+     },
+     "id": "uds.u2.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The uncle story comes from Assamese tradition.",
+      "as": "মোমায়েকৰ কাহিনী অসমীয়া পৰম্পৰাৰ পৰা আহিছে।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. Gait's Buranji-based account does not tell it; it is the famous tradition.",
+      "as": "শুদ্ধ। গেইটৰ বুৰঞ্জীভিত্তিক বিৱৰণত নাই; ই বিখ্যাত পৰম্পৰা।"
+     },
+     "id": "uds.u2.04"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the walls being built?",
+      "as": "কোনখন ছবিত গড় নিৰ্মাণ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "the-wall.webp",
+      "war-council.webp",
+      "saraighat.webp",
+      "lachit-death.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Building the walls",
+      "as": "গড় নিৰ্মাণ"
+     },
+     "why": {
+      "en": "Before Saraighat.",
+      "as": "শৰাইঘাটৰ আগত।"
+     },
+     "id": "uds.u2.05"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the place of the great battle.",
+      "as": "মহা যুদ্ধৰ ঠাইখনৰ নাম সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "S",
+       "A",
+       "R",
+       "A",
+       "I",
+       "G",
+       "H",
+       "A",
+       "T"
+      ],
+      "as": [
+       "শ",
+       "ৰাই",
+       "ঘাট"
+      ]
+     },
+     "answerText": {
+      "en": "SARAIGHAT",
+      "as": "শৰাইঘাট"
+     },
+     "why": {
+      "en": "Saraighat.",
+      "as": "শৰাইঘাট।"
+     },
+     "id": "uds.u2.06"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "river",
+   "title": {
+    "en": "The Battle of Saraighat",
+    "as": "শৰাইঘাটৰ যুদ্ধ"
+   },
+   "learned": [
+    {
+     "en": "March 1671: the decisive naval battle at Saraighat",
+     "as": "১৬৭১ চনৰ মাৰ্চ: শৰাইঘাটৰ নিৰ্ণায়ক নৌযুদ্ধ"
+    },
+    {
+     "en": "Lachit, very ill, was carried to a boat and led the attack",
+     "as": "অতি অসুস্থ লাচিতক নাৱলৈ নি আক্ৰমণৰ নেতৃত্ব দিয়ে"
+    },
+    {
+     "en": "Small Ahom boats broke the big Mughal fleet in the narrows",
+     "as": "সৰু আহোম নাৱে ঠেক নদীত ডাঙৰ মোগল নৌবহৰ ভাঙিলে"
+    },
+    {
+     "en": "Ram Singh retreated; the Manas became the border again",
+     "as": "ৰামসিংহ পিছুৱাল; মানাহ পুনৰ সীমা হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "fill",
+     "before": {
+      "en": "Warm-up: 'My uncle is not greater than my",
+      "as": "মনত পেলোৱা: 'দেশতকৈ মোমাই ডাঙৰ নহয়' — মোৰ"
+     },
+     "after": {
+      "en": "'.",
+      "as": "।"
+     },
+     "answer": "country",
+     "asOptions": [
+      "দেশ",
+      "পিতৃ",
+      "ৰজা",
+      "নদী"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "country",
+      "as": "দেশ"
+     },
+     "why": {
+      "en": "Country.",
+      "as": "দেশ।"
+     },
+     "id": "uds.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "My country first.",
+       "as": "দেশ আগত।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "sickbed.webp",
+     "title": {
+      "en": "The Mughal fleet attacks",
+      "as": "মোগল নৌবহৰৰ আক্ৰমণ"
+     },
+     "text": [
+      {
+       "en": "In <mark>March 1671</mark> the Mughal fleet pushed up the river at Saraighat. Lachit lay very ill, and some Ahom ships began to fall back.",
+       "as": "<mark>১৬৭১ চনৰ মাৰ্চ</mark>ত মোগল নৌবহৰ শৰাইঘাটত নদীৰ উজনিলৈ আগবাঢ়িল। লাচিত অতি অসুস্থ আছিল, আৰু কিছুমান আহোম নাও পিছুৱাবলৈ ধৰিলে।"
+      },
+      {
+       "en": "Lachit had himself carried onto a boat. 'If you want to flee, flee,' he is said to have shouted, 'the king has given me a task, and I will do it.'",
+       "as": "লাচিতে নিজকে নাৱলৈ লৈ যাবলৈ ক'লে। কোৱা হয়, তেওঁ চিঞৰিছিল: 'পলাব খোজা পলোৱা; ৰজাই মোক দায়িত্ব দিছে, মই সেয়া পালন কৰিম।'"
+      }
+     ],
+     "id": "uds.u3.02"
+    },
+    {
+     "type": "story",
+     "img": "saraighat.webp",
+     "top": true,
+     "title": {
+      "en": "Victory in the narrows",
+      "as": "ঠেক নদীত জয়"
+     },
+     "text": [
+      {
+       "en": "Ahom boats closed in from both banks. In the narrow river the big Mughal ships could not turn, and their fleet was broken.",
+       "as": "আহোমৰ নাও দুয়োপাৰৰ পৰা চেপি আহিল। ঠেক নদীত মোগলৰ ডাঙৰ জাহাজবোৰ ঘূৰিব নোৱাৰিলে, আৰু নৌবহৰ ভাঙি পৰিল।"
+      },
+      {
+       "en": "Ram Singh retreated to Rangamati. Hadira, opposite Goalpara, became the Ahom frontier post; the Manas the line.",
+       "as": "ৰামসিংহ ৰাঙামাটিলৈ পিছুৱাল। গোৱালপাৰাৰ বিপৰীতে হাদিৰা আহোমৰ সীমান্ত চকী হ'ল; মানাহ সীমা।"
+      }
+     ],
+     "id": "uds.u3.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the Battle of Saraighat in order.",
+      "as": "শৰাইঘাটৰ যুদ্ধ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Mughal fleet pushes upriver",
+       "as": "মোগল নৌবহৰ উজনিলৈ আগবাঢ়ে"
+      },
+      {
+       "en": "Some Ahom boats fall back",
+       "as": "কিছুমান আহোম নাও পিছুৱায়"
+      },
+      {
+       "en": "Sick Lachit leads from a boat",
+       "as": "অসুস্থ লাচিতে নাৱৰ পৰা নেতৃত্ব দিয়ে"
+      },
+      {
+       "en": "Mughal fleet broken",
+       "as": "মোগল নৌবহৰ বিধ্বস্ত"
+      },
+      {
+       "en": "Ram Singh retreats",
+       "as": "ৰামসিংহ পিছুৱায়"
+      }
+     ],
+     "why": {
+      "en": "Crisis → courage → victory.",
+      "as": "সংকট → সাহস → জয়।"
+     },
+     "id": "uds.u3.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Saraighat was mainly a cavalry battle on open ground.",
+      "as": "শৰাইঘাট প্ৰধানকৈ মুকলি পথাৰত অশ্বাৰোহীৰ যুদ্ধ আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. It was a naval battle in the narrow river: that was the point.",
+      "as": "অশুদ্ধ। ঠেক নদীত নৌযুদ্ধ: সেইটোৱেই আছিল মূল কথা।"
+     },
+     "id": "uds.u3.05"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I lay ill during the battle.",
+       "as": "যুদ্ধৰ সময়ত মই অসুস্থ আছিলোঁ।"
+      },
+      {
+       "en": "I was carried to a boat to lead.",
+       "as": "নেতৃত্ব দিবলৈ মোক নাৱলৈ নিয়া হৈছিল।"
+      },
+      {
+       "en": "I won at Saraighat.",
+       "as": "শৰাইঘাটত মই জয়ী হৈছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Lachit Borphukan",
+       "as": "লাচিত বৰফুকন"
+      },
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
+      },
+      {
+       "en": "Udayaditya",
+       "as": "উদয়াদিত্য"
+      },
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Lachit Borphukan.",
+      "as": "লাচিত বৰফুকন।"
+     },
+     "id": "uds.u3.06"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap where the Mughals' frontier fell back to, the river border.",
+      "as": "মোগল সীমা যিখন নদীলৈ পিছুৱাল, সেইখন টিপা।"
+     },
+     "target": "manas",
+     "choices": [
+      "manas",
+      "bharali"
+     ],
+     "answerText": {
+      "en": "The Manas",
+      "as": "মানাহ"
+     },
+     "why": {
+      "en": "The Manas.",
+      "as": "মানাহ।"
+     },
+     "id": "uds.u3.07"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the Battle of Saraighat?",
+      "as": "কোনখন ছবিত শৰাইঘাটৰ যুদ্ধ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "saraighat.webp",
+      "sickbed.webp",
+      "dafla.webp",
+      "war-council.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Saraighat",
+      "as": "শৰাইঘাট"
+     },
+     "why": {
+      "en": "March 1671.",
+      "as": "১৬৭১ চনৰ মাৰ্চ।"
+     },
+     "id": "uds.u3.08"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "star",
+   "title": {
+    "en": "Lachit's legacy",
+    "as": "লাচিতৰ উত্তৰাধিকাৰ"
+   },
+   "learned": [
+    {
+     "en": "Lachit died at Kaliabor in April 1672",
+     "as": "১৬৭২ চনৰ এপ্ৰিলত কলিয়াবৰত লাচিতৰ মৃত্যু"
+    },
+    {
+     "en": "His maidam stands at Hoolungapara, near Jorhat",
+     "as": "তেওঁৰ মৈদাম জোৰহাটৰ ওচৰৰ হোলোঙাপাৰত"
+    },
+    {
+     "en": "Lachit Divas, 24 November, is observed in Assam",
+     "as": "অসমত ২৪ নৱেম্বৰত লাচিত দিৱস পালন কৰা হয়"
+    },
+    {
+     "en": "The NDA's best cadet receives the Lachit Borphukan gold medal",
+     "as": "এনডিএৰ শ্ৰেষ্ঠ কেডেটে লাচিত বৰফুকন সোণৰ পদক পায়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "order",
+     "q": {
+      "en": "Warm-up: put Saraighat in order.",
+      "as": "মনত পেলোৱা: শৰাইঘাট ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Ahom boats fall back",
+       "as": "আহোম নাও পিছুৱায়"
+      },
+      {
+       "en": "Lachit leads from a boat",
+       "as": "লাচিতে নাৱৰ পৰা নেতৃত্ব দিয়ে"
+      },
+      {
+       "en": "Mughal fleet broken",
+       "as": "মোগল নৌবহৰ বিধ্বস্ত"
+      }
+     ],
+     "why": {
+      "en": "Crisis → courage → victory.",
+      "as": "সংকট → সাহস → জয়।"
+     },
+     "id": "uds.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "The Battle of Saraighat.",
+       "as": "শৰাইঘাটৰ যুদ্ধ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "lachit-death.webp",
+     "title": {
+      "en": "A short life",
+      "as": "চুটি জীৱন"
+     },
+     "text": [
+      {
+       "en": "Lachit never recovered. He died at [[kaliabor]] in <mark>April 1672</mark>, about a year after his victory.",
+       "as": "লাচিত আৰু সুস্থ নহ'ল। জয়ৰ প্ৰায় এবছৰ পিছত, <mark>১৬৭২ চনৰ এপ্ৰিল</mark>ত [[kaliabor]]ত তেওঁৰ মৃত্যু হয়।"
+      },
+      {
+       "en": "His remains lie in a [[moidam|maidam]] at Hoolungapara, near Jorhat.",
+       "as": "তেওঁৰ দেহাৱশেষ জোৰহাটৰ ওচৰৰ হোলোঙাপাৰৰ এটা [[moidam]]ত আছে।"
+      }
+     ],
+     "id": "uds.u4.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Kaliabor, where Lachit died.",
+      "as": "লাচিতৰ মৃত্যু হোৱা কলিয়াবৰ টিপা।"
+     },
+     "target": "kaliabor",
+     "choices": [
+      "kaliabor",
+      "saraighat",
+      "garhgaon",
+      "charaideo"
+     ],
+     "answerText": {
+      "en": "Kaliabor",
+      "as": "কলিয়াবৰ"
+     },
+     "why": {
+      "en": "Kaliabor, 1672.",
+      "as": "কলিয়াবৰ, ১৬৭২।"
+     },
+     "id": "uds.u4.03"
+    },
+    {
+     "type": "story",
+     "img": "lachit-portrait.webp",
+     "title": {
+      "en": "Remembered",
+      "as": "স্মৰণ"
+     },
+     "text": [
+      {
+       "en": "Every <mark>24 November</mark> Assam observes [[lachit-divas]].",
+       "as": "প্ৰতি <mark>২৪ নৱেম্বৰ</mark>ত অসমে [[lachit-divas]] পালন কৰে।"
+      },
+      {
+       "en": "Since 1999 the best passing-out cadet of India's National Defence Academy receives the <mark>Lachit Borphukan gold medal</mark>.",
+       "as": "১৯৯৯ চনৰ পৰা ভাৰতৰ ৰাষ্ট্ৰীয় প্ৰতিৰক্ষা একাডেমীৰ শ্ৰেষ্ঠ কেডেটে <mark>লাচিত বৰফুকন সোণৰ পদক</mark> লাভ কৰে।"
+      }
+     ],
+     "id": "uds.u4.04"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+       },
+       {
+        "en": "Lachit Divas",
+        "as": "লাচিত দিৱস"
+       }
+      ],
+      [
+       {
+        "en": "Kaliabor",
+        "as": "কলিয়াবৰ"
+       },
+       {
+        "en": "Where he died",
+        "as": "মৃত্যুৰ ঠাই"
+       }
+      ],
+      [
+       {
+        "en": "Hoolungapara",
+        "as": "হোলোঙাপাৰ"
+       },
+       {
+        "en": "His maidam",
+        "as": "তেওঁৰ মৈদাম"
+       }
+      ],
+      [
+       {
+        "en": "NDA",
+        "as": "এনডিএ"
+       },
+       {
+        "en": "Gold medal for the best cadet",
+        "as": "শ্ৰেষ্ঠ কেডেটৰ সোণৰ পদক"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Lachit's legacy in four pairs.",
+      "as": "চাৰিটা যোৰাত লাচিতৰ উত্তৰাধিকাৰ।"
+     },
+     "id": "uds.u4.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Lachit Borphukan died in the Battle of Saraighat.",
+      "as": "শৰাইঘাটৰ যুদ্ধত লাচিত বৰফুকনৰ মৃত্যু হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He survived the battle and died of illness at Kaliabor in 1672.",
+      "as": "অশুদ্ধ। তেওঁ যুদ্ধত বাচি আছিল; ১৬৭২ চনত কলিয়াবৰত অসুখত মৃত্যু।"
+     },
+     "id": "uds.u4.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Lachit Borphukan?",
+      "as": "কোনখন ছবিত লাচিত বৰফুকন দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "lachit-portrait.webp",
+      "war-council.webp",
+      "coup.webp",
+      "dafla.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Lachit Borphukan",
+      "as": "লাচিত বৰফুকন"
+     },
+     "why": {
+      "en": "A modern reconstruction.",
+      "as": "আধুনিক কল্পনা।"
+     },
+     "id": "uds.u4.07"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "moon",
+   "title": {
+    "en": "A king overthrown",
+    "as": "ৰজাৰ পতন"
+   },
+   "learned": [
+    {
+     "en": "A Dafla expedition failed; the Borbarua was disgraced",
+     "as": "এটা ডফলা অভিযান বিফল; বৰবৰুৱা অপমানিত"
+    },
+    {
+     "en": "The king made Chakrapani, of Sankardev's line, his guru",
+     "as": "ৰজাই শংকৰদেৱৰ বংশৰ চক্ৰপাণিক গুৰু পাতিলে"
+    },
+    {
+     "en": "Angry nobles joined his brother in a night coup",
+     "as": "খঙাল বিষয়াই ভাইৰ সৈতে নিশাৰ অভ্যুত্থান কৰিলে"
+    },
+    {
+     "en": "Udayaditya was poisoned; his brother became King Ramdhwaj",
+     "as": "উদয়াদিত্যক বিষ খুৱাই মৰা হ'ল; ভাই ৰজা ৰামধ্বজ হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match each to its date.",
+      "as": "মনত পেলোৱা: প্ৰতিটো চনৰ সৈতে মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Saraighat",
+        "as": "শৰাইঘাট"
+       },
+       {
+        "en": "March 1671",
+        "as": "১৬৭১ মাৰ্চ"
+       }
+      ],
+      [
+       {
+        "en": "Lachit dies",
+        "as": "লাচিতৰ মৃত্যু"
+       },
+       {
+        "en": "April 1672",
+        "as": "১৬৭২ এপ্ৰিল"
+       }
+      ],
+      [
+       {
+        "en": "Lachit Divas",
+        "as": "লাচিত দিৱস"
+       },
+       {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall the dates.",
+      "as": "চনবোৰ মনত পেলোৱা।"
+     },
+     "id": "uds.u5.01",
+     "link": {
+      "unit": "u4",
+      "note": {
+       "en": "Lachit's legacy.",
+       "as": "লাচিতৰ উত্তৰাধিকাৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "dafla.webp",
+     "title": {
+      "en": "Into the Dafla hills",
+      "as": "ডফলা পাহাৰলৈ"
+     },
+     "text": [
+      {
+       "en": "With peace in the west, 1,000 men went against the [[dafla|Daflas]], who had carried off forty women and children. The hillmen vanished into the jungle and ambushed the vanguard.",
+       "as": "পশ্চিমত শান্তি অহাত চল্লিশজন মহিলা-শিশু লৈ যোৱা [[dafla]]ৰ বিৰুদ্ধে ১,০০০ সৈন্য গ'ল। পাহাৰীয়াসকলে জংঘলত লুকাই অগ্ৰবাহিনীক অতৰ্কিতে আক্ৰমণ কৰিলে।"
+      },
+      {
+       "en": "The Borbarua retreated. The king ordered his death, but the queen-mother pleaded and he was only banished.",
+       "as": "বৰবৰুৱা পিছুৱাল। ৰজাই মৃত্যুদণ্ডৰ আদেশ দিলে, কিন্তু ৰাজমাতাৰ অনুৰোধত কেৱল নিৰ্বাসন দিয়া হ'ল।"
+      }
+     ],
+     "id": "uds.u5.02"
+    },
+    {
+     "type": "story",
+     "img": "coup.webp",
+     "title": {
+      "en": "The midnight coup",
+      "as": "মাজনিশাৰ অভ্যুত্থান"
+     },
+     "text": [
+      {
+       "en": "The king took as his guru Chakrapani, a descendant of Sankardev, and asked his nobles to follow. Many were offended.",
+       "as": "ৰজাই শংকৰদেৱৰ বংশধৰ চক্ৰপাণিক গুৰু পাতিলে আৰু বিষয়াসকলকো তেনে কৰিবলৈ ক'লে। বহুতে অসন্তুষ্ট হ'ল।"
+      },
+      {
+       "en": "They won over his brother. At midnight he broke down a city gate and seized the king. Udayaditya was poisoned at Charaideo, and the brother became [[ramdhwaj-singha]].",
+       "as": "তেওঁলোকে ৰজাৰ ভাইক নিজৰ পক্ষলৈ আনিলে। মাজনিশা তেওঁ নগৰৰ দুৱাৰ ভাঙি ৰজাক বন্দী কৰিলে। চৰাইদেউত উদয়াদিত্যক বিষ খুৱাই মৰা হ'ল, আৰু ভাই [[ramdhwaj-singha]] হ'ল।"
+      }
+     ],
+     "id": "uds.u5.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the king's fall in order.",
+      "as": "ৰজাৰ পতন ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Chakrapani made the king's guru",
+       "as": "চক্ৰপাণি ৰজাৰ গুৰু"
+      },
+      {
+       "en": "Nobles turn to his brother",
+       "as": "বিষয়া ভাইৰ পক্ষলৈ"
+      },
+      {
+       "en": "Midnight attack on the gate",
+       "as": "মাজনিশা দুৱাৰত আক্ৰমণ"
+      },
+      {
+       "en": "King poisoned at Charaideo",
+       "as": "চৰাইদেউত ৰজাক বিষ"
+      }
+     ],
+     "why": {
+      "en": "Faith → anger → coup → death.",
+      "as": "ধৰ্ম → খং → অভ্যুত্থান → মৃত্যু।"
+     },
+     "id": "uds.u5.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Udayaditya was killed by his own brother's party.",
+      "as": "উদয়াদিত্যক নিজৰ ভাইৰ দলে হত্যা কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "uds.u5.05"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember S-L-C",
+      "as": "মনত ৰাখা শ-লা-চ"
+     },
+     "text": [
+      {
+       "en": "Udayaditya in three letters, <mark>S-L-C</mark>: <b>S</b>araighat won (1671), <b>L</b>achit lost (1672), <b>C</b>oup at midnight (1672).",
+       "as": "উদয়াদিত্য তিনিটা আখৰত, <mark>শ-লা-চ</mark>: <b>শ</b>ৰাইঘাট জয় (১৬৭১), <b>লা</b>চিতৰ মৃত্যু (১৬৭২), <b>চ</b>ক্ৰান্ত, মাজনিশাৰ অভ্যুত্থান (১৬৭২)।"
+      },
+      {
+       "en": "Glory, grief, betrayal: in just two years.",
+       "as": "গৌৰৱ, শোক, বিশ্বাসঘাতকতা: মাত্ৰ দুবছৰত।"
+      }
+     ],
+     "id": "uds.u5.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the midnight coup?",
+      "as": "কোনখন ছবিত মাজনিশাৰ অভ্যুত্থান দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "coup.webp",
+      "dafla.webp",
+      "saraighat.webp",
+      "war-council.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The coup",
+      "as": "অভ্যুত্থান"
+     },
+     "why": {
+      "en": "1672.",
+      "as": "১৬৭২।"
+     },
+     "id": "uds.u5.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Udayaditya Singha",
+    "as": "তুমি স্বৰ্গদেউ উদয়াদিত্য সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Saraighat was won in Udayaditya Singha's reign.",
+     "as": "উদয়াদিত্য সিংহৰ ৰাজত্বকালত শৰাইঘাট জয় হৈছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True: March 1671.",
+     "as": "শুদ্ধ: ১৬৭১ চনৰ মাৰ্চ।"
+    },
+    "id": "uds.test.01"
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I commanded at Saraighat.",
+      "as": "মই শৰাইঘাটত সেনাপতি আছিলোঁ।"
+     },
+     {
+      "en": "I was ill during the battle.",
+      "as": "যুদ্ধৰ সময়ত মই অসুস্থ।"
+     },
+     {
+      "en": "I died at Kaliabor.",
+      "as": "কলিয়াবৰত মোৰ মৃত্যু।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Lachit Borphukan",
+      "as": "লাচিত বৰফুকন"
+     },
+     {
+      "en": "Atan Burhagohain",
+      "as": "আতন বুঢ়াগোহাঁই"
+     },
+     {
+      "en": "Laluk Sola",
+      "as": "লালুক চোলা"
+     },
+     {
+      "en": "Momai Tamuli",
+      "as": "মোমাই তামুলী"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Lachit Borphukan.",
+     "as": "লাচিত বৰফুকন।"
+    },
+    "id": "uds.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Saraighat.",
+     "as": "শৰাইঘাট টিপা।"
+    },
+    "target": "saraighat",
+    "choices": [
+     "saraighat",
+     "kaliabor",
+     "jogighopa",
+     "garhgaon"
+    ],
+    "answerText": {
+     "en": "Saraighat",
+     "as": "শৰাইঘাট"
+    },
+    "why": {
+     "en": "Saraighat.",
+     "as": "শৰাইঘাট।"
+    },
+    "id": "uds.test.03"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1669",
+      "l": {
+       "en": "Alaboi",
+       "as": "আলাবৈ"
+      }
+     },
+     {
+      "y": "1672",
+      "l": {
+       "en": "Lachit dies",
+       "as": "লাচিতৰ মৃত্যু"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Guwahati won back",
+       "as": "গুৱাহাটী উদ্ধাৰ"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Battle of Saraighat",
+       "as": "শৰাইঘাটৰ যুদ্ধ"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Gadadhar Singha crowned",
+       "as": "গদাধৰ সিংহৰ অভিষেক"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1667 → 1669 → 1671 → 1672 → 1681.",
+     "as": "১৬৬৭ → ১৬৬৯ → ১৬৭১ → ১৬৭২ → ১৬৮১।"
+    },
+    "id": "uds.test.04"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Lachit leading from his sickbed?",
+     "as": "কোনখন ছবিত অসুস্থ লাচিতে নেতৃত্ব দিয়া দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "sickbed.webp",
+     "lachit-death.webp",
+     "the-wall.webp",
+     "coup.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "From the sickbed",
+     "as": "অসুস্থ অৱস্থাত"
+    },
+    "why": {
+     "en": "March 1671.",
+     "as": "১৬৭১ চনৰ মাৰ্চ।"
+    },
+    "id": "uds.test.05"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble where Lachit died.",
+     "as": "লাচিতৰ মৃত্যু হোৱা ঠাইখনৰ নাম সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "K",
+      "A",
+      "L",
+      "I",
+      "A",
+      "B",
+      "O",
+      "R"
+     ],
+     "as": [
+      "ক",
+      "লি",
+      "য়া",
+      "বৰ"
+     ]
+    },
+    "answerText": {
+     "en": "KALIABOR",
+     "as": "কলিয়াবৰ"
+    },
+    "why": {
+     "en": "Kaliabor.",
+     "as": "কলিয়াবৰ।"
+    },
+    "id": "uds.test.06"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "Lachit",
+      "won",
+      "the",
+      "Battle",
+      "of",
+      "Saraighat",
+      "in",
+      "1669."
+     ],
+     "as": [
+      "১৬৬৯",
+      "চনত",
+      "লাচিতে",
+      "শৰাইঘাটৰ",
+      "যুদ্ধত",
+      "জয়",
+      "লাভ",
+      "কৰিছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 7,
+     "as": 0
+    },
+    "fix": {
+     "en": "→ 1671",
+     "as": "→ ১৬৭১"
+    },
+    "answerText": {
+     "en": "1669 → 1671",
+     "as": "১৬৬৯ → ১৬৭১"
+    },
+    "why": {
+     "en": "1669 was Alaboi, a defeat; Saraighat was 1671.",
+     "as": "১৬৬৯ আলাবৈ, পৰাজয়; শৰাইঘাট ১৬৭১।"
+    },
+    "id": "uds.test.07"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
+      },
+      {
+       "en": "Mughal commander",
+       "as": "মোগল সেনাপতি"
+      }
+     ],
+     [
+      {
+       "en": "Chakrapani",
+       "as": "চক্ৰপাণি"
+      },
+      {
+       "en": "The king's guru",
+       "as": "ৰজাৰ গুৰু"
+      }
+     ],
+     [
+      {
+       "en": "Ramdhwaj",
+       "as": "ৰামধ্বজ"
+      },
+      {
+       "en": "Brother who seized the throne",
+       "as": "সিংহাসন লোৱা ভাই"
+      }
+     ],
+     [
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      },
+      {
+       "en": "Hero of Saraighat",
+       "as": "শৰাইঘাটৰ বীৰ"
+      }
+     ]
+    ],
+    "why": {
+     "en": "The people of 1670–1672.",
+     "as": "১৬৭০–১৬৭২ৰ লোকসকল।"
+    },
+    "id": "uds.test.08"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Udayaditya crowned",
+      "as": "উদয়াদিত্যৰ অভিষেক"
+     },
+     {
+      "en": "Battle of Saraighat",
+      "as": "শৰাইঘাটৰ যুদ্ধ"
+     },
+     {
+      "en": "Lachit dies",
+      "as": "লাচিতৰ মৃত্যু"
+     },
+     {
+      "en": "Midnight coup",
+      "as": "মাজনিশাৰ অভ্যুত্থান"
+     }
+    ],
+    "why": {
+     "en": "1670 → 1671 → 1672 → 1672.",
+     "as": "১৬৭০ → ১৬৭১ → ১৬৭২ → ১৬৭২।"
+    },
+    "id": "uds.test.09"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. The Battle of Saraighat was a naval battle.<br>2. Lachit Divas is observed on 2 December.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. শৰাইঘাটৰ যুদ্ধ এখন নৌযুদ্ধ আছিল।<br>২. ২ ডিচেম্বৰত লাচিত দিৱস পালন কৰা হয়।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Lachit Divas is 24 November; 2 December is Asom Divas.",
+     "as": "কেৱল ১। লাচিত দিৱস ২৪ নৱেম্বৰ; ২ ডিচেম্বৰ অসম দিৱস।"
+    },
+    "small": true,
+    "id": "uds.test.10"
+   }
+  ]
+ }
+}
