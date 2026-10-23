@@ -1,5 +1,5 @@
 {
- "version": "86921a7283",
+ "version": "4c0ef83a1f",
  "courses": [
   {
    "id": "ahom-kings",
@@ -849,8 +849,8 @@
   },
   "suteuphaa": {
    "no": 2,
-   "version": 2,
-   "steps": 6,
+   "version": 3,
+   "steps": 7,
    "title": {
     "en": "Swargadeo Suteuphaa",
     "as": "স্বৰ্গদেউ চুতেউফা"
@@ -863,19 +863,28 @@
       "as": "নতুন ৰজা"
      },
      "i": "crown",
-     "ex": 6
+     "ex": 5
     },
     {
      "id": "u2",
+     "t": {
+      "en": "A message home",
+      "as": "ঘৰলৈ বাতৰি"
+     },
+     "i": "walk",
+     "ex": 5
+    },
+    {
+     "id": "u3",
      "t": {
       "en": "The Dikhou frontier",
       "as": "দিখৌ সীমান্ত"
      },
      "i": "river",
-     "ex": 6
+     "ex": 5
     },
     {
-     "id": "u3",
+     "id": "u4",
      "t": {
       "en": "The rooster trick",
       "as": "কুকুৰাৰ কৌশল"
@@ -884,7 +893,7 @@
      "ex": 5
     },
     {
-     "id": "u4",
+     "id": "u5",
      "t": {
       "en": "War with the Naras",
       "as": "নৰাৰ সৈতে যুদ্ধ"
@@ -893,7 +902,7 @@
      "ex": 5
     },
     {
-     "id": "u5",
+     "id": "u6",
      "t": {
       "en": "The end of the reign",
       "as": "ৰাজত্বৰ অন্ত"

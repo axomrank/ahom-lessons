@@ -1,7 +1,7 @@
 {
  "id": "suteuphaa",
  "no": 2,
- "version": 2,
+ "version": 3,
  "king": {
   "en": "Swargadeo Suteuphaa",
   "as": "স্বৰ্গদেউ চুতেউফা"
@@ -38,7 +38,7 @@
    "used_for": "Sukapha's two Gohains; Mungdunsunkham; Suteupha ruled 13 years, died 1281; Kacharis abandoned land east of the Dikhu; Naras of Mungkang asked for help against Burma, Suteupha asked for a daughter in marriage; first force defeated and the Burha Gohain slain; Bar Gohain came to terms, imprisoned, forgiven; Naras as kinsmen, a learned class of astronomers and writers"
   }
  ],
- "review_notes": "Left out as unsourced: the 'Naga hills campaign' in the AHOM scene notes. The rooster story is a chronicle legend and is labelled as a story. Rebuilt 2026-10-23 (version 2): Gait (1906) says the Burhagohain was killed in the Nara war; this is now taught.",
+ "review_notes": "Left out as unsourced: the 'Naga hills campaign' in the AHOM scene notes. The rooster story is a chronicle legend and is labelled as a story. Rebuilt 2026-10-23 (version 2): Gait (1906) says the Burhagohain was killed in the Nara war; this is now taught. Version 3 (2026-10-23): rebuilt as six story units with a game-like mix (who-am-I, map, timeline, picture, true/false, unscramble, fill, match, order); most multiple-choice questions removed.",
  "buildsOn": {
   "no": 1,
   "title": {
@@ -190,16 +190,16 @@
      "as": "চুতেউফা চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আছিল"
     },
     {
-     "en": "He became the second Ahom king in 1268",
-     "as": "তেওঁ ১২৬৮ চনত দ্বিতীয় আহোম ৰজা হয়"
+     "en": "The nobles made him the second Ahom king in 1268",
+     "as": "১২৬৮ চনত বিষয়াসকলে তেওঁক দ্বিতীয় আহোম ৰজা পাতিলে"
     },
     {
-     "en": "He ruled 13 years, until 1281",
-     "as": "তেওঁ ১৩ বছৰ, ১২৮১ লৈকে ৰাজত্ব কৰে"
+     "en": "He ruled from Charaideo, his father's hilltop capital",
+     "as": "তেওঁ পিতৃৰ পাহাৰৰ ওপৰৰ ৰাজধানী চৰাইদেউৰ পৰা শাসন কৰিছিল"
     },
     {
-     "en": "He sent an embassy to the old homeland, Mong Mao",
-     "as": "তেওঁ পুৰণি জন্মভূমি মং মাওলৈ দূত পঠিয়ায়"
+     "en": "The Ahoms called their land Mung-dun-sun-kham",
+     "as": "আহোমসকলে নিজৰ দেশক মুং-দুন-চুন-খাম বুলিছিল"
     }
    ],
    "steps": [
@@ -236,71 +236,17 @@
      "id": "sut.u1.01"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Who was Suteuphaa?",
-      "as": "চুতেউফা কোন আছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Suteuphaa was Sukaphaa's youngest son.",
+      "as": "চুতেউফা চুকাফাৰ সৰু পুত্ৰ আছিল।"
      },
-     "options": [
-      {
-       "en": "Sukaphaa's eldest son",
-       "as": "চুকাফাৰ জ্যেষ্ঠ পুত্ৰ"
-      },
-      {
-       "en": "Sukaphaa's brother",
-       "as": "চুকাফাৰ ভাই"
-      },
-      {
-       "en": "A Moran chief",
-       "as": "এজন মৰাণ ৰজা"
-      },
-      {
-       "en": "A Kachari king",
-       "as": "এজন কছাৰী ৰজা"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "Suteuphaa was the eldest son of Sukaphaa and the second Ahom king.",
-      "as": "চুতেউফা আছিল চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আৰু দ্বিতীয় আহোম ৰজা।"
+      "en": "False. He was the eldest son, and the nobles placed him on the throne in 1268.",
+      "as": "অশুদ্ধ। তেওঁ জ্যেষ্ঠ পুত্ৰ আছিল; ১২৬৮ চনত বিষয়াসকলে তেওঁক সিংহাসনত বহুৱাইছিল।"
      },
-     "id": "sut.u1.02"
-    },
-    {
-     "type": "inline",
-     "before": {
-      "en": "Suteuphaa became king in",
-      "as": "চুতেউফা"
-     },
-     "after": {
-      "en": ".",
-      "as": "চনত ৰজা হৈছিল।"
-     },
-     "options": [
-      {
-       "en": "1228",
-       "as": "১২২৮"
-      },
-      {
-       "en": "1253",
-       "as": "১২৫৩"
-      },
-      {
-       "en": "1268",
-       "as": "১২৬৮"
-      },
-      {
-       "en": "1281",
-       "as": "১২৮১"
-      }
-     ],
-     "answer": 2,
-     "big": true,
-     "why": {
-      "en": "1268, the year Sukaphaa died. 1281 is when Suteuphaa's own reign ended.",
-      "as": "১২৬৮, যিবছৰ চুকাফাৰ মৃত্যু হয়। ১২৮১ চনত চুতেউফাৰ নিজৰ ৰাজত্ব শেষ হয়।"
-     },
-     "id": "sut.u1.03"
+     "id": "sut3.u1.02"
     },
     {
      "type": "story",
@@ -335,121 +281,86 @@
      }
     },
     {
-     "type": "mcq",
+     "type": "map",
      "q": {
-      "en": "What does Mung-dun-sun-kham mean?",
-      "as": "মুং-দুন-চুন-খামৰ অৰ্থ কি?"
+      "en": "Tap Charaideo, Suteuphaa's capital.",
+      "as": "চুতেউফাৰ ৰাজধানী চৰাইদেউ টিপা।"
+     },
+     "target": "charaideo",
+     "choices": [
+      "charaideo",
+      "sivasagar",
+      "dikhou",
+      "dihing"
+     ],
+     "answerText": {
+      "en": "Charaideo",
+      "as": "চৰাইদেউ"
+     },
+     "why": {
+      "en": "Charaideo, built by Sukaphaa in 1253, lies east of the Dikhou river.",
+      "as": "১২৫৩ চনত চুকাফাই সজা চৰাইদেউ দিখৌ নদীৰ পূবে।"
+     },
+     "id": "sut3.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of his capital.",
+      "as": "তেওঁৰ ৰাজধানীৰ নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "C",
+       "H",
+       "A",
+       "R",
+       "A",
+       "I",
+       "D",
+       "E",
+       "O"
+      ],
+      "as": [
+       "চ",
+       "ৰা",
+       "ই",
+       "দে",
+       "উ"
+      ]
+     },
+     "answerText": {
+      "en": "CHARAIDEO",
+      "as": "চৰাইদেউ"
+     },
+     "why": {
+      "en": "Charaideo: Che-Rai-Doi, 'a shining town on a hilltop'.",
+      "as": "চৰাইদেউ: চে-ৰাই-দৈ, 'পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ'।"
+     },
+     "id": "sut3.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the new king's court?",
+      "as": "কোনখন ছবিত নতুন ৰজাৰ ৰাজসভা দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Country full of golden gardens",
-       "as": "সোণৰ বাগিচাৰে ভৰা দেশ"
-      },
-      {
-       "en": "A shining town on a hilltop",
-       "as": "পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ"
-      },
-      {
-       "en": "Land of many rivers",
-       "as": "বহু নদীৰ দেশ"
-      },
-      {
-       "en": "Home of the Tai",
-       "as": "টাইৰ ঘৰ"
-      }
+      "suteuphaa-court.webp",
+      "dikhou-frontier.webp",
+      "ahom-army.webp",
+      "charaideo-sunset.webp"
      ],
      "answer": 0,
+     "answerText": {
+      "en": "The royal court",
+      "as": "ৰাজসভা"
+     },
      "why": {
-      "en": "'Country full of golden gardens'. 'A shining town on a hilltop' is Che-Rai-Doi, the meaning of Charaideo. A classic exam pair.",
-      "as": "'সোণৰ বাগিচাৰে ভৰা দেশ'। 'পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ' হৈছে চে-ৰাই-দৈ, চৰাইদেউৰ অৰ্থ। পৰীক্ষাৰ এক পৰিচিত যোৰা।"
+      "en": "The court at Charaideo, where the nobles accepted Suteuphaa as king.",
+      "as": "চৰাইদেউৰ ৰাজসভা, য'ত বিষয়াসকলে চুতেউফাক ৰজা হিচাপে মানি লৈছিল।"
      },
-     "id": "sut2.u1.05"
-    },
-    {
-     "type": "story",
-     "art": "embassy",
-     "title": {
-      "en": "A message home",
-      "as": "জন্মভূমিলৈ বাৰ্তা"
-     },
-     "link": {
-      "lesson": 1,
-      "unitNo": 1,
-      "unitTitle": {
-       "en": "The journey",
-       "as": "যাত্ৰা"
-      },
-      "note": {
-       "en": "Mong Mao is the Tai homeland Sukaphaa left in 1215.",
-       "as": "মং মাও হৈছে সেই টাই জন্মভূমি, যিখন চুকাফাই ১২১৫ চনত এৰিছিল।"
-      },
-      "lessonId": "sukaphaa"
-     },
-     "text": [
-      {
-       "en": "Suteuphaa sent an <mark>embassy</mark> (a group of envoys) to the Ahoms' old homeland, [[mongmao]].",
-       "as": "চুতেউফাই আহোমসকলৰ পুৰণি জন্মভূমি [[mongmao]]লৈ <mark>দূত</mark> পঠিয়াইছিল।"
-      },
-      {
-       "en": "Its ruler replied with gifts and congratulations.",
-       "as": "তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল।"
-      }
-     ],
-     "id": "sut.u1.04"
-    },
-    {
-     "type": "tf",
-     "s": {
-      "en": "Suteuphaa cut all ties with the old homeland, Mong Mao.",
-      "as": "চুতেউফাই পুৰণি জন্মভূমি মং মাওৰ সৈতে সকলো সম্পৰ্ক ছিন্ন কৰিছিল।"
-     },
-     "answer": false,
-     "why": {
-      "en": "False. He sent an embassy to Mong Mao, and its ruler sent back gifts and congratulations.",
-      "as": "অশুদ্ধ। তেওঁ মং মাওলৈ দূত পঠিয়াইছিল, আৰু তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল।"
-     },
-     "id": "sut.u1.05"
-    },
-    {
-     "type": "whoami",
-     "clues": [
-      {
-       "en": "I was the eldest son of Sukaphaa.",
-       "as": "মই চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আছিলোঁ।"
-      },
-      {
-       "en": "I became king in 1268.",
-       "as": "মই ১২৬৮ চনত ৰজা হৈছিলোঁ।"
-      },
-      {
-       "en": "I sent an embassy to Mong Mao.",
-       "as": "মই মং মাওলৈ দূত পঠিয়াইছিলোঁ।"
-      }
-     ],
-     "options": [
-      {
-       "en": "Suteuphaa",
-       "as": "চুতেউফা"
-      },
-      {
-       "en": "Subinphaa",
-       "as": "চুবিনফা"
-      },
-      {
-       "en": "Sukhaangphaa",
-       "as": "চুখাংফা"
-      },
-      {
-       "en": "Sudangphaa",
-       "as": "চুদাংফা"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Suteuphaa, the second Ahom king (1268–1281).",
-      "as": "চুতেউফা, দ্বিতীয় আহোম ৰজা (১২৬৮–১২৮১)।"
-     },
-     "id": "sut.u1.06"
+     "id": "sut3.u1.06"
     },
     {
      "type": "match",
@@ -509,6 +420,264 @@
   },
   {
    "id": "u2",
+   "icon": "walk",
+   "title": {
+    "en": "A message home",
+    "as": "ঘৰলৈ বাতৰি"
+   },
+   "learned": [
+    {
+     "en": "He sent an embassy, a group of envoys, to Mong Mao",
+     "as": "তেওঁ মং মাওলৈ দূতৰ দল পঠিয়াইছিল"
+    },
+    {
+     "en": "Mong Mao, in Yunnan, was the land Sukaphaa had left in 1215",
+     "as": "ইউনানৰ মং মাও, যিখন দেশ চুকাফাই ১২১৫ চনত এৰিছিল"
+    },
+    {
+     "en": "Its ruler replied with gifts and congratulations",
+     "as": "তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল"
+    },
+    {
+     "en": "The young kingdom kept close ties with the Tai lands",
+     "as": "নতুন ৰাজ্যই টাই দেশবোৰৰ সৈতে ঘনিষ্ঠ সম্পৰ্ক ৰাখিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "art": "embassy",
+     "title": {
+      "en": "A message home",
+      "as": "জন্মভূমিলৈ বাৰ্তা"
+     },
+     "link": {
+      "lesson": 1,
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The journey",
+       "as": "যাত্ৰা"
+      },
+      "note": {
+       "en": "Mong Mao is the Tai homeland Sukaphaa left in 1215.",
+       "as": "মং মাও হৈছে সেই টাই জন্মভূমি, যিখন চুকাফাই ১২১৫ চনত এৰিছিল।"
+      },
+      "lessonId": "sukaphaa"
+     },
+     "text": [
+      {
+       "en": "Suteuphaa sent an <mark>embassy</mark> (a group of envoys) to the Ahoms' old homeland, [[mongmao]].",
+       "as": "চুতেউফাই আহোমসকলৰ পুৰণি জন্মভূমি [[mongmao]]লৈ <mark>দূত</mark> পঠিয়াইছিল।"
+      },
+      {
+       "en": "Its ruler replied with gifts and congratulations.",
+       "as": "তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল।"
+      }
+     ],
+     "id": "sut.u1.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Suteuphaa cut all ties with the old homeland, Mong Mao.",
+      "as": "চুতেউফাই পুৰণি জন্মভূমি মং মাওৰ সৈতে সকলো সম্পৰ্ক ছিন্ন কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He sent an embassy to Mong Mao, and its ruler sent back gifts and congratulations.",
+      "as": "অশুদ্ধ। তেওঁ মং মাওলৈ দূত পঠিয়াইছিল, আৰু তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল।"
+     },
+     "id": "sut.u1.05"
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "Suteuphaa sent an embassy to Mong",
+      "as": "চুতেউফাই দূত পঠিয়াইছিল মং"
+     },
+     "after": {
+      "en": ".",
+      "as": "লৈ।"
+     },
+     "answer": "Mao",
+     "asOptions": [
+      "মাও",
+      "কাং",
+      "লুং",
+      "তাই"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "Mao",
+      "as": "মাও"
+     },
+     "why": {
+      "en": "Mong Mao, the old Tai homeland in Yunnan.",
+      "as": "মং মাও, ইউনানৰ পুৰণি টাই জন্মভূমি।"
+     },
+     "id": "sut3.u2.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these in order.",
+      "as": "ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Sukaphaa leaves Mong Mao",
+       "as": "চুকাফাই মং মাও এৰে"
+      },
+      {
+       "en": "Sukaphaa reaches Namrup",
+       "as": "চুকাফা নামৰূপ পায়"
+      },
+      {
+       "en": "Sukaphaa dies at Charaideo",
+       "as": "চৰাইদেউত চুকাফাৰ মৃত্যু"
+      },
+      {
+       "en": "Suteuphaa's envoys reach Mong Mao",
+       "as": "চুতেউফাৰ দূত মং মাও পায়"
+      }
+     ],
+     "why": {
+      "en": "1215 → 1228 → 1268 → after 1268: the son wrote back to the land his father left.",
+      "as": "১২১৫ → ১২২৮ → ১২৬৮ → ১২৬৮ৰ পিছত: পিতৃয়ে এৰি অহা দেশলৈ পুত্ৰই বাতৰি পঠালে।"
+     },
+     "id": "sut3.u2.04",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The journey",
+       "as": "যাত্ৰা"
+      },
+      "note": {
+       "en": "Sukaphaa left Mong Mao in 1215 and reached Namrup in 1228.",
+       "as": "চুকাফাই ১২১৫ চনত মং মাও এৰি ১২২৮ চনত নামৰূপ পাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Part of a Tai world",
+      "as": "টাই জগতৰ অংশ"
+     },
+     "text": [
+      {
+       "en": "The Ahoms were Tai, like the people of Mong Mao and of [[mungkang]] in Upper Burma. They saw these lands as kin.",
+       "as": "আহোমসকল টাই আছিল, মং মাও আৰু উজনি বাৰ্মাৰ [[mungkang]]ৰ লোকৰ দৰে। এই দেশবোৰক তেওঁলোকে আত্মীয় বুলি ভাবিছিল।"
+      },
+      {
+       "en": "Kin could also become rivals. Soon the Shans of Mungkang would ask Suteuphaa for help, and a quarrel would follow.",
+       "as": "আত্মীয়ও প্ৰতিদ্বন্দ্বী হ'ব পাৰে। সোনকালে মুংকাঙৰ চানসকলে চুতেউফাৰ সহায় বিচাৰিব, আৰু তাৰ পৰা বিবাদ লাগিব।"
+      }
+     ],
+     "id": "sut3.u2.05"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Mong Mao",
+        "as": "মং মাও"
+       },
+       {
+        "en": "Old Tai homeland",
+        "as": "পুৰণি টাই জন্মভূমি"
+       }
+      ],
+      [
+       {
+        "en": "Embassy",
+        "as": "দূতৰ দল"
+       },
+       {
+        "en": "Group of envoys",
+        "as": "দূতসকল"
+       }
+      ],
+      [
+       {
+        "en": "Gifts",
+        "as": "উপহাৰ"
+       },
+       {
+        "en": "Mong Mao's reply",
+        "as": "মং মাওৰ উত্তৰ"
+       }
+      ],
+      [
+       {
+        "en": "Mungkang",
+        "as": "মুংকাং"
+       },
+       {
+        "en": "Tai kingdom in Upper Burma",
+        "as": "উজনি বাৰ্মাৰ টাই ৰাজ্য"
+       }
+      ]
+     ],
+     "why": {
+      "en": "The Ahoms kept up their links with the Tai lands of the east.",
+      "as": "আহোমসকলে পূবৰ টাই দেশবোৰৰ সৈতে সম্পৰ্ক ৰাখিছিল।"
+     },
+     "id": "sut3.u2.06"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was the eldest son of Sukaphaa.",
+       "as": "মই চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আছিলোঁ।"
+      },
+      {
+       "en": "I became king in 1268.",
+       "as": "মই ১২৬৮ চনত ৰজা হৈছিলোঁ।"
+      },
+      {
+       "en": "I sent an embassy to Mong Mao.",
+       "as": "মই মং মাওলৈ দূত পঠিয়াইছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Suteuphaa",
+       "as": "চুতেউফা"
+      },
+      {
+       "en": "Subinphaa",
+       "as": "চুবিনফা"
+      },
+      {
+       "en": "Sukhaangphaa",
+       "as": "চুখাংফা"
+      },
+      {
+       "en": "Sudangphaa",
+       "as": "চুদাংফা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Suteuphaa, the second Ahom king (1268–1281).",
+      "as": "চুতেউফা, দ্বিতীয় আহোম ৰজা (১২৬৮–১২৮১)।"
+     },
+     "id": "sut.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u3",
    "icon": "river",
    "title": {
     "en": "The Dikhou frontier",
@@ -516,20 +685,20 @@
    },
    "learned": [
     {
-     "en": "Kacharis lived in parts of Upper Assam",
-     "as": "উজনি অসমৰ কিছু অংশত কছাৰীসকল আছিল"
+     "en": "Kacharis lived close to the Ahoms in Upper Assam",
+     "as": "উজনি অসমত আহোমৰ ওচৰতে কছাৰীসকল আছিল"
     },
     {
      "en": "Suteuphaa made them leave the land east of the Dikhou",
-     "as": "চুতেউফাই তেওঁলোকক দিখৌৰ পূবৰ মাটি এৰিবলৈ বাধ্য কৰে"
+     "as": "চুতেউফাই তেওঁলোকক দিখৌৰ পূবৰ মাটি এৰিবলৈ বাধ্য কৰিলে"
     },
     {
      "en": "The Dikhou became the Ahom–Kachari border",
      "as": "দিখৌ আহোম–কছাৰী সীমা হ'ল"
     },
     {
-     "en": "Charaideo lay east of the river, safely inside Ahom land",
-     "as": "চৰাইদেউ নদীৰ পূবে, আহোম এলেকাৰ ভিতৰত"
+     "en": "Charaideo now lay safely inside Ahom land",
+     "as": "চৰাইদেউ এতিয়া আহোম এলেকাৰ ভিতৰত সুৰক্ষিত"
     }
    ],
    "steps": [
@@ -551,25 +720,6 @@
       }
      ],
      "id": "sut.u2.01"
-    },
-    {
-     "type": "story",
-     "img": "border-clash.webp",
-     "title": {
-      "en": "Clashes on the border",
-      "as": "সীমান্তত সংঘাত"
-     },
-     "text": [
-      {
-       "en": "Before any agreement, Ahom and Kachari fighters clashed along the river.",
-       "as": "কোনো চুক্তিৰ আগতে আহোম আৰু কছাৰী যোদ্ধাৰ মাজত নদীৰ কাষে কাষে সংঘাত হৈছিল।"
-      },
-      {
-       "en": "Gait sums it up in one line: in Suteuphaa's reign the Kacharis <mark>abandoned to the Ahoms</mark> the country east of the Dikhou.",
-       "as": "গেইটে এষাৰিতে কৈছে: চুতেউফাৰ দিনত কছাৰীসকলে দিখৌৰ পূবৰ দেশ <mark>আহোমক এৰি দিছিল</mark>।"
-      }
-     ],
-     "id": "sut2.u2.02"
     },
     {
      "type": "story",
@@ -628,35 +778,36 @@
      "id": "sut.u2.03"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Which land did the Kacharis have to leave?",
-      "as": "কছাৰীসকলে কোন মাটি এৰিব লগা হৈছিল?"
+     "type": "story",
+     "img": "border-clash.webp",
+     "title": {
+      "en": "Clashes on the border",
+      "as": "সীমান্তত সংঘাত"
      },
-     "options": [
+     "text": [
       {
-       "en": "The land east of the Dikhou",
-       "as": "দিখৌৰ পূব পাৰৰ মাটি"
+       "en": "Before any agreement, Ahom and Kachari fighters clashed along the river.",
+       "as": "কোনো চুক্তিৰ আগতে আহোম আৰু কছাৰী যোদ্ধাৰ মাজত নদীৰ কাষে কাষে সংঘাত হৈছিল।"
       },
       {
-       "en": "The land west of the Dikhou",
-       "as": "দিখৌৰ পশ্চিম পাৰৰ মাটি"
-      },
-      {
-       "en": "The land north of the Brahmaputra",
-       "as": "ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ মাটি"
-      },
-      {
-       "en": "The Patkai hills",
-       "as": "পাটকাই পাহাৰ"
+       "en": "Gait sums it up in one line: in Suteuphaa's reign the Kacharis <mark>abandoned to the Ahoms</mark> the country east of the Dikhou.",
+       "as": "গেইটে এষাৰিতে কৈছে: চুতেউফাৰ দিনত কছাৰীসকলে দিখৌৰ পূবৰ দেশ <mark>আহোমক এৰি দিছিল</mark>।"
       }
      ],
-     "answer": 0,
-     "why": {
-      "en": "East of the Dikhou. That side, with Charaideo, became Ahom land.",
-      "as": "দিখৌৰ পূব পাৰ। চৰাইদেউ থকা সেই পাৰ আহোম এলেকা হয়।"
+     "id": "sut2.u2.02"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Suteuphaa forced the Kacharis to leave the land WEST of the Dikhou.",
+      "as": "চুতেউফাই কছাৰীসকলক দিখৌৰ পশ্চিম পাৰৰ মাটি এৰিবলৈ বাধ্য কৰিছিল।"
      },
-     "id": "sut.u2.04"
+     "answer": false,
+     "why": {
+      "en": "False. It was the land EAST of the Dikhou. This east/west switch is a common exam trap.",
+      "as": "অশুদ্ধ। সেয়া আছিল দিখৌৰ পূব পাৰৰ মাটি। পূব/পশ্চিম সলনি কৰা পৰীক্ষাৰ এটা সাধাৰণ ফান্দ।"
+     },
+     "id": "sut.u2.07"
     },
     {
      "type": "fill",
@@ -687,48 +838,50 @@
      "id": "sut.u2.05"
     },
     {
-     "type": "odd",
+     "type": "spot",
      "q": {
-      "en": "Which one is NOT a river?",
-      "as": "কোনটো নদী নহয়?"
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
      },
-     "options": [
-      {
-       "en": "Dikhou",
-       "as": "দিখৌ"
-      },
-      {
-       "en": "Disang",
-       "as": "দিচাং"
-      },
-      {
-       "en": "Charaideo",
-       "as": "চৰাইদেউ"
-      },
-      {
-       "en": "Dihing",
-       "as": "ডিহিং"
-      }
-     ],
-     "answer": 2,
+     "tokens": {
+      "en": [
+       "The",
+       "Kacharis",
+       "left",
+       "the",
+       "land",
+       "east",
+       "of",
+       "the",
+       "Disang",
+       "river."
+      ],
+      "as": [
+       "কছাৰীসকলে",
+       "দিচাং",
+       "নদীৰ",
+       "পূবৰ",
+       "মাটি",
+       "এৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 8,
+      "as": 1
+     },
+     "fix": {
+      "en": "→ Dikhou",
+      "as": "→ দিখৌ"
+     },
+     "answerText": {
+      "en": "Disang → Dikhou",
+      "as": "দিচাং → দিখৌ"
+     },
      "why": {
-      "en": "Charaideo is the capital Sukaphaa founded. The others are rivers of Upper Assam.",
-      "as": "চৰাইদেউ হৈছে চুকাফাই পতা ৰাজধানী। বাকীবোৰ উজনি অসমৰ নদী।"
+      "en": "The border river was the Dikhou. The Disang flows further east.",
+      "as": "সীমাৰ নদী আছিল দিখৌ। দিচাং আৰু পূবে বৈ আছে।"
      },
-     "id": "sut.u2.06"
-    },
-    {
-     "type": "tf",
-     "s": {
-      "en": "Suteuphaa forced the Kacharis to leave the land WEST of the Dikhou.",
-      "as": "চুতেউফাই কছাৰীসকলক দিখৌৰ পশ্চিম পাৰৰ মাটি এৰিবলৈ বাধ্য কৰিছিল।"
-     },
-     "answer": false,
-     "why": {
-      "en": "False. It was the land EAST of the Dikhou. This east/west switch is a common exam trap.",
-      "as": "অশুদ্ধ। সেয়া আছিল দিখৌৰ পূব পাৰৰ মাটি। পূব/পশ্চিম সলনি কৰা পৰীক্ষাৰ এটা সাধাৰণ ফান্দ।"
-     },
-     "id": "sut.u2.07"
+     "id": "sut3.u3.07"
     },
     {
      "type": "picture",
@@ -756,7 +909,7 @@
    ]
   },
   {
-   "id": "u3",
+   "id": "u4",
    "icon": "moon",
    "title": {
     "en": "The rooster trick",
@@ -764,20 +917,20 @@
    },
    "learned": [
     {
-     "en": "A chronicle story: a canal to dig in one night",
-     "as": "বুৰঞ্জীৰ কাহিনী: এৰাতিতে খাল খান্দিব লাগিব"
+     "en": "A chronicle story: the Kacharis had to dig a canal in one night",
+     "as": "বুৰঞ্জীৰ কাহিনী: কছাৰীয়ে এৰাতিতে খাল খান্দিব লাগিব"
     },
     {
-     "en": "Ahom soldiers made roosters crow early",
-     "as": "আহোম সৈন্যই কুকুৰা আগতীয়াকৈ ডকালে"
+     "en": "On a full-moon night Ahom soldiers made the roosters crow early",
+     "as": "পূৰ্ণিমাৰ নিশা আহোম সৈন্যই কুকুৰা আগতীয়াকৈ ডকালে"
     },
     {
-     "en": "The Kacharis gave up the land; the Ahoms took it",
-     "as": "কছাৰীয়ে মাটি এৰিলে; আহোমে ল'লে"
+     "en": "The Kacharis thought dawn had come and gave up the land",
+     "as": "কছাৰীয়ে ৰাতিপুৱা হ'ল বুলি ভাবি মাটি এৰিলে"
     },
     {
-     "en": "It is a legend, told to explain a real border",
-     "as": "ই এটা কিংবদন্তি, প্ৰকৃত সীমাৰ ব্যাখ্যা"
+     "en": "It is a legend wrapped round a real border",
+     "as": "ই প্ৰকৃত সীমাৰ চাৰিওফালে গঢ়ি উঠা কিংবদন্তি"
     }
    ],
    "steps": [
@@ -857,56 +1010,6 @@
      "id": "sut.u3.03"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What made the Kacharis stop digging?",
-      "as": "কছাৰীসকলে কিয় খন্দা বন্ধ কৰিলে?"
-     },
-     "options": [
-      {
-       "en": "Roosters crowing early",
-       "as": "কুকুৰাৰ আগতীয়া ডাক"
-      },
-      {
-       "en": "A sudden flood",
-       "as": "হঠাৎ বানপানী"
-      },
-      {
-       "en": "An Ahom attack",
-       "as": "আহোমৰ আক্ৰমণ"
-      },
-      {
-       "en": "Heavy rain",
-       "as": "প্ৰবল বৰষুণ"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "The roosters made them think dawn had come, so they believed they had lost the challenge.",
-      "as": "কুকুৰাৰ ডাকত তেওঁলোকে ভাবিলে পুৱা হ'ল, সেয়ে চৰ্তত হাৰিলোঁ বুলি ভাবিলে।"
-     },
-     "id": "sut.u3.04"
-    },
-    {
-     "type": "story",
-     "img": "boundary-agreement.webp",
-     "title": {
-      "en": "Story and history",
-      "as": "কাহিনী আৰু ইতিহাস"
-     },
-     "text": [
-      {
-       "en": "The rooster tale is a <mark>legend</mark>. The history behind it is simple: the land east of the Dikhou passed to the Ahoms.",
-       "as": "কুকুৰাৰ কাহিনীটো এটা <mark>কিংবদন্তি</mark>। ইয়াৰ আঁৰৰ ইতিহাস সহজ: দিখৌৰ পূবৰ মাটি আহোমৰ হাতলৈ গ'ল।"
-      },
-      {
-       "en": "Chronicles often wrap real events in stories like this. Exams ask about the event: the Dikhou border.",
-       "as": "বুৰঞ্জীয়ে প্ৰায়ে প্ৰকৃত ঘটনাক এনে কাহিনীৰে মেৰিয়াই ৰাখে। পৰীক্ষাত ঘটনাটোৰ বিষয়ে সোধে: দিখৌ সীমা।"
-      }
-     ],
-     "id": "sut2.u3.05"
-    },
-    {
      "type": "spot",
      "q": {
       "en": "One word in this sentence is wrong. Tap it.",
@@ -960,6 +1063,48 @@
      "id": "sut.u3.05"
     },
     {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the challenge given to the Kacharis?",
+      "as": "কোনখন ছবিত কছাৰীক দিয়া প্ৰত্যাহ্বান দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "kachari-envoys.webp",
+      "boundary-agreement.webp",
+      "ahom-army.webp",
+      "suteuphaa-court.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The Kachari envoys",
+      "as": "কছাৰী দূত"
+     },
+     "why": {
+      "en": "Kachari envoys hear the challenge: dig a canal to the Dikhou before dawn.",
+      "as": "কছাৰী দূতে প্ৰত্যাহ্বান শুনে: ৰাতিপুৱাৰ আগতে দিখৌলৈ খাল খান্দিব লাগিব।"
+     },
+     "id": "sut3.u4.05"
+    },
+    {
+     "type": "story",
+     "img": "boundary-agreement.webp",
+     "title": {
+      "en": "Story and history",
+      "as": "কাহিনী আৰু ইতিহাস"
+     },
+     "text": [
+      {
+       "en": "The rooster tale is a <mark>legend</mark>. The history behind it is simple: the land east of the Dikhou passed to the Ahoms.",
+       "as": "কুকুৰাৰ কাহিনীটো এটা <mark>কিংবদন্তি</mark>। ইয়াৰ আঁৰৰ ইতিহাস সহজ: দিখৌৰ পূবৰ মাটি আহোমৰ হাতলৈ গ'ল।"
+      },
+      {
+       "en": "Chronicles often wrap real events in stories like this. Exams ask about the event: the Dikhou border.",
+       "as": "বুৰঞ্জীয়ে প্ৰায়ে প্ৰকৃত ঘটনাক এনে কাহিনীৰে মেৰিয়াই ৰাখে। পৰীক্ষাত ঘটনাটোৰ বিষয়ে সোধে: দিখৌ সীমা।"
+      }
+     ],
+     "id": "sut2.u3.05"
+    },
+    {
      "type": "unscramble",
      "q": {
       "en": "Unscramble the name of the people who lost the land.",
@@ -1007,7 +1152,7 @@
    ]
   },
   {
-   "id": "u4",
+   "id": "u5",
    "icon": "flag",
    "title": {
     "en": "War with the Naras",
@@ -1015,11 +1160,11 @@
    },
    "learned": [
     {
-     "en": "The Naras of Mungkang asked for help against Burma",
-     "as": "মুংকাঙৰ নৰাসকলে মানৰ বিৰুদ্ধে সহায় বিচাৰিলে"
+     "en": "The Naras of Mungkang, beaten by Burma, asked for help",
+     "as": "মানৰ হাতত পৰাস্ত মুংকাঙৰ নৰাসকলে সহায় বিচাৰিলে"
     },
     {
-     "en": "Suteuphaa asked for a Nara princess in return, and was refused",
+     "en": "Suteuphaa asked for a Nara princess in return and was refused",
      "as": "বিনিময়ত চুতেউফাই নৰা কুমাৰী বিচাৰিলে; নাকচ হ'ল"
     },
     {
@@ -1027,7 +1172,7 @@
      "as": "বুঢ়াগোহাঁইৰ সৈন্য পৰাস্ত হ'ল আৰু তেওঁ নিহত হ'ল"
     },
     {
-     "en": "The Borgohain made a deal, was jailed, then pardoned",
+     "en": "The Borgohain made terms, was jailed, then pardoned",
      "as": "বৰগোহাঁইয়ে চুক্তি কৰিলে, বন্দী হ'ল, পিছত ক্ষমা পালে"
     }
    ],
@@ -1057,37 +1202,6 @@
        "as": "মং মাওলৈ দূত: পূবৰ টাই দেশৰ সৈতে আহোমৰ ঘনিষ্ঠ সম্পৰ্ক আছিল।"
       }
      }
-    },
-    {
-     "type": "mcq",
-     "q": {
-      "en": "Why did the quarrel with the Naras start?",
-      "as": "নৰাৰ সৈতে বিবাদ কিয় আৰম্ভ হৈছিল?"
-     },
-     "options": [
-      {
-       "en": "Their king refused Suteuphaa a daughter in marriage",
-       "as": "তেওঁলোকৰ ৰজাই চুতেউফাক জীয়েক বিয়া দিবলৈ অস্বীকাৰ কৰিলে"
-      },
-      {
-       "en": "They raided Charaideo",
-       "as": "তেওঁলোকে চৰাইদেউ আক্ৰমণ কৰিলে"
-      },
-      {
-       "en": "They stopped paying tribute",
-       "as": "তেওঁলোকে কৰ বন্ধ কৰিলে"
-      },
-      {
-       "en": "They sheltered the Kacharis",
-       "as": "তেওঁলোকে কছাৰীক আশ্ৰয় দিলে"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Help against Burma was offered for a marriage; the refusal led to war.",
-      "as": "মানৰ বিৰুদ্ধে সহায়ৰ বিনিময়ত বিবাহৰ চৰ্ত আছিল; নাকচ কৰাত যুদ্ধ লাগিল।"
-     },
-     "id": "sut2.u4.02"
     },
     {
      "type": "story",
@@ -1195,6 +1309,75 @@
      "id": "sut.u4.03"
     },
     {
+     "type": "order",
+     "q": {
+      "en": "Put the Nara war in order.",
+      "as": "নৰা যুদ্ধৰ ঘটনাবোৰ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Burma defeats the Naras",
+       "as": "মানে নৰাক হৰুৱায়"
+      },
+      {
+       "en": "The Naras ask Suteuphaa for help",
+       "as": "নৰাই চুতেউফাৰ সহায় বিচাৰে"
+      },
+      {
+       "en": "A princess is asked for and refused",
+       "as": "কুমাৰী বিচৰা হয়; নাকচ"
+      },
+      {
+       "en": "The Burhagohain's army is beaten",
+       "as": "বুঢ়াগোহাঁইৰ সৈন্য পৰাস্ত"
+      },
+      {
+       "en": "The Borgohain makes terms",
+       "as": "বৰগোহাঁইৰ চুক্তি"
+      }
+     ],
+     "why": {
+      "en": "Help asked → a price named → refused → war → a deal instead of a second battle.",
+      "as": "সহায় বিচৰা → চৰ্ত → নাকচ → যুদ্ধ → দ্বিতীয় যুঁজৰ সলনি চুক্তি।"
+     },
+     "id": "sut3.u5.06"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "The Naras were the Shans of",
+      "as": "নৰাসকল আছিল"
+     },
+     "after": {
+      "en": ".",
+      "as": "ৰ চান।"
+     },
+     "options": [
+      {
+       "en": "Mungkang",
+       "as": "মুংকাং"
+      },
+      {
+       "en": "Mong Mao",
+       "as": "মং মাও"
+      },
+      {
+       "en": "Kamata",
+       "as": "কামতা"
+      },
+      {
+       "en": "Sadiya",
+       "as": "সদিয়া"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Mungkang (Mogaung) in Upper Burma. Mong Mao was Sukaphaa's homeland.",
+      "as": "উজনি বাৰ্মাৰ মুংকাং (মগং)। মং মাও চুকাফাৰ জন্মভূমি।"
+     },
+     "id": "sut2.u4.08"
+    },
+    {
      "type": "match",
      "q": {
       "en": "Tap the matching pairs.",
@@ -1247,46 +1430,11 @@
       "as": "চুকাফাই সৃষ্টি কৰা দুয়োজন ডাঙৰীয়া, বুঢ়াগোহাঁই আৰু বৰগোহাঁই, নৰাসকলৰ বিৰুদ্ধে দলৰ নেতৃত্ব দিছিল।"
      },
      "id": "sut.u4.04"
-    },
-    {
-     "type": "inline",
-     "before": {
-      "en": "The Naras were the Shans of",
-      "as": "নৰাসকল আছিল"
-     },
-     "after": {
-      "en": ".",
-      "as": "ৰ চান।"
-     },
-     "options": [
-      {
-       "en": "Mungkang",
-       "as": "মুংকাং"
-      },
-      {
-       "en": "Mong Mao",
-       "as": "মং মাও"
-      },
-      {
-       "en": "Kamata",
-       "as": "কামতা"
-      },
-      {
-       "en": "Sadiya",
-       "as": "সদিয়া"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Mungkang (Mogaung) in Upper Burma. Mong Mao was Sukaphaa's homeland.",
-      "as": "উজনি বাৰ্মাৰ মুংকাং (মগং)। মং মাও চুকাফাৰ জন্মভূমি।"
-     },
-     "id": "sut2.u4.08"
     }
    ]
   },
   {
-   "id": "u5",
+   "id": "u6",
    "icon": "star",
    "title": {
     "en": "The end of the reign",
@@ -1294,20 +1442,20 @@
    },
    "learned": [
     {
-     "en": "Suteuphaa died in 1281",
-     "as": "১২৮১ চনত চুতেউফাৰ মৃত্যু"
+     "en": "Suteuphaa died in 1281, after 13 years",
+     "as": "১৩ বছৰৰ পিছত ১২৮১ চনত চুতেউফাৰ মৃত্যু"
     },
     {
      "en": "His eldest son Subinphaa became king",
-     "as": "জ্যেষ্ঠ পুত্ৰ চুবিনফা ৰজা হয়"
+     "as": "জ্যেষ্ঠ পুত্ৰ চুবিনফা ৰজা হ'ল"
     },
     {
      "en": "The Naras were a learned people: astronomers and writers",
      "as": "নৰাসকল শিক্ষিত লোক আছিল: জ্যোতিষী আৰু লিখক"
     },
     {
-     "en": "The kingdom kept Sukaphaa's two Gohains",
-     "as": "ৰাজ্যত চুকাফাৰ দুজন গোহাঁই থাকিল"
+     "en": "Sukaphaa's two Gohains still ran the kingdom",
+     "as": "চুকাফাৰ দুজন গোহাঁইয়ে তেতিয়াও ৰাজ্য চলাইছিল"
     }
    ],
    "steps": [
@@ -1427,39 +1575,38 @@
      "id": "sut.u4.06"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Suteuphaa was succeeded by his son",
-      "as": "চুতেউফাৰ পিছত তেওঁৰ পুত্ৰ"
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of the next king.",
+      "as": "পৰৱৰ্তী ৰজাৰ নামটো সজাই লিখা।"
      },
-     "after": {
-      "en": ".",
-      "as": "ৰজা হয়।"
+     "word": {
+      "en": [
+       "S",
+       "U",
+       "B",
+       "I",
+       "N",
+       "P",
+       "H",
+       "A",
+       "A"
+      ],
+      "as": [
+       "চু",
+       "বিন",
+       "ফা"
+      ]
      },
-     "options": [
-      {
-       "en": "Subinphaa",
-       "as": "চুবিনফা"
-      },
-      {
-       "en": "Sukhaangphaa",
-       "as": "চুখাংফা"
-      },
-      {
-       "en": "Sudangphaa",
-       "as": "চুদাংফা"
-      },
-      {
-       "en": "Suhungmung",
-       "as": "চুহুংমুং"
-      }
-     ],
-     "answer": 0,
+     "answerText": {
+      "en": "SUBINPHAA",
+      "as": "চুবিনফা"
+     },
      "why": {
-      "en": "Subinphaa (1281–1293) was the eldest of Suteuphaa's four sons.",
-      "as": "চুবিনফা (১২৮১–১২৯৩) আছিল চুতেউফাৰ চাৰিজন পুত্ৰৰ ভিতৰত জ্যেষ্ঠ।"
+      "en": "Subinphaa, Suteuphaa's eldest son, ruled 1281–1293.",
+      "as": "চুতেউফাৰ জ্যেষ্ঠ পুত্ৰ চুবিনফাই ১২৮১–১২৯৩ লৈকে ৰাজত্ব কৰিছিল।"
      },
-     "id": "sut.u4.07"
+     "id": "sut3.u6.04"
     },
     {
      "type": "whoami",
@@ -1501,6 +1648,32 @@
       "as": "চুতেউফা (১২৬৮–১২৮১)।"
      },
      "id": "sut2.u5.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Suteuphaa created the office of Borgohain.",
+      "as": "চুতেউফাই বৰগোহাঁই পদ সৃষ্টি কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Sukaphaa created both the Burhagohain and the Borgohain.",
+      "as": "অশুদ্ধ। চুকাফাই বুঢ়াগোহাঁই আৰু বৰগোহাঁই দুয়োটা পদ সৃষ্টি কৰিছিল।"
+     },
+     "id": "sut3.u6.06",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Running the kingdom",
+       "as": "ৰাজ্য পৰিচালনা"
+      },
+      "note": {
+       "en": "Sukaphaa created the Burhagohain and Borgohain.",
+       "as": "চুকাফাই বুঢ়াগোহাঁই আৰু বৰগোহাঁই সৃষ্টি কৰিছিল।"
+      }
+     }
     },
     {
      "type": "match",
@@ -1555,38 +1728,6 @@
       "as": "চাৰিটা যোৰাত গোটেই ৰাজত্বকাল।"
      },
      "id": "sut2.u5.06"
-    },
-    {
-     "type": "mcq",
-     "q": {
-      "en": "Consider the statements:<br>1. Suteuphaa ruled for 13 years.<br>2. Suteuphaa created the office of Borgohain.<br>Which is/are correct?",
-      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুতেউফাই ১৩ বছৰ ৰাজত্ব কৰিছিল।<br>২. চুতেউফাই বৰগোহাঁই পদ সৃষ্টি কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
-     },
-     "options": [
-      {
-       "en": "1 only",
-       "as": "কেৱল ১"
-      },
-      {
-       "en": "2 only",
-       "as": "কেৱল ২"
-      },
-      {
-       "en": "Both 1 and 2",
-       "as": "১ আৰু ২ দুয়োটা"
-      },
-      {
-       "en": "Neither 1 nor 2",
-       "as": "১ বা ২ কোনোটো নহয়"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Only 1. The Borgohain was created by Sukaphaa.",
-      "as": "কেৱল ১। বৰগোহাঁই পদ চুকাফাই সৃষ্টি কৰিছিল।"
-     },
-     "small": true,
-     "id": "sut2.u5.07"
     }
    ]
   }
@@ -1604,130 +1745,6 @@
    }
   ],
   "steps": [
-   {
-    "type": "mcq",
-    "q": {
-     "en": "Consider the statements:<br>1. Suteuphaa was the eldest son of Sukaphaa.<br>2. Suteuphaa forced the Kacharis to leave the land west of the Dikhou.<br>Which is/are correct?",
-     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুতেউফা চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আছিল।<br>২. চুতেউফাই কছাৰীসকলক দিখৌৰ পশ্চিম পাৰৰ মাটি এৰিবলৈ বাধ্য কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
-    },
-    "options": [
-     {
-      "en": "1 only",
-      "as": "কেৱল ১"
-     },
-     {
-      "en": "2 only",
-      "as": "কেৱল ২"
-     },
-     {
-      "en": "Both 1 and 2",
-      "as": "১ আৰু ২ দুয়োটা"
-     },
-     {
-      "en": "Neither 1 nor 2",
-      "as": "১ বা ২ কোনোটো নহয়"
-     }
-    ],
-    "answer": 0,
-    "small": true,
-    "why": {
-     "en": "Only 1. The Kacharis left the land EAST of the Dikhou.",
-     "as": "কেৱল ১। কছাৰীসকলে দিখৌৰ পূব পাৰৰ মাটি এৰিছিল।"
-    },
-    "id": "sut.test.01"
-   },
-   {
-    "type": "order",
-    "q": {
-     "en": "Put the first three Ahom kings in order.",
-     "as": "প্ৰথম তিনিজন আহোম ৰজাক ক্ৰম অনুসৰি সজোৱা।"
-    },
-    "items": [
-     {
-      "en": "Sukaphaa (1228)",
-      "as": "চুকাফা (১২২৮)"
-     },
-     {
-      "en": "Suteuphaa (1268)",
-      "as": "চুতেউফা (১২৬৮)"
-     },
-     {
-      "en": "Subinphaa (1281)",
-      "as": "চুবিনফা (১২৮১)"
-     }
-    ],
-    "why": {
-     "en": "Father, son, grandson: Sukaphaa → Suteuphaa → Subinphaa.",
-     "as": "পিতৃ, পুত্ৰ, নাতি: চুকাফা → চুতেউফা → চুবিনফা।"
-    },
-    "id": "sut.test.02"
-   },
-   {
-    "type": "map",
-    "q": {
-     "en": "Tap the river that became the Ahom–Kachari boundary.",
-     "as": "আহোম–কছাৰী সীমা হোৱা নদীখন টিপা।"
-    },
-    "target": "dikhou",
-    "choices": [
-     "dikhou",
-     "disang",
-     "dihing"
-    ],
-    "answerText": {
-     "en": "The Dikhou",
-     "as": "দিখৌ"
-    },
-    "why": {
-     "en": "The Kacharis left the land east of the Dikhou.",
-     "as": "কছাৰীসকলে দিখৌৰ পূব পাৰৰ মাটি এৰিছিল।"
-    },
-    "id": "sut.test.03"
-   },
-   {
-    "type": "tf",
-    "s": {
-     "en": "The army sent against the Naras under the Burhagohain won the war.",
-     "as": "বুঢ়াগোহাঁইৰ নেতৃত্বত নৰাসকলৰ বিৰুদ্ধে পঠোৱা সৈন্যই যুদ্ধত জয়ী হৈছিল।"
-    },
-    "answer": false,
-    "why": {
-     "en": "False. The Burhagohain's army was defeated.",
-     "as": "অশুদ্ধ। বুঢ়াগোহাঁইৰ সৈন্য পৰাজিত হৈছিল।"
-    },
-    "id": "sut.test.04"
-   },
-   {
-    "type": "odd",
-    "q": {
-     "en": "Which one did NOT happen in Suteuphaa's reign?",
-     "as": "কোনটো চুতেউফাৰ ৰাজত্বকালত হোৱা নাছিল?"
-    },
-    "options": [
-     {
-      "en": "Embassy to Mong Mao",
-      "as": "মং মাওলৈ দূত"
-     },
-     {
-      "en": "Kacharis leave east of the Dikhou",
-      "as": "কছাৰীয়ে দিখৌৰ পূব পাৰ এৰে"
-     },
-     {
-      "en": "Charaideo founded",
-      "as": "চৰাইদেউ স্থাপন"
-     },
-     {
-      "en": "Expedition against the Naras",
-      "as": "নৰাৰ বিৰুদ্ধে অভিযান"
-     }
-    ],
-    "answer": 2,
-    "why": {
-     "en": "Charaideo was founded by Sukaphaa in 1253, before Suteuphaa's reign.",
-     "as": "চৰাইদেউ ১২৫৩ চনত চুকাফাই স্থাপন কৰিছিল, চুতেউফাৰ ৰাজত্বৰ আগতে।"
-    },
-    "id": "sut.test.05"
-   },
    {
     "type": "whoami",
     "clues": [
@@ -1770,99 +1787,26 @@
     "id": "sut.test.06"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "Suteuphaa's reign ended in",
-     "as": "চুতেউফাৰ ৰাজত্ব"
-    },
-    "after": {
-     "en": ".",
-     "as": "চনত শেষ হয়।"
-    },
-    "options": [
-     {
-      "en": "1268",
-      "as": "১২৬৮"
-     },
-     {
-      "en": "1281",
-      "as": "১২৮১"
-     },
-     {
-      "en": "1293",
-      "as": "১২৯৩"
-     },
-     {
-      "en": "1253",
-      "as": "১২৫৩"
-     }
-    ],
-    "answer": 1,
-    "big": true,
-    "why": {
-     "en": "1268–1281. Subinphaa then ruled until 1293.",
-     "as": "১২৬৮–১২৮১। তাৰ পিছত চুবিনফাই ১২৯৩ লৈকে ৰাজত্ব কৰে।"
-    },
-    "id": "sut.test.07"
-   },
-   {
-    "type": "mcq",
+    "type": "map",
     "q": {
-     "en": "The Ahom name Mung-dun-sun-kham means:",
-     "as": "আহোম নাম মুং-দুন-চুন-খামৰ অৰ্থ:"
+     "en": "Tap the river that became the Ahom–Kachari boundary.",
+     "as": "আহোম–কছাৰী সীমা হোৱা নদীখন টিপা।"
     },
-    "options": [
-     {
-      "en": "Country full of golden gardens",
-      "as": "সোণৰ বাগিচাৰে ভৰা দেশ"
-     },
-     {
-      "en": "A shining town on a hilltop",
-      "as": "পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ"
-     },
-     {
-      "en": "Land of the Tai",
-      "as": "টাইৰ দেশ"
-     },
-     {
-      "en": "River of gold",
-      "as": "সোণৰ নদী"
-     }
+    "target": "dikhou",
+    "choices": [
+     "dikhou",
+     "disang",
+     "dihing"
     ],
-    "answer": 0,
-    "why": {
-     "en": "The country full of golden gardens.",
-     "as": "সোণৰ বাগিচাৰে ভৰা দেশ।"
-    },
-    "id": "sut2.test.08"
-   },
-   {
-    "type": "fill",
-    "before": {
-     "en": "The Burhagohain was killed fighting the",
-     "as": "বুঢ়াগোহাঁই যুঁজত নিহত হৈছিল"
-    },
-    "after": {
-     "en": "of Mungkang.",
-     "as": "মুংকাঙৰ বিৰুদ্ধে।"
-    },
-    "answer": "Naras",
-    "asOptions": [
-     "নৰা",
-     "কছাৰী",
-     "চুতীয়া",
-     "কামতা"
-    ],
-    "asAnswer": 0,
     "answerText": {
-     "en": "Naras",
-     "as": "নৰা"
+     "en": "The Dikhou",
+     "as": "দিখৌ"
     },
     "why": {
-     "en": "The Naras.",
-     "as": "নৰাৰ বিৰুদ্ধে।"
+     "en": "The Kacharis left the land east of the Dikhou.",
+     "as": "কছাৰীসকলে দিখৌৰ পূব পাৰৰ মাটি এৰিছিল।"
     },
-    "id": "sut2.test.09"
+    "id": "sut.test.03"
    },
    {
     "type": "timeline",
@@ -1914,6 +1858,212 @@
      "as": "১২২৮ → ১২৫৩ → ১২৬৮ → ১২৮১ → ১২৮১–১২৯৩।"
     },
     "id": "sut2.test.10"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the army sent against the Naras?",
+     "as": "কোনখন ছবিত নৰাৰ বিৰুদ্ধে পঠোৱা সৈন্য দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "ahom-army.webp",
+     "kachari-envoys.webp",
+     "charaideo-sunset.webp",
+     "dikhou-settled.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The Ahom army",
+     "as": "আহোম সৈন্য"
+    },
+    "why": {
+     "en": "The Ahom army marching under the Burhagohain.",
+     "as": "বুঢ়াগোহাঁইৰ নেতৃত্বত আহোম সৈন্য।"
+    },
+    "id": "sut3.test.04"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The army sent against the Naras under the Burhagohain won the war.",
+     "as": "বুঢ়াগোহাঁইৰ নেতৃত্বত নৰাসকলৰ বিৰুদ্ধে পঠোৱা সৈন্যই যুদ্ধত জয়ী হৈছিল।"
+    },
+    "answer": false,
+    "why": {
+     "en": "False. The Burhagohain's army was defeated.",
+     "as": "অশুদ্ধ। বুঢ়াগোহাঁইৰ সৈন্য পৰাজিত হৈছিল।"
+    },
+    "id": "sut.test.04"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the border river.",
+     "as": "সীমাৰ নদীখনৰ নাম সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "D",
+      "I",
+      "K",
+      "H",
+      "O",
+      "U"
+     ],
+     "as": [
+      "দি",
+      "খৌ"
+     ]
+    },
+    "answerText": {
+     "en": "DIKHOU",
+     "as": "দিখৌ"
+    },
+    "why": {
+     "en": "The Dikhou.",
+     "as": "দিখৌ।"
+    },
+    "id": "sut3.test.06"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the first three Ahom kings in order.",
+     "as": "প্ৰথম তিনিজন আহোম ৰজাক ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Sukaphaa (1228)",
+      "as": "চুকাফা (১২২৮)"
+     },
+     {
+      "en": "Suteuphaa (1268)",
+      "as": "চুতেউফা (১২৬৮)"
+     },
+     {
+      "en": "Subinphaa (1281)",
+      "as": "চুবিনফা (১২৮১)"
+     }
+    ],
+    "why": {
+     "en": "Father, son, grandson: Sukaphaa → Suteuphaa → Subinphaa.",
+     "as": "পিতৃ, পুত্ৰ, নাতি: চুকাফা → চুতেউফা → চুবিনফা।"
+    },
+    "id": "sut.test.02"
+   },
+   {
+    "type": "fill",
+    "before": {
+     "en": "The Burhagohain was killed fighting the",
+     "as": "বুঢ়াগোহাঁই যুঁজত নিহত হৈছিল"
+    },
+    "after": {
+     "en": "of Mungkang.",
+     "as": "মুংকাঙৰ বিৰুদ্ধে।"
+    },
+    "answer": "Naras",
+    "asOptions": [
+     "নৰা",
+     "কছাৰী",
+     "চুতীয়া",
+     "কামতা"
+    ],
+    "asAnswer": 0,
+    "answerText": {
+     "en": "Naras",
+     "as": "নৰা"
+    },
+    "why": {
+     "en": "The Naras.",
+     "as": "নৰাৰ বিৰুদ্ধে।"
+    },
+    "id": "sut2.test.09"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Burhagohain",
+       "as": "বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Killed by the Naras",
+       "as": "নৰাৰ হাতত নিহত"
+      }
+     ],
+     [
+      {
+       "en": "Borgohain",
+       "as": "বৰগোহাঁই"
+      },
+      {
+       "en": "Made terms, jailed",
+       "as": "চুক্তি, বন্দী"
+      }
+     ],
+     [
+      {
+       "en": "Kacharis",
+       "as": "কছাৰী"
+      },
+      {
+       "en": "Left the land east of the Dikhou",
+       "as": "দিখৌৰ পূবৰ মাটি এৰিলে"
+      }
+     ],
+     [
+      {
+       "en": "Mong Mao",
+       "as": "মং মাও"
+      },
+      {
+       "en": "Sent gifts back",
+       "as": "উপহাৰ পঠালে"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Who did what in Suteuphaa's reign.",
+     "as": "চুতেউফাৰ দিনত কোনে কি কৰিছিল।"
+    },
+    "id": "sut3.test.09"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Suteuphaa was the eldest son of Sukaphaa.<br>2. Suteuphaa forced the Kacharis to leave the land west of the Dikhou.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুতেউফা চুকাফাৰ জ্যেষ্ঠ পুত্ৰ আছিল।<br>২. চুতেউফাই কছাৰীসকলক দিখৌৰ পশ্চিম পাৰৰ মাটি এৰিবলৈ বাধ্য কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "small": true,
+    "why": {
+     "en": "Only 1. The Kacharis left the land EAST of the Dikhou.",
+     "as": "কেৱল ১। কছাৰীসকলে দিখৌৰ পূব পাৰৰ মাটি এৰিছিল।"
+    },
+    "id": "sut.test.01"
    }
   ]
  }
