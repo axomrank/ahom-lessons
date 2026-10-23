@@ -1,0 +1,714 @@
+{
+ "id": "suhung",
+ "no": 24,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Suhung",
+  "as": "স্বৰ্গদেউ সমগুৰিয়া ৰজা"
+ },
+ "reign": {
+  "en": "Reign 1674–1675",
+  "as": "ৰাজত্বকাল ১৬৭৪–১৬৭৫"
+ },
+ "portrait": "suhung-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), Gait ch. VII, pp. 153–160",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Nobles choose Udayaditya's son; Debera kills opponents and installs Suhung from Samaguri; queen a widow of Jayadhvaj; Tipam Raja's revolt crushed; Suhung plots against Debera, is warned, and is killed after 21 days"
+  },
+  {
+   "title": "Suhung",
+   "url": "https://en.wikipedia.org/wiki/Suhung",
+   "used_for": "Samaguria Roja, 1674–1675"
+  }
+ ],
+ "review_notes": "Dates follow the course list and Wikipedia; Gait's chronology for 1672–1675 runs about a year later (Udayaditya deposed August 1673, Ramdhwaj poisoned March 1675).",
+ "buildsOn": {
+  "no": 22,
+  "title": {
+   "en": "Udayaditya Singha",
+   "as": "উদয়াদিত্য সিংহ"
+  },
+  "id": "udayaditya-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1674",
+    "t": {
+     "en": "Set up by Debera",
+     "as": "দেবেৰাই পাতে"
+    }
+   },
+   {
+    "y": "1675",
+    "t": {
+     "en": "Killed after about 21 days",
+     "as": "প্ৰায় ২১ দিনৰ পিছত নিহত"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.45,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "dihing",
+   "garhgaon",
+   "charaideo",
+   "sivasagar",
+   "namrup"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "sivasagar": {
+    "pos": "w",
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    }
+   },
+   "namrup": {
+    "pos": "n"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.05,
+     94.3
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "Twenty-one days",
+    "as": "একৈশ দিন"
+   },
+   "learned": [
+    {
+     "en": "The nobles wanted Udayaditya's son; Debera overruled them by force",
+     "as": "বিষয়াই উদয়াদিত্যৰ পুত্ৰক বিচাৰিছিল; দেবেৰাই বলেৰে নাকচ কৰিলে"
+    },
+    {
+     "en": "Debera installed Suhung, a prince from Samaguri: the Samaguria Roja",
+     "as": "দেবেৰাই সমগুৰিৰ কোঁৱৰ চুহুঙক পাতিলে: সমগুৰীয়া ৰজা"
+    },
+    {
+     "en": "He crushed the Tipam Raja's revolt",
+     "as": "তেওঁ তিপাম ৰজাৰ বিদ্ৰোহ দমন কৰিলে"
+    },
+    {
+     "en": "Suhung plotted against Debera and was killed after 21 days",
+     "as": "চুহুঙে দেবেৰাৰ বিৰুদ্ধে ষড়যন্ত্ৰ কৰাত ২১ দিনৰ পিছত নিহত"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "samaguria.webp",
+     "title": {
+      "en": "A puppet king",
+      "as": "পুতলা ৰজা"
+     },
+     "text": [
+      {
+       "en": "The nobles chose Udayaditya's son. Debera called in his armed band, killed his opponents and crowned [[suhung]], a prince from Samaguri.",
+       "as": "বিষয়াসকলে উদয়াদিত্যৰ পুত্ৰক বাছিলে। দেবেৰাই অস্ত্ৰধাৰী দল মাতি বিৰোধীক হত্যা কৰিলে আৰু সমগুৰিৰ কোঁৱৰ [[suhung]]ক অভিষেক কৰিলে।"
+      },
+      {
+       "en": "So he is the <mark>Samaguria Roja</mark>. When the Tipam Raja marched on the capital, Debera beat and executed him.",
+       "as": "সেয়ে তেওঁ <mark>সমগুৰীয়া ৰজা</mark>। তিপাম ৰজাই ৰাজধানীলৈ আগবাঢ়োঁতে দেবেৰাই তেওঁক হৰুৱাই প্ৰাণদণ্ড দিলে।"
+      }
+     ],
+     "id": "shg.u1.01",
+     "link": {
+      "lesson": 23,
+      "lessonId": "ramdhwaj-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Poison in the palace",
+       "as": "ৰাজপ্ৰসাদত বিষ"
+      },
+      "note": {
+       "en": "Debera had just poisoned King Ramdhwaj.",
+       "as": "দেবেৰাই সদ্যহে ৰজা ৰামধ্বজক বিষ খুৱাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Suhung was chosen by the council of nobles.",
+      "as": "চুহুঙক বিষয়াসকলৰ সভাই বাছিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. The nobles wanted Udayaditya's son; Debera forced Suhung on them.",
+      "as": "অশুদ্ধ। বিষয়াসকলে উদয়াদিত্যৰ পুত্ৰক বিচাৰিছিল; দেবেৰাই বলেৰে চুহুঙক পাতিলে।"
+     },
+     "id": "shg.u1.02"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his popular name.",
+      "as": "তেওঁৰ জনপ্ৰিয় নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "S",
+       "A",
+       "M",
+       "A",
+       "G",
+       "U",
+       "R",
+       "I",
+       "A"
+      ],
+      "as": [
+       "স",
+       "ম",
+       "গু",
+       "ৰী",
+       "য়া"
+      ]
+     },
+     "answerText": {
+      "en": "SAMAGURIA",
+      "as": "সমগুৰীয়া"
+     },
+     "why": {
+      "en": "Samaguria Roja, from Samaguri.",
+      "as": "সমগুৰীয়া ৰজা, সমগুৰিৰ পৰা।"
+     },
+     "id": "shg.u1.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The puppet bites",
+      "as": "পুতলাৰ প্ৰতিবাদ"
+     },
+     "text": [
+      {
+       "en": "Suhung saw he was a puppet and planned to kill Debera. A servant warned Debera.",
+       "as": "চুহুঙে বুজিলে তেওঁ পুতলা মাথোন, আৰু দেবেৰাক হত্যাৰ পৰিকল্পনা কৰিলে। এজন দাসে দেবেৰাক সতৰ্ক কৰিলে।"
+      },
+      {
+       "en": "Debera had the king killed after a reign of only <mark>21 days</mark>.",
+       "as": "মাত্ৰ <mark>২১ দিন</mark>ৰ ৰাজত্বৰ পিছত দেবেৰাই ৰজাক হত্যা কৰালে।"
+      }
+     ],
+     "id": "shg.u1.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Debera made me king.",
+       "as": "দেবেৰাই মোক ৰজা পাতিছিল।"
+      },
+      {
+       "en": "I came from Samaguri.",
+       "as": "মই সমগুৰিৰ পৰা আহিছিলোঁ।"
+      },
+      {
+       "en": "I ruled about 21 days.",
+       "as": "মই প্ৰায় ২১ দিন ৰাজত্ব কৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Suhung",
+       "as": "চুহুং"
+      },
+      {
+       "en": "Gobar Roja",
+       "as": "গোবৰ ৰজা"
+      },
+      {
+       "en": "Sujinphaa",
+       "as": "চুজিনফা"
+      },
+      {
+       "en": "Sulikphaa",
+       "as": "চুলিকফা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Suhung, the Samaguria Roja.",
+      "as": "চুহুং, সমগুৰীয়া ৰজা।"
+     },
+     "id": "shg.u1.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these in order.",
+      "as": "ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Ramdhwaj poisoned",
+       "as": "ৰামধ্বজক বিষ"
+      },
+      {
+       "en": "Debera crowns Suhung",
+       "as": "দেবেৰাই চুহুঙক পাতে"
+      },
+      {
+       "en": "Tipam Raja's revolt crushed",
+       "as": "তিপাম ৰজাৰ বিদ্ৰোহ দমন"
+      },
+      {
+       "en": "Suhung killed",
+       "as": "চুহুং নিহত"
+      }
+     ],
+     "why": {
+      "en": "All within a few weeks.",
+      "as": "কেইসপ্তাহমানৰ ভিতৰতে।"
+     },
+     "id": "shg.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "hands",
+   "title": {
+    "en": "Kings and kingmakers",
+    "as": "ৰজা আৰু ৰজা-নিৰ্মাতা"
+   },
+   "learned": [
+    {
+     "en": "The 1670s were ruled by three kingmakers",
+     "as": "১৬৭০ৰ দশক তিনিজন ৰজা-নিৰ্মাতাৰ হাতত"
+    },
+    {
+     "en": "Debera Borbarua: Ramdhwaj, Suhung, Gobar",
+     "as": "দেবেৰা বৰবৰুৱা: ৰামধ্বজ, চুহুং, গোবৰ"
+    },
+    {
+     "en": "Atan Burhagohain: Sujinphaa, Sudoiphaa",
+     "as": "আতন বুঢ়াগোহাঁই: চুজিনফা, চুদৈফা"
+    },
+    {
+     "en": "Laluk Sola Borphukan: Sulikphaa",
+     "as": "লালুক চোলা বৰফুকন: চুলিকফা"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Suhung ruled for about 21 days.",
+      "as": "মনত পেলোৱা: চুহুঙে প্ৰায় ২১ দিন ৰাজত্ব কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "shg.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "Twenty-one days.",
+       "as": "একৈশ দিন।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Three kingmakers",
+      "as": "তিনিজন ৰজা-নিৰ্মাতা"
+     },
+     "text": [
+      {
+       "en": "Remember the decade through its <mark>three kingmakers</mark>: [[debera]], then [[atan-burhagohain]], then [[laluk-sola]].",
+       "as": "এই দশকটো <mark>তিনিজন ৰজা-নিৰ্মাতা</mark>ৰ জৰিয়তে মনত ৰাখা: [[debera]], তাৰ পিছত [[atan-burhagohain]], তাৰ পিছত [[laluk-sola]]।"
+      },
+      {
+       "en": "Each made kings, killed kings, and in the end was killed himself.",
+       "as": "প্ৰত্যেকে ৰজা পাতিছিল, হত্যা কৰিছিল, আৰু শেষত নিজেও নিহত হৈছিল।"
+      }
+     ],
+     "id": "shg.u2.02"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each kingmaker to the kings he raised.",
+      "as": "প্ৰতিজন ৰজা-নিৰ্মাতাক তেওঁ পতা ৰজাৰ সৈতে মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Debera",
+        "as": "দেবেৰা"
+       },
+       {
+        "en": "Ramdhwaj, Suhung, Gobar",
+        "as": "ৰামধ্বজ, চুহুং, গোবৰ"
+       }
+      ],
+      [
+       {
+        "en": "Atan Burhagohain",
+        "as": "আতন বুঢ়াগোহাঁই"
+       },
+       {
+        "en": "Sujinphaa, Sudoiphaa",
+        "as": "চুজিনফা, চুদৈফা"
+       }
+      ],
+      [
+       {
+        "en": "Laluk Sola",
+        "as": "লালুক চোলা"
+       },
+       {
+        "en": "Sulikphaa",
+        "as": "চুলিকফা"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Each kingmaker and his kings.",
+      "as": "প্ৰতিজন ৰজা-নিৰ্মাতা আৰু তেওঁৰ ৰজা।"
+     },
+     "id": "shg.u2.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the kingmakers in order.",
+      "as": "ৰজা-নিৰ্মাতাসকলক ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Debera Borbarua",
+       "as": "দেবেৰা বৰবৰুৱা"
+      },
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Laluk Sola Borphukan",
+       "as": "লালুক চোলা বৰফুকন"
+      }
+     ],
+     "why": {
+      "en": "D-A-L: Debera, Atan, Laluk.",
+      "as": "দে-আ-লা: দেবেৰা, আতন, লালুক।"
+     },
+     "id": "shg.u2.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one was NOT a kingmaker of the 1670s?",
+      "as": "কোনজন ১৬৭০ৰ দশকৰ ৰজা-নিৰ্মাতা নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      },
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Laluk Sola",
+       "as": "লালুক চোলা"
+      },
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Lachit died in 1672 a loyal commander.",
+      "as": "লাচিতৰ ১৬৭২ চনত বিশ্বাসী সেনাপতি হিচাপে মৃত্যু।"
+     },
+     "id": "shg.u2.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the Samaguria Roja with Debera?",
+      "as": "কোনখন ছবিত দেবেৰাৰ সৈতে সমগুৰীয়া ৰজা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "samaguria.webp",
+      "suhung-portrait.webp",
+      "shared/moidams.webp",
+      "shared/gohains.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Suhung and Debera",
+      "as": "চুহুং আৰু দেবেৰা"
+     },
+     "why": {
+      "en": "A king in name only.",
+      "as": "নামতহে ৰজা।"
+     },
+     "id": "shg.u2.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Suhung",
+    "as": "তুমি স্বৰ্গদেউ সমগুৰিয়া ৰজাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the Samaguria Roja.",
+      "as": "মই সমগুৰীয়া ৰজা।"
+     },
+     {
+      "en": "I tried to kill Debera.",
+      "as": "মই দেবেৰাক হত্যাৰ চেষ্টা কৰিছিলোঁ।"
+     },
+     {
+      "en": "I was killed after 21 days.",
+      "as": "২১ দিনৰ পিছত মই নিহত।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Suhung",
+      "as": "চুহুং"
+     },
+     {
+      "en": "Gobar Roja",
+      "as": "গোবৰ ৰজা"
+     },
+     {
+      "en": "Ramdhwaj",
+      "as": "ৰামধ্বজ"
+     },
+     {
+      "en": "Sudoiphaa",
+      "as": "চুদৈফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Suhung.",
+     "as": "চুহুং।"
+    },
+    "id": "shg.test.01"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Samaguria Roja",
+       "as": "সমগুৰীয়া ৰজা"
+      },
+      {
+       "en": "Suhung",
+       "as": "চুহুং"
+      }
+     ],
+     [
+      {
+       "en": "Bhagania Roja",
+       "as": "ভগনীয়া ৰজা"
+      },
+      {
+       "en": "Jayadhwaj Singha",
+       "as": "জয়ধ্বজ সিংহ"
+      }
+     ],
+     [
+      {
+       "en": "Noriya Roja",
+       "as": "নৰীয়া ৰজা"
+      },
+      {
+       "en": "Sutingphaa",
+       "as": "চুটিংফা"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Nicknames of kings.",
+     "as": "ৰজাৰ উপনাম।"
+    },
+    "id": "shg.test.02"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "Suhung",
+      "ruled",
+      "for",
+      "21",
+      "years."
+     ],
+     "as": [
+      "চুহুঙে",
+      "২১",
+      "বছৰ",
+      "ৰাজত্ব",
+      "কৰিছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 4,
+     "as": 2
+    },
+    "fix": {
+     "en": "→ days",
+     "as": "→ দিন"
+    },
+    "answerText": {
+     "en": "years → days",
+     "as": "বছৰ → দিন"
+    },
+    "why": {
+     "en": "21 days.",
+     "as": "২১ দিন।"
+    },
+    "id": "shg.test.03"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Debera set up Suhung as king.",
+     "as": "দেবেৰাই চুহুঙক ৰজা পাতিছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "shg.test.04"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kingmakers in order.",
+     "as": "ৰজা-নিৰ্মাতাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Debera",
+      "as": "দেবেৰা"
+     },
+     {
+      "en": "Atan Burhagohain",
+      "as": "আতন বুঢ়াগোহাঁই"
+     },
+     {
+      "en": "Laluk Sola",
+      "as": "লালুক চোলা"
+     }
+    ],
+    "why": {
+     "en": "D-A-L.",
+     "as": "দে-আ-লা।"
+    },
+    "id": "shg.test.05"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Suhung was raised to the throne by Debera.<br>2. Suhung ruled for several years.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুহুঙক দেবেৰাই ৰজা পাতিছিল।<br>২. চুহুঙে কেইবছৰমান ৰাজত্ব কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1: about 21 days.",
+     "as": "কেৱল ১: প্ৰায় ২১ দিন।"
+    },
+    "small": true,
+    "id": "shg.test.06"
+   }
+  ]
+ }
+}

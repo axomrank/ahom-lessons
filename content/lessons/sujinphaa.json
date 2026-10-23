@@ -1,0 +1,679 @@
+{
+ "id": "sujinphaa",
+ "no": 26,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Sujinphaa",
+  "as": "স্বৰ্গদেউ চুজিনফা"
+ },
+ "reign": {
+  "en": "Reign 1675–1677",
+  "as": "ৰাজত্বকাল ১৬৭৫–১৬৭৭"
+ },
+ "portrait": "sujinphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), Gait ch. VII, pp. 153–160",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Few royal candidates; Sujinpha of the Dihingia clan chosen; seven days of festivities; new Bar Barua; oath of fealty with cannon at the gates; Burha Gohain's night attack, the king fights sword in hand; two-fold oath (Brahmans, Salgram, Bhagavat, tulsi; Ahom blood oath before the great drum); Burha Gohain flees to Lakhau, wins at Sinatali; the king blinded and killed, July 1677; his sons"
+  },
+  {
+   "title": "Sujinphaa",
+   "url": "https://en.wikipedia.org/wiki/Sujinphaa",
+   "used_for": "Arjun Konwar, 1675–1677; installed by Atan Burhagohain"
+  }
+ ],
+ "review_notes": "Dates follow the course list and Wikipedia; Gait's chronology for 1672–1675 runs about a year later (Udayaditya deposed August 1673, Ramdhwaj poisoned March 1675). Gait says the king was stoned to death after being blinded, or by another account took his own life; the lesson says he was blinded and killed.",
+ "buildsOn": {
+  "no": 22,
+  "title": {
+   "en": "Udayaditya Singha",
+   "as": "উদয়াদিত্য সিংহ"
+  },
+  "id": "udayaditya-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1675",
+    "t": {
+     "en": "Chosen king; seven days of celebration",
+     "as": "ৰজা নিৰ্বাচন; সাত দিনৰ উৎসৱ"
+    }
+   },
+   {
+    "y": "1677",
+    "t": {
+     "en": "Blinded and killed (July)",
+     "as": "অন্ধ কৰি হত্যা (জুলাই)"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.45,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "dihing",
+   "garhgaon",
+   "charaideo",
+   "sivasagar",
+   "namrup"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "sivasagar": {
+    "pos": "w",
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    }
+   },
+   "namrup": {
+    "pos": "n"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.05,
+     94.3
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A king who trusted no one",
+    "as": "কাকো বিশ্বাস নকৰা ৰজা"
+   },
+   "learned": [
+    {
+     "en": "Few princes were left; Sujinphaa (Arjun Konwar) was chosen in 1675",
+     "as": "কম কোঁৱৰ বাকী আছিল; ১৬৭৫ চনত চুজিনফা (অৰ্জুন কোঁৱৰ) নিৰ্বাচিত"
+    },
+    {
+     "en": "His crowning was celebrated for seven days",
+     "as": "সাত দিন ধৰি তেওঁৰ অভিষেক উদযাপন"
+    },
+    {
+     "en": "He made every officer swear an oath of loyalty",
+     "as": "তেওঁ প্ৰতিজন বিষয়াক আনুগত্যৰ শপত খুৱালে"
+    },
+    {
+     "en": "The oath was taken twice: before Hindu symbols and by the old Ahom blood oath",
+     "as": "শপত দুবাৰ: হিন্দু প্ৰতীকৰ আগত আৰু পুৰণি আহোম তেজৰ শপত"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "sujinphaa-installed.webp",
+     "title": {
+      "en": "Seven days of joy",
+      "as": "সাত দিনৰ আনন্দ"
+     },
+     "text": [
+      {
+       "en": "So many kings had died that few princes were left. In <mark>1675</mark> the nobles chose [[sujinphaa]] (Arjun Konwar). Money was given out and the festival lasted <mark>seven days</mark>.",
+       "as": "ইমান ৰজাৰ মৃত্যু হৈছিল যে কম কোঁৱৰ বাকী আছিল। <mark>১৬৭৫</mark> চনত বিষয়াসকলে [[sujinphaa]] (অৰ্জুন কোঁৱৰ)ক বাছিলে। ধন বিলোৱা হ'ল আৰু উৎসৱ <mark>সাত দিন</mark> চলিল।"
+      },
+      {
+       "en": "Remembering his predecessors, he lined the streets with soldiers, put cannon at the gates, and made every officer swear loyalty.",
+       "as": "পূৰ্বসূৰীৰ কথা মনত ৰাখি তেওঁ পথত সৈন্য, দুৱাৰত কামান ৰাখিলে, আৰু প্ৰতিজন বিষয়াক আনুগত্যৰ শপত খুৱালে।"
+      }
+     ],
+     "id": "sjn.u1.01",
+     "link": {
+      "lesson": 25,
+      "lessonId": "gobar-roja",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "A month on the throne",
+       "as": "সিংহাসনত এমাহ"
+      },
+      "note": {
+       "en": "Debera and Gobar had just been killed.",
+       "as": "দেবেৰা আৰু গোবৰ সদ্যহে নিহত হৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Two oaths",
+      "as": "দুটা শপত"
+     },
+     "text": [
+      {
+       "en": "Officers who rebelled and were caught had to swear <mark>twice</mark>: once before Brahmans, a Salgram stone, the Bhagavat and a tulsi plant,",
+       "as": "বিদ্ৰোহ কৰি ধৰা পৰা বিষয়াসকলে <mark>দুবাৰ</mark> শপত খাব লগা হ'ল: এবাৰ ব্ৰাহ্মণ, শালগ্ৰাম, ভাগৱত আৰু তুলসীৰ আগত,"
+      },
+      {
+       "en": "and once in the old Ahom way, by shedding blood before the great drum. Two faiths, one court.",
+       "as": "আৰু এবাৰ পুৰণি আহোম ৰীতিৰে, ডাঙৰ ঢোলৰ আগত তেজ দি। দুই ধৰ্ম, এক ৰাজসভা।"
+      }
+     ],
+     "id": "sjn.u1.02"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Hindu oath",
+        "as": "হিন্দু শপত"
+       },
+       {
+        "en": "Salgram, Bhagavat, tulsi",
+        "as": "শালগ্ৰাম, ভাগৱত, তুলসী"
+       }
+      ],
+      [
+       {
+        "en": "Ahom oath",
+        "as": "আহোম শপত"
+       },
+       {
+        "en": "Blood before the great drum",
+        "as": "ডাঙৰ ঢোলৰ আগত তেজ"
+       }
+      ],
+      [
+       {
+        "en": "Festival",
+        "as": "উৎসৱ"
+       },
+       {
+        "en": "Seven days",
+        "as": "সাত দিন"
+       }
+      ]
+     ],
+     "why": {
+      "en": "A court of two traditions.",
+      "as": "দুই পৰম্পৰাৰ ৰাজসভা।"
+     },
+     "id": "sjn.u1.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sujinphaa trusted his officers completely.",
+      "as": "চুজিনফাই বিষয়াসকলক সম্পূৰ্ণ বিশ্বাস কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He made them swear oaths and lined the streets with soldiers.",
+      "as": "অশুদ্ধ। তেওঁ শপত খুৱাইছিল আৰু পথত সৈন্য ৰাখিছিল।"
+     },
+     "id": "sjn.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the king's other name: ___ Konwar.",
+      "as": "ৰজাৰ আন নাম: ___ কোঁৱৰ।"
+     },
+     "word": {
+      "en": [
+       "A",
+       "R",
+       "J",
+       "U",
+       "N"
+      ],
+      "as": [
+       "অৰ",
+       "জুন"
+      ]
+     },
+     "answerText": {
+      "en": "ARJUN",
+      "as": "অৰজুন"
+     },
+     "why": {
+      "en": "Arjun Konwar.",
+      "as": "অৰ্জুন কোঁৱৰ।"
+     },
+     "id": "sjn.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Sujinphaa being installed?",
+      "as": "কোনখন ছবিত চুজিনফাৰ অভিষেক দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "sujinphaa-installed.webp",
+      "court-rift.webp",
+      "army-turns.webp",
+      "fall.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Installed by the Burhagohain",
+      "as": "বুঢ়াগোহাঁইয়ে পতা"
+     },
+     "why": {
+      "en": "1675.",
+      "as": "১৬৭৫।"
+     },
+     "id": "sjn.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "moon",
+   "title": {
+    "en": "Sword in hand",
+    "as": "হাতত তৰোৱাল"
+   },
+   "learned": [
+    {
+     "en": "Offended officers plotted with the Burhagohain",
+     "as": "খঙাল বিষয়াই বুঢ়াগোহাঁইৰ সৈতে ষড়যন্ত্ৰ কৰিলে"
+    },
+    {
+     "en": "In a night attack the king fought them off sword in hand",
+     "as": "নিশাৰ আক্ৰমণত ৰজাই হাতত তৰোৱাল লৈ খেদিলে"
+    },
+    {
+     "en": "The Burhagohain escaped, raised men and won at Sinatali",
+     "as": "বুঢ়াগোহাঁই পলাই লোক গোটাই চিনাতলীত জয়ী হ'ল"
+    },
+    {
+     "en": "July 1677: the king was blinded and killed",
+     "as": "১৬৭৭ চনৰ জুলাই: ৰজাক অন্ধ কৰি হত্যা"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Sujinphaa's festival lasted seven days.",
+      "as": "মনত পেলোৱা: চুজিনফাৰ উৎসৱ সাত দিন চলিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "sjn.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A king who trusted no one.",
+       "as": "কাকো বিশ্বাস নকৰা ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "court-rift.webp",
+     "title": {
+      "en": "The night attack",
+      "as": "নিশাৰ আক্ৰমণ"
+     },
+     "text": [
+      {
+       "en": "The oath order offended many officers. The Burhagohain led men into the city at night and surrounded the palace.",
+       "as": "শপতৰ আদেশে বহু বিষয়াক অসন্তুষ্ট কৰিলে। বুঢ়াগোহাঁইয়ে নিশা লোক লৈ নগৰত সোমাই ৰাজপ্ৰসাদ ঘেৰি ধৰিলে।"
+      },
+      {
+       "en": "The king woke, rushed out <mark>sword in hand</mark> and drove them off, leaving several dead.",
+       "as": "ৰজাই সাৰ পাই <mark>হাতত তৰোৱাল</mark> লৈ ওলাই আহিল আৰু কেইবাজনক মাৰি তেওঁলোকক খেদিলে।"
+      }
+     ],
+     "id": "sjn.u2.02"
+    },
+    {
+     "type": "story",
+     "img": "fall.webp",
+     "title": {
+      "en": "The fall",
+      "as": "পতন"
+     },
+     "text": [
+      {
+       "en": "The Burhagohain escaped by boat, gathered rebels and beat the king's army at Sinatali. Even the royal army turned against Sujinphaa.",
+       "as": "বুঢ়াগোহাঁই নাৱেৰে পলাই বিদ্ৰোহী গোটালে আৰু চিনাতলীত ৰজাৰ সৈন্যক হৰুৱালে। ৰাজকীয় সৈন্যও চুজিনফাৰ বিৰুদ্ধে গ'ল।"
+      },
+      {
+       "en": "In <mark>July 1677</mark> the king was seized, blinded and killed. He was buried at Charaideo.",
+       "as": "<mark>১৬৭৭ চনৰ জুলাই</mark>ত ৰজাক ধৰি অন্ধ কৰি হত্যা কৰা হ'ল। চৰাইদেউত সমাধি দিয়া হ'ল।"
+      }
+     ],
+     "id": "sjn.u2.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put Sujinphaa's fall in order.",
+      "as": "চুজিনফাৰ পতন ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "The oath order",
+       "as": "শপতৰ আদেশ"
+      },
+      {
+       "en": "Night attack on the palace",
+       "as": "ৰাজপ্ৰসাদত নিশাৰ আক্ৰমণ"
+      },
+      {
+       "en": "Burhagohain wins at Sinatali",
+       "as": "চিনাতলীত বুঢ়াগোহাঁইৰ জয়"
+      },
+      {
+       "en": "King blinded and killed",
+       "as": "ৰজাক অন্ধ কৰি হত্যা"
+      }
+     ],
+     "why": {
+      "en": "Suspicion bred the very revolt it feared.",
+      "as": "সন্দেহেই ভয় কৰা বিদ্ৰোহৰ জন্ম দিলে।"
+     },
+     "id": "sjn.u2.04"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the army turning against the king?",
+      "as": "কোনখন ছবিত সৈন্য ৰজাৰ বিৰুদ্ধে যোৱা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "army-turns.webp",
+      "sujinphaa-installed.webp",
+      "court-rift.webp",
+      "sujinphaa-portrait.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The army deserts",
+      "as": "সৈন্যৰ পলায়ন"
+     },
+     "why": {
+      "en": "1677.",
+      "as": "১৬৭৭।"
+     },
+     "id": "sjn.u2.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Sujinphaa",
+       "was",
+       "killed",
+       "by",
+       "Debera",
+       "Borbarua."
+      ],
+      "as": [
+       "চুজিনফাক",
+       "দেবেৰা",
+       "বৰবৰুৱাই",
+       "হত্যা",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 4,
+      "as": 1
+     },
+     "fix": {
+      "en": "→ the Burhagohain's men",
+      "as": "→ বুঢ়াগোহাঁইৰ লোক"
+     },
+     "answerText": {
+      "en": "Debera → the Burhagohain",
+      "as": "দেবেৰা → বুঢ়াগোহাঁই"
+     },
+     "why": {
+      "en": "Debera was already dead (1675). The Burhagohain overthrew Sujinphaa.",
+      "as": "দেবেৰা আগতেই নিহত (১৬৭৫)। বুঢ়াগোহাঁইয়ে চুজিনফাক আঁতৰাইছিল।"
+     },
+     "id": "sjn.u2.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Sujinphaa",
+    "as": "তুমি স্বৰ্গদেউ চুজিনফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "Few princes were left when I was chosen.",
+      "as": "মোক বাছোঁতে কম কোঁৱৰ বাকী আছিল।"
+     },
+     {
+      "en": "I made my officers swear two oaths.",
+      "as": "মই বিষয়াক দুটা শপত খুৱাইছিলোঁ।"
+     },
+     {
+      "en": "I fought off a night attack, sword in hand.",
+      "as": "হাতত তৰোৱাল লৈ নিশাৰ আক্ৰমণ খেদিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Sujinphaa",
+      "as": "চুজিনফা"
+     },
+     {
+      "en": "Sudoiphaa",
+      "as": "চুদৈফা"
+     },
+     {
+      "en": "Suhung",
+      "as": "চুহুং"
+     },
+     {
+      "en": "Sulikphaa",
+      "as": "চুলিকফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sujinphaa.",
+     "as": "চুজিনফা।"
+    },
+    "id": "sjn.test.01"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Sujinphaa was overthrown by the Burhagohain.",
+     "as": "বুঢ়াগোহাঁইয়ে চুজিনফাক আঁতৰাইছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "sjn.test.02"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Sujinphaa's fall?",
+     "as": "কোনখন ছবিত চুজিনফাৰ পতন দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "fall.webp",
+     "sujinphaa-installed.webp",
+     "court-rift.webp",
+     "shared/moidams.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The fall",
+     "as": "পতন"
+    },
+    "why": {
+     "en": "July 1677.",
+     "as": "১৬৭৭ চনৰ জুলাই।"
+    },
+    "id": "sjn.test.03"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Salgram and Bhagavat",
+       "as": "শালগ্ৰাম আৰু ভাগৱত"
+      },
+      {
+       "en": "Hindu oath",
+       "as": "হিন্দু শপত"
+      }
+     ],
+     [
+      {
+       "en": "Blood before the drum",
+       "as": "ঢোলৰ আগত তেজ"
+      },
+      {
+       "en": "Ahom oath",
+       "as": "আহোম শপত"
+      }
+     ],
+     [
+      {
+       "en": "Sinatali",
+       "as": "চিনাতলী"
+      },
+      {
+       "en": "The Burhagohain's victory",
+       "as": "বুঢ়াগোহাঁইৰ জয়"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Recall the reign.",
+     "as": "ৰাজত্বকাল মনত পেলোৱা।"
+    },
+    "id": "sjn.test.04"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kings in order.",
+     "as": "ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Gobar",
+      "as": "গোবৰ"
+     },
+     {
+      "en": "Sujinphaa",
+      "as": "চুজিনফা"
+     },
+     {
+      "en": "Sudoiphaa",
+      "as": "চুদৈফা"
+     },
+     {
+      "en": "Sulikphaa",
+      "as": "চুলিকফা"
+     }
+    ],
+    "why": {
+     "en": "Kings 25–28.",
+     "as": "২৫–২৮ নম্বৰ ৰজা।"
+    },
+    "id": "sjn.test.05"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Sujinphaa's crowning was celebrated for seven days.<br>2. Sujinphaa died of old age.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুজিনফাৰ অভিষেক সাত দিন ধৰি উদযাপন কৰা হৈছিল।<br>২. চুজিনফাৰ বাৰ্ধক্যত মৃত্যু হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. He was blinded and killed in 1677.",
+     "as": "কেৱল ১। ১৬৭৭ চনত অন্ধ কৰি হত্যা।"
+    },
+    "small": true,
+    "id": "sjn.test.06"
+   }
+  ]
+ }
+}

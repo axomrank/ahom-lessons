@@ -1,0 +1,719 @@
+{
+ "id": "ramdhwaj-singha",
+ "no": 23,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Ramdhwaj Singha",
+  "as": "স্বৰ্গদেউ ৰামধ্বজ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1672–1674",
+  "as": "ৰাজত্বকাল ১৬৭২–১৬৭৪"
+ },
+ "portrait": "ramdhwaj-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), Gait ch. VII, pp. 153–160",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Ramdhvaj (Suklampha) the fratricide; Debera alias Lachai made Bar Barua; Bar Gohain's plot for the Saring Raja; Deori Chutiyas and Mishmis; the king's illness and the succession quarrel; Debera's armed band; the king poisoned"
+  },
+  {
+   "title": "Ramdhwaj Singha",
+   "url": "https://en.wikipedia.org/wiki/Ramdhwaj_Singha",
+   "used_for": "Reign 1672–1674"
+  }
+ ],
+ "review_notes": "Dates follow the course list and Wikipedia; Gait's chronology for 1672–1675 runs about a year later (Udayaditya deposed August 1673, Ramdhwaj poisoned March 1675).",
+ "buildsOn": {
+  "no": 22,
+  "title": {
+   "en": "Udayaditya Singha",
+   "as": "উদয়াদিত্য সিংহ"
+  },
+  "id": "udayaditya-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1672",
+    "t": {
+     "en": "Seizes the throne in a night coup",
+     "as": "নিশাৰ অভ্যুত্থানত সিংহাসন দখল"
+    }
+   },
+   {
+    "y": "1674",
+    "t": {
+     "en": "Poisoned by Debera Borbarua",
+     "as": "দেবেৰা বৰবৰুৱাৰ বিষপ্ৰয়োগ"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.45,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "dihing",
+   "garhgaon",
+   "charaideo",
+   "sivasagar",
+   "namrup"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "sivasagar": {
+    "pos": "w",
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    }
+   },
+   "namrup": {
+    "pos": "n"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.05,
+     94.3
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "The brother who seized the throne",
+    "as": "সিংহাসন দখল কৰা ভাই"
+   },
+   "learned": [
+    {
+     "en": "Ramdhwaj (Suklamphaa) took the throne from his brother in 1672",
+     "as": "১৬৭২ চনত ৰামধ্বজ (চুক্লামফা)ই ককাইৰ পৰা সিংহাসন ল'লে"
+    },
+    {
+     "en": "He rewarded the plot's ringleader, Debera, with the post of Borbarua",
+     "as": "ষড়যন্ত্ৰৰ মূল নায়ক দেবেৰাক বৰবৰুৱা পাতিলে"
+    },
+    {
+     "en": "A plot for the Saring Raja was crushed",
+     "as": "চাৰিং ৰজাৰ পক্ষৰ ষড়যন্ত্ৰ দমন"
+    },
+    {
+     "en": "He was the first of seven kings in eleven years",
+     "as": "এঘাৰ বছৰত সাতজন ৰজাৰ প্ৰথমজন"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "debera-rises.webp",
+     "title": {
+      "en": "A crown taken by force",
+      "as": "বলেৰে লোৱা মুকুট"
+     },
+     "text": [
+      {
+       "en": "After the midnight coup, the king's brother took the throne as [[ramdhwaj-singha]] (Suklamphaa).",
+       "as": "মাজনিশাৰ অভ্যুত্থানৰ পিছত ৰজাৰ ভাই [[ramdhwaj-singha]] (চুক্লামফা) নামেৰে সিংহাসনত বহিল।"
+      },
+      {
+       "en": "He made the ringleader of the plot, [[debera]], the Borbarua. A rival plot for the Saring Raja was found out and both leaders were put to death.",
+       "as": "ষড়যন্ত্ৰৰ মূল নায়ক [[debera]]ক তেওঁ বৰবৰুৱা পাতিলে। চাৰিং ৰজাৰ পক্ষৰ এক বিৰোধী ষড়যন্ত্ৰ ধৰা পৰিল আৰু দুয়োজন নায়কক প্ৰাণদণ্ড দিয়া হ'ল।"
+      }
+     ],
+     "id": "rds.u1.01",
+     "link": {
+      "lesson": 22,
+      "lessonId": "udayaditya-singha",
+      "unitNo": 5,
+      "unitTitle": {
+       "en": "A king overthrown",
+       "as": "ৰজাৰ পতন"
+      },
+      "note": {
+       "en": "Udayaditya was overthrown in a midnight coup.",
+       "as": "মাজনিশাৰ অভ্যুত্থানত উদয়াদিত্যৰ পতন।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Ramdhwaj came to the throne peacefully after his brother's natural death.",
+      "as": "ককাইৰ স্বাভাৱিক মৃত্যুৰ পিছত ৰামধ্বজ শান্তিপূৰ্ণভাৱে ৰজা হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He seized it in a coup; his brother was poisoned.",
+      "as": "অশুদ্ধ। অভ্যুত্থানত দখল কৰিছিল; ককাইক বিষ খুৱাই মৰা হৈছিল।"
+     },
+     "id": "rds.u1.02"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I led the plot against Udayaditya.",
+       "as": "মই উদয়াদিত্যৰ বিৰুদ্ধে ষড়যন্ত্ৰৰ নেতৃত্ব দিছিলোঁ।"
+      },
+      {
+       "en": "I was made Borbarua.",
+       "as": "মোক বৰবৰুৱা পতা হৈছিল।"
+      },
+      {
+       "en": "I made and killed kings.",
+       "as": "মই ৰজা পাতিছিলোঁ আৰু হত্যা কৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      },
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Laluk Sola",
+       "as": "লালুক চোলা"
+      },
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Debera Borbarua.",
+      "as": "দেবেৰা বৰবৰুৱা।"
+     },
+     "id": "rds.u1.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Seven kings in eleven years",
+      "as": "এঘাৰ বছৰত সাতজন ৰজা"
+     },
+     "text": [
+      {
+       "en": "From 1670 to 1681 the Ahoms had <mark>seven kings</mark>. Not one died a natural death.",
+       "as": "১৬৭০ৰ পৰা ১৬৮১ লৈকে আহোমৰ <mark>সাতজন ৰজা</mark> হ'ল। এজনৰো স্বাভাৱিক মৃত্যু নহ'ল।"
+      },
+      {
+       "en": "Real power lay with ambitious ministers. Watch for three names: Debera, Atan Burhagohain, Laluk Sola.",
+       "as": "প্ৰকৃত ক্ষমতা আছিল উচ্চাকাংক্ষী মন্ত্ৰীৰ হাতত। তিনিটা নাম মনত ৰাখা: দেবেৰা, আতন বুঢ়াগোহাঁই, লালুক চোলা।"
+      }
+     ],
+     "id": "rds.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the ringleader's name.",
+      "as": "মূল নায়কৰ নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "D",
+       "E",
+       "B",
+       "E",
+       "R",
+       "A"
+      ],
+      "as": [
+       "দে",
+       "বে",
+       "ৰা"
+      ]
+     },
+     "answerText": {
+      "en": "DEBERA",
+      "as": "দেবেৰা"
+     },
+     "why": {
+      "en": "Debera Borbarua.",
+      "as": "দেবেৰা বৰবৰুৱা।"
+     },
+     "id": "rds.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Debera's rise?",
+      "as": "কোনখন ছবিত দেবেৰাৰ উত্থান দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "debera-rises.webp",
+      "debera-terror.webp",
+      "ramdhwaj-singha-portrait.webp",
+      "shared/moidams.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Debera at court",
+      "as": "ৰাজসভাত দেবেৰা"
+     },
+     "why": {
+      "en": "The coup's reward: Borbarua.",
+      "as": "অভ্যুত্থানৰ পুৰস্কাৰ: বৰবৰুৱা।"
+     },
+     "id": "rds.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "moon",
+   "title": {
+    "en": "Poison in the palace",
+    "as": "ৰাজপ্ৰসাদত বিষ"
+   },
+   "learned": [
+    {
+     "en": "Expeditions subdued the Deori Chutias and Mishmis",
+     "as": "অভিযানে দেউৰী চুতীয়া আৰু মিচিমিক বশ কৰিলে"
+    },
+    {
+     "en": "When the king fell ill, the nobles quarrelled over the next king",
+     "as": "ৰজা অসুস্থ হোৱাত পৰৱৰ্তী ৰজাক লৈ বিষয়াৰ বিবাদ"
+    },
+    {
+     "en": "Debera feared Udayaditya's son and armed his men",
+     "as": "দেবেৰাই উদয়াদিত্যৰ পুত্ৰক ভয় কৰি লোক সাজু কৰিলে"
+    },
+    {
+     "en": "Ordered to be arrested, Debera had the king poisoned",
+     "as": "বন্দী কৰাৰ আদেশ পাই দেবেৰাই ৰজাক বিষ খুৱালে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Debera was made Borbarua for his part in the coup.",
+      "as": "মনত পেলোৱা: অভ্যুত্থানত অংশ লোৱাৰ বাবে দেবেৰাক বৰবৰুৱা পতা হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "rds.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The brother who seized the throne.",
+       "as": "সিংহাসন দখল কৰা ভাই।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "debera-terror.webp",
+     "title": {
+      "en": "Who will be next?",
+      "as": "পিছৰজন কোন?"
+     },
+     "text": [
+      {
+       "en": "When Ramdhwaj fell ill, nobles argued: one of his brothers? his son? or Udayaditya's son?",
+       "as": "ৰামধ্বজ অসুস্থ হোৱাত বিষয়াসকলে তৰ্ক কৰিলে: তেওঁৰ ভাই? পুত্ৰ? নে উদয়াদিত্যৰ পুত্ৰ?"
+      },
+      {
+       "en": "Debera knew Udayaditya's son would take revenge. He gathered armed men. The king ordered his arrest, so Debera struck first and had the king <mark>poisoned</mark>.",
+       "as": "দেবেৰাই জানিছিল উদয়াদিত্যৰ পুত্ৰই প্ৰতিশোধ ল'ব। তেওঁ অস্ত্ৰধাৰী লোক গোটালে। ৰজাই তেওঁক বন্দী কৰাৰ আদেশ দিয়াত দেবেৰাই আগতেই ৰজাক <mark>বিষ</mark> খুৱালে।"
+      }
+     ],
+     "id": "rds.u2.02"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the king's end in order.",
+      "as": "ৰজাৰ অন্ত ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "The king falls ill",
+       "as": "ৰজা অসুস্থ"
+      },
+      {
+       "en": "Nobles argue about the heir",
+       "as": "উত্তৰাধিকাৰীক লৈ বিবাদ"
+      },
+      {
+       "en": "Debera arms his men",
+       "as": "দেবেৰাই লোক সাজু কৰে"
+      },
+      {
+       "en": "The king orders his arrest",
+       "as": "ৰজাৰ বন্দী কৰাৰ আদেশ"
+      },
+      {
+       "en": "Debera has him poisoned",
+       "as": "দেবেৰাৰ বিষপ্ৰয়োগ"
+      }
+     ],
+     "why": {
+      "en": "Illness → rivalry → fear → poison.",
+      "as": "অসুখ → প্ৰতিদ্বন্দ্বিতা → ভয় → বিষ।"
+     },
+     "id": "rds.u2.03"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Ramdhwaj",
+        "as": "ৰামধ্বজ"
+       },
+       {
+        "en": "Poisoned by Debera",
+        "as": "দেবেৰাৰ বিষত মৃত্যু"
+       }
+      ],
+      [
+       {
+        "en": "Udayaditya",
+        "as": "উদয়াদিত্য"
+       },
+       {
+        "en": "Poisoned at Charaideo",
+        "as": "চৰাইদেউত বিষত মৃত্যু"
+       }
+      ],
+      [
+       {
+        "en": "Debera",
+        "as": "দেবেৰা"
+       },
+       {
+        "en": "Borbarua who made kings",
+        "as": "ৰজা পতা বৰবৰুৱা"
+       }
+      ],
+      [
+       {
+        "en": "Deori Chutias",
+        "as": "দেউৰী চুতীয়া"
+       },
+       {
+        "en": "Subdued by an expedition",
+        "as": "অভিযানত বশ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Two brothers, one poisoner.",
+      "as": "দুই ভাই, এজন বিষপ্ৰয়োগকাৰী।"
+     },
+     "id": "rds.u2.04"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Ramdhwaj",
+       "was",
+       "killed",
+       "by",
+       "the",
+       "Mughals."
+      ],
+      "as": [
+       "ৰামধ্বজক",
+       "মোগলে",
+       "হত্যা",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 5,
+      "as": 1
+     },
+     "fix": {
+      "en": "→ Debera Borbarua",
+      "as": "→ দেবেৰা বৰবৰুৱাই"
+     },
+     "answerText": {
+      "en": "the Mughals → Debera",
+      "as": "মোগল → দেবেৰা"
+     },
+     "why": {
+      "en": "He was poisoned on Debera's orders.",
+      "as": "দেবেৰাৰ আদেশত তেওঁক বিষ খুৱাই মৰা হৈছিল।"
+     },
+     "id": "rds.u2.05"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember: P for poison",
+      "as": "মনত ৰাখা: বি মানে বিষ"
+     },
+     "text": [
+      {
+       "en": "Ramdhwaj came to power by his brother's poisoning and left it by his own. The man between both: Debera.",
+       "as": "ককাইৰ বিষপ্ৰয়োগত ৰামধ্বজ ক্ষমতালৈ আহিল আৰু নিজৰ বিষপ্ৰয়োগত গ'ল। দুয়োটাৰ মাজত এজন মানুহ: দেবেৰা।"
+      }
+     ],
+     "id": "rds.u2.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Ramdhwaj Singha",
+    "as": "তুমি স্বৰ্গদেউ ৰামধ্বজ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I took the throne in a night coup.",
+      "as": "মই নিশাৰ অভ্যুত্থানত সিংহাসন লৈছিলোঁ।"
+     },
+     {
+      "en": "My Ahom name was Suklamphaa.",
+      "as": "মোৰ আহোম নাম চুক্লামফা।"
+     },
+     {
+      "en": "Debera poisoned me.",
+      "as": "দেবেৰাই মোক বিষ খুৱাইছিল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Ramdhwaj Singha",
+      "as": "ৰামধ্বজ সিংহ"
+     },
+     {
+      "en": "Udayaditya Singha",
+      "as": "উদয়াদিত্য সিংহ"
+     },
+     {
+      "en": "Suhung",
+      "as": "চুহুং"
+     },
+     {
+      "en": "Gobar Roja",
+      "as": "গোবৰ ৰজা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Ramdhwaj Singha.",
+     "as": "ৰামধ্বজ সিংহ।"
+    },
+    "id": "rds.test.01"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Seven Ahom kings ruled between 1670 and 1681.",
+     "as": "১৬৭০ আৰু ১৬৮১ৰ মাজত সাতজন আহোম ৰজাই ৰাজত্ব কৰিছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True; none died naturally.",
+     "as": "শুদ্ধ; কোনোৰে স্বাভাৱিক মৃত্যু নহয়।"
+    },
+    "id": "rds.test.02"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Debera's reign of terror?",
+     "as": "কোনখন ছবিত দেবেৰাৰ সন্ত্ৰাস দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "debera-terror.webp",
+     "debera-rises.webp",
+     "shared/moidams.webp",
+     "ramdhwaj-singha-portrait.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The reign of terror",
+     "as": "সন্ত্ৰাস"
+    },
+    "why": {
+     "en": "Debera's grip on the palace.",
+     "as": "ৰাজপ্ৰসাদত দেবেৰাৰ মুঠি।"
+    },
+    "id": "rds.test.03"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1671",
+      "l": {
+       "en": "Saraighat",
+       "as": "শৰাইঘাট"
+      }
+     },
+     {
+      "y": "1675",
+      "l": {
+       "en": "Debera executed",
+       "as": "দেবেৰাৰ প্ৰাণদণ্ড"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Chakradhwaj crowned",
+       "as": "চক্ৰধ্বজৰ অভিষেক"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Ramdhwaj seizes the throne",
+       "as": "ৰামধ্বজৰ সিংহাসন দখল"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Gadadhar Singha crowned",
+       "as": "গদাধৰ সিংহৰ অভিষেক"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1663 → 1671 → 1672 → 1675 → 1681.",
+     "as": "১৬৬৩ → ১৬৭১ → ১৬৭২ → ১৬৭৫ → ১৬৮১।"
+    },
+    "id": "rds.test.04"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the office Debera got.",
+     "as": "দেবেৰাই পোৱা পদটো সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "B",
+      "O",
+      "R",
+      "B",
+      "A",
+      "R",
+      "U",
+      "A"
+     ],
+     "as": [
+      "বৰ",
+      "ব",
+      "ৰু",
+      "ৱা"
+     ]
+    },
+    "answerText": {
+     "en": "BORBARUA",
+     "as": "বৰবৰুৱা"
+    },
+    "why": {
+     "en": "Borbarua.",
+     "as": "বৰবৰুৱা।"
+    },
+    "id": "rds.test.05"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Ramdhwaj was Udayaditya's brother.<br>2. Ramdhwaj won the Battle of Saraighat.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ৰামধ্বজ উদয়াদিত্যৰ ভাই আছিল।<br>২. ৰামধ্বজে শৰাইঘাটৰ যুদ্ধত জয়ী হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Saraighat (1671) was under Udayaditya.",
+     "as": "কেৱল ১। শৰাইঘাট (১৬৭১) উদয়াদিত্যৰ দিনত।"
+    },
+    "small": true,
+    "id": "rds.test.06"
+   }
+  ]
+ }
+}

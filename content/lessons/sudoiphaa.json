@@ -1,0 +1,718 @@
+{
+ "id": "sudoiphaa",
+ "no": 27,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Sudoiphaa",
+  "as": "স্বৰ্গদেউ চুদইফা"
+ },
+ "reign": {
+  "en": "Reign 1677–1679",
+  "as": "ৰাজত্বকাল ১৬৭৭–১৬৭৯"
+ },
+ "portrait": "sudoiphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), Gait ch. VII, pp. 153–160",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Burha Gohain refused the crown (not royal blood); Khamcheo of the Parbatiya clan made king as Sudaipha; married the Burha Gohain's daughter; Belmela Phukan kills the king's mother by mistake; Bar Phukan plots with the Nawab and surrenders Gauhati to the Muhammadans, March 1679; Bar Phukan marches on the capital, king put to death November 1679"
+  },
+  {
+   "title": "Laluk Sola Borphukan",
+   "url": "https://en.wikipedia.org/wiki/Laluk_Sola_Borphukan",
+   "used_for": "Lachit's brother; surrendered Guwahati 1679"
+  }
+ ],
+ "review_notes": "Dates follow the course list and Wikipedia; Gait's chronology for 1672–1675 runs about a year later (Udayaditya deposed August 1673, Ramdhwaj poisoned March 1675).",
+ "buildsOn": {
+  "no": 22,
+  "title": {
+   "en": "Udayaditya Singha",
+   "as": "উদয়াদিত্য সিংহ"
+  },
+  "id": "udayaditya-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1677",
+    "t": {
+     "en": "Crowned as Sudoiphaa",
+     "as": "চুদৈফা নামেৰে অভিষেক"
+    }
+   },
+   {
+    "y": "1679",
+    "t": {
+     "en": "Guwahati surrendered to the Mughals (March)",
+     "as": "গুৱাহাটী মোগলক অৰ্পণ (মাৰ্চ)"
+    }
+   },
+   {
+    "y": "1679",
+    "t": {
+     "en": "Killed by Laluk Sola Borphukan (November)",
+     "as": "লালুক চোলা বৰফুকনে হত্যা কৰে (নৱেম্বৰ)"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.4,
+   25.9,
+   95.0,
+   27.2
+  ],
+  "show": [
+   "brahmaputra",
+   "manas",
+   "guwahati",
+   "kaliabor",
+   "garhgaon",
+   "charaideo"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "kaliabor": {
+    "pos": "s"
+   },
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "manas": {
+    "at": [
+     26.6,
+     90.55
+    ],
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     26.62,
+     93.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "The Burhagohain's king",
+    "as": "বুঢ়াগোহাঁইৰ ৰজা"
+   },
+   "learned": [
+    {
+     "en": "The nobles offered the Burhagohain the crown, but he was not of royal blood",
+     "as": "বিষয়াই বুঢ়াগোহাঁইক মুকুট দিব খুজিলে, কিন্তু তেওঁ ৰাজবংশৰ নাছিল"
+    },
+    {
+     "en": "Khamcheo of the Parbatiya clan became King Sudoiphaa: the Parvatia Roja",
+     "as": "পৰ্বতীয়া খেলৰ খামচেও ৰজা চুদৈফা হ'ল: পৰ্বতীয়া ৰজা"
+    },
+    {
+     "en": "He married the Burhagohain's daughter",
+     "as": "তেওঁ বুঢ়াগোহাঁইৰ জীয়েকক বিয়া কৰালে"
+    },
+    {
+     "en": "An assassin killed the king's mother by mistake",
+     "as": "এজন হত্যাকাৰীয়ে ভুলতে ৰজাৰ মাতৃক হত্যা কৰিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "sudoiphaa-court.webp",
+     "title": {
+      "en": "Not of royal blood",
+      "as": "ৰাজবংশৰ নহয়"
+     },
+     "text": [
+      {
+       "en": "The nobles urged the Burhagohain to be king himself. The priests said no: only a prince of royal blood could rule.",
+       "as": "বিষয়াসকলে বুঢ়াগোহাঁইক নিজে ৰজা হ'বলৈ অনুৰোধ কৰিলে। পুৰোহিতে নাকচ কৰিলে: কেৱল ৰাজবংশৰ কোঁৱৰেহে শাসন কৰিব পাৰে।"
+      },
+      {
+       "en": "So Khamcheo of the Parbatiya clan was crowned [[sudoiphaa]], the <mark>Parvatia Roja</mark>. He married the Burhagohain's daughter to keep him close.",
+       "as": "সেয়ে পৰ্বতীয়া খেলৰ খামচেওক [[sudoiphaa]] হিচাপে অভিষেক কৰা হ'ল, <mark>পৰ্বতীয়া ৰজা</mark>। বুঢ়াগোহাঁইক ওচৰত ৰাখিবলৈ তেওঁ তেওঁৰ জীয়েকক বিয়া কৰালে।"
+      }
+     ],
+     "id": "sdp.u1.01",
+     "link": {
+      "lesson": 26,
+      "lessonId": "sujinphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Sword in hand",
+       "as": "হাতত তৰোৱাল"
+      },
+      "note": {
+       "en": "The Burhagohain had just overthrown Sujinphaa.",
+       "as": "বুঢ়াগোহাঁইয়ে সদ্যহে চুজিনফাক আঁতৰাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Atan Burhagohain made himself king.",
+      "as": "আতন বুঢ়াগোহাঁই নিজে ৰজা হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He was not of royal blood; the priests refused.",
+      "as": "অশুদ্ধ। তেওঁ ৰাজবংশৰ নাছিল; পুৰোহিতে নাকচ কৰিছিল।"
+     },
+     "id": "sdp.u1.02"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his popular name: ___ Roja.",
+      "as": "তেওঁৰ জনপ্ৰিয় নাম: ___ ৰজা।"
+     },
+     "word": {
+      "en": [
+       "P",
+       "A",
+       "R",
+       "V",
+       "A",
+       "T",
+       "I",
+       "A"
+      ],
+      "as": [
+       "পৰ্ব",
+       "তী",
+       "য়া"
+      ]
+     },
+     "answerText": {
+      "en": "PARVATIA",
+      "as": "পৰ্বতীয়া"
+     },
+     "why": {
+      "en": "Parvatia Roja.",
+      "as": "পৰ্বতীয়া ৰজা।"
+     },
+     "id": "sdp.u1.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A deadly mistake",
+      "as": "মাৰাত্মক ভুল"
+     },
+     "text": [
+      {
+       "en": "The Burhagohain's power made enemies. One disgraced officer crept into the palace at night to kill the king, and in the dark killed the <mark>king's mother</mark> instead.",
+       "as": "বুঢ়াগোহাঁইৰ ক্ষমতাই শত্ৰু সৃষ্টি কৰিলে। এজন অপমানিত বিষয়াই ৰজাক হত্যা কৰিবলৈ নিশা ৰাজপ্ৰসাদত সোমাল, আৰু আন্ধাৰত ভুলতে <mark>ৰাজমাতা</mark>ক হত্যা কৰিলে।"
+      }
+     ],
+     "id": "sdp.u1.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was of the Parbatiya clan.",
+       "as": "মই পৰ্বতীয়া খেলৰ।"
+      },
+      {
+       "en": "I married the Burhagohain's daughter.",
+       "as": "মই বুঢ়াগোহাঁইৰ জীয়েকক বিয়া কৰাইছিলোঁ।"
+      },
+      {
+       "en": "Laluk Sola killed me.",
+       "as": "লালুক চোলাই মোক হত্যা কৰিছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Sudoiphaa",
+       "as": "চুদৈফা"
+      },
+      {
+       "en": "Sujinphaa",
+       "as": "চুজিনফা"
+      },
+      {
+       "en": "Sulikphaa",
+       "as": "চুলিকফা"
+      },
+      {
+       "en": "Suhung",
+       "as": "চুহুং"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sudoiphaa.",
+      "as": "চুদৈফা।"
+     },
+     "id": "sdp.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Sudoiphaa's court?",
+      "as": "কোনখন ছবিত চুদৈফাৰ ৰাজসভা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "sudoiphaa-court.webp",
+      "guwahati-surrendered.webp",
+      "sudoiphaa-portrait.webp",
+      "shared/gohains.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The Parvatia Roja's court",
+      "as": "পৰ্বতীয়া ৰজাৰ ৰাজসভা"
+     },
+     "why": {
+      "en": "1677.",
+      "as": "১৬৭৭।"
+     },
+     "id": "sdp.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "flag",
+   "title": {
+    "en": "Guwahati betrayed",
+    "as": "গুৱাহাটী বিক্ৰী"
+   },
+   "learned": [
+    {
+     "en": "The Borphukan, Laluk Sola, feared the Burhagohain",
+     "as": "বৰফুকন লালুক চোলাই বুঢ়াগোহাঁইক ভয় কৰিলে"
+    },
+    {
+     "en": "He secretly offered Guwahati to the Mughals",
+     "as": "তেওঁ গোপনে গুৱাহাটী মোগলক দিব খুজিলে"
+    },
+    {
+     "en": "March 1679: Guwahati was handed over to Prince Azam's men",
+     "as": "১৬৭৯ চনৰ মাৰ্চ: গুৱাহাটী কোঁৱৰ আজমৰ লোকক অৰ্পণ"
+    },
+    {
+     "en": "November 1679: Laluk marched on the capital and had the king killed",
+     "as": "১৬৭৯ চনৰ নৱেম্বৰ: লালুকে ৰাজধানী দখল কৰি ৰজাক হত্যা কৰালে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Sudoiphaa was called the Parvatia Roja.",
+      "as": "মনত পেলোৱা: চুদৈফাক পৰ্বতীয়া ৰজা বোলা হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "sdp.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The Burhagohain's king.",
+       "as": "বুঢ়াগোহাঁইৰ ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "guwahati-surrendered.webp",
+     "title": {
+      "en": "A brother's betrayal",
+      "as": "ভাইৰ বিশ্বাসঘাতকতা"
+     },
+     "text": [
+      {
+       "en": "The Borphukan at Guwahati was [[laluk-sola]], Lachit's own brother. Fearing the Burhagohain, he plotted with the Mughal Nawab of Bengal.",
+       "as": "গুৱাহাটীৰ বৰফুকন আছিল লাচিতৰ নিজৰ ভাই [[laluk-sola]]। বুঢ়াগোহাঁইক ভয় কৰি তেওঁ বংগৰ মোগল নৱাবৰ সৈতে ষড়যন্ত্ৰ কৰিলে।"
+      },
+      {
+       "en": "In <mark>March 1679</mark> he handed [[guwahati]], the city Lachit had died for, to the Mughals.",
+       "as": "<mark>১৬৭৯ চনৰ মাৰ্চ</mark>ত লাচিতে যাৰ বাবে প্ৰাণ দিছিল সেই [[guwahati]] তেওঁ মোগলক অৰ্পণ কৰিলে।"
+      }
+     ],
+     "id": "sdp.u2.02",
+     "link": {
+      "lesson": 22,
+      "lessonId": "udayaditya-singha",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Lachit's legacy",
+       "as": "লাচিতৰ উত্তৰাধিকাৰ"
+      },
+      "note": {
+       "en": "Lachit had died in 1672 after saving Guwahati at Saraighat.",
+       "as": "শৰাইঘাটত গুৱাহাটী ৰক্ষা কৰি ১৬৭২ চনত লাচিতৰ মৃত্যু।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Lachit's brother.",
+       "as": "মই লাচিতৰ ভাই।"
+      },
+      {
+       "en": "I handed Guwahati to the Mughals in 1679.",
+       "as": "১৬৭৯ চনত মই গুৱাহাটী মোগলক দিছিলোঁ।"
+      },
+      {
+       "en": "I made a boy the king.",
+       "as": "মই এজন ল'ৰাক ৰজা পাতিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Laluk Sola",
+       "as": "লালুক চোলা"
+      },
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      },
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Laluk Sola Borphukan.",
+      "as": "লালুক চোলা বৰফুকন।"
+     },
+     "id": "sdp.u2.03"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the city surrendered in 1679.",
+      "as": "১৬৭৯ চনত অৰ্পণ কৰা নগৰখন টিপা।"
+     },
+     "target": "guwahati",
+     "choices": [
+      "guwahati",
+      "kaliabor",
+      "garhgaon",
+      "charaideo"
+     ],
+     "answerText": {
+      "en": "Guwahati",
+      "as": "গুৱাহাটী"
+     },
+     "why": {
+      "en": "Guwahati.",
+      "as": "গুৱাহাটী।"
+     },
+     "id": "sdp.u2.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The king killed",
+      "as": "ৰজাৰ হত্যা"
+     },
+     "text": [
+      {
+       "en": "Laluk then marched up the river. Officials joined him or died. By <mark>November 1679</mark> he held the kingdom and had Sudoiphaa put to death.",
+       "as": "তাৰ পিছত লালুকে নদীৰ উজনিলৈ আগবাঢ়িল। বিষয়াসকলে যোগ দিলে বা মৰিল। <mark>১৬৭৯ চনৰ নৱেম্বৰ</mark>ৰ ভিতৰত তেওঁ ৰাজ্য দখল কৰি চুদৈফাক হত্যা কৰালে।"
+      }
+     ],
+     "id": "sdp.u2.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put 1679 in order.",
+      "as": "১৬৭৯ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Laluk plots with the Nawab",
+       "as": "নৱাবৰ সৈতে লালুকৰ ষড়যন্ত্ৰ"
+      },
+      {
+       "en": "Guwahati handed over (March)",
+       "as": "গুৱাহাটী অৰ্পণ (মাৰ্চ)"
+      },
+      {
+       "en": "Laluk marches up the river",
+       "as": "লালুকৰ উজনিলৈ যাত্ৰা"
+      },
+      {
+       "en": "Sudoiphaa killed (November)",
+       "as": "চুদৈফা নিহত (নৱেম্বৰ)"
+      }
+     ],
+     "why": {
+      "en": "Fear → treason → coup.",
+      "as": "ভয় → ৰাজদ্ৰোহ → অভ্যুত্থান।"
+     },
+     "id": "sdp.u2.06"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "In",
+       "1679",
+       "Lachit",
+       "surrendered",
+       "Guwahati",
+       "to",
+       "the",
+       "Mughals."
+      ],
+      "as": [
+       "১৬৭৯",
+       "চনত",
+       "লাচিতে",
+       "গুৱাহাটী",
+       "মোগলক",
+       "অৰ্পণ",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 2,
+      "as": 2
+     },
+     "fix": {
+      "en": "→ Laluk Sola",
+      "as": "→ লালুক চোলাই"
+     },
+     "answerText": {
+      "en": "Lachit → Laluk Sola",
+      "as": "লাচিত → লালুক চোলা"
+     },
+     "why": {
+      "en": "Lachit died in 1672; his brother Laluk betrayed Guwahati.",
+      "as": "লাচিতৰ ১৬৭২ চনত মৃত্যু; ভাই লালুকে গুৱাহাটী বিক্ৰী কৰিছিল।"
+     },
+     "id": "sdp.u2.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Sudoiphaa",
+    "as": "তুমি স্বৰ্গদেউ চুদইফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the Parvatia Roja.",
+      "as": "মই পৰ্বতীয়া ৰজা।"
+     },
+     {
+      "en": "Atan Burhagohain raised me.",
+      "as": "আতন বুঢ়াগোহাঁইয়ে মোক পাতিছিল।"
+     },
+     {
+      "en": "Guwahati was lost in my reign.",
+      "as": "মোৰ দিনত গুৱাহাটী হেৰাল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Sudoiphaa",
+      "as": "চুদৈফা"
+     },
+     {
+      "en": "Sujinphaa",
+      "as": "চুজিনফা"
+     },
+     {
+      "en": "Sulikphaa",
+      "as": "চুলিকফা"
+     },
+     {
+      "en": "Gobar",
+      "as": "গোবৰ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sudoiphaa.",
+     "as": "চুদৈফা।"
+    },
+    "id": "sdp.test.01"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Laluk Sola was Lachit Borphukan's brother.",
+     "as": "লালুক চোলা লাচিত বৰফুকনৰ ভাই আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "sdp.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Guwahati.",
+     "as": "গুৱাহাটী টিপা।"
+    },
+    "target": "guwahati",
+    "choices": [
+     "guwahati",
+     "kaliabor",
+     "garhgaon",
+     "charaideo"
+    ],
+    "answerText": {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    "why": {
+     "en": "Guwahati, surrendered in 1679.",
+     "as": "১৬৭৯ চনত অৰ্পিত গুৱাহাটী।"
+    },
+    "id": "sdp.test.03"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Guwahati being surrendered?",
+     "as": "কোনখন ছবিত গুৱাহাটী অৰ্পণ দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "guwahati-surrendered.webp",
+     "sudoiphaa-court.webp",
+     "shared/moidams.webp",
+     "sudoiphaa-portrait.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The surrender",
+     "as": "অৰ্পণ"
+    },
+    "why": {
+     "en": "March 1679.",
+     "as": "১৬৭৯ চনৰ মাৰ্চ।"
+    },
+    "id": "sdp.test.04"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Parvatia Roja",
+       "as": "পৰ্বতীয়া ৰজা"
+      },
+      {
+       "en": "Sudoiphaa",
+       "as": "চুদৈফা"
+      }
+     ],
+     [
+      {
+       "en": "Samaguria Roja",
+       "as": "সমগুৰীয়া ৰজা"
+      },
+      {
+       "en": "Suhung",
+       "as": "চুহুং"
+      }
+     ],
+     [
+      {
+       "en": "Lora Roja",
+       "as": "লৰা ৰজা"
+      },
+      {
+       "en": "Sulikphaa",
+       "as": "চুলিকফা"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Nicknames.",
+     "as": "উপনাম।"
+    },
+    "id": "sdp.test.05"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Guwahati was surrendered to the Mughals in 1679.<br>2. Sudoiphaa was of royal blood.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ১৬৭৯ চনত গুৱাহাটী মোগলক অৰ্পণ কৰা হৈছিল।<br>২. চুদৈফা ৰাজবংশৰ আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "Both are correct.",
+     "as": "দুয়োটা শুদ্ধ।"
+    },
+    "small": true,
+    "id": "sdp.test.06"
+   }
+  ]
+ }
+}

@@ -1,0 +1,727 @@
+{
+ "id": "gobar-roja",
+ "no": 25,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Gobar Roja",
+  "as": "স্বৰ্গদেউ গোবৰ ৰজা"
+ },
+ "reign": {
+  "en": "Reign 1675 (about 24 days)",
+  "as": "ৰাজত্বকাল ১৬৭৫ (about ২৪ days)"
+ },
+ "portrait": "gobar-roja-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), Gait ch. VII, pp. 153–160",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Debera brings Gobar from Tungkhang, grandson of the Deo Raja; Bar Phukan, Bar Gohain and Burha Gohain swear to end the reign of terror; Debera's troops desert; Debera executed; Gobar killed after barely a month; Gadapani, son of Gobar"
+  },
+  {
+   "title": "Gobar Roja",
+   "url": "https://en.wikipedia.org/wiki/Gobar_Roja",
+   "used_for": "About 24 days in 1675; father of Gadadhar Singha"
+  },
+  {
+   "title": "Atan Burhagohain",
+   "url": "https://en.wikipedia.org/wiki/Atan_Burhagohain",
+   "used_for": "Burhagohain 1662–1679; role in 1675"
+  }
+ ],
+ "review_notes": "Dates follow the course list and Wikipedia; Gait's chronology for 1672–1675 runs about a year later (Udayaditya deposed August 1673, Ramdhwaj poisoned March 1675). Gait calls the Burhagohain of these years 'Sangrai'; the AHOM catalogue and Wikipedia call him Atan Burhagohain, which the lesson uses.",
+ "buildsOn": {
+  "no": 22,
+  "title": {
+   "en": "Udayaditya Singha",
+   "as": "উদয়াদিত্য সিংহ"
+  },
+  "id": "udayaditya-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1675",
+    "t": {
+     "en": "Set up by Debera; killed after about 24 days",
+     "as": "দেবেৰাই পাতে; প্ৰায় ২৪ দিনৰ পিছত নিহত"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.45,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "dihing",
+   "garhgaon",
+   "charaideo",
+   "sivasagar",
+   "namrup"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "sivasagar": {
+    "pos": "w",
+    "t": {
+     "en": "Sivasagar (today)",
+     "as": "শিৱসাগৰ (আজি)"
+    }
+   },
+   "namrup": {
+    "pos": "n"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "dihing": {
+    "at": [
+     27.25,
+     95.0
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     27.05,
+     94.3
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A month on the throne",
+    "as": "সিংহাসনত এমাহ"
+   },
+   "learned": [
+    {
+     "en": "Debera brought Gobar, a prince from Tungkhang, and made him king",
+     "as": "দেবেৰাই তুংখুঙৰ কোঁৱৰ গোবৰক আনি ৰজা পাতিলে"
+    },
+    {
+     "en": "Three great nobles swore an oath to end Debera's terror",
+     "as": "তিনিজন প্ৰধান বিষয়াই দেবেৰাৰ সন্ত্ৰাস অন্ত পেলোৱাৰ শপত খালে"
+    },
+    {
+     "en": "Debera's men deserted him; he was caught and executed",
+     "as": "দেবেৰাৰ লোকে তেওঁক এৰিলে; ধৰা পৰি প্ৰাণদণ্ড"
+    },
+    {
+     "en": "Gobar was killed after about 24 days",
+     "as": "প্ৰায় ২৪ দিনৰ পিছত গোবৰ নিহত"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "gobar-crowned.webp",
+     "title": {
+      "en": "The last puppet",
+      "as": "শেষ পুতলা"
+     },
+     "text": [
+      {
+       "en": "Debera next brought a prince from Tungkhang, [[gobar-roja|Gobar]], a grandson of the Deo Raja, and crowned him in <mark>1675</mark>.",
+       "as": "তাৰ পিছত দেবেৰাই তুংখুঙৰ পৰা দেও ৰজাৰ নাতি কোঁৱৰ [[gobar-roja|গোবৰ]]ক আনি <mark>১৬৭৫</mark> চনত ৰজা পাতিলে।"
+      },
+      {
+       "en": "Then Debera sent for the Borphukan from Guwahati. The Borphukan guessed he was meant to die.",
+       "as": "তাৰ পিছত দেবেৰাই গুৱাহাটীৰ পৰা বৰফুকনক মাতি পঠালে। বৰফুকনে বুজিলে তেওঁক মৰাৰ বাবে মতা হৈছে।"
+      }
+     ],
+     "id": "gbr.u1.01",
+     "link": {
+      "lesson": 24,
+      "lessonId": "suhung",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "Twenty-one days",
+       "as": "একৈশ দিন"
+      },
+      "note": {
+       "en": "Debera had just killed Suhung.",
+       "as": "দেবেৰাই সদ্যহে চুহুঙক হত্যা কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "debera-falls.webp",
+     "title": {
+      "en": "The oath",
+      "as": "শপত"
+     },
+     "text": [
+      {
+       "en": "The Borphukan, the Borgohain and the Burhagohain, [[atan-burhagohain]], swore an oath to end the reign of terror and marched on the capital.",
+       "as": "বৰফুকন, বৰগোহাঁই আৰু বুঢ়াগোহাঁই [[atan-burhagohain]]এ সন্ত্ৰাসৰ অন্ত পেলোৱাৰ শপত খাই ৰাজধানীলৈ আগবাঢ়িল।"
+      },
+      {
+       "en": "Debera's troops melted away. He fled, was caught and executed. Gobar, king for barely a month, was also put to death.",
+       "as": "দেবেৰাৰ সৈন্য বিলীন হ'ল। তেওঁ পলাল, ধৰা পৰিল আৰু প্ৰাণদণ্ড পালে। এমাহো নোহোৱা ৰজা গোবৰকো হত্যা কৰা হ'ল।"
+      }
+     ],
+     "id": "gbr.u1.02"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these in order.",
+      "as": "ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Debera crowns Gobar",
+       "as": "দেবেৰাই গোবৰক পাতে"
+      },
+      {
+       "en": "Three nobles swear an oath",
+       "as": "তিনিজন বিষয়াৰ শপত"
+      },
+      {
+       "en": "Debera's troops desert",
+       "as": "দেবেৰাৰ সৈন্য পলায়"
+      },
+      {
+       "en": "Debera executed",
+       "as": "দেবেৰাৰ প্ৰাণদণ্ড"
+      }
+     ],
+     "why": {
+      "en": "The kingmaker falls.",
+      "as": "ৰজা-নিৰ্মাতাৰ পতন।"
+     },
+     "id": "gbr.u1.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Debera died peacefully as Borbarua.",
+      "as": "দেবেৰাৰ বৰবৰুৱা হৈ থকা অৱস্থাতে শান্তিৰে মৃত্যু হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He was hunted down and executed.",
+      "as": "অশুদ্ধ। তেওঁক খেদি ধৰি প্ৰাণদণ্ড দিয়া হৈছিল।"
+     },
+     "id": "gbr.u1.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Burhagohain for many years.",
+       "as": "মই বহু বছৰ বুঢ়াগোহাঁই।"
+      },
+      {
+       "en": "I helped bring Debera down.",
+       "as": "দেবেৰাৰ পতনত মই সহায় কৰিছিলোঁ।"
+      },
+      {
+       "en": "I later made and unmade kings myself.",
+       "as": "পিছত মই নিজেও ৰজা পাতিছিলোঁ-আঁতৰাইছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      },
+      {
+       "en": "Laluk Sola",
+       "as": "লালুক চোলা"
+      },
+      {
+       "en": "Lachit",
+       "as": "লাচিত"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Atan Burhagohain.",
+      "as": "আতন বুঢ়াগোহাঁই।"
+     },
+     "id": "gbr.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Debera's fall?",
+      "as": "কোনখন ছবিত দেবেৰাৰ পতন দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "debera-falls.webp",
+      "gobar-crowned.webp",
+      "gobar-roja-portrait.webp",
+      "shared/gohains.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The fall of Debera and Gobar",
+      "as": "দেবেৰা আৰু গোবৰৰ পতন"
+     },
+     "why": {
+      "en": "1675.",
+      "as": "১৬৭৫।"
+     },
+     "id": "gbr.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "star",
+   "title": {
+    "en": "A dynasty's seed",
+    "as": "এটা ৰাজবংশৰ বীজ"
+   },
+   "learned": [
+    {
+     "en": "Gobar's son Gadapani escaped",
+     "as": "গোবৰৰ পুত্ৰ গদাপাণি ৰক্ষা পৰিল"
+    },
+    {
+     "en": "Gadapani became King Gadadhar Singha in 1681",
+     "as": "১৬৮১ চনত গদাপাণি ৰজা গদাধৰ সিংহ হ'ল"
+    },
+    {
+     "en": "His line is called Tungkhungia, after Tungkhang",
+     "as": "তেওঁৰ বংশক তুংখুঙৰ নামেৰে তুংখুঙীয়া বোলা হয়"
+    },
+    {
+     "en": "The Tungkhungia kings ruled to the end of the kingdom",
+     "as": "তুংখুঙীয়া ৰজাসকলে ৰাজ্যৰ শেষলৈকে শাসন কৰিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Gobar was king for about a month.",
+      "as": "মনত পেলোৱা: গোবৰ প্ৰায় এমাহ ৰজা আছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: about 24 days.",
+      "as": "শুদ্ধ: প্ৰায় ২৪ দিন।"
+     },
+     "id": "gbr.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A month on the throne.",
+       "as": "সিংহাসনত এমাহ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The son who survived",
+      "as": "বাচি থকা পুত্ৰ"
+     },
+     "text": [
+      {
+       "en": "Gobar's reign was the shortest of all, but his son [[gadapani]] escaped.",
+       "as": "গোবৰৰ ৰাজত্ব আটাইতকৈ চুটি, কিন্তু তেওঁৰ পুত্ৰ [[gadapani]] ৰক্ষা পৰিল।"
+      },
+      {
+       "en": "In 1681 Gadapani became [[gadadhar-singha]], founder of the [[tungkhungia]] line, named after Gobar's home, Tungkhang.",
+       "as": "১৬৮১ চনত গদাপাণি [[gadadhar-singha]] হ'ল, [[tungkhungia]] বংশৰ প্ৰতিষ্ঠাপক; গোবৰৰ ঘৰ তুংখুঙৰ নামেৰে এই নাম।"
+      }
+     ],
+     "id": "gbr.u2.02"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of the new royal line.",
+      "as": "নতুন ৰাজবংশৰ নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "T",
+       "U",
+       "N",
+       "G",
+       "K",
+       "H",
+       "U",
+       "N",
+       "G",
+       "I",
+       "A"
+      ],
+      "as": [
+       "তুং",
+       "খুঙী",
+       "য়া"
+      ]
+     },
+     "answerText": {
+      "en": "TUNGKHUNGIA",
+      "as": "তুংখুঙীয়া"
+     },
+     "why": {
+      "en": "Tungkhungia.",
+      "as": "তুংখুঙীয়া।"
+     },
+     "id": "gbr.u2.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "My father was Gobar Roja.",
+       "as": "মোৰ পিতৃ গোবৰ ৰজা।"
+      },
+      {
+       "en": "I hid for years.",
+       "as": "মই বহু বছৰ লুকাই আছিলোঁ।"
+      },
+      {
+       "en": "I founded the Tungkhungia line.",
+       "as": "মই তুংখুঙীয়া বংশৰ প্ৰতিষ্ঠাপক।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Gadapani (Gadadhar Singha)",
+       "as": "গদাপাণি (গদাধৰ সিংহ)"
+      },
+      {
+       "en": "Sulikphaa",
+       "as": "চুলিকফা"
+      },
+      {
+       "en": "Sujinphaa",
+       "as": "চুজিনফা"
+      },
+      {
+       "en": "Rudra Singha",
+       "as": "ৰুদ্ৰ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gadapani.",
+      "as": "গদাপাণি।"
+     },
+     "id": "gbr.u2.04"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Gobar Roja",
+        "as": "গোবৰ ৰজা"
+       },
+       {
+        "en": "Father",
+        "as": "পিতৃ"
+       }
+      ],
+      [
+       {
+        "en": "Gadadhar Singha",
+        "as": "গদাধৰ সিংহ"
+       },
+       {
+        "en": "Son",
+        "as": "পুত্ৰ"
+       }
+      ],
+      [
+       {
+        "en": "Tungkhang",
+        "as": "তুংখুং"
+       },
+       {
+        "en": "Home of the line",
+        "as": "বংশৰ ঘৰ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "A month-long king, a century-long dynasty.",
+      "as": "এমহীয়া ৰজা, শতিকাজোৰা ৰাজবংশ।"
+     },
+     "id": "gbr.u2.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Gobar",
+       "Roja",
+       "was",
+       "the",
+       "grandson",
+       "of",
+       "Gadadhar",
+       "Singha."
+      ],
+      "as": [
+       "গোবৰ",
+       "ৰজা",
+       "গদাধৰ",
+       "সিংহৰ",
+       "নাতি",
+       "আছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 4,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ father",
+      "as": "→ পিতৃ"
+     },
+     "answerText": {
+      "en": "grandson → father",
+      "as": "নাতি → পিতৃ"
+     },
+     "why": {
+      "en": "Gobar was Gadadhar Singha's father.",
+      "as": "গোবৰ গদাধৰ সিংহৰ পিতৃ।"
+     },
+     "id": "gbr.u2.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Gobar Roja",
+    "as": "তুমি স্বৰ্গদেউ গোবৰ ৰজাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "Debera made me king.",
+      "as": "দেবেৰাই মোক ৰজা পাতিছিল।"
+     },
+     {
+      "en": "I came from Tungkhang.",
+      "as": "মই তুংখুঙৰ পৰা আহিছিলোঁ।"
+     },
+     {
+      "en": "My son founded a new line.",
+      "as": "মোৰ পুত্ৰই নতুন বংশ স্থাপন কৰিছিল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Gobar Roja",
+      "as": "গোবৰ ৰজা"
+     },
+     {
+      "en": "Suhung",
+      "as": "চুহুং"
+     },
+     {
+      "en": "Sudoiphaa",
+      "as": "চুদৈফা"
+     },
+     {
+      "en": "Ramdhwaj",
+      "as": "ৰামধ্বজ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Gobar Roja.",
+     "as": "গোবৰ ৰজা।"
+    },
+    "id": "gbr.test.01"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The Tungkhungia line is named after Gobar's home, Tungkhang.",
+     "as": "গোবৰৰ ঘৰ তুংখুঙৰ নামেৰে তুংখুঙীয়া বংশৰ নাম।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "gbr.test.02"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Gobar being crowned?",
+     "as": "কোনখন ছবিত গোবৰৰ অভিষেক দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "gobar-crowned.webp",
+     "debera-falls.webp",
+     "shared/moidams.webp",
+     "gobar-roja-portrait.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The puppet crown",
+     "as": "পুতলা মুকুট"
+    },
+    "why": {
+     "en": "1675.",
+     "as": "১৬৭৫।"
+    },
+    "id": "gbr.test.03"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kings in order.",
+     "as": "ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Ramdhwaj",
+      "as": "ৰামধ্বজ"
+     },
+     {
+      "en": "Suhung",
+      "as": "চুহুং"
+     },
+     {
+      "en": "Gobar",
+      "as": "গোবৰ"
+     },
+     {
+      "en": "Sujinphaa",
+      "as": "চুজিনফা"
+     }
+    ],
+    "why": {
+     "en": "Kings 23–26.",
+     "as": "২৩–২৬ নম্বৰ ৰজা।"
+    },
+    "id": "gbr.test.04"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      },
+      {
+       "en": "Executed in 1675",
+       "as": "১৬৭৫ চনত প্ৰাণদণ্ড"
+      }
+     ],
+     [
+      {
+       "en": "Gobar",
+       "as": "গোবৰ"
+      },
+      {
+       "en": "King about 24 days",
+       "as": "প্ৰায় ২৪ দিনৰ ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Gadapani",
+       "as": "গদাপাণি"
+      },
+      {
+       "en": "Future Gadadhar Singha",
+       "as": "ভৱিষ্যতৰ গদাধৰ সিংহ"
+      }
+     ]
+    ],
+    "why": {
+     "en": "1675.",
+     "as": "১৬৭৫।"
+    },
+    "id": "gbr.test.05"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Gobar Roja was the father of Gadadhar Singha.<br>2. Gobar Roja ruled for many years.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. গোবৰ ৰজা গদাধৰ সিংহৰ পিতৃ।<br>২. গোবৰ ৰজাই বহু বছৰ ৰাজত্ব কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1.",
+     "as": "কেৱল ১।"
+    },
+    "small": true,
+    "id": "gbr.test.06"
+   }
+  ]
+ }
+}

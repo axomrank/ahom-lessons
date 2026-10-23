@@ -1998,5 +1998,141 @@
    "en": "24 November, Lachit Borphukan's birthday, observed in Assam",
    "as": "২৪ নৱেম্বৰ, লাচিত বৰফুকনৰ জন্মদিন; অসমত পালন কৰা হয়"
   }
+ },
+ "debera": {
+  "type": "person",
+  "name": {
+   "en": "Debera Borbarua",
+   "as": "দেবেৰা বৰবৰুৱা"
+  },
+  "meaning": {
+   "en": "Ringleader of the 1672 coup, made Borbarua; poisoned Ramdhwaj and killed Suhung; executed in 1675",
+   "as": "১৬৭২ৰ অভ্যুত্থানৰ মূল নায়ক, বৰবৰুৱা; ৰামধ্বজক বিষ খুৱায় আৰু চুহুঙক হত্যা কৰায়; ১৬৭৫ চনত প্ৰাণদণ্ড"
+  }
+ },
+ "suhung": {
+  "type": "person",
+  "name": {
+   "en": "Suhung",
+   "as": "চুহুং"
+  },
+  "meaning": {
+   "en": "Samaguria Roja, set up by Debera; killed after about 21 days",
+   "as": "সমগুৰীয়া ৰজা; দেবেৰাই পাতিছিল; প্ৰায় ২১ দিনৰ পিছত নিহত"
+  }
+ },
+ "gobar-roja": {
+  "type": "person",
+  "name": {
+   "en": "Gobar Roja",
+   "as": "গোবৰ ৰজা"
+  },
+  "meaning": {
+   "en": "Prince from Tungkhang set up by Debera in 1675; killed after about 24 days; father of Gadadhar Singha",
+   "as": "১৬৭৫ চনত দেবেৰাই পতা তুংখুঙৰ কোঁৱৰ; প্ৰায় ২৪ দিনৰ পিছত নিহত; গদাধৰ সিংহৰ পিতৃ"
+  }
+ },
+ "sujinphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sujinphaa",
+   "as": "চুজিনফা"
+  },
+  "meaning": {
+   "en": "Arjun Konwar, king 1675–1677, raised by Atan Burhagohain; blinded and killed when the Burhagohain turned on him",
+   "as": "অৰ্জুন কোঁৱৰ, ১৬৭৫–১৬৭৭ লৈকে ৰজা; আতন বুঢ়াগোহাঁইয়ে পাতিছিল; পিছত অন্ধ কৰি হত্যা"
+  }
+ },
+ "sudoiphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sudoiphaa",
+   "as": "চুদৈফা"
+  },
+  "meaning": {
+   "en": "Parvatia Roja, king 1677–1679, of the Parbatiya clan; killed by Laluk Sola Borphukan",
+   "as": "পৰ্বতীয়া ৰজা, ১৬৭৭–১৬৭৯ লৈকে ৰজা; লালুক চোলা বৰফুকনে হত্যা কৰে"
+  }
+ },
+ "sulikphaa": {
+  "type": "person",
+  "name": {
+   "en": "Sulikphaa",
+   "as": "চুলিকফা"
+  },
+  "meaning": {
+   "en": "Lora Roja, 'the boy king', 1679–1681; maimed royal princes; deposed and killed",
+   "as": "লৰা ৰজা, ১৬৭৯–১৬৮১; ৰাজকোঁৱৰসকলক অংগহানি কৰায়; সিংহাসনচ্যুত আৰু নিহত"
+  }
+ },
+ "laluk-sola": {
+  "type": "person",
+  "name": {
+   "en": "Laluk Sola Borphukan",
+   "as": "লালুক চোলা বৰফুকন"
+  },
+  "meaning": {
+   "en": "Lachit's brother and successor as Borphukan; gave Guwahati to the Mughals in 1679, made Sulikphaa king, wore royal robes; murdered in 1680",
+   "as": "লাচিতৰ ভাই আৰু উত্তৰাধিকাৰী বৰফুকন; ১৬৭৯ চনত গুৱাহাটী মোগলক দিয়ে, চুলিকফাক ৰজা পাতে, ৰাজবস্ত্ৰ পিন্ধে; ১৬৮০ চনত হত্যা"
+  }
+ },
+ "gadapani": {
+  "type": "person",
+  "name": {
+   "en": "Gadapani",
+   "as": "গদাপাণি"
+  },
+  "meaning": {
+   "en": "Son of Gobar Roja; hid among the Nagas and Garos while princes were maimed; became King Gadadhar Singha in 1681",
+   "as": "গোবৰ ৰজাৰ পুত্ৰ; ৰাজকোঁৱৰক অংগহানি কৰাৰ সময়ত নগা-গাৰোৰ মাজত লুকাই আছিল; ১৬৮১ চনত ৰজা গদাধৰ সিংহ"
+  }
+ },
+ "joymoti": {
+  "type": "person",
+  "name": {
+   "en": "Joymoti",
+   "as": "জয়মতী"
+  },
+  "meaning": {
+   "en": "Wife of Gadapani; tortured at Jerenga Pathar for refusing to reveal where he hid, and died (1680). Mother of Rudra Singha",
+   "as": "গদাপাণিৰ পত্নী; স্বামী ক'ত লুকাই আছে নকোৱাৰ বাবে জেৰেঙা পথাৰত নিৰ্যাতিত হৈ মৃত্যু (১৬৮০)। ৰুদ্ৰ সিংহৰ মাতৃ"
+  }
+ },
+ "jerenga": {
+  "type": "place",
+  "name": {
+   "en": "Jerenga Pathar",
+   "as": "জেৰেঙা পথাৰ"
+  },
+  "meaning": {
+   "en": "Field near Sivasagar where Joymoti was tortured in 1680",
+   "as": "শিৱসাগৰৰ ওচৰৰ পথাৰ, য'ত ১৬৮০ চনত জয়মতীক নিৰ্যাতন কৰা হৈছিল"
+  },
+  "geo": [
+   26.99,
+   94.66
+  ]
+ },
+ "tungkhungia": {
+  "type": "term",
+  "name": {
+   "en": "Tungkhungia",
+   "as": "তুংখুঙীয়া"
+  },
+  "meaning": {
+   "en": "The royal line of Gadadhar Singha, from Gobar Roja's home at Tungkhang; it ruled from 1681 to the end",
+   "as": "গদাধৰ সিংহৰ ৰাজবংশ, গোবৰ ৰজাৰ ঘৰ তুংখুঙৰ নামেৰে; ১৬৮১ৰ পৰা শেষলৈকে শাসন কৰে"
+  }
+ },
+ "gadadhar-singha": {
+  "type": "person",
+  "name": {
+   "en": "Gadadhar Singha",
+   "as": "গদাধৰ সিংহ"
+  },
+  "meaning": {
+   "en": "Gadapani, first Tungkhungia king (1681–1696); drove the Mughals from Guwahati for good in 1682",
+   "as": "গদাপাণি, প্ৰথম তুংখুঙীয়া ৰজা (১৬৮১–১৬৯৬); ১৬৮২ চনত গুৱাহাটীৰ পৰা মোগলক চিৰদিনৰ বাবে খেদে"
+  }
  }
 }

@@ -549,38 +549,6 @@
      "art": "scroll"
     },
     {
-     "type": "tf",
-     "s": {
-      "en": "Sudangphaa is called Bamuni Konwar because he grew up in a Brahman's house.",
-      "as": "ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হোৱা বাবে চুদাংফাক বামুণী কোঁৱৰ বোলা হয়।"
-     },
-     "answer": true,
-     "why": {
-      "en": "True: 'the Brahman prince'.",
-      "as": "শুদ্ধ: 'ব্ৰাহ্মণৰ কোঁৱৰ'।"
-     },
-     "id": "sdg3.u2.01"
-    },
-    {
-     "type": "story",
-     "title": {
-      "en": "A new coronation",
-      "as": "নতুন অভিষেক"
-     },
-     "text": [
-      {
-       "en": "Sudangphaa began the [[singarigharutha]] coronation ceremony, which later kings followed.",
-       "as": "চুদাংফাই [[singarigharutha]] অভিষেক অনুষ্ঠান আৰম্ভ কৰিছিল, যিটো পিছৰ ৰজাসকলেও মানি চলিছিল।"
-      },
-      {
-       "en": "Its name comes from the wood of the <mark>Singari tree</mark>, used for the king's platform.",
-       "as": "ৰজাৰ মঞ্চত ব্যৱহৃত <mark>সিংগৰি গছ</mark>ৰ কাঠৰ পৰা ইয়াৰ নাম।"
-      }
-     ],
-     "id": "sdg.u2.04",
-     "img": "singarigharutha.webp"
-    },
-    {
      "type": "picture",
      "q": {
       "en": "Which picture shows the Singarigharutha coronation?",
@@ -602,6 +570,38 @@
       "as": "চুদাংফাই আৰম্ভ কৰা অভিষেক অনুষ্ঠান; পিছৰ ৰজাসকলে মানি চলিছিল।"
      },
      "id": "sdg3.u2.02"
+    },
+    {
+     "type": "story",
+     "title": {
+      "en": "A new coronation",
+      "as": "নতুন অভিষেক"
+     },
+     "text": [
+      {
+       "en": "Sudangphaa began the [[singarigharutha]] coronation ceremony, which later kings followed.",
+       "as": "চুদাংফাই [[singarigharutha]] অভিষেক অনুষ্ঠান আৰম্ভ কৰিছিল, যিটো পিছৰ ৰজাসকলেও মানি চলিছিল।"
+      },
+      {
+       "en": "Its name comes from the wood of the <mark>Singari tree</mark>, used for the king's platform.",
+       "as": "ৰজাৰ মঞ্চত ব্যৱহৃত <mark>সিংগৰি গছ</mark>ৰ কাঠৰ পৰা ইয়াৰ নাম।"
+      }
+     ],
+     "id": "sdg.u2.04",
+     "img": "singarigharutha.webp"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sudangphaa is called Bamuni Konwar because he grew up in a Brahman's house.",
+      "as": "ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হোৱা বাবে চুদাংফাক বামুণী কোঁৱৰ বোলা হয়।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: 'the Brahman prince'.",
+      "as": "শুদ্ধ: 'ব্ৰাহ্মণৰ কোঁৱৰ'।"
+     },
+     "id": "sdg3.u2.01"
     },
     {
      "type": "story",

@@ -1178,6 +1178,78 @@
      }
     },
     {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the office Suhungmung created.",
+      "as": "চুহুংমুঙে সৃষ্টি কৰা পদটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "B",
+       "O",
+       "R",
+       "P",
+       "A",
+       "T",
+       "R",
+       "O",
+       "G",
+       "O",
+       "H",
+       "A",
+       "I",
+       "N"
+      ],
+      "as": [
+       "বৰ",
+       "পাত্ৰ",
+       "গো",
+       "হাঁই"
+      ]
+     },
+     "answerText": {
+      "en": "BORPATROGOHAIN",
+      "as": "বৰপাত্ৰগোহাঁই"
+     },
+     "why": {
+      "en": "Borpatrogohain.",
+      "as": "বৰপাত্ৰগোহাঁই।"
+     },
+     "id": "shm3.u4.01"
+    },
+    {
+     "type": "story",
+     "img": "first-borpatrogohain.webp",
+     "title": {
+      "en": "A seat between two",
+      "as": "দুজনৰ মাজত আসন"
+     },
+     "text": [
+      {
+       "en": "Suhungmung created a new office for him, the [[borpatrogohain]], equal to the [[burhagohain]] and the [[borgohain]].",
+       "as": "চুহুংমুঙে তেওঁৰ বাবে এটা নতুন পদ সৃষ্টি কৰিলে, [[borpatrogohain]], যি [[burhagohain]] আৰু [[borgohain]]ৰ সমান।"
+      },
+      {
+       "en": "The two old Gohains would not give up any of their men. So the king gave him the Barahis, Chutias and Morans, and seated him between the two before all the nobles.",
+       "as": "পুৰণি দুজন গোহাঁইয়ে নিজৰ লোক এৰি দিবলৈ নামানিলে। সেয়ে ৰজাই তেওঁক বৰাহী, চুতীয়া আৰু মৰাণসকলক দিলে, আৰু সকলো সম্ভ্ৰান্তৰ আগত দুয়োজনৰ মাজত বহুৱালে।"
+      }
+     ],
+     "id": "shm.u4.03",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Running the kingdom",
+       "as": "ৰাজ্য পৰিচালনা"
+      },
+      "note": {
+       "en": "Sukaphaa had created only two great offices: the Burhagohain and the Borgohain.",
+       "as": "চুকাফাই কেৱল দুটা প্ৰধান পদ সৃষ্টি কৰিছিল: বুঢ়াগোহাঁই আৰু বৰগোহাঁই।"
+      }
+     }
+    },
+    {
      "type": "whoami",
      "clues": [
       {
@@ -1217,78 +1289,6 @@
       "as": "কনচেং (চেংলুং), চুহুংমুঙৰ বৈমাত্ৰেয় ভাই, প্ৰথম বৰপাত্ৰগোহাঁই।"
      },
      "id": "shm.u4.02"
-    },
-    {
-     "type": "story",
-     "img": "first-borpatrogohain.webp",
-     "title": {
-      "en": "A seat between two",
-      "as": "দুজনৰ মাজত আসন"
-     },
-     "text": [
-      {
-       "en": "Suhungmung created a new office for him, the [[borpatrogohain]], equal to the [[burhagohain]] and the [[borgohain]].",
-       "as": "চুহুংমুঙে তেওঁৰ বাবে এটা নতুন পদ সৃষ্টি কৰিলে, [[borpatrogohain]], যি [[burhagohain]] আৰু [[borgohain]]ৰ সমান।"
-      },
-      {
-       "en": "The two old Gohains would not give up any of their men. So the king gave him the Barahis, Chutias and Morans, and seated him between the two before all the nobles.",
-       "as": "পুৰণি দুজন গোহাঁইয়ে নিজৰ লোক এৰি দিবলৈ নামানিলে। সেয়ে ৰজাই তেওঁক বৰাহী, চুতীয়া আৰু মৰাণসকলক দিলে, আৰু সকলো সম্ভ্ৰান্তৰ আগত দুয়োজনৰ মাজত বহুৱালে।"
-      }
-     ],
-     "id": "shm.u4.03",
-     "link": {
-      "lesson": 1,
-      "lessonId": "sukaphaa",
-      "unitNo": 4,
-      "unitTitle": {
-       "en": "Running the kingdom",
-       "as": "ৰাজ্য পৰিচালনা"
-      },
-      "note": {
-       "en": "Sukaphaa had created only two great offices: the Burhagohain and the Borgohain.",
-       "as": "চুকাফাই কেৱল দুটা প্ৰধান পদ সৃষ্টি কৰিছিল: বুঢ়াগোহাঁই আৰু বৰগোহাঁই।"
-      }
-     }
-    },
-    {
-     "type": "unscramble",
-     "q": {
-      "en": "Unscramble the office Suhungmung created.",
-      "as": "চুহুংমুঙে সৃষ্টি কৰা পদটো সজাই লিখা।"
-     },
-     "word": {
-      "en": [
-       "B",
-       "O",
-       "R",
-       "P",
-       "A",
-       "T",
-       "R",
-       "O",
-       "G",
-       "O",
-       "H",
-       "A",
-       "I",
-       "N"
-      ],
-      "as": [
-       "বৰ",
-       "পাত্ৰ",
-       "গো",
-       "হাঁই"
-      ]
-     },
-     "answerText": {
-      "en": "BORPATROGOHAIN",
-      "as": "বৰপাত্ৰগোহাঁই"
-     },
-     "why": {
-      "en": "Borpatrogohain.",
-      "as": "বৰপাত্ৰগোহাঁই।"
-     },
-     "id": "shm3.u4.01"
     },
     {
      "type": "timeline",
@@ -2059,27 +2059,58 @@
      "id": "shm.u7.02"
     },
     {
-     "type": "picture",
+     "type": "match",
      "q": {
-      "en": "Which picture shows how Suhungmung died?",
-      "as": "কোনখন ছবিত চুহুংমুঙৰ মৃত্যু দেখুওৱা হৈছে?"
+      "en": "Match the 'firsts'.",
+      "as": "'প্ৰথম'বোৰ মিলোৱা।"
      },
-     "options": [
-      "assassination.webp",
-      "western-frontier.webp",
-      "swarganarayan.webp",
-      "konseng-at-court.webp"
+     "pairs": [
+      [
+       {
+        "en": "Swarganarayan",
+        "as": "স্বৰ্গনাৰায়ণ"
+       },
+       {
+        "en": "First Hindu title",
+        "as": "প্ৰথম হিন্দু উপাধি"
+       }
+      ],
+      [
+       {
+        "en": "1510",
+        "as": "১৫১০"
+       },
+       {
+        "en": "First count of the people",
+        "as": "প্ৰথম প্ৰজা গণনা"
+       }
+      ],
+      [
+       {
+        "en": "Borpatrogohain",
+        "as": "বৰপাত্ৰগোহাঁই"
+       },
+       {
+        "en": "The third Gohain",
+        "as": "তৃতীয় গোহাঁই"
+       }
+      ],
+      [
+       {
+        "en": "Turbak's war",
+        "as": "তুৰবকৰ যুদ্ধ"
+       },
+       {
+        "en": "Firearms adopted",
+        "as": "বন্দুক-কামান গ্ৰহণ"
+       }
+      ]
      ],
-     "answer": 0,
-     "answerText": {
-      "en": "Murder in the night",
-      "as": "নিশাৰ হত্যা"
-     },
      "why": {
-      "en": "Stabbed in his sleep, January 1539.",
-      "as": "১৫৩৯ জানুৱাৰী, টোপনিতে আঘাত।"
+      "en": "Four of the five firsts. The fifth: the Saka era.",
+      "as": "পাঁচটাৰ চাৰিটা। পঞ্চম: শকাব্দ।"
      },
-     "id": "shm3.u7.01"
+     "id": "shm4.u7.03"
     },
     {
      "type": "spot",
@@ -2290,58 +2321,27 @@
      "id": "shm4.u7.02"
     },
     {
-     "type": "match",
+     "type": "picture",
      "q": {
-      "en": "Match the 'firsts'.",
-      "as": "'প্ৰথম'বোৰ মিলোৱা।"
+      "en": "Which picture shows how Suhungmung died?",
+      "as": "কোনখন ছবিত চুহুংমুঙৰ মৃত্যু দেখুওৱা হৈছে?"
      },
-     "pairs": [
-      [
-       {
-        "en": "Swarganarayan",
-        "as": "স্বৰ্গনাৰায়ণ"
-       },
-       {
-        "en": "First Hindu title",
-        "as": "প্ৰথম হিন্দু উপাধি"
-       }
-      ],
-      [
-       {
-        "en": "1510",
-        "as": "১৫১০"
-       },
-       {
-        "en": "First count of the people",
-        "as": "প্ৰথম প্ৰজা গণনা"
-       }
-      ],
-      [
-       {
-        "en": "Borpatrogohain",
-        "as": "বৰপাত্ৰগোহাঁই"
-       },
-       {
-        "en": "The third Gohain",
-        "as": "তৃতীয় গোহাঁই"
-       }
-      ],
-      [
-       {
-        "en": "Turbak's war",
-        "as": "তুৰবকৰ যুদ্ধ"
-       },
-       {
-        "en": "Firearms adopted",
-        "as": "বন্দুক-কামান গ্ৰহণ"
-       }
-      ]
+     "options": [
+      "assassination.webp",
+      "western-frontier.webp",
+      "swarganarayan.webp",
+      "konseng-at-court.webp"
      ],
-     "why": {
-      "en": "Four of the five firsts. The fifth: the Saka era.",
-      "as": "পাঁচটাৰ চাৰিটা। পঞ্চম: শকাব্দ।"
+     "answer": 0,
+     "answerText": {
+      "en": "Murder in the night",
+      "as": "নিশাৰ হত্যা"
      },
-     "id": "shm4.u7.03"
+     "why": {
+      "en": "Stabbed in his sleep, January 1539.",
+      "as": "১৫৩৯ জানুৱাৰী, টোপনিতে আঘাত।"
+     },
+     "id": "shm3.u7.01"
     }
    ]
   }

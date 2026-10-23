@@ -1,5 +1,5 @@
 {
- "version": "4ac58a9ca6",
+ "version": "912cfcd1a2",
  "courses": [
   {
    "id": "ahom-kings",
@@ -69,6 +69,44 @@
      },
      "i": "trophy",
      "ex": 10
+    }
+   ]
+  },
+  "gobar-roja": {
+   "no": 25,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Gobar Roja",
+    "as": "স্বৰ্গদেউ গোবৰ ৰজা"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A month on the throne",
+      "as": "সিংহাসনত এমাহ"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "A dynasty's seed",
+      "as": "এটা ৰাজবংশৰ বীজ"
+     },
+     "i": "star",
+     "ex": 5
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 6
     }
    ]
   },
@@ -238,6 +276,44 @@
     }
    ]
   },
+  "ramdhwaj-singha": {
+   "no": 23,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Ramdhwaj Singha",
+    "as": "স্বৰ্গদেউ ৰামধ্বজ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "The brother who seized the throne",
+      "as": "সিংহাসন দখল কৰা ভাই"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Poison in the palace",
+      "as": "ৰাজপ্ৰসাদত বিষ"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 6
+    }
+   ]
+  },
   "subinphaa": {
    "no": 3,
    "version": 3,
@@ -350,6 +426,44 @@
     }
    ]
   },
+  "sudoiphaa": {
+   "no": 27,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Sudoiphaa",
+    "as": "স্বৰ্গদেউ চুদইফা"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "The Burhagohain's king",
+      "as": "বুঢ়াগোহাঁইৰ ৰজা"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Guwahati betrayed",
+      "as": "গুৱাহাটী বিক্ৰী"
+     },
+     "i": "flag",
+     "ex": 5
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 6
+    }
+   ]
+  },
   "suhenphaa": {
    "no": 12,
    "version": 3,
@@ -394,6 +508,44 @@
      },
      "i": "trophy",
      "ex": 8
+    }
+   ]
+  },
+  "suhung": {
+   "no": 24,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Suhung",
+    "as": "স্বৰ্গদেউ সমগুৰিয়া ৰজা"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "Twenty-one days",
+      "as": "একৈশ দিন"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Kings and kingmakers",
+      "as": "ৰজা আৰু ৰজা-নিৰ্মাতা"
+     },
+     "i": "hands",
+     "ex": 5
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 6
     }
    ]
   },
@@ -515,6 +667,44 @@
      },
      "i": "trophy",
      "ex": 8
+    }
+   ]
+  },
+  "sujinphaa": {
+   "no": 26,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Sujinphaa",
+    "as": "স্বৰ্গদেউ চুজিনফা"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A king who trusted no one",
+      "as": "কাকো বিশ্বাস নকৰা ৰজা"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Sword in hand",
+      "as": "হাতত তৰোৱাল"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 6
     }
    ]
   },
@@ -804,6 +994,53 @@
      },
      "i": "moon",
      "ex": 5
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 9
+    }
+   ]
+  },
+  "sulikphaa": {
+   "no": 28,
+   "version": 1,
+   "steps": 4,
+   "title": {
+    "en": "Swargadeo Sulikphaa",
+    "as": "স্বৰ্গদেউ চুলিকফা"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "The boy king",
+      "as": "ল'ৰা ৰজা"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The hunt for princes",
+      "as": "কোঁৱৰ চিকাৰ"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "Joymoti",
+      "as": "জয়মতী"
+     },
+     "i": "star",
+     "ex": 4
     },
     {
      "id": "test",

@@ -2119,6 +2119,166 @@
     "en": "The National Defence Academy, since 1999.",
     "as": "১৯৯৯ৰ পৰা ৰাষ্ট্ৰীয় প্ৰতিৰক্ষা একাডেমী।"
    }
+  },
+  {
+   "id": "bank.mughal.17",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "sulikphaa",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Joymoti was the wife of:",
+    "as": "জয়মতী কাৰ পত্নী আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gadapani (Gadadhar Singha)",
+     "as": "গদাপাণি (গদাধৰ সিংহ)"
+    },
+    {
+     "en": "Sulikphaa",
+     "as": "চুলিকফা"
+    },
+    {
+     "en": "Lachit",
+     "as": "লাচিত"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Gadapani, later Gadadhar Singha; she was Rudra Singha's mother.",
+    "as": "গদাপাণি, পিছৰ গদাধৰ সিংহ; তেওঁ ৰুদ্ৰ সিংহৰ মাতৃ।"
+   }
+  },
+  {
+   "id": "bank.mughal.18",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "sulikphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which Ahom king is called the Lora Roja?",
+    "as": "কোনজন আহোম ৰজাক লৰা ৰজা বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Sulikphaa",
+     "as": "চুলিকফা"
+    },
+    {
+     "en": "Sudoiphaa",
+     "as": "চুদৈফা"
+    },
+    {
+     "en": "Suhung",
+     "as": "চুহুং"
+    },
+    {
+     "en": "Gobar",
+     "as": "গোবৰ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Sulikphaa, the boy king.",
+    "as": "চুলিকফা, ল'ৰা ৰজা।"
+   }
+  },
+  {
+   "id": "bank.mughal.19",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "sulikphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Guwahati was surrendered to the Mughals in 1679 by:",
+    "as": "১৬৭৯ চনত গুৱাহাটী মোগলক কোনে অৰ্পণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Laluk Sola Borphukan",
+     "as": "লালুক চোলা বৰফুকন"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Atan Burhagohain",
+     "as": "আতন বুঢ়াগোহাঁই"
+    },
+    {
+     "en": "Debera Borbarua",
+     "as": "দেবেৰা বৰবৰুৱা"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Laluk Sola, Lachit's brother.",
+    "as": "লাচিতৰ ভাই লালুক চোলা।"
+   }
+  },
+  {
+   "id": "bank.mughal.20",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "sulikphaa",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Joymoti was tortured at:",
+    "as": "জয়মতীক ক'ত নিৰ্যাতন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Jerenga Pathar",
+     "as": "জেৰেঙা পথাৰ"
+    },
+    {
+     "en": "Saraighat",
+     "as": "শৰাইঘাট"
+    },
+    {
+     "en": "Alaboi",
+     "as": "আলাবৈ"
+    },
+    {
+     "en": "Rangpur",
+     "as": "ৰংপুৰ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Jerenga Pathar, near Sivasagar.",
+    "as": "শিৱসাগৰৰ ওচৰৰ জেৰেঙা পথাৰ।"
+   }
   }
  ]
 }

@@ -1,0 +1,988 @@
+{
+ "id": "sulikphaa",
+ "no": 28,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Sulikphaa",
+  "as": "স্বৰ্গদেউ চুলিকফা"
+ },
+ "reign": {
+  "en": "Reign 1679–1681",
+  "as": "ৰাজত্বকাল ১৬৭৯–১৬৮১"
+ },
+ "portrait": "sulikphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), Gait ch. VII, pp. 153–160",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Lara Raja, the boy king; Burha Gohain executed; the Bar Phukan claims equality with the king and wears royal garments; assassinated with sons and brothers; Bhatdhara Phukan flees; descendants of former kings maimed or killed; Gadapani, son of Gobar, hides near Rani with a Garo woman; July 1681 Bar Phukan backs Gadapani; Lara Raja deposed, banished to Namrup, killed; Dauki Ali; summary: seven kings since 1670"
+  },
+  {
+   "title": "Joymoti Konwari",
+   "url": "https://en.wikipedia.org/wiki/Joymoti_Konwari",
+   "used_for": "Wife of Gadapani; tortured at Jerenga Pathar, died 1680; mother of Rudra Singha"
+  },
+  {
+   "title": "Sulikphaa",
+   "url": "https://en.wikipedia.org/wiki/Sulikphaa",
+   "used_for": "Lora Roja, 1679–1681; rule that a king must be physically unblemished"
+  }
+ ],
+ "review_notes": "Joymoti's story is not in Gait; it comes from Wikipedia and Assamese tradition and is told as such. Gait says only that 'the other nobles' assassinated Laluk; the AHOM catalogue says his bodyguard. The rule that a maimed prince could not rule is the reason for the mutilations.",
+ "buildsOn": {
+  "no": 22,
+  "title": {
+   "en": "Udayaditya Singha",
+   "as": "উদয়াদিত্য সিংহ"
+  },
+  "id": "udayaditya-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1679",
+    "t": {
+     "en": "The boy king crowned",
+     "as": "ল'ৰা ৰজাৰ অভিষেক"
+    }
+   },
+   {
+    "y": "1680",
+    "t": {
+     "en": "Laluk Sola killed; Joymoti dies at Jerenga Pathar",
+     "as": "লালুক চোলা নিহত; জেৰেঙা পথাৰত জয়মতীৰ মৃত্যু"
+    }
+   },
+   {
+    "y": "1681",
+    "t": {
+     "en": "Deposed; Gadapani becomes Gadadhar Singha",
+     "as": "সিংহাসনচ্যুত; গদাপাণি গদাধৰ সিংহ হয়"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.45,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "garhgaon",
+   "charaideo",
+   "jerenga",
+   "namrup"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "jerenga": {
+    "pos": "n"
+   },
+   "namrup": {
+    "pos": "n"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     27.05,
+     94.3
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "The boy king",
+    "as": "ল'ৰা ৰজা"
+   },
+   "learned": [
+    {
+     "en": "Laluk Sola made a boy king: Sulikphaa, the Lora Roja",
+     "as": "লালুক চোলাই এজন ল'ৰাক ৰজা পাতিলে: চুলিকফা, লৰা ৰজা"
+    },
+    {
+     "en": "Atan Burhagohain was executed",
+     "as": "আতন বুঢ়াগোহাঁইক প্ৰাণদণ্ড দিয়া হ'ল"
+    },
+    {
+     "en": "Laluk wore royal robes and claimed equality with the king",
+     "as": "লালুকে ৰাজবস্ত্ৰ পিন্ধি ৰজাৰ সমান বুলি দাবী কৰিলে"
+    },
+    {
+     "en": "In 1680 Laluk was assassinated",
+     "as": "১৬৮০ চনত লালুকক হত্যা কৰা হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "boy-king.webp",
+     "title": {
+      "en": "A king who could not rule",
+      "as": "শাসন কৰিব নোৱাৰা ৰজা"
+     },
+     "text": [
+      {
+       "en": "Laluk chose a boy for the throne: [[sulikphaa]], called the <mark>Lora Roja</mark>, 'the boy king'. A child would obey.",
+       "as": "লালুকে সিংহাসনৰ বাবে এজন ল'ৰাক বাছিলে: [[sulikphaa]], যাক <mark>লৰা ৰজা</mark> বোলা হয়। শিশুৱে কথা মানিব।"
+      },
+      {
+       "en": "The boy's first act, on Laluk's orders, was to execute the Burhagohain who had made and unmade kings.",
+       "as": "লালুকৰ আদেশত ল'ৰাজনৰ প্ৰথম কাম আছিল ৰজা পতা-আঁতৰোৱা বুঢ়াগোহাঁইক প্ৰাণদণ্ড দিয়া।"
+      }
+     ],
+     "id": "slk.u1.01",
+     "link": {
+      "lesson": 27,
+      "lessonId": "sudoiphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Guwahati betrayed",
+       "as": "গুৱাহাটী বিক্ৰী"
+      },
+      "note": {
+       "en": "Laluk had just killed Sudoiphaa.",
+       "as": "লালুকে সদ্যহে চুদৈফাক হত্যা কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his popular name: ___ Roja.",
+      "as": "তেওঁৰ জনপ্ৰিয় নাম: ___ ৰজা।"
+     },
+     "word": {
+      "en": [
+       "L",
+       "O",
+       "R",
+       "A"
+      ],
+      "as": [
+       "ল",
+       "ৰা"
+      ]
+     },
+     "answerText": {
+      "en": "LORA",
+      "as": "লৰা"
+     },
+     "why": {
+      "en": "Lora Roja: the boy king.",
+      "as": "লৰা ৰজা।"
+     },
+     "id": "slk.u1.02"
+    },
+    {
+     "type": "story",
+     "img": "laluk-killed.webp",
+     "title": {
+      "en": "Too proud",
+      "as": "অত্যধিক অহংকাৰ"
+     },
+     "text": [
+      {
+       "en": "Laluk now wore clothes only a king could wear and called himself the king's equal.",
+       "as": "লালুকে এতিয়া কেৱল ৰজাই পিন্ধিব পৰা কাপোৰ পিন্ধিলে আৰু নিজকে ৰজাৰ সমান বুলিলে।"
+      },
+      {
+       "en": "The other nobles would not bear it. In <mark>1680</mark> he was assassinated, with his sons and two brothers.",
+       "as": "আন বিষয়াসকলে এইটো সহ্য নকৰিলে। <mark>১৬৮০</mark> চনত তেওঁ পুত্ৰ আৰু দুজন ভাইৰ সৈতে নিহত হ'ল।"
+      }
+     ],
+     "id": "slk.u1.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Laluk Sola died a loyal minister.",
+      "as": "লালুক চোলাৰ বিশ্বাসী মন্ত্ৰী হিচাপে মৃত্যু হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He was assassinated in 1680 for his arrogance.",
+      "as": "অশুদ্ধ। অহংকাৰৰ বাবে ১৬৮০ চনত তেওঁক হত্যা কৰা হৈছিল।"
+     },
+     "id": "slk.u1.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the kingmakers' ends in order.",
+      "as": "ৰজা-নিৰ্মাতাসকলৰ অন্ত ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Debera executed",
+       "as": "দেবেৰাৰ প্ৰাণদণ্ড"
+      },
+      {
+       "en": "Atan Burhagohain executed",
+       "as": "আতন বুঢ়াগোহাঁইৰ প্ৰাণদণ্ড"
+      },
+      {
+       "en": "Laluk Sola assassinated",
+       "as": "লালুক চোলা নিহত"
+      }
+     ],
+     "why": {
+      "en": "1675 → 1679 → 1680: D-A-L.",
+      "as": "১৬৭৫ → ১৬৭৯ → ১৬৮০: দে-আ-লা।"
+     },
+     "id": "slk.u1.05",
+     "link": {
+      "lesson": 24,
+      "lessonId": "suhung",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Kings and kingmakers",
+       "as": "ৰজা আৰু ৰজা-নিৰ্মাতা"
+      },
+      "note": {
+       "en": "The three kingmakers: Debera, Atan, Laluk.",
+       "as": "তিনিজন ৰজা-নিৰ্মাতা: দেবেৰা, আতন, লালুক।"
+      }
+     }
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the boy king?",
+      "as": "কোনখন ছবিত ল'ৰা ৰজা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "boy-king.webp",
+      "laluk-killed.webp",
+      "princes-hunted.webp",
+      "joymoti.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The Lora Roja",
+      "as": "লৰা ৰজা"
+     },
+     "why": {
+      "en": "1679.",
+      "as": "১৬৭৯।"
+     },
+     "id": "slk.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "moon",
+   "title": {
+    "en": "The hunt for princes",
+    "as": "কোঁৱৰ চিকাৰ"
+   },
+   "learned": [
+    {
+     "en": "A king had to be without bodily blemish",
+     "as": "ৰজাৰ শৰীৰত কোনো খুঁত থাকিব নালাগিছিল"
+    },
+    {
+     "en": "So the Lora Roja had royal princes maimed or killed",
+     "as": "সেয়ে লৰা ৰজাই ৰাজকোঁৱৰসকলক অংগহানি বা হত্যা কৰালে"
+    },
+    {
+     "en": "Hundreds of princes suffered",
+     "as": "শ শ কোঁৱৰ ক্ষতিগ্ৰস্ত হ'ল"
+    },
+    {
+     "en": "One escaped: Gadapani, son of Gobar Roja",
+     "as": "এজন ৰক্ষা পৰিল: গোবৰ ৰজাৰ পুত্ৰ গদাপাণি"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Sulikphaa was called the Lora Roja, the boy king.",
+      "as": "মনত পেলোৱা: চুলিকফাক লৰা ৰজা বোলা হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "slk.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The boy king.",
+       "as": "ল'ৰা ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "princes-hunted.webp",
+     "title": {
+      "en": "No blemish allowed",
+      "as": "খুঁত নচলে"
+     },
+     "text": [
+      {
+       "en": "An Ahom king had to be <mark>without any bodily blemish</mark>. A prince with a cut ear or a lost finger could never rule.",
+       "as": "আহোম ৰজাৰ শৰীৰত <mark>কোনো খুঁত</mark> থাকিব নালাগিছিল। কাণ কটা বা আঙুলি হেৰুওৱা কোঁৱৰ কেতিয়াও ৰজা হ'ব নোৱাৰিছিল।"
+      },
+      {
+       "en": "To remove rivals, the Lora Roja's men hunted down princes of the royal line and maimed or killed them, several hundred, it is said.",
+       "as": "প্ৰতিদ্বন্দ্বী আঁতৰাবলৈ লৰা ৰজাৰ লোকে ৰাজবংশৰ কোঁৱৰসকলক বিচাৰি অংগহানি বা হত্যা কৰিলে, কোৱা হয় কেইবাশ জনক।"
+      }
+     ],
+     "id": "slk.u2.02"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "My father was Gobar Roja.",
+       "as": "মোৰ পিতৃ গোবৰ ৰজা।"
+      },
+      {
+       "en": "I hid in the hills, dressed as a peasant.",
+       "as": "মই খেতিয়কৰ সাজত পাহাৰত লুকাই আছিলোঁ।"
+      },
+      {
+       "en": "The hunters never found me.",
+       "as": "চিকাৰীয়ে মোক কেতিয়াও বিচাৰি নাপালে।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Gadapani",
+       "as": "গদাপাণি"
+      },
+      {
+       "en": "Laluk",
+       "as": "লালুক"
+      },
+      {
+       "en": "Sulikphaa",
+       "as": "চুলিকফা"
+      },
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gadapani, the future Gadadhar Singha.",
+      "as": "গদাপাণি, ভৱিষ্যতৰ গদাধৰ সিংহ।"
+     },
+     "id": "slk.u2.03"
+    },
+    {
+     "type": "story",
+     "img": "gadapani-hiding.webp",
+     "title": {
+      "en": "The prince in hiding",
+      "as": "লুকাই থকা কোঁৱৰ"
+     },
+     "text": [
+      {
+       "en": "[[gadapani]], son of Gobar Roja, fled to the Naga and Garo hills. He lived in the house of a Garo woman, dressed and working as a common farmer.",
+       "as": "গোবৰ ৰজাৰ পুত্ৰ [[gadapani]] নগা আৰু গাৰো পাহাৰলৈ পলাল। তেওঁ এগৰাকী গাৰো মহিলাৰ ঘৰত সাধাৰণ খেতিয়কৰ সাজত কাম কৰি আছিল।"
+      }
+     ],
+     "id": "slk.u2.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one does NOT belong to the Lora Roja's reign?",
+      "as": "কোনটো লৰা ৰজাৰ ৰাজত্বকালৰ নহয়?"
+     },
+     "options": [
+      {
+       "en": "Princes maimed",
+       "as": "কোঁৱৰৰ অংগহানি"
+      },
+      {
+       "en": "Laluk assassinated",
+       "as": "লালুক নিহত"
+      },
+      {
+       "en": "Gadapani in hiding",
+       "as": "লুকাই থকা গদাপাণি"
+      },
+      {
+       "en": "Battle of Saraighat",
+       "as": "শৰাইঘাটৰ যুদ্ধ"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Saraighat was 1671.",
+      "as": "শৰাইঘাট ১৬৭১।"
+     },
+     "id": "slk.u2.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Gadapani in hiding?",
+      "as": "কোনখন ছবিত লুকাই থকা গদাপাণি দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "gadapani-hiding.webp",
+      "princes-hunted.webp",
+      "boy-king.webp",
+      "laluk-killed.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Gadapani in disguise",
+      "as": "ছদ্মবেশত গদাপাণি"
+     },
+     "why": {
+      "en": "In the hills.",
+      "as": "পাহাৰত।"
+     },
+     "id": "slk.u2.06"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "star",
+   "title": {
+    "en": "Joymoti",
+    "as": "জয়মতী"
+   },
+   "learned": [
+    {
+     "en": "Gadapani's wife Joymoti was seized by the king's men",
+     "as": "গদাপাণিৰ পত্নী জয়মতীক ৰজাৰ লোকে ধৰিলে"
+    },
+    {
+     "en": "Tortured at Jerenga Pathar, she would not say where he was",
+     "as": "জেৰেঙা পথাৰত নিৰ্যাতিত হৈও তেওঁ স্বামী ক'ত আছে নক'লে"
+    },
+    {
+     "en": "She died in 1680",
+     "as": "১৬৮০ চনত তেওঁৰ মৃত্যু"
+    },
+    {
+     "en": "Her son Lai became King Rudra Singha",
+     "as": "তেওঁৰ পুত্ৰ লাই পিছত ৰজা ৰুদ্ৰ সিংহ হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: my father was Gobar Roja.",
+       "as": "মনত পেলোৱা: মোৰ পিতৃ গোবৰ ৰজা।"
+      },
+      {
+       "en": "I hid as a farmer.",
+       "as": "মই খেতিয়ক হৈ লুকাই আছিলোঁ।"
+      },
+      {
+       "en": "I escaped the hunt for princes.",
+       "as": "কোঁৱৰ চিকাৰৰ পৰা মই ৰক্ষা পৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Gadapani",
+       "as": "গদাপাণি"
+      },
+      {
+       "en": "Sulikphaa",
+       "as": "চুলিকফা"
+      },
+      {
+       "en": "Sujinphaa",
+       "as": "চুজিনফা"
+      },
+      {
+       "en": "Laluk",
+       "as": "লালুক"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gadapani.",
+      "as": "গদাপাণি।"
+     },
+     "id": "slk.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "The hunt for princes.",
+       "as": "কোঁৱৰ চিকাৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "joymoti.webp",
+     "top": true,
+     "title": {
+      "en": "Silence",
+      "as": "নীৰৱতা"
+     },
+     "text": [
+      {
+       "en": "The king's men seized Gadapani's wife, [[joymoti]], and took her to [[jerenga]] near the capital. Day after day she was tortured: 'Where is your husband?'",
+       "as": "ৰজাৰ লোকে গদাপাণিৰ পত্নী [[joymoti]]ক ধৰি ৰাজধানীৰ ওচৰৰ [[jerenga]]লৈ লৈ গ'ল। দিনৰ পিছত দিন তেওঁক নিৰ্যাতন কৰা হ'ল: 'তোমাৰ স্বামী ক'ত?'"
+      },
+      {
+       "en": "She never told. Tradition says Gadapani, in disguise, watched from the crowd and she signalled him to stay hidden. She died in <mark>1680</mark>.",
+       "as": "তেওঁ কেতিয়াও নক'লে। পৰম্পৰামতে ছদ্মবেশী গদাপাণিয়ে ভিৰৰ মাজৰ পৰা চাইছিল আৰু তেওঁ ইংগিতেৰে লুকাই থাকিবলৈ ক'লে। <mark>১৬৮০</mark> চনত তেওঁৰ মৃত্যু হয়।"
+      }
+     ],
+     "id": "slk.u3.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Jerenga Pathar.",
+      "as": "জেৰেঙা পথাৰ টিপা।"
+     },
+     "target": "jerenga",
+     "choices": [
+      "jerenga",
+      "garhgaon",
+      "charaideo",
+      "namrup"
+     ],
+     "answerText": {
+      "en": "Jerenga Pathar",
+      "as": "জেৰেঙা পথাৰ"
+     },
+     "why": {
+      "en": "Near today's Sivasagar.",
+      "as": "আজিৰ শিৱসাগৰৰ ওচৰত।"
+     },
+     "id": "slk.u3.03"
+    },
+    {
+     "type": "story",
+     "img": "joymoti-watched.webp",
+     "title": {
+      "en": "A mother of kings",
+      "as": "ৰজাৰ মাতৃ"
+     },
+     "text": [
+      {
+       "en": "Joymoti's son Lai grew up to become <mark>Rudra Singha</mark>, one of the greatest Ahom kings. He dug the Joysagar tank in her memory.",
+       "as": "জয়মতীৰ পুত্ৰ লাই ডাঙৰ হৈ <mark>ৰুদ্ৰ সিংহ</mark> হ'ল, শ্ৰেষ্ঠ আহোম ৰজাসকলৰ এজন। মাতৃৰ স্মৃতিত তেওঁ জয়সাগৰ পুখুৰী খন্দাইছিল।"
+      }
+     ],
+     "id": "slk.u3.04"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Joymoti",
+        "as": "জয়মতী"
+       },
+       {
+        "en": "Died rather than betray her husband",
+        "as": "স্বামীক বিশ্বাসঘাতকতা নকৰি মৃত্যু"
+       }
+      ],
+      [
+       {
+        "en": "Jerenga Pathar",
+        "as": "জেৰেঙা পথাৰ"
+       },
+       {
+        "en": "Where she was tortured",
+        "as": "নিৰ্যাতনৰ ঠাই"
+       }
+      ],
+      [
+       {
+        "en": "Rudra Singha",
+        "as": "ৰুদ্ৰ সিংহ"
+       },
+       {
+        "en": "Her son",
+        "as": "তেওঁৰ পুত্ৰ"
+       }
+      ],
+      [
+       {
+        "en": "Joysagar",
+        "as": "জয়সাগৰ"
+       },
+       {
+        "en": "Tank dug in her memory",
+        "as": "তেওঁৰ স্মৃতিত খন্দা পুখুৰী"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Joymoti, remembered.",
+      "as": "জয়মতীৰ স্মৃতি।"
+     },
+     "id": "slk.u3.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Joymoti revealed where Gadapani was hiding.",
+      "as": "জয়মতীয়ে গদাপাণি ক'ত লুকাই আছে কৈ দিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. She died without telling.",
+      "as": "অশুদ্ধ। তেওঁ নোকোৱাকৈ মৃত্যুবৰণ কৰিছিল।"
+     },
+     "id": "slk.u3.06"
+    },
+    {
+     "type": "story",
+     "img": "gadadhar-rises.webp",
+     "top": true,
+     "title": {
+      "en": "The end of the boy king",
+      "as": "ল'ৰা ৰজাৰ অন্ত"
+     },
+     "text": [
+      {
+       "en": "In July <mark>1681</mark> the new Borphukan backed Gadapani. The Lora Roja's army melted away; he was caught, sent to Namrup and later killed.",
+       "as": "<mark>১৬৮১</mark> চনৰ জুলাইত নতুন বৰফুকনে গদাপাণিক সমৰ্থন কৰিলে। লৰা ৰজাৰ সৈন্য বিলীন হ'ল; তেওঁক ধৰি নামৰূপলৈ পঠোৱা হ'ল আৰু পিছত হত্যা কৰা হ'ল।"
+      },
+      {
+       "en": "Gadapani became [[gadadhar-singha]]. Seven kings in eleven years, and the age of the kingmakers, were over.",
+       "as": "গদাপাণি [[gadadhar-singha]] হ'ল। এঘাৰ বছৰত সাতজন ৰজা আৰু ৰজা-নিৰ্মাতাৰ যুগৰ অন্ত পৰিল।"
+      }
+     ],
+     "id": "slk.u3.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Sulikphaa",
+    "as": "তুমি স্বৰ্গদেউ চুলিকফাৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the boy king.",
+      "as": "মই ল'ৰা ৰজা।"
+     },
+     {
+      "en": "I had princes maimed.",
+      "as": "মই কোঁৱৰৰ অংগহানি কৰাইছিলোঁ।"
+     },
+     {
+      "en": "I was deposed in 1681.",
+      "as": "১৬৮১ চনত মই সিংহাসনচ্যুত।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Sulikphaa",
+      "as": "চুলিকফা"
+     },
+     {
+      "en": "Sudoiphaa",
+      "as": "চুদৈফা"
+     },
+     {
+      "en": "Gadadhar Singha",
+      "as": "গদাধৰ সিংহ"
+     },
+     {
+      "en": "Sujinphaa",
+      "as": "চুজিনফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sulikphaa, the Lora Roja.",
+     "as": "চুলিকফা, লৰা ৰজা।"
+    },
+    "id": "slk.test.01"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Joymoti's courage?",
+     "as": "কোনখন ছবিত জয়মতীৰ সাহস দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "joymoti.webp",
+     "boy-king.webp",
+     "gadapani-hiding.webp",
+     "laluk-killed.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Joymoti",
+     "as": "জয়মতী"
+    },
+    "why": {
+     "en": "1680.",
+     "as": "১৬৮০।"
+    },
+    "id": "slk.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Jerenga Pathar.",
+     "as": "জেৰেঙা পথাৰ টিপা।"
+    },
+    "target": "jerenga",
+    "choices": [
+     "jerenga",
+     "garhgaon",
+     "charaideo",
+     "namrup"
+    ],
+    "answerText": {
+     "en": "Jerenga Pathar",
+     "as": "জেৰেঙা পথাৰ"
+    },
+    "why": {
+     "en": "Jerenga Pathar.",
+     "as": "জেৰেঙা পথাৰ।"
+    },
+    "id": "slk.test.03"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Joymoti was the mother of Rudra Singha.",
+     "as": "জয়মতী ৰুদ্ৰ সিংহৰ মাতৃ আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "slk.test.04"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the name of the prince who hid.",
+     "as": "লুকাই থকা কোঁৱৰৰ নামটো সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "G",
+      "A",
+      "D",
+      "A",
+      "P",
+      "A",
+      "N",
+      "I"
+     ],
+     "as": [
+      "গ",
+      "দা",
+      "পা",
+      "ণি"
+     ]
+    },
+    "answerText": {
+     "en": "GADAPANI",
+     "as": "গদাপাণি"
+    },
+    "why": {
+     "en": "Gadapani.",
+     "as": "গদাপাণি।"
+    },
+    "id": "slk.test.05"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Guwahati surrendered",
+      "as": "গুৱাহাটী অৰ্পণ"
+     },
+     {
+      "en": "Lora Roja crowned",
+      "as": "লৰা ৰজাৰ অভিষেক"
+     },
+     {
+      "en": "Joymoti dies",
+      "as": "জয়মতীৰ মৃত্যু"
+     },
+     {
+      "en": "Gadadhar Singha crowned",
+      "as": "গদাধৰ সিংহৰ অভিষেক"
+     }
+    ],
+    "why": {
+     "en": "Mar 1679 → Nov 1679 → 1680 → 1681.",
+     "as": "১৬৭৯ মাৰ্চ → ১৬৭৯ নৱেম্বৰ → ১৬৮০ → ১৬৮১।"
+    },
+    "id": "slk.test.06"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      },
+      {
+       "en": "Executed 1675",
+       "as": "১৬৭৫ত প্ৰাণদণ্ড"
+      }
+     ],
+     [
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      },
+      {
+       "en": "Executed 1679",
+       "as": "১৬৭৯ত প্ৰাণদণ্ড"
+      }
+     ],
+     [
+      {
+       "en": "Laluk Sola",
+       "as": "লালুক চোলা"
+      },
+      {
+       "en": "Assassinated 1680",
+       "as": "১৬৮০ত নিহত"
+      }
+     ]
+    ],
+    "why": {
+     "en": "The three kingmakers' ends.",
+     "as": "তিনিজন ৰজা-নিৰ্মাতাৰ অন্ত।"
+    },
+    "id": "slk.test.07"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "Joymoti",
+      "was",
+      "the",
+      "wife",
+      "of",
+      "Sulikphaa."
+     ],
+     "as": [
+      "জয়মতী",
+      "চুলিকফাৰ",
+      "পত্নী",
+      "আছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 5,
+     "as": 1
+    },
+    "fix": {
+     "en": "→ Gadapani",
+     "as": "→ গদাপাণিৰ"
+    },
+    "answerText": {
+     "en": "Sulikphaa → Gadapani",
+     "as": "চুলিকফা → গদাপাণি"
+    },
+    "why": {
+     "en": "Joymoti was Gadapani's wife; Sulikphaa's men tortured her.",
+     "as": "জয়মতী গদাপাণিৰ পত্নী; চুলিকফাৰ লোকে তেওঁক নিৰ্যাতন কৰিছিল।"
+    },
+    "id": "slk.test.08"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. A maimed prince could not become an Ahom king.<br>2. Gadapani was maimed by the Lora Roja's men.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. অংগহানি হোৱা কোঁৱৰ আহোম ৰজা হ'ব নোৱাৰিছিল।<br>২. লৰা ৰজাৰ লোকে গদাপাণিৰ অংগহানি কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Gadapani escaped unharmed, which is why he could become king.",
+     "as": "কেৱল ১। গদাপাণি অক্ষত হৈ ৰক্ষা পৰিছিল, সেয়ে তেওঁ ৰজা হ'ব পাৰিলে।"
+    },
+    "small": true,
+    "id": "slk.test.09"
+   }
+  ]
+ }
+}
