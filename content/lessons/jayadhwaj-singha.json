@@ -1,0 +1,2122 @@
+{
+ "id": "jayadhwaj-singha",
+ "no": 20,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Jayadhwaj Singha",
+  "as": "স্বৰ্গদেউ জয়ধ্বজ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1648–1663",
+  "as": "ৰাজত্বকাল ১৬৪৮–১৬৬৩"
+ },
+ "portrait": "jayadhwaj-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VI, pp. 123–138",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Sutamla takes the name Jayadhvaj Singh, Bhagania Raja; Somdeo on the throne; conspiracies; Jaintia request refused; Lakma Nagas and Miris; Shah Jahan's illness 1658, Pran Narayan, Gauhati taken, Koches across the Sankosh; Mir Jumlah sets out 4 January 1662, 12,000 horse and 30,000 foot; Jogighopa, Srighat and Pandu, Gauhati 4 February; Simlagarh; naval defeat above Koliabar; Lakhau; flight to Namrup; Garhgaon entered 17 March 1662; the rains, night attacks, Mathurapur, disease; Baduli Phukan deserts; treaty terms; Mir Jumlah leaves 9 January 1663, dies 30 March 1663; return to Bakata; died November 1663; disciple of Niranjan Bapu, first Gosain of Auniati; Banamali Gosain at Jakhalabandha; persecution of Mahapurushias"
+  },
+  {
+   "title": "Jayadhwaj Singha",
+   "url": "https://en.wikipedia.org/wiki/Jayadhwaj_Singha",
+   "used_for": "Treaty of Ghilajharighat, Ramani Gabharu, deathbed charge to Chakradhwaj"
+  },
+  {
+   "title": "Ramani Gabharu",
+   "url": "https://en.wikipedia.org/wiki/Ramani_Gabharu",
+   "used_for": "Daughter sent under the 1663 treaty; married Prince Muhammad Azam"
+  }
+ ],
+ "review_notes": "The deathbed charge to Chakradhwaj to remove the shame of defeat is a tradition (Wikipedia, popular histories), not in Gait; it is told as 'tradition says'. The AHOM catalogue credits Jayadhwaj with the first coins in Sanskrit; this lesson does not repeat it, because the Suklenmung lesson teaches Gait's view that Suklenmung struck the first Ahom coins. Treaty name and date (January 1663) follow Wikipedia and Gait.",
+ "buildsOn": {
+  "no": 19,
+  "title": {
+   "en": "Sutingphaa",
+   "as": "চুটিংফা"
+  },
+  "id": "sutingphaa"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1648",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1658",
+    "t": {
+     "en": "Takes Guwahati from the Mughals",
+     "as": "মোগলৰ পৰা গুৱাহাটী লয়"
+    }
+   },
+   {
+    "y": "1662",
+    "t": {
+     "en": "Mir Jumla invades; Garhgaon falls (17 March)",
+     "as": "মীৰজুমলাৰ আক্ৰমণ; গড়গাঁৱৰ পতন (১৭ মাৰ্চ)"
+    }
+   },
+   {
+    "y": "1663",
+    "t": {
+     "en": "Treaty of Ghilajharighat (January); Mir Jumla dies (March)",
+     "as": "ঘিলাধাৰীঘাটৰ সন্ধি (জানুৱাৰী); মীৰজুমলাৰ মৃত্যু (মাৰ্চ)"
+    }
+   },
+   {
+    "y": "1663",
+    "t": {
+     "en": "Dies in November; Chakradhwaj Singha succeeds",
+     "as": "নৱেম্বৰত মৃত্যু; চক্ৰধ্বজ সিংহ ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   89.6,
+   25.9,
+   95.7,
+   27.5
+  ],
+  "show": [
+   "brahmaputra",
+   "manas",
+   "sonkosh",
+   "bharali",
+   "kolong",
+   "jogighopa",
+   "guwahati",
+   "kaliabor",
+   "garhgaon",
+   "namrup",
+   "majuli"
+  ],
+  "routes": [
+   [
+    "jogighopa",
+    "guwahati",
+    "kaliabor",
+    [
+     26.85,
+     94.0
+    ],
+    "garhgaon"
+   ]
+  ],
+  "texts": [
+   {
+    "t": {
+     "en": "MIR JUMLA'S MARCH, 1662",
+     "as": "মীৰজুমলাৰ অভিযান, ১৬৬২"
+    },
+    "at": [
+     26.0,
+     91.4
+    ]
+   }
+  ],
+  "labels": {
+   "jogighopa": {
+    "pos": "n"
+   },
+   "guwahati": {
+    "pos": "s"
+   },
+   "kaliabor": {
+    "pos": "s"
+   },
+   "garhgaon": {
+    "pos": "s"
+   },
+   "namrup": {
+    "pos": "n"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "manas": {
+    "at": [
+     26.6,
+     90.5
+    ],
+    "pos": "e"
+   },
+   "sonkosh": {
+    "at": [
+     26.5,
+     89.88
+    ],
+    "pos": "e"
+   },
+   "bharali": {
+    "at": [
+     26.95,
+     92.8
+    ],
+    "pos": "w"
+   },
+   "kolong": {
+    "at": [
+     26.35,
+     92.6
+    ],
+    "pos": "s"
+   },
+   "brahmaputra": {
+    "at": [
+     26.62,
+     93.4
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A son crowned by the nobles",
+    "as": "বিষয়াই পতা পুত্ৰ"
+   },
+   "learned": [
+    {
+     "en": "In November 1648 the nobles crowned Sutamla, son of Sutingphaa",
+     "as": "১৬৪৮ চনৰ নৱেম্বৰত বিষয়াসকলে চুটিংফাৰ পুত্ৰ চুতামলাক অভিষেক কৰিলে"
+    },
+    {
+     "en": "He took the Hindu name Jayadhwaj Singha",
+     "as": "তেওঁ জয়ধ্বজ সিংহ হিন্দু নাম ল'লে"
+    },
+    {
+     "en": "The Somdeo, the old Ahom god, was placed on the throne",
+     "as": "পুৰণি আহোম দেৱতা চোমদেওক সিংহাসনত বহুওৱা হ'ল"
+    },
+    {
+     "en": "Later he was called the Bhagania Roja, 'the fugitive king'",
+     "as": "পিছত তেওঁক ভগনীয়া ৰজা, 'পলাতক ৰজা' বোলা হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "coronation.webp",
+     "title": {
+      "en": "A new king, a new name",
+      "as": "নতুন ৰজা, নতুন নাম"
+     },
+     "text": [
+      {
+       "en": "In November <mark>1648</mark> the nobles deposed the sick king Sutingphaa and crowned his son Sutamla. He took the Hindu name [[jayadhwaj-singha]].",
+       "as": "<mark>১৬৪৮</mark> চনৰ নৱেম্বৰত বিষয়াসকলে নৰীয়া ৰজা চুটিংফাক আঁতৰাই তেওঁৰ পুত্ৰ চুতামলাক অভিষেক কৰিলে। তেওঁ [[jayadhwaj-singha]] হিন্দু নাম ল'লে।"
+      },
+      {
+       "en": "On the day, the [[somdeo]] was placed on the throne, guns were fired and bands played. Daflas, Kacharis and even the Mughal governor at Guwahati sent gifts.",
+       "as": "সেইদিনা [[somdeo]]ক সিংহাসনত বহুওৱা হ'ল, বন্দুক ফুটিল আৰু বাদ্য বাজিল। ডফলা, কছাৰী, আনকি গুৱাহাটীৰ মোগল শাসনকৰ্তাইও উপহাৰ পঠালে।"
+      }
+     ],
+     "id": "jds.u1.01",
+     "link": {
+      "lesson": 19,
+      "lessonId": "sutingphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Father and son",
+       "as": "পিতৃ আৰু পুত্ৰ"
+      },
+      "note": {
+       "en": "The nobles deposed his father Sutingphaa in 1648.",
+       "as": "১৬৪৮ চনত বিষয়াসকলে তেওঁৰ পিতৃ চুটিংফাক সিংহাসনচ্যুত কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Jayadhwaj Singha was Pratap Singha's son.",
+      "as": "জয়ধ্বজ সিংহ প্ৰতাপ সিংহৰ পুত্ৰ আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He was Sutingphaa's son, and Pratap Singha's grandson.",
+      "as": "অশুদ্ধ। তেওঁ চুটিংফাৰ পুত্ৰ, প্ৰতাপ সিংহৰ নাতি।"
+     },
+     "id": "jds.u1.02"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his Hindu name.",
+      "as": "তেওঁৰ হিন্দু নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "J",
+       "A",
+       "Y",
+       "A",
+       "D",
+       "H",
+       "W",
+       "A",
+       "J"
+      ],
+      "as": [
+       "জয়",
+       "ধ্ব",
+       "জ"
+      ]
+     },
+     "answerText": {
+      "en": "JAYADHWAJ",
+      "as": "জয়ধ্বজ"
+     },
+     "why": {
+      "en": "Jayadhwaj Singha, 'banner of victory'.",
+      "as": "জয়ধ্বজ সিংহ, 'জয়ৰ ধ্বজা'।"
+     },
+     "id": "jds.u1.03"
+    },
+    {
+     "type": "story",
+     "img": "court-rituals.webp",
+     "title": {
+      "en": "Two faiths at court",
+      "as": "ৰাজসভাত দুই ধৰ্ম"
+     },
+     "text": [
+      {
+       "en": "His court mixed old and new. Ahom priests kept the Somdeo; Brahmans were given gifts and land; Hindu rites grew.",
+       "as": "তেওঁৰ ৰাজসভাত পুৰণি আৰু নতুন মিহলি আছিল। আহোম পুৰোহিতে চোমদেও ৰাখিছিল; ব্ৰাহ্মণে উপহাৰ আৰু মাটি পাইছিল; হিন্দু ৰীতি বাঢ়িছিল।"
+      },
+      {
+       "en": "Like every king raised by the nobles, he faced plots, and he crushed them with great cruelty.",
+       "as": "বিষয়াই পতা সকলো ৰজাৰ দৰে তেওঁৰ বিৰুদ্ধেও ষড়যন্ত্ৰ হৈছিল, আৰু তেওঁ নিষ্ঠুৰভাৱে দমন কৰিছিল।"
+      }
+     ],
+     "id": "jds.u1.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was crowned in 1648.",
+       "as": "১৬৪৮ চনত মোৰ অভিষেক।"
+      },
+      {
+       "en": "My Ahom name was Sutamla.",
+       "as": "মোৰ আহোম নাম চুতামলা।"
+      },
+      {
+       "en": "People later called me the fugitive king.",
+       "as": "পিছত মানুহে মোক পলাতক ৰজা বুলিছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Jayadhwaj Singha",
+       "as": "জয়ধ্বজ সিংহ"
+      },
+      {
+       "en": "Pratap Singha",
+       "as": "প্ৰতাপ সিংহ"
+      },
+      {
+       "en": "Chakradhwaj Singha",
+       "as": "চক্ৰধ্বজ সিংহ"
+      },
+      {
+       "en": "Sutingphaa",
+       "as": "চুটিংফা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Jayadhwaj Singha, the Bhagania Roja.",
+      "as": "জয়ধ্বজ সিংহ, ভগনীয়া ৰজা।"
+     },
+     "id": "jds.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Jayadhwaj Singha's coronation?",
+      "as": "কোনখন ছবিত জয়ধ্বজ সিংহৰ অভিষেক দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "coronation.webp",
+      "court-rituals.webp",
+      "garhgaon-falls.webp",
+      "deathbed.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The coronation",
+      "as": "অভিষেক"
+     },
+     "why": {
+      "en": "November 1648.",
+      "as": "১৬৪৮ চনৰ নৱেম্বৰ।"
+     },
+     "id": "jds.u1.06"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1641",
+       "l": {
+        "en": "Pratap Singha dies",
+        "as": "প্ৰতাপ সিংহৰ মৃত্যু"
+       }
+      },
+      {
+       "y": "1662",
+       "l": {
+        "en": "Mir Jumla invades",
+        "as": "মীৰজুমলাৰ আক্ৰমণ"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Treaty of Asurar Ali",
+        "as": "অসুৰৰ আলিৰ সন্ধি"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Jayadhwaj crowned",
+        "as": "জয়ধ্বজৰ অভিষেক"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Treaty of Ghilajharighat",
+        "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1639 → 1641 → 1648 → 1662 → 1663.",
+      "as": "১৬৩৯ → ১৬৪১ → ১৬৪৮ → ১৬৬২ → ১৬৬৩।"
+     },
+     "id": "jds.u1.07"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "hands",
+   "title": {
+    "en": "The king and the satra",
+    "as": "ৰজা আৰু সত্ৰ"
+   },
+   "learned": [
+    {
+     "en": "He became a disciple of Niranjan Deva (Niranjan Bapu)",
+     "as": "তেওঁ নিৰঞ্জন দেৱ (নিৰঞ্জন বাপু)ৰ শিষ্য হ'ল"
+    },
+    {
+     "en": "Niranjan became the first Gosain of the Auniati Satra in Majuli",
+     "as": "নিৰঞ্জন মাজুলীৰ আউনীআটী সত্ৰৰ প্ৰথম গোঁসাই হ'ল"
+    },
+    {
+     "en": "He gave land for another satra, to Banamali Gosain",
+     "as": "তেওঁ বনমালী গোঁসাইক আন এখন সত্ৰৰ বাবে মাটি দিলে"
+    },
+    {
+     "en": "Yet the Mahapurushia followers of Sankardev were still persecuted",
+     "as": "তথাপি শংকৰদেৱৰ মহাপুৰুষীয়া অনুগামী নিৰ্যাতিত হৈছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "initiation.webp",
+     "title": {
+      "en": "A royal disciple",
+      "as": "ৰাজকীয় শিষ্য"
+     },
+     "text": [
+      {
+       "en": "Jayadhwaj Singha took initiation from the Vaishnava teacher [[niranjan-deva]], and made him the first Gosain of the [[auniati]] in [[majuli]].",
+       "as": "জয়ধ্বজ সিংহই বৈষ্ণৱ গুৰু [[niranjan-deva]]ৰ পৰা শৰণ ল'লে আৰু তেওঁক [[majuli]]ৰ [[auniati]]ৰ প্ৰথম গোঁসাই পাতিলে।"
+      },
+      {
+       "en": "He is remembered as the first Ahom king to take initiation as a Vaishnava.",
+       "as": "বৈষ্ণৱ হিচাপে শৰণ লোৱা প্ৰথম আহোম ৰজা হিচাপে তেওঁ স্মৰণীয়।"
+      }
+     ],
+     "id": "jds.u2.01",
+     "link": {
+      "lesson": 15,
+      "lessonId": "suklenmung",
+      "unitNo": 3,
+      "unitTitle": {
+       "en": "Sankardev leaves",
+       "as": "শংকৰদেৱৰ প্ৰস্থান"
+      },
+      "note": {
+       "en": "A century earlier, Sankardev had left the Ahom kingdom under Suklenmung.",
+       "as": "এশ বছৰ আগতে চুক্লেনমুঙৰ দিনত শংকৰদেৱে আহোম ৰাজ্য এৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a Vaishnava teacher.",
+       "as": "মই বৈষ্ণৱ গুৰু।"
+      },
+      {
+       "en": "A king became my disciple.",
+       "as": "এজন ৰজা মোৰ শিষ্য হৈছিল।"
+      },
+      {
+       "en": "I was the first Gosain of the Auniati Satra.",
+       "as": "মই আউনীআটী সত্ৰৰ প্ৰথম গোঁসাই।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Niranjan Deva",
+       "as": "নিৰঞ্জন দেৱ"
+      },
+      {
+       "en": "Sankardev",
+       "as": "শংকৰদেৱ"
+      },
+      {
+       "en": "Madhavdev",
+       "as": "মাধৱদেৱ"
+      },
+      {
+       "en": "Banamali",
+       "as": "বনমালী"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Niranjan Deva, also called Niranjan Bapu.",
+      "as": "নিৰঞ্জন দেৱ, নিৰঞ্জন বাপু বুলিও জনা যায়।"
+     },
+     "id": "jds.u2.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the island where the Auniati Satra stands.",
+      "as": "আউনীআটী সত্ৰ থকা দ্বীপটো টিপা।"
+     },
+     "target": "majuli",
+     "choices": [
+      "majuli",
+      "garhgaon",
+      "guwahati",
+      "namrup"
+     ],
+     "answerText": {
+      "en": "Majuli",
+      "as": "মাজুলী"
+     },
+     "why": {
+      "en": "Majuli, the great river island, home of many satras.",
+      "as": "বহু সত্ৰৰ ঠাই, ডাঙৰ নদীদ্বীপ মাজুলী।"
+     },
+     "id": "jds.u2.03"
+    },
+    {
+     "type": "story",
+     "img": "initiation-2.webp",
+     "title": {
+      "en": "Two sides",
+      "as": "দুই দিশ"
+     },
+     "text": [
+      {
+       "en": "He also brought Banamali Gosain from Koch Bihar and gave him land for a satra at Jakhalabandha.",
+       "as": "তেওঁ কোচবিহাৰৰ পৰা বনমালী গোঁসাইক আনি যখলাবন্ধাত সত্ৰৰ বাবে মাটি দিলে।"
+      },
+      {
+       "en": "Yet, urged on by Brahmans, he persecuted the Mahapurushias, Sankardev's own followers. Royal favour went to some satras, not all.",
+       "as": "তথাপি ব্ৰাহ্মণৰ প্ৰৰোচনাত তেওঁ শংকৰদেৱৰ নিজৰ অনুগামী মহাপুৰুষীয়াসকলক নিৰ্যাতন কৰিলে। ৰাজকীয় অনুগ্ৰহ কিছুমান সত্ৰইহে পাইছিল।"
+      }
+     ],
+     "id": "jds.u2.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Jayadhwaj Singha favoured every Vaishnava group equally.",
+      "as": "জয়ধ্বজ সিংহই সকলো বৈষ্ণৱ গোটক সমানে অনুগ্ৰহ কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He honoured Auniati and Banamali's satra but persecuted the Mahapurushias.",
+      "as": "অশুদ্ধ। তেওঁ আউনীআটী আৰু বনমালীৰ সত্ৰক সন্মান কৰিছিল, কিন্তু মহাপুৰুষীয়াক নিৰ্যাতন কৰিছিল।"
+     },
+     "id": "jds.u2.05"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Niranjan Deva",
+        "as": "নিৰঞ্জন দেৱ"
+       },
+       {
+        "en": "Auniati Satra",
+        "as": "আউনীআটী সত্ৰ"
+       }
+      ],
+      [
+       {
+        "en": "Banamali Gosain",
+        "as": "বনমালী গোঁসাই"
+       },
+       {
+        "en": "Jakhalabandha",
+        "as": "যখলাবন্ধা"
+       }
+      ],
+      [
+       {
+        "en": "Sankardev",
+        "as": "শংকৰদেৱ"
+       },
+       {
+        "en": "Ekasarana Dharma",
+        "as": "একশৰণ ধৰ্ম"
+       }
+      ],
+      [
+       {
+        "en": "Somdeo",
+        "as": "চোমদেও"
+       },
+       {
+        "en": "Old Ahom god",
+        "as": "পুৰণি আহোম দেৱতা"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Old and new faiths at Jayadhwaj's court.",
+      "as": "জয়ধ্বজৰ ৰাজসভাৰ পুৰণি আৰু নতুন ধৰ্ম।"
+     },
+     "id": "jds.u2.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the king's initiation?",
+      "as": "কোনখন ছবিত ৰজাৰ শৰণ লোৱা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "initiation.webp",
+      "coronation.webp",
+      "treaty.webp",
+      "monsoon-war.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The initiation",
+      "as": "শৰণ"
+     },
+     "why": {
+      "en": "The king takes initiation from Niranjan Deva.",
+      "as": "নিৰঞ্জন দেৱৰ পৰা ৰজাৰ শৰণ গ্ৰহণ।"
+     },
+     "id": "jds.u2.07"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "flag",
+   "title": {
+    "en": "Guwahati regained",
+    "as": "গুৱাহাটী উদ্ধাৰ"
+   },
+   "learned": [
+    {
+     "en": "In 1658 Emperor Shah Jahan fell ill and his sons fought for the throne",
+     "as": "১৬৫৮ চনত সম্ৰাট শ্বাহজাহান অসুস্থ হ'ল; পুত্ৰসকলে সিংহাসনৰ বাবে যুঁজিলে"
+    },
+    {
+     "en": "The Koch king Pran Narayan attacked the Mughal lands",
+     "as": "কোচ ৰজা প্ৰাণনাৰায়ণে মোগল এলেকা আক্ৰমণ কৰিলে"
+    },
+    {
+     "en": "The Mughal governor fled; Jayadhwaj took Guwahati",
+     "as": "মোগল শাসনকৰ্তা পলাল; জয়ধ্বজে গুৱাহাটী ল'লে"
+    },
+    {
+     "en": "The Koches were driven across the Sankosh: the whole valley was Ahom",
+     "as": "কোচক সোণকোষৰ সিপাৰলৈ খেদা হ'ল: গোটেই উপত্যকা আহোমৰ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "art": "embassy",
+     "title": {
+      "en": "A chance in the west",
+      "as": "পশ্চিমত সুযোগ"
+     },
+     "text": [
+      {
+       "en": "In <mark>1658</mark> the Mughal emperor Shah Jahan fell ill, and his sons went to war for the throne. [[aurangzeb]] won.",
+       "as": "<mark>১৬৫৮</mark> চনত মোগল সম্ৰাট শ্বাহজাহান অসুস্থ হ'ল, আৰু তেওঁৰ পুত্ৰসকলে সিংহাসনৰ বাবে যুদ্ধ কৰিলে। [[aurangzeb]] জয়ী হ'ল।"
+      },
+      {
+       "en": "While the empire was busy, the Koch king [[pran-narayan]] raided Mughal land. Jayadhwaj saw his chance too.",
+       "as": "সাম্ৰাজ্য ব্যস্ত থকাৰ সুযোগত কোচ ৰজা [[pran-narayan]]এ মোগল এলেকা আক্ৰমণ কৰিলে। জয়ধ্বজেও সুযোগ দেখিলে।"
+      }
+     ],
+     "id": "jds.u3.01"
+    },
+    {
+     "type": "story",
+     "img": "guwahati-taken.webp",
+     "title": {
+      "en": "Guwahati taken",
+      "as": "গুৱাহাটী দখল"
+     },
+     "text": [
+      {
+       "en": "He bridged the Kalang and marched on [[guwahati]]. The Mughal governor fled without a fight, leaving 20 cannon behind.",
+       "as": "তেওঁ কলঙত দলং বান্ধি [[guwahati]]লৈ আগবাঢ়িল। মোগল শাসনকৰ্তাই যুঁজ নিদিয়াকৈ ২০টা কামান এৰি পলাল।"
+      },
+      {
+       "en": "Then the Ahoms drove the Koches back across the [[sonkosh]]. For the first time the whole Brahmaputra valley was theirs.",
+       "as": "তাৰ পিছত আহোমে কোচক [[sonkosh]]ৰ সিপাৰলৈ খেদিলে। প্ৰথমবাৰৰ বাবে গোটেই ব্ৰহ্মপুত্ৰ উপত্যকা তেওঁলোকৰ হ'ল।"
+      }
+     ],
+     "id": "jds.u3.02",
+     "link": {
+      "lesson": 17,
+      "lessonId": "pratap-singha",
+      "unitNo": 5,
+      "unitTitle": {
+       "en": "Hajo won and lost",
+       "as": "হাজো জয় আৰু পৰাজয়"
+      },
+      "note": {
+       "en": "Under Pratap Singha's 1639 treaty, Guwahati had stayed Mughal.",
+       "as": "প্ৰতাপ সিংহৰ ১৬৩৯ চনৰ সন্ধিমতে গুৱাহাটী মোগলৰ হাতত আছিল।"
+      }
+     }
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Guwahati, taken in 1658.",
+      "as": "১৬৫৮ চনত দখল কৰা গুৱাহাটী টিপা।"
+     },
+     "target": "guwahati",
+     "choices": [
+      "guwahati",
+      "jogighopa",
+      "kaliabor",
+      "garhgaon"
+     ],
+     "answerText": {
+      "en": "Guwahati",
+      "as": "গুৱাহাটী"
+     },
+     "why": {
+      "en": "Guwahati, the key to Lower Assam.",
+      "as": "নামনি অসমৰ চাবি গুৱাহাটী।"
+     },
+     "id": "jds.u3.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these in order.",
+      "as": "ক্ৰম অনুসৰি সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Shah Jahan falls ill",
+       "as": "শ্বাহজাহান অসুস্থ"
+      },
+      {
+       "en": "Pran Narayan raids Mughal land",
+       "as": "প্ৰাণনাৰায়ণৰ আক্ৰমণ"
+      },
+      {
+       "en": "The Mughal governor flees Guwahati",
+       "as": "মোগল শাসনকৰ্তা গুৱাহাটীৰ পৰা পলায়"
+      },
+      {
+       "en": "Koches pushed across the Sankosh",
+       "as": "কোচক সোণকোষৰ সিপাৰলৈ খেদা"
+      }
+     ],
+     "why": {
+      "en": "A Mughal civil war opened the door.",
+      "as": "মোগল গৃহযুদ্ধে দুৱাৰ মুকলি কৰিলে।"
+     },
+     "id": "jds.u3.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a Koch king.",
+       "as": "মই কোচ ৰজা।"
+      },
+      {
+       "en": "I attacked the Mughals in 1658.",
+       "as": "১৬৫৮ চনত মই মোগলক আক্ৰমণ কৰিছিলোঁ।"
+      },
+      {
+       "en": "The Ahoms pushed me back across the Sankosh.",
+       "as": "আহোমে মোক সোণকোষৰ সিপাৰলৈ খেদিছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Pran Narayan",
+       "as": "প্ৰাণনাৰায়ণ"
+      },
+      {
+       "en": "Nara Narayan",
+       "as": "নৰনাৰায়ণ"
+      },
+      {
+       "en": "Chilarai",
+       "as": "চিলাৰায়"
+      },
+      {
+       "en": "Balinarayan",
+       "as": "বলিনাৰায়ণ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Pran Narayan of Koch Bihar.",
+      "as": "কোচবিহাৰৰ প্ৰাণনাৰায়ণ।"
+     },
+     "id": "jds.u3.05"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the river the Koches were driven across.",
+      "as": "কোচক যি নদীৰ সিপাৰলৈ খেদা হৈছিল, সেইখন টিপা।"
+     },
+     "target": "sonkosh",
+     "choices": [
+      "sonkosh",
+      "manas",
+      "bharali",
+      "kolong"
+     ],
+     "answerText": {
+      "en": "The Sankosh",
+      "as": "সোণকোষ"
+     },
+     "why": {
+      "en": "The Sankosh, on today's border with West Bengal.",
+      "as": "আজিৰ পশ্চিমবংগ সীমাৰ সোণকোষ।"
+     },
+     "id": "jds.u3.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "For a few years after 1658 the Ahoms held the whole Brahmaputra valley.",
+      "as": "১৬৫৮ৰ পিছত কেইবছৰমান আহোমে গোটেই ব্ৰহ্মপুত্ৰ উপত্যকা অধিকাৰ কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. But the new emperor, Aurangzeb, would not let it pass.",
+      "as": "শুদ্ধ। কিন্তু নতুন সম্ৰাট ঔৰংজেবে এইটো সহজে মানি নল'লে।"
+     },
+     "id": "jds.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "flag",
+   "title": {
+    "en": "Mir Jumla comes",
+    "as": "মীৰজুমলাৰ আগমন"
+   },
+   "learned": [
+    {
+     "en": "Aurangzeb's governor Mir Jumla invaded in January 1662",
+     "as": "ঔৰংজেবৰ শাসনকৰ্তা মীৰজুমলাই ১৬৬২ চনৰ জানুৱাৰীত আক্ৰমণ কৰিলে"
+    },
+    {
+     "en": "He brought about 12,000 horse, 30,000 foot and a great fleet",
+     "as": "তেওঁ প্ৰায় ১২,০০০ অশ্বাৰোহী, ৩০,০০০ পদাতিক আৰু বিশাল নৌবহৰ আনিছিল"
+    },
+    {
+     "en": "Jogighopa, Guwahati and Simlagarh fell one after another",
+     "as": "যোগীঘোপা, গুৱাহাটী আৰু চিমলাগড় পৰ পৰে পতন"
+    },
+    {
+     "en": "On 17 March 1662 he entered Garhgaon",
+     "as": "১৬৬২ চনৰ ১৭ মাৰ্চত তেওঁ গড়গাঁৱত সোমাল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "mir-jumla-invasion.webp",
+     "title": {
+      "en": "The great invasion",
+      "as": "মহা আক্ৰমণ"
+     },
+     "text": [
+      {
+       "en": "Aurangzeb sent his governor of Bengal, [[mir-jumla]]. On <mark>4 January 1662</mark> he set out with about <mark>12,000 horse and 30,000 foot</mark>.",
+       "as": "ঔৰংজেবে বংগৰ শাসনকৰ্তা [[mir-jumla]]ক পঠালে। <mark>১৬৬২ চনৰ ৪ জানুৱাৰী</mark>ত তেওঁ প্ৰায় <mark>১২,০০০ অশ্বাৰোহী আৰু ৩০,০০০ পদাতিক</mark> লৈ ওলাল।"
+      },
+      {
+       "en": "His fleet of three to four hundred boats carried heavy guns, many under Portuguese and other European officers.",
+       "as": "তেওঁৰ তিনি-চাৰিশ নাৱৰ নৌবহৰত গধুৰ কামান আছিল; বহুতৰ দায়িত্বত পৰ্তুগীজ আৰু আন ইউৰোপীয় বিষয়া।"
+      }
+     ],
+     "id": "jds.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "Guwahati, taken by the Ahoms in 1658, was his first target.",
+       "as": "১৬৫৮ চনত আহোমে লোৱা গুৱাহাটী তেওঁৰ প্ৰথম লক্ষ্য।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Aurangzeb sent me.",
+       "as": "ঔৰংজেবে মোক পঠাইছিল।"
+      },
+      {
+       "en": "I took Garhgaon in 1662.",
+       "as": "১৬৬২ চনত মই গড়গাঁও লৈছিলোঁ।"
+      },
+      {
+       "en": "I died on the way back, in 1663.",
+       "as": "১৬৬৩ চনত উভতনি পথত মোৰ মৃত্যু হয়।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Mir Jumla",
+       "as": "মীৰজুমলা"
+      },
+      {
+       "en": "Abu Bakr",
+       "as": "আবু বকৰ"
+      },
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
+      },
+      {
+       "en": "Turbak",
+       "as": "তুৰবক"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Mir Jumla.",
+      "as": "মীৰজুমলা।"
+     },
+     "id": "jds.u4.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the fort that fell first.",
+      "as": "প্ৰথমে পতন হোৱা গড়টো টিপা।"
+     },
+     "target": "jogighopa",
+     "choices": [
+      "jogighopa",
+      "guwahati",
+      "kaliabor",
+      "garhgaon"
+     ],
+     "answerText": {
+      "en": "Jogighopa",
+      "as": "যোগীঘোপা"
+     },
+     "why": {
+      "en": "Jogighopa, at the mouth of the Manas. Its sick garrison gave way almost without a fight.",
+      "as": "মানাহৰ মুখৰ যোগীঘোপা। ইয়াৰ ৰোগাক্ৰান্ত সৈন্যই প্ৰায় যুঁজ নিদিয়াকৈ এৰি দিলে।"
+     },
+     "id": "jds.u4.03"
+    },
+    {
+     "type": "story",
+     "img": "garhgaon-falls.webp",
+     "title": {
+      "en": "Up the river",
+      "as": "উজনিলৈ"
+     },
+     "text": [
+      {
+       "en": "Guwahati fell on 4 February. The strong fort of Simlagarh was stormed, and above Kaliabor the Ahom fleet was beaten in a night-long battle.",
+       "as": "৪ ফেব্ৰুৱাৰীত গুৱাহাটীৰ পতন হ'ল। শক্তিশালী চিমলাগড় দখল হ'ল, আৰু কলিয়াবৰৰ উজনিত গোটেই নিশাৰ যুঁজত আহোম নৌবহৰ পৰাস্ত হ'ল।"
+      },
+      {
+       "en": "The king fled from [[garhgaon]]. On <mark>17 March 1662</mark> Mir Jumla entered the Ahom capital and took 82 elephants, gold, silver and great stores of rice.",
+       "as": "ৰজা [[garhgaon]]ৰ পৰা পলাল। <mark>১৬৬২ চনৰ ১৭ মাৰ্চ</mark>ত মীৰজুমলা আহোম ৰাজধানীত সোমাল আৰু ৮২টা হাতী, সোণ, ৰূপ আৰু প্ৰচুৰ ধান ল'লে।"
+      }
+     ],
+     "id": "jds.u4.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put Mir Jumla's march in order.",
+      "as": "মীৰজুমলাৰ অভিযান ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Jogighopa",
+       "as": "যোগীঘোপা"
+      },
+      {
+       "en": "Guwahati",
+       "as": "গুৱাহাটী"
+      },
+      {
+       "en": "Simlagarh",
+       "as": "চিমলাগড়"
+      },
+      {
+       "en": "Garhgaon",
+       "as": "গড়গাঁও"
+      }
+     ],
+     "why": {
+      "en": "Downstream to upstream: Jogighopa → Guwahati → Simlagarh → Garhgaon.",
+      "as": "ভাটিৰ পৰা উজনিলৈ: যোগীঘোপা → গুৱাহাটী → চিমলাগড় → গড়গাঁও।"
+     },
+     "id": "jds.u4.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Mir Jumla's fleet had European officers.",
+      "as": "মীৰজুমলাৰ নৌবহৰত ইউৰোপীয় বিষয়া আছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True, many of them Portuguese.",
+      "as": "শুদ্ধ, বহুতেই পৰ্তুগীজ।"
+     },
+     "id": "jds.u4.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the fall of Garhgaon?",
+      "as": "কোনখন ছবিত গড়গাঁৱৰ পতন দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "garhgaon-falls.webp",
+      "mir-jumla-invasion.webp",
+      "guwahati-taken.webp",
+      "monsoon-war.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Mir Jumla in Garhgaon",
+      "as": "গড়গাঁৱত মীৰজুমলা"
+     },
+     "why": {
+      "en": "17 March 1662.",
+      "as": "১৬৬২ চনৰ ১৭ মাৰ্চ।"
+     },
+     "id": "jds.u4.07"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "river",
+   "title": {
+    "en": "The monsoon war",
+    "as": "বাৰিষাৰ যুদ্ধ"
+   },
+   "learned": [
+    {
+     "en": "The king fled east to Namrup: the 'fugitive king'",
+     "as": "ৰজা পূবৰ নামৰূপলৈ পলাল: 'পলাতক ৰজা'"
+    },
+    {
+     "en": "When the rains came, the Ahoms struck back by night",
+     "as": "বাৰিষা আহিলে আহোমে নিশা প্ৰত্যাঘাত কৰিলে"
+    },
+    {
+     "en": "The Mughals held only Garhgaon and Mathurapur",
+     "as": "মোগলৰ হাতত কেৱল গড়গাঁও আৰু মথুৰাপুৰ থাকিল"
+    },
+    {
+     "en": "Hunger and disease broke the invading army",
+     "as": "অনাহাৰ আৰু ৰোগে আক্ৰমণকাৰী সৈন্য ভাঙিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": false
+     },
+     "title": {
+      "en": "The fugitive king",
+      "as": "পলাতক ৰজা"
+     },
+     "text": [
+      {
+       "en": "Jayadhwaj fled to Charaideo, then Tipam, and finally [[namrup]] in the far east, with about 5,000 men.",
+       "as": "জয়ধ্বজ প্ৰায় ৫,০০০ লোক লৈ চৰাইদেউ, তাৰ পিছত তিপাম আৰু শেষত পূবৰ [[namrup]]লৈ পলাল।"
+      },
+      {
+       "en": "That flight earned him the name [[bhagania-roja]]. But the war was not over.",
+       "as": "সেই পলায়নৰ বাবে তেওঁক [[bhagania-roja]] বোলা হ'ল। কিন্তু যুদ্ধ শেষ হোৱা নাছিল।"
+      }
+     ],
+     "id": "jds.u5.01"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Namrup, where the king took refuge.",
+      "as": "ৰজাই আশ্ৰয় লোৱা নামৰূপ টিপা।"
+     },
+     "target": "namrup",
+     "choices": [
+      "namrup",
+      "garhgaon",
+      "majuli",
+      "guwahati"
+     ],
+     "answerText": {
+      "en": "Namrup",
+      "as": "নামৰূপ"
+     },
+     "why": {
+      "en": "Namrup, the easternmost province.",
+      "as": "আটাইতকৈ পূবৰ প্ৰদেশ নামৰূপ।"
+     },
+     "id": "jds.u5.02"
+    },
+    {
+     "type": "story",
+     "img": "monsoon-war.webp",
+     "title": {
+      "en": "When the rains came",
+      "as": "বাৰিষা আহিলে"
+     },
+     "text": [
+      {
+       "en": "The monsoon cut the roads. The Ahoms attacked outposts at night, cut off supplies and killed stragglers. Soon the Mughals held only Garhgaon and Mathurapur.",
+       "as": "বাৰিষাই বাট কাটি দিলে। আহোমে নিশা চকীবোৰ আক্ৰমণ কৰিলে, যোগান বন্ধ কৰিলে আৰু পিছ পৰা সৈন্যক মাৰিলে। সোনকালে মোগলৰ হাতত কেৱল গড়গাঁও আৰু মথুৰাপুৰ থাকিল।"
+      },
+      {
+       "en": "Fever and dysentery spread. Salt sold at thirty rupees a seer. One Mughal detachment fell from 1,500 men to 500.",
+       "as": "জ্বৰ আৰু আমাশয় বিয়পিল। এছেৰ নিমখৰ দাম ত্ৰিশ টকা হ'ল। এটা মোগল দল ১,৫০০ জনৰ পৰা ৫০০ জনলৈ নামিল।"
+      }
+     ],
+     "id": "jds.u5.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Ahoms fought back mostly with night attacks during the rains.",
+      "as": "বাৰিষাত আহোমে প্ৰধানকৈ নিশাৰ আক্ৰমণেৰে প্ৰত্যাঘাত কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. They avoided open battle and cut the invaders off.",
+      "as": "শুদ্ধ। তেওঁলোকে মুকলি যুদ্ধ এৰাই আক্ৰমণকাৰীক বিচ্ছিন্ন কৰিছিল।"
+     },
+     "id": "jds.u5.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one did NOT weaken Mir Jumla's army?",
+      "as": "কোনটোৱে মীৰজুমলাৰ সৈন্যক দুৰ্বল কৰা নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Monsoon rains",
+       "as": "বাৰিষা"
+      },
+      {
+       "en": "Night attacks",
+       "as": "নিশাৰ আক্ৰমণ"
+      },
+      {
+       "en": "Fever and dysentery",
+       "as": "জ্বৰ আৰু আমাশয়"
+      },
+      {
+       "en": "A Koch army from the west",
+       "as": "পশ্চিমৰ কোচ সৈন্য"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "No Koch army came to Garhgaon, though Pran Narayan did retake Koch Bihar behind Mir Jumla.",
+      "as": "গড়গাঁৱলৈ কোনো কোচ সৈন্য অহা নাছিল, যদিও প্ৰাণনাৰায়ণে মীৰজুমলাৰ পিছফালে কোচবিহাৰ পুনৰ লৈছিল।"
+     },
+     "id": "jds.u5.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "In",
+       "the",
+       "rains,",
+       "the",
+       "Mughals",
+       "held",
+       "all",
+       "of",
+       "Upper",
+       "Assam."
+      ],
+      "as": [
+       "বাৰিষাত",
+       "মোগলে",
+       "গোটেই",
+       "উজনি",
+       "অসম",
+       "অধিকাৰ",
+       "কৰি",
+       "ৰাখিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 6,
+      "as": 2
+     },
+     "fix": {
+      "en": "→ only Garhgaon and Mathurapur",
+      "as": "→ কেৱল গড়গাঁও আৰু মথুৰাপুৰ"
+     },
+     "answerText": {
+      "en": "all → only two places",
+      "as": "গোটেই → মাত্ৰ দুখন ঠাই"
+     },
+     "why": {
+      "en": "They were shut up in Garhgaon and Mathurapur.",
+      "as": "তেওঁলোক গড়গাঁও আৰু মথুৰাপুৰত আবদ্ধ হৈ আছিল।"
+     },
+     "id": "jds.u5.06"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Namrup",
+        "as": "নামৰূপ"
+       },
+       {
+        "en": "The king's refuge",
+        "as": "ৰজাৰ আশ্ৰয়"
+       }
+      ],
+      [
+       {
+        "en": "Garhgaon",
+        "as": "গড়গাঁও"
+       },
+       {
+        "en": "Held by Mir Jumla",
+        "as": "মীৰজুমলাৰ হাতত"
+       }
+      ],
+      [
+       {
+        "en": "Night attacks",
+        "as": "নিশাৰ আক্ৰমণ"
+       },
+       {
+        "en": "The Ahom answer",
+        "as": "আহোমৰ উত্তৰ"
+       }
+      ],
+      [
+       {
+        "en": "Salt at 30 rupees",
+        "as": "ত্ৰিশ টকাৰ নিমখ"
+       },
+       {
+        "en": "Hunger in the camp",
+        "as": "শিবিৰত অনাহাৰ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "The tide turned in the rains.",
+      "as": "বাৰিষাত পাশা সলনি হ'ল।"
+     },
+     "id": "jds.u5.07"
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "icon": "hands",
+   "title": {
+    "en": "The Treaty of Ghilajharighat",
+    "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
+   },
+   "learned": [
+    {
+     "en": "Sick and with a weary army, Mir Jumla made peace in January 1663",
+     "as": "অসুস্থ মীৰজুমলাই ভাগৰুৱা সৈন্যৰে ১৬৬৩ চনৰ জানুৱাৰীত শান্তি কৰিলে"
+    },
+    {
+     "en": "The Ahoms gave a princess, gold, silver, elephants and hostages",
+     "as": "আহোমে কুমাৰী, সোণ, ৰূপ, হাতী আৰু বন্দী দিলে"
+    },
+    {
+     "en": "Land west of the Bharali (north) and the Kalang (south) went to the Mughals",
+     "as": "ভৰলী (উত্তৰ) আৰু কলং (দক্ষিণ)ৰ পশ্চিমৰ মাটি মোগলৰ হ'ল"
+    },
+    {
+     "en": "Mir Jumla died on 30 March 1663, on the way back",
+     "as": "১৬৬৩ চনৰ ৩০ মাৰ্চত উভতনি পথত মীৰজুমলাৰ মৃত্যু"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "treaty.webp",
+     "title": {
+      "en": "A hard peace",
+      "as": "কঠিন শান্তি"
+     },
+     "text": [
+      {
+       "en": "Mir Jumla was ill and his men feared another monsoon. In <mark>January 1663</mark> the two sides made the [[ghilajharighat]].",
+       "as": "মীৰজুমলা অসুস্থ আছিল আৰু তেওঁৰ সৈন্যই আন এক বাৰিষাক ভয় কৰিছিল। <mark>১৬৬৩ চনৰ জানুৱাৰী</mark>ত দুয়োপক্ষই [[ghilajharighat]] কৰিলে।"
+      },
+      {
+       "en": "The Ahoms gave 20,000 tolas of gold, 120,000 of silver and 40 elephants at once, more within a year, six nobles' sons as hostages, and the land west of the [[bharali]] and the [[kolong|Kalang]].",
+       "as": "আহোমে লগে লগে ২০,০০০ তোলা সোণ, ১,২০,০০০ তোলা ৰূপ আৰু ৪০টা হাতী দিলে, এবছৰৰ ভিতৰত আৰু দিলে, ছজন বিষয়াৰ পুত্ৰক বন্দী হিচাপে দিলে, আৰু [[bharali]] আৰু [[kolong|কলং]]ৰ পশ্চিমৰ মাটি দিলে।"
+      }
+     ],
+     "id": "jds.u6.01"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each term of the treaty.",
+      "as": "সন্ধিৰ প্ৰতিটো চৰ্ত মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Gold",
+        "as": "সোণ"
+       },
+       {
+        "en": "20,000 tolas",
+        "as": "২০,০০০ তোলা"
+       }
+      ],
+      [
+       {
+        "en": "Elephants",
+        "as": "হাতী"
+       },
+       {
+        "en": "40 at once, 20 every year",
+        "as": "লগে লগে ৪০, প্ৰতি বছৰ ২০"
+       }
+      ],
+      [
+       {
+        "en": "Hostages",
+        "as": "বন্দী"
+       },
+       {
+        "en": "Six sons of nobles",
+        "as": "ছজন বিষয়াৰ পুত্ৰ"
+       }
+      ],
+      [
+       {
+        "en": "Land",
+        "as": "মাটি"
+       },
+       {
+        "en": "West of the Bharali and Kalang",
+        "as": "ভৰলী আৰু কলঙৰ পশ্চিম"
+       }
+      ]
+     ],
+     "why": {
+      "en": "The price of the 1663 peace.",
+      "as": "১৬৬৩ চনৰ শান্তিৰ মূল্য।"
+     },
+     "id": "jds.u6.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the north-bank river that became the new border.",
+      "as": "নতুন সীমা হোৱা উত্তৰ পাৰৰ নদীখন টিপা।"
+     },
+     "target": "bharali",
+     "choices": [
+      "bharali",
+      "manas",
+      "sonkosh",
+      "kolong"
+     ],
+     "answerText": {
+      "en": "The Bharali",
+      "as": "ভৰলী"
+     },
+     "why": {
+      "en": "West of the Bharali on the north bank, and of the Kalang on the south, went to the Mughals.",
+      "as": "উত্তৰ পাৰত ভৰলী আৰু দক্ষিণ পাৰত কলঙৰ পশ্চিম মোগলৰ হ'ল।"
+     },
+     "id": "jds.u6.03"
+    },
+    {
+     "type": "story",
+     "img": "ramani-farewell.webp",
+     "title": {
+      "en": "Ramani Gabharu",
+      "as": "ৰমণী গাভৰু"
+     },
+     "text": [
+      {
+       "en": "The treaty also demanded a princess for the imperial household. The king's young daughter, [[ramani-gabharu]], was sent away to the Mughals.",
+       "as": "সন্ধিত সম্ৰাটৰ ঘৰলৈ এগৰাকী কুমাৰীও দাবী কৰা হৈছিল। ৰজাৰ সৰু জীয়েক [[ramani-gabharu]]ক মোগলৰ ওচৰলৈ পঠোৱা হ'ল।"
+      },
+      {
+       "en": "Years later, in 1668, she married Aurangzeb's son, Prince Azam.",
+       "as": "বহু বছৰৰ পিছত, ১৬৬৮ চনত, তেওঁ ঔৰংজেবৰ পুত্ৰ কোঁৱৰ আজমৰ সৈতে বিবাহপাশত আবদ্ধ হয়।"
+      }
+     ],
+     "id": "jds.u6.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a young Ahom princess.",
+       "as": "মই এগৰাকী সৰু আহোম কুমাৰী।"
+      },
+      {
+       "en": "A treaty sent me to the Mughal court.",
+       "as": "সন্ধিয়ে মোক মোগল দৰবাৰলৈ পঠাইছিল।"
+      },
+      {
+       "en": "I later married Prince Azam.",
+       "as": "পিছত মই কোঁৱৰ আজমক বিয়া কৰাইছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Ramani Gabharu",
+       "as": "ৰমণী গাভৰু"
+      },
+      {
+       "en": "Mula Gabharu",
+       "as": "মূলা গাভৰু"
+      },
+      {
+       "en": "Joymoti",
+       "as": "জয়মতী"
+      },
+      {
+       "en": "Mangaldoi",
+       "as": "মংগলদৈ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Ramani Gabharu, daughter of Jayadhwaj Singha.",
+      "as": "ৰমণী গাভৰু, জয়ধ্বজ সিংহৰ জীয়েক।"
+     },
+     "id": "jds.u6.05"
+    },
+    {
+     "type": "story",
+     "img": "mir-jumla-dies.webp",
+     "title": {
+      "en": "The victor dies",
+      "as": "বিজয়ীৰ মৃত্যু"
+     },
+     "text": [
+      {
+       "en": "Mir Jumla left on 9 January 1663. His army limped home, living on water and grass for days.",
+       "as": "১৬৬৩ চনৰ ৯ জানুৱাৰীত মীৰজুমলাই যাত্ৰা কৰিলে। তেওঁৰ সৈন্যই দিনৰ পিছত দিন পানী আৰু ঘাঁহ খাই খোৰাই খোৰাই উভতিল।"
+      },
+      {
+       "en": "Sick since the rains, Mir Jumla died on <mark>30 March 1663</mark>, just before reaching Dacca.",
+       "as": "বাৰিষাৰ পৰাই অসুস্থ মীৰজুমলাৰ <mark>১৬৬৩ চনৰ ৩০ মাৰ্চ</mark>ত ঢাকা পোৱাৰ আগমুহূৰ্তত মৃত্যু হ'ল।"
+      }
+     ],
+     "id": "jds.u6.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Mir Jumla died in Garhgaon.",
+      "as": "গড়গাঁৱত মীৰজুমলাৰ মৃত্যু হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He died on the way back, near Dacca, on 30 March 1663.",
+      "as": "অশুদ্ধ। ১৬৬৩ চনৰ ৩০ মাৰ্চত উভতনি পথত ঢাকাৰ ওচৰত তেওঁৰ মৃত্যু হয়।"
+     },
+     "id": "jds.u6.07"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of the princess sent to the Mughals.",
+      "as": "মোগলৰ ওচৰলৈ পঠোৱা কুমাৰীৰ নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "R",
+       "A",
+       "M",
+       "A",
+       "N",
+       "I"
+      ],
+      "as": [
+       "ৰ",
+       "ম",
+       "ণী"
+      ]
+     },
+     "answerText": {
+      "en": "RAMANI",
+      "as": "ৰমণী"
+     },
+     "why": {
+      "en": "Ramani Gabharu.",
+      "as": "ৰমণী গাভৰু।"
+     },
+     "id": "jds.u6.08"
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "icon": "moon",
+   "title": {
+    "en": "A king's last wish",
+    "as": "ৰজাৰ অন্তিম ইচ্ছা"
+   },
+   "learned": [
+    {
+     "en": "He returned to Bakata and punished the commanders who had failed",
+     "as": "তেওঁ বকতালৈ উভতি বিফল সেনাপতিসকলক শাস্তি দিলে"
+    },
+    {
+     "en": "He built a stronghold in Namrup for any future invasion",
+     "as": "ভৱিষ্যতৰ আক্ৰমণৰ বাবে নামৰূপত দুৰ্গ সাজিলে"
+    },
+    {
+     "en": "He died in November 1663 after nine days' illness",
+     "as": "নদিন অসুখৰ পিছত ১৬৬৩ চনৰ নৱেম্বৰত মৃত্যু"
+    },
+    {
+     "en": "Tradition: he charged his successor to wipe out the shame",
+     "as": "পৰম্পৰামতে তেওঁ উত্তৰাধিকাৰীক লাজ ধুই পেলাবলৈ ক'লে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "the-vow.webp",
+     "title": {
+      "en": "Back from Namrup",
+      "as": "নামৰূপৰ পৰা উভতি"
+     },
+     "text": [
+      {
+       "en": "Jayadhwaj came back to Bakata. He dismissed the Borgohain in disgrace, beating him with the flat of his sword, and punished other officers who had failed.",
+       "as": "জয়ধ্বজ বকতালৈ উভতিল। তেওঁ বৰগোহাঁইক তৰোৱালৰ চেপেটা ফালেৰে কোবাই অপমানেৰে পদচ্যুত কৰিলে আৰু বিফল আন বিষয়াকো শাস্তি দিলে।"
+      },
+      {
+       "en": "He built a stronghold in Namrup and stored treasure there, in case the Mughals came again.",
+       "as": "মোগল আকৌ আহিলে বুলি তেওঁ নামৰূপত দুৰ্গ সাজি তাত ধন-সম্পদ ৰাখিলে।"
+      }
+     ],
+     "id": "jds.u7.01"
+    },
+    {
+     "type": "story",
+     "img": "deathbed.webp",
+     "top": true,
+     "title": {
+      "en": "The last wish",
+      "as": "অন্তিম ইচ্ছা"
+     },
+     "text": [
+      {
+       "en": "In <mark>November 1663</mark>, worn out by the war, he fell ill and died after nine days.",
+       "as": "<mark>১৬৬৩ চনৰ নৱেম্বৰ</mark>ত যুদ্ধৰ ক্লান্তিত তেওঁ অসুস্থ হৈ নদিনৰ পিছত মৃত্যুবৰণ কৰিলে।"
+      },
+      {
+       "en": "Tradition says that on his deathbed he asked his cousin and successor, [[chakradhwaj-singha]], to remove the 'spear of shame' from his heart: to win back what was lost.",
+       "as": "পৰম্পৰামতে মৃত্যুশয্যাত তেওঁ সম্পৰ্কীয় ভাই আৰু উত্তৰাধিকাৰী [[chakradhwaj-singha]]ক তেওঁৰ বুকুৰ 'লাজৰ জোং' উলিয়াবলৈ ক'লে: হেৰুওৱা সকলো ঘূৰাই আনিবলৈ।"
+      }
+     ],
+     "id": "jds.u7.02"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which did Jayadhwaj NOT do after the war?",
+      "as": "যুদ্ধৰ পিছত জয়ধ্বজে কোনটো কৰা নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Punish failed commanders",
+       "as": "বিফল সেনাপতিক শাস্তি"
+      },
+      {
+       "en": "Build a stronghold in Namrup",
+       "as": "নামৰূপত দুৰ্গ নিৰ্মাণ"
+      },
+      {
+       "en": "Return to Bakata",
+       "as": "বকতালৈ উভতা"
+      },
+      {
+       "en": "Win back Guwahati",
+       "as": "গুৱাহাটী উদ্ধাৰ"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Guwahati was won back in 1667, after his death.",
+      "as": "তেওঁৰ মৃত্যুৰ পিছত ১৬৬৭ চনত গুৱাহাটী উদ্ধাৰ হয়।"
+     },
+     "id": "jds.u7.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Jayadhwaj Singha's cousin.",
+       "as": "মই জয়ধ্বজ সিংহৰ সম্পৰ্কীয় ভাই।"
+      },
+      {
+       "en": "I became king in 1663.",
+       "as": "১৬৬৩ চনত মই ৰজা হৈছিলোঁ।"
+      },
+      {
+       "en": "I swore to win back Guwahati.",
+       "as": "মই গুৱাহাটী উদ্ধাৰৰ শপত লৈছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Chakradhwaj Singha",
+       "as": "চক্ৰধ্বজ সিংহ"
+      },
+      {
+       "en": "Udayaditya Singha",
+       "as": "উদয়াদিত্য সিংহ"
+      },
+      {
+       "en": "Gadadhar Singha",
+       "as": "গদাধৰ সিংহ"
+      },
+      {
+       "en": "Sutamla",
+       "as": "চুতামলা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Chakradhwaj Singha (Supangmung), king 1663–1670.",
+      "as": "চক্ৰধ্বজ সিংহ (চুপাংমুং), ১৬৬৩–১৬৭০।"
+     },
+     "id": "jds.u7.04"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1662",
+       "l": {
+        "en": "Garhgaon falls",
+        "as": "গড়গাঁৱৰ পতন"
+       }
+      },
+      {
+       "y": "1663",
+       "l": {
+        "en": "Jayadhwaj dies (November)",
+        "as": "জয়ধ্বজৰ মৃত্যু (নৱেম্বৰ)"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Guwahati taken from the Mughals",
+        "as": "মোগলৰ পৰা গুৱাহাটী দখল"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Treaty of Ghilajharighat (January)",
+        "as": "ঘিলাধাৰীঘাটৰ সন্ধি (জানুৱাৰী)"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Lachit wins back Guwahati",
+        "as": "লাচিতৰ গুৱাহাটী উদ্ধাৰ"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1658 → 1662 → January 1663 → November 1663 → 1667.",
+      "as": "১৬৫৮ → ১৬৬২ → ১৬৬৩ জানুৱাৰী → ১৬৬৩ নৱেম্বৰ → ১৬৬৭।"
+     },
+     "id": "jds.u7.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Jayadhwaj Singha lived to see Guwahati won back.",
+      "as": "জয়ধ্বজ সিংহই গুৱাহাটী উদ্ধাৰ হোৱা দেখি গৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He died in 1663; Guwahati was won back in 1667, under Chakradhwaj Singha and Lachit Borphukan.",
+      "as": "অশুদ্ধ। ১৬৬৩ চনত তেওঁৰ মৃত্যু হয়; ১৬৬৭ চনত চক্ৰধ্বজ সিংহ আৰু লাচিত বৰফুকনৰ দিনত গুৱাহাটী উদ্ধাৰ হয়।"
+     },
+     "id": "jds.u7.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the king's last wish?",
+      "as": "কোনখন ছবিত ৰজাৰ অন্তিম ইচ্ছা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "deathbed.webp",
+      "the-vow.webp",
+      "treaty.webp",
+      "coronation.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The deathbed",
+      "as": "মৃত্যুশয্যা"
+     },
+     "why": {
+      "en": "November 1663, at Bakata.",
+      "as": "১৬৬৩ চনৰ নৱেম্বৰ, বকতাত।"
+     },
+     "id": "jds.u7.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Jayadhwaj Singha",
+    "as": "তুমি স্বৰ্গদেউ জয়ধ্বজ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the fugitive king.",
+      "as": "মই পলাতক ৰজা।"
+     },
+     {
+      "en": "Mir Jumla took my capital.",
+      "as": "মীৰজুমলাই মোৰ ৰাজধানী লৈছিল।"
+     },
+     {
+      "en": "I signed the Treaty of Ghilajharighat.",
+      "as": "মই ঘিলাধাৰীঘাটৰ সন্ধি কৰিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Jayadhwaj Singha",
+      "as": "জয়ধ্বজ সিংহ"
+     },
+     {
+      "en": "Pratap Singha",
+      "as": "প্ৰতাপ সিংহ"
+     },
+     {
+      "en": "Chakradhwaj Singha",
+      "as": "চক্ৰধ্বজ সিংহ"
+     },
+     {
+      "en": "Sutingphaa",
+      "as": "চুটিংফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Jayadhwaj Singha (1648–1663).",
+     "as": "জয়ধ্বজ সিংহ (১৬৪৮–১৬৬৩)।"
+    },
+    "id": "jds.test.01"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1658",
+      "l": {
+       "en": "Guwahati taken",
+       "as": "গুৱাহাটী দখল"
+      }
+     },
+     {
+      "y": "1663",
+      "l": {
+       "en": "Treaty of Ghilajharighat",
+       "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Jayadhwaj crowned",
+       "as": "জয়ধ্বজৰ অভিষেক"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Garhgaon falls",
+       "as": "গড়গাঁৱৰ পতন"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Mir Jumla dies",
+       "as": "মীৰজুমলাৰ মৃত্যু"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1648 → 1658 → 1662 → January 1663 → March 1663.",
+     "as": "১৬৪৮ → ১৬৫৮ → ১৬৬২ → ১৬৬৩ জানুৱাৰী → ১৬৬৩ মাৰ্চ।"
+    },
+    "id": "jds.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Garhgaon, the capital Mir Jumla took.",
+     "as": "মীৰজুমলাই লোৱা ৰাজধানী গড়গাঁও টিপা।"
+    },
+    "target": "garhgaon",
+    "choices": [
+     "garhgaon",
+     "namrup",
+     "guwahati",
+     "jogighopa"
+    ],
+    "answerText": {
+     "en": "Garhgaon",
+     "as": "গড়গাঁও"
+    },
+    "why": {
+     "en": "Garhgaon, 17 March 1662.",
+     "as": "গড়গাঁও, ১৬৬২ চনৰ ১৭ মাৰ্চ।"
+    },
+    "id": "jds.test.03"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the Treaty of Ghilajharighat?",
+     "as": "কোনখন ছবিত ঘিলাধাৰীঘাটৰ সন্ধি দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "treaty.webp",
+     "ramani-farewell.webp",
+     "guwahati-taken.webp",
+     "initiation.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The treaty",
+     "as": "সন্ধি"
+    },
+    "why": {
+     "en": "January 1663.",
+     "as": "১৬৬৩ চনৰ জানুৱাৰী।"
+    },
+    "id": "jds.test.04"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Jayadhwaj Singha was the first Ahom king to take initiation as a Vaishnava.",
+     "as": "জয়ধ্বজ সিংহ বৈষ্ণৱ হিচাপে শৰণ লোৱা প্ৰথম আহোম ৰজা।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True, from Niranjan Deva of Auniati.",
+     "as": "শুদ্ধ, আউনীআটীৰ নিৰঞ্জন দেৱৰ পৰা।"
+    },
+    "id": "jds.test.05"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble his popular name: ___ Roja.",
+     "as": "তেওঁৰ জনপ্ৰিয় নাম: ___ ৰজা।"
+    },
+    "word": {
+     "en": [
+      "B",
+      "H",
+      "A",
+      "G",
+      "A",
+      "N",
+      "I",
+      "A"
+     ],
+     "as": [
+      "ভ",
+      "গ",
+      "নী",
+      "য়া"
+     ]
+    },
+    "answerText": {
+     "en": "BHAGANIA",
+     "as": "ভগনীয়া"
+    },
+    "why": {
+     "en": "Bhagania Roja, the fugitive king.",
+     "as": "ভগনীয়া ৰজা।"
+    },
+    "id": "jds.test.06"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Guwahati taken",
+      "as": "গুৱাহাটী দখল"
+     },
+     {
+      "en": "Jogighopa falls",
+      "as": "যোগীঘোপাৰ পতন"
+     },
+     {
+      "en": "King flees to Namrup",
+      "as": "ৰজা নামৰূপলৈ পলায়"
+     },
+     {
+      "en": "Treaty signed",
+      "as": "সন্ধি স্বাক্ষৰ"
+     }
+    ],
+    "why": {
+     "en": "1658 → 1662 → 1662 → 1663.",
+     "as": "১৬৫৮ → ১৬৬২ → ১৬৬২ → ১৬৬৩।"
+    },
+    "id": "jds.test.07"
+   },
+   {
+    "type": "fill",
+    "before": {
+     "en": "The princess sent to the Mughals was Ramani",
+     "as": "মোগলৰ ওচৰলৈ পঠোৱা কুমাৰী আছিল ৰমণী"
+    },
+    "after": {
+     "en": ".",
+     "as": "।"
+    },
+    "answer": "Gabharu",
+    "asOptions": [
+     "গাভৰু",
+     "কুঁৱৰী",
+     "আইদেউ",
+     "ৰাণী"
+    ],
+    "asAnswer": 0,
+    "answerText": {
+     "en": "Gabharu",
+     "as": "গাভৰু"
+    },
+    "why": {
+     "en": "Ramani Gabharu.",
+     "as": "ৰমণী গাভৰু।"
+    },
+    "id": "jds.test.08"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Mir Jumla",
+       "as": "মীৰজুমলা"
+      },
+      {
+       "en": "Aurangzeb's governor",
+       "as": "ঔৰংজেবৰ শাসনকৰ্তা"
+      }
+     ],
+     [
+      {
+       "en": "Pran Narayan",
+       "as": "প্ৰাণনাৰায়ণ"
+      },
+      {
+       "en": "Koch king",
+       "as": "কোচ ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Niranjan Deva",
+       "as": "নিৰঞ্জন দেৱ"
+      },
+      {
+       "en": "First Gosain of Auniati",
+       "as": "আউনীআটীৰ প্ৰথম গোঁসাই"
+      }
+     ],
+     [
+      {
+       "en": "Chakradhwaj Singha",
+       "as": "চক্ৰধ্বজ সিংহ"
+      },
+      {
+       "en": "Next king",
+       "as": "পৰৱৰ্তী ৰজা"
+      }
+     ]
+    ],
+    "why": {
+     "en": "The people around Jayadhwaj Singha.",
+     "as": "জয়ধ্বজ সিংহৰ চাৰিওফালৰ লোক।"
+    },
+    "id": "jds.test.09"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Mir Jumla entered Garhgaon in March 1662.<br>2. Under the 1663 treaty the Ahoms kept Guwahati.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ১৬৬২ চনৰ মাৰ্চত মীৰজুমলা গড়গাঁৱত সোমাইছিল।<br>২. ১৬৬৩ চনৰ সন্ধিমতে আহোমে গুৱাহাটী ৰাখিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Land west of the Bharali and Kalang, including Guwahati, went to the Mughals.",
+     "as": "কেৱল ১। গুৱাহাটীকে ধৰি ভৰলী আৰু কলঙৰ পশ্চিমৰ মাটি মোগলৰ হ'ল।"
+    },
+    "small": true,
+    "id": "jds.test.10"
+   }
+  ]
+ }
+}

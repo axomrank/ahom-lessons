@@ -1719,6 +1719,166 @@
     "en": "Sutingphaa, often sick.",
     "as": "চুটিংফা, প্ৰায়ে অসুস্থ।"
    }
+  },
+  {
+   "id": "bank.mughal.07",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "jayadhwaj-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Treaty of Ghilajharighat (1663) was signed between Jayadhwaj Singha and:",
+    "as": "ঘিলাধাৰীঘাটৰ সন্ধি (১৬৬৩) জয়ধ্বজ সিংহ আৰু কাৰ মাজত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Mir Jumla",
+     "as": "মীৰজুমলা"
+    },
+    {
+     "en": "Ram Singh",
+     "as": "ৰামসিংহ"
+    },
+    {
+     "en": "Abu Bakr",
+     "as": "আবু বকৰ"
+    },
+    {
+     "en": "Chilarai",
+     "as": "চিলাৰায়"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Mir Jumla, Aurangzeb's governor of Bengal.",
+    "as": "ঔৰংজেবৰ বংগৰ শাসনকৰ্তা মীৰজুমলা।"
+   }
+  },
+  {
+   "id": "bank.mughal.08",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "jayadhwaj-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Which Ahom king is known as the Bhagania Roja?",
+    "as": "কোনজন আহোম ৰজাক ভগনীয়া ৰজা বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Jayadhwaj Singha",
+     "as": "জয়ধ্বজ সিংহ"
+    },
+    {
+     "en": "Suramphaa",
+     "as": "চুৰম্ফা"
+    },
+    {
+     "en": "Sutingphaa",
+     "as": "চুটিংফা"
+    },
+    {
+     "en": "Sukhaamphaa",
+     "as": "চুখাম্ফা"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Jayadhwaj Singha, who fled to Namrup before Mir Jumla.",
+    "as": "মীৰজুমলাৰ আগত নামৰূপলৈ পলোৱা জয়ধ্বজ সিংহ।"
+   }
+  },
+  {
+   "id": "bank.mughal.09",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "jayadhwaj-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Ramani Gabharu was the daughter of:",
+    "as": "ৰমণী গাভৰু কাৰ জীয়েক আছিল?"
+   },
+   "options": [
+    {
+     "en": "Jayadhwaj Singha",
+     "as": "জয়ধ্বজ সিংহ"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    },
+    {
+     "en": "Chakradhwaj Singha",
+     "as": "চক্ৰধ্বজ সিংহ"
+    },
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Jayadhwaj Singha; she was sent to the Mughals under the 1663 treaty.",
+    "as": "জয়ধ্বজ সিংহৰ; ১৬৬৩ চনৰ সন্ধিমতে তেওঁক মোগলৰ ওচৰলৈ পঠোৱা হৈছিল।"
+   }
+  },
+  {
+   "id": "bank.mughal.10",
+   "type": "mcq",
+   "era": "mughal",
+   "lesson": "jayadhwaj-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Mir Jumla occupied the Ahom capital Garhgaon in:",
+    "as": "মীৰজুমলাই আহোম ৰাজধানী গড়গাঁও দখল কৰিছিল:"
+   },
+   "options": [
+    {
+     "en": "1615",
+     "as": "১৬১৫"
+    },
+    {
+     "en": "1639",
+     "as": "১৬৩৯"
+    },
+    {
+     "en": "1662",
+     "as": "১৬৬২"
+    },
+    {
+     "en": "1671",
+     "as": "১৬৭১"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "17 March 1662.",
+    "as": "১৬৬২ চনৰ ১৭ মাৰ্চ।"
+   }
   }
  ]
 }

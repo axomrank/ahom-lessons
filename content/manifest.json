@@ -1,5 +1,5 @@
 {
- "version": "dd11931c41",
+ "version": "0834f0caa5",
  "courses": [
   {
    "id": "ahom-kings",
@@ -7,6 +7,89 @@
   }
  ],
  "lessons": {
+  "jayadhwaj-singha": {
+   "no": 20,
+   "version": 1,
+   "steps": 8,
+   "title": {
+    "en": "Swargadeo Jayadhwaj Singha",
+    "as": "স্বৰ্গদেউ জয়ধ্বজ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A son crowned by the nobles",
+      "as": "বিষয়াই পতা পুত্ৰ"
+     },
+     "i": "crown",
+     "ex": 5
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The king and the satra",
+      "as": "ৰজা আৰু সত্ৰ"
+     },
+     "i": "hands",
+     "ex": 5
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "Guwahati regained",
+      "as": "গুৱাহাটী উদ্ধাৰ"
+     },
+     "i": "flag",
+     "ex": 5
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Mir Jumla comes",
+      "as": "মীৰজুমলাৰ আগমন"
+     },
+     "i": "flag",
+     "ex": 5
+    },
+    {
+     "id": "u5",
+     "t": {
+      "en": "The monsoon war",
+      "as": "বাৰিষাৰ যুদ্ধ"
+     },
+     "i": "river",
+     "ex": 5
+    },
+    {
+     "id": "u6",
+     "t": {
+      "en": "The Treaty of Ghilajharighat",
+      "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
+     },
+     "i": "hands",
+     "ex": 5
+    },
+    {
+     "id": "u7",
+     "t": {
+      "en": "A king's last wish",
+      "as": "ৰজাৰ অন্তিম ইচ্ছা"
+     },
+     "i": "moon",
+     "ex": 5
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 10
+    }
+   ]
+  },
   "pratap-singha": {
    "no": 17,
    "version": 2,

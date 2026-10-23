@@ -1762,5 +1762,145 @@
    "en": "One of the Ahom priestly clans; the Deodhais read omens and kept the old Tai rites",
    "as": "আহোম পুৰোহিত খেলসমূহৰ এটা; দেওধাইসকলে লক্ষণ গণিছিল আৰু পুৰণি টাই ৰীতি ৰক্ষা কৰিছিল"
   }
+ },
+ "bhagania-roja": {
+  "type": "term",
+  "name": {
+   "en": "Bhagania Roja",
+   "as": "ভগনীয়া ৰজা"
+  },
+  "meaning": {
+   "en": "'The fugitive king': Jayadhwaj Singha, who fled from Garhgaon to Namrup before Mir Jumla in 1662",
+   "as": "'পলাতক ৰজা': ১৬৬২ চনত মীৰজুমলাৰ আগত গড়গাঁৱৰ পৰা নামৰূপলৈ পলোৱা জয়ধ্বজ সিংহ"
+  }
+ },
+ "somdeo": {
+  "type": "term",
+  "name": {
+   "en": "Somdeo",
+   "as": "চোমদেও"
+  },
+  "meaning": {
+   "en": "The sacred image of the old Ahom royal god, kept by the Deodhais and placed on the throne at coronations",
+   "as": "দেওধাইসকলে ৰখা পুৰণি আহোম ৰাজকীয় দেৱতাৰ মূৰ্তি; অভিষেকত সিংহাসনত বহুওৱা হৈছিল"
+  }
+ },
+ "niranjan-deva": {
+  "type": "person",
+  "name": {
+   "en": "Niranjan Deva",
+   "as": "নিৰঞ্জন দেৱ"
+  },
+  "meaning": {
+   "en": "Vaishnava teacher (Niranjan Bapu), first Gosain of the Auniati Satra; Jayadhwaj Singha became his disciple",
+   "as": "বৈষ্ণৱ গুৰু (নিৰঞ্জন বাপু), আউনীআটী সত্ৰৰ প্ৰথম গোঁসাই; জয়ধ্বজ সিংহ তেওঁৰ শিষ্য হৈছিল"
+  }
+ },
+ "auniati": {
+  "type": "place",
+  "name": {
+   "en": "Auniati Satra",
+   "as": "আউনীআটী সত্ৰ"
+  },
+  "meaning": {
+   "en": "One of the great satras of Majuli, set up with the support of Jayadhwaj Singha",
+   "as": "মাজুলীৰ এখন প্ৰধান সত্ৰ; জয়ধ্বজ সিংহৰ পৃষ্ঠপোষকতাত স্থাপিত"
+  },
+  "geo": [
+   26.93,
+   94.25
+  ]
+ },
+ "aurangzeb": {
+  "type": "person",
+  "name": {
+   "en": "Aurangzeb",
+   "as": "ঔৰংজেব"
+  },
+  "meaning": {
+   "en": "Mughal emperor from 1658; sent Mir Jumla and later Ram Singh against the Ahoms",
+   "as": "১৬৫৮ৰ পৰা মোগল সম্ৰাট; আহোমৰ বিৰুদ্ধে মীৰজুমলা আৰু পিছত ৰামসিংহক পঠাইছিল"
+  }
+ },
+ "mir-jumla": {
+  "type": "person",
+  "name": {
+   "en": "Mir Jumla",
+   "as": "মীৰজুমলা"
+  },
+  "meaning": {
+   "en": "Aurangzeb's governor of Bengal; invaded in 1662, took Garhgaon, made the Treaty of Ghilajharighat and died on the way back in 1663",
+   "as": "ঔৰংজেবৰ বংগৰ শাসনকৰ্তা; ১৬৬২ চনত আক্ৰমণ কৰি গড়গাঁও লয়, ঘিলাধাৰীঘাটৰ সন্ধি কৰে আৰু ১৬৬৩ চনত উভতনি পথত মৃত্যু"
+  }
+ },
+ "ghilajharighat": {
+  "type": "term",
+  "name": {
+   "en": "Treaty of Ghilajharighat",
+   "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
+  },
+  "meaning": {
+   "en": "Peace of January 1663 between Jayadhwaj Singha and Mir Jumla: a princess, gold, silver, elephants and land west of the Bharali and Kalang given to the Mughals",
+   "as": "১৬৬৩ চনৰ জানুৱাৰীত জয়ধ্বজ সিংহ আৰু মীৰজুমলাৰ সন্ধি: কুমাৰী, সোণ, ৰূপ, হাতী আৰু ভৰলী-কলঙৰ পশ্চিমৰ মাটি মোগলক দিয়া হয়"
+  }
+ },
+ "ramani-gabharu": {
+  "type": "person",
+  "name": {
+   "en": "Ramani Gabharu",
+   "as": "ৰমণী গাভৰু"
+  },
+  "meaning": {
+   "en": "Jayadhwaj Singha's young daughter, sent to the Mughal court under the 1663 treaty; later married Prince Azam",
+   "as": "জয়ধ্বজ সিংহৰ সৰু জীয়েক; ১৬৬৩ চনৰ সন্ধিমতে মোগল দৰবাৰলৈ পঠোৱা হয়; পিছত কোঁৱৰ আজমৰ সৈতে বিবাহ"
+  }
+ },
+ "pran-narayan": {
+  "type": "person",
+  "name": {
+   "en": "Pran Narayan",
+   "as": "প্ৰাণনাৰায়ণ"
+  },
+  "meaning": {
+   "en": "Koch king of Koch Bihar who rose against the Mughals in 1658",
+   "as": "১৬৫৮ চনত মোগলৰ বিৰুদ্ধে বিদ্ৰোহ কৰা কোচবিহাৰৰ কোচ ৰজা"
+  }
+ },
+ "jogighopa": {
+  "type": "place",
+  "name": {
+   "en": "Jogighopa",
+   "as": "যোগীঘোপা"
+  },
+  "meaning": {
+   "en": "Ahom fort at the mouth of the Manas, the first to fall to Mir Jumla in 1662",
+   "as": "মানাহৰ মুখৰ আহোম গড়; ১৬৬২ চনত মীৰজুমলাৰ হাতত প্ৰথমে পতন"
+  },
+  "geo": [
+   26.23,
+   90.57
+  ]
+ },
+ "sonkosh": {
+  "type": "river",
+  "name": {
+   "en": "Sankosh",
+   "as": "সোণকোষ"
+  },
+  "meaning": {
+   "en": "River on today's Assam–West Bengal border; the Ahoms drove the Koches across it in 1658",
+   "as": "আজিৰ অসম–পশ্চিমবংগ সীমাৰ নদী; ১৬৫৮ চনত আহোমে কোচক ইয়াৰ সিপাৰলৈ খেদিছিল"
+  }
+ },
+ "chakradhwaj-singha": {
+  "type": "person",
+  "name": {
+   "en": "Chakradhwaj Singha",
+   "as": "চক্ৰধ্বজ সিংহ"
+  },
+  "meaning": {
+   "en": "Supangmung, cousin of Jayadhwaj Singha; king 1663–1670; won back Guwahati with Lachit Borphukan",
+   "as": "চুপাংমুং, জয়ধ্বজ সিংহৰ সম্পৰ্কীয় ভাই; ১৬৬৩–১৬৭০ লৈকে ৰজা; লাচিত বৰফুকনৰ সৈতে গুৱাহাটী উদ্ধাৰ কৰে"
+  }
  }
 }
