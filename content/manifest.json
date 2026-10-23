@@ -1,5 +1,5 @@
 {
- "version": "8702cb98ec",
+ "version": "4ce88b68a9",
  "courses": [
   {
    "id": "ahom-kings",
@@ -92,7 +92,7 @@
   },
   "subinphaa": {
    "no": 3,
-   "version": 2,
+   "version": 3,
    "steps": 4,
    "title": {
     "en": "Swargadeo Subinphaa",
@@ -102,20 +102,20 @@
     {
      "id": "u1",
      "t": {
-      "en": "The third king",
-      "as": "তৃতীয় ৰজা"
+      "en": "A time of peace",
+      "as": "শান্তিৰ সময়"
      },
-     "i": "crown",
+     "i": "home",
      "ex": 5
     },
     {
      "id": "u2",
      "t": {
-      "en": "Two equal shares",
-      "as": "দুটা সমান ভাগ"
+      "en": "Two halves of the people",
+      "as": "প্ৰজাৰ দুই ভাগ"
      },
      "i": "hands",
-     "ex": 5
+     "ex": 6
     },
     {
      "id": "u3",
@@ -123,7 +123,7 @@
       "en": "The seven houses",
       "as": "সাত ঘৰ"
      },
-     "i": "home",
+     "i": "crown",
      "ex": 5
     },
     {
@@ -133,7 +133,7 @@
       "as": "পাঠৰ পৰীক্ষা"
      },
      "i": "trophy",
-     "ex": 8
+     "ex": 9
     }
    ]
   },

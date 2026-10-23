@@ -1,7 +1,7 @@
 {
  "id": "subinphaa",
  "no": 3,
- "version": 2,
+ "version": 3,
  "king": {
   "en": "Swargadeo Subinphaa",
   "as": "স্বৰ্গদেউ চুবিনফা"
@@ -23,7 +23,7 @@
    "used_for": "Satgharia Ahoms: rulers and ruled; three state clans and four priestly clans (citing S. L. Baruah 1993)"
   }
  ],
- "review_notes": "Left out as unsourced: the swamp-reclamation scene in the AHOM catalogue. Rebuilt 2026-10-23 (version 2) into three units; nothing beyond Gait's few lines is claimed for the reign itself, and the extra units teach the system it set up.",
+ "review_notes": "Left out as unsourced: the swamp-reclamation scene in the AHOM catalogue. Rebuilt 2026-10-23 (version 2) into three units; nothing beyond Gait's few lines is claimed for the reign itself, and the extra units teach the system it set up. Version 3 (2026-10-23): three story units on how the Ahom state was organised, with a game-like exercise mix.",
  "buildsOn": {
   "no": 2,
   "title": {
@@ -125,10 +125,10 @@
  "units": [
   {
    "id": "u1",
-   "icon": "crown",
+   "icon": "home",
    "title": {
-    "en": "The third king",
-    "as": "তৃতীয় ৰজা"
+    "en": "A time of peace",
+    "as": "শান্তিৰ সময়"
    },
    "learned": [
     {
@@ -136,16 +136,16 @@
      "as": "চুতেউফাৰ পুত্ৰ চুবিনফাই ১২৮১–১২৯৩ লৈকে ৰাজত্ব কৰে"
     },
     {
-     "en": "He was the eldest of Suteuphaa's four sons",
-     "as": "তেওঁ চুতেউফাৰ চাৰিজন পুত্ৰৰ জ্যেষ্ঠ"
-    },
-    {
      "en": "No new land was added in his reign",
      "as": "তেওঁৰ দিনত নতুন মাটি যোগ হোৱা নাছিল"
     },
     {
-     "en": "It was a time of peace and settling down",
-     "as": "ই শান্তি আৰু থিতাপি লোৱাৰ সময় আছিল"
+     "en": "The Ahoms cleared land and grew wet rice",
+     "as": "আহোমসকলে মাটি চাফা কৰি পানীখেতি কৰিছিল"
+    },
+    {
+     "en": "Peace let them grow strong for later wars",
+     "as": "শান্তিয়ে তেওঁলোকক পিছৰ যুদ্ধৰ বাবে শক্তিশালী কৰিলে"
     }
    ],
    "steps": [
@@ -182,105 +182,6 @@
      }
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Subinphaa ruled from 1281 to",
-      "as": "চুবিনফাই ১২৮১ চনৰ পৰা"
-     },
-     "after": {
-      "en": ".",
-      "as": "চনলৈ ৰাজত্ব কৰিছিল।"
-     },
-     "options": [
-      {
-       "en": "1268",
-       "as": "১২৬৮"
-      },
-      {
-       "en": "1293",
-       "as": "১২৯৩"
-      },
-      {
-       "en": "1332",
-       "as": "১৩৩২"
-      },
-      {
-       "en": "1253",
-       "as": "১২৫৩"
-      }
-     ],
-     "answer": 1,
-     "why": {
-      "en": "1281–1293. His son Sukhaangphaa ruled next, from 1293.",
-      "as": "১২৮১–১২৯৩। তাৰ পিছত ১২৯৩ৰ পৰা তেওঁৰ পুত্ৰ চুখাংফাই ৰাজত্ব কৰে।"
-     },
-     "id": "sbn.u1.02",
-     "big": true
-    },
-    {
-     "type": "mcq",
-     "q": {
-      "en": "Whose son was Subinphaa?",
-      "as": "চুবিনফা কাৰ পুত্ৰ আছিল?"
-     },
-     "options": [
-      {
-       "en": "Suteuphaa",
-       "as": "চুতেউফা"
-      },
-      {
-       "en": "Sukaphaa",
-       "as": "চুকাফা"
-      },
-      {
-       "en": "Sukhaangphaa",
-       "as": "চুখাংফা"
-      },
-      {
-       "en": "Sudangphaa",
-       "as": "চুদাংফা"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Suteuphaa, the second king. Sukaphaa was his grandfather.",
-      "as": "দ্বিতীয় ৰজা চুতেউফাৰ। চুকাফা তেওঁৰ ককা।"
-     },
-     "id": "sbn2.u1.03"
-    },
-    {
-     "type": "story",
-     "img": "shared/wet-rice.webp",
-     "title": {
-      "en": "A quiet time",
-      "as": "শান্ত সময়"
-     },
-     "text": [
-      {
-       "en": "Subinphaa fought no great wars. The Ahoms spent these years clearing land, growing [[wet-rice|wet rice]] and building villages.",
-       "as": "চুবিনফাই কোনো ডাঙৰ যুদ্ধ কৰা নাছিল। আহোমসকলে এই বছৰবোৰত মাটি চাফা কৰি [[wet-rice]] কৰি গাঁও পাতিছিল।"
-      },
-      {
-       "en": "Peace let their numbers grow. Under his son, they would be strong enough for their first big war.",
-       "as": "শান্তিয়ে তেওঁলোকৰ সংখ্যা বঢ়ালে। তেওঁৰ পুত্ৰৰ দিনত তেওঁলোক প্ৰথম ডাঙৰ যুদ্ধৰ বাবে সক্ষম হ'ব।"
-      }
-     ],
-     "id": "sbn2.u1.04"
-    },
-    {
-     "type": "tf",
-     "s": {
-      "en": "Subinphaa added a lot of new land to the kingdom.",
-      "as": "চুবিনফাই ৰাজ্যত বহুত নতুন মাটি যোগ কৰিছিল।"
-     },
-     "answer": false,
-     "why": {
-      "en": "False. No land was added in his reign. He is remembered for organising the people.",
-      "as": "অশুদ্ধ। তেওঁৰ ৰাজত্বকালত মাটি যোগ হোৱা নাছিল। প্ৰজা সংগঠনৰ বাবেহে তেওঁক মনত ৰখা হয়।"
-     },
-     "id": "sbn.u1.10"
-    },
-    {
      "type": "order",
      "q": {
       "en": "Put the first three kings in order.",
@@ -307,40 +208,151 @@
      "id": "sbn2.u1.06"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Subinphaa reigned for about",
-      "as": "চুবিনফাই প্ৰায়"
+     "type": "story",
+     "img": "shared/wet-rice.webp",
+     "title": {
+      "en": "A quiet time",
+      "as": "শান্ত সময়"
      },
-     "after": {
-      "en": "years.",
-      "as": "বছৰ ৰাজত্ব কৰিছিল।"
+     "text": [
+      {
+       "en": "Subinphaa fought no great wars. The Ahoms spent these years clearing land, growing [[wet-rice|wet rice]] and building villages.",
+       "as": "চুবিনফাই কোনো ডাঙৰ যুদ্ধ কৰা নাছিল। আহোমসকলে এই বছৰবোৰত মাটি চাফা কৰি [[wet-rice]] কৰি গাঁও পাতিছিল।"
+      },
+      {
+       "en": "Peace let their numbers grow. Under his son, they would be strong enough for their first big war.",
+       "as": "শান্তিয়ে তেওঁলোকৰ সংখ্যা বঢ়ালে। তেওঁৰ পুত্ৰৰ দিনত তেওঁলোক প্ৰথম ডাঙৰ যুদ্ধৰ বাবে সক্ষম হ'ব।"
+      }
+     ],
+     "id": "sbn2.u1.04"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows how the Ahoms used these quiet years?",
+      "as": "কোনখন ছবিয়ে দেখুৱায় আহোমসকলে এই শান্ত বছৰবোৰ কেনেকৈ কটাইছিল?"
      },
      "options": [
+      "shared/wet-rice.webp",
+      "shared/moidams.webp",
+      "two-gohains.webp",
+      "divides.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Wet-rice fields",
+      "as": "পানীখেতিৰ পথাৰ"
+     },
+     "why": {
+      "en": "Clearing land and growing wet rice: the work of peace.",
+      "as": "মাটি চাফা কৰি পানীখেতি: শান্তিৰ কাম।"
+     },
+     "id": "sbn3.u1.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Subinphaa added a lot of new land to the kingdom.",
+      "as": "চুবিনফাই ৰাজ্যত বহুত নতুন মাটি যোগ কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. No land was added in his reign. He is remembered for organising the people.",
+      "as": "অশুদ্ধ। তেওঁৰ ৰাজত্বকালত মাটি যোগ হোৱা নাছিল। প্ৰজা সংগঠনৰ বাবেহে তেওঁক মনত ৰখা হয়।"
+     },
+     "id": "sbn.u1.10"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
       {
-       "en": "12",
-       "as": "১২"
+       "y": "1268",
+       "l": {
+        "en": "Suteuphaa becomes king",
+        "as": "চুতেউফা ৰজা হয়"
+       }
       },
       {
-       "en": "13",
-       "as": "১৩"
+       "y": "1293",
+       "l": {
+        "en": "Subinphaa dies",
+        "as": "চুবিনফাৰ মৃত্যু"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Charaideo founded",
+        "as": "চৰাইদেউ স্থাপন"
+       },
+       "slot": 0
       },
       {
-       "en": "39",
-       "as": "৩৯"
+       "t": {
+        "en": "Subinphaa becomes king",
+        "as": "চুবিনফা ৰজা হয়"
+       },
+       "slot": 1
       },
       {
-       "en": "40",
-       "as": "৪০"
+       "t": {
+        "en": "Sukhaangphaa becomes king",
+        "as": "চুখাংফা ৰজা হয়"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1253 → 1268 → 1281 → 1293 → 1293: father, son and grandson in forty years.",
+      "as": "১২৫৩ → ১২৬৮ → ১২৮১ → ১২৯৩ → ১২৯৩: চল্লিশ বছৰত পিতৃ, পুত্ৰ আৰু নাতি।"
+     },
+     "id": "sbn3.u1.06"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "My father was Suteuphaa.",
+       "as": "মোৰ পিতৃ চুতেউফা।"
+      },
+      {
+       "en": "I fought no great wars.",
+       "as": "মই কোনো ডাঙৰ যুদ্ধ কৰা নাছিলোঁ।"
+      },
+      {
+       "en": "I was the third Ahom king.",
+       "as": "মই তৃতীয় আহোম ৰজা।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Subinphaa",
+       "as": "চুবিনফা"
+      },
+      {
+       "en": "Sukhaangphaa",
+       "as": "চুখাংফা"
+      },
+      {
+       "en": "Suteuphaa",
+       "as": "চুতেউফা"
+      },
+      {
+       "en": "Sujangphaa",
+       "as": "চুজাংফা"
       }
      ],
      "answer": 0,
      "why": {
-      "en": "12 years, 1281–1293. His father ruled 13, his son 39.",
-      "as": "১২ বছৰ, ১২৮১–১২৯৩। পিতৃয়ে ১৩, পুত্ৰই ৩৯ বছৰ।"
+      "en": "Subinphaa (1281–1293).",
+      "as": "চুবিনফা (১২৮১–১২৯৩)।"
      },
-     "big": true,
-     "id": "sbn2.u1.07"
+     "id": "sbn3.u1.07"
     }
    ]
   },
@@ -348,25 +360,25 @@
    "id": "u2",
    "icon": "hands",
    "title": {
-    "en": "Two equal shares",
-    "as": "দুটা সমান ভাগ"
+    "en": "Two halves of the people",
+    "as": "প্ৰজাৰ দুই ভাগ"
    },
    "learned": [
     {
      "en": "He shared his Ahom subjects equally between the two great Gohains",
-     "as": "তেওঁ আহোম প্ৰজাক দুজন প্ৰধান গোহাঁইৰ মাজত সমানে ভগাই দিয়ে"
+     "as": "তেওঁ আহোম প্ৰজাক দুজন প্ৰধান গোহাঁইৰ মাজত সমানে ভগাই দিলে"
     },
     {
-     "en": "Each Gohain now commanded his own half of the people",
-     "as": "প্ৰতিজন গোহাঁইৰ অধীনত এতিয়া আধা প্ৰজা"
+     "en": "Each Gohain now commanded his own half",
+     "as": "প্ৰতিজন গোহাঁইৰ অধীনত নিজৰ আধা প্ৰজা"
     },
     {
-     "en": "This made the Gohains powerful",
-     "as": "ইয়াৰ ফলত গোহাঁইসকল শক্তিশালী হ'ল"
+     "en": "With men behind them, the Gohains became a check on the king",
+     "as": "লোকবল থকাত গোহাঁইসকল ৰজাৰ ওপৰত নিয়ন্ত্ৰণ হ'ল"
     },
     {
-     "en": "Later kings had to win the Gohains' support",
-     "as": "পিছৰ ৰজাসকলে গোহাঁইৰ সমৰ্থন লাগিছিল"
+     "en": "Later they would rule during the years with no king",
+     "as": "পিছত ৰজা নথকা বছৰবোৰত তেওঁলোকে শাসন কৰিব"
     }
    ],
    "steps": [
@@ -403,35 +415,17 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "How did Subinphaa share out his Ahom subjects?",
-      "as": "চুবিনফাই আহোম প্ৰজাক কেনেকৈ ভগাইছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Subinphaa gave most of his subjects to the Burhagohain.",
+      "as": "চুবিনফাই বেছিভাগ প্ৰজা বুঢ়াগোহাঁইক দিছিল।"
      },
-     "options": [
-      {
-       "en": "Equally between the Burhagohain and the Borgohain",
-       "as": "বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে"
-      },
-      {
-       "en": "All of them to the Burhagohain",
-       "as": "সকলোকে বুঢ়াগোহাঁইক"
-      },
-      {
-       "en": "Among the Morans and the Barahis",
-       "as": "মৰাণ আৰু বৰাহীৰ মাজত"
-      },
-      {
-       "en": "Among the Naras of Mungkang",
-       "as": "মুংকাঙৰ নৰাসকলৰ মাজত"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "In equal shares between the two great ministers, the Burhagohain and the Borgohain.",
-      "as": "দুয়োজন ডাঙৰীয়া, বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে।"
+      "en": "False. He shared them in equal proportions between the Burhagohain and the Borgohain.",
+      "as": "অশুদ্ধ। তেওঁ বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে ভগাইছিল।"
      },
-     "id": "sbn.u1.04"
+     "id": "sbn2.u2.04"
     },
     {
      "type": "story",
@@ -464,19 +458,6 @@
        "as": "চুকাফাই পদ দুটা সৃষ্টি কৰিছিল; চুবিনফাই প্ৰত্যেককে আধা প্ৰজা দিলে।"
       }
      }
-    },
-    {
-     "type": "tf",
-     "s": {
-      "en": "Subinphaa gave most of his subjects to the Burhagohain.",
-      "as": "চুবিনফাই বেছিভাগ প্ৰজা বুঢ়াগোহাঁইক দিছিল।"
-     },
-     "answer": false,
-     "why": {
-      "en": "False. He shared them in equal proportions between the Burhagohain and the Borgohain.",
-      "as": "অশুদ্ধ। তেওঁ বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে ভগাইছিল।"
-     },
-     "id": "sbn2.u2.04"
     },
     {
      "type": "whoami",
@@ -518,6 +499,29 @@
       "as": "বুঢ়াগোহাঁই। বৰবৰুৱা আৰু বৰফুকন তিনি শতিকা পিছত আহিছিল।"
      },
      "id": "sbn2.u2.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the two Gohains each ruling a share?",
+      "as": "কোনখন ছবিত দুজন গোহাঁইয়ে নিজৰ ভাগ শাসন কৰা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "two-gohains.webp",
+      "shared/wet-rice.webp",
+      "shared/moidams.webp",
+      "subinphaa-portrait.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The two Gohains",
+      "as": "দুজন গোহাঁই"
+     },
+     "why": {
+      "en": "The Burhagohain and Borgohain with their people.",
+      "as": "প্ৰজাৰ সৈতে বুঢ়াগোহাঁই আৰু বৰগোহাঁই।"
+     },
+     "id": "sbn2.u2.07"
     },
     {
      "type": "spot",
@@ -568,33 +572,90 @@
      "id": "sbn2.u2.06"
     },
     {
-     "type": "picture",
+     "type": "match",
      "q": {
-      "en": "Which picture shows the two Gohains each ruling a share?",
-      "as": "কোনখন ছবিত দুজন গোহাঁইয়ে নিজৰ ভাগ শাসন কৰা দেখুওৱা হৈছে?"
+      "en": "Match each office to the king who created it.",
+      "as": "প্ৰতিটো পদ সৃষ্টি কৰা ৰজাৰ সৈতে মিলোৱা।"
      },
-     "options": [
-      "two-gohains.webp",
-      "shared/wet-rice.webp",
-      "shared/moidams.webp",
-      "subinphaa-portrait.webp"
+     "pairs": [
+      [
+       {
+        "en": "Burhagohain",
+        "as": "বুঢ়াগোহাঁই"
+       },
+       {
+        "en": "Sukaphaa",
+        "as": "চুকাফা"
+       }
+      ],
+      [
+       {
+        "en": "Borgohain",
+        "as": "বৰগোহাঁই"
+       },
+       {
+        "en": "Sukaphaa",
+        "as": "চুকাফা"
+       }
+      ],
+      [
+       {
+        "en": "Borpatrogohain",
+        "as": "বৰপাত্ৰগোহাঁই"
+       },
+       {
+        "en": "Suhungmung",
+        "as": "চুহুংমুং"
+       }
+      ],
+      [
+       {
+        "en": "Borbarua",
+        "as": "বৰবৰুৱা"
+       },
+       {
+        "en": "Pratap Singha",
+        "as": "প্ৰতাপ সিংহ"
+       }
+      ]
      ],
-     "answer": 0,
-     "answerText": {
-      "en": "The two Gohains",
-      "as": "দুজন গোহাঁই"
-     },
      "why": {
-      "en": "The Burhagohain and Borgohain with their people.",
-      "as": "প্ৰজাৰ সৈতে বুঢ়াগোহাঁই আৰু বৰগোহাঁই।"
+      "en": "Subinphaa created no office; he gave the first two their people.",
+      "as": "চুবিনফাই কোনো পদ সৃষ্টি কৰা নাছিল; প্ৰথম দুটা পদক প্ৰজা দিছিল।"
      },
-     "id": "sbn2.u2.07"
+     "id": "sbn3.u2.07"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Subinphaa created the office of Burhagohain.",
+      "as": "চুবিনফাই বুঢ়াগোহাঁই পদ সৃষ্টি কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Sukaphaa created it; Subinphaa gave the Burhagohain and Borgohain equal shares of the people.",
+      "as": "অশুদ্ধ। চুকাফাই সৃষ্টি কৰিছিল; চুবিনফাই বুঢ়াগোহাঁই আৰু বৰগোহাঁইক সমান প্ৰজা দিছিল।"
+     },
+     "id": "sbn3.u2.08",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Running the kingdom",
+       "as": "ৰাজ্য পৰিচালনা"
+      },
+      "note": {
+       "en": "Sukaphaa created the Burhagohain and the Borgohain.",
+       "as": "চুকাফাই বুঢ়াগোহাঁই আৰু বৰগোহাঁই সৃষ্টি কৰিছিল।"
+      }
+     }
     }
    ]
   },
   {
    "id": "u3",
-   "icon": "home",
+   "icon": "crown",
    "title": {
     "en": "The seven houses",
     "as": "সাত ঘৰ"
@@ -761,6 +822,47 @@
      "id": "sbn2.u3.05"
     },
     {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "We were one of the four priestly clans.",
+       "as": "আমি চাৰিটা পুৰোহিত খেলৰ এটা।"
+      },
+      {
+       "en": "We read omens before battles.",
+       "as": "আমি যুদ্ধৰ আগত লক্ষণ গণিছিলোঁ।"
+      },
+      {
+       "en": "We looked at the legs of fowls.",
+       "as": "আমি কুকুৰাৰ ঠেং চাইছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Deodhai",
+       "as": "দেওধাই"
+      },
+      {
+       "en": "Borgohain",
+       "as": "বৰগোহাঁই"
+      },
+      {
+       "en": "Chetia",
+       "as": "চেতিয়া"
+      },
+      {
+       "en": "Moran",
+       "as": "মৰাণ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Deodhais.",
+      "as": "দেওধাই।"
+     },
+     "id": "sbn3.u3.06"
+    },
+    {
      "type": "unscramble",
      "q": {
       "en": "Unscramble the name of the 'seven houses' nobility.",
@@ -796,70 +898,17 @@
      "id": "sbn.u1.09"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Which clan read omens from the legs of fowls?",
-      "as": "কোনটো খেলে কুকুৰাৰ ঠেং চাই লক্ষণ গণিছিল?"
+     "type": "tf",
+     "s": {
+      "en": "All seven Satgharia clans were priests.",
+      "as": "সাতঘৰীয়াৰ সাতোটা খেল পুৰোহিত আছিল।"
      },
-     "options": [
-      {
-       "en": "Deodhai",
-       "as": "দেওধাই"
-      },
-      {
-       "en": "Borgohain",
-       "as": "বৰগোহাঁই"
-      },
-      {
-       "en": "Chetia",
-       "as": "চেতিয়া"
-      },
-      {
-       "en": "Moran",
-       "as": "মৰাণ"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "The Deodhais, one of the four priestly clans.",
-      "as": "দেওধাই, চাৰিটা পুৰোহিত খেলৰ এটা।"
+      "en": "False. Three were ruling clans and four were priestly.",
+      "as": "অশুদ্ধ। তিনিটা শাসক আৰু চাৰিটা পুৰোহিত খেল।"
      },
-     "id": "sbn2.u3.07"
-    },
-    {
-     "type": "inline",
-     "before": {
-      "en": "The Satgharia had",
-      "as": "সাতঘৰীয়াসকলৰ"
-     },
-     "after": {
-      "en": "ruling clans.",
-      "as": "শাসক খেল আছিল।"
-     },
-     "options": [
-      {
-       "en": "two",
-       "as": "দুটা"
-      },
-      {
-       "en": "three",
-       "as": "তিনিটা"
-      },
-      {
-       "en": "four",
-       "as": "চাৰিটা"
-      },
-      {
-       "en": "seven",
-       "as": "সাতটা"
-      }
-     ],
-     "answer": 1,
-     "why": {
-      "en": "Three ruling (Gohain, Burhagohain, Borgohain) and four priestly: seven in all.",
-      "as": "তিনিটা শাসক (গোহাঁই, বুঢ়াগোহাঁই, বৰগোহাঁই) আৰু চাৰিটা পুৰোহিত: মুঠ সাত।"
-     },
-     "id": "sbn2.u3.08"
+     "id": "sbn3.u3.08"
     }
    ]
   }
@@ -877,103 +926,6 @@
    }
   ],
   "steps": [
-   {
-    "type": "mcq",
-    "q": {
-     "en": "Consider the statements:<br>1. Subinphaa was the son of Suteuphaa.<br>2. Subinphaa shared his Ahom subjects equally between the Burhagohain and the Borgohain.<br>Which is/are correct?",
-     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুবিনফা চুতেউফাৰ পুত্ৰ আছিল।<br>২. চুবিনফাই আহোম প্ৰজাক বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে ভগাইছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
-    },
-    "options": [
-     {
-      "en": "1 only",
-      "as": "কেৱল ১"
-     },
-     {
-      "en": "2 only",
-      "as": "কেৱল ২"
-     },
-     {
-      "en": "Both 1 and 2",
-      "as": "১ আৰু ২ দুয়োটা"
-     },
-     {
-      "en": "Neither 1 nor 2",
-      "as": "১ বা ২ কোনোটো নহয়"
-     }
-    ],
-    "answer": 2,
-    "why": {
-     "en": "Both are correct.",
-     "as": "দুয়োটা শুদ্ধ।"
-    },
-    "id": "sbn.test.01",
-    "small": true
-   },
-   {
-    "type": "inline",
-    "before": {
-     "en": "The Satgharia were the Ahom nobles of the",
-     "as": "সাতঘৰীয়া আছিল"
-    },
-    "after": {
-     "en": "houses.",
-     "as": "ঘৰৰ আহোম অভিজাত।"
-    },
-    "options": [
-     {
-      "en": "seven",
-      "as": "সাত"
-     },
-     {
-      "en": "four",
-      "as": "চাৰি"
-     },
-     {
-      "en": "three",
-      "as": "তিনি"
-     },
-     {
-      "en": "nine",
-      "as": "ন"
-     }
-    ],
-    "answer": 0,
-    "why": {
-     "en": "Seven: three ruling clans and four priestly clans.",
-     "as": "সাত: তিনিটা শাসক ফৈদ আৰু চাৰিটা পুৰোহিত ফৈদ।"
-    },
-    "id": "sbn.test.02"
-   },
-   {
-    "type": "order",
-    "q": {
-     "en": "Put the kings in order.",
-     "as": "ৰজাসকলক ক্ৰম অনুসৰি সজোৱা।"
-    },
-    "items": [
-     {
-      "en": "Sukaphaa (1228)",
-      "as": "চুকাফা (১২২৮)"
-     },
-     {
-      "en": "Suteuphaa (1268)",
-      "as": "চুতেউফা (১২৬৮)"
-     },
-     {
-      "en": "Subinphaa (1281)",
-      "as": "চুবিনফা (১২৮১)"
-     },
-     {
-      "en": "Sukhaangphaa (1293)",
-      "as": "চুখাংফা (১২৯৩)"
-     }
-    ],
-    "why": {
-     "en": "Four generations, father to son: Sukaphaa → Suteuphaa → Subinphaa → Sukhaangphaa.",
-     "as": "চাৰি পুৰুষ, পিতৃৰ পৰা পুত্ৰলৈ: চুকাফা → চুতেউফা → চুবিনফা → চুখাংফা।"
-    },
-    "id": "sbn.test.03"
-   },
    {
     "type": "whoami",
     "clues": [
@@ -1016,84 +968,112 @@
     "id": "sbn.test.04"
    },
    {
-    "type": "spot",
+    "type": "timeline",
     "q": {
-     "en": "One word in this sentence is wrong. Tap it.",
-     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
     },
-    "tokens": {
-     "en": [
-      "The",
-      "Satgharia",
-      "had",
-      "three",
-      "ruling",
-      "clans",
-      "and",
-      "five",
-      "priestly",
-      "clans."
-     ],
-     "as": [
-      "সাতঘৰীয়াত",
-      "তিনিটা",
-      "শাসক",
-      "ফৈদ",
-      "আৰু",
-      "পাঁচটা",
-      "পুৰোহিত",
-      "ফৈদ",
-      "আছিল।"
-     ]
-    },
-    "wrong": {
-     "en": 7,
-     "as": 5
-    },
-    "fix": {
-     "en": "→ four",
-     "as": "→ চাৰিটা"
-    },
-    "answerText": {
-     "en": "five → four",
-     "as": "পাঁচটা → চাৰিটা"
-    },
-    "why": {
-     "en": "There were four priestly clans: Deodhai, Bailung, Mohan and Siring.",
-     "as": "পুৰোহিত ফৈদ আছিল চাৰিটা: দেওধাই, বাইলুং, মোহন আৰু চিৰিং।"
-    },
-    "id": "sbn.test.05"
-   },
-   {
-    "type": "odd",
-    "q": {
-     "en": "Which is NOT one of the Satgharia clans?",
-     "as": "কোনটো সাতঘৰীয়া খেল নহয়?"
-    },
-    "options": [
+    "anchors": [
      {
-      "en": "Deodhai",
-      "as": "দেওধাই"
+      "y": "1228",
+      "l": {
+       "en": "Sukaphaa arrives",
+       "as": "চুকাফাৰ আগমন"
+      }
      },
      {
-      "en": "Bailung",
-      "as": "বাইলুং"
-     },
-     {
-      "en": "Borgohain",
-      "as": "বৰগোহাঁই"
-     },
-     {
-      "en": "Borphukan",
-      "as": "বৰফুকন"
+      "y": "1293",
+      "l": {
+       "en": "Subinphaa dies",
+       "as": "চুবিনফাৰ মৃত্যু"
+      }
      }
     ],
-    "answer": 3,
+    "items": [
+     {
+      "t": {
+       "en": "Sukaphaa leaves Mong Mao",
+       "as": "চুকাফাই মং মাও এৰে"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Suteuphaa becomes king",
+       "as": "চুতেউফা ৰজা হয়"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Sukhaangphaa's Kamata war",
+       "as": "চুখাংফাৰ কামতা যুদ্ধ"
+      },
+      "slot": 2
+     }
+    ],
     "why": {
-     "en": "The Borphukan was an office created much later.",
-     "as": "বৰফুকন বহু পিছত সৃষ্টি হোৱা পদ।"
+     "en": "1215 → 1228 → 1268 → 1293 → after 1293.",
+     "as": "১২১৫ → ১২২৮ → ১২৬৮ → ১২৯৩ → ১২৯৩ৰ পিছত।"
     },
-    "id": "sbn2.test.06"
+    "id": "sbn3.test.02"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the two Gohains?",
+     "as": "কোনখন ছবিত দুজন গোহাঁই দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "two-gohains.webp",
+     "shared/wet-rice.webp",
+     "shared/moidams.webp",
+     "divides.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The two Gohains",
+     "as": "দুজন গোহাঁই"
+    },
+    "why": {
+     "en": "The Burhagohain and Borgohain with their shares.",
+     "as": "নিজৰ ভাগৰ সৈতে বুঢ়াগোহাঁই আৰু বৰগোহাঁই।"
+    },
+    "id": "sbn3.test.03"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the third king's name.",
+     "as": "তৃতীয় ৰজাৰ নামটো সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "S",
+      "U",
+      "B",
+      "I",
+      "N",
+      "P",
+      "H",
+      "A",
+      "A"
+     ],
+     "as": [
+      "চু",
+      "বিন",
+      "ফা"
+     ]
+    },
+    "answerText": {
+     "en": "SUBINPHAA",
+     "as": "চুবিনফা"
+    },
+    "why": {
+     "en": "Subinphaa.",
+     "as": "চুবিনফা।"
+    },
+    "id": "sbn3.test.04"
    },
    {
     "type": "tf",
@@ -1151,6 +1131,117 @@
      "as": "প্ৰথম তিনিটা ৰাজত্বকাল।"
     },
     "id": "sbn2.test.08"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kings in order.",
+     "as": "ৰজাসকলক ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Sukaphaa (1228)",
+      "as": "চুকাফা (১২২৮)"
+     },
+     {
+      "en": "Suteuphaa (1268)",
+      "as": "চুতেউফা (১২৬৮)"
+     },
+     {
+      "en": "Subinphaa (1281)",
+      "as": "চুবিনফা (১২৮১)"
+     },
+     {
+      "en": "Sukhaangphaa (1293)",
+      "as": "চুখাংফা (১২৯৩)"
+     }
+    ],
+    "why": {
+     "en": "Four generations, father to son: Sukaphaa → Suteuphaa → Subinphaa → Sukhaangphaa.",
+     "as": "চাৰি পুৰুষ, পিতৃৰ পৰা পুত্ৰলৈ: চুকাফা → চুতেউফা → চুবিনফা → চুখাংফা।"
+    },
+    "id": "sbn.test.03"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "The",
+      "Satgharia",
+      "had",
+      "three",
+      "ruling",
+      "clans",
+      "and",
+      "five",
+      "priestly",
+      "clans."
+     ],
+     "as": [
+      "সাতঘৰীয়াত",
+      "তিনিটা",
+      "শাসক",
+      "ফৈদ",
+      "আৰু",
+      "পাঁচটা",
+      "পুৰোহিত",
+      "ফৈদ",
+      "আছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 7,
+     "as": 5
+    },
+    "fix": {
+     "en": "→ four",
+     "as": "→ চাৰিটা"
+    },
+    "answerText": {
+     "en": "five → four",
+     "as": "পাঁচটা → চাৰিটা"
+    },
+    "why": {
+     "en": "There were four priestly clans: Deodhai, Bailung, Mohan and Siring.",
+     "as": "পুৰোহিত ফৈদ আছিল চাৰিটা: দেওধাই, বাইলুং, মোহন আৰু চিৰিং।"
+    },
+    "id": "sbn.test.05"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Subinphaa was the son of Suteuphaa.<br>2. Subinphaa shared his Ahom subjects equally between the Burhagohain and the Borgohain.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুবিনফা চুতেউফাৰ পুত্ৰ আছিল।<br>২. চুবিনফাই আহোম প্ৰজাক বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ মাজত সমানে ভগাইছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "Both are correct.",
+     "as": "দুয়োটা শুদ্ধ।"
+    },
+    "id": "sbn.test.01",
+    "small": true
    }
   ]
  }
