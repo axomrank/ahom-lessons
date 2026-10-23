@@ -1,7 +1,7 @@
 {
  "id": "sudangphaa",
  "no": 8,
- "version": 3,
+ "version": 4,
  "king": {
   "en": "Swargadeo Sudangphaa",
   "as": "স্বৰ্গদেউ চুদাংফা"
@@ -23,7 +23,7 @@
    "used_for": "Bamuni Konwar; Singarigharutha ceremony begun by him; capital moved to Charguwa in 1403"
   }
  ],
- "review_notes": "Gait names the Kamata princess Bhajani; other chroniclers dispute this, so the lesson does not name her. Tai Sulai's origin has two versions; the lesson tells Gait's (the ring). Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
+ "review_notes": "Gait names the Kamata princess Bhajani; other chroniclers dispute this, so the lesson does not name her. Tai Sulai's origin has two versions; the lesson tells Gait's (the ring). Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types. Retention pass 2026-10-23: retrieval warm-up at the start of each unit, a mnemonic card, interleaved test items.",
  "buildsOn": {
   "no": 7,
   "title": {
@@ -491,6 +491,26 @@
    ],
    "steps": [
     {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Sudang grew up in a Brahman's house in Habung.",
+      "as": "মনত পেলোৱা: চুদাং হাবুঙৰ এজন ব্ৰাহ্মণৰ ঘৰত ডাঙৰ হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. That is why he is the 'Brahman prince'.",
+      "as": "শুদ্ধ। সেইবাবেই তেওঁ 'বামুণী কোঁৱৰ'।"
+     },
+     "id": "sdg4.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The lost prince grew up in Habung.",
+       "as": "হেৰুৱা কোঁৱৰ হাবুঙত ডাঙৰ হৈছিল।"
+      }
+     }
+    },
+    {
      "type": "story",
      "title": {
       "en": "Bamuni Konwar",
@@ -752,6 +772,57 @@
    ],
    "steps": [
     {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match from the last unit.",
+      "as": "মনত পেলোৱা: আগৰ অধ্যায়ৰ পৰা মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Bamuni Konwar",
+        "as": "বামুণী কোঁৱৰ"
+       },
+       {
+        "en": "The Brahman prince",
+        "as": "ব্ৰাহ্মণৰ কোঁৱৰ"
+       }
+      ],
+      [
+       {
+        "en": "Singarigharutha",
+        "as": "সিংগৰিঘৰ উঠা"
+       },
+       {
+        "en": "Coronation he began",
+        "as": "তেওঁ আৰম্ভ কৰা অভিষেক"
+       }
+      ],
+      [
+       {
+        "en": "Charguya",
+        "as": "চাৰগুৱা"
+       },
+       {
+        "en": "His capital, 1403",
+        "as": "তেওঁৰ ৰাজধানী, ১৪০৩"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall from the last unit.",
+      "as": "আগৰ অধ্যায়ৰ পৰা মনত পেলোৱা।"
+     },
+     "id": "sdg4.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "The Brahman prince and his court.",
+       "as": "বামুণী কোঁৱৰ আৰু তেওঁৰ ৰাজসভা।"
+      }
+     }
+    },
+    {
      "type": "story",
      "title": {
       "en": "A plot in Tipam",
@@ -987,6 +1058,43 @@
     }
    ],
    "steps": [
+    {
+     "type": "order",
+     "q": {
+      "en": "Warm-up: put the Tipam story in order.",
+      "as": "মনত পেলোৱা: তিপামৰ কাহিনী ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "The Tipam chiefs plot",
+       "as": "তিপামৰ ৰজাৰ ষড়যন্ত্ৰ"
+      },
+      {
+       "en": "The feast trap",
+       "as": "ভোজৰ ফান্দ"
+      },
+      {
+       "en": "He marries Khuntai's daughter",
+       "as": "খুনতাইৰ জীয়েকক বিয়া"
+      },
+      {
+       "en": "Tai Sulai sends a ring",
+       "as": "তাই চুলাইৰ আঙঠি"
+      }
+     ],
+     "why": {
+      "en": "Plot → feast → marriage → the ring that started a war.",
+      "as": "ষড়যন্ত্ৰ → ভোজ → বিবাহ → যুদ্ধ লগোৱা আঙঠি।"
+     },
+     "id": "sdg4.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "The feast trap and the Tipam marriage.",
+       "as": "ভোজৰ ফান্দ আৰু তিপামৰ বিবাহ।"
+      }
+     }
+    },
     {
      "type": "story",
      "title": {
@@ -1327,6 +1435,62 @@
    ],
    "steps": [
     {
+     "type": "spot",
+     "q": {
+      "en": "Warm-up: one word is wrong. Tap it.",
+      "as": "মনত পেলোৱা: এটা শব্দ ভুল। টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "In",
+       "1401",
+       "the",
+       "two",
+       "Burhagohains",
+       "swore",
+       "peace",
+       "at",
+       "Nongnyang",
+       "lake."
+      ],
+      "as": [
+       "১৪০১",
+       "চনত",
+       "দুজন",
+       "বুঢ়াগোহাঁইয়ে",
+       "নংনিয়াং",
+       "বিলত",
+       "শান্তিৰ",
+       "শপত",
+       "খাইছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 4,
+      "as": 3
+     },
+     "fix": {
+      "en": "→ Borgohains",
+      "as": "→ বৰগোহাঁই"
+     },
+     "answerText": {
+      "en": "Burhagohains → Borgohains",
+      "as": "বুঢ়াগোহাঁই → বৰগোহাঁই"
+     },
+     "why": {
+      "en": "It was the two Borgohains, Ahom and Mungkang.",
+      "as": "আহোম আৰু মুংকাঙৰ দুজন বৰগোহাঁই।"
+     },
+     "id": "sdg4.u5.01",
+     "link": {
+      "unit": "u4",
+      "note": {
+       "en": "The Patkai treaty of 1401.",
+       "as": "১৪০১ চনৰ পাটকাই সন্ধি।"
+      }
+     }
+    },
+    {
      "type": "story",
      "title": {
       "en": "On to Kamata",
@@ -1580,6 +1744,55 @@
       "as": "চুদাংফাৰ ৰাজত্বকালৰ লোক আৰু ঠাই।"
      },
      "id": "sdg2.u5.09"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember R-B-P-K",
+      "as": "মনত ৰাখা: ভু-ব্ৰা-পা-কা"
+     },
+     "text": [
+      {
+       "en": "Sudangphaa in four letters, <mark>R-B-P-K</mark>: <b>R</b>aft (his mother's raft reached Habung), <b>B</b>rahman (raised by one: Bamuni Konwar), <b>P</b>atkai (the 1401 border), <b>K</b>amata (a bride instead of a war).",
+       "as": "চুদাংফা চাৰিটা আখৰত, <mark>ভু-ব্ৰা-পা-কা</mark>: <b>ভু</b>ৰ (মাতৃৰ ভুৰ হাবুং পালে), <b>ব্ৰা</b>হ্মণ (বামুণী কোঁৱৰ), <b>পা</b>টকাই (১৪০১ৰ সীমা), <b>কা</b>মতা (যুদ্ধৰ সলনি কইনা)।"
+      },
+      {
+       "en": "Say it once aloud. It holds the whole reign in order.",
+       "as": "এবাৰ মাতি কোৱা। গোটেই ৰাজত্ব ক্ৰমেৰে ইয়াতে আছে।"
+      }
+     ],
+     "id": "sdg4.u5.02"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use R-B-P-K: put the reign in order.",
+      "as": "ভু-ব্ৰা-পা-কা ব্যৱহাৰ কৰি ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Raft reaches Habung",
+       "as": "ভুৰ হাবুং পায়"
+      },
+      {
+       "en": "Raised by a Brahman",
+       "as": "ব্ৰাহ্মণে ডাঙৰ কৰে"
+      },
+      {
+       "en": "Patkai treaty (1401)",
+       "as": "পাটকাই সন্ধি (১৪০১)"
+      },
+      {
+       "en": "Kamata bride",
+       "as": "কামতাৰ কইনা"
+      }
+     ],
+     "why": {
+      "en": "R → B → P → K.",
+      "as": "ভু → ব্ৰা → পা → কা।"
+     },
+     "id": "sdg4.u5.03"
     }
    ]
   }
@@ -1597,6 +1810,32 @@
    }
   ],
   "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Sudangphaa's mother was Tyao Khamti's younger queen.",
+     "as": "চুদাংফাৰ মাতৃ ত্যাও খামতিৰ সৰু ৰাণী আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True: the queen set adrift on the raft.",
+     "as": "শুদ্ধ: ভুৰত উটুৱাই দিয়া ৰাণী।"
+    },
+    "id": "sdg4.test.01",
+    "link": {
+     "lesson": 7,
+     "lessonId": "tyao-khamti",
+     "unitNo": 2,
+     "unitTitle": {
+      "en": "The two queens",
+      "as": "দুগৰাকী ৰাণী"
+     },
+     "note": {
+      "en": "The younger queen was set adrift while pregnant.",
+      "as": "গৰ্ভৱতী সৰু ৰাণীক উটুৱাই দিয়া হৈছিল।"
+     }
+    }
+   },
    {
     "type": "mcq",
     "q": {

@@ -1,7 +1,7 @@
 {
  "id": "suhungmung",
  "no": 14,
- "version": 2,
+ "version": 3,
  "king": {
   "en": "Swargadeo Suhungmung",
   "as": "স্বৰ্গদেউ চুহুংমুং"
@@ -33,7 +33,7 @@
    "used_for": "1532–33 campaign"
   }
  ],
- "review_notes": "Gait places the creation of the Barpatra Gohain just before the Kachari war of November 1526; most textbooks give 1527, which this lesson uses (as the Sukaphaa lesson does). The 1510 enquiry is described by Gait as a count of the people divided into clans; textbooks call it the first paik census. Mula Gabharu's story comes from tradition, not from Gait. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
+ "review_notes": "Gait places the creation of the Barpatra Gohain just before the Kachari war of November 1526; most textbooks give 1527, which this lesson uses (as the Sukaphaa lesson does). The 1510 enquiry is described by Gait as a count of the people divided into clans; textbooks call it the first paik census. Mula Gabharu's story comes from tradition, not from Gait. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types. Retention pass 2026-10-23: retrieval warm-up at the start of each unit, a mnemonic card, interleaved test items.",
  "buildsOn": {
   "no": 13,
   "title": {
@@ -497,6 +497,26 @@
    ],
    "steps": [
     {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Suhungmung's capital, Bakata, stood on the Dihing.",
+      "as": "মনত পেলোৱা: চুহুংমুঙৰ ৰাজধানী বকতা ডিহিঙৰ পাৰত আছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: hence the Dihingia Raja.",
+      "as": "শুদ্ধ: সেয়ে দিহিঙীয়া ৰজা।"
+     },
+     "id": "shm4.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The Dihingia Raja.",
+       "as": "দিহিঙীয়া ৰজা।"
+      }
+     }
+    },
+    {
      "type": "story",
      "img": "counting-men.webp",
      "title": {
@@ -767,6 +787,57 @@
    ],
    "steps": [
     {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match each year.",
+      "as": "মনত পেলোৱা: প্ৰতিটো চন মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "1497",
+        "as": "১৪৯৭"
+       },
+       {
+        "en": "Crowned at Charguya",
+        "as": "চাৰগুৱাত অভিষেক"
+       }
+      ],
+      [
+       {
+        "en": "1510",
+        "as": "১৫১০"
+       },
+       {
+        "en": "People counted",
+        "as": "প্ৰজা গণনা"
+       }
+      ],
+      [
+       {
+        "en": "1512",
+        "as": "১৫১২"
+       },
+       {
+        "en": "Habung annexed",
+        "as": "হাবুং অধিকাৰ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall the dates of his first years.",
+      "as": "প্ৰথম বছৰবোৰৰ চন মনত পেলোৱা।"
+     },
+     "id": "shm4.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "Counting the people.",
+       "as": "প্ৰজা গণনা।"
+      }
+     }
+    },
+    {
      "type": "story",
      "img": "chutia-frontier.webp",
      "title": {
@@ -1026,6 +1097,54 @@
     }
    ],
    "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I was the last Chutia king.",
+       "as": "মনত পেলোৱা: মই শেষ চুতীয়া ৰজা।"
+      },
+      {
+       "en": "I was killed by an arrow in 1523.",
+       "as": "১৫২৩ চনত কাঁড়ৰ আঘাতত মই নিহত হৈছিলোঁ।"
+      },
+      {
+       "en": "My gold cat, elephant and umbrella went to Suhungmung.",
+       "as": "মোৰ সোণৰ মেকুৰী, হাতী আৰু ছাতি চুহুংমুঙৰ হাতলৈ গৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Dhirnarayan",
+       "as": "ধীৰনাৰায়ণ"
+      },
+      {
+       "en": "Detsung",
+       "as": "দেৎচুং"
+      },
+      {
+       "en": "Turbak",
+       "as": "তুৰবক"
+      },
+      {
+       "en": "Biswa Singha",
+       "as": "বিশ্ব সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Dhirnarayan.",
+      "as": "ধীৰনাৰায়ণ।"
+     },
+     "id": "shm4.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "The fall of the Chutias.",
+       "as": "চুতীয়া ৰাজ্যৰ পতন।"
+      }
+     }
+    },
     {
      "type": "story",
      "img": "konseng-at-court.webp",
@@ -1353,6 +1472,54 @@
    ],
    "steps": [
     {
+     "type": "spot",
+     "q": {
+      "en": "Warm-up: one name is wrong. Tap it.",
+      "as": "মনত পেলোৱা: এটা নাম ভুল। টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Supimphaa",
+       "made",
+       "Konseng",
+       "the",
+       "first",
+       "Borpatrogohain."
+      ],
+      "as": [
+       "চুপিম্ফাই",
+       "কনচেঙক",
+       "প্ৰথম",
+       "বৰপাত্ৰগোহাঁই",
+       "পাতিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 0,
+      "as": 0
+     },
+     "fix": {
+      "en": "→ Suhungmung",
+      "as": "→ চুহুংমুঙে"
+     },
+     "answerText": {
+      "en": "Supimphaa → Suhungmung",
+      "as": "চুপিম্ফা → চুহুংমুং"
+     },
+     "why": {
+      "en": "Supimphaa was Konseng's father; Suhungmung created the office in 1527.",
+      "as": "চুপিম্ফা কনচেঙৰ পিতৃ; চুহুংমুঙে ১৫২৭ চনত পদটো সৃষ্টি কৰিছিল।"
+     },
+     "id": "shm4.u5.01",
+     "link": {
+      "unit": "u4",
+      "note": {
+       "en": "The third Gohain.",
+       "as": "তৃতীয় গোহাঁই।"
+      }
+     }
+    },
+    {
      "type": "story",
      "img": "pursuit-dimapur.webp",
      "title": {
@@ -1556,6 +1723,26 @@
     }
    ],
    "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Detsung was killed when Dimapur fell again in 1536.",
+      "as": "মনত পেলোৱা: ১৫৩৬ চনত ডিমাপুৰ পুনৰ পতন হোৱাত দেৎচুং নিহত হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "shm4.u6.01",
+     "link": {
+      "unit": "u5",
+      "note": {
+       "en": "War with the Kacharis.",
+       "as": "কছাৰীৰ সৈতে যুদ্ধ।"
+      }
+     }
+    },
     {
      "type": "story",
      "img": "turbak-invasion.webp",
@@ -1795,6 +1982,43 @@
     }
    ],
    "steps": [
+    {
+     "type": "order",
+     "q": {
+      "en": "Warm-up: put the Turbak war in order.",
+      "as": "মনত পেলোৱা: তুৰবকৰ যুদ্ধ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Turbak beats Suklen at Singri",
+       "as": "শিংৰিত তুৰবকে চুক্লেনক হৰুৱায়"
+      },
+      {
+       "en": "Mula Gabharu falls",
+       "as": "মূলা গাভৰুৰ বীৰগতি"
+      },
+      {
+       "en": "Turbak killed near the Bharali",
+       "as": "ভৰলীৰ ওচৰত তুৰবক নিহত"
+      },
+      {
+       "en": "The chase to the Karatoya",
+       "as": "কৰতোৱালৈ খেদা"
+      }
+     ],
+     "why": {
+      "en": "1532 → 1533 → 1533 → 1533.",
+      "as": "১৫৩২ → ১৫৩৩ → ১৫৩৩ → ১৫৩৩।"
+     },
+     "id": "shm4.u7.01",
+     "link": {
+      "unit": "u6",
+      "note": {
+       "en": "Turbak.",
+       "as": "তুৰবক।"
+      }
+     }
+    },
     {
      "type": "story",
      "art": "embassy",
@@ -2045,6 +2269,79 @@
       "as": "১৫৩৯ চনত ৰতিমানে চুহুংমুঙক হত্যা কৰে; চুক্লেন ৰজা হয়।"
      },
      "id": "shm.u7.08"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Five firsts",
+      "as": "পাঁচটা প্ৰথম"
+     },
+     "text": [
+      {
+       "en": "Suhungmung's <mark>five firsts</mark>, on one hand: <b>1</b> first Hindu title (Swarganarayan), <b>2</b> first count of the people (1510), <b>3</b> the Saka era, <b>4</b> the third Gohain (Borpatrogohain), <b>5</b> firearms (after Turbak).",
+       "as": "চুহুংমুঙৰ <mark>পাঁচটা প্ৰথম</mark>, এখন হাতত: <b>১</b> প্ৰথম হিন্দু উপাধি (স্বৰ্গনাৰায়ণ), <b>২</b> প্ৰথম প্ৰজা গণনা (১৫১০), <b>৩</b> শকাব্দ, <b>৪</b> তৃতীয় গোহাঁই (বৰপাত্ৰগোহাঁই), <b>৫</b> বন্দুক-কামান (তুৰবকৰ পিছত)।"
+      },
+      {
+       "en": "Count them on your fingers. Exams love 'first Ahom king to…'.",
+       "as": "আঙুলিত গণা। পৰীক্ষাত 'প্ৰথম আহোম ৰজা…' প্ৰায়ে আহে।"
+      }
+     ],
+     "id": "shm4.u7.02"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match the 'firsts'.",
+      "as": "'প্ৰথম'বোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Swarganarayan",
+        "as": "স্বৰ্গনাৰায়ণ"
+       },
+       {
+        "en": "First Hindu title",
+        "as": "প্ৰথম হিন্দু উপাধি"
+       }
+      ],
+      [
+       {
+        "en": "1510",
+        "as": "১৫১০"
+       },
+       {
+        "en": "First count of the people",
+        "as": "প্ৰথম প্ৰজা গণনা"
+       }
+      ],
+      [
+       {
+        "en": "Borpatrogohain",
+        "as": "বৰপাত্ৰগোহাঁই"
+       },
+       {
+        "en": "The third Gohain",
+        "as": "তৃতীয় গোহাঁই"
+       }
+      ],
+      [
+       {
+        "en": "Turbak's war",
+        "as": "তুৰবকৰ যুদ্ধ"
+       },
+       {
+        "en": "Firearms adopted",
+        "as": "বন্দুক-কামান গ্ৰহণ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Four of the five firsts. The fifth: the Saka era.",
+      "as": "পাঁচটাৰ চাৰিটা। পঞ্চম: শকাব্দ।"
+     },
+     "id": "shm4.u7.03"
     }
    ]
   }
@@ -2062,6 +2359,32 @@
    }
   ],
   "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Suhungmung's half-brother Konseng was born in a Naga village.",
+     "as": "চুহুংমুঙৰ বৈমাত্ৰেয় ভাই কনচেঙৰ জন্ম এখন নগা গাঁৱত।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True: son of Supimphaa's exiled queen.",
+     "as": "শুদ্ধ: চুপিম্ফাৰ নিৰ্বাসিত ৰাণীৰ পুত্ৰ।"
+    },
+    "id": "shm4.test.01",
+    "link": {
+     "lesson": 13,
+     "lessonId": "supimphaa",
+     "unitNo": 2,
+     "unitTitle": {
+      "en": "The son among the Nagas",
+      "as": "নগাৰ মাজত পুত্ৰ"
+     },
+     "note": {
+      "en": "Supimphaa's queen was sent to a Naga village.",
+      "as": "চুপিম্ফাৰ ৰাণীক নগা গাঁৱলৈ পঠোৱা হৈছিল।"
+     }
+    }
+   },
    {
     "type": "whoami",
     "clues": [
