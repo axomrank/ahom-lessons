@@ -591,9 +591,10 @@ function feedback(right) {
   const b = bankOf(lid);
   if (right && b.includes(it.ref) && (U.practice || VIRTUAL || !it.retry)) b.splice(b.indexOf(it.ref), 1);
   if (!right && !b.includes(it.ref) && !s.id.startsWith("bank.")) b.push(it.ref);
-  // Learning loop, for every exercise type in every unit, test and round: a missed question comes back at the end,
-  // again and again (up to 3 times) until it is answered right. Scores count first attempts only.
-  if (!right) { if (!it.retry) U.mistakes.push({ s }); if ((it.tries || 0) < 3) U.queue.push({ s, ref: it.ref, retry: true, tries: (it.tries || 0) + 1 }); }
+  // Learning loop, for every exercise type in units, lesson tests and practice: a missed question comes back at the
+  // end (up to 3 times) until it is answered right. Exams (test-out, jump test, era checkpoint) do not repeat
+  // questions; their misses go to the mistakes list and daily review instead.
+  if (!right) { if (!it.retry) U.mistakes.push({ s }); if ((it.tries || 0) < 3 && mode !== "checkpoint" && mode !== "jump" && !U.testout) U.queue.push({ s, ref: it.ref, retry: true, tries: (it.tries || 0) + 1 }); }
   if (!it.retry) U.done = Math.min(U.total, U.done + 1);
   $("#progress").style.width = `${(U.done / U.total) * 100}%`;
   $("#fb-badge").textContent = right || slips ? "✓" : "✕";
