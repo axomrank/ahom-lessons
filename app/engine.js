@@ -144,7 +144,12 @@ function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
   };
   const show = new Set(spec.show || []), isChoice = (id) => choices.includes(id);
   // label anchor: labels[id].at = [lat, lon] on the map, or a fraction (0–1) along the line
-  const labelAt = (id, pts, def) => { const at = ((spec.labels || {})[id] || {}).at; return Array.isArray(at) ? P(at) : pts[Math.round((pts.length - 1) * (at ?? def))]; };
+  // a fraction counts along the part of the line that is inside the frame, so a long river is named where you can see it
+  const labelAt = (id, pts, def) => {
+    const at = ((spec.labels || {})[id] || {}).at; if (Array.isArray(at)) return P(at);
+    const vis = pts.filter(([x, y]) => x >= 20 && x <= W - 20 && y >= 20 && y <= H - 20), use = vis.length ? vis : pts;
+    return clamp(use[Math.round((use.length - 1) * (at ?? def))]);
+  };
   let out = `<svg class="map" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map"><defs><marker id="arrowhead" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--terra)"/></marker><clipPath id="mapclip"><rect width="${W}" height="${H}" rx="18"/></clipPath></defs><g clip-path="url(#mapclip)"><rect class="sea" width="${W}" height="${H}"/>`;
   Object.values(BASE.districts).forEach((d) => d.rings.forEach((r) => (out += `<path class="district" d="M${r.map((p) => P(p).map((v) => v.toFixed(1)).join(" ")).join(" L")} Z"/>`)));
   if (story) (spec.texts || []).forEach((t) => { const [x, y] = P(t.at); out += `<text class="lbl big" x="${x.toFixed(1)}" y="${y.toFixed(1)}"><tspan class="en">${t.t.en}</tspan></text><text class="lbl big as" x="${x.toFixed(1)}" y="${y.toFixed(1)}">${t.t.as}</text>`; });
