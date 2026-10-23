@@ -151,7 +151,7 @@ function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
     out += `<path class="river${main ? " main" : show.has(id) ? "" : " faint"}" d="${smoothPath(pts)}"/>`;
     if (!show.has(id)) return;
     if (isChoice(id) && !story) out += `<g class="hit" data-place="${id}"><path class="zone" d="${smoothPath(pts)}"/></g>`;
-    if (story || !isChoice(id)) out += label(id, labelAt(id, pts, 0.5), "e", "river-lbl");
+    out += label(id, labelAt(id, pts, 0.5), "e", "river-lbl");   // map questions name every choice too
   });
   Object.entries(BASE.ridges).forEach(([id, line]) => {
     if (!show.has(id)) return;
@@ -159,7 +159,7 @@ function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
     for (let i = 0; i < pts.length - 1; i++) { const [x1, y1] = pts[i], [x2, y2] = pts[i + 1], n = Math.max(1, Math.round(Math.hypot(x2 - x1, y2 - y1) / 22)); for (let j = 0; j < n; j++) { const x = x1 + ((x2 - x1) * j) / n, y = y1 + ((y2 - y1) * j) / n; peaks += `<path d="M${(x - 12).toFixed(1)} ${(y + 8).toFixed(1)} L${x.toFixed(1)} ${(y - 11).toFixed(1)} L${(x + 12).toFixed(1)} ${(y + 8).toFixed(1)} Z"/>`; } }
     out += `<g class="hills">${peaks}</g>`;
     if (isChoice(id) && !story) out += `<g class="hit" data-place="${id}"><path class="zone" d="M${pts.map((p) => p.join(" ")).join(" L")}"/></g>`;
-    if (story || !isChoice(id)) out += label(id, labelAt(id, pts, 0.5), "w");
+    out += label(id, labelAt(id, pts, 0.5), "w");
   });
   if (story && route) (spec.routes || []).forEach((r) => { const pts = r.map((ref) => (Array.isArray(ref) ? P(ref) : clamp(P(ENT[ref].geo)))); out += `<path class="route" d="${smoothPath(pts)}" marker-end="url(#arrowhead)"/>`; });
   [...show].filter((id) => ENT[id] && ENT[id].geo).forEach((id) => {
@@ -168,7 +168,7 @@ function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
     if (isChoice(id) && !story) { out += `<g class="hit${pass ? " pass-hit" : ""}" data-place="${id}"><circle class="ring" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="17"/><circle class="${pass ? "pass" : "dot"}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${pass ? 8 : 7}"/></g>`; return; }
     out += pass ? `<circle class="pass-glow" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="13"/><circle class="pass" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="8"/><path class="pass-mark" d="M${(x - 4).toFixed(1)} ${(y + 3).toFixed(1)} L${x.toFixed(1)} ${(y - 3).toFixed(1)} L${(x + 4).toFixed(1)} ${(y + 3).toFixed(1)}"/>`
       : `<circle class="dot" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6"/>`;
-    if (story || (pass && !choices.length)) out += label(id, [x, y], "e", pass ? "place passlbl" : "place");
+    if (story || isChoice(id) || (pass && !choices.length)) out += label(id, [x, y], "e", pass ? "place passlbl" : "place");
   });
   return out + `</g></svg><div class="map-note">${T(B("Districts and rivers of today's Assam; places approximate", "আজিৰ অসমৰ জিলা আৰু নদী; ঠাইবোৰ আনুমানিক"))}</div>`;
 }
