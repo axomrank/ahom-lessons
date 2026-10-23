@@ -1,7 +1,7 @@
 {
  "id": "supimphaa",
  "no": 13,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Supimphaa",
   "as": "স্বৰ্গদেউ চুপিম্ফা"
@@ -23,7 +23,7 @@
    "used_for": "Senglung, later known as Konseng (Kancheng)"
   }
  ],
- "review_notes": "Gait calls Supimphaa's son Senglung; he is better known as Konseng. The year 1527 for the Borpatrogohain comes from Lesson 1.",
+ "review_notes": "Gait calls Supimphaa's son Senglung; he is better known as Konseng. The year 1527 for the Borpatrogohain comes from Lesson 1. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles.",
  "buildsOn": {
   "no": 12,
   "title": {
@@ -125,7 +125,7 @@
  "units": [
   {
    "id": "u1",
-   "icon": "flag",
+   "icon": "crown",
    "title": {
     "en": "Justice for a father",
     "as": "পিতৃৰ বাবে ন্যায়"
@@ -133,15 +133,19 @@
    "learned": [
     {
      "en": "Supimphaa, son of Suhenphaa, ruled 1493–1497",
-     "as": "চুহেনফাৰ পুত্ৰ চুপিম্ফাই ১৪৯৩–১৪৯৭ লৈকে ৰাজত্ব কৰিছিল"
+     "as": "চুহেনফাৰ পুত্ৰ চুপিম্ফাই ১৪৯৩–১৪৯৭ লৈকে ৰাজত্ব কৰে"
     },
     {
      "en": "He hunted down and punished his father's murderers",
-     "as": "তেওঁ পিতৃৰ হত্যাকাৰীক বিচাৰি উলিয়াই শাস্তি দিছিল"
+     "as": "তেওঁ পিতৃৰ হত্যাকাৰীক বিচাৰি শাস্তি দিলে"
     },
     {
      "en": "The Burhagohain, under suspicion, revolted",
-     "as": "সন্দেহৰ পাত্ৰ বুঢ়াগোহাঁইয়ে বিদ্ৰোহ কৰিছিল"
+     "as": "সন্দেহৰ পাত্ৰ বুঢ়াগোহাঁইয়ে বিদ্ৰোহ কৰিলে"
+    },
+    {
+     "en": "His reign lasted only four years",
+     "as": "তেওঁৰ ৰাজত্ব মাত্ৰ চাৰি বছৰ"
     }
    ],
    "steps": [
@@ -166,10 +170,10 @@
      "link": {
       "lesson": 12,
       "lessonId": "suhenphaa",
-      "unitNo": 2,
+      "unitNo": 3,
       "unitTitle": {
        "en": "Murder in the palace",
-       "as": "ৰাজকাৰেঙত হত্যা"
+       "as": "ৰাজপ্ৰসাদত হত্যা"
       },
       "note": {
        "en": "Suhenphaa was stabbed to death in his palace in 1493.",
@@ -275,12 +279,89 @@
      },
      "id": "spm.u1.05",
      "big": true
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was the son of Suhenphaa.",
+       "as": "মই চুহেনফাৰ পুত্ৰ।"
+      },
+      {
+       "en": "I punished my father's killers.",
+       "as": "মই পিতৃৰ হত্যাকাৰীক শাস্তি দিছিলোঁ।"
+      },
+      {
+       "en": "My son Suhungmung became a great king.",
+       "as": "মোৰ পুত্ৰ চুহুংমুং মহান ৰজা হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Supimphaa",
+       "as": "চুপিম্ফা"
+      },
+      {
+       "en": "Suhenphaa",
+       "as": "চুহেনফা"
+      },
+      {
+       "en": "Susenphaa",
+       "as": "চুচেনফা"
+      },
+      {
+       "en": "Suklenmung",
+       "as": "চুক্লেনমুং"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Supimphaa (1493–1497).",
+      "as": "চুপিম্ফা (১৪৯৩–১৪৯৭)।"
+     },
+     "id": "spm2.u1.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Supimphaa judging his father's killers?",
+      "as": "কোনখন ছবিত চুপিম্ফাই পিতৃৰ হত্যাকাৰীৰ বিচাৰ কৰা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "tribunal.webp",
+      "queen-nagas.webp",
+      "naga-village-son.webp",
+      "supimphaa-portrait.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The tribunal",
+      "as": "বিচাৰসভা"
+     },
+     "why": {
+      "en": "The king's inquiry into the murder.",
+      "as": "হত্যাৰ বিষয়ে ৰজাৰ তদন্ত।"
+     },
+     "id": "spm2.u1.07"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Supimphaa ruled for about forty years.",
+      "as": "চুপিম্ফাই প্ৰায় চল্লিশ বছৰ ৰাজত্ব কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False: four years, 1493–1497.",
+      "as": "অশুদ্ধ: চাৰি বছৰ, ১৪৯৩–১৪৯৭।"
+     },
+     "id": "spm2.u1.08"
     }
    ]
   },
   {
    "id": "u2",
-   "icon": "walk",
+   "icon": "hands",
    "title": {
     "en": "The son among the Nagas",
     "as": "নগাৰ মাজত পুত্ৰ"
@@ -288,19 +369,19 @@
    "learned": [
     {
      "en": "A wife praised a Naga chief, and the king sent her to his village",
-     "as": "এগৰাকী পত্নীয়ে নগা মুখিয়ালৰ প্ৰশংসা কৰাত ৰজাই তাইক মুখিয়ালৰ গাঁৱলৈ পঠিয়াই দিছিল"
+     "as": "এগৰাকী পত্নীয়ে নগা মুখিয়াৰ প্ৰশংসা কৰাত ৰজাই তেওঁক তাৰ গাঁৱলৈ পঠালে"
     },
     {
      "en": "She was pregnant; her son Senglung, later Konseng, grew up there",
-     "as": "তাই সন্তানসম্ভৱা আছিল; তাইৰ পুত্ৰ চেংলুং, পিছৰ কনচেং, তাতে ডাঙৰ হৈছিল"
+     "as": "তেওঁ গৰ্ভৱতী আছিল; পুত্ৰ চেংলুং, পিছৰ কনচেং, তাতে ডাঙৰ হ'ল"
     },
     {
      "en": "Under Suhungmung, Konseng became the first Borpatrogohain",
-     "as": "চুহুংমুঙৰ দিনত কনচেং প্ৰথম বৰপাত্ৰগোহাঁই হৈছিল"
+     "as": "চুহুংমুঙৰ দিনত কনচেং প্ৰথম বৰপাত্ৰগোহাঁই হ'ল"
     },
     {
      "en": "Supimphaa died, or was killed, in 1497",
-     "as": "১৪৯৭ চনত চুপিম্ফাৰ মৃত্যু হয়, বা তেওঁক হত্যা কৰা হয়"
+     "as": "১৪৯৭ চনত চুপিম্ফাৰ মৃত্যু বা হত্যা"
     }
    ],
    "steps": [
@@ -556,6 +637,287 @@
      "id": "spm.u2.08"
     }
    ]
+  },
+  {
+   "id": "u3",
+   "icon": "star",
+   "title": {
+    "en": "The founding era",
+    "as": "প্ৰতিষ্ঠাকাল"
+   },
+   "learned": [
+    {
+     "en": "Thirteen kings ruled from 1228 to 1497",
+     "as": "১২২৮ৰ পৰা ১৪৯৭ লৈকে তেৰজন ৰজাই ৰাজত্ব কৰিছিল"
+    },
+    {
+     "en": "The kingdom stayed in Upper Assam, between the Patkai and the Dikhou",
+     "as": "ৰাজ্য উজনি অসমত, পাটকাই আৰু দিখৌৰ মাজত আছিল"
+    },
+    {
+     "en": "Three times the nobles ruled without a king",
+     "as": "তিনিবাৰ বিষয়াসকলে ৰজা নোহোৱাকৈ শাসন কৰিছিল"
+    },
+    {
+     "en": "The next king, Suhungmung, began an age of expansion",
+     "as": "পৰৱৰ্তী ৰজা চুহুংমুঙে সম্প্ৰসাৰণৰ যুগ আৰম্ভ কৰিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "shared/moidams.webp",
+     "title": {
+      "en": "Thirteen kings",
+      "as": "তেৰজন ৰজা"
+     },
+     "text": [
+      {
+       "en": "From Sukaphaa's arrival in 1228 to Supimphaa's death in 1497, <mark>thirteen kings</mark> ruled the Ahoms: the founding era.",
+       "as": "১২২৮ চনত চুকাফাৰ আগমনৰ পৰা ১৪৯৭ চনত চুপিম্ফাৰ মৃত্যুলৈকে <mark>তেৰজন ৰজা</mark>ই আহোমক শাসন কৰিছিল: প্ৰতিষ্ঠাকাল।"
+      },
+      {
+       "en": "The kingdom was still small, in Upper Assam. Its borders: the [[patkai]] in the east (1401) and the [[dikhou]] against the Kacharis.",
+       "as": "ৰাজ্যখন তেতিয়াও সৰু, উজনি অসমত। ইয়াৰ সীমা: পূবত [[patkai]] (১৪০১) আৰু কছাৰীৰ সৈতে [[dikhou]]।"
+      }
+     ],
+     "id": "spm2.u3.01"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these founding kings in order.",
+      "as": "প্ৰতিষ্ঠাকালৰ এই ৰজাসকলক ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Sukaphaa",
+       "as": "চুকাফা"
+      },
+      {
+       "en": "Sukhaangphaa",
+       "as": "চুখাংফা"
+      },
+      {
+       "en": "Sudangphaa",
+       "as": "চুদাংফা"
+      },
+      {
+       "en": "Susenphaa",
+       "as": "চুচেনফা"
+      },
+      {
+       "en": "Supimphaa",
+       "as": "চুপিম্ফা"
+      }
+     ],
+     "why": {
+      "en": "1228 → 1293 → 1397 → 1439 → 1493.",
+      "as": "১২২৮ → ১২৯৩ → ১৩৯৭ → ১৪৩৯ → ১৪৯৩।"
+     },
+     "id": "spm2.u3.02"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Sukaphaa",
+        "as": "চুকাফা"
+       },
+       {
+        "en": "Founded the kingdom",
+        "as": "ৰাজ্য স্থাপন"
+       }
+      ],
+      [
+       {
+        "en": "Sukhaangphaa",
+        "as": "চুখাংফা"
+       },
+       {
+        "en": "First big war, with Kamata",
+        "as": "কামতাৰ সৈতে প্ৰথম ডাঙৰ যুদ্ধ"
+       }
+      ],
+      [
+       {
+        "en": "Sudangphaa",
+        "as": "চুদাংফা"
+       },
+       {
+        "en": "Patkai treaty, 1401",
+        "as": "পাটকাই সন্ধি, ১৪০১"
+       }
+      ],
+      [
+       {
+        "en": "Susenphaa",
+        "as": "চুচেনফা"
+       },
+       {
+        "en": "Ruled 49 years",
+        "as": "৪৯ বছৰ ৰাজত্ব"
+       }
+      ]
+     ],
+     "why": {
+      "en": "One fact for each of four founding kings.",
+      "as": "প্ৰতিষ্ঠাকালৰ চাৰিজন ৰজাৰ প্ৰত্যেকৰে এটা তথ্য।"
+     },
+     "id": "spm2.u3.03"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "How many kings ruled in the founding era (1228–1497)?",
+      "as": "প্ৰতিষ্ঠাকালত (১২২৮–১৪৯৭) কেইজন ৰজাই ৰাজত্ব কৰিছিল?"
+     },
+     "options": [
+      {
+       "en": "13",
+       "as": "১৩"
+      },
+      {
+       "en": "7",
+       "as": "৭"
+      },
+      {
+       "en": "41",
+       "as": "৪১"
+      },
+      {
+       "en": "17",
+       "as": "১৭"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Thirteen, from Sukaphaa to Supimphaa. In all there were 41 reigns up to 1838.",
+      "as": "তেৰজন, চুকাফাৰ পৰা চুপিম্ফালৈ। ১৮৩৮ লৈকে মুঠ ৪১টা ৰাজত্ব।"
+     },
+     "id": "spm2.u3.04"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Consider the statements:<br>1. In the founding era the Ahom kingdom reached the Karatoya.<br>2. The Patkai became the eastern boundary in 1401.<br>Which is/are correct?",
+      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. প্ৰতিষ্ঠাকালত আহোম ৰাজ্য কৰতোৱালৈকে বিস্তাৰিত হৈছিল।<br>২. ১৪০১ চনত পাটকাই পূব সীমা হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+     },
+     "options": [
+      {
+       "en": "1 only",
+       "as": "কেৱল ১"
+      },
+      {
+       "en": "2 only",
+       "as": "কেৱল ২"
+      },
+      {
+       "en": "Both 1 and 2",
+       "as": "১ আৰু ২ দুয়োটা"
+      },
+      {
+       "en": "Neither 1 nor 2",
+       "as": "১ বা ২ কোনোটো নহয়"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Only 2. The Ahoms reached the Karatoya only in 1533, chasing Turbak under Suhungmung.",
+      "as": "কেৱল ২। আহোম কৰতোৱা পাইছিল ১৫৩৩ চনতহে, চুহুংমুঙৰ দিনত তুৰবকক খেদি।"
+     },
+     "small": true,
+     "id": "spm2.u3.05"
+    },
+    {
+     "type": "story",
+     "art": "embassy",
+     "title": {
+      "en": "What came next",
+      "as": "তাৰ পিছত কি হ'ল"
+     },
+     "text": [
+      {
+       "en": "Supimphaa's son [[suhungmung]] would take the Hindu title Swarganarayan, annex the Chutia kingdom and beat back invaders from Bengal.",
+       "as": "চুপিম্ফাৰ পুত্ৰ [[suhungmung]]এ স্বৰ্গনাৰায়ণ হিন্দু উপাধি ল'ব, চুতীয়া ৰাজ্য অধিকাৰ কৰিব আৰু বংগৰ আক্ৰমণকাৰীক খেদি পঠাব।"
+      },
+      {
+       "en": "The small kingdom of the founders was about to grow.",
+       "as": "প্ৰতিষ্ঠাপকসকলৰ সৰু ৰাজ্যখন বাঢ়িবলৈ ওলাইছিল।"
+      }
+     ],
+     "id": "spm2.u3.06",
+     "link": {
+      "lesson": 14,
+      "lessonId": "suhungmung",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The Dihingia Raja",
+       "as": "দিহিঙীয়া ৰজা"
+      },
+      "note": {
+       "en": "Suhungmung, the Dihingia Raja, began the age of expansion in 1497.",
+       "as": "দিহিঙীয়া ৰজা চুহুংমুঙে ১৪৯৭ চনত সম্প্ৰসাৰণৰ যুগ আৰম্ভ কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1228",
+       "l": {
+        "en": "Sukaphaa arrives",
+        "as": "চুকাফাৰ আগমন"
+       }
+      },
+      {
+       "y": "1497",
+       "l": {
+        "en": "Supimphaa dies",
+        "as": "চুপিম্ফাৰ মৃত্যু"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Sukaphaa leaves Mong Mao",
+        "as": "চুকাফাই মং মাও এৰে"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Patkai treaty",
+        "as": "পাটকাই সন্ধি"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Chutia kingdom annexed",
+        "as": "চুতীয়া ৰাজ্য অধিকাৰ"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1215 → 1228 → 1401 → 1497 → 1523.",
+      "as": "১২১৫ → ১২২৮ → ১৪০১ → ১৪৯৭ → ১৫২৩।"
+     },
+     "id": "spm2.u3.07"
+    }
+   ]
   }
  ],
  "test": {
@@ -770,6 +1132,50 @@
      "as": "তাইক এজন নগা মুখিয়ালৰ গাঁৱলৈ পঠিওৱা হৈছিল।"
     },
     "id": "spm.test.06"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Who was the last king of the founding era?",
+     "as": "প্ৰতিষ্ঠাকালৰ শেষ ৰজা কোন?"
+    },
+    "options": [
+     {
+      "en": "Supimphaa",
+      "as": "চুপিম্ফা"
+     },
+     {
+      "en": "Suhenphaa",
+      "as": "চুহেনফা"
+     },
+     {
+      "en": "Suhungmung",
+      "as": "চুহুংমুং"
+     },
+     {
+      "en": "Susenphaa",
+      "as": "চুচেনফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Supimphaa, died 1497.",
+     "as": "চুপিম্ফা, ১৪৯৭ চনত মৃত্যু।"
+    },
+    "id": "spm2.test.07"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The Burhagohain revolted when Supimphaa searched for his father's killers.",
+     "as": "চুপিম্ফাই পিতৃৰ হত্যাকাৰী বিচাৰোঁতে বুঢ়াগোহাঁইয়ে বিদ্ৰোহ কৰিছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "spm2.test.08"
    }
   ]
  }

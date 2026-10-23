@@ -1,7 +1,7 @@
 {
  "id": "sujangphaa",
  "no": 9,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Sujangphaa",
   "as": "স্বৰ্গদেউ চুজাংফা"
@@ -18,7 +18,7 @@
    "used_for": "p. 82: son of Sudangphaa; nothing of importance recorded; died 1422"
   }
  ],
- "review_notes": "A short lesson: the chronicles record nothing of importance for this reign, and nothing has been added.",
+ "review_notes": "A short lesson: the chronicles record nothing of importance for this reign, and nothing has been added. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles.",
  "buildsOn": {
   "no": 8,
   "title": {
@@ -114,11 +114,19 @@
    "learned": [
     {
      "en": "Sujangphaa, son of Sudangphaa, ruled 1407–1422",
-     "as": "চুদাংফাৰ পুত্ৰ চুজাংফাই ১৪০৭–১৪২২ লৈকে ৰাজত্ব কৰিছিল"
+     "as": "চুদাংফাৰ পুত্ৰ চুজাংফাই ১৪০৭–১৪২২ লৈকে ৰাজত্ব কৰে"
     },
     {
      "en": "The chronicles record nothing of importance in his reign",
-     "as": "বুৰঞ্জীত তেওঁৰ ৰাজত্বকালৰ কোনো গুৰুত্বপূৰ্ণ ঘটনা লিপিবদ্ধ নাই"
+     "as": "বুৰঞ্জীত তেওঁৰ ৰাজত্বৰ কোনো গুৰুত্বপূৰ্ণ ঘটনা নাই"
+    },
+    {
+     "en": "He ruled for 15 years",
+     "as": "তেওঁ ১৫ বছৰ ৰাজত্ব কৰিছিল"
+    },
+    {
+     "en": "A quiet reign after his father's eventful one",
+     "as": "পিতৃৰ ঘটনাবহুল ৰাজত্বৰ পিছত শান্ত ৰাজত্ব"
     }
    ],
    "steps": [
@@ -332,6 +340,266 @@
       "as": "ককা, পিতৃ, পুত্ৰ।"
      },
      "id": "sjg.u1.07"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sujangphaa ruled for about 15 years.",
+      "as": "চুজাংফাই প্ৰায় ১৫ বছৰ ৰাজত্ব কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: 1407–1422.",
+      "as": "শুদ্ধ: ১৪০৭–১৪২২।"
+     },
+     "id": "sjg2.u1.08"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "home",
+   "title": {
+    "en": "What he inherited",
+    "as": "উত্তৰাধিকাৰ"
+   },
+   "learned": [
+    {
+     "en": "A border fixed on the Patkai (1401)",
+     "as": "পাটকাইত নিৰ্ধাৰিত সীমা (১৪০১)"
+    },
+    {
+     "en": "Peace with Kamata, sealed by marriage",
+     "as": "বিবাহেৰে বান্ধ খোৱা কামতাৰ সৈতে শান্তি"
+    },
+    {
+     "en": "A capital at Charguya and Hindu rites at court",
+     "as": "চাৰগুৱাত ৰাজধানী আৰু ৰাজসভাত হিন্দু ৰীতি"
+    },
+    {
+     "en": "Tribute again from the Tipam, Khamjang and Aiton chiefs",
+     "as": "তিপাম, খামজাং আৰু আইতন ৰজাৰ পৰা পুনৰ কৰ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "patkai-treaty.webp",
+     "title": {
+      "en": "A settled kingdom",
+      "as": "সুস্থিৰ ৰাজ্য"
+     },
+     "text": [
+      {
+       "en": "Sujangphaa took over a settled kingdom. His father had fixed the eastern border on the [[patkai]] in 1401 and made peace with [[kamata]].",
+       "as": "চুজাংফাই এখন সুস্থিৰ ৰাজ্য পালে। তেওঁৰ পিতৃয়ে ১৪০১ চনত পূব সীমা [[patkai]]ত নিৰ্ধাৰণ কৰিছিল আৰু [[kamata]]ৰ সৈতে শান্তি স্থাপন কৰিছিল।"
+      },
+      {
+       "en": "Perhaps that is why nothing of importance is recorded: there was little to fight about.",
+       "as": "হয়তো সেইবাবেই কোনো গুৰুত্বপূৰ্ণ ঘটনা লিপিবদ্ধ নাই: যুঁজিবলগীয়া কাৰণ কম আছিল।"
+      }
+     ],
+     "id": "sjg2.u2.01",
+     "link": {
+      "lesson": 8,
+      "lessonId": "sudangphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "The Patkai treaty",
+       "as": "পাটকাই সন্ধি"
+      },
+      "note": {
+       "en": "Sudangphaa fixed the Patkai boundary in 1401.",
+       "as": "চুদাংফাই ১৪০১ চনত পাটকাই সীমা নিৰ্ধাৰণ কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Which border did Sujangphaa's father fix?",
+      "as": "চুজাংফাৰ পিতৃয়ে কোনখন সীমা নিৰ্ধাৰণ কৰিছিল?"
+     },
+     "options": [
+      {
+       "en": "The Patkai",
+       "as": "পাটকাই"
+      },
+      {
+       "en": "The Dikhou",
+       "as": "দিখৌ"
+      },
+      {
+       "en": "The Manas",
+       "as": "মানাহ"
+      },
+      {
+       "en": "The Karatoya",
+       "as": "কৰতোৱা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Patkai, with Mungkang, in 1401. The Dikhou border with the Kacharis was set under Suteuphaa.",
+      "as": "১৪০১ চনত মুংকাঙৰ সৈতে পাটকাই। কছাৰীৰ সৈতে দিখৌ সীমা চুতেউফাৰ দিনৰ।"
+     },
+     "id": "sjg2.u2.02"
+    },
+    {
+     "type": "story",
+     "img": "two-traditions.webp",
+     "title": {
+      "en": "Hindu rites at court",
+      "as": "ৰাজসভাত হিন্দু ৰীতি"
+     },
+     "text": [
+      {
+       "en": "The Brahman adviser his father brought from Habung had started Hindu rites at court, beside the old Tai ones.",
+       "as": "পিতৃয়ে হাবুঙৰ পৰা অনা ব্ৰাহ্মণ উপদেষ্টাই পুৰণি টাই ৰীতিৰ লগতে ৰাজসভাত হিন্দু ৰীতি আৰম্ভ কৰিছিল।"
+      },
+      {
+       "en": "Both traditions went on side by side for centuries.",
+       "as": "দুয়োটা পৰম্পৰা শতিকাজুৰি একেলগে চলি আছিল।"
+      }
+     ],
+     "id": "sjg2.u2.03",
+     "link": {
+      "lesson": 8,
+      "lessonId": "sudangphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The Brahman prince",
+       "as": "বামুণী কোঁৱৰ"
+      },
+      "note": {
+       "en": "The first stage of Brahmanical influence came under Sudangphaa, the Bamuni Konwar.",
+       "as": "ব্ৰাহ্মণ্য প্ৰভাৱৰ প্ৰথম স্তৰ বামুণী কোঁৱৰ চুদাংফাৰ দিনত।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Hindu rites replaced all the old Tai rites under Sujangphaa.",
+      "as": "চুজাংফাৰ দিনত হিন্দু ৰীতিয়ে সকলো পুৰণি টাই ৰীতিৰ ঠাই লৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. The two went on side by side; Ahom priests still read omens long after.",
+      "as": "অশুদ্ধ। দুয়োটা একেলগে চলিছিল; আহোম পুৰোহিতসকলে বহু পিছলৈকে লক্ষণ গণিছিল।"
+     },
+     "id": "sjg2.u2.04"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One name in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা নাম ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Sujangphaa",
+       "fixed",
+       "the",
+       "Patkai",
+       "boundary",
+       "in",
+       "1401."
+      ],
+      "as": [
+       "চুজাংফাই",
+       "১৪০১",
+       "চনত",
+       "পাটকাই",
+       "সীমা",
+       "নিৰ্ধাৰণ",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 0,
+      "as": 0
+     },
+     "fix": {
+      "en": "→ Sudangphaa",
+      "as": "→ চুদাংফাই"
+     },
+     "answerText": {
+      "en": "Sujangphaa → Sudangphaa",
+      "as": "চুজাংফা → চুদাংফা"
+     },
+     "why": {
+      "en": "It was his father Sudangphaa. The names differ by one letter: a classic trap.",
+      "as": "তেওঁৰ পিতৃ চুদাংফা। নাম দুটাৰ মাজত এটা আখৰৰ পাৰ্থক্য: এক পৰিচিত ফান্দ।"
+     },
+     "id": "sjg2.u2.05"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each king to his reign.",
+      "as": "প্ৰতিজন ৰজাক ৰাজত্বকালৰ সৈতে মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Sudangphaa",
+        "as": "চুদাংফা"
+       },
+       {
+        "en": "Father, 1397–1407",
+        "as": "পিতৃ, ১৩৯৭–১৪০৭"
+       }
+      ],
+      [
+       {
+        "en": "Sujangphaa",
+        "as": "চুজাংফা"
+       },
+       {
+        "en": "1407–1422",
+        "as": "১৪০৭–১৪২২"
+       }
+      ],
+      [
+       {
+        "en": "Suphakphaa",
+        "as": "চুফাকফা"
+       },
+       {
+        "en": "Son, 1422–1439",
+        "as": "পুত্ৰ, ১৪২২–১৪৩৯"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Three generations, three similar names.",
+      "as": "তিনি পুৰুষ, একে ধৰণৰ তিনিটা নাম।"
+     },
+     "id": "sjg2.u2.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the 1401 Patkai treaty his father made?",
+      "as": "কোনখন ছবিত তেওঁৰ পিতৃৰ ১৪০১ চনৰ পাটকাই সন্ধি দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "patkai-treaty.webp",
+      "two-traditions.webp",
+      "sujangphaa-court.webp",
+      "sujangphaa-portrait.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The oath by the lake",
+      "as": "বিলৰ পাৰৰ শপত"
+     },
+     "why": {
+      "en": "The two Borgohains at Nongnyang lake.",
+      "as": "নংনিয়াং বিলৰ পাৰত দুয়োজন বৰগোহাঁই।"
+     },
+     "id": "sjg2.u2.07"
     }
    ]
   }
@@ -470,6 +738,115 @@
      "as": "শুদ্ধ: ১৪০৭–১৪২২।"
     },
     "id": "sjg.test.04"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kings in order.",
+     "as": "ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Tyao Khamti",
+      "as": "ত্যাও খামতি"
+     },
+     {
+      "en": "Sudangphaa",
+      "as": "চুদাংফা"
+     },
+     {
+      "en": "Sujangphaa",
+      "as": "চুজাংফা"
+     },
+     {
+      "en": "Suphakphaa",
+      "as": "চুফাকফা"
+     }
+    ],
+    "why": {
+     "en": "1380 → 1397 → 1407 → 1422.",
+     "as": "১৩৮০ → ১৩৯৭ → ১৪০৭ → ১৪২২।"
+    },
+    "id": "sjg2.test.05"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Who was king when the Patkai boundary was fixed?",
+     "as": "পাটকাই সীমা নিৰ্ধাৰণৰ সময়ত ৰজা কোন আছিল?"
+    },
+    "options": [
+     {
+      "en": "Sudangphaa",
+      "as": "চুদাংফা"
+     },
+     {
+      "en": "Sujangphaa",
+      "as": "চুজাংফা"
+     },
+     {
+      "en": "Suphakphaa",
+      "as": "চুফাকফা"
+     },
+     {
+      "en": "Susenphaa",
+      "as": "চুচেনফা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sudangphaa, in 1401, before Sujangphaa's reign.",
+     "as": "চুদাংফা, ১৪০১ চনত, চুজাংফাৰ আগত।"
+    },
+    "id": "sjg2.test.06"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "Sujangphaa was the",
+     "as": "চুজাংফা আছিল"
+    },
+    "after": {
+     "en": "Ahom king.",
+     "as": "আহোম ৰজা।"
+    },
+    "options": [
+     {
+      "en": "seventh",
+      "as": "সপ্তম"
+     },
+     {
+      "en": "eighth",
+      "as": "অষ্টম"
+     },
+     {
+      "en": "ninth",
+      "as": "নৱম"
+     },
+     {
+      "en": "tenth",
+      "as": "দশম"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "The ninth.",
+     "as": "নৱম।"
+    },
+    "id": "sjg2.test.07"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Sudangphaa and Sujangphaa were father and son.",
+     "as": "চুদাংফা আৰু চুজাংফা পিতা-পুত্ৰ আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "sjg2.test.08"
    }
   ]
  }

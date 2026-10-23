@@ -1,7 +1,7 @@
 {
  "id": "susenphaa",
  "no": 11,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Susenphaa",
   "as": "স্বৰ্গদেউ চুচেনফা"
@@ -23,7 +23,7 @@
    "used_for": "Same account (citing Gait and Barbaruah)"
   }
  ],
- "review_notes": "The Negheriting temple in the AHOM catalogue is not in Gait or the Wikipedia article, so it is left out.",
+ "review_notes": "The Negheriting temple in the AHOM catalogue is not in Gait or the Wikipedia article, so it is left out. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles.",
  "buildsOn": {
   "no": 10,
   "title": {
@@ -128,20 +128,24 @@
    "icon": "crown",
    "title": {
     "en": "Forty-nine years",
-    "as": "উনপঞ্চাশ বছৰ"
+    "as": "ঊনপঞ্চাশ বছৰ"
    },
    "learned": [
     {
      "en": "Susenphaa, son of Suphakphaa and a Tipam princess, ruled 1439–1488",
-     "as": "চুফাকফা আৰু টিপামৰ কুঁৱৰীৰ পুত্ৰ চুচেনফাই ১৪৩৯–১৪৮৮ লৈকে ৰাজত্ব কৰিছিল"
+     "as": "চুফাকফা আৰু তিপাম কুমাৰীৰ পুত্ৰ চুচেনফাই ১৪৩৯–১৪৮৮ লৈকে ৰাজত্ব কৰে"
     },
     {
      "en": "At 49 years, one of the longest Ahom reigns",
-     "as": "৪৯ বছৰ: আহোমৰ আটাইতকৈ দীঘলীয়া ৰাজত্বৰ এটা"
+     "as": "৪৯ বছৰ, আটাইতকৈ দীঘলীয়া আহোম ৰাজত্বৰ এটা"
     },
     {
      "en": "Few records: probably a good king and a contented people",
-     "as": "লিখিত তথ্য কম: সম্ভৱতঃ ভাল ৰজা আৰু সুখী প্ৰজা"
+     "as": "কম তথ্য: সম্ভৱতঃ ভাল ৰজা আৰু সন্তুষ্ট প্ৰজা"
+    },
+    {
+     "en": "Do not confuse him with Susengphaa (Pratap Singha)",
+     "as": "চুচেংফা (প্ৰতাপ সিংহ)ৰ সৈতে খেলিমেলি নকৰিবা"
     }
    ],
    "steps": [
@@ -329,6 +333,88 @@
       "as": "এতিয়ালৈকে চুচেনফাৰ ৪৯ বছৰেই আটাইতকৈ দীঘলীয়া ৰাজত্ব।"
      },
      "id": "ssn.u1.06"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One name in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা নাম ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Susenphaa",
+       "created",
+       "the",
+       "office",
+       "of",
+       "Borbarua."
+      ],
+      "as": [
+       "চুচেনফাই",
+       "বৰবৰুৱা",
+       "পদ",
+       "সৃষ্টি",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 0,
+      "as": 0
+     },
+     "fix": {
+      "en": "→ Susengphaa (Pratap Singha)",
+      "as": "→ চুচেংফা (প্ৰতাপ সিংহ)"
+     },
+     "answerText": {
+      "en": "Susenphaa → Susengphaa",
+      "as": "চুচেনফা → চুচেংফা"
+     },
+     "why": {
+      "en": "The Borbarua was created by Susengphaa, that is Pratap Singha, in the 1600s.",
+      "as": "বৰবৰুৱা পদ ১৬০০ৰ দশকত চুচেংফা, অৰ্থাৎ প্ৰতাপ সিংহে সৃষ্টি কৰিছিল।"
+     },
+     "id": "ssn2.u1.07"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "My father was Suphakphaa.",
+       "as": "মোৰ পিতৃ চুফাকফা।"
+      },
+      {
+       "en": "My mother was a Tipam princess.",
+       "as": "মোৰ মাতৃ তিপাম কুমাৰী।"
+      },
+      {
+       "en": "I ruled for 49 years.",
+       "as": "মই ৪৯ বছৰ ৰাজত্ব কৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Susenphaa",
+       "as": "চুচেনফা"
+      },
+      {
+       "en": "Suhenphaa",
+       "as": "চুহেনফা"
+      },
+      {
+       "en": "Sukhaamphaa",
+       "as": "চুখাম্ফা"
+      },
+      {
+       "en": "Pratap Singha",
+       "as": "প্ৰতাপ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Susenphaa.",
+      "as": "চুচেনফা।"
+     },
+     "id": "ssn2.u1.08"
     }
    ]
   },
@@ -342,19 +428,19 @@
    "learned": [
     {
      "en": "The Tangsu Nagas raided Ahom villages",
-     "as": "টাংচু নগাই আহোম গাঁৱত লুটপাত চলাইছিল"
+     "as": "টাংচু নগাসকলে আহোম গাঁৱত আক্ৰমণ কৰিছিল"
     },
     {
      "en": "Susenphaa led the troops himself and routed them",
-     "as": "চুচেনফাই নিজে সৈন্য পৰিচালনা কৰি তেওঁলোকক পৰাস্ত কৰিছিল"
+     "as": "চুচেনফাই নিজে সৈন্য পৰিচালনা কৰি তেওঁলোকক বিধ্বস্ত কৰে"
     },
     {
      "en": "The Ahoms lost 140 men",
-     "as": "আহোমৰ ১৪০ জন সৈন্য নিহত হৈছিল"
+     "as": "আহোমে ১৪০ জন সৈন্য হেৰুৱায়"
     },
     {
      "en": "Another account: the king fled and the Banrukia Gohain won",
-     "as": "আন এক বিৱৰণ: ৰজা পলাইছিল আৰু বানৰুকীয়া গোহাঁইয়ে জিকিছিল"
+     "as": "আন এক বিৱৰণ: ৰজা পলাল আৰু বানৰুকীয়া গোহাঁইয়ে জয় কৰিলে"
     }
    ],
    "steps": [
@@ -544,12 +630,35 @@
       "as": "টাংচু নগা।"
      },
      "id": "ssn.u2.08"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Susenphaa's expedition?",
+      "as": "কোনখন ছবিত চুচেনফাৰ অভিযান দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "tangsu-expedition.webp",
+      "long-peace.webp",
+      "naga-gifts.webp",
+      "tangsu-raids.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The king leads his troops",
+      "as": "ৰজাই সৈন্য পৰিচালনা কৰে"
+     },
+     "why": {
+      "en": "The king at the head of the expedition. The raids came first; the gifts later.",
+      "as": "অভিযানৰ আগত ৰজা। আক্ৰমণ আগতে; উপহাৰ পিছত।"
+     },
+     "id": "ssn2.u2.09"
     }
    ]
   },
   {
    "id": "u3",
-   "icon": "star",
+   "icon": "hands",
    "title": {
     "en": "Gifts and swords",
     "as": "উপহাৰ আৰু তৰোৱাল"
@@ -557,15 +666,19 @@
    "learned": [
     {
      "en": "A ruler from the east sent gifts to make friends",
-     "as": "পূবৰ এজন ৰজাই বন্ধুত্বৰ বাবে উপহাৰ পঠিয়াইছিল"
+     "as": "পূবৰ এজন শাসকে বন্ধুত্বৰ বাবে উপহাৰ পঠালে"
     },
     {
      "en": "The Akhampa Nagas brought swords as a sign of submission",
-     "as": "আখাম্পা নগাই বশ্যতাৰ চিন হিচাপে তৰোৱাল আনিছিল"
+     "as": "আখাম্পা নগাসকলে বশ্যতাৰ চিন হিচাপে তৰোৱাল আনিলে"
     },
     {
      "en": "He died in 1488; his son Suhenphaa became king",
-     "as": "১৪৮৮ চনত তেওঁৰ মৃত্যু হয়; পুত্ৰ চুহেনফা ৰজা হয়"
+     "as": "১৪৮৮ চনত মৃত্যু; পুত্ৰ চুহেনফা ৰজা"
+    },
+    {
+     "en": "His long reign was remembered as a time of peace",
+     "as": "তেওঁৰ দীঘলীয়া ৰাজত্ব শান্তিৰ সময় হিচাপে স্মৰণীয়"
     }
    ],
    "steps": [
@@ -773,6 +886,261 @@
       "as": "চুচেনফাৰ ৰাজত্বকালৰ লোকসকল।"
      },
      "id": "ssn.u3.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "A ruler from the east sent Susenphaa gifts to make friends.",
+      "as": "পূবৰ এজন শাসকে বন্ধুত্বৰ বাবে চুচেনফালৈ উপহাৰ পঠাইছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True, says Gait, without naming the country.",
+      "as": "শুদ্ধ, গেইটৰ মতে; দেশৰ নাম উল্লেখ নাই।"
+     },
+     "id": "ssn2.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "star",
+   "title": {
+    "en": "The long reigns",
+    "as": "দীঘলীয়া ৰাজত্ব"
+   },
+   "learned": [
+    {
+     "en": "Longest: Sukhaamphaa, 51 years (1552–1603)",
+     "as": "আটাইতকৈ দীঘল: চুখাম্ফা, ৫১ বছৰ (১৫৫২–১৬০৩)"
+    },
+    {
+     "en": "Second: Susenphaa, 49 years (1439–1488)",
+     "as": "দ্বিতীয়: চুচেনফা, ৪৯ বছৰ (১৪৩৯–১৪৮৮)"
+    },
+    {
+     "en": "Then Suhungmung 42, Sukaphaa 40, Sukhaangphaa 39",
+     "as": "তাৰ পিছত চুহুংমুং ৪২, চুকাফা ৪০, চুখাংফা ৩৯"
+    },
+    {
+     "en": "Long reigns were often peaceful ones",
+     "as": "দীঘলীয়া ৰাজত্ব প্ৰায়ে শান্তিপূৰ্ণ আছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "art": "calendar",
+     "title": {
+      "en": "Who ruled longest?",
+      "as": "আটাইতকৈ দীঘলীয়া কাৰ?"
+     },
+     "text": [
+      {
+       "en": "Only one Ahom king ruled longer than Susenphaa: [[sukhaamphaa]], the Khora Roja, with <mark>51 years</mark>.",
+       "as": "চুচেনফাতকৈ দীঘলীয়া ৰাজত্ব মাত্ৰ এজন আহোম ৰজাৰ: খোৰা ৰজা [[sukhaamphaa]], <mark>৫১ বছৰ</mark>।"
+      },
+      {
+       "en": "After them come [[suhungmung]] (42), [[sukaphaa]] (40) and [[sukhaangphaa]] (39).",
+       "as": "তাৰ পিছত [[suhungmung]] (৪২), [[sukaphaa]] (৪০) আৰু [[sukhaangphaa]] (৩৯)।"
+      }
+     ],
+     "id": "ssn2.u4.01"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these reigns from longest to shortest.",
+      "as": "এই ৰাজত্বকালবোৰ দীঘলৰ পৰা চুটিলৈ সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Sukhaamphaa (51)",
+       "as": "চুখাম্ফা (৫১)"
+      },
+      {
+       "en": "Susenphaa (49)",
+       "as": "চুচেনফা (৪৯)"
+      },
+      {
+       "en": "Suhungmung (42)",
+       "as": "চুহুংমুং (৪২)"
+      },
+      {
+       "en": "Sukaphaa (40)",
+       "as": "চুকাফা (৪০)"
+      }
+     ],
+     "why": {
+      "en": "51 → 49 → 42 → 40.",
+      "as": "৫১ → ৪৯ → ৪২ → ৪০।"
+     },
+     "id": "ssn2.u4.02"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Which Ahom king had the longest reign?",
+      "as": "কোনজন আহোম ৰজাৰ ৰাজত্ব আটাইতকৈ দীঘল?"
+     },
+     "options": [
+      {
+       "en": "Sukhaamphaa",
+       "as": "চুখাম্ফা"
+      },
+      {
+       "en": "Susenphaa",
+       "as": "চুচেনফা"
+      },
+      {
+       "en": "Sukaphaa",
+       "as": "চুকাফা"
+      },
+      {
+       "en": "Rudra Singha",
+       "as": "ৰুদ্ৰ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sukhaamphaa, 51 years. Susenphaa is second with 49.",
+      "as": "চুখাম্ফা, ৫১ বছৰ। চুচেনফা ৪৯ বছৰেৰে দ্বিতীয়।"
+     },
+     "id": "ssn2.u4.03"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Consider the statements:<br>1. Susenphaa ruled longer than Sukaphaa.<br>2. Susenphaa had the longest reign of all Ahom kings.<br>Which is/are correct?",
+      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুচেনফাই চুকাফাতকৈ দীঘলীয়াকৈ ৰাজত্ব কৰিছিল।<br>২. চুচেনফাৰ ৰাজত্ব সকলো আহোম ৰজাৰ ভিতৰত আটাইতকৈ দীঘল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+     },
+     "options": [
+      {
+       "en": "1 only",
+       "as": "কেৱল ১"
+      },
+      {
+       "en": "2 only",
+       "as": "কেৱল ২"
+      },
+      {
+       "en": "Both 1 and 2",
+       "as": "১ আৰু ২ দুয়োটা"
+      },
+      {
+       "en": "Neither 1 nor 2",
+       "as": "১ বা ২ কোনোটো নহয়"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Only 1: 49 years against 40. The longest was Sukhaamphaa's 51.",
+      "as": "কেৱল ১: ৪৯ বনাম ৪০। আটাইতকৈ দীঘল চুখাম্ফাৰ ৫১।"
+     },
+     "small": true,
+     "id": "ssn2.u4.04"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "51 years",
+        "as": "৫১ বছৰ"
+       },
+       {
+        "en": "Sukhaamphaa",
+        "as": "চুখাম্ফা"
+       }
+      ],
+      [
+       {
+        "en": "49 years",
+        "as": "৪৯ বছৰ"
+       },
+       {
+        "en": "Susenphaa",
+        "as": "চুচেনফা"
+       }
+      ],
+      [
+       {
+        "en": "42 years",
+        "as": "৪২ বছৰ"
+       },
+       {
+        "en": "Suhungmung",
+        "as": "চুহুংমুং"
+       }
+      ],
+      [
+       {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+       },
+       {
+        "en": "Sukaphaa",
+        "as": "চুকাফা"
+       }
+      ]
+     ],
+     "why": {
+      "en": "The four longest reigns.",
+      "as": "চাৰিটা আটাইতকৈ দীঘলীয়া ৰাজত্ব।"
+     },
+     "id": "ssn2.u4.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sukaphaa ruled longer than Susenphaa.",
+      "as": "চুকাফাই চুচেনফাতকৈ দীঘলীয়াকৈ ৰাজত্ব কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Sukaphaa ruled 40 years (1228–1268); Susenphaa 49.",
+      "as": "অশুদ্ধ। চুকাফাই ৪০ বছৰ (১২২৮–১২৬৮); চুচেনফাই ৪৯ বছৰ।"
+     },
+     "id": "ssn2.u4.06"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Among all Ahom reigns, Susenphaa's was the",
+      "as": "সকলো আহোম ৰাজত্বৰ ভিতৰত চুচেনফাৰ ৰাজত্ব আছিল"
+     },
+     "after": {
+      "en": "longest.",
+      "as": "দীঘলীয়া।"
+     },
+     "options": [
+      {
+       "en": "1st",
+       "as": "প্ৰথম"
+      },
+      {
+       "en": "2nd",
+       "as": "দ্বিতীয়"
+      },
+      {
+       "en": "3rd",
+       "as": "তৃতীয়"
+      },
+      {
+       "en": "5th",
+       "as": "পঞ্চম"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Second longest, after Sukhaamphaa.",
+      "as": "চুখাম্ফাৰ পিছত দ্বিতীয়।"
+     },
+     "id": "ssn2.u4.07"
     }
    ]
   }
@@ -990,6 +1358,98 @@
      "as": "চুচেনফা (১৪৩৯–১৪৮৮)।"
     },
     "id": "ssn.test.06"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Who ruled longer than Susenphaa?",
+     "as": "চুচেনফাতকৈ কোনে দীঘলীয়াকৈ ৰাজত্ব কৰিছিল?"
+    },
+    "options": [
+     {
+      "en": "Sukhaamphaa",
+      "as": "চুখাম্ফা"
+     },
+     {
+      "en": "Sukaphaa",
+      "as": "চুকাফা"
+     },
+     {
+      "en": "Suhungmung",
+      "as": "চুহুংমুং"
+     },
+     {
+      "en": "Pratap Singha",
+      "as": "প্ৰতাপ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Sukhaamphaa, 51 years.",
+     "as": "চুখাম্ফা, ৫১ বছৰ।"
+    },
+    "id": "ssn2.test.07"
+   },
+   {
+    "type": "odd",
+    "q": {
+     "en": "Which is NOT linked to Susenphaa?",
+     "as": "কোনটো চুচেনফাৰ সৈতে জড়িত নহয়?"
+    },
+    "options": [
+     {
+      "en": "Tangsu Nagas",
+      "as": "টাংচু নগা"
+     },
+     {
+      "en": "Akhampa Nagas",
+      "as": "আখাম্পা নগা"
+     },
+     {
+      "en": "Banrukia Gohain",
+      "as": "বানৰুকীয়া গোহাঁই"
+     },
+     {
+      "en": "Borbarua",
+      "as": "বৰবৰুৱা"
+     }
+    ],
+    "answer": 3,
+    "why": {
+     "en": "The Borbarua was created by Pratap Singha (Susengphaa).",
+     "as": "বৰবৰুৱা পদ প্ৰতাপ সিংহ (চুচেংফা)ই সৃষ্টি কৰিছিল।"
+    },
+    "id": "ssn2.test.08"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kings in order.",
+     "as": "ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Suphakphaa",
+      "as": "চুফাকফা"
+     },
+     {
+      "en": "Susenphaa",
+      "as": "চুচেনফা"
+     },
+     {
+      "en": "Suhenphaa",
+      "as": "চুহেনফা"
+     },
+     {
+      "en": "Supimphaa",
+      "as": "চুপিম্ফা"
+     }
+    ],
+    "why": {
+     "en": "Kings 10, 11, 12, 13.",
+     "as": "১০, ১১, ১২, ১৩ নম্বৰ ৰজা।"
+    },
+    "id": "ssn2.test.09"
    }
   ]
  }

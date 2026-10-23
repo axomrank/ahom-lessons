@@ -1,7 +1,7 @@
 {
  "id": "tyao-khamti",
  "no": 7,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Tyao Khamti",
   "as": "স্বৰ্গদেউ ত্যাও খামতি"
@@ -23,7 +23,7 @@
    "used_for": "Same account; the elder queen's fate"
   }
  ],
- "review_notes": "The result of the Chutia campaign is disputed (Gait: victorious; the Chutia kingdom article: unsuccessful), so the lesson does not state or ask it.",
+ "review_notes": "The result of the Chutia campaign is disputed (Gait: victorious; the Chutia kingdom article: unsuccessful), so the lesson does not state or ask it. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles.",
  "buildsOn": {
   "no": 6,
   "title": {
@@ -140,25 +140,25 @@
    "id": "u1",
    "icon": "crown",
    "title": {
-    "en": "The two queens",
-    "as": "দুগৰাকী ৰাণী"
+    "en": "Chosen by the nobles",
+    "as": "বিষয়াই পতা ৰজা"
    },
    "learned": [
     {
-     "en": "The nobles made Tyao Khamti king in 1380",
-     "as": "১৩৮০ চনত ডাঙৰীয়াসকলে ত্যাও খামতিক ৰজা পাতিছিল"
+     "en": "In 1380 the nobles raised Tyao Khamti to the throne",
+     "as": "১৩৮০ চনত বিষয়াসকলে ত্যাও খামতিক সিংহাসনত বহুৱালে"
     },
     {
-     "en": "He marched against the Chutias to punish Sutuphaa's murder",
-     "as": "চুতুফাৰ হত্যাৰ শাস্তি দিবলৈ তেওঁ চুতীয়াৰ বিৰুদ্ধে অভিযান চলাইছিল"
+     "en": "He was the third son of Sukhaangphaa",
+     "as": "তেওঁ চুখাংফাৰ তৃতীয় পুত্ৰ"
     },
     {
-     "en": "The elder queen had the younger queen falsely accused",
-     "as": "ডাঙৰ ৰাণীয়ে সৰু ৰাণীৰ বিৰুদ্ধে মিছা অভিযোগ তুলিছিল"
+     "en": "The nobles found it hard to rule without a king",
+     "as": "ৰজা নোহোৱাকৈ শাসন কৰা বিষয়াসকলৰ বাবে কঠিন হৈছিল"
     },
     {
-     "en": "The ministers spared her and set her adrift on a raft",
-     "as": "মন্ত্ৰীসকলে তেওঁক নামাৰি ভূৰত উটাই দিছিল"
+     "en": "He marched against the Chutias to avenge Sutuphaa",
+     "as": "চুতুফাৰ হত্যাৰ প্ৰতিশোধ ল'বলৈ তেওঁ চুতীয়াৰ বিৰুদ্ধে গ'ল"
     }
    ],
    "steps": [
@@ -183,7 +183,7 @@
      "link": {
       "lesson": 6,
       "lessonId": "sutuphaa",
-      "unitNo": 1,
+      "unitNo": 2,
       "unitTitle": {
        "en": "Death on the Safrai",
        "as": "চাফ্ৰাইত মৃত্যু"
@@ -246,6 +246,145 @@
      },
      "id": "tyk.u1.03"
     },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Tyao Khamti was chosen king by the nobles.",
+      "as": "ত্যাও খামতিক বিষয়াসকলে ৰজা পাতিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. After four years without a king, the Gohains raised him to the throne.",
+      "as": "শুদ্ধ। চাৰি বছৰ ৰজা নোহোৱাৰ পিছত গোহাঁইসকলে তেওঁক সিংহাসনত বহুৱাইছিল।"
+     },
+     "id": "tyk2.u1.04"
+    },
+    {
+     "type": "inline",
+     "before": {
+      "en": "Tyao Khamti became king in",
+      "as": "ত্যাও খামতি ৰজা হৈছিল"
+     },
+     "after": {
+      "en": ".",
+      "as": "চনত।"
+     },
+     "options": [
+      {
+       "en": "1376",
+       "as": "১৩৭৬"
+      },
+      {
+       "en": "1380",
+       "as": "১৩৮০"
+      },
+      {
+       "en": "1389",
+       "as": "১৩৮৯"
+      },
+      {
+       "en": "1397",
+       "as": "১৩৯৭"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "1380.",
+      "as": "১৩৮০।"
+     },
+     "big": true,
+     "id": "tyk2.u1.05"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was the third son of Sukhaangphaa.",
+       "as": "মই চুখাংফাৰ তৃতীয় পুত্ৰ।"
+      },
+      {
+       "en": "The nobles made me king in 1380.",
+       "as": "১৩৮০ চনত বিষয়াসকলে মোক ৰজা পাতিছিল।"
+      },
+      {
+       "en": "I marched against the Chutias.",
+       "as": "মই চুতীয়াৰ বিৰুদ্ধে অভিযান কৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Tyao Khamti",
+       "as": "ত্যাও খামতি"
+      },
+      {
+       "en": "Sutuphaa",
+       "as": "চুতুফা"
+      },
+      {
+       "en": "Sudangphaa",
+       "as": "চুদাংফা"
+      },
+      {
+       "en": "Chao Pulai",
+       "as": "চাও পুলাই"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Tyao Khamti (1380–1389).",
+      "as": "ত্যাও খামতি (১৩৮০–১৩৮৯)।"
+     },
+     "id": "tyk2.u1.06"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the centre of the kingdom Tyao Khamti marched against.",
+      "as": "ত্যাও খামতিয়ে আক্ৰমণ কৰা ৰাজ্যৰ কেন্দ্ৰ টিপা।"
+     },
+     "target": "sadiya",
+     "choices": [
+      "sadiya",
+      "charaideo"
+     ],
+     "answerText": {
+      "en": "Sadiya",
+      "as": "সদিয়া"
+     },
+     "why": {
+      "en": "Sadiya, centre of the Chutias.",
+      "as": "চুতীয়াৰ কেন্দ্ৰ সদিয়া।"
+     },
+     "id": "tyk2.u1.07"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "moon",
+   "title": {
+    "en": "The two queens",
+    "as": "দুগৰাকী ৰাণী"
+   },
+   "learned": [
+    {
+     "en": "The elder queen ruled while the king was away",
+     "as": "ৰজা নথকাত জ্যেষ্ঠ ৰাণীয়ে দায়িত্ব ল'লে"
+    },
+    {
+     "en": "She had a false charge brought against the younger queen",
+     "as": "তেওঁ সৰু ৰাণীৰ বিৰুদ্ধে মিছা অভিযোগ আনিলে"
+    },
+    {
+     "en": "She ordered the younger queen to be beheaded",
+     "as": "তেওঁ সৰু ৰাণীৰ মূৰ কাটিবলৈ আদেশ দিলে"
+    },
+    {
+     "en": "Seeing she was pregnant, the ministers set her adrift on a raft",
+     "as": "গৰ্ভৱতী দেখি মন্ত্ৰীসকলে তেওঁক ভুৰত উটুৱাই দিলে"
+    }
+   ],
+   "steps": [
     {
      "type": "story",
      "title": {
@@ -357,11 +496,119 @@
       "as": "ব্ৰহ্মপুত্ৰত ভূৰত তুলি। ভূৰখন মনত ৰাখিবা: পিছৰ পাঠত ই গুৰুত্বপূৰ্ণ।"
      },
      "id": "tyk.u1.08"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Why did the ministers not behead the younger queen?",
+      "as": "মন্ত্ৰীসকলে সৰু ৰাণীৰ মূৰ কিয় কটা নাছিল?"
+     },
+     "options": [
+      {
+       "en": "She was pregnant",
+       "as": "তেওঁ গৰ্ভৱতী আছিল"
+      },
+      {
+       "en": "The king forbade it",
+       "as": "ৰজাই নিষেধ কৰিছিল"
+      },
+      {
+       "en": "She escaped",
+       "as": "তেওঁ পলাইছিল"
+      },
+      {
+       "en": "She was proved innocent at once",
+       "as": "লগে লগে নিৰ্দোষ প্ৰমাণিত"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "They saw she was carrying the king's child.",
+      "as": "তেওঁলোকে দেখিলে তেওঁ ৰজাৰ সন্তান গৰ্ভত ধৰিছে।"
+     },
+     "id": "tyk2.u2.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the queen set adrift?",
+      "as": "কোনখন ছবিত ৰাণীক উটুৱাই দিয়া দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "queen-adrift.webp",
+      "chutia-campaign.webp",
+      "fall.webp",
+      "second-interregnum.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The raft on the river",
+      "as": "নদীত ভুৰ"
+     },
+     "why": {
+      "en": "The raft on the Brahmaputra.",
+      "as": "ব্ৰহ্মপুত্ৰত ভুৰ।"
+     },
+     "id": "tyk2.u2.07"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Elder queen",
+        "as": "জ্যেষ্ঠ ৰাণী"
+       },
+       {
+        "en": "Brought a false charge",
+        "as": "মিছা অভিযোগ আনিলে"
+       }
+      ],
+      [
+       {
+        "en": "Younger queen",
+        "as": "সৰু ৰাণী"
+       },
+       {
+        "en": "Set adrift on a raft",
+        "as": "ভুৰত উটুৱাই দিয়া হ'ল"
+       }
+      ],
+      [
+       {
+        "en": "Ministers",
+        "as": "মন্ত্ৰী"
+       },
+       {
+        "en": "Spared her life",
+        "as": "প্ৰাণ ৰক্ষা কৰিলে"
+       }
+      ],
+      [
+       {
+        "en": "Tyao Khamti",
+        "as": "ত্যাও খামতি"
+       },
+       {
+        "en": "Away at war",
+        "as": "যুদ্ধত আছিল"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Who did what while the king was away.",
+      "as": "ৰজা নথকাত কোনে কি কৰিছিল।"
+     },
+     "id": "tyk2.u2.08"
     }
    ]
   },
   {
-   "id": "u2",
+   "id": "u3",
    "icon": "flag",
    "title": {
     "en": "The king falls",
@@ -370,19 +617,19 @@
    "learned": [
     {
      "en": "An inquiry showed the charge was false",
-     "as": "তদন্তত অভিযোগ মিছা বুলি প্ৰমাণ হ'ল"
+     "as": "তদন্তত অভিযোগ মিছা প্ৰমাণিত হ'ল"
     },
     {
      "en": "The king did not act against the elder queen, who oppressed many",
-     "as": "অত্যাচাৰী ডাঙৰ ৰাণীৰ বিৰুদ্ধে ৰজাই একো ব্যৱস্থা লোৱা নাছিল"
+     "as": "ৰজাই বহুতক অত্যাচাৰ কৰা জ্যেষ্ঠ ৰাণীৰ বিৰুদ্ধে ব্যৱস্থা নল'লে"
     },
     {
      "en": "In 1389 the nobles had him killed",
-     "as": "১৩৮৯ চনত ডাঙৰীয়াসকলে তেওঁক হত্যা কৰাইছিল"
+     "as": "১৩৮৯ চনত বিষয়াসকলে তেওঁক হত্যা কৰালে"
     },
     {
-     "en": "No king again from 1389 to 1397",
-     "as": "১৩৮৯ৰ পৰা ১৩৯৭ লৈকে আকৌ ৰজা নাছিল"
+     "en": "No king again from 1389 to 1397; the raft's story goes on",
+     "as": "১৩৮৯–১৩৯৭ পুনৰ ৰজা নাছিল; ভুৰৰ কাহিনী আগবাঢ়ে"
     }
    ],
    "steps": [
@@ -614,6 +861,63 @@
      },
      "id": "tyk.u2.07",
      "big": true
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "The",
+       "younger",
+       "queen's",
+       "raft",
+       "sank",
+       "in",
+       "the",
+       "Brahmaputra."
+      ],
+      "as": [
+       "সৰু",
+       "ৰাণীৰ",
+       "ভুৰখন",
+       "ব্ৰহ্মপুত্ৰত",
+       "ডুবি",
+       "গ'ল।"
+      ]
+     },
+     "wrong": {
+      "en": 4,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ floated to Habung",
+      "as": "→ হাবুঙলৈ উটি গ'ল"
+     },
+     "answerText": {
+      "en": "sank → floated",
+      "as": "ডুবি গ'ল → উটি গ'ল"
+     },
+     "why": {
+      "en": "The raft floated to a village in Habung, where her son Sudang was born.",
+      "as": "ভুৰখন হাবুঙৰ এখন গাঁৱলৈ উটি গৈছিল, য'ত তেওঁৰ পুত্ৰ চুদাঙৰ জন্ম হয়।"
+     },
+     "id": "tyk2.u3.08",
+     "link": {
+      "lesson": 8,
+      "lessonId": "sudangphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The lost prince",
+       "as": "হেৰুৱা কোঁৱৰ"
+      },
+      "note": {
+       "en": "The raft came ashore in Habung; Sudang was born there.",
+       "as": "ভুৰখন হাবুঙত লাগিছিল; তাতে চুদাঙৰ জন্ম হয়।"
+      }
+     }
     }
    ]
   }
@@ -777,6 +1081,117 @@
      "as": "পিতৃ, তাৰ পিছত তেওঁৰ তিনিজন পুত্ৰ পালেপতি।"
     },
     "id": "tyk.test.05"
+   },
+   {
+    "type": "inline",
+    "before": {
+     "en": "Tyao Khamti was killed in",
+     "as": "ত্যাও খামতিক হত্যা কৰা হৈছিল"
+    },
+    "after": {
+     "en": ".",
+     "as": "চনত।"
+    },
+    "options": [
+     {
+      "en": "1376",
+      "as": "১৩৭৬"
+     },
+     {
+      "en": "1380",
+      "as": "১৩৮০"
+     },
+     {
+      "en": "1389",
+      "as": "১৩৮৯"
+     },
+     {
+      "en": "1397",
+      "as": "১৩৯৭"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "1389.",
+     "as": "১৩৮৯।"
+    },
+    "big": true,
+    "id": "tyk2.test.06"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Who ruled while Tyao Khamti was at war?",
+     "as": "ত্যাও খামতি যুদ্ধত থাকোঁতে কোনে দায়িত্ব লৈছিল?"
+    },
+    "options": [
+     {
+      "en": "The elder queen",
+      "as": "জ্যেষ্ঠ ৰাণী"
+     },
+     {
+      "en": "The younger queen",
+      "as": "সৰু ৰাণী"
+     },
+     {
+      "en": "Chao Pulai",
+      "as": "চাও পুলাই"
+     },
+     {
+      "en": "The Chutia king",
+      "as": "চুতীয়া ৰজা"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "The elder queen.",
+     "as": "জ্যেষ্ঠ ৰাণী।"
+    },
+    "id": "tyk2.test.07"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Sutuphaa",
+       "as": "চুতুফা"
+      },
+      {
+       "en": "Killed by the Chutia king",
+       "as": "চুতীয়া ৰজাৰ হাতত নিহত"
+      }
+     ],
+     [
+      {
+       "en": "Tyao Khamti",
+       "as": "ত্যাও খামতি"
+      },
+      {
+       "en": "Killed by his nobles",
+       "as": "বিষয়াৰ হাতত নিহত"
+      }
+     ],
+     [
+      {
+       "en": "Sukhrangphaa",
+       "as": "চুখ্ৰাংফা"
+      },
+      {
+       "en": "Died after 32 years",
+       "as": "৩২ বছৰৰ পিছত মৃত্যু"
+      }
+     ]
+    ],
+    "why": {
+     "en": "How three brothers' reigns ended.",
+     "as": "তিনি ভাইৰ ৰাজত্বৰ অন্ত কেনেকৈ হৈছিল।"
+    },
+    "id": "tyk2.test.08"
    }
   ]
  }
