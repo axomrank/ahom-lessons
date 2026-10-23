@@ -622,7 +622,7 @@ function finishUnit() {
     const pass = U.asked && U.ok / U.asked >= 0.8;
     if (pass) {
       G.checkpoints[L.era.id] = true;
-      if (params.has("testout")) Object.entries(L.eraUnits).forEach(([id, units]) => { const Pl = AXOM.getLesson(id); units.forEach((u) => (Pl.done[u] = true)); AXOM.store.set(`axom:lesson:${id}`, Pl); });
+      Object.entries(L.eraUnits).forEach(([id, units]) => { const Pl = AXOM.getLesson(id); units.forEach((u) => (Pl.done[u] = true)); AXOM.store.set(`axom:lesson:${id}`, Pl); });
     }
     note = pass ? T(B(params.has("testout") ? "Passed! The lessons of this era are marked complete." : "Passed! Era checkpoint complete.", params.has("testout") ? "উত্তীৰ্ণ! এই যুগৰ পাঠবোৰ সম্পূৰ্ণ বুলি চিহ্নিত কৰা হ'ল।" : "উত্তীৰ্ণ! যুগৰ পৰীক্ষা সম্পূৰ্ণ।"))
       : T(B("You need 80% to pass. Review the lessons and try again.", "উত্তীৰ্ণ হ'বলৈ ৮০% লাগে। পাঠবোৰ আকৌ চাই পুনৰ চেষ্টা কৰা।"));
@@ -635,12 +635,15 @@ function finishUnit() {
     note = pass ? T(mode === "jump" ? B("Passed! The lessons before it are marked complete.", "উত্তীৰ্ণ! আগৰ পাঠবোৰ সম্পূৰ্ণ বুলি চিহ্নিত কৰা হ'ল।") : B("Passed! This lesson is marked complete.", "উত্তীৰ্ণ! এই পাঠটো সম্পূৰ্ণ বুলি চিহ্নিত কৰা হ'ল।"))
       : T(B("You need 80% to pass. Do the units first, or try again later.", "উত্তীৰ্ণ হ'বলৈ ৮০% লাগে। আগতে অধ্যায়বোৰ কৰা, বা পিছত আকৌ চেষ্টা কৰা।"));
   }
+  // Passing a lesson test, however it was taken (after the units, as a test-out, or as practice), completes the lesson,
+  // so the first unit of the next lesson opens.
+  if (!VIRTUAL && u === L.test && U.asked && U.ok / U.asked >= 0.8) P.done.test = true;
   saveAll();
   SFX.done();
   const secs = Math.round((Date.now() - U.start) / 1000), time = `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
   const allDone = !VIRTUAL && ALL.every((x) => P.done[x.id]);
-  const go = mode === "jump" && pass ? { id: L.target.id, label: B(`Start lesson ${L.target.n} · ${L.target.name.en}`, `পাঠ ${asNum(L.target.n)} আৰম্ভ কৰা · ${L.target.name.as}`) }
-    : !VIRTUAL && u === L.test && allDone && NEXT ? { id: NEXT.id, label: B(`Next lesson · ${NEXT.name.en}`, `পৰৱৰ্তী পাঠ · ${NEXT.name.as}`) } : null;
+  const go = mode === "jump" && pass ? { id: L.target.id, start: true, label: B(`Start lesson ${L.target.n} · ${L.target.name.en}`, `পাঠ ${asNum(L.target.n)} আৰম্ভ কৰা · ${L.target.name.as}`) }
+    : !VIRTUAL && u === L.test && P.done.test && NEXT ? { id: NEXT.id, start: true, label: B(`Next: Lesson ${NEXT.n} · ${NEXT.name.en.split(" (")[0]}, Unit 1`, `পৰৱৰ্তী: পাঠ ${asNum(NEXT.n)} · ${NEXT.name.as.split(" (")[0]}, অধ্যায় ১`) } : null;
   const promptOf = (s) => s.q || s.s || (s.before ? B(`${s.before.en} ___ ${s.after.en}`, `${s.before.as} ___ ${s.after.as}`) : s.clues ? s.clues[0] : B("", ""));
   const title = mode === "review" ? B("Review complete!", "পুনৰীক্ষণ সম্পূৰ্ণ!") : mode === "checkpoint" ? B("Checkpoint finished", "যুগৰ পৰীক্ষা শেষ") : pass === false ? B("Not this time", "এইবাৰ নহ'ল") : mode === "jump" ? B("Jumped ahead!", "আগলৈ জঁপিয়ালা!") : U.practice ? B("Practice complete!", "অনুশীলন সম্পূৰ্ণ!") : u === L.test && allDone ? B("Lesson complete!", "পাঠ সম্পূৰ্ণ!") : B("Unit complete!", "অধ্যায় সম্পূৰ্ণ!");
   $("#done").innerHTML = `
@@ -648,7 +651,7 @@ function finishUnit() {
     <h1>${T(title)}</h1>
     <p class="sub">${T(u.title)}${wasDone && !U.practice && !VIRTUAL ? " · " + T(B("practice", "অনুশীলন")) : ""}</p>
     ${note ? `<p class="cp-note">${note}</p>` : ""}
-    ${go ? `<a class="btn next-lesson" href="lesson.html?id=${go.id}">${T(go.label)} ›</a>` : ""}
+    ${go ? `<a class="btn next-lesson" href="lesson.html?id=${go.id}${go.start ? "&start=0" : ""}">${T(go.label)} ›</a>` : ""}
     <div class="stats">
       <div class="stat" style="--c:var(--gold)"><div class="h">XP</div><div class="v">+${N(U.xp)}</div></div>
       <div class="stat" style="--c:var(--good)"><div class="h">${T(B("Correct", "শুদ্ধ"))}</div><div class="v">${N(`${U.ok}/${U.asked}`)}</div></div>
