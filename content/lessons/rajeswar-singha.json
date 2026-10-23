@@ -1,0 +1,1254 @@
+{
+ "id": "rajeswar-singha",
+ "no": 33,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Rajeswar Singha",
+  "as": "স্বৰ্গদেউ ৰাজেশ্বৰ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1751–1769",
+  "as": "ৰাজত্বকাল ১৭৫১–১৭৬৯"
+ },
+ "portrait": "rajeswar-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VII, pp. 180–183",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Barjana Gohain passed over (pitted with small-pox) and exiled; Rajesvar Singh (Surampha); palace at Rangpur and a second at Taimung; government left to Kirti Chandra Bar Barua; Buranjis examined and burnt; plot against the Bar Barua; 1758 Dafla raids and blockade; 1765 Mikir expedition; Kachari king Sandhikari; Jai Singh of Manipur's appeal; first expedition through the hills fails; 1768 second force via Raha restores Jai Singh; a Manipuri princess given in marriage; Magaluhat; 1769 Jaintia threat; died after twenty days' illness; signs of decay; Nati Gosain"
+  },
+  {
+   "title": "Rajeswar Singha",
+   "url": "https://en.wikipedia.org/wiki/Rajeswar_Singha",
+   "used_for": "Kareng Ghar rebuilt 1752; Talatal Ghar enlarged; Lata-Kata Ran; Kuranganayani"
+  }
+ ],
+ "review_notes": "'Lata-Kata Ran' (the war of cutting creepers) for the failed first Manipur expedition is the popular name used by the AHOM catalogue and Wikipedia; Gait describes it without the name.",
+ "buildsOn": {
+  "no": 30,
+  "title": {
+   "en": "Rudra Singha",
+   "as": "ৰুদ্ৰ সিংহ"
+  },
+  "id": "rudra-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1751",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1752",
+    "t": {
+     "en": "Kareng Ghar rebuilt at Garhgaon",
+     "as": "গড়গাঁৱত কাৰেং ঘৰ পুনৰ নিৰ্মাণ"
+    }
+   },
+   {
+    "y": "1765",
+    "t": {
+     "en": "First Manipur expedition fails in the hills",
+     "as": "প্ৰথম মণিপুৰ অভিযান পাহাৰত বিফল"
+    }
+   },
+   {
+    "y": "1768",
+    "t": {
+     "en": "Jai Singh restored in Manipur",
+     "as": "মণিপুৰত জয় সিংহ পুনৰ প্ৰতিষ্ঠিত"
+    }
+   },
+   {
+    "y": "1769",
+    "t": {
+     "en": "Dies",
+     "as": "মৃত্যু"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   91.8,
+   24.5,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "kapili",
+   "garhgaon",
+   "rangpur",
+   "manipur",
+   "maibong"
+  ],
+  "routes": [
+   [
+    [
+     26.3,
+     92.6
+    ],
+    [
+     25.5,
+     93.0
+    ],
+    "manipur"
+   ]
+  ],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "e"
+   },
+   "rangpur": {
+    "pos": "w"
+   },
+   "manipur": {
+    "pos": "e"
+   },
+   "maibong": {
+    "pos": "w"
+   },
+   "kapili": {
+    "at": [
+     25.9,
+     92.85
+    ],
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     26.62,
+     93.4
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A king who loved palaces",
+    "as": "ৰাজপ্ৰসাদপ্ৰেমী ৰজা"
+   },
+   "learned": [
+    {
+     "en": "Rajeswar Singha (Suremphaa) became king in 1751",
+     "as": "ৰাজেশ্বৰ সিংহ (চুৰেমফা) ১৭৫১ চনত ৰজা হ'ল"
+    },
+    {
+     "en": "An elder brother, scarred by smallpox, could not rule",
+     "as": "বসন্তৰ দাগ থকা এজন ককাই ৰজা হ'ব নোৱাৰিলে"
+    },
+    {
+     "en": "He rebuilt the Kareng Ghar at Garhgaon (1752)",
+     "as": "তেওঁ গড়গাঁৱত কাৰেং ঘৰ পুনৰ নিৰ্মাণ কৰিলে (১৭৫২)"
+    },
+    {
+     "en": "He enlarged the Talatal Ghar at Rangpur",
+     "as": "তেওঁ ৰংপুৰৰ তলাতল ঘৰ বঢ়ালে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "accession.webp",
+     "title": {
+      "en": "A scar decides",
+      "as": "দাগে নিৰ্ণয় কৰে"
+     },
+     "text": [
+      {
+       "en": "When Pramatta died in <mark>1751</mark>, the next brother, Barjana Gohain, was passed over: he was <mark>pitted with smallpox</mark>, and a king had to be without blemish.",
+       "as": "<mark>১৭৫১</mark> চনত প্ৰমত্তৰ মৃত্যুৰ পিছত পৰৱৰ্তী ভাই বৰজনা গোহাঁইক এৰি দিয়া হ'ল: তেওঁৰ গাত <mark>বসন্তৰ দাগ</mark> আছিল, আৰু ৰজাৰ শৰীৰত খুঁত থাকিব নালাগিছিল।"
+      },
+      {
+       "en": "So [[rajeswar-singha]] (Suremphaa) was crowned. His first act: exile Barjana to Namrup.",
+       "as": "সেয়ে [[rajeswar-singha]] (চুৰেমফা)ৰ অভিষেক হ'ল। তেওঁৰ প্ৰথম কাম: বৰজনাক নামৰূপলৈ নিৰ্বাসন।"
+      }
+     ],
+     "id": "rjs.u1.01",
+     "link": {
+      "lesson": 28,
+      "lessonId": "sulikphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The hunt for princes",
+       "as": "কোঁৱৰ চিকাৰ"
+      },
+      "note": {
+       "en": "The 'no blemish' rule was why the Lora Roja maimed princes.",
+       "as": "'খুঁত নচলে' নিয়মৰ বাবেই লৰা ৰজাই কোঁৱৰক অংগহানি কৰাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Barjana Gohain was passed over because of smallpox scars.",
+      "as": "বসন্তৰ দাগৰ বাবে বৰজনা গোহাঁইক এৰি দিয়া হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: a king had to be without blemish.",
+      "as": "শুদ্ধ: ৰজাৰ শৰীৰত খুঁত থাকিব নালাগে।"
+     },
+     "id": "rjs.u1.02"
+    },
+    {
+     "type": "story",
+     "img": "kareng-ghar.webp",
+     "title": {
+      "en": "Palaces of brick",
+      "as": "ইটাৰ ৰাজপ্ৰসাদ"
+     },
+     "text": [
+      {
+       "en": "Rajeswar loved to build. In <mark>1752</mark> he rebuilt the [[kareng-ghar]] at Garhgaon in brick, and he enlarged the [[talatal-ghar]] at Rangpur.",
+       "as": "ৰাজেশ্বৰে নিৰ্মাণ ভাল পাইছিল। <mark>১৭৫২</mark> চনত তেওঁ গড়গাঁৱত ইটাৰে [[kareng-ghar]] পুনৰ সাজিলে, আৰু ৰংপুৰৰ [[talatal-ghar]] বঢ়ালে।"
+      }
+     ],
+     "id": "rjs.u1.03"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each building to its place.",
+      "as": "প্ৰতিটো নিৰ্মাণ ঠাইৰ সৈতে মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Kareng Ghar",
+        "as": "কাৰেং ঘৰ"
+       },
+       {
+        "en": "Garhgaon",
+        "as": "গড়গাঁও"
+       }
+      ],
+      [
+       {
+        "en": "Talatal Ghar",
+        "as": "তলাতল ঘৰ"
+       },
+       {
+        "en": "Rangpur, palace",
+        "as": "ৰংপুৰ, ৰাজপ্ৰসাদ"
+       }
+      ],
+      [
+       {
+        "en": "Rang Ghar",
+        "as": "ৰংঘৰ"
+       },
+       {
+        "en": "Rangpur, pavilion of games",
+        "as": "ৰংপুৰ, খেলৰ মণ্ডপ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Three famous Ahom buildings and where they stand.",
+      "as": "তিনিটা বিখ্যাত আহোম নিৰ্মাণ আৰু সিহঁতৰ ঠাই।"
+     },
+     "id": "rjs.u1.04"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Garhgaon, home of the Kareng Ghar.",
+      "as": "কাৰেং ঘৰ থকা গড়গাঁও টিপা।"
+     },
+     "target": "garhgaon",
+     "choices": [
+      "garhgaon",
+      "rangpur",
+      "maibong",
+      "manipur"
+     ],
+     "answerText": {
+      "en": "Garhgaon",
+      "as": "গড়গাঁও"
+     },
+     "why": {
+      "en": "Garhgaon, near Nazira.",
+      "as": "নাজিৰাৰ ওচৰৰ গড়গাঁও।"
+     },
+     "id": "rjs.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the Kareng Ghar being rebuilt?",
+      "as": "কোনখন ছবিত কাৰেং ঘৰ পুনৰ নিৰ্মাণ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "kareng-ghar.webp",
+      "talatal-ghar.webp",
+      "burning.webp",
+      "wedding.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The Kareng Ghar",
+      "as": "কাৰেং ঘৰ"
+     },
+     "why": {
+      "en": "1752.",
+      "as": "১৭৫২।"
+     },
+     "id": "rjs.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "moon",
+   "title": {
+    "en": "The burning of the Buranjis",
+    "as": "বুৰঞ্জী দহন"
+   },
+   "learned": [
+    {
+     "en": "The king left government to the Borbarua, Kirti Chandra",
+     "as": "ৰজাই শাসন বৰবৰুৱা কীৰ্তিচন্দ্ৰৰ হাতত এৰিলে"
+    },
+    {
+     "en": "A Buranji questioned Kirti Chandra's family origin",
+     "as": "এখন বুৰঞ্জীত কীৰ্তিচন্দ্ৰৰ বংশ লৈ প্ৰশ্ন তোলা হৈছিল"
+    },
+    {
+     "en": "He had the Buranjis examined, and those he disliked were burnt",
+     "as": "তেওঁ বুৰঞ্জী পৰীক্ষা কৰালে, অপছন্দৰবোৰ জ্বলোৱা হ'ল"
+    },
+    {
+     "en": "A plot to kill him failed; the plotters were cruelly punished",
+     "as": "তেওঁক হত্যাৰ ষড়যন্ত্ৰ বিফল; ষড়যন্ত্ৰকাৰীক নিষ্ঠুৰ শাস্তি"
+    }
+   ],
+   "steps": [
+    {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match each palace.",
+      "as": "মনত পেলোৱা: ৰাজপ্ৰসাদ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Kareng Ghar",
+        "as": "কাৰেং ঘৰ"
+       },
+       {
+        "en": "Garhgaon",
+        "as": "গড়গাঁও"
+       }
+      ],
+      [
+       {
+        "en": "Talatal Ghar",
+        "as": "তলাতল ঘৰ"
+       },
+       {
+        "en": "Rangpur",
+        "as": "ৰংপুৰ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall.",
+      "as": "মনত পেলোৱা।"
+     },
+     "id": "rjs.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A king who loved palaces.",
+       "as": "ৰাজপ্ৰসাদপ্ৰেমী ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "burning.webp",
+     "title": {
+      "en": "History on fire",
+      "as": "জ্বলি থকা ইতিহাস"
+     },
+     "text": [
+      {
+       "en": "Rajeswar preferred pleasure to work and left the kingdom to his Borbarua, [[kirti-chandra]].",
+       "as": "ৰাজেশ্বৰে কামতকৈ আমোদ ভাল পাইছিল আৰু ৰাজ্য বৰবৰুৱা [[kirti-chandra]]ৰ হাতত এৰিছিল।"
+      },
+      {
+       "en": "A Buranji by a noble cast doubt on Kirti Chandra's ancestry. He got the king's leave to examine every Buranji, and those with 'objectionable' passages were <mark>burnt</mark>.",
+       "as": "এজন বিষয়াৰ বুৰঞ্জীত কীৰ্তিচন্দ্ৰৰ বংশ লৈ সন্দেহ প্ৰকাশ কৰা হৈছিল। তেওঁ ৰজাৰ অনুমতি লৈ সকলো বুৰঞ্জী পৰীক্ষা কৰালে, আৰু 'আপত্তিজনক' অংশ থকাবোৰ <mark>জ্বলোৱা</mark> হ'ল।"
+      }
+     ],
+     "id": "rjs.u2.02",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Running the kingdom",
+       "as": "ৰাজ্য পৰিচালনা"
+      },
+      "note": {
+       "en": "The Buranji tradition began with Sukaphaa.",
+       "as": "বুৰঞ্জী পৰম্পৰা চুকাফাৰ পৰা আৰম্ভ।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Rajeswar Singha's Borbarua.",
+       "as": "মই ৰাজেশ্বৰ সিংহৰ বৰবৰুৱা।"
+      },
+      {
+       "en": "I had Buranjis burnt.",
+       "as": "মই বুৰঞ্জী জ্বলাইছিলোঁ।"
+      },
+      {
+       "en": "My arrogance helped start a rebellion.",
+       "as": "মোৰ অহংকাৰে বিদ্ৰোহৰ জুই জ্বলাইছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Kirti Chandra",
+       "as": "কীৰ্তিচন্দ্ৰ"
+      },
+      {
+       "en": "Momai Tamuli",
+       "as": "মোমাই তামুলী"
+      },
+      {
+       "en": "Debera",
+       "as": "দেবেৰা"
+      },
+      {
+       "en": "Atan Burhagohain",
+       "as": "আতন বুঢ়াগোহাঁই"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Kirti Chandra Borbarua.",
+      "as": "কীৰ্তিচন্দ্ৰ বৰবৰুৱা।"
+     },
+     "id": "rjs.u2.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Buranjis were burnt to protect the king's honour.",
+      "as": "ৰজাৰ সন্মান ৰক্ষাৰ বাবে বুৰঞ্জী জ্বলোৱা হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. It began with doubts about the Borbarua's own ancestry, though he argued the king's origins could be attacked next.",
+      "as": "অশুদ্ধ। বৰবৰুৱাৰ নিজৰ বংশৰ সন্দেহৰ পৰা আৰম্ভ, যদিও তেওঁ পিছত ৰজাৰ বংশকো আক্ৰমণ কৰিব পাৰে বুলি যুক্তি দিছিল।"
+     },
+     "id": "rjs.u2.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A failed plot",
+      "as": "বিফল ষড়যন্ত্ৰ"
+     },
+     "text": [
+      {
+       "en": "Nobles plotted to kill Kirti Chandra as he entered the palace. He escaped with a few wounds. The plotters were impaled, fried in oil, or had noses and ears cut off.",
+       "as": "ৰাজপ্ৰসাদত সোমাওঁতে কীৰ্তিচন্দ্ৰক হত্যাৰ ষড়যন্ত্ৰ হ'ল। তেওঁ সামান্য আঘাতেৰে ৰক্ষা পৰিল। ষড়যন্ত্ৰকাৰীক শূলত দিয়া হ'ল, তেলত ভজা হ'ল, বা নাক-কাণ কটা হ'ল।"
+      }
+     ],
+     "id": "rjs.u2.05"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble what was burnt.",
+      "as": "কি জ্বলোৱা হৈছিল সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "B",
+       "U",
+       "R",
+       "A",
+       "N",
+       "J",
+       "I"
+      ],
+      "as": [
+       "বু",
+       "ৰ",
+       "ঞ্জী"
+      ]
+     },
+     "answerText": {
+      "en": "BURANJI",
+      "as": "বুৰঞ্জী"
+     },
+     "why": {
+      "en": "Buranjis, the court chronicles.",
+      "as": "বুৰঞ্জী, ৰাজসভাৰ ইতিহাস।"
+     },
+     "id": "rjs.u2.06"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "hill",
+   "title": {
+    "en": "Help for Manipur",
+    "as": "মণিপুৰৰ সহায়"
+   },
+   "learned": [
+    {
+     "en": "The Burmese drove Jai Singh from Manipur; he asked the Ahoms for help",
+     "as": "বাৰ্মাই জয় সিংহক মণিপুৰৰ পৰা খেদিলে; তেওঁ আহোমৰ সহায় বিচাৰিলে"
+    },
+    {
+     "en": "The first army, cutting through jungle hills, failed: the 'Lata-Kata Ran'",
+     "as": "জংঘলৰ পাহাৰ কাটি যোৱা প্ৰথম সৈন্য বিফল: 'লতা-কটা ৰণ'"
+    },
+    {
+     "en": "In 1768 a second army via Raha helped restore Jai Singh",
+     "as": "১৭৬৮ চনত ৰহাৰ বাটেৰে দ্বিতীয় সৈন্যই জয় সিংহক পুনৰ প্ৰতিষ্ঠা কৰাত সহায় কৰিলে"
+    },
+    {
+     "en": "Jai Singh gave Rajeswar his daughter, Kuranganayani",
+     "as": "জয় সিংহই ৰাজেশ্বৰক জীয়েক কুৰংগনয়নীক দিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I had Buranjis burnt.",
+       "as": "মনত পেলোৱা: মই বুৰঞ্জী জ্বলাইছিলোঁ।"
+      },
+      {
+       "en": "I was Borbarua.",
+       "as": "মই বৰবৰুৱা।"
+      },
+      {
+       "en": "Nobles tried to kill me.",
+       "as": "বিষয়াই মোক হত্যাৰ চেষ্টা কৰিছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Kirti Chandra",
+       "as": "কীৰ্তিচন্দ্ৰ"
+      },
+      {
+       "en": "Rajeswar",
+       "as": "ৰাজেশ্বৰ"
+      },
+      {
+       "en": "Barjana Gohain",
+       "as": "বৰজনা গোহাঁই"
+      },
+      {
+       "en": "Jai Singh",
+       "as": "জয় সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Kirti Chandra.",
+      "as": "কীৰ্তিচন্দ্ৰ।"
+     },
+     "id": "rjs.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "The burning of the Buranjis.",
+       "as": "বুৰঞ্জী দহন।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "lata-kata.webp",
+     "title": {
+      "en": "A king in exile",
+      "as": "নিৰ্বাসিত ৰজা"
+     },
+     "text": [
+      {
+       "en": "The Burmese had invaded [[manipur]] and driven out its king, Jai Singh. He came to Rajeswar and begged for help. Rajeswar agreed.",
+       "as": "বাৰ্মাই [[manipur]] আক্ৰমণ কৰি তাৰ ৰজা জয় সিংহক খেদিছিল। তেওঁ ৰাজেশ্বৰৰ ওচৰলৈ আহি সহায় বিচাৰিলে। ৰাজেশ্বৰ মান্তি হ'ল।"
+      },
+      {
+       "en": "The first army tried to go straight through the hills. The jungle was so thick that soldiers spent their days cutting creepers. Many died; the army was recalled. It is remembered as the <mark>Lata-Kata Ran</mark>, 'the war of cutting creepers'.",
+       "as": "প্ৰথম সৈন্যই পোনে পোনে পাহাৰৰ মাজেদি যাবলৈ চেষ্টা কৰিলে। জংঘল ইমান ঘন আছিল যে সৈন্যই দিনটো লতা কাটিয়েই কটালে। বহুতৰ মৃত্যু হ'ল; সৈন্যক ঘূৰাই মতা হ'ল। ইয়াক <mark>লতা-কটা ৰণ</mark> বুলি মনত ৰখা হয়।"
+      }
+     ],
+     "id": "rjs.u3.02"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the nickname of the failed expedition: ___-Kata Ran.",
+      "as": "বিফল অভিযানৰ উপনাম: ___-কটা ৰণ।"
+     },
+     "word": {
+      "en": [
+       "L",
+       "A",
+       "T",
+       "A"
+      ],
+      "as": [
+       "ল",
+       "তা"
+      ]
+     },
+     "answerText": {
+      "en": "LATA",
+      "as": "লতা"
+     },
+     "why": {
+      "en": "Lata-Kata Ran.",
+      "as": "লতা-কটা ৰণ।"
+     },
+     "id": "rjs.u3.03"
+    },
+    {
+     "type": "story",
+     "img": "wedding.webp",
+     "title": {
+      "en": "Success, and a bride",
+      "as": "সফলতা আৰু কইনা"
+     },
+     "text": [
+      {
+       "en": "In 1768 a second army went by the easier road through Raha. With its help Jai Singh drove out the Burmese-backed usurper.",
+       "as": "১৭৬৮ চনত দ্বিতীয় সৈন্য ৰহাৰ সহজ বাটেৰে গ'ল। তাৰ সহায়ত জয় সিংহই বাৰ্মা-সমৰ্থিত দখলকাৰীক খেদিলে।"
+      },
+      {
+       "en": "In thanks he gave Rajeswar his daughter, [[kuranganayani]]. Manipuris who came with her settled at Magaluhat, the 'Manipuri market'.",
+       "as": "কৃতজ্ঞতাত তেওঁ ৰাজেশ্বৰক জীয়েক [[kuranganayani]]ক দিলে। তেওঁৰ লগত অহা মণিপুৰীসকল মগলুহাটত, 'মণিপুৰী বজাৰ'ত বসতি কৰিলে।"
+      }
+     ],
+     "id": "rjs.u3.04"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Manipur.",
+      "as": "মণিপুৰ টিপা।"
+     },
+     "target": "manipur",
+     "choices": [
+      "manipur",
+      "maibong",
+      "rangpur",
+      "garhgaon"
+     ],
+     "answerText": {
+      "en": "Manipur",
+      "as": "মণিপুৰ"
+     },
+     "why": {
+      "en": "Manipur, south-east of the Ahom kingdom.",
+      "as": "আহোম ৰাজ্যৰ দক্ষিণ-পূবৰ মণিপুৰ।"
+     },
+     "id": "rjs.u3.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the Manipur story in order.",
+      "as": "মণিপুৰৰ কাহিনী ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Burmese drive out Jai Singh",
+       "as": "বাৰ্মাই জয় সিংহক খেদে"
+      },
+      {
+       "en": "Lata-Kata Ran fails",
+       "as": "লতা-কটা ৰণ বিফল"
+      },
+      {
+       "en": "Second army via Raha (1768)",
+       "as": "ৰহাৰে দ্বিতীয় সৈন্য (১৭৬৮)"
+      },
+      {
+       "en": "Kuranganayani marries Rajeswar",
+       "as": "কুৰংগনয়নীৰ বিবাহ"
+      }
+     ],
+     "why": {
+      "en": "Exile → failure → success → alliance.",
+      "as": "নিৰ্বাসন → বিফলতা → সফলতা → মিত্ৰতা।"
+     },
+     "id": "rjs.u3.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the royal wedding with Manipur?",
+      "as": "কোনখন ছবিত মণিপুৰৰ সৈতে ৰাজকীয় বিবাহ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "wedding.webp",
+      "lata-kata.webp",
+      "kareng-ghar.webp",
+      "burning.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Rajeswar and Kuranganayani",
+      "as": "ৰাজেশ্বৰ আৰু কুৰংগনয়নী"
+     },
+     "why": {
+      "en": "1768.",
+      "as": "১৭৬৮।"
+     },
+     "id": "rjs.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "star",
+   "title": {
+    "en": "Storm clouds",
+    "as": "ধুমুহাৰ ডাৱৰ"
+   },
+   "learned": [
+    {
+     "en": "The people were prosperous, but the warlike spirit was fading",
+     "as": "প্ৰজা সমৃদ্ধ আছিল, কিন্তু যুদ্ধৰ মনোভাৱ কমি আহিছিল"
+    },
+    {
+     "en": "For the first time, high officers refused to go to war",
+     "as": "প্ৰথমবাৰ উচ্চ বিষয়াই যুদ্ধলৈ যাবলৈ অস্বীকাৰ কৰিলে"
+    },
+    {
+     "en": "The Moamara Gosain was quietly spreading discontent",
+     "as": "মোৱামৰা গোঁসাইয়ে নীৰৱে অসন্তোষ বিয়পাইছিল"
+    },
+    {
+     "en": "Rajeswar died in 1769; within months the Moamorias rose",
+     "as": "১৭৬৯ চনত ৰাজেশ্বৰৰ মৃত্যু; কেইমাহমানৰ ভিতৰতে মোৱামৰীয়া বিদ্ৰোহ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: the first Manipur expedition was called the Lata-Kata Ran.",
+      "as": "মনত পেলোৱা: প্ৰথম মণিপুৰ অভিযানক লতা-কটা ৰণ বোলা হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "rjs.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "Help for Manipur.",
+       "as": "মণিপুৰৰ সহায়।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "talatal-ghar.webp",
+     "title": {
+      "en": "Signs of decay",
+      "as": "অৱক্ষয়ৰ চিন"
+     },
+     "text": [
+      {
+       "en": "Under Rajeswar the people were prosperous and safe. But Gait sees decay: officers refused to fight, priests quarrelled, and the old warlike spirit had faded.",
+       "as": "ৰাজেশ্বৰৰ দিনত প্ৰজা সমৃদ্ধ আৰু সুৰক্ষিত আছিল। কিন্তু গেইটে অৱক্ষয় দেখিছে: বিষয়াই যুঁজিবলৈ অস্বীকাৰ কৰিলে, পুৰোহিতৰ বিবাদ, আৰু পুৰণি যুদ্ধৰ মনোভাৱ কমিল।"
+      },
+      {
+       "en": "Above all, the Moamara Gosain, still bitter at Phuleswari's insult, was stirring his followers.",
+       "as": "সৰ্বোপৰি, ফুলেশ্বৰীৰ অপমানত এতিয়াও ক্ষুব্ধ মোৱামৰা গোঁসাইয়ে অনুগামীক উচটাই আছিল।"
+      }
+     ],
+     "id": "rjs.u4.02",
+     "link": {
+      "lesson": 31,
+      "lessonId": "siva-singha",
+      "unitNo": 3,
+      "unitTitle": {
+       "en": "The insult",
+       "as": "অপমান"
+      },
+      "note": {
+       "en": "Phuleswari's insult to the Moamara Gosain.",
+       "as": "মোৱামৰা গোঁসাইক ফুলেশ্বৰীৰ অপমান।"
+      }
+     }
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which was NOT a sign of decay under Rajeswar?",
+      "as": "কোনটো ৰাজেশ্বৰৰ দিনৰ অৱক্ষয়ৰ চিন নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Officers refusing to fight",
+       "as": "বিষয়াই যুঁজিবলৈ অস্বীকাৰ"
+      },
+      {
+       "en": "Sectarian quarrels",
+       "as": "সাম্প্ৰদায়িক বিবাদ"
+      },
+      {
+       "en": "A brooding Moamara Gosain",
+       "as": "ক্ষুব্ধ মোৱামৰা গোঁসাই"
+      },
+      {
+       "en": "A prosperous people",
+       "as": "সমৃদ্ধ প্ৰজা"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Prosperity was the good side of his reign.",
+      "as": "সমৃদ্ধি তেওঁৰ ৰাজত্বৰ ভাল দিশ।"
+     },
+     "id": "rjs.u4.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember K-B-M",
+      "as": "মনত ৰাখা কা-বু-ম"
+     },
+     "text": [
+      {
+       "en": "Rajeswar Singha in three letters, <mark>K-B-M</mark>: <b>K</b>areng Ghar rebuilt, <b>B</b>uranjis burnt, <b>M</b>anipur helped (and a Manipuri bride). He died in <mark>1769</mark>.",
+       "as": "ৰাজেশ্বৰ সিংহ তিনিটা আখৰত, <mark>কা-বু-ম</mark>: <b>কা</b>ৰেং ঘৰ পুনৰ নিৰ্মাণ, <b>বু</b>ৰঞ্জী দহন, <b>ম</b>ণিপুৰক সহায় (আৰু মণিপুৰী কইনা)। <mark>১৭৬৯</mark> চনত তেওঁৰ মৃত্যু।"
+      }
+     ],
+     "id": "rjs.u4.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use K-B-M: put the reign in order.",
+      "as": "কা-বু-ম ব্যৱহাৰ কৰি ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Kareng Ghar rebuilt",
+       "as": "কাৰেং ঘৰ পুনৰ নিৰ্মাণ"
+      },
+      {
+       "en": "Buranjis burnt",
+       "as": "বুৰঞ্জী দহন"
+      },
+      {
+       "en": "Manipur helped",
+       "as": "মণিপুৰক সহায়"
+      }
+     ],
+     "why": {
+      "en": "K → B → M.",
+      "as": "কা → বু → ম।"
+     },
+     "id": "rjs.u4.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Rajeswar",
+       "Singha",
+       "was",
+       "succeeded",
+       "by",
+       "his",
+       "son."
+      ],
+      "as": [
+       "ৰাজেশ্বৰ",
+       "সিংহৰ",
+       "পিছত",
+       "তেওঁৰ",
+       "পুত্ৰ",
+       "ৰজা",
+       "হ'ল।"
+      ]
+     },
+     "wrong": {
+      "en": 6,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ brother (Lakshmi Singha)",
+      "as": "→ ভাই (লক্ষ্মী সিংহ)"
+     },
+     "answerText": {
+      "en": "son → brother",
+      "as": "পুত্ৰ → ভাই"
+     },
+     "why": {
+      "en": "His youngest brother Lakshmi Singha followed.",
+      "as": "তেওঁৰ সৰু ভাই লক্ষ্মী সিংহ ৰজা হ'ল।"
+     },
+     "id": "rjs.u4.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Rajeswar Singha",
+    "as": "তুমি স্বৰ্গদেউ ৰাজেশ্বৰ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Rajeswar Singha was a son of Rudra Singha.",
+     "as": "ৰাজেশ্বৰ সিংহ ৰুদ্ৰ সিংহৰ পুত্ৰ আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True; three of Rudra's sons ruled in turn.",
+     "as": "শুদ্ধ; ৰুদ্ৰৰ তিনিজন পুত্ৰই পৰ পৰে ৰাজত্ব কৰিছিল।"
+    },
+    "id": "rjs.test.01"
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I rebuilt the Kareng Ghar.",
+      "as": "মই কাৰেং ঘৰ পুনৰ সাজিছিলোঁ।"
+     },
+     {
+      "en": "I helped the king of Manipur.",
+      "as": "মই মণিপুৰৰ ৰজাক সহায় কৰিছিলোঁ।"
+     },
+     {
+      "en": "My Borbarua burnt Buranjis.",
+      "as": "মোৰ বৰবৰুৱাই বুৰঞ্জী জ্বলাইছিল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Rajeswar Singha",
+      "as": "ৰাজেশ্বৰ সিংহ"
+     },
+     {
+      "en": "Pramatta Singha",
+      "as": "প্ৰমত্ত সিংহ"
+     },
+     {
+      "en": "Lakshmi Singha",
+      "as": "লক্ষ্মী সিংহ"
+     },
+     {
+      "en": "Siva Singha",
+      "as": "শিৱ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Rajeswar Singha.",
+     "as": "ৰাজেশ্বৰ সিংহ।"
+    },
+    "id": "rjs.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Manipur.",
+     "as": "মণিপুৰ টিপা।"
+    },
+    "target": "manipur",
+    "choices": [
+     "manipur",
+     "maibong",
+     "rangpur",
+     "garhgaon"
+    ],
+    "answerText": {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    "why": {
+     "en": "Manipur.",
+     "as": "মণিপুৰ।"
+    },
+    "id": "rjs.test.03"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the burning of the Buranjis?",
+     "as": "কোনখন ছবিত বুৰঞ্জী দহন দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "burning.webp",
+     "kareng-ghar.webp",
+     "wedding.webp",
+     "accession.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The burning",
+     "as": "দহন"
+    },
+    "why": {
+     "en": "Kirti Chandra's order.",
+     "as": "কীৰ্তিচন্দ্ৰৰ আদেশ।"
+    },
+    "id": "rjs.test.04"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1751",
+      "l": {
+       "en": "Rajeswar crowned",
+       "as": "ৰাজেশ্বৰৰ অভিষেক"
+      }
+     },
+     {
+      "y": "1769",
+      "l": {
+       "en": "Rajeswar dies",
+       "as": "ৰাজেশ্বৰৰ মৃত্যু"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Rang Ghar built",
+       "as": "ৰংঘৰ নিৰ্মাণ"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Jai Singh restored",
+       "as": "জয় সিংহ পুনৰ প্ৰতিষ্ঠিত"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Moamoria rebels take Rangpur",
+       "as": "মোৱামৰীয়াই ৰংপুৰ লয়"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1746 → 1751 → 1768 → 1769 → 1769.",
+     "as": "১৭৪৬ → ১৭৫১ → ১৭৬৮ → ১৭৬৯ → ১৭৬৯।"
+    },
+    "id": "rjs.test.05"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Kareng Ghar",
+       "as": "কাৰেং ঘৰ"
+      },
+      {
+       "en": "Rajeswar Singha",
+       "as": "ৰাজেশ্বৰ সিংহ"
+      }
+     ],
+     [
+      {
+       "en": "Rang Ghar",
+       "as": "ৰংঘৰ"
+      },
+      {
+       "en": "Pramatta Singha",
+       "as": "প্ৰমত্ত সিংহ"
+      }
+     ],
+     [
+      {
+       "en": "Siva Dol",
+       "as": "শিৱদ'ল"
+      },
+      {
+       "en": "Siva Singha's reign",
+       "as": "শিৱ সিংহৰ দিন"
+      }
+     ],
+     [
+      {
+       "en": "Joysagar",
+       "as": "জয়সাগৰ"
+      },
+      {
+       "en": "Rudra Singha",
+       "as": "ৰুদ্ৰ সিংহ"
+      }
+     ]
+    ],
+    "why": {
+     "en": "The Tungkhungia builders.",
+     "as": "তুংখুঙীয়া নিৰ্মাতা।"
+    },
+    "id": "rjs.test.06"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the Manipuri princess's name.",
+     "as": "মণিপুৰী কুমাৰীৰ নাম সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "K",
+      "U",
+      "R",
+      "A",
+      "N",
+      "G",
+      "A",
+      "N",
+      "A",
+      "Y",
+      "A",
+      "N",
+      "I"
+     ],
+     "as": [
+      "কু",
+      "ৰং",
+      "গ",
+      "নয়",
+      "নী"
+     ]
+    },
+    "answerText": {
+     "en": "KURANGANAYANI",
+     "as": "কুৰংগনয়নী"
+    },
+    "why": {
+     "en": "Kuranganayani.",
+     "as": "কুৰংগনয়নী।"
+    },
+    "id": "rjs.test.07"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the Tungkhungia kings in order.",
+     "as": "তুংখুঙীয়া ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Gadadhar",
+      "as": "গদাধৰ"
+     },
+     {
+      "en": "Rudra",
+      "as": "ৰুদ্ৰ"
+     },
+     {
+      "en": "Siva",
+      "as": "শিৱ"
+     },
+     {
+      "en": "Pramatta",
+      "as": "প্ৰমত্ত"
+     },
+     {
+      "en": "Rajeswar",
+      "as": "ৰাজেশ্বৰ"
+     }
+    ],
+    "why": {
+     "en": "Kings 29–33.",
+     "as": "২৯–৩৩ নম্বৰ ৰজা।"
+    },
+    "id": "rjs.test.08"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. The Kareng Ghar at Garhgaon was rebuilt by Rajeswar Singha.<br>2. The Lata-Kata Ran was a great Ahom victory.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. গড়গাঁৱৰ কাৰেং ঘৰ ৰাজেশ্বৰ সিংহই পুনৰ নিৰ্মাণ কৰিছিল।<br>২. লতা-কটা ৰণ আহোমৰ মহা জয় আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. The Lata-Kata Ran was a failed march through the jungle.",
+     "as": "কেৱল ১। লতা-কটা ৰণ জংঘলৰ মাজেদি বিফল যাত্ৰা।"
+    },
+    "small": true,
+    "id": "rjs.test.09"
+   }
+  ]
+ }
+}

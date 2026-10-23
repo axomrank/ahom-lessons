@@ -653,7 +653,8 @@
      "en": "Son of Gobar Roja; first Tungkhungia king",
      "as": "গোবৰ ৰজাৰ পুত্ৰ; প্ৰথম তুংখুঙীয়া ৰজা"
     }
-   }
+   },
+   "lesson": "gadadhar-singha"
   },
   {
    "n": 30,
@@ -673,7 +674,8 @@
      "en": "Son of Gadadhar Singha",
      "as": "গদাধৰ সিংহৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "rudra-singha"
   },
   {
    "n": 31,
@@ -693,7 +695,8 @@
      "en": "Son of Rudra Singha",
      "as": "ৰুদ্ৰ সিংহৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "siva-singha"
   },
   {
    "n": 32,
@@ -713,7 +716,8 @@
      "en": "Brother of Siva Singha",
      "as": "শিৱ সিংহৰ ভাই"
     }
-   }
+   },
+   "lesson": "pramatta-singha"
   },
   {
    "n": 33,
@@ -733,7 +737,8 @@
      "en": "Brother of Pramatta Singha",
      "as": "প্ৰমত্ত সিংহৰ ভাই"
     }
-   }
+   },
+   "lesson": "rajeswar-singha"
   },
   {
    "n": 34,

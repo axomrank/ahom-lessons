@@ -2279,6 +2279,326 @@
     "en": "Jerenga Pathar, near Sivasagar.",
     "as": "শিৱসাগৰৰ ওচৰৰ জেৰেঙা পথাৰ।"
    }
+  },
+  {
+   "id": "bank.tungkhungia.01",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first king of the Tungkhungia line was:",
+    "as": "তুংখুঙীয়া বংশৰ প্ৰথম ৰজা:"
+   },
+   "options": [
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Gobar Roja",
+     "as": "গোবৰ ৰজা"
+    },
+    {
+     "en": "Siva Singha",
+     "as": "শিৱ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Gadadhar Singha (1681).",
+    "as": "গদাধৰ সিংহ (১৬৮১)।"
+   }
+  },
+  {
+   "id": "bank.tungkhungia.02",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Battle of Itakhuli (1682) was fought against:",
+    "as": "ইটাখুলিৰ যুদ্ধ (১৬৮২) কাৰ বিৰুদ্ধে হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Mughals",
+     "as": "মোগল"
+    },
+    {
+     "en": "The Burmese",
+     "as": "মান"
+    },
+    {
+     "en": "The Koches",
+     "as": "কোচ"
+    },
+    {
+     "en": "The Moamorias",
+     "as": "মোৱামৰীয়া"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "The Mughals; their last war with the Ahoms.",
+    "as": "মোগলৰ; আহোমৰ সৈতে শেষ যুদ্ধ।"
+   }
+  },
+  {
+   "id": "bank.tungkhungia.03",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Joysagar tank was dug by Rudra Singha in memory of:",
+    "as": "ৰুদ্ৰ সিংহই জয়সাগৰ কাৰ স্মৃতিত খন্দাইছিল?"
+   },
+   "options": [
+    {
+     "en": "His mother Joymoti",
+     "as": "মাতৃ জয়মতী"
+    },
+    {
+     "en": "His father",
+     "as": "পিতৃ"
+    },
+    {
+     "en": "His queen",
+     "as": "ৰাণী"
+    },
+    {
+     "en": "Lachit",
+     "as": "লাচিত"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "His mother Joymoti.",
+    "as": "মাতৃ জয়মতী।"
+   }
+  },
+  {
+   "id": "bank.tungkhungia.04",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Siva Singha's queens who held the title Bar Raja did NOT include:",
+    "as": "শিৱ সিংহৰ বৰ ৰজা উপাধিধাৰী ৰাণীৰ ভিতৰত কোন নাছিল?"
+   },
+   "options": [
+    {
+     "en": "Phuleswari",
+     "as": "ফুলেশ্বৰী"
+    },
+    {
+     "en": "Ambika",
+     "as": "অম্বিকা"
+    },
+    {
+     "en": "Sarbeswari",
+     "as": "সৰ্বেশ্বৰী"
+    },
+    {
+     "en": "Kuranganayani",
+     "as": "কুৰংগনয়নী"
+    }
+   ],
+   "answer": 3,
+   "why": {
+    "en": "Kuranganayani was Rajeswar Singha's Manipuri queen.",
+    "as": "কুৰংগনয়নী ৰাজেশ্বৰ সিংহৰ মণিপুৰী ৰাণী।"
+   }
+  },
+  {
+   "id": "bank.tungkhungia.05",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Rang Ghar in brick was built during the reign of:",
+    "as": "ইটাৰ ৰংঘৰ কাৰ ৰাজত্বকালত নিৰ্মিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Pramatta Singha",
+     "as": "প্ৰমত্ত সিংহ"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Rajeswar Singha",
+     "as": "ৰাজেশ্বৰ সিংহ"
+    },
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Pramatta Singha, 1746.",
+    "as": "প্ৰমত্ত সিংহ, ১৭৪৬।"
+   }
+  },
+  {
+   "id": "bank.tungkhungia.06",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Sivasagar tank and Siva Dol were built in:",
+    "as": "শিৱসাগৰ পুখুৰী আৰু শিৱদ'ল নিৰ্মাণ হৈছিল:"
+   },
+   "options": [
+    {
+     "en": "1697",
+     "as": "১৬৯৭"
+    },
+    {
+     "en": "1734",
+     "as": "১৭৩৪"
+    },
+    {
+     "en": "1746",
+     "as": "১৭৪৬"
+    },
+    {
+     "en": "1752",
+     "as": "১৭৫২"
+    }
+   ],
+   "answer": 1,
+   "why": {
+    "en": "1734, by Bar Raja Ambika.",
+    "as": "১৭৩৪, বৰ ৰজা অম্বিকাৰ দ্বাৰা।"
+   }
+  },
+  {
+   "id": "bank.tungkhungia.07",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Kareng Ghar is located at:",
+    "as": "কাৰেং ঘৰ ক'ত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Garhgaon",
+     "as": "গড়গাঁও"
+    },
+    {
+     "en": "Rangpur",
+     "as": "ৰংপুৰ"
+    },
+    {
+     "en": "Charaideo",
+     "as": "চৰাইদেউ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Garhgaon.",
+    "as": "গড়গাঁও।"
+   }
+  },
+  {
+   "id": "bank.tungkhungia.08",
+   "type": "mcq",
+   "era": "tungkhungia",
+   "lesson": "gadadhar-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The 'Lata-Kata Ran' refers to an Ahom expedition towards:",
+    "as": "'লতা-কটা ৰণ' আহোমৰ কোনফালে অভিযান?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Manipur, under Rajeswar Singha.",
+    "as": "মণিপুৰ, ৰাজেশ্বৰ সিংহৰ দিনত।"
+   }
   }
  ]
 }

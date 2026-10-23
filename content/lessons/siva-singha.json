@@ -1,0 +1,1422 @@
+{
+ "id": "siva-singha",
+ "no": 31,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Siva Singha",
+  "as": "স্বৰ্গদেউ শিৱ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1714–1744",
+  "as": "ৰাজত্বকাল ১৭১৪–১৭৪৪"
+ },
+ "portrait": "siva-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VII, pp. 177–179",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Sib Singh, Sutanpha; Bengal invasion given up; disciple of Krishnaram, Kamakhya, Parbatiya Gosains; 1717 Dafla expedition and embankment; 1722 astrologers' prediction; Phulesvari (Pramatesvari) made Bar Raja with the royal umbrella and joint coins; Moamaria Gosain smeared with sacrificial blood; Phulesvari died 1731; Deopadi as Ambika, died 1741; Enadari as Sarbesvari; died 1744; Hinduism predominant; tanks and temples at Gaurisagar, Sibsagar and Kalugaon; Pera Kagaz survey; four Europeans visit in 1739; coin evidence"
+  },
+  {
+   "title": "Siva Singha",
+   "url": "https://en.wikipedia.org/wiki/Siva_Singha",
+   "used_for": "Sivasagar tank and Siva Dol built 1734 by Bar Raja Ambika; Gaurisagar by Phuleswari"
+  },
+  {
+   "title": "Hastividyarnava",
+   "url": "https://en.wikipedia.org/wiki/Hastividyarnava",
+   "used_for": "Illustrated manuscript on elephants, 1734, Siva Singha's court"
+  }
+ ],
+ "review_notes": "Gait gives the joint coins as evidence for the Bar Raja story. Attributions of Gaurisagar (Phuleswari) and Sivasagar/Siva Dol (Ambika, 1734) follow Wikipedia.",
+ "buildsOn": {
+  "no": 30,
+  "title": {
+   "en": "Rudra Singha",
+   "as": "ৰুদ্ৰ সিংহ"
+  },
+  "id": "rudra-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1714",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1722",
+    "t": {
+     "en": "Phuleswari made Bar Raja",
+     "as": "ফুলেশ্বৰী বৰ ৰজা"
+    }
+   },
+   {
+    "y": "1731",
+    "t": {
+     "en": "Ambika made Bar Raja",
+     "as": "অম্বিকা বৰ ৰজা"
+    }
+   },
+   {
+    "y": "1734",
+    "t": {
+     "en": "Sivasagar tank and Siva Dol; Hastividyarnava painted",
+     "as": "শিৱসাগৰ পুখুৰী আৰু শিৱদ'ল; হস্তীবিদ্যাৰ্ণৱ অংকন"
+    }
+   },
+   {
+    "y": "1739",
+    "t": {
+     "en": "Four Europeans visit Rangpur",
+     "as": "চাৰিজন ইউৰোপীয়ৰ ৰংপুৰ ভ্ৰমণ"
+    }
+   },
+   {
+    "y": "1744",
+    "t": {
+     "en": "Dies",
+     "as": "মৃত্যু"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.45,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "garhgaon",
+   "rangpur",
+   "charaideo",
+   "majuli"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "rangpur": {
+    "pos": "w"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     27.05,
+     94.3
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A king and his guru",
+    "as": "ৰজা আৰু গুৰু"
+   },
+   "learned": [
+    {
+     "en": "Siva Singha, eldest son of Rudra, became king in 1714",
+     "as": "ৰুদ্ৰৰ জ্যেষ্ঠ পুত্ৰ শিৱ সিংহ ১৭১৪ চনত ৰজা হ'ল"
+    },
+    {
+     "en": "He dropped the Bengal war and took Krishnaram as guru",
+     "as": "তেওঁ বংগ যুদ্ধ এৰিলে আৰু কৃষ্ণৰামক গুৰু পাতিলে"
+    },
+    {
+     "en": "Krishnaram got the Kamakhya temple: the Parbatiya Gosains",
+     "as": "কৃষ্ণৰামে কামাখ্যা মন্দিৰ পালে: পৰ্বতীয়া গোঁসাই"
+    },
+    {
+     "en": "His long reign was peaceful, apart from one Dafla expedition",
+     "as": "এটা ডফলা অভিযানৰ বাহিৰে তেওঁৰ দীঘলীয়া ৰাজত্ব শান্তিপূৰ্ণ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "krishnaram.webp",
+     "title": {
+      "en": "The guru on the hill",
+      "as": "পাহাৰৰ গুৰু"
+     },
+     "text": [
+      {
+       "en": "In <mark>1714</mark> Rudra's eldest son became [[siva-singha]] (Sutanphaa). He gave up the Bengal war, but obeyed his father's last wish: he became a disciple of [[krishnaram]].",
+       "as": "<mark>১৭১৪</mark> চনত ৰুদ্ৰৰ জ্যেষ্ঠ পুত্ৰ [[siva-singha]] (চুতানফা) হ'ল। তেওঁ বংগ যুদ্ধ এৰিলে, কিন্তু পিতৃৰ অন্তিম ইচ্ছা মানিলে: [[krishnaram]]ৰ শিষ্য হ'ল।"
+      },
+      {
+       "en": "Krishnaram received the [[kamakhya]] temple on the hill, so he and his heirs are called the <mark>Parbatiya Gosains</mark>, 'gosains of the hill'.",
+       "as": "কৃষ্ণৰামে পাহাৰৰ [[kamakhya]] মন্দিৰ পালে, সেয়ে তেওঁ আৰু উত্তৰাধিকাৰীসকলক <mark>পৰ্বতীয়া গোঁসাই</mark> বোলা হয়।"
+      }
+     ],
+     "id": "svs.u1.01",
+     "link": {
+      "lesson": 30,
+      "lessonId": "rudra-singha",
+      "unitNo": 5,
+      "unitTitle": {
+       "en": "The last campaign",
+       "as": "শেষ অভিযান"
+      },
+      "note": {
+       "en": "Rudra had invited Krishnaram from Bengal.",
+       "as": "ৰুদ্ৰই বংগৰ পৰা কৃষ্ণৰামক মাতি আনিছিল।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I came from Bengal.",
+       "as": "মই বংগৰ পৰা আহিছিলোঁ।"
+      },
+      {
+       "en": "I was given the Kamakhya temple.",
+       "as": "মোক কামাখ্যা মন্দিৰ দিয়া হৈছিল।"
+      },
+      {
+       "en": "I was the first Parbatiya Gosain.",
+       "as": "মই প্ৰথম পৰ্বতীয়া গোঁসাই।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Krishnaram",
+       "as": "কৃষ্ণৰাম"
+      },
+      {
+       "en": "Niranjan Deva",
+       "as": "নিৰঞ্জন দেৱ"
+      },
+      {
+       "en": "Ghanashyam",
+       "as": "ঘনশ্যাম"
+      },
+      {
+       "en": "The Moamara Gosain",
+       "as": "মোৱামৰা গোঁসাই"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Krishnaram Bhattacharya.",
+      "as": "কৃষ্ণৰাম ভট্টাচাৰ্য।"
+     },
+     "id": "svs.u1.02"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the title of Krishnaram's line: ___ Gosain.",
+      "as": "কৃষ্ণৰামৰ বংশৰ উপাধি: ___ গোঁসাই।"
+     },
+     "word": {
+      "en": [
+       "P",
+       "A",
+       "R",
+       "B",
+       "A",
+       "T",
+       "I",
+       "Y",
+       "A"
+      ],
+      "as": [
+       "পৰ্ব",
+       "তী",
+       "য়া"
+      ]
+     },
+     "answerText": {
+      "en": "PARBATIYA",
+      "as": "পৰ্বতীয়া"
+     },
+     "why": {
+      "en": "Parbatiya: 'of the hill'.",
+      "as": "পৰ্বতীয়া: 'পাহাৰৰ'।"
+     },
+     "id": "svs.u1.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A wall against raids",
+      "as": "আক্ৰমণৰ বিৰুদ্ধে গড়"
+     },
+     "text": [
+      {
+       "en": "In 1717 an expedition beat the raiding Daflas, and an embankment was built along the foot of their hills.",
+       "as": "১৭১৭ চনত এটা অভিযানে আক্ৰমণকাৰী ডফলাক হৰুৱালে, আৰু তেওঁলোকৰ পাহাৰৰ নামনিত গড় বন্ধা হ'ল।"
+      },
+      {
+       "en": "Apart from that, Siva Singha's thirty years were years of <mark>unbroken peace</mark>.",
+       "as": "তাৰ বাহিৰে শিৱ সিংহৰ ত্ৰিশ বছৰ আছিল <mark>নিৰৱচ্ছিন্ন শান্তি</mark>ৰ।"
+      }
+     ],
+     "id": "svs.u1.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Siva Singha carried out his father's plan to invade Bengal.",
+      "as": "শিৱ সিংহই পিতৃৰ বংগ আক্ৰমণৰ পৰিকল্পনা পূৰণ কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He gave it up.",
+      "as": "অশুদ্ধ। তেওঁ এৰি দিছিল।"
+     },
+     "id": "svs.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Krishnaram, the Parbatiya Gosain?",
+      "as": "কোনখন ছবিত পৰ্বতীয়া গোঁসাই কৃষ্ণৰাম দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "krishnaram.webp",
+      "bar-raja.webp",
+      "sivasagar-tank.webp",
+      "survey.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Krishnaram",
+      "as": "কৃষ্ণৰাম"
+     },
+     "why": {
+      "en": "The first Parbatiya Gosain.",
+      "as": "প্ৰথম পৰ্বতীয়া গোঁসাই।"
+     },
+     "id": "svs.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "star",
+   "title": {
+    "en": "Queens who ruled",
+    "as": "শাসন কৰা ৰাণী"
+   },
+   "learned": [
+    {
+     "en": "1722: astrologers warned his rule would soon end",
+     "as": "১৭২২: জ্যোতিষীয়ে তেওঁৰ শাসন সোনকালে শেষ হ'ব বুলি সতৰ্ক কৰিলে"
+    },
+    {
+     "en": "He made his queen Phuleswari 'Bar Raja', chief king",
+     "as": "তেওঁ ৰাণী ফুলেশ্বৰীক 'বৰ ৰজা' পাতিলে"
+    },
+    {
+     "en": "She held the royal umbrella; coins bore both names",
+     "as": "তেওঁ ৰাজছত্ৰ ধৰিছিল; মুদ্ৰাত দুয়োৰে নাম"
+    },
+    {
+     "en": "Ambika (1731) and Sarbeswari (1741) followed as Bar Raja",
+     "as": "অম্বিকা (১৭৩১) আৰু সৰ্বেশ্বৰী (১৭৪১) পিছত বৰ ৰজা"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Krishnaram was given the Kamakhya temple.",
+      "as": "মনত পেলোৱা: কৃষ্ণৰামক কামাখ্যা মন্দিৰ দিয়া হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "svs.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A king and his guru.",
+       "as": "ৰজা আৰু গুৰু।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "bar-raja.webp",
+     "title": {
+      "en": "Cheating fate",
+      "as": "ভাগ্যক ফাঁকি"
+     },
+     "text": [
+      {
+       "en": "In <mark>1722</mark> Brahman astrologers foretold that Siva Singha's rule would soon end. To trick fate, he made his chief queen, [[phuleswari]], the [[bar-raja]]: 'chief king'.",
+       "as": "<mark>১৭২২</mark> চনত ব্ৰাহ্মণ জ্যোতিষীয়ে শিৱ সিংহৰ শাসন সোনকালে শেষ হ'ব বুলি ক'লে। ভাগ্যক ফাঁকি দিবলৈ তেওঁ প্ৰধান ৰাণী [[phuleswari]]ক [[bar-raja]] পাতিলে।"
+      },
+      {
+       "en": "She received the royal umbrella, the Ahom sign of kingship, and coins were struck in both their names. Her power was very real.",
+       "as": "তেওঁ ৰাজছত্ৰ পালে, আহোম ৰজাৰ চিন, আৰু দুয়োৰে নামত মুদ্ৰা উলিওৱা হ'ল। তেওঁৰ ক্ষমতা প্ৰকৃত আছিল।"
+      }
+     ],
+     "id": "svs.u2.02"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the three Bar Rajas in order.",
+      "as": "তিনিগৰাকী বৰ ৰজাক ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Phuleswari (1722)",
+       "as": "ফুলেশ্বৰী (১৭২২)"
+      },
+      {
+       "en": "Ambika (1731)",
+       "as": "অম্বিকা (১৭৩১)"
+      },
+      {
+       "en": "Sarbeswari (1741)",
+       "as": "সৰ্বেশ্বৰী (১৭৪১)"
+      }
+     ],
+     "why": {
+      "en": "P-A-S: Phuleswari, Ambika, Sarbeswari.",
+      "as": "ফু-অ-স: ফুলেশ্বৰী, অম্বিকা, সৰ্বেশ্বৰী।"
+     },
+     "id": "svs.u2.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Siva Singha's queen.",
+       "as": "মই শিৱ সিংহৰ ৰাণী।"
+      },
+      {
+       "en": "I was the first Bar Raja.",
+       "as": "মই প্ৰথম বৰ ৰজা।"
+      },
+      {
+       "en": "I insulted the Moamara Gosain.",
+       "as": "মই মোৱামৰা গোঁসাইক অপমান কৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Phuleswari",
+       "as": "ফুলেশ্বৰী"
+      },
+      {
+       "en": "Ambika",
+       "as": "অম্বিকা"
+      },
+      {
+       "en": "Sarbeswari",
+       "as": "সৰ্বেশ্বৰী"
+      },
+      {
+       "en": "Kuranganayani",
+       "as": "কুৰংগনয়নী"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Phuleswari.",
+      "as": "ফুলেশ্বৰী।"
+     },
+     "id": "svs.u2.04"
+    },
+    {
+     "type": "story",
+     "img": "sarbeswari.webp",
+     "title": {
+      "en": "Two more queens",
+      "as": "আৰু দুগৰাকী ৰাণী"
+     },
+     "text": [
+      {
+       "en": "When Phuleswari died in 1731, the king married her sister, who became Bar Raja as [[ambika]]. After her death in 1741 came Sarbeswari.",
+       "as": "১৭৩১ চনত ফুলেশ্বৰীৰ মৃত্যুৰ পিছত ৰজাই তেওঁৰ ভনীক বিয়া কৰালে, যি [[ambika]] নামেৰে বৰ ৰজা হ'ল। ১৭৪১ চনত তেওঁৰ মৃত্যুৰ পিছত সৰ্বেশ্বৰী।"
+      }
+     ],
+     "id": "svs.u2.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Siva",
+       "Singha",
+       "made",
+       "his",
+       "mother",
+       "the",
+       "Bar",
+       "Raja."
+      ],
+      "as": [
+       "শিৱ",
+       "সিংহই",
+       "মাতৃক",
+       "বৰ",
+       "ৰজা",
+       "পাতিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 4,
+      "as": 2
+     },
+     "fix": {
+      "en": "→ queen",
+      "as": "→ ৰাণীক"
+     },
+     "answerText": {
+      "en": "mother → queen",
+      "as": "মাতৃ → ৰাণী"
+     },
+     "why": {
+      "en": "It was his queens: Phuleswari, Ambika, Sarbeswari.",
+      "as": "ৰাণীসকলহে: ফুলেশ্বৰী, অম্বিকা, সৰ্বেশ্বৰী।"
+     },
+     "id": "svs.u2.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Coins were struck in the names of both Siva Singha and his Bar Raja.",
+      "as": "শিৱ সিংহ আৰু বৰ ৰজা দুয়োৰে নামত মুদ্ৰা উলিওৱা হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True. Surviving coins prove it.",
+      "as": "শুদ্ধ। পোৱা মুদ্ৰাই প্ৰমাণ দিয়ে।"
+     },
+     "id": "svs.u2.07"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "moon",
+   "title": {
+    "en": "The insult",
+    "as": "অপমান"
+   },
+   "learned": [
+    {
+     "en": "Phuleswari, a zealous Sakta, ordered Vaishnava gosains to a Durga sacrifice",
+     "as": "কট্টৰ শাক্ত ফুলেশ্বৰীয়ে বৈষ্ণৱ গোঁসাইক দুৰ্গা বলিলৈ মাতিলে"
+    },
+    {
+     "en": "The Moamara Gosain's forehead was smeared with sacrificial blood",
+     "as": "মোৱামৰা গোঁসাইৰ কপালত বলিৰ তেজ সনা হ'ল"
+    },
+    {
+     "en": "His followers, the Moamorias, never forgave it",
+     "as": "তেওঁৰ অনুগামী মোৱামৰীয়াসকলে কেতিয়াও ক্ষমা নকৰিলে"
+    },
+    {
+     "en": "Half a century later they rose in rebellion",
+     "as": "আধা শতিকা পিছত তেওঁলোকে বিদ্ৰোহ কৰিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "order",
+     "q": {
+      "en": "Warm-up: put the Bar Rajas in order.",
+      "as": "মনত পেলোৱা: বৰ ৰজাসকলক ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Phuleswari",
+       "as": "ফুলেশ্বৰী"
+      },
+      {
+       "en": "Ambika",
+       "as": "অম্বিকা"
+      },
+      {
+       "en": "Sarbeswari",
+       "as": "সৰ্বেশ্বৰী"
+      }
+     ],
+     "why": {
+      "en": "P-A-S.",
+      "as": "ফু-অ-স।"
+     },
+     "id": "svs.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "Queens who ruled.",
+       "as": "শাসন কৰা ৰাণী।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "durga-puja.webp",
+     "title": {
+      "en": "Blood on the forehead",
+      "as": "কপালত তেজ"
+     },
+     "text": [
+      {
+       "en": "Phuleswari was a fiery Sakta. Told that some Vaishnava leaders would not worship Durga, she had the [[moamoria|Moamara]] Gosain and others brought to a sacrifice,",
+       "as": "ফুলেশ্বৰী জ্বলন্ত শাক্ত আছিল। কিছুমান বৈষ্ণৱ নেতাই দুৰ্গাক পূজা নকৰে শুনি তেওঁ [[moamoria|মোৱামৰা]] গোঁসাই আৰু আনসকলক বলিৰ ঠাইলৈ অনালে,"
+      },
+      {
+       "en": "and the Sakta mark was smeared on their foreheads <mark>with the blood of the victims</mark>.",
+       "as": "আৰু বলিৰ <mark>তেজেৰে</mark> তেওঁলোকৰ কপালত শাক্ত চিন সনা হ'ল।"
+      }
+     ],
+     "id": "svs.u3.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A seed of rebellion",
+      "as": "বিদ্ৰোহৰ বীজ"
+     },
+     "text": [
+      {
+       "en": "The Moamorias never forgave the insult to their guru. Fifty years later, in 1769, they rose in a rebellion that shook the kingdom.",
+       "as": "মোৱামৰীয়াসকলে গুৰুৰ অপমান কেতিয়াও ক্ষমা নকৰিলে। পঞ্চাশ বছৰ পিছত, ১৭৬৯ চনত, তেওঁলোকে ৰাজ্য কঁপোৱা বিদ্ৰোহ কৰিলে।"
+      }
+     ],
+     "id": "svs.u3.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Moamoria rebellion broke out in Siva Singha's reign.",
+      "as": "শিৱ সিংহৰ দিনত মোৱামৰীয়া বিদ্ৰোহ আৰম্ভ হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. The insult was in his reign; the rebellion came in 1769, under Lakshmi Singha.",
+      "as": "অশুদ্ধ। অপমান তেওঁৰ দিনত; বিদ্ৰোহ ১৭৬৯ চনত, লক্ষ্মী সিংহৰ দিনত।"
+     },
+     "id": "svs.u3.04"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Phuleswari",
+        "as": "ফুলেশ্বৰী"
+       },
+       {
+        "en": "Smeared the Moamara Gosain with blood",
+        "as": "মোৱামৰা গোঁসাইক তেজ সানিলে"
+       }
+      ],
+      [
+       {
+        "en": "Moamorias",
+        "as": "মোৱামৰীয়া"
+       },
+       {
+        "en": "Followers who never forgave",
+        "as": "ক্ষমা নকৰা অনুগামী"
+       }
+      ],
+      [
+       {
+        "en": "1769",
+        "as": "১৭৬৯"
+       },
+       {
+        "en": "The rebellion breaks out",
+        "as": "বিদ্ৰোহ আৰম্ভ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Cause and effect, fifty years apart.",
+      "as": "পঞ্চাশ বছৰৰ ব্যৱধানত কাৰণ আৰু ফল।"
+     },
+     "id": "svs.u3.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the Durga Puja quarrel?",
+      "as": "কোনখন ছবিত দুৰ্গা পূজাৰ বিবাদ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "durga-puja.webp",
+      "bar-raja.webp",
+      "krishnaram.webp",
+      "gaurisagar.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The insult",
+      "as": "অপমান"
+     },
+     "why": {
+      "en": "The seed of rebellion.",
+      "as": "বিদ্ৰোহৰ বীজ।"
+     },
+     "id": "svs.u3.06"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "home",
+   "title": {
+    "en": "Tanks and temples",
+    "as": "পুখুৰী আৰু মন্দিৰ"
+   },
+   "learned": [
+    {
+     "en": "Gaurisagar tank and temples (Phuleswari)",
+     "as": "গৌৰীসাগৰ পুখুৰী আৰু মন্দিৰ (ফুলেশ্বৰী)"
+    },
+    {
+     "en": "Sivasagar tank and the Siva Dol, 1734 (Ambika)",
+     "as": "শিৱসাগৰ পুখুৰী আৰু শিৱদ'ল, ১৭৩৪ (অম্বিকা)"
+    },
+    {
+     "en": "The Hastividyarnava, a painted book on elephants (1734)",
+     "as": "হস্তীবিদ্যাৰ্ণৱ, হাতীৰ বিষয়ে চিত্ৰিত পুথি (১৭৩৪)"
+    },
+    {
+     "en": "A land register, the Pera Kagaz, for Kamrup",
+     "as": "কামৰূপৰ বাবে মাটিৰ পঞ্জী, পেৰা কাকত"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Phuleswari insulted the Moamara Gosain.",
+      "as": "মনত পেলোৱা: ফুলেশ্বৰীয়ে মোৱামৰা গোঁসাইক অপমান কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "svs.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "The insult.",
+       "as": "অপমান।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "sivasagar-tank.webp",
+     "title": {
+      "en": "Water and stone",
+      "as": "পানী আৰু শিল"
+     },
+     "text": [
+      {
+       "en": "Siva Singha's reign filled the land with tanks and temples. Phuleswari's tank is <mark>Gaurisagar</mark>. In <mark>1734</mark> Ambika had the great <mark>Sivasagar</mark> tank dug, and on its bank the [[siva-dol]].",
+       "as": "শিৱ সিংহৰ ৰাজত্বকালত দেশ পুখুৰী আৰু মন্দিৰেৰে ভৰিল। ফুলেশ্বৰীৰ পুখুৰী <mark>গৌৰীসাগৰ</mark>। <mark>১৭৩৪</mark> চনত অম্বিকাই বিশাল <mark>শিৱসাগৰ</mark> পুখুৰী খন্দালে, আৰু তাৰ পাৰত [[siva-dol]]।"
+      },
+      {
+       "en": "The town of Sivasagar takes its name from this tank.",
+       "as": "শিৱসাগৰ নগৰৰ নাম এই পুখুৰীৰ পৰা।"
+      }
+     ],
+     "id": "svs.u4.02"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Gaurisagar",
+        "as": "গৌৰীসাগৰ"
+       },
+       {
+        "en": "Phuleswari",
+        "as": "ফুলেশ্বৰী"
+       }
+      ],
+      [
+       {
+        "en": "Sivasagar and Siva Dol",
+        "as": "শিৱসাগৰ আৰু শিৱদ'ল"
+       },
+       {
+        "en": "Ambika",
+        "as": "অম্বিকা"
+       }
+      ],
+      [
+       {
+        "en": "Joysagar",
+        "as": "জয়সাগৰ"
+       },
+       {
+        "en": "Rudra Singha",
+        "as": "ৰুদ্ৰ সিংহ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Three tanks, three builders.",
+      "as": "তিনিটা পুখুৰী, তিনিজন নিৰ্মাতা।"
+     },
+     "id": "svs.u4.03",
+     "link": {
+      "lesson": 30,
+      "lessonId": "rudra-singha",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "Joymoti's son",
+       "as": "জয়মতীৰ পুত্ৰ"
+      },
+      "note": {
+       "en": "Rudra dug Joysagar for his mother.",
+       "as": "ৰুদ্ৰই মাতৃৰ বাবে জয়সাগৰ খন্দাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "hastividyarnava.webp",
+     "title": {
+      "en": "A book of elephants",
+      "as": "হাতীৰ পুথি"
+     },
+     "text": [
+      {
+       "en": "In 1734 court artists painted the <mark>Hastividyarnava</mark>, a book on the care of elephants, full of bright pictures. It is a treasure of Assamese painting.",
+       "as": "১৭৩৪ চনত ৰাজসভাৰ চিত্ৰকৰে <mark>হস্তীবিদ্যাৰ্ণৱ</mark> আঁকিছিল, হাতীৰ যত্নৰ বিষয়ে উজ্জ্বল চিত্ৰেৰে ভৰা পুথি। ই অসমীয়া চিত্ৰকলাৰ এক সম্পদ।"
+      },
+      {
+       "en": "Kamrup's land was also surveyed into a register, the Pera Kagaz, still used when the British came.",
+       "as": "কামৰূপৰ মাটিও জৰীপ কৰি পেৰা কাকত নামৰ পঞ্জীত লিখা হ'ল, ব্ৰিটিছ অহালৈকে ব্যৱহৃত।"
+      }
+     ],
+     "id": "svs.u4.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the town named after Ambika's tank.",
+      "as": "অম্বিকাৰ পুখুৰীৰ নামেৰে নগৰখনৰ নাম সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "S",
+       "I",
+       "V",
+       "A",
+       "S",
+       "A",
+       "G",
+       "A",
+       "R"
+      ],
+      "as": [
+       "শি",
+       "ৱ",
+       "সা",
+       "গৰ"
+      ]
+     },
+     "answerText": {
+      "en": "SIVASAGAR",
+      "as": "শিৱসাগৰ"
+     },
+     "why": {
+      "en": "Sivasagar.",
+      "as": "শিৱসাগৰ।"
+     },
+     "id": "svs.u4.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the Hastividyarnava being painted?",
+      "as": "কোনখন ছবিত হস্তীবিদ্যাৰ্ণৱ অংকন দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "hastividyarnava.webp",
+      "sivasagar-tank.webp",
+      "gaurisagar.webp",
+      "survey.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Painting the book of elephants",
+      "as": "হাতীৰ পুথি অংকন"
+     },
+     "why": {
+      "en": "1734.",
+      "as": "১৭৩৪।"
+     },
+     "id": "svs.u4.06"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "walk",
+   "title": {
+    "en": "Visitors and changes",
+    "as": "অতিথি আৰু পৰিৱৰ্তন"
+   },
+   "learned": [
+    {
+     "en": "In 1739 four Europeans visited Siva Singha at Rangpur",
+     "as": "১৭৩৯ চনত চাৰিজন ইউৰোপীয়ে ৰংপুৰত শিৱ সিংহক সাক্ষাৎ কৰিলে"
+    },
+    {
+     "en": "Hinduism became the main religion of the court and many Ahoms",
+     "as": "হিন্দু ধৰ্ম ৰাজসভা আৰু বহু আহোমৰ প্ৰধান ধৰ্ম হ'ল"
+    },
+    {
+     "en": "The old Deodhai priests lost ground",
+     "as": "পুৰণি দেওধাই পুৰোহিতৰ প্ৰভাৱ কমিল"
+    },
+    {
+     "en": "He died in 1744; his brother Pramatta was chosen over his sons",
+     "as": "১৭৪৪ চনত মৃত্যু; পুত্ৰৰ সলনি ভাই প্ৰমত্তক বাছি লোৱা হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match.",
+      "as": "মনত পেলোৱা: মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Gaurisagar",
+        "as": "গৌৰীসাগৰ"
+       },
+       {
+        "en": "Phuleswari",
+        "as": "ফুলেশ্বৰী"
+       }
+      ],
+      [
+       {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+       },
+       {
+        "en": "Ambika",
+        "as": "অম্বিকা"
+       }
+      ],
+      [
+       {
+        "en": "Hastividyarnava",
+        "as": "হস্তীবিদ্যাৰ্ণৱ"
+       },
+       {
+        "en": "Book of elephants",
+        "as": "হাতীৰ পুথি"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall.",
+      "as": "মনত পেলোৱা।"
+     },
+     "id": "svs.u5.01",
+     "link": {
+      "unit": "u4",
+      "note": {
+       "en": "Tanks and temples.",
+       "as": "পুখুৰী আৰু মন্দিৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "embassy",
+     "title": {
+      "en": "Strangers at the gate",
+      "as": "দুৱাৰত বিদেশী"
+     },
+     "text": [
+      {
+       "en": "In <mark>1739</mark> four Europeans came to Rangpur. The king met them at the main gate of the city.",
+       "as": "<mark>১৭৩৯</mark> চনত চাৰিজন ইউৰোপীয় ৰংপুৰলৈ আহিল। ৰজাই নগৰৰ মূল দুৱাৰত তেওঁলোকক সাক্ষাৎ কৰিলে।"
+      },
+      {
+       "en": "They were a sign of the wider world drawing near Assam.",
+       "as": "তেওঁলোক আছিল অসমৰ ওচৰ চাপি অহা বৃহৎ জগতৰ চিন।"
+      }
+     ],
+     "id": "svs.u5.02"
+    },
+    {
+     "type": "story",
+     "img": "survey.webp",
+     "title": {
+      "en": "A changing people",
+      "as": "সলনি হোৱা জাতি"
+     },
+     "text": [
+      {
+       "en": "With royal support Hinduism became the main religion. The Deodhais and Bailungs held on to old rites like the Somdeo, but people slowly left them.",
+       "as": "ৰাজকীয় সমৰ্থনত হিন্দু ধৰ্ম প্ৰধান ধৰ্ম হ'ল। দেওধাই আৰু বাইলুঙে চোমদেওৰ দৰে পুৰণি ৰীতি ধৰি ৰাখিলে, কিন্তু মানুহে লাহে লাহে এৰি গ'ল।"
+      },
+      {
+       "en": "Siva Singha died in <mark>1744</mark>. The nobles passed over his sons and crowned his brother [[pramatta-singha]].",
+       "as": "<mark>১৭৪৪</mark> চনত শিৱ সিংহৰ মৃত্যু হয়। বিষয়াসকলে তেওঁৰ পুত্ৰক এৰি ভাই [[pramatta-singha]]ক অভিষেক কৰিলে।"
+      }
+     ],
+     "id": "svs.u5.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Siva Singha was succeeded by his son.",
+      "as": "শিৱ সিংহৰ পিছত তেওঁৰ পুত্ৰ ৰজা হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False: by his brother Pramatta Singha.",
+      "as": "অশুদ্ধ: ভাই প্ৰমত্ত সিংহ।"
+     },
+     "id": "svs.u5.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember B-T-B",
+      "as": "মনত ৰাখা ব-পু-ব"
+     },
+     "text": [
+      {
+       "en": "Siva Singha in three letters, <mark>B-T-B</mark>: <b>B</b>ar Rajas (his queens), <b>T</b>anks and temples (Gaurisagar, Sivasagar, Siva Dol), <b>B</b>lood on the gosain's brow (the seed of rebellion).",
+       "as": "শিৱ সিংহ তিনিটা আখৰত, <mark>ব-পু-ব</mark>: <b>ব</b>ৰ ৰজা (ৰাণীসকল), <b>পু</b>খুৰী আৰু মন্দিৰ (গৌৰীসাগৰ, শিৱসাগৰ, শিৱদ'ল), গোঁসাইৰ কপালত <b>ব</b>লিৰ তেজ (বিদ্ৰোহৰ বীজ)।"
+      }
+     ],
+     "id": "svs.u5.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use B-T-B: put the reign in order.",
+      "as": "ব-পু-ব ব্যৱহাৰ কৰি ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Phuleswari made Bar Raja (1722)",
+       "as": "ফুলেশ্বৰী বৰ ৰজা (১৭২২)"
+      },
+      {
+       "en": "Sivasagar tank dug (1734)",
+       "as": "শিৱসাগৰ পুখুৰী (১৭৩৪)"
+      },
+      {
+       "en": "Europeans visit (1739)",
+       "as": "ইউৰোপীয়ৰ ভ্ৰমণ (১৭৩৯)"
+      },
+      {
+       "en": "Siva Singha dies (1744)",
+       "as": "শিৱ সিংহৰ মৃত্যু (১৭৪৪)"
+      }
+     ],
+     "why": {
+      "en": "1722 → 1734 → 1739 → 1744.",
+      "as": "১৭২২ → ১৭৩৪ → ১৭৩৯ → ১৭৪৪।"
+     },
+     "id": "svs.u5.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Siva Singha",
+    "as": "তুমি স্বৰ্গদেউ শিৱ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Siva Singha was Rudra Singha's son.",
+     "as": "শিৱ সিংহ ৰুদ্ৰ সিংহৰ পুত্ৰ আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True, the eldest.",
+     "as": "শুদ্ধ, জ্যেষ্ঠ।"
+    },
+    "id": "svs.test.01",
+    "link": {
+     "lesson": 30,
+     "lessonId": "rudra-singha",
+     "unitNo": 5,
+     "unitTitle": {
+      "en": "The last campaign",
+      "as": "শেষ অভিযান"
+     },
+     "note": {
+      "en": "Rudra died in 1714.",
+      "as": "১৭১৪ চনত ৰুদ্ৰৰ মৃত্যু।"
+     }
+    }
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I made my queens Bar Raja.",
+      "as": "মই ৰাণীসকলক বৰ ৰজা পাতিছিলোঁ।"
+     },
+     {
+      "en": "Krishnaram was my guru.",
+      "as": "কৃষ্ণৰাম মোৰ গুৰু।"
+     },
+     {
+      "en": "Sivasagar was dug in my reign.",
+      "as": "মোৰ দিনত শিৱসাগৰ খন্দা হৈছিল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Siva Singha",
+      "as": "শিৱ সিংহ"
+     },
+     {
+      "en": "Rudra Singha",
+      "as": "ৰুদ্ৰ সিংহ"
+     },
+     {
+      "en": "Pramatta Singha",
+      "as": "প্ৰমত্ত সিংহ"
+     },
+     {
+      "en": "Rajeswar Singha",
+      "as": "ৰাজেশ্বৰ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Siva Singha.",
+     "as": "শিৱ সিংহ।"
+    },
+    "id": "svs.test.02"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the Sivasagar tank and Siva Dol?",
+     "as": "কোনখন ছবিত শিৱসাগৰ পুখুৰী আৰু শিৱদ'ল দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "sivasagar-tank.webp",
+     "gaurisagar.webp",
+     "hastividyarnava.webp",
+     "bar-raja.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    "why": {
+     "en": "1734.",
+     "as": "১৭৩৪।"
+    },
+    "id": "svs.test.03"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1714",
+      "l": {
+       "en": "Siva Singha crowned",
+       "as": "শিৱ সিংহৰ অভিষেক"
+      }
+     },
+     {
+      "y": "1744",
+      "l": {
+       "en": "Siva Singha dies",
+       "as": "শিৱ সিংহৰ মৃত্যু"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Jaintiapur taken",
+       "as": "জয়ন্তীয়াপুৰ দখল"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Siva Dol built",
+       "as": "শিৱদ'ল নিৰ্মাণ"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Moamoria rebellion",
+       "as": "মোৱামৰীয়া বিদ্ৰোহ"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1708 → 1714 → 1734 → 1744 → 1769.",
+     "as": "১৭০৮ → ১৭১৪ → ১৭৩৪ → ১৭৪৪ → ১৭৬৯।"
+    },
+    "id": "svs.test.04"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the title given to his queens: Bar ___.",
+     "as": "ৰাণীক দিয়া উপাধি: বৰ ___।"
+    },
+    "word": {
+     "en": [
+      "R",
+      "A",
+      "J",
+      "A"
+     ],
+     "as": [
+      "ৰ",
+      "জা"
+     ]
+    },
+    "answerText": {
+     "en": "RAJA",
+     "as": "ৰজা"
+    },
+    "why": {
+     "en": "Bar Raja.",
+     "as": "বৰ ৰজা।"
+    },
+    "id": "svs.test.05"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Phuleswari",
+       "as": "ফুলেশ্বৰী"
+      },
+      {
+       "en": "First Bar Raja",
+       "as": "প্ৰথম বৰ ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Krishnaram",
+       "as": "কৃষ্ণৰাম"
+      },
+      {
+       "en": "Parbatiya Gosain",
+       "as": "পৰ্বতীয়া গোঁসাই"
+      }
+     ],
+     [
+      {
+       "en": "Siva Dol",
+       "as": "শিৱদ'ল"
+      },
+      {
+       "en": "Temple on the Sivasagar tank",
+       "as": "শিৱসাগৰ পুখুৰীৰ মন্দিৰ"
+      }
+     ],
+     [
+      {
+       "en": "Hastividyarnava",
+       "as": "হস্তীবিদ্যাৰ্ণৱ"
+      },
+      {
+       "en": "Painted book on elephants",
+       "as": "হাতীৰ চিত্ৰিত পুথি"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Siva Singha's reign.",
+     "as": "শিৱ সিংহৰ ৰাজত্বকাল।"
+    },
+    "id": "svs.test.06"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "The",
+      "Sivasagar",
+      "tank",
+      "was",
+      "dug",
+      "by",
+      "Phuleswari."
+     ],
+     "as": [
+      "শিৱসাগৰ",
+      "পুখুৰী",
+      "ফুলেশ্বৰীয়ে",
+      "খন্দাইছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 6,
+     "as": 2
+    },
+    "fix": {
+     "en": "→ Ambika",
+     "as": "→ অম্বিকাই"
+    },
+    "answerText": {
+     "en": "Phuleswari → Ambika",
+     "as": "ফুলেশ্বৰী → অম্বিকা"
+    },
+    "why": {
+     "en": "Phuleswari's is Gaurisagar; Sivasagar is Ambika's.",
+     "as": "ফুলেশ্বৰীৰ গৌৰীসাগৰ; শিৱসাগৰ অম্বিকাৰ।"
+    },
+    "id": "svs.test.07"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the Tungkhungia kings in order.",
+     "as": "তুংখুঙীয়া ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Rudra Singha",
+      "as": "ৰুদ্ৰ সিংহ"
+     },
+     {
+      "en": "Siva Singha",
+      "as": "শিৱ সিংহ"
+     },
+     {
+      "en": "Pramatta Singha",
+      "as": "প্ৰমত্ত সিংহ"
+     },
+     {
+      "en": "Rajeswar Singha",
+      "as": "ৰাজেশ্বৰ সিংহ"
+     }
+    ],
+    "why": {
+     "en": "1696 → 1714 → 1744 → 1751.",
+     "as": "১৬৯৬ → ১৭১৪ → ১৭৪৪ → ১৭৫১।"
+    },
+    "id": "svs.test.08"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Siva Singha made his queen Phuleswari the Bar Raja.<br>2. The Siva Dol was built by Rudra Singha.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. শিৱ সিংহই ৰাণী ফুলেশ্বৰীক বৰ ৰজা পাতিছিল।<br>২. শিৱদ'ল ৰুদ্ৰ সিংহই নিৰ্মাণ কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. The Siva Dol (1734) was built under Siva Singha by Ambika.",
+     "as": "কেৱল ১। শিৱদ'ল (১৭৩৪) শিৱ সিংহৰ দিনত অম্বিকাই নিৰ্মাণ কৰিছিল।"
+    },
+    "small": true,
+    "id": "svs.test.09"
+   }
+  ]
+ }
+}

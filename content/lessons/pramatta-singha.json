@@ -1,0 +1,703 @@
+{
+ "id": "pramatta-singha",
+ "no": 32,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Pramatta Singha",
+  "as": "স্বৰ্গদেউ প্ৰমত্ত সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1744–1751",
+  "as": "ৰাজত্বকাল ১৭৪৪–১৭৫১"
+ },
+ "portrait": "pramatta-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VII, p. 179",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Nobles pass over Sib Singh's sons; Pramata Singh (Sunenpha) installed by the Deodhais; conspiracy punished; 1745 survey and census; new buildings and masonry gateways at Garhgaon; the Rangghar for animal fights at Rangpur; Rudresvar and Sukresvar temples at Gauhati; died 1751 after seven uneventful years"
+  },
+  {
+   "title": "Rang Ghar",
+   "url": "https://en.wikipedia.org/wiki/Rang_Ghar",
+   "used_for": "Brick pavilion built 1746 under Pramatta Singha; called the oldest surviving amphitheatre in Asia; Bihu games and buffalo fights"
+  }
+ ],
+ "review_notes": "Wikipedia notes an earlier wooden Rang Ghar of Rudra Singha's time; the brick building dates from Pramatta Singha's reign (1746). 'Colosseum of the East' is a popular name, not a historical one.",
+ "buildsOn": {
+  "no": 30,
+  "title": {
+   "en": "Rudra Singha",
+   "as": "ৰুদ্ৰ সিংহ"
+  },
+  "id": "rudra-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1744",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1745",
+    "t": {
+     "en": "Survey and census",
+     "as": "জৰীপ আৰু লোকপিয়ল"
+    }
+   },
+   {
+    "y": "1746",
+    "t": {
+     "en": "Brick Rang Ghar built at Rangpur",
+     "as": "ৰংপুৰত ইটাৰ ৰংঘৰ নিৰ্মাণ"
+    }
+   },
+   {
+    "y": "1751",
+    "t": {
+     "en": "Dies",
+     "as": "মৃত্যু"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.9,
+   26.45,
+   95.4,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "dikhou",
+   "garhgaon",
+   "rangpur",
+   "charaideo",
+   "majuli"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "garhgaon": {
+    "pos": "s"
+   },
+   "rangpur": {
+    "pos": "w"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "dikhou": {
+    "at": [
+     26.8,
+     94.79
+    ],
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     27.05,
+     94.3
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "home",
+   "title": {
+    "en": "The Rang Ghar",
+    "as": "ৰংঘৰ"
+   },
+   "learned": [
+    {
+     "en": "Pramatta Singha, Rudra's second son, was crowned in 1744",
+     "as": "ৰুদ্ৰৰ দ্বিতীয় পুত্ৰ প্ৰমত্ত সিংহ ১৭৪৪ চনত অভিষিক্ত হ'ল"
+    },
+    {
+     "en": "The brick Rang Ghar was built at Rangpur in 1746",
+     "as": "১৭৪৬ চনত ৰংপুৰত ইটাৰ ৰংঘৰ নিৰ্মিত"
+    },
+    {
+     "en": "From it the court watched Bihu games and buffalo fights",
+     "as": "ইয়াৰ পৰা ৰাজসভাই বিহুৰ খেল আৰু ম'হৰ যুঁজ চাইছিল"
+    },
+    {
+     "en": "It is called the oldest surviving amphitheatre in Asia",
+     "as": "ইয়াক এছিয়াৰ আটাইতকৈ পুৰণি জীৱিত ক্ৰীড়াংগন বোলা হয়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "rang-ghar-built.webp",
+     "title": {
+      "en": "A brother on the throne",
+      "as": "সিংহাসনত ভাই"
+     },
+     "text": [
+      {
+       "en": "In <mark>1744</mark> the nobles passed over Siva Singha's sons and crowned his brother, [[pramatta-singha]] (Sunenphaa).",
+       "as": "<mark>১৭৪৪</mark> চনত বিষয়াসকলে শিৱ সিংহৰ পুত্ৰক এৰি তেওঁৰ ভাই [[pramatta-singha]] (চুনেনফা)ক অভিষেক কৰিলে।"
+      },
+      {
+       "en": "His seven years were quiet. In 1745 the land was surveyed and the people counted again.",
+       "as": "তেওঁৰ সাত বছৰ শান্ত আছিল। ১৭৪৫ চনত পুনৰ মাটি জৰীপ আৰু লোকপিয়ল হ'ল।"
+      }
+     ],
+     "id": "pms.u1.01",
+     "link": {
+      "lesson": 31,
+      "lessonId": "siva-singha",
+      "unitNo": 5,
+      "unitTitle": {
+       "en": "Visitors and changes",
+       "as": "অতিথি আৰু পৰিৱৰ্তন"
+      },
+      "note": {
+       "en": "Siva Singha died in 1744.",
+       "as": "১৭৪৪ চনত শিৱ সিংহৰ মৃত্যু।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "buffalo-fight.webp",
+     "title": {
+      "en": "The pavilion of games",
+      "as": "খেলৰ মণ্ডপ"
+     },
+     "text": [
+      {
+       "en": "At Rangpur he built the [[rang-ghar]] in brick, in <mark>1746</mark>: a two-storey pavilion with a roof shaped like an upturned royal boat.",
+       "as": "ৰংপুৰত তেওঁ <mark>১৭৪৬</mark> চনত ইটাৰে [[rang-ghar]] সাজিলে: ওলোটা ৰাজকীয় নাৱৰ আকৃতিৰ চালৰ দুমহলীয়া মণ্ডপ।"
+      },
+      {
+       "en": "From it the king and nobles watched games and <mark>buffalo fights</mark> at Bihu on the field below.",
+       "as": "ইয়াৰ পৰা ৰজা আৰু বিষয়াই বিহুত তলৰ পথাৰত খেল আৰু <mark>ম'হৰ যুঁজ</mark> চাইছিল।"
+      }
+     ],
+     "id": "pms.u1.02"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I am a two-storey brick pavilion.",
+       "as": "মই এটা দুমহলীয়া ইটাৰ মণ্ডপ।"
+      },
+      {
+       "en": "I was built in 1746.",
+       "as": "মই ১৭৪৬ চনত নিৰ্মিত।"
+      },
+      {
+       "en": "Kings watched buffalo fights from me.",
+       "as": "ৰজাই মোৰ পৰা ম'হৰ যুঁজ চাইছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Rang Ghar",
+       "as": "ৰংঘৰ"
+      },
+      {
+       "en": "Talatal Ghar",
+       "as": "তলাতল ঘৰ"
+      },
+      {
+       "en": "Kareng Ghar",
+       "as": "কাৰেং ঘৰ"
+      },
+      {
+       "en": "Siva Dol",
+       "as": "শিৱদ'ল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Rang Ghar.",
+      "as": "ৰংঘৰ।"
+     },
+     "id": "pms.u1.03"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Rangpur, where the Rang Ghar stands.",
+      "as": "ৰংঘৰ থকা ৰংপুৰ টিপা।"
+     },
+     "target": "rangpur",
+     "choices": [
+      "rangpur",
+      "garhgaon",
+      "charaideo",
+      "majuli"
+     ],
+     "answerText": {
+      "en": "Rangpur",
+      "as": "ৰংপুৰ"
+     },
+     "why": {
+      "en": "Rangpur, today part of Sivasagar.",
+      "as": "ৰংপুৰ, আজি শিৱসাগৰৰ অংশ।"
+     },
+     "id": "pms.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the pavilion's name.",
+      "as": "মণ্ডপটোৰ নাম সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "R",
+       "A",
+       "N",
+       "G",
+       "G",
+       "H",
+       "A",
+       "R"
+      ],
+      "as": [
+       "ৰং",
+       "ঘৰ"
+      ]
+     },
+     "answerText": {
+      "en": "RANGGHAR",
+      "as": "ৰংঘৰ"
+     },
+     "why": {
+      "en": "Rang Ghar: 'house of entertainment'.",
+      "as": "ৰংঘৰ: 'ৰং-ধেমালিৰ ঘৰ'।"
+     },
+     "id": "pms.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows a buffalo fight at the Rang Ghar?",
+      "as": "কোনখন ছবিত ৰংঘৰত ম'হৰ যুঁজ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "buffalo-fight.webp",
+      "rang-ghar-built.webp",
+      "gathering.webp",
+      "pramatta-singha-portrait.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Buffalo fight",
+      "as": "ম'হৰ যুঁজ"
+     },
+     "why": {
+      "en": "At Bihu.",
+      "as": "বিহুত।"
+     },
+     "id": "pms.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "star",
+   "title": {
+    "en": "Temples at Guwahati",
+    "as": "গুৱাহাটীৰ মন্দিৰ"
+   },
+   "learned": [
+    {
+     "en": "He built the Rudreswar temple at Guwahati for his father",
+     "as": "তেওঁ পিতৃৰ স্মৃতিত গুৱাহাটীত ৰুদ্ৰেশ্বৰ মন্দিৰ সাজিলে"
+    },
+    {
+     "en": "And the Sukreswar temple at Guwahati",
+     "as": "আৰু গুৱাহাটীৰ শুক্ৰেশ্বৰ মন্দিৰ"
+    },
+    {
+     "en": "New masonry gateways rose at Garhgaon",
+     "as": "গড়গাঁৱত নতুন পকী দুৱাৰ নিৰ্মিত"
+    },
+    {
+     "en": "He died in 1751; his brother Rajeswar followed",
+     "as": "১৭৫১ চনত মৃত্যু; ভাই ৰাজেশ্বৰ ৰজা"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: the brick Rang Ghar was built in 1746.",
+      "as": "মনত পেলোৱা: ইটাৰ ৰংঘৰ ১৭৪৬ চনত নিৰ্মিত।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "pms.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The Rang Ghar.",
+       "as": "ৰংঘৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "gathering.webp",
+     "title": {
+      "en": "For a father",
+      "as": "পিতৃৰ বাবে"
+     },
+     "text": [
+      {
+       "en": "Pramatta built the <mark>Rudreswar</mark> temple at Guwahati in memory of his father Rudra Singha, and the <mark>Sukreswar</mark> temple on the river bank.",
+       "as": "প্ৰমত্তই পিতৃ ৰুদ্ৰ সিংহৰ স্মৃতিত গুৱাহাটীত <mark>ৰুদ্ৰেশ্বৰ</mark> মন্দিৰ আৰু নদীৰ পাৰত <mark>শুক্ৰেশ্বৰ</mark> মন্দিৰ সাজিলে।"
+      },
+      {
+       "en": "He died in <mark>1751</mark> after seven quiet years.",
+       "as": "সাত বছৰৰ শান্ত ৰাজত্বৰ পিছত <mark>১৭৫১</mark> চনত তেওঁৰ মৃত্যু হয়।"
+      }
+     ],
+     "id": "pms.u2.02"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Rang Ghar",
+        "as": "ৰংঘৰ"
+       },
+       {
+        "en": "Pramatta Singha, 1746",
+        "as": "প্ৰমত্ত সিংহ, ১৭৪৬"
+       }
+      ],
+      [
+       {
+        "en": "Rudreswar temple",
+        "as": "ৰুদ্ৰেশ্বৰ মন্দিৰ"
+       },
+       {
+        "en": "For Rudra Singha",
+        "as": "ৰুদ্ৰ সিংহৰ স্মৃতিত"
+       }
+      ],
+      [
+       {
+        "en": "Siva Dol",
+        "as": "শিৱদ'ল"
+       },
+       {
+        "en": "Ambika, 1734",
+        "as": "অম্বিকা, ১৭৩৪"
+       }
+      ],
+      [
+       {
+        "en": "Joysagar",
+        "as": "জয়সাগৰ"
+       },
+       {
+        "en": "Rudra Singha for Joymoti",
+        "as": "জয়মতীৰ বাবে ৰুদ্ৰ সিংহ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Buildings and builders: an exam favourite.",
+      "as": "নিৰ্মাণ আৰু নিৰ্মাতা: পৰীক্ষাৰ প্ৰিয়।"
+     },
+     "id": "pms.u2.03"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "The",
+       "brick",
+       "Rang",
+       "Ghar",
+       "was",
+       "built",
+       "by",
+       "Siva",
+       "Singha."
+      ],
+      "as": [
+       "ইটাৰ",
+       "ৰংঘৰ",
+       "শিৱ",
+       "সিংহই",
+       "নিৰ্মাণ",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 7,
+      "as": 2
+     },
+     "fix": {
+      "en": "→ Pramatta Singha",
+      "as": "→ প্ৰমত্ত সিংহই"
+     },
+     "answerText": {
+      "en": "Siva → Pramatta",
+      "as": "শিৱ → প্ৰমত্ত"
+     },
+     "why": {
+      "en": "Pramatta Singha, 1746.",
+      "as": "প্ৰমত্ত সিংহ, ১৭৪৬।"
+     },
+     "id": "pms.u2.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put these buildings in order.",
+      "as": "এই নিৰ্মাণবোৰ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Joysagar (1697)",
+       "as": "জয়সাগৰ (১৬৯৭)"
+      },
+      {
+       "en": "Siva Dol (1734)",
+       "as": "শিৱদ'ল (১৭৩৪)"
+      },
+      {
+       "en": "Rang Ghar in brick (1746)",
+       "as": "ইটাৰ ৰংঘৰ (১৭৪৬)"
+      }
+     ],
+     "why": {
+      "en": "1697 → 1734 → 1746.",
+      "as": "১৬৯৭ → ১৭৩৪ → ১৭৪৬।"
+     },
+     "id": "pms.u2.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Pramatta Singha's reign was full of wars.",
+      "as": "প্ৰমত্ত সিংহৰ ৰাজত্বকাল যুদ্ধেৰে ভৰা আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Gait calls it uneventful.",
+      "as": "অশুদ্ধ। গেইটৰ মতে ঘটনাবিহীন।"
+     },
+     "id": "pms.u2.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Pramatta Singha",
+    "as": "তুমি স্বৰ্গদেউ প্ৰমত্ত সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was Rudra's second son.",
+      "as": "মই ৰুদ্ৰৰ দ্বিতীয় পুত্ৰ।"
+     },
+     {
+      "en": "The brick Rang Ghar rose in my reign.",
+      "as": "মোৰ দিনত ইটাৰ ৰংঘৰ নিৰ্মিত।"
+     },
+     {
+      "en": "I ruled seven quiet years.",
+      "as": "মই সাত বছৰ শান্তিৰে ৰাজত্ব কৰিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Pramatta Singha",
+      "as": "প্ৰমত্ত সিংহ"
+     },
+     {
+      "en": "Siva Singha",
+      "as": "শিৱ সিংহ"
+     },
+     {
+      "en": "Rajeswar Singha",
+      "as": "ৰাজেশ্বৰ সিংহ"
+     },
+     {
+      "en": "Lakshmi Singha",
+      "as": "লক্ষ্মী সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Pramatta Singha.",
+     "as": "প্ৰমত্ত সিংহ।"
+    },
+    "id": "pms.test.01"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the Rang Ghar being built?",
+     "as": "কোনখন ছবিত ৰংঘৰ নিৰ্মাণ দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "rang-ghar-built.webp",
+     "buffalo-fight.webp",
+     "gathering.webp",
+     "pramatta-singha-portrait.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "The Rang Ghar",
+     "as": "ৰংঘৰ"
+    },
+    "why": {
+     "en": "1746.",
+     "as": "১৭৪৬।"
+    },
+    "id": "pms.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Rangpur.",
+     "as": "ৰংপুৰ টিপা।"
+    },
+    "target": "rangpur",
+    "choices": [
+     "rangpur",
+     "garhgaon",
+     "charaideo",
+     "majuli"
+    ],
+    "answerText": {
+     "en": "Rangpur",
+     "as": "ৰংপুৰ"
+    },
+    "why": {
+     "en": "Rangpur.",
+     "as": "ৰংপুৰ।"
+    },
+    "id": "pms.test.03"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1744",
+      "l": {
+       "en": "Pramatta crowned",
+       "as": "প্ৰমত্তৰ অভিষেক"
+      }
+     },
+     {
+      "y": "1751",
+      "l": {
+       "en": "Pramatta dies",
+       "as": "প্ৰমত্তৰ মৃত্যু"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Siva Dol built",
+       "as": "শিৱদ'ল নিৰ্মাণ"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Rang Ghar built",
+       "as": "ৰংঘৰ নিৰ্মাণ"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Kareng Ghar rebuilt",
+       "as": "কাৰেং ঘৰ পুনৰ নিৰ্মাণ"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1734 → 1744 → 1746 → 1751 → 1752.",
+     "as": "১৭৩৪ → ১৭৪৪ → ১৭৪৬ → ১৭৫১ → ১৭৫২।"
+    },
+    "id": "pms.test.04"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. The brick Rang Ghar was built in Pramatta Singha's reign.<br>2. Pramatta Singha was Siva Singha's son.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ইটাৰ ৰংঘৰ প্ৰমত্ত সিংহৰ দিনত নিৰ্মিত।<br>২. প্ৰমত্ত সিংহ শিৱ সিংহৰ পুত্ৰ।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. He was Siva Singha's brother.",
+     "as": "কেৱল ১। তেওঁ শিৱ সিংহৰ ভাই।"
+    },
+    "small": true,
+    "id": "pms.test.05"
+   }
+  ]
+ }
+}

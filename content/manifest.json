@@ -1,5 +1,5 @@
 {
- "version": "912cfcd1a2",
+ "version": "1067864b77",
  "courses": [
   {
    "id": "ahom-kings",
@@ -60,6 +60,71 @@
      },
      "i": "moon",
      "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 10
+    }
+   ]
+  },
+  "gadadhar-singha": {
+   "no": 29,
+   "version": 1,
+   "steps": 6,
+   "title": {
+    "en": "Swargadeo Gadadhar Singha",
+    "as": "স্বৰ্গদেউ গদাধৰ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "From hiding to the throne",
+      "as": "লুকাই থকাৰ পৰা সিংহাসনলৈ"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The last Mughal war",
+      "as": "শেষ মোগল যুদ্ধ"
+     },
+     "i": "flag",
+     "ex": 6
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The king and the satras",
+      "as": "ৰজা আৰু সত্ৰ"
+     },
+     "i": "hands",
+     "ex": 5
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Roads, temples and a survey",
+      "as": "আলি, মন্দিৰ আৰু জৰীপ"
+     },
+     "i": "home",
+     "ex": 4
+    },
+    {
+     "id": "u5",
+     "t": {
+      "en": "A strong king's legacy",
+      "as": "এজন শক্তিশালী ৰজাৰ উত্তৰাধিকাৰ"
+     },
+     "i": "star",
+     "ex": 5
     },
     {
      "id": "test",
@@ -193,6 +258,44 @@
     }
    ]
   },
+  "pramatta-singha": {
+   "no": 32,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Pramatta Singha",
+    "as": "স্বৰ্গদেউ প্ৰমত্ত সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "The Rang Ghar",
+      "as": "ৰংঘৰ"
+     },
+     "i": "home",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Temples at Guwahati",
+      "as": "গুৱাহাটীৰ মন্দিৰ"
+     },
+     "i": "star",
+     "ex": 5
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 5
+    }
+   ]
+  },
   "pratap-singha": {
    "no": 17,
    "version": 2,
@@ -276,6 +379,62 @@
     }
    ]
   },
+  "rajeswar-singha": {
+   "no": 33,
+   "version": 1,
+   "steps": 5,
+   "title": {
+    "en": "Swargadeo Rajeswar Singha",
+    "as": "স্বৰ্গদেউ ৰাজেশ্বৰ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A king who loved palaces",
+      "as": "ৰাজপ্ৰসাদপ্ৰেমী ৰজা"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The burning of the Buranjis",
+      "as": "বুৰঞ্জী দহন"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "Help for Manipur",
+      "as": "মণিপুৰৰ সহায়"
+     },
+     "i": "hill",
+     "ex": 5
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Storm clouds",
+      "as": "ধুমুহাৰ ডাৱৰ"
+     },
+     "i": "star",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 9
+    }
+   ]
+  },
   "ramdhwaj-singha": {
    "no": 23,
    "version": 1,
@@ -311,6 +470,136 @@
      },
      "i": "trophy",
      "ex": 6
+    }
+   ]
+  },
+  "rudra-singha": {
+   "no": 30,
+   "version": 1,
+   "steps": 6,
+   "title": {
+    "en": "Swargadeo Rudra Singha",
+    "as": "স্বৰ্গদেউ ৰুদ্ৰ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "Joymoti's son",
+      "as": "জয়মতীৰ পুত্ৰ"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "A city of brick",
+      "as": "ইটাৰ নগৰ"
+     },
+     "i": "home",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "Kacharis and Jaintias",
+      "as": "কছাৰী আৰু জয়ন্তীয়া"
+     },
+     "i": "hill",
+     "ex": 5
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "The great court",
+      "as": "মহা ৰাজসভা"
+     },
+     "i": "star",
+     "ex": 4
+    },
+    {
+     "id": "u5",
+     "t": {
+      "en": "The last campaign",
+      "as": "শেষ অভিযান"
+     },
+     "i": "moon",
+     "ex": 3
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 10
+    }
+   ]
+  },
+  "siva-singha": {
+   "no": 31,
+   "version": 1,
+   "steps": 6,
+   "title": {
+    "en": "Swargadeo Siva Singha",
+    "as": "স্বৰ্গদেউ শিৱ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A king and his guru",
+      "as": "ৰজা আৰু গুৰু"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Queens who ruled",
+      "as": "শাসন কৰা ৰাণী"
+     },
+     "i": "star",
+     "ex": 5
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The insult",
+      "as": "অপমান"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Tanks and temples",
+      "as": "পুখুৰী আৰু মন্দিৰ"
+     },
+     "i": "home",
+     "ex": 4
+    },
+    {
+     "id": "u5",
+     "t": {
+      "en": "Visitors and changes",
+      "as": "অতিথি আৰু পৰিৱৰ্তন"
+     },
+     "i": "walk",
+     "ex": 3
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 9
     }
    ]
   },

@@ -1,0 +1,1582 @@
+{
+ "id": "gadadhar-singha",
+ "no": 29,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Gadadhar Singha",
+  "as": "স্বৰ্গদেউ গদাধৰ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1681–1696",
+  "as": "ৰাজত্বকাল ১৬৮১–১৬৯৬"
+ },
+ "portrait": "gadadhar-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VII, pp. 160–164",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Supatpha, Gadadhar Singh, capital Barkola; Gauhati retaken: Bansbari, Kajali, naval victory at the Barnadi mouth, Faujdar flees, pursued to the Monas; the last Muhammadan war, Monas the boundary; cannon inscription 1682; conspiracies crushed; Miri and Naga expeditions; persecution of Vaishnava gosains; Jakhalabandha exception; persecution stopped; died February 1696; Umananda temple; earliest copper-plate grants; Dhodar Ali, Aka Ali; land survey with surveyors from Koch Bihar and Bengal, the pura; physique, calf roasted in ashes"
+  },
+  {
+   "title": "Battle of Itakhuli",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Itakhuli",
+   "used_for": "1682, final expulsion of the Mughals from Guwahati"
+  },
+  {
+   "title": "Gadadhar Singha",
+   "url": "https://en.wikipedia.org/wiki/Gadadhar_Singha",
+   "used_for": "First Tungkhungia king, 1681–1696"
+  }
+ ],
+ "review_notes": "Gait does not name 'Itakhuli' for 1682; Wikipedia and the AHOM catalogue do. The survey unit 'pura' = four bighas, per Gait.",
+ "buildsOn": {
+  "no": 28,
+  "title": {
+   "en": "Sulikphaa",
+   "as": "চুলিকফা"
+  },
+  "id": "sulikphaa"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1681",
+    "t": {
+     "en": "Gadapani crowned Gadadhar Singha",
+     "as": "গদাপাণি গদাধৰ সিংহ নামেৰে অভিষেক"
+    }
+   },
+   {
+    "y": "1682",
+    "t": {
+     "en": "Mughals driven from Guwahati for good (Itakhuli)",
+     "as": "গুৱাহাটীৰ পৰা মোগল চিৰদিনৰ বাবে বিতাড়িত (ইটাখুলি)"
+    }
+   },
+   {
+    "y": "1690s",
+    "t": {
+     "en": "Persecution of the satras; land survey begins",
+     "as": "সত্ৰৰ ওপৰত নিৰ্যাতন; মাটি জৰীপ আৰম্ভ"
+    }
+   },
+   {
+    "y": "1696",
+    "t": {
+     "en": "Dies (February); Rudra Singha succeeds",
+     "as": "মৃত্যু (ফেব্ৰুৱাৰী); ৰুদ্ৰ সিংহ ৰজা"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.3,
+   25.9,
+   95.0,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "manas",
+   "guwahati",
+   "kaliabor",
+   "garhgaon",
+   "majuli",
+   "charaideo"
+  ],
+  "routes": [
+   [
+    "guwahati",
+    [
+     26.3,
+     91.0
+    ],
+    [
+     26.4,
+     90.55
+    ]
+   ]
+  ],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "kaliabor": {
+    "pos": "s"
+   },
+   "garhgaon": {
+    "pos": "s"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "charaideo": {
+    "pos": "e"
+   },
+   "manas": {
+    "at": [
+     26.6,
+     90.55
+    ],
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     26.62,
+     93.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "From hiding to the throne",
+    "as": "লুকাই থকাৰ পৰা সিংহাসনলৈ"
+   },
+   "learned": [
+    {
+     "en": "Gadapani, son of Gobar Roja, became king in 1681",
+     "as": "গোবৰ ৰজাৰ পুত্ৰ গদাপাণি ১৬৮১ চনত ৰজা হ'ল"
+    },
+    {
+     "en": "He took the names Supatphaa and Gadadhar Singha",
+     "as": "তেওঁ চুপাৎফা আৰু গদাধৰ সিংহ নাম ল'লে"
+    },
+    {
+     "en": "He was the first king of the Tungkhungia line",
+     "as": "তেওঁ তুংখুঙীয়া বংশৰ প্ৰথম ৰজা"
+    },
+    {
+     "en": "He broke the power of the kingmaking nobles",
+     "as": "তেওঁ ৰজা-নিৰ্মাতা বিষয়াৰ ক্ষমতা ভাঙিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "gadadhar-rises.webp",
+     "title": {
+      "en": "The farmer becomes king",
+      "as": "খেতিয়ক ৰজা হ'ল"
+     },
+     "text": [
+      {
+       "en": "The prince who had hidden as a farmer, [[gadapani]], was crowned in <mark>1681</mark> as [[gadadhar-singha]] (Supatphaa). Joymoti's sacrifice had saved him.",
+       "as": "খেতিয়ক হৈ লুকাই থকা কোঁৱৰ [[gadapani]] <mark>১৬৮১</mark> চনত [[gadadhar-singha]] (চুপাৎফা) হিচাপে অভিষিক্ত হ'ল। জয়মতীৰ আত্মত্যাগে তেওঁক ৰক্ষা কৰিছিল।"
+      },
+      {
+       "en": "He was the first king of the [[tungkhungia]] line, which ruled to the very end of the kingdom.",
+       "as": "তেওঁ [[tungkhungia]] বংশৰ প্ৰথম ৰজা, যি বংশই ৰাজ্যৰ শেষলৈকে শাসন কৰিছিল।"
+      }
+     ],
+     "id": "gds.u1.01",
+     "link": {
+      "lesson": 28,
+      "lessonId": "sulikphaa",
+      "unitNo": 3,
+      "unitTitle": {
+       "en": "Joymoti",
+       "as": "জয়মতী"
+      },
+      "note": {
+       "en": "Joymoti died rather than reveal where Gadapani hid.",
+       "as": "গদাপাণি ক'ত আছে নকৈ জয়মতীয়ে প্ৰাণ দিছিল।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I hid as a farmer.",
+       "as": "মই খেতিয়ক হৈ লুকাই আছিলোঁ।"
+      },
+      {
+       "en": "My wife Joymoti died to protect me.",
+       "as": "মোক ৰক্ষা কৰিবলৈ মোৰ পত্নী জয়মতীয়ে প্ৰাণ দিছিল।"
+      },
+      {
+       "en": "I founded the Tungkhungia line.",
+       "as": "মই তুংখুঙীয়া বংশৰ প্ৰতিষ্ঠাপক।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Gadadhar Singha",
+       "as": "গদাধৰ সিংহ"
+      },
+      {
+       "en": "Rudra Singha",
+       "as": "ৰুদ্ৰ সিংহ"
+      },
+      {
+       "en": "Sulikphaa",
+       "as": "চুলিকফা"
+      },
+      {
+       "en": "Gobar Roja",
+       "as": "গোবৰ ৰজা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gadadhar Singha.",
+      "as": "গদাধৰ সিংহ।"
+     },
+     "id": "gds.u1.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The end of the kingmakers",
+      "as": "ৰজা-নিৰ্মাতাৰ অন্ত"
+     },
+     "text": [
+      {
+       "en": "Plot after plot was found and crushed: Phukans dismissed, ringleaders executed, even a new Burhagohain put to death for stealing cattle.",
+       "as": "এটাৰ পিছত এটা ষড়যন্ত্ৰ ধৰা পৰিল আৰু দমন কৰা হ'ল: ফুকন পদচ্যুত, নায়কৰ প্ৰাণদণ্ড, আনকি গৰু চুৰৰ বাবে নতুন বুঢ়াগোহাঁইৰো প্ৰাণদণ্ড।"
+      },
+      {
+       "en": "Gait sums it up: in a short time he broke the nobles' power and made the king supreme again.",
+       "as": "গেইটে এষাৰিতে কৈছে: অলপ সময়ৰ ভিতৰতে তেওঁ বিষয়াৰ ক্ষমতা ভাঙি ৰজাক পুনৰ সৰ্বোচ্চ কৰিলে।"
+      }
+     ],
+     "id": "gds.u1.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Gadadhar Singha was the first Tungkhungia king.",
+      "as": "গদাধৰ সিংহ প্ৰথম তুংখুঙীয়া ৰজা।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "gds.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his Hindu name.",
+      "as": "তেওঁৰ হিন্দু নামটো সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "G",
+       "A",
+       "D",
+       "A",
+       "D",
+       "H",
+       "A",
+       "R"
+      ],
+      "as": [
+       "গ",
+       "দা",
+       "ধৰ"
+      ]
+     },
+     "answerText": {
+      "en": "GADADHAR",
+      "as": "গদাধৰ"
+     },
+     "why": {
+      "en": "Gadadhar Singha.",
+      "as": "গদাধৰ সিংহ।"
+     },
+     "id": "gds.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Gadadhar Singha rebuilding the army?",
+      "as": "কোনখন ছবিত গদাধৰ সিংহই সৈন্য পুনৰ গঢ়া দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "gadadhar-rises.webp",
+      "itakhuli.webp",
+      "satradhikars.webp",
+      "persecution.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The new king and his army",
+      "as": "নতুন ৰজা আৰু সৈন্য"
+     },
+     "why": {
+      "en": "1681.",
+      "as": "১৬৮১।"
+     },
+     "id": "gds.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "flag",
+   "title": {
+    "en": "The last Mughal war",
+    "as": "শেষ মোগল যুদ্ধ"
+   },
+   "learned": [
+    {
+     "en": "His first act: an army to win back Guwahati",
+     "as": "তেওঁৰ প্ৰথম কাম: গুৱাহাটী উদ্ধাৰৰ সৈন্য"
+    },
+    {
+     "en": "1682: a great naval victory near the mouth of the Barnadi",
+     "as": "১৬৮২: বৰনদীৰ মুখৰ ওচৰত মহা নৌজয়"
+    },
+    {
+     "en": "The Mughals were chased to the Manas: the Battle of Itakhuli",
+     "as": "মোগলক মানাহলৈ খেদা: ইটাখুলিৰ যুদ্ধ"
+    },
+    {
+     "en": "The Manas became the border for good: the last Mughal war",
+     "as": "মানাহ চিৰস্থায়ী সীমা: শেষ মোগল যুদ্ধ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Gadadhar Singha hid as a farmer before becoming king.",
+      "as": "মনত পেলোৱা: ৰজা হোৱাৰ আগতে গদাধৰ সিংহ খেতিয়ক হৈ লুকাই আছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "gds.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "From hiding to the throne.",
+       "as": "লুকাই থকাৰ পৰা সিংহাসনলৈ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "itakhuli.webp",
+     "title": {
+      "en": "Guwahati, once more",
+      "as": "পুনৰ গুৱাহাটী"
+     },
+     "text": [
+      {
+       "en": "Laluk Sola had handed Guwahati to the Mughals in 1679. Gadadhar's first act was to send an army to take it back.",
+       "as": "১৬৭৯ চনত লালুক চোলাই গুৱাহাটী মোগলক দিছিল। গদাধৰৰ প্ৰথম কাম আছিল ইয়াক উদ্ধাৰৰ বাবে সৈন্য পঠোৱা।"
+      },
+      {
+       "en": "In <mark>1682</mark> the whole Mughal fleet was captured near the mouth of the Barnadi. The Faujdar fled; the Ahoms chased him to the [[manas]]. This is the [[itakhuli]].",
+       "as": "<mark>১৬৮২</mark> চনত বৰনদীৰ মুখৰ ওচৰত গোটেই মোগল নৌবহৰ দখল হ'ল। ফৌজদাৰ পলাল; আহোমে তেওঁক [[manas]]লৈকে খেদিলে। এইটোৱেই [[itakhuli]]।"
+      }
+     ],
+     "id": "gds.u2.02",
+     "link": {
+      "lesson": 27,
+      "lessonId": "sudoiphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Guwahati betrayed",
+       "as": "গুৱাহাটী বিক্ৰী"
+      },
+      "note": {
+       "en": "Laluk Sola surrendered Guwahati in 1679.",
+       "as": "১৬৭৯ চনত লালুক চোলাই গুৱাহাটী অৰ্পণ কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap the river that became the Ahom–Mughal border.",
+      "as": "আহোম-মোগল সীমা হোৱা নদীখন টিপা।"
+     },
+     "target": "manas",
+     "choices": [
+      "manas"
+     ],
+     "answerText": {
+      "en": "The Manas",
+      "as": "মানাহ"
+     },
+     "why": {
+      "en": "The Manas, accepted by both sides from 1682.",
+      "as": "১৬৮২ৰ পৰা দুয়োপক্ষই মানা মানাহ।"
+     },
+     "id": "gds.u2.03"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1671",
+       "l": {
+        "en": "Saraighat",
+        "as": "শৰাইঘাট"
+       }
+      },
+      {
+       "y": "1682",
+       "l": {
+        "en": "Itakhuli",
+        "as": "ইটাখুলি"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Mir Jumla takes Garhgaon",
+        "as": "মীৰজুমলাই গড়গাঁও লয়"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Laluk surrenders Guwahati",
+        "as": "লালুকে গুৱাহাটী অৰ্পণ কৰে"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Rudra Singha crowned",
+        "as": "ৰুদ্ৰ সিংহৰ অভিষেক"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1662 → 1671 → 1679 → 1682 → 1696.",
+      "as": "১৬৬২ → ১৬৭১ → ১৬৭৯ → ১৬৮২ → ১৬৯৬।"
+     },
+     "id": "gds.u2.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which battle was NOT against the Mughals?",
+      "as": "কোনখন যুদ্ধ মোগলৰ বিৰুদ্ধে নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Saraighat",
+       "as": "শৰাইঘাট"
+      },
+      {
+       "en": "Alaboi",
+       "as": "আলাবৈ"
+      },
+      {
+       "en": "Itakhuli",
+       "as": "ইটাখুলি"
+      },
+      {
+       "en": "Pichala",
+       "as": "পিছলা"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Pichala (1547) was against the Koches.",
+      "as": "পিছলা (১৫৪৭) কোচৰ বিৰুদ্ধে।"
+     },
+     "id": "gds.u2.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the Battle of Itakhuli?",
+      "as": "কোনখন ছবিত ইটাখুলিৰ যুদ্ধ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "itakhuli.webp",
+      "gadadhar-rises.webp",
+      "persecution.webp",
+      "satradhikars.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Itakhuli",
+      "as": "ইটাখুলি"
+     },
+     "why": {
+      "en": "1682.",
+      "as": "১৬৮২।"
+     },
+     "id": "gds.u2.06"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "The",
+       "Battle",
+       "of",
+       "Itakhuli",
+       "in",
+       "1682",
+       "was",
+       "a",
+       "Mughal",
+       "victory."
+      ],
+      "as": [
+       "১৬৮২",
+       "চনৰ",
+       "ইটাখুলিৰ",
+       "যুদ্ধত",
+       "মোগল",
+       "জয়ী",
+       "হৈছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 8,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ Ahom",
+      "as": "→ আহোম"
+     },
+     "answerText": {
+      "en": "Mughal → Ahom",
+      "as": "মোগল → আহোম"
+     },
+     "why": {
+      "en": "The Ahoms won and the Mughals never returned.",
+      "as": "আহোম জয়ী হ'ল আৰু মোগল আৰু উভতি নাহিল।"
+     },
+     "id": "gds.u2.07"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "hands",
+   "title": {
+    "en": "The king and the satras",
+    "as": "ৰজা আৰু সত্ৰ"
+   },
+   "learned": [
+    {
+     "en": "The Vaishnava satras had grown very powerful",
+     "as": "বৈষ্ণৱ সত্ৰবোৰ বৰ শক্তিশালী হৈ উঠিছিল"
+    },
+    {
+     "en": "Their followers claimed freedom from war service and public works",
+     "as": "অনুগামীসকলে যুদ্ধ আৰু ৰাজকাৰ্য্যৰ পৰা ৰেহাই দাবী কৰিছিল"
+    },
+    {
+     "en": "Some gosains had refused to shelter him in hiding",
+     "as": "লুকাই থাকোঁতে কিছুমান গোঁসাইয়ে তেওঁক আশ্ৰয় দিয়া নাছিল"
+    },
+    {
+     "en": "He persecuted the satras harshly, then ordered it stopped",
+     "as": "তেওঁ সত্ৰক কঠোৰভাৱে নিৰ্যাতন কৰিলে, পিছত বন্ধ কৰাৰ আদেশ দিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "map",
+     "q": {
+      "en": "Warm-up: tap the river that became the border in 1682.",
+      "as": "মনত পেলোৱা: ১৬৮২ চনত সীমা হোৱা নদীখন টিপা।"
+     },
+     "target": "manas",
+     "choices": [
+      "manas"
+     ],
+     "answerText": {
+      "en": "The Manas",
+      "as": "মানাহ"
+     },
+     "why": {
+      "en": "The Manas.",
+      "as": "মানাহ।"
+     },
+     "id": "gds.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "The last Mughal war.",
+       "as": "শেষ মোগল যুদ্ধ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "satradhikars.webp",
+     "title": {
+      "en": "Too many exemptions",
+      "as": "অত্যধিক ৰেহাই"
+     },
+     "text": [
+      {
+       "en": "By now the country was full of Vaishnava gosains and their disciples. Many claimed they need not fight or work on roads and tanks.",
+       "as": "এতিয়া দেশ বৈষ্ণৱ গোঁসাই আৰু শিষ্যৰে ভৰি পৰিছিল। বহুতে যুঁজ বা আলি-পুখুৰীৰ কাম কৰিব নালাগে বুলি দাবী কৰিছিল।"
+      },
+      {
+       "en": "Gadadhar also bore a grudge: some gosains had refused to shelter him when he was hiding.",
+       "as": "গদাধৰৰ ব্যক্তিগত খঙো আছিল: লুকাই থাকোঁতে কিছুমান গোঁসাইয়ে তেওঁক আশ্ৰয় দিয়া নাছিল।"
+      }
+     ],
+     "id": "gds.u3.02"
+    },
+    {
+     "type": "story",
+     "img": "persecution.webp",
+     "title": {
+      "en": "A harsh persecution",
+      "as": "কঠোৰ নিৰ্যাতন"
+     },
+     "text": [
+      {
+       "en": "Many gosains were killed; the Auniati Gosain hid in a Chutia village; another was blinded. Low-caste disciples were robbed and forced to eat forbidden meat.",
+       "as": "বহু গোঁসাইক হত্যা কৰা হ'ল; আউনীআটী গোঁসাই চুতীয়া গাঁৱত লুকাল; আন এজনক অন্ধ কৰা হ'ল। নিম্নবৰ্ণৰ শিষ্যক লুট কৰা হ'ল আৰু নিষিদ্ধ মাংস খুৱাবলৈ বাধ্য কৰা হ'ল।"
+      },
+      {
+       "en": "When no one was safe any more, the king stopped it and ordered goods returned. The Jakhalabandha Gosain, who had sheltered him, was spared.",
+       "as": "যেতিয়া কোনো নিৰাপদ নোহোৱা হ'ল, ৰজাই নিৰ্যাতন বন্ধ কৰি সম্পত্তি ঘূৰাই দিবলৈ আদেশ দিলে। আশ্ৰয় দিয়া যখলাবন্ধা গোঁসাইক ৰেহাই দিয়া হৈছিল।"
+      }
+     ],
+     "id": "gds.u3.03",
+     "link": {
+      "lesson": 20,
+      "lessonId": "jayadhwaj-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The king and the satra",
+       "as": "ৰজা আৰু সত্ৰ"
+      },
+      "note": {
+       "en": "Jayadhwaj Singha had honoured the Auniati Satra.",
+       "as": "জয়ধ্বজ সিংহই আউনীআটী সত্ৰক সন্মান কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Gadadhar Singha was a strong patron of the Vaishnava satras.",
+      "as": "গদাধৰ সিংহ বৈষ্ণৱ সত্ৰৰ মহান পৃষ্ঠপোষক আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He persecuted them harshly; he favoured Sakta Hinduism.",
+      "as": "অশুদ্ধ। তেওঁ কঠোৰভাৱে নিৰ্যাতন কৰিছিল; শাক্ত ধৰ্মক সমৰ্থন কৰিছিল।"
+     },
+     "id": "gds.u3.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I sheltered Gadapani when he was hiding.",
+       "as": "লুকাই থাকোঁতে মই গদাপাণিক আশ্ৰয় দিছিলোঁ।"
+      },
+      {
+       "en": "I foretold he would be king.",
+       "as": "তেওঁ ৰজা হ'ব বুলি মই ভৱিষ্যতবাণী কৰিছিলোঁ।"
+      },
+      {
+       "en": "I was spared the persecution.",
+       "as": "নিৰ্যাতনৰ পৰা মোক ৰেহাই দিয়া হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "The Jakhalabandha Gosain",
+       "as": "যখলাবন্ধা গোঁসাই"
+      },
+      {
+       "en": "The Auniati Gosain",
+       "as": "আউনীআটী গোঁসাই"
+      },
+      {
+       "en": "Sankardev",
+       "as": "শংকৰদেৱ"
+      },
+      {
+       "en": "Krishnaram",
+       "as": "কৃষ্ণৰাম"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Jakhalabandha Gosain.",
+      "as": "যখলাবন্ধা গোঁসাই।"
+     },
+     "id": "gds.u3.05"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Jayadhwaj Singha",
+        "as": "জয়ধ্বজ সিংহ"
+       },
+       {
+        "en": "Became a Vaishnava disciple",
+        "as": "বৈষ্ণৱ শিষ্য"
+       }
+      ],
+      [
+       {
+        "en": "Gadadhar Singha",
+        "as": "গদাধৰ সিংহ"
+       },
+       {
+        "en": "Persecuted the satras",
+        "as": "সত্ৰক নিৰ্যাতন"
+       }
+      ],
+      [
+       {
+        "en": "Rudra Singha",
+        "as": "ৰুদ্ৰ সিংহ"
+       },
+       {
+        "en": "Stopped the persecution",
+        "as": "নিৰ্যাতন বন্ধ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Kings and the satras: honour, persecution, peace.",
+      "as": "ৰজা আৰু সত্ৰ: সন্মান, নিৰ্যাতন, শান্তি।"
+     },
+     "id": "gds.u3.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the persecution of the satras?",
+      "as": "কোনখন ছবিত সত্ৰৰ ওপৰত নিৰ্যাতন দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "persecution.webp",
+      "satradhikars.webp",
+      "naamghar.webp",
+      "itakhuli.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The persecution",
+      "as": "নিৰ্যাতন"
+     },
+     "why": {
+      "en": "1690s.",
+      "as": "১৬৯০ৰ দশক।"
+     },
+     "id": "gds.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "home",
+   "title": {
+    "en": "Roads, temples and a survey",
+    "as": "আলি, মন্দিৰ আৰু জৰীপ"
+   },
+   "learned": [
+    {
+     "en": "He began a detailed survey of land, learned in Lower Assam",
+     "as": "তেওঁ নামনি অসমত শিকা মাটি জৰীপ আৰম্ভ কৰিলে"
+    },
+    {
+     "en": "The unit of area was the pura, four bighas",
+     "as": "মাটিৰ একক পুৰা, চাৰি বিঘা"
+    },
+    {
+     "en": "The Umananda temple at Guwahati was built in his reign",
+     "as": "তেওঁৰ দিনত গুৱাহাটীৰ উমানন্দ মন্দিৰ নিৰ্মিত"
+    },
+    {
+     "en": "The Dhodar Ali and other roads were made",
+     "as": "ধোদৰ আলি আৰু আন আলি নিৰ্মিত"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I hid in a Chutia village to escape the persecution.",
+       "as": "মনত পেলোৱা: নিৰ্যাতনৰ পৰা বাচিবলৈ মই চুতীয়া গাঁৱত লুকাইছিলোঁ।"
+      },
+      {
+       "en": "I was Gosain of a great Majuli satra.",
+       "as": "মই মাজুলীৰ এখন ডাঙৰ সত্ৰৰ গোঁসাই।"
+      },
+      {
+       "en": "Rudra Singha later made me his guru.",
+       "as": "পিছত ৰুদ্ৰ সিংহই মোক গুৰু পাতিছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "The Auniati Gosain",
+       "as": "আউনীআটী গোঁসাই"
+      },
+      {
+       "en": "The Jakhalabandha Gosain",
+       "as": "যখলাবন্ধা গোঁসাই"
+      },
+      {
+       "en": "Krishnaram",
+       "as": "কৃষ্ণৰাম"
+      },
+      {
+       "en": "Chakrapani",
+       "as": "চক্ৰপাণি"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Auniati Gosain, Keshab Deb.",
+      "as": "আউনীআটী গোঁসাই কেশৱদেৱ।"
+     },
+     "id": "gds.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "The king and the satras.",
+       "as": "ৰজা আৰু সত্ৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Measuring the land",
+      "as": "মাটি জোখা"
+     },
+     "text": [
+      {
+       "en": "While hiding in Lower Assam, Gadapani had seen how the Mughals measured land. As king he ordered a survey, with surveyors from Koch Bihar and Bengal.",
+       "as": "নামনি অসমত লুকাই থাকোঁতে গদাপাণিয়ে মোগলে কেনেকৈ মাটি জোখে দেখিছিল। ৰজা হৈ তেওঁ কোচবিহাৰ আৰু বংগৰ জৰীপকাৰী আনি জৰীপৰ আদেশ দিলে।"
+      },
+      {
+       "en": "Fields were measured with a 12-foot bamboo pole. The unit of area was the <mark>pura</mark>: four bighas. The survey began in Sibsagar.",
+       "as": "১২ ফুটীয়া বাঁহৰ নলেৰে পথাৰ জোখা হৈছিল। মাটিৰ একক আছিল <mark>পুৰা</mark>: চাৰি বিঘা। জৰীপ শিৱসাগৰৰ পৰা আৰম্ভ হয়।"
+      }
+     ],
+     "id": "gds.u4.02"
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "The Ahom unit of land area was the",
+      "as": "আহোম মাটিৰ একক আছিল"
+     },
+     "after": {
+      "en": ".",
+      "as": "।"
+     },
+     "answer": "Pura",
+     "asOptions": [
+      "পুৰা",
+      "বিঘা",
+      "গোট",
+      "খেল"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "Pura",
+      "as": "পুৰা"
+     },
+     "why": {
+      "en": "The pura, four bighas.",
+      "as": "পুৰা, চাৰি বিঘা।"
+     },
+     "id": "gds.u4.03"
+    },
+    {
+     "type": "story",
+     "img": "naamghar.webp",
+     "title": {
+      "en": "Temples and roads",
+      "as": "মন্দিৰ আৰু আলি"
+     },
+     "text": [
+      {
+       "en": "A patron of Sakta Hinduism, he had the [[umananda]] temple built on Peacock Island at Guwahati. The earliest Ahom copper-plate land grants date from his reign.",
+       "as": "শাক্ত ধৰ্মৰ পৃষ্ঠপোষক হিচাপে তেওঁ গুৱাহাটীৰ ময়ূৰ দ্বীপত [[umananda]] মন্দিৰ সজাইছিল। আহোম ৰজাৰ আটাইতকৈ পুৰণি তাম্ৰফলক মাটিদান তেওঁৰ দিনৰ।"
+      },
+      {
+       "en": "Roads like the Dhodar Ali were made. He was famous for his strength and appetite: his favourite dish was a calf roasted in ashes.",
+       "as": "ধোদৰ আলিৰ দৰে আলি নিৰ্মাণ হ'ল। তেওঁ শক্তি আৰু খোৱাৰ বাবে বিখ্যাত আছিল: প্ৰিয় খাদ্য আছিল ছাইত পোৰা দামুৰি।"
+      }
+     ],
+     "id": "gds.u4.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Umananda temple was built in Gadadhar Singha's reign.",
+      "as": "গদাধৰ সিংহৰ দিনত উমানন্দ মন্দিৰ নিৰ্মিত হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True, on Peacock Island at Guwahati.",
+      "as": "শুদ্ধ, গুৱাহাটীৰ ময়ূৰ দ্বীপত।"
+     },
+     "id": "gds.u4.05"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the temple island's god: UMANANDA.",
+      "as": "দ্বীপৰ মন্দিৰৰ নাম সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "U",
+       "M",
+       "A",
+       "N",
+       "A",
+       "N",
+       "D",
+       "A"
+      ],
+      "as": [
+       "উ",
+       "মা",
+       "নন্দ"
+      ]
+     },
+     "answerText": {
+      "en": "UMANANDA",
+      "as": "উমানন্দ"
+     },
+     "why": {
+      "en": "Umananda.",
+      "as": "উমানন্দ।"
+     },
+     "id": "gds.u4.06"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "star",
+   "title": {
+    "en": "A strong king's legacy",
+    "as": "এজন শক্তিশালী ৰজাৰ উত্তৰাধিকাৰ"
+   },
+   "learned": [
+    {
+     "en": "He died in February 1696 after fourteen and a half years",
+     "as": "সাড়ে চৈধ্য বছৰৰ পিছত ১৬৯৬ চনৰ ফেব্ৰুৱাৰীত মৃত্যু"
+    },
+    {
+     "en": "He ended the kingmakers, drove out the Mughals and stopped hill raids",
+     "as": "ৰজা-নিৰ্মাতাৰ অন্ত, মোগল বিতাড়ন আৰু পাহাৰীয়া আক্ৰমণ বন্ধ"
+    },
+    {
+     "en": "His son Lai, Joymoti's son, became Rudra Singha",
+     "as": "তেওঁৰ পুত্ৰ, জয়মতীৰ পুত্ৰ লাই, ৰুদ্ৰ সিংহ হ'ল"
+    },
+    {
+     "en": "Remember G-I-S: Gadapani, Itakhuli, Survey",
+     "as": "মনত ৰাখা গ-ই-জ: গদাপাণি, ইটাখুলি, জৰীপ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "fill",
+     "before": {
+      "en": "Warm-up: the unit of land area was the",
+      "as": "মনত পেলোৱা: মাটিৰ একক আছিল"
+     },
+     "after": {
+      "en": ".",
+      "as": "।"
+     },
+     "answer": "Pura",
+     "asOptions": [
+      "পুৰা",
+      "চেৰ",
+      "তোলা",
+      "গজ"
+     ],
+     "asAnswer": 0,
+     "answerText": {
+      "en": "Pura",
+      "as": "পুৰা"
+     },
+     "why": {
+      "en": "Pura.",
+      "as": "পুৰা।"
+     },
+     "id": "gds.u5.01",
+     "link": {
+      "unit": "u4",
+      "note": {
+       "en": "Roads, temples and a survey.",
+       "as": "আলি, মন্দিৰ আৰু জৰীপ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember G-I-S",
+      "as": "মনত ৰাখা গ-ই-জ"
+     },
+     "text": [
+      {
+       "en": "Gadadhar Singha in three letters, <mark>G-I-S</mark>: <b>G</b>adapani the hidden prince, <b>I</b>takhuli 1682, <b>S</b>urvey of the land.",
+       "as": "গদাধৰ সিংহ তিনিটা আখৰত, <mark>গ-ই-জ</mark>: <b>গ</b>দাপাণি, লুকাই থকা কোঁৱৰ; <b>ই</b>টাখুলি ১৬৮২; মাটি <b>জ</b>ৰীপ।"
+      },
+      {
+       "en": "He died in <mark>February 1696</mark>. His son by Joymoti became [[rudra-singha]].",
+       "as": "<mark>১৬৯৬ চনৰ ফেব্ৰুৱাৰী</mark>ত তেওঁৰ মৃত্যু হয়। জয়মতীৰ গৰ্ভৰ পুত্ৰ [[rudra-singha]] হ'ল।"
+      }
+     ],
+     "id": "gds.u5.02"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use G-I-S: put his reign in order.",
+      "as": "গ-ই-জ ব্যৱহাৰ কৰি তেওঁৰ ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Gadapani crowned",
+       "as": "গদাপাণিৰ অভিষেক"
+      },
+      {
+       "en": "Itakhuli victory",
+       "as": "ইটাখুলিৰ জয়"
+      },
+      {
+       "en": "Land survey begun",
+       "as": "মাটি জৰীপ আৰম্ভ"
+      }
+     ],
+     "why": {
+      "en": "G → I → S.",
+      "as": "গ → ই → জ।"
+     },
+     "id": "gds.u5.03"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each to their relation to Rudra Singha.",
+      "as": "ৰুদ্ৰ সিংহৰ সৈতে সম্পৰ্ক মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Gadadhar Singha",
+        "as": "গদাধৰ সিংহ"
+       },
+       {
+        "en": "Father",
+        "as": "পিতৃ"
+       }
+      ],
+      [
+       {
+        "en": "Joymoti",
+        "as": "জয়মতী"
+       },
+       {
+        "en": "Mother",
+        "as": "মাতৃ"
+       }
+      ],
+      [
+       {
+        "en": "Rudra Singha",
+        "as": "ৰুদ্ৰ সিংহ"
+       },
+       {
+        "en": "Son",
+        "as": "পুত্ৰ"
+       }
+      ],
+      [
+       {
+        "en": "Gobar Roja",
+        "as": "গোবৰ ৰজা"
+       },
+       {
+        "en": "Grandfather",
+        "as": "ককা"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Rudra Singha's family.",
+      "as": "ৰুদ্ৰ সিংহৰ পৰিয়াল।"
+     },
+     "id": "gds.u5.04"
+    },
+    {
+     "type": "mcq",
+     "q": {
+      "en": "Consider the statements:<br>1. Gadadhar Singha drove the Mughals beyond the Manas.<br>2. Gadadhar Singha was a disciple of the Auniati Gosain.<br>Which is/are correct?",
+      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. গদাধৰ সিংহই মোগলক মানাহৰ সিপাৰলৈ খেদিছিল।<br>২. গদাধৰ সিংহ আউনীআটী গোঁসাইৰ শিষ্য আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+     },
+     "options": [
+      {
+       "en": "1 only",
+       "as": "কেৱল ১"
+      },
+      {
+       "en": "2 only",
+       "as": "কেৱল ২"
+      },
+      {
+       "en": "Both 1 and 2",
+       "as": "১ আৰু ২ দুয়োটা"
+      },
+      {
+       "en": "Neither 1 nor 2",
+       "as": "১ বা ২ কোনোটো নহয়"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Only 1. He persecuted the gosains; his son Rudra later made the Auniati Gosain his guru.",
+      "as": "কেৱল ১। তেওঁ গোঁসাইক নিৰ্যাতন কৰিছিল; পুত্ৰ ৰুদ্ৰই পিছত আউনীআটী গোঁসাইক গুৰু পাতিছিল।"
+     },
+     "small": true,
+     "id": "gds.u5.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Gadadhar Singha with the satra leaders?",
+      "as": "কোনখন ছবিত সত্ৰাধিকাৰৰ সৈতে গদাধৰ সিংহ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "satradhikars.webp",
+      "itakhuli.webp",
+      "gadadhar-rises.webp",
+      "persecution.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Meeting the satradhikars",
+      "as": "সত্ৰাধিকাৰৰ সৈতে সাক্ষাৎ"
+     },
+     "why": {
+      "en": "Before the persecution.",
+      "as": "নিৰ্যাতনৰ আগত।"
+     },
+     "id": "gds.u5.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Gadadhar Singha",
+    "as": "তুমি স্বৰ্গদেউ গদাধৰ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Gadadhar Singha's wife Joymoti was tortured for refusing to betray him.",
+     "as": "গদাধৰ সিংহৰ পত্নী জয়মতীক বিশ্বাসঘাতকতা নকৰাৰ বাবে নিৰ্যাতন কৰা হৈছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "gds.test.01",
+    "link": {
+     "lesson": 28,
+     "lessonId": "sulikphaa",
+     "unitNo": 3,
+     "unitTitle": {
+      "en": "Joymoti",
+      "as": "জয়মতী"
+     },
+     "note": {
+      "en": "Joymoti at Jerenga Pathar.",
+      "as": "জেৰেঙা পথাৰত জয়মতী।"
+     }
+    }
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the first Tungkhungia king.",
+      "as": "মই প্ৰথম তুংখুঙীয়া ৰজা।"
+     },
+     {
+      "en": "I won at Itakhuli.",
+      "as": "মই ইটাখুলিত জয়ী হৈছিলোঁ।"
+     },
+     {
+      "en": "I began a land survey.",
+      "as": "মই মাটি জৰীপ আৰম্ভ কৰিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Gadadhar Singha",
+      "as": "গদাধৰ সিংহ"
+     },
+     {
+      "en": "Rudra Singha",
+      "as": "ৰুদ্ৰ সিংহ"
+     },
+     {
+      "en": "Chakradhwaj Singha",
+      "as": "চক্ৰধ্বজ সিংহ"
+     },
+     {
+      "en": "Siva Singha",
+      "as": "শিৱ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Gadadhar Singha.",
+     "as": "গদাধৰ সিংহ।"
+    },
+    "id": "gds.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap the river border fixed in 1682.",
+     "as": "১৬৮২ চনত নিৰ্ধাৰিত নদী-সীমা টিপা।"
+    },
+    "target": "manas",
+    "choices": [
+     "manas"
+    ],
+    "answerText": {
+     "en": "The Manas",
+     "as": "মানাহ"
+    },
+    "why": {
+     "en": "The Manas.",
+     "as": "মানাহ।"
+    },
+    "id": "gds.test.03"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1681",
+      "l": {
+       "en": "Gadadhar crowned",
+       "as": "গদাধৰৰ অভিষেক"
+      }
+     },
+     {
+      "y": "1696",
+      "l": {
+       "en": "Gadadhar dies",
+       "as": "গদাধৰৰ মৃত্যু"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Joymoti dies",
+       "as": "জয়মতীৰ মৃত্যু"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Battle of Itakhuli",
+       "as": "ইটাখুলিৰ যুদ্ধ"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Rudra Singha builds Rangpur",
+       "as": "ৰুদ্ৰ সিংহৰ ৰংপুৰ নিৰ্মাণ"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1680 → 1681 → 1682 → 1696 → after 1696.",
+     "as": "১৬৮০ → ১৬৮১ → ১৬৮২ → ১৬৯৬ → ১৬৯৬ৰ পিছত।"
+    },
+    "id": "gds.test.04"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the Battle of Itakhuli?",
+     "as": "কোনখন ছবিত ইটাখুলিৰ যুদ্ধ দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "itakhuli.webp",
+     "persecution.webp",
+     "naamghar.webp",
+     "satradhikars.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Itakhuli",
+     "as": "ইটাখুলি"
+    },
+    "why": {
+     "en": "1682.",
+     "as": "১৬৮২।"
+    },
+    "id": "gds.test.05"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the new royal line.",
+     "as": "নতুন ৰাজবংশৰ নামটো সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "T",
+      "U",
+      "N",
+      "G",
+      "K",
+      "H",
+      "U",
+      "N",
+      "G",
+      "I",
+      "A"
+     ],
+     "as": [
+      "তুং",
+      "খুঙী",
+      "য়া"
+     ]
+    },
+    "answerText": {
+     "en": "TUNGKHUNGIA",
+     "as": "তুংখুঙীয়া"
+    },
+    "why": {
+     "en": "Tungkhungia.",
+     "as": "তুংখুঙীয়া।"
+    },
+    "id": "gds.test.06"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Itakhuli",
+       "as": "ইটাখুলি"
+      },
+      {
+       "en": "Last Mughal war, 1682",
+       "as": "শেষ মোগল যুদ্ধ, ১৬৮২"
+      }
+     ],
+     [
+      {
+       "en": "Umananda",
+       "as": "উমানন্দ"
+      },
+      {
+       "en": "Temple on Peacock Island",
+       "as": "ময়ূৰ দ্বীপৰ মন্দিৰ"
+      }
+     ],
+     [
+      {
+       "en": "Pura",
+       "as": "পুৰা"
+      },
+      {
+       "en": "Four bighas",
+       "as": "চাৰি বিঘা"
+      }
+     ],
+     [
+      {
+       "en": "Jakhalabandha Gosain",
+       "as": "যখলাবন্ধা গোঁসাই"
+      },
+      {
+       "en": "Spared, for sheltering him",
+       "as": "আশ্ৰয়ৰ বাবে ৰেহাই"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Gadadhar Singha's reign.",
+     "as": "গদাধৰ সিংহৰ ৰাজত্বকাল।"
+    },
+    "id": "gds.test.07"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the Tungkhungia kings in order.",
+     "as": "তুংখুঙীয়া ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Gadadhar Singha",
+      "as": "গদাধৰ সিংহ"
+     },
+     {
+      "en": "Rudra Singha",
+      "as": "ৰুদ্ৰ সিংহ"
+     },
+     {
+      "en": "Siva Singha",
+      "as": "শিৱ সিংহ"
+     },
+     {
+      "en": "Pramatta Singha",
+      "as": "প্ৰমত্ত সিংহ"
+     }
+    ],
+    "why": {
+     "en": "Father, son, grandsons.",
+     "as": "পিতৃ, পুত্ৰ, নাতি।"
+    },
+    "id": "gds.test.08"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "Gadadhar",
+      "Singha",
+      "was",
+      "a",
+      "great",
+      "patron",
+      "of",
+      "the",
+      "satras."
+     ],
+     "as": [
+      "গদাধৰ",
+      "সিংহ",
+      "সত্ৰৰ",
+      "মহান",
+      "পৃষ্ঠপোষক",
+      "আছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 5,
+     "as": 4
+    },
+    "fix": {
+     "en": "→ persecutor",
+     "as": "→ নিৰ্যাতনকাৰী"
+    },
+    "answerText": {
+     "en": "patron → persecutor",
+     "as": "পৃষ্ঠপোষক → নিৰ্যাতনকাৰী"
+    },
+    "why": {
+     "en": "He persecuted the satras.",
+     "as": "তেওঁ সত্ৰক নিৰ্যাতন কৰিছিল।"
+    },
+    "id": "gds.test.09"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. The Battle of Itakhuli was fought in 1682.<br>2. After Itakhuli the Manas became the Ahom–Mughal border.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ইটাখুলিৰ যুদ্ধ ১৬৮২ চনত হৈছিল।<br>২. ইটাখুলিৰ পিছত মানাহ আহোম-মোগল সীমা হ'ল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 2,
+    "why": {
+     "en": "Both are correct.",
+     "as": "দুয়োটা শুদ্ধ।"
+    },
+    "small": true,
+    "id": "gds.test.10"
+   }
+  ]
+ }
+}

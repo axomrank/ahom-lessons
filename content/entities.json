@@ -2134,5 +2134,296 @@
    "en": "Gadapani, first Tungkhungia king (1681–1696); drove the Mughals from Guwahati for good in 1682",
    "as": "গদাপাণি, প্ৰথম তুংখুঙীয়া ৰজা (১৬৮১–১৬৯৬); ১৬৮২ চনত গুৱাহাটীৰ পৰা মোগলক চিৰদিনৰ বাবে খেদে"
   }
+ },
+ "itakhuli": {
+  "type": "term",
+  "name": {
+   "en": "Battle of Itakhuli",
+   "as": "ইটাখুলিৰ যুদ্ধ"
+  },
+  "meaning": {
+   "en": "1682: Gadadhar Singha's army drove the Mughals out of Guwahati for good; the last Ahom–Mughal war",
+   "as": "১৬৮২: গদাধৰ সিংহৰ সৈন্যই গুৱাহাটীৰ পৰা মোগলক চিৰদিনৰ বাবে খেদিলে; শেষ আহোম-মোগল যুদ্ধ"
+  }
+ },
+ "umananda": {
+  "type": "place",
+  "name": {
+   "en": "Umananda",
+   "as": "উমানন্দ"
+  },
+  "meaning": {
+   "en": "Siva temple on Peacock Island in the Brahmaputra at Guwahati, built under Gadadhar Singha",
+   "as": "গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ ময়ূৰ দ্বীপৰ শিৱ মন্দিৰ; গদাধৰ সিংহৰ দিনত নিৰ্মিত"
+  }
+ },
+ "rangpur": {
+  "type": "place",
+  "name": {
+   "en": "Rangpur",
+   "as": "ৰংপুৰ"
+  },
+  "meaning": {
+   "en": "Ahom capital founded by Rudra Singha near today's Sivasagar; brick city, Rang Ghar and Talatal Ghar",
+   "as": "ৰুদ্ৰ সিংহই আজিৰ শিৱসাগৰৰ ওচৰত পতা আহোম ৰাজধানী; ইটাৰ নগৰ, ৰংঘৰ আৰু তলাতল ঘৰ"
+  },
+  "geo": [
+   26.96,
+   94.62
+  ]
+ },
+ "rudra-singha": {
+  "type": "person",
+  "name": {
+   "en": "Rudra Singha",
+   "as": "ৰুদ্ৰ সিংহ"
+  },
+  "meaning": {
+   "en": "Sukhrungphaa, son of Gadadhar Singha and Joymoti; king 1696–1714; often called the greatest Ahom king",
+   "as": "চুখ্ৰুংফা, গদাধৰ সিংহ আৰু জয়মতীৰ পুত্ৰ; ১৬৯৬–১৭১৪ লৈকে ৰজা; বহুতে শ্ৰেষ্ঠ আহোম ৰজা বুলি কয়"
+  }
+ },
+ "joysagar": {
+  "type": "term",
+  "name": {
+   "en": "Joysagar",
+   "as": "জয়সাগৰ"
+  },
+  "meaning": {
+   "en": "Great tank dug by Rudra Singha in memory of his mother Joymoti",
+   "as": "মাতৃ জয়মতীৰ স্মৃতিত ৰুদ্ৰ সিংহই খন্দোৱা বিশাল পুখুৰী"
+  }
+ },
+ "ghanashyam": {
+  "type": "person",
+  "name": {
+   "en": "Ghanashyam",
+   "as": "ঘনশ্যাম"
+  },
+  "meaning": {
+   "en": "Builder from Koch Bihar who raised Rudra Singha's brick buildings; executed as a suspected spy",
+   "as": "ৰুদ্ৰ সিংহৰ ইটাৰ ঘৰ সজা কোচবিহাৰৰ শিল্পী; চোৰাংচোৱা সন্দেহত প্ৰাণদণ্ড"
+  }
+ },
+ "maibong": {
+  "type": "place",
+  "name": {
+   "en": "Maibong",
+   "as": "মাইবং"
+  },
+  "meaning": {
+   "en": "Kachari capital in the hills (today's Dima Hasao), taken by the Ahoms in 1706–07",
+   "as": "পাহাৰৰ কছাৰী ৰাজধানী (আজিৰ ডিমা হাছাও); ১৭০৬–০৭ চনত আহোমে দখল কৰে"
+  },
+  "geo": [
+   25.3,
+   93.17
+  ]
+ },
+ "jaintiapur": {
+  "type": "place",
+  "name": {
+   "en": "Jaintiapur",
+   "as": "জয়ন্তীয়াপুৰ"
+  },
+  "meaning": {
+   "en": "Capital of the Jaintia kingdom, in the plains north of the Surma; taken in 1708",
+   "as": "জয়ন্তীয়া ৰাজ্যৰ ৰাজধানী, সুৰমাৰ উত্তৰৰ ভৈয়ামত; ১৭০৮ চনত দখল"
+  },
+  "geo": [
+   25.13,
+   92.13
+  ]
+ },
+ "tamradhwaj": {
+  "type": "person",
+  "name": {
+   "en": "Tamradhwaj",
+   "as": "তাম্ৰধ্বজ"
+  },
+  "meaning": {
+   "en": "Kachari king who defied Rudra Singha, was seized by the Jaintia king, and finally submitted",
+   "as": "ৰুদ্ৰ সিংহক অমান্য কৰা কছাৰী ৰজা; জয়ন্তীয়া ৰজাৰ হাতত বন্দী হৈ শেষত বশ্যতা মানিলে"
+  }
+ },
+ "krishnaram": {
+  "type": "person",
+  "name": {
+   "en": "Krishnaram Bhattacharya",
+   "as": "কৃষ্ণৰাম ভট্টাচাৰ্য"
+  },
+  "meaning": {
+   "en": "Sakta priest from Bengal given charge of Kamakhya; the first Parbatiya Gosain; guru of Siva Singha",
+   "as": "বংগৰ শাক্ত পুৰোহিত; কামাখ্যাৰ দায়িত্ব পায়; প্ৰথম পৰ্বতীয়া গোঁসাই; শিৱ সিংহৰ গুৰু"
+  }
+ },
+ "kamakhya": {
+  "type": "place",
+  "name": {
+   "en": "Kamakhya",
+   "as": "কামাখ্যা"
+  },
+  "meaning": {
+   "en": "Goddess temple on Nilachal hill at Guwahati",
+   "as": "গুৱাহাটীৰ নীলাচল পাহাৰৰ দেৱী মন্দিৰ"
+  }
+ },
+ "siva-singha": {
+  "type": "person",
+  "name": {
+   "en": "Siva Singha",
+   "as": "শিৱ সিংহ"
+  },
+  "meaning": {
+   "en": "Sutanphaa, son of Rudra Singha; king 1714–1744; made his queens 'Bar Raja'",
+   "as": "চুতানফা, ৰুদ্ৰ সিংহৰ পুত্ৰ; ১৭১৪–১৭৪৪ লৈকে ৰজা; ৰাণীসকলক 'বৰ ৰজা' পাতিছিল"
+  }
+ },
+ "bar-raja": {
+  "type": "term",
+  "name": {
+   "en": "Bar Raja",
+   "as": "বৰ ৰজা"
+  },
+  "meaning": {
+   "en": "'Chief king': title Siva Singha gave his queens Phuleswari, Ambika and Sarbeswari, with the royal umbrella and coins in their names",
+   "as": "'বৰ ৰজা': শিৱ সিংহই ৰাণী ফুলেশ্বৰী, অম্বিকা আৰু সৰ্বেশ্বৰীক দিয়া উপাধি; ৰাজছত্ৰ আৰু নামত মুদ্ৰা"
+  }
+ },
+ "phuleswari": {
+  "type": "person",
+  "name": {
+   "en": "Phuleswari",
+   "as": "ফুলেশ্বৰী"
+  },
+  "meaning": {
+   "en": "Siva Singha's queen, the first Bar Raja (1722–1731); her insult to the Moamaria Gosain sowed the seed of the Moamaria rebellion",
+   "as": "শিৱ সিংহৰ ৰাণী, প্ৰথম বৰ ৰজা (১৭২২–১৭৩১); মোৱামৰীয়া গোঁসাইক কৰা অপমানে মোৱামৰীয়া বিদ্ৰোহৰ বীজ সিঁচিলে"
+  }
+ },
+ "ambika": {
+  "type": "person",
+  "name": {
+   "en": "Ambika",
+   "as": "অম্বিকা"
+  },
+  "meaning": {
+   "en": "Second Bar Raja (1731–1741), sister of Phuleswari; built the Sivasagar tank and the Siva Dol",
+   "as": "দ্বিতীয় বৰ ৰজা (১৭৩১–১৭৪১), ফুলেশ্বৰীৰ ভনী; শিৱসাগৰ পুখুৰী আৰু শিৱদ'ল নিৰ্মাণ কৰে"
+  }
+ },
+ "moamoria": {
+  "type": "people",
+  "name": {
+   "en": "Moamorias",
+   "as": "মোৱামৰীয়া"
+  },
+  "meaning": {
+   "en": "Followers of the Moamara Satra, many of them Morans; rose in great rebellions from 1769",
+   "as": "মোৱামৰা সত্ৰৰ অনুগামী, বহুতেই মৰাণ; ১৭৬৯ৰ পৰা ডাঙৰ বিদ্ৰোহ কৰিছিল"
+  }
+ },
+ "siva-dol": {
+  "type": "term",
+  "name": {
+   "en": "Siva Dol",
+   "as": "শিৱদ'ল"
+  },
+  "meaning": {
+   "en": "Siva temple on the bank of the Sivasagar tank, built 1734; among the tallest Hindu temples in India",
+   "as": "শিৱসাগৰ পুখুৰীৰ পাৰৰ শিৱ মন্দিৰ, ১৭৩৪ চনত নিৰ্মিত; ভাৰতৰ ওখ হিন্দু মন্দিৰবোৰৰ এটা"
+  }
+ },
+ "rang-ghar": {
+  "type": "term",
+  "name": {
+   "en": "Rang Ghar",
+   "as": "ৰংঘৰ"
+  },
+  "meaning": {
+   "en": "Two-storey royal pavilion at Rangpur for watching games and buffalo fights at Bihu; built in brick under Pramatta Singha (1746)",
+   "as": "বিহুত খেল আৰু ম'হৰ যুঁজ চাবলৈ ৰংপুৰৰ দুমহলীয়া ৰাজকীয় মণ্ডপ; প্ৰমত্ত সিংহৰ দিনত (১৭৪৬) ইটাৰে নিৰ্মিত"
+  }
+ },
+ "talatal-ghar": {
+  "type": "term",
+  "name": {
+   "en": "Talatal Ghar",
+   "as": "তলাতল ঘৰ"
+  },
+  "meaning": {
+   "en": "Royal palace at Rangpur, begun by Rudra Singha and enlarged by Rajeswar Singha",
+   "as": "ৰংপুৰৰ ৰাজপ্ৰসাদ; ৰুদ্ৰ সিংহই আৰম্ভ কৰে, ৰাজেশ্বৰ সিংহই বঢ়ায়"
+  }
+ },
+ "kareng-ghar": {
+  "type": "term",
+  "name": {
+   "en": "Kareng Ghar",
+   "as": "কাৰেং ঘৰ"
+  },
+  "meaning": {
+   "en": "Royal palace at Garhgaon, rebuilt in brick by Rajeswar Singha (1752)",
+   "as": "গড়গাঁৱৰ ৰাজপ্ৰসাদ; ৰাজেশ্বৰ সিংহই ইটাৰে পুনৰ নিৰ্মাণ কৰে (১৭৫২)"
+  }
+ },
+ "pramatta-singha": {
+  "type": "person",
+  "name": {
+   "en": "Pramatta Singha",
+   "as": "প্ৰমত্ত সিংহ"
+  },
+  "meaning": {
+   "en": "Sunenphaa, son of Rudra Singha; king 1744–1751; the brick Rang Ghar was built in his reign",
+   "as": "চুনেনফা, ৰুদ্ৰ সিংহৰ পুত্ৰ; ১৭৪৪–১৭৫১ লৈকে ৰজা; তেওঁৰ দিনত ইটাৰ ৰংঘৰ নিৰ্মিত"
+  }
+ },
+ "rajeswar-singha": {
+  "type": "person",
+  "name": {
+   "en": "Rajeswar Singha",
+   "as": "ৰাজেশ্বৰ সিংহ"
+  },
+  "meaning": {
+   "en": "Suremphaa, son of Rudra Singha; king 1751–1769; rebuilt Kareng Ghar, helped Manipur against Burma",
+   "as": "চুৰেমফা, ৰুদ্ৰ সিংহৰ পুত্ৰ; ১৭৫১–১৭৬৯ লৈকে ৰজা; কাৰেং ঘৰ পুনৰ নিৰ্মাণ, বাৰ্মাৰ বিৰুদ্ধে মণিপুৰক সহায়"
+  }
+ },
+ "kirti-chandra": {
+  "type": "person",
+  "name": {
+   "en": "Kirti Chandra Borbarua",
+   "as": "কীৰ্তিচন্দ্ৰ বৰবৰুৱা"
+  },
+  "meaning": {
+   "en": "Powerful Borbarua of Rajeswar Singha; had Buranjis burnt; his arrogance helped start the Moamoria rebellion",
+   "as": "ৰাজেশ্বৰ সিংহৰ প্ৰভাৱশালী বৰবৰুৱা; বুৰঞ্জী জ্বলাইছিল; তেওঁৰ অহংকাৰে মোৱামৰীয়া বিদ্ৰোহৰ জুই জ্বলাইছিল"
+  }
+ },
+ "manipur": {
+  "type": "place",
+  "name": {
+   "en": "Manipur",
+   "as": "মণিপুৰ"
+  },
+  "meaning": {
+   "en": "Kingdom to the south-east; Rajeswar Singha helped its king Jai Singh against the Burmese (1768)",
+   "as": "দক্ষিণ-পূবৰ ৰাজ্য; ৰাজেশ্বৰ সিংহই বাৰ্মাৰ বিৰুদ্ধে ইয়াৰ ৰজা জয় সিংহক সহায় কৰিছিল (১৭৬৮)"
+  },
+  "geo": [
+   24.8,
+   93.94
+  ]
+ },
+ "kuranganayani": {
+  "type": "person",
+  "name": {
+   "en": "Kuranganayani",
+   "as": "কুৰংগনয়নী"
+  },
+  "meaning": {
+   "en": "Manipuri princess married to Rajeswar Singha; later helped overthrow the Moamoria leader Ragha (1770)",
+   "as": "ৰাজেশ্বৰ সিংহক বিয়া দিয়া মণিপুৰী কুমাৰী; পিছত মোৱামৰীয়া নেতা ৰাঘৱৰ পতনত সহায় কৰে (১৭৭০)"
+  }
  }
 }

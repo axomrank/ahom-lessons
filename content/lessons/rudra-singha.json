@@ -1,0 +1,1531 @@
+{
+ "id": "rudra-singha",
+ "no": 30,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Rudra Singha",
+  "as": "স্বৰ্গদেউ ৰুদ্ৰ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1696–1714",
+  "as": "ৰাজত্বকাল ১৬৯৬–১৭১৪"
+ },
+ "portrait": "rudra-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VII, pp. 164–177",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Rudra Singh, Sukhrungpha; Vaishnava persecution stopped, gosains to Majuli, Auniati Gosain made guru; Ghansyam of Koch Bihar builds brick buildings at Rangpur and Charaideo, executed as a spy; Kachari war 1706: Bar Barua via the Dhansiri with 37,000, Pani Phukan via Raha with 34,000, Maibong taken, sickness; Tamradhvaj seized by Ram Singh of Jaintia; Jaintia war 1707–08, Jaintiapur, both kings captured; Jaintia rising, 2,366 Ahoms killed; durbar at Bishnath; proposed invasion of Bengal; died at Gauhati August 1714; greatest of the Ahom kings; Jaisagar tank and temple, Rangnath, bridges over the Namdang and Dimau; trade with Tibet; envoys; schools; Krishnaram Bhattacharjya and Kamakhya; five sons"
+  },
+  {
+   "title": "Rudra Singha",
+   "url": "https://en.wikipedia.org/wiki/Rudra_Singha",
+   "used_for": "Rangpur capital (1707), Joysagar for his mother Joymoti, Rang Ghar (wooden) and Talatal Ghar begun"
+  },
+  {
+   "title": "Joysagar",
+   "url": "https://en.wikipedia.org/wiki/Joysagar",
+   "used_for": "Tank dug in 1697 in memory of Joymoti"
+  }
+ ],
+ "review_notes": "Rangpur's founding year varies (1698 in the AHOM catalogue, 1707 on Wikipedia); the lesson does not ask it. The wooden Rang Ghar of Rudra's time was rebuilt in brick under Pramatta Singha (next lessons).",
+ "buildsOn": {
+  "no": 28,
+  "title": {
+   "en": "Sulikphaa",
+   "as": "চুলিকফা"
+  },
+  "id": "sulikphaa"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1696",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1697",
+    "t": {
+     "en": "Joysagar dug for Joymoti",
+     "as": "জয়মতীৰ বাবে জয়সাগৰ খন্দা"
+    }
+   },
+   {
+    "y": "1706",
+    "t": {
+     "en": "Kachari war: Maibong taken",
+     "as": "কছাৰী যুদ্ধ: মাইবং দখল"
+    }
+   },
+   {
+    "y": "1708",
+    "t": {
+     "en": "Jaintia war: Jaintiapur taken",
+     "as": "জয়ন্তীয়া যুদ্ধ: জয়ন্তীয়াপুৰ দখল"
+    }
+   },
+   {
+    "y": "1714",
+    "t": {
+     "en": "Dies at Guwahati (August), planning to invade Bengal",
+     "as": "বংগ আক্ৰমণৰ পৰিকল্পনাৰ মাজত গুৱাহাটীত মৃত্যু (আগষ্ট)"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   91.5,
+   24.9,
+   95.2,
+   27.3
+  ],
+  "show": [
+   "brahmaputra",
+   "kapili",
+   "dhansiri-south",
+   "guwahati",
+   "rangpur",
+   "majuli",
+   "maibong",
+   "jaintiapur",
+   "dimapur"
+  ],
+  "routes": [
+   [
+    [
+     26.7,
+     93.6
+    ],
+    [
+     26.0,
+     93.8
+    ],
+    "maibong"
+   ],
+   [
+    [
+     26.3,
+     92.5
+    ],
+    [
+     25.7,
+     92.4
+    ],
+    "jaintiapur"
+   ]
+  ],
+  "texts": [
+   {
+    "t": {
+     "en": "KACHARI LAND",
+     "as": "কছাৰী এলেকা"
+    },
+    "at": [
+     25.6,
+     93.6
+    ]
+   },
+   {
+    "t": {
+     "en": "JAINTIA",
+     "as": "জয়ন্তীয়া"
+    },
+    "at": [
+     25.35,
+     92.3
+    ]
+   }
+  ],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "rangpur": {
+    "pos": "s"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "maibong": {
+    "pos": "e"
+   },
+   "jaintiapur": {
+    "pos": "e"
+   },
+   "dimapur": {
+    "pos": "e"
+   },
+   "kapili": {
+    "at": [
+     25.9,
+     92.85
+    ],
+    "pos": "e"
+   },
+   "dhansiri-south": {
+    "at": [
+     26.2,
+     93.75
+    ],
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     26.62,
+     93.4
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "Joymoti's son",
+    "as": "জয়মতীৰ পুত্ৰ"
+   },
+   "learned": [
+    {
+     "en": "Lai, son of Gadadhar and Joymoti, became Rudra Singha in 1696",
+     "as": "গদাধৰ আৰু জয়মতীৰ পুত্ৰ লাই ১৬৯৬ চনত ৰুদ্ৰ সিংহ হ'ল"
+    },
+    {
+     "en": "He stopped the persecution of the satras",
+     "as": "তেওঁ সত্ৰৰ ওপৰত নিৰ্যাতন বন্ধ কৰিলে"
+    },
+    {
+     "en": "He made the Auniati Gosain his guru; the satras centred on Majuli",
+     "as": "তেওঁ আউনীআটী গোঁসাইক গুৰু পাতিলে; সত্ৰবোৰ মাজুলীকেন্দ্ৰিক হ'ল"
+    },
+    {
+     "en": "He dug the Joysagar tank in his mother's memory",
+     "as": "মাতৃৰ স্মৃতিত জয়সাগৰ পুখুৰী খন্দালে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "coronation.webp",
+     "title": {
+      "en": "A son remembers",
+      "as": "পুত্ৰৰ স্মৃতি"
+     },
+     "text": [
+      {
+       "en": "In <mark>1696</mark> Lai, son of Gadadhar Singha and Joymoti, became [[rudra-singha]] (Sukhrungphaa).",
+       "as": "<mark>১৬৯৬</mark> চনত গদাধৰ সিংহ আৰু জয়মতীৰ পুত্ৰ লাই [[rudra-singha]] (চুখ্ৰুংফা) হ'ল।"
+      },
+      {
+       "en": "In his mother's memory he had a great tank dug, [[joysagar]], one of the largest man-made tanks in India.",
+       "as": "মাতৃৰ স্মৃতিত তেওঁ এক বিশাল পুখুৰী খন্দালে, [[joysagar]], ভাৰতৰ আটাইতকৈ ডাঙৰ মানৱসৃষ্ট পুখুৰীবোৰৰ এটা।"
+      }
+     ],
+     "id": "rud.u1.01",
+     "link": {
+      "lesson": 28,
+      "lessonId": "sulikphaa",
+      "unitNo": 3,
+      "unitTitle": {
+       "en": "Joymoti",
+       "as": "জয়মতী"
+      },
+      "note": {
+       "en": "Joymoti died at Jerenga Pathar in 1680.",
+       "as": "১৬৮০ চনত জেৰেঙা পথাৰত জয়মতীৰ মৃত্যু হয়।"
+      }
+     }
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Match each tank to who made it.",
+      "as": "প্ৰতিটো পুখুৰী কোনে খন্দাইছিল মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Joysagar",
+        "as": "জয়সাগৰ"
+       },
+       {
+        "en": "Rudra Singha, for Joymoti",
+        "as": "ৰুদ্ৰ সিংহ, জয়মতীৰ বাবে"
+       }
+      ],
+      [
+       {
+        "en": "Gaurisagar",
+        "as": "গৌৰীসাগৰ"
+       },
+       {
+        "en": "Queen Phuleswari",
+        "as": "ৰাণী ফুলেশ্বৰী"
+       }
+      ],
+      [
+       {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+       },
+       {
+        "en": "Queen Ambika",
+        "as": "ৰাণী অম্বিকা"
+       }
+      ],
+      [
+       {
+        "en": "Rudrasagar",
+        "as": "ৰুদ্ৰসাগৰ"
+       },
+       {
+        "en": "Lakshmi Singha",
+        "as": "লক্ষ্মী সিংহ"
+       }
+      ]
+     ],
+     "why": {
+      "en": "The four great tanks: an exam favourite.",
+      "as": "চাৰিটা মহা পুখুৰী: পৰীক্ষাৰ প্ৰিয় প্ৰশ্ন।"
+     },
+     "id": "rud.u1.02"
+    },
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": false
+     },
+     "title": {
+      "en": "Peace with the satras",
+      "as": "সত্ৰৰ সৈতে শান্তি"
+     },
+     "text": [
+      {
+       "en": "Rudra reversed his father's policy. The Brahman gosains could return, on one condition: they would make their home on [[majuli]]. From then on Majuli became the land of satras.",
+       "as": "ৰুদ্ৰই পিতৃৰ নীতি সলনি কৰিলে। ব্ৰাহ্মণ গোঁসাইসকল উভতি আহিব পাৰিলে, এটা চৰ্তত: তেওঁলোকে [[majuli]]ত থাকিব। তেতিয়াৰ পৰা মাজুলী সত্ৰৰ দেশ হ'ল।"
+      },
+      {
+       "en": "He recalled the Auniati Gosain from exile and made him his guru.",
+       "as": "তেওঁ আউনীআটী গোঁসাইক নিৰ্বাসনৰ পৰা মাতি আনি গুৰু পাতিলে।"
+      }
+     ],
+     "id": "rud.u1.03",
+     "link": {
+      "lesson": 29,
+      "lessonId": "gadadhar-singha",
+      "unitNo": 3,
+      "unitTitle": {
+       "en": "The king and the satras",
+       "as": "ৰজা আৰু সত্ৰ"
+      },
+      "note": {
+       "en": "His father Gadadhar had persecuted the satras.",
+       "as": "তেওঁৰ পিতৃ গদাধৰে সত্ৰক নিৰ্যাতন কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Majuli, the island of satras.",
+      "as": "সত্ৰৰ দ্বীপ মাজুলী টিপা।"
+     },
+     "target": "majuli",
+     "choices": [
+      "majuli",
+      "rangpur",
+      "guwahati",
+      "maibong"
+     ],
+     "answerText": {
+      "en": "Majuli",
+      "as": "মাজুলী"
+     },
+     "why": {
+      "en": "Majuli.",
+      "as": "মাজুলী।"
+     },
+     "id": "rud.u1.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Rudra Singha continued his father's persecution of the satras.",
+      "as": "ৰুদ্ৰ সিংহই পিতৃৰ সত্ৰ-নিৰ্যাতন অব্যাহত ৰাখিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He stopped it.",
+      "as": "অশুদ্ধ। তেওঁ বন্ধ কৰিছিল।"
+     },
+     "id": "rud.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Rudra Singha's coronation?",
+      "as": "কোনখন ছবিত ৰুদ্ৰ সিংহৰ অভিষেক দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "coronation.webp",
+      "rangpur.webp",
+      "rang-ghar-feast.webp",
+      "durbar.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The coronation",
+      "as": "অভিষেক"
+     },
+     "why": {
+      "en": "1696.",
+      "as": "১৬৯৬।"
+     },
+     "id": "rud.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "home",
+   "title": {
+    "en": "A city of brick",
+    "as": "ইটাৰ নগৰ"
+   },
+   "learned": [
+    {
+     "en": "He wanted a brick city, but no one in Assam knew how",
+     "as": "তেওঁ ইটাৰ নগৰ বিচাৰিছিল, কিন্তু অসমত কোনেও সজাৰ কৌশল নাজানিছিল"
+    },
+    {
+     "en": "Ghanashyam from Koch Bihar built at Rangpur and Charaideo",
+     "as": "কোচবিহাৰৰ ঘনশ্যামে ৰংপুৰ আৰু চৰাইদেউত নিৰ্মাণ কৰিলে"
+    },
+    {
+     "en": "Ghanashyam was executed as a suspected spy",
+     "as": "ঘনশ্যামক চোৰাংচোৱা সন্দেহত প্ৰাণদণ্ড"
+    },
+    {
+     "en": "He built the Rangnath temple and stone bridges, like the one over the Namdang",
+     "as": "ৰংনাথ মন্দিৰ আৰু নামদাঙৰ দৰে শিলৰ দলং নিৰ্মাণ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match each tank.",
+      "as": "মনত পেলোৱা: পুখুৰী মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Joysagar",
+        "as": "জয়সাগৰ"
+       },
+       {
+        "en": "Rudra Singha",
+        "as": "ৰুদ্ৰ সিংহ"
+       }
+      ],
+      [
+       {
+        "en": "Gaurisagar",
+        "as": "গৌৰীসাগৰ"
+       },
+       {
+        "en": "Phuleswari",
+        "as": "ফুলেশ্বৰী"
+       }
+      ],
+      [
+       {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+       },
+       {
+        "en": "Ambika",
+        "as": "অম্বিকা"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall the tanks.",
+      "as": "পুখুৰীবোৰ মনত পেলোৱা।"
+     },
+     "id": "rud.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "Joymoti's son.",
+       "as": "জয়মতীৰ পুত্ৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "rangpur.webp",
+     "title": {
+      "en": "Rangpur",
+      "as": "ৰংপুৰ"
+     },
+     "text": [
+      {
+       "en": "Rudra wanted a capital of brick. No one in his kingdom knew how to build one, so he brought a master builder from Koch Bihar, [[ghanashyam]].",
+       "as": "ৰুদ্ৰই ইটাৰ ৰাজধানী বিচাৰিছিল। তেওঁৰ ৰাজ্যত কোনেও সজাৰ কৌশল নাজানিছিল, সেয়ে তেওঁ কোচবিহাৰৰ পৰা নিৰ্মাতা [[ghanashyam]]ক আনিলে।"
+      },
+      {
+       "en": "Brick buildings rose at [[rangpur]], near today's Sivasagar, and at Charaideo.",
+       "as": "আজিৰ শিৱসাগৰৰ ওচৰৰ [[rangpur]] আৰু চৰাইদেউত ইটাৰ ঘৰ উঠিল।"
+      }
+     ],
+     "id": "rud.u2.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The builder's fate",
+      "as": "নিৰ্মাতাৰ পৰিণতি"
+     },
+     "text": [
+      {
+       "en": "As Ghanashyam was leaving, richly rewarded, a paper was found on him describing the country and its people.",
+       "as": "বহু পুৰস্কাৰ লৈ ঘনশ্যাম যাবলৈ ওলাওঁতে তেওঁৰ ওচৰত দেশ আৰু মানুহৰ বিৱৰণ থকা কাগজ পোৱা গ'ল।"
+      },
+      {
+       "en": "It was thought he meant to betray Assam to the Mughals, and he was put to death.",
+       "as": "তেওঁ অসমক মোগলৰ হাতত তুলি দিব বুলি ভবা হ'ল, আৰু তেওঁক প্ৰাণদণ্ড দিয়া হ'ল।"
+      }
+     ],
+     "id": "rud.u2.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I came from Koch Bihar.",
+       "as": "মই কোচবিহাৰৰ পৰা আহিছিলোঁ।"
+      },
+      {
+       "en": "I built Rudra Singha's brick buildings.",
+       "as": "মই ৰুদ্ৰ সিংহৰ ইটাৰ ঘৰ সাজিছিলোঁ।"
+      },
+      {
+       "en": "I was executed as a spy.",
+       "as": "চোৰাংচোৱা বুলি মোক প্ৰাণদণ্ড দিয়া হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Ghanashyam",
+       "as": "ঘনশ্যাম"
+      },
+      {
+       "en": "Krishnaram",
+       "as": "কৃষ্ণৰাম"
+      },
+      {
+       "en": "Tamradhwaj",
+       "as": "তাম্ৰধ্বজ"
+      },
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Ghanashyam.",
+      "as": "ঘনশ্যাম।"
+     },
+     "id": "rud.u2.04"
+    },
+    {
+     "type": "story",
+     "img": "namdang-bridge.webp",
+     "title": {
+      "en": "Stone bridges",
+      "as": "শিলৰ দলং"
+     },
+     "text": [
+      {
+       "en": "Rudra also built the Rangnath temple and masonry bridges over the Namdang and Dimau rivers. The Namdang stone bridge still carries traffic today.",
+       "as": "ৰুদ্ৰই ৰংনাথ মন্দিৰ আৰু নামদাং আৰু দিমৌ নদীত পকী দলং নিৰ্মাণ কৰিছিল। নামদাঙৰ শিলৰ দলঙেদি আজিও যান-বাহন চলে।"
+      }
+     ],
+     "id": "rud.u2.05"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Rangpur, Rudra Singha's capital.",
+      "as": "ৰুদ্ৰ সিংহৰ ৰাজধানী ৰংপুৰ টিপা।"
+     },
+     "target": "rangpur",
+     "choices": [
+      "rangpur",
+      "majuli",
+      "guwahati",
+      "maibong"
+     ],
+     "answerText": {
+      "en": "Rangpur",
+      "as": "ৰংপুৰ"
+     },
+     "why": {
+      "en": "Rangpur, near Sivasagar.",
+      "as": "শিৱসাগৰৰ ওচৰৰ ৰংপুৰ।"
+     },
+     "id": "rud.u2.06"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the stone bridge being built?",
+      "as": "কোনখন ছবিত শিলৰ দলং নিৰ্মাণ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "namdang-bridge.webp",
+      "rangpur.webp",
+      "coronation.webp",
+      "kachari-envoys.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The Namdang bridge",
+      "as": "নামদাং দলং"
+     },
+     "why": {
+      "en": "Still in use.",
+      "as": "আজিও ব্যৱহৃত।"
+     },
+     "id": "rud.u2.07"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "hill",
+   "title": {
+    "en": "Kacharis and Jaintias",
+    "as": "কছাৰী আৰু জয়ন্তীয়া"
+   },
+   "learned": [
+    {
+     "en": "1706: the Kachari king Tamradhwaj defied Rudra",
+     "as": "১৭০৬: কছাৰী ৰজা তাম্ৰধ্বজে ৰুদ্ৰক অমান্য কৰিলে"
+    },
+    {
+     "en": "Two armies of over 70,000 men took the Kachari capital Maibong",
+     "as": "৭০,০০০ৰো অধিক সৈন্যৰ দুটা বাহিনীয়ে কছাৰী ৰাজধানী মাইবং লৈছিল"
+    },
+    {
+     "en": "The Jaintia king seized Tamradhwaj; Rudra marched on Jaintiapur (1708)",
+     "as": "জয়ন্তীয়া ৰজাই তাম্ৰধ্বজক বন্দী কৰিলে; ৰুদ্ৰই জয়ন্তীয়াপুৰ আক্ৰমণ কৰিলে (১৭০৮)"
+    },
+    {
+     "en": "Both kings bowed before Rudra at a great durbar",
+     "as": "দুয়োজন ৰজাই এক মহা দৰবাৰত ৰুদ্ৰৰ আগত শিৰ নত কৰিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I built in brick for Rudra Singha.",
+       "as": "মনত পেলোৱা: মই ৰুদ্ৰ সিংহৰ বাবে ইটাৰে সাজিছিলোঁ।"
+      },
+      {
+       "en": "I came from Koch Bihar.",
+       "as": "মই কোচবিহাৰৰ।"
+      },
+      {
+       "en": "I was suspected of spying.",
+       "as": "মোক চোৰাংচোৱা বুলি সন্দেহ কৰা হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Ghanashyam",
+       "as": "ঘনশ্যাম"
+      },
+      {
+       "en": "Tamradhwaj",
+       "as": "তাম্ৰধ্বজ"
+      },
+      {
+       "en": "Krishnaram",
+       "as": "কৃষ্ণৰাম"
+      },
+      {
+       "en": "Kirti Chandra",
+       "as": "কীৰ্তিচন্দ্ৰ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Ghanashyam.",
+      "as": "ঘনশ্যাম।"
+     },
+     "id": "rud.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "A city of brick.",
+       "as": "ইটাৰ নগৰ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "map": {
+      "labels": true,
+      "route": true
+     },
+     "title": {
+      "en": "Two armies to Maibong",
+      "as": "মাইবংলৈ দুটা বাহিনী"
+     },
+     "text": [
+      {
+       "en": "The Kachari king [[tamradhwaj]] stopped acknowledging the Ahoms. In December <mark>1706</mark> two armies set out: 37,000 men up the Dhansiri, 34,000 via the Kapili.",
+       "as": "কছাৰী ৰজা [[tamradhwaj]]এ আহোমৰ আধিপত্য মানিবলৈ এৰিলে। <mark>১৭০৬</mark> চনৰ ডিচেম্বৰত দুটা বাহিনী ওলাল: ধনশিৰিৰে ৩৭,০০০, কপিলীৰে ৩৪,০০০।"
+      },
+      {
+       "en": "They met at the Kachari capital, [[maibong]], and took it. Sickness then forced them home.",
+       "as": "তেওঁলোক কছাৰী ৰাজধানী [[maibong]]ত মিলিত হৈ ইয়াক দখল কৰিলে। তাৰ পিছত ৰোগে তেওঁলোকক উভতিবলৈ বাধ্য কৰিলে।"
+      }
+     ],
+     "id": "rud.u3.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Maibong, the Kachari capital.",
+      "as": "কছাৰী ৰাজধানী মাইবং টিপা।"
+     },
+     "target": "maibong",
+     "choices": [
+      "maibong",
+      "jaintiapur",
+      "dimapur",
+      "rangpur"
+     ],
+     "answerText": {
+      "en": "Maibong",
+      "as": "মাইবং"
+     },
+     "why": {
+      "en": "Maibong. Dimapur had been the older Kachari capital.",
+      "as": "মাইবং। ডিমাপুৰ আছিল পুৰণি কছাৰী ৰাজধানী।"
+     },
+     "id": "rud.u3.03"
+    },
+    {
+     "type": "story",
+     "img": "kachari-envoys.webp",
+     "title": {
+      "en": "A king rescued, a king captured",
+      "as": "এজন ৰজা উদ্ধাৰ, এজন বন্দী"
+     },
+     "text": [
+      {
+       "en": "The fleeing Tamradhwaj asked the Jaintia king, Ram Singh, for help. Ram Singh instead seized him. Tamradhwaj sent a secret letter to Rudra begging rescue.",
+       "as": "পলাতক তাম্ৰধ্বজে জয়ন্তীয়া ৰজা ৰামসিংহৰ সহায় বিচাৰিলে। ৰামসিংহে উলটি তেওঁক বন্দী কৰিলে। তাম্ৰধ্বজে গোপনে ৰুদ্ৰলৈ উদ্ধাৰৰ অনুৰোধৰ চিঠি পঠালে।"
+      },
+      {
+       "en": "In <mark>1708</mark> Ahom armies took [[jaintiapur]]. Both kings were brought to Rudra. At a durbar in a tent on gold and silver posts, Tamradhwaj knelt and was sent home.",
+       "as": "<mark>১৭০৮</mark> চনত আহোম সৈন্যই [[jaintiapur]] দখল কৰিলে। দুয়োজন ৰজাক ৰুদ্ৰৰ ওচৰলৈ অনা হ'ল। সোণ-ৰূপৰ খুঁটাৰ তম্বুৰ দৰবাৰত তাম্ৰধ্বজে আঁঠু লৈ ঘৰলৈ উভতিল।"
+      }
+     ],
+     "id": "rud.u3.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the campaigns in order.",
+      "as": "অভিযান ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Tamradhwaj defies Rudra",
+       "as": "তাম্ৰধ্বজৰ অমান্য"
+      },
+      {
+       "en": "Maibong taken",
+       "as": "মাইবং দখল"
+      },
+      {
+       "en": "Jaintia king seizes Tamradhwaj",
+       "as": "জয়ন্তীয়া ৰজাই তাম্ৰধ্বজক বন্দী কৰে"
+      },
+      {
+       "en": "Jaintiapur taken",
+       "as": "জয়ন্তীয়াপুৰ দখল"
+      },
+      {
+       "en": "Durbar of submission",
+       "as": "বশ্যতাৰ দৰবাৰ"
+      }
+     ],
+     "why": {
+      "en": "1706 → 1707 → 1707 → 1708 → 1708.",
+      "as": "১৭০৬ → ১৭০৭ → ১৭০৭ → ১৭০৮ → ১৭০৮।"
+     },
+     "id": "rud.u3.05"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Jaintia rising later cost the Ahoms over 2,000 men.",
+      "as": "পিছত জয়ন্তীয়াৰ বিদ্ৰোহত আহোমে ২,০০০ৰো অধিক সৈন্য হেৰুৱাইছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: 2,366 killed when the Jaintias rose against occupation.",
+      "as": "শুদ্ধ: দখলৰ বিৰুদ্ধে জয়ন্তীয়া বিদ্ৰোহত ২,৩৬৬ জন নিহত।"
+     },
+     "id": "rud.u3.06"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Jaintiapur.",
+      "as": "জয়ন্তীয়াপুৰ টিপা।"
+     },
+     "target": "jaintiapur",
+     "choices": [
+      "jaintiapur",
+      "maibong",
+      "dimapur",
+      "guwahati"
+     ],
+     "answerText": {
+      "en": "Jaintiapur",
+      "as": "জয়ন্তীয়াপুৰ"
+     },
+     "why": {
+      "en": "Jaintiapur, north of the Surma.",
+      "as": "সুৰমাৰ উত্তৰৰ জয়ন্তীয়াপুৰ।"
+     },
+     "id": "rud.u3.07"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "star",
+   "title": {
+    "en": "The great court",
+    "as": "মহা ৰাজসভা"
+   },
+   "learned": [
+    {
+     "en": "Rudra held grand durbars and festivals at Rangpur",
+     "as": "ৰুদ্ৰই ৰংপুৰত মহা দৰবাৰ আৰু উৎসৱ পাতিছিল"
+    },
+    {
+     "en": "He sent envoys to other Indian rulers and traded with Tibet",
+     "as": "তেওঁ ভাৰতৰ আন ৰজালৈ দূত পঠাইছিল আৰু তিব্বতৰ সৈতে বাণিজ্য কৰিছিল"
+    },
+    {
+     "en": "He founded schools and sent Brahman boys to study in Bengal",
+     "as": "তেওঁ বিদ্যালয় স্থাপন কৰিছিল আৰু ব্ৰাহ্মণ ল'ৰাক বংগলৈ পঢ়িবলৈ পঠাইছিল"
+    },
+    {
+     "en": "Though unlettered, he had a remarkable memory",
+     "as": "নিৰক্ষৰ হ'লেও তেওঁৰ অসাধাৰণ স্মৃতিশক্তি আছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "map",
+     "q": {
+      "en": "Warm-up: tap Maibong.",
+      "as": "মনত পেলোৱা: মাইবং টিপা।"
+     },
+     "target": "maibong",
+     "choices": [
+      "maibong",
+      "jaintiapur",
+      "dimapur",
+      "rangpur"
+     ],
+     "answerText": {
+      "en": "Maibong",
+      "as": "মাইবং"
+     },
+     "why": {
+      "en": "Maibong.",
+      "as": "মাইবং।"
+     },
+     "id": "rud.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "Kacharis and Jaintias.",
+       "as": "কছাৰী আৰু জয়ন্তীয়া।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "rang-ghar-feast.webp",
+     "title": {
+      "en": "Festival at Rangpur",
+      "as": "ৰংপুৰৰ উৎসৱ"
+     },
+     "text": [
+      {
+       "en": "Rudra's court at Rangpur was splendid: Bihu games and buffalo fights watched from a royal pavilion, and a high throne at grand durbars.",
+       "as": "ৰংপুৰত ৰুদ্ৰৰ ৰাজসভা জাকজমকপূৰ্ণ আছিল: ৰাজকীয় মণ্ডপৰ পৰা বিহুৰ খেল আৰু ম'হৰ যুঁজ, আৰু মহা দৰবাৰত ওখ সিংহাসন।"
+      },
+      {
+       "en": "He sent envoys to other Indian rulers, traded with Tibet, studied foreign customs and adopted good ones.",
+       "as": "তেওঁ ভাৰতৰ আন ৰজালৈ দূত পঠাইছিল, তিব্বতৰ সৈতে বাণিজ্য কৰিছিল, বিদেশী ৰীতি অধ্যয়ন কৰি ভালবোৰ গ্ৰহণ কৰিছিল।"
+      }
+     ],
+     "id": "rud.u4.02"
+    },
+    {
+     "type": "story",
+     "img": "durbar.webp",
+     "title": {
+      "en": "The unlettered genius",
+      "as": "নিৰক্ষৰ প্ৰতিভা"
+     },
+     "text": [
+      {
+       "en": "Gait notes that Rudra could not read, yet had a remarkable memory and great intelligence. Many call him <mark>the greatest Ahom king</mark>.",
+       "as": "গেইটে লিখিছে যে ৰুদ্ৰই পঢ়িব নাজানিছিল, তথাপি তেওঁৰ অসাধাৰণ স্মৃতিশক্তি আৰু বুদ্ধি আছিল। বহুতে তেওঁক <mark>শ্ৰেষ্ঠ আহোম ৰজা</mark> বোলে।"
+      },
+      {
+       "en": "He set up schools for Brahmans and sent Brahman boys to study in Bengal.",
+       "as": "তেওঁ ব্ৰাহ্মণৰ বাবে বিদ্যালয় পাতিছিল আৰু ব্ৰাহ্মণ ল'ৰাক বংগলৈ পঢ়িবলৈ পঠাইছিল।"
+      }
+     ],
+     "id": "rud.u4.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Rudra Singha could read and write fluently.",
+      "as": "ৰুদ্ৰ সিংহই সাৱলীলভাৱে পঢ়িব-লিখিব পাৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He was unlettered, but had a remarkable memory.",
+      "as": "অশুদ্ধ। তেওঁ নিৰক্ষৰ আছিল, কিন্তু স্মৃতিশক্তি অসাধাৰণ।"
+     },
+     "id": "rud.u4.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which one did Rudra Singha NOT do?",
+      "as": "ৰুদ্ৰ সিংহই কোনটো কৰা নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Trade with Tibet",
+       "as": "তিব্বতৰ সৈতে বাণিজ্য"
+      },
+      {
+       "en": "Found schools",
+       "as": "বিদ্যালয় স্থাপন"
+      },
+      {
+       "en": "Send envoys to other rulers",
+       "as": "আন ৰজালৈ দূত"
+      },
+      {
+       "en": "Burn the Buranjis",
+       "as": "বুৰঞ্জী জ্বলোৱা"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Buranjis were burnt later, under Rajeswar Singha's Borbarua.",
+      "as": "বুৰঞ্জী পিছত ৰাজেশ্বৰ সিংহৰ বৰবৰুৱাৰ দিনত জ্বলোৱা হৈছিল।"
+     },
+     "id": "rud.u4.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Rudra Singha's grand durbar?",
+      "as": "কোনখন ছবিত ৰুদ্ৰ সিংহৰ মহা দৰবাৰ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "durbar.webp",
+      "rang-ghar-feast.webp",
+      "coronation.webp",
+      "bengal-plan.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "The durbar and throne",
+      "as": "দৰবাৰ আৰু সিংহাসন"
+     },
+     "why": {
+      "en": "At Rangpur.",
+      "as": "ৰংপুৰত।"
+     },
+     "id": "rud.u4.06"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "icon": "moon",
+   "title": {
+    "en": "The last campaign",
+    "as": "শেষ অভিযান"
+   },
+   "learned": [
+    {
+     "en": "He gathered a great army and fleet at Guwahati to invade Bengal",
+     "as": "বংগ আক্ৰমণৰ বাবে গুৱাহাটীত বিশাল সৈন্য আৰু নৌবহৰ গোটালে"
+    },
+    {
+     "en": "He died at Guwahati in August 1714 before it began",
+     "as": "আৰম্ভ হোৱাৰ আগতে ১৭১৪ চনৰ আগষ্টত গুৱাহাটীত মৃত্যু"
+    },
+    {
+     "en": "He drew close to Sakta Hinduism and Krishnaram of Bengal",
+     "as": "তেওঁ শাক্ত ধৰ্ম আৰু বংগৰ কৃষ্ণৰামৰ ওচৰ চাপিছিল"
+    },
+    {
+     "en": "He left five sons; three would rule in turn",
+     "as": "পাঁচ পুত্ৰ এৰি গ'ল; তিনিজনে পৰ পৰে ৰাজত্ব কৰিব"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: many call Rudra Singha the greatest Ahom king.",
+      "as": "মনত পেলোৱা: বহুতে ৰুদ্ৰ সিংহক শ্ৰেষ্ঠ আহোম ৰজা বোলে।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "rud.u5.01",
+     "link": {
+      "unit": "u4",
+      "note": {
+       "en": "The great court.",
+       "as": "মহা ৰাজসভা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "bengal-plan.webp",
+     "title": {
+      "en": "Toward the Ganges",
+      "as": "গংগাৰ দিশে"
+     },
+     "text": [
+      {
+       "en": "Late in life Rudra planned a war on Bengal: some say for glory, some to reach the sacred Ganges. He gathered a great army and fleet at [[guwahati]].",
+       "as": "জীৱনৰ শেষভাগত ৰুদ্ৰই বংগ আক্ৰমণৰ পৰিকল্পনা কৰিলে: কোনোৱে কয় গৌৰৱৰ বাবে, কোনোৱে কয় পবিত্ৰ গংগা পাবলৈ। তেওঁ [[guwahati]]ত বিশাল সৈন্য আৰু নৌবহৰ গোটালে।"
+      },
+      {
+       "en": "Before it was ready he fell ill and died, in <mark>August 1714</mark>.",
+       "as": "সাজু হোৱাৰ আগতেই তেওঁ অসুস্থ হৈ <mark>১৭১৪ চনৰ আগষ্ট</mark>ত মৃত্যুবৰণ কৰিলে।"
+      }
+     ],
+     "id": "rud.u5.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A priest from Bengal",
+      "as": "বংগৰ পুৰোহিত"
+     },
+     "text": [
+      {
+       "en": "Wanting to become a formal Hindu, but unwilling to bow before a subject, Rudra invited [[krishnaram]], a Sakta teacher from Bengal, promising him the [[kamakhya]] temple.",
+       "as": "আনুষ্ঠানিক হিন্দু হ'বলৈ বিচাৰিও প্ৰজাৰ আগত শিৰ নত কৰিবলৈ অনিচ্ছুক ৰুদ্ৰই বংগৰ শাক্ত গুৰু [[krishnaram]]ক কামাখ্যা মন্দিৰৰ প্ৰতিশ্ৰুতি দি মাতি আনিলে।"
+      },
+      {
+       "en": "Rudra then hesitated; an earthquake convinced him the gods favoured the priest. His sons were told to accept Krishnaram as guru.",
+       "as": "তাৰ পিছত ৰুদ্ৰ দোমোজাত পৰিল; এক ভূমিকম্পই তেওঁক বুজালে যে দেৱতাই পুৰোহিতক সমৰ্থন কৰে। পুত্ৰসকলক কৃষ্ণৰামক গুৰু মানিবলৈ কোৱা হ'ল।"
+      }
+     ],
+     "id": "rud.u5.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a Sakta priest from Bengal.",
+       "as": "মই বংগৰ শাক্ত পুৰোহিত।"
+      },
+      {
+       "en": "I was promised the Kamakhya temple.",
+       "as": "মোক কামাখ্যা মন্দিৰৰ প্ৰতিশ্ৰুতি দিয়া হৈছিল।"
+      },
+      {
+       "en": "Siva Singha became my disciple.",
+       "as": "শিৱ সিংহ মোৰ শিষ্য হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Krishnaram Bhattacharya",
+       "as": "কৃষ্ণৰাম ভট্টাচাৰ্য"
+      },
+      {
+       "en": "Ghanashyam",
+       "as": "ঘনশ্যাম"
+      },
+      {
+       "en": "Niranjan Deva",
+       "as": "নিৰঞ্জন দেৱ"
+      },
+      {
+       "en": "Chakrapani",
+       "as": "চক্ৰপাণি"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Krishnaram, the first Parbatiya Gosain.",
+      "as": "কৃষ্ণৰাম, প্ৰথম পৰ্বতীয়া গোঁসাই।"
+     },
+     "id": "rud.u5.04"
+    },
+    {
+     "type": "story",
+     "img": "death-guwahati.webp",
+     "title": {
+      "en": "Remember J-R-M-K",
+      "as": "মনত ৰাখা জ-ৰ-মা-ক"
+     },
+     "text": [
+      {
+       "en": "Rudra Singha in four letters, <mark>J-R-M-K</mark>: <b>J</b>oysagar for his mother, <b>R</b>angpur in brick, <b>M</b>aibong and Jaintiapur taken, <b>K</b>rishnaram and Kamakhya.",
+       "as": "ৰুদ্ৰ সিংহ চাৰিটা আখৰত, <mark>জ-ৰ-মা-ক</mark>: মাতৃৰ বাবে <b>জ</b>য়সাগৰ, ইটাৰ <b>ৰ</b>ংপুৰ, <b>মা</b>ইবং আৰু জয়ন্তীয়াপুৰ দখল, <b>ক</b>ৃষ্ণৰাম আৰু কামাখ্যা।"
+      }
+     ],
+     "id": "rud.u5.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use J-R-M-K: put his reign in order.",
+      "as": "জ-ৰ-মা-ক ব্যৱহাৰ কৰি তেওঁৰ ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Joysagar dug",
+       "as": "জয়সাগৰ খন্দা"
+      },
+      {
+       "en": "Rangpur in brick",
+       "as": "ইটাৰ ৰংপুৰ"
+      },
+      {
+       "en": "Maibong taken",
+       "as": "মাইবং দখল"
+      },
+      {
+       "en": "Krishnaram invited",
+       "as": "কৃষ্ণৰামক আমন্ত্ৰণ"
+      }
+     ],
+     "why": {
+      "en": "J → R → M → K.",
+      "as": "জ → ৰ → মা → ক।"
+     },
+     "id": "rud.u5.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Rudra Singha",
+    "as": "তুমি স্বৰ্গদেউ ৰুদ্ৰ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Rudra Singha was the son of Joymoti.",
+     "as": "ৰুদ্ৰ সিংহ জয়মতীৰ পুত্ৰ আছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "rud.test.01",
+    "link": {
+     "lesson": 28,
+     "lessonId": "sulikphaa",
+     "unitNo": 3,
+     "unitTitle": {
+      "en": "Joymoti",
+      "as": "জয়মতী"
+     },
+     "note": {
+      "en": "Joymoti at Jerenga Pathar.",
+      "as": "জেৰেঙা পথাৰত জয়মতী।"
+     }
+    }
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I dug Joysagar for my mother.",
+      "as": "মাতৃৰ বাবে মই জয়সাগৰ খন্দাইছিলোঁ।"
+     },
+     {
+      "en": "I took Maibong and Jaintiapur.",
+      "as": "মই মাইবং আৰু জয়ন্তীয়াপুৰ লৈছিলোঁ।"
+     },
+     {
+      "en": "I died at Guwahati in 1714.",
+      "as": "১৭১৪ চনত গুৱাহাটীত মোৰ মৃত্যু।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Rudra Singha",
+      "as": "ৰুদ্ৰ সিংহ"
+     },
+     {
+      "en": "Gadadhar Singha",
+      "as": "গদাধৰ সিংহ"
+     },
+     {
+      "en": "Siva Singha",
+      "as": "শিৱ সিংহ"
+     },
+     {
+      "en": "Rajeswar Singha",
+      "as": "ৰাজেশ্বৰ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Rudra Singha.",
+     "as": "ৰুদ্ৰ সিংহ।"
+    },
+    "id": "rud.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Rangpur.",
+     "as": "ৰংপুৰ টিপা।"
+    },
+    "target": "rangpur",
+    "choices": [
+     "rangpur",
+     "majuli",
+     "guwahati",
+     "maibong"
+    ],
+    "answerText": {
+     "en": "Rangpur",
+     "as": "ৰংপুৰ"
+    },
+    "why": {
+     "en": "Rangpur.",
+     "as": "ৰংপুৰ।"
+    },
+    "id": "rud.test.03"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1696",
+      "l": {
+       "en": "Rudra crowned",
+       "as": "ৰুদ্ৰৰ অভিষেক"
+      }
+     },
+     {
+      "y": "1714",
+      "l": {
+       "en": "Rudra dies",
+       "as": "ৰুদ্ৰৰ মৃত্যু"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Battle of Itakhuli",
+       "as": "ইটাখুলিৰ যুদ্ধ"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Jaintiapur taken",
+       "as": "জয়ন্তীয়াপুৰ দখল"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Phuleswari made Bar Raja",
+       "as": "ফুলেশ্বৰী বৰ ৰজা"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1682 → 1696 → 1708 → 1714 → 1722.",
+     "as": "১৬৮২ → ১৬৯৬ → ১৭০৮ → ১৭১৪ → ১৭২২।"
+    },
+    "id": "rud.test.04"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Rangpur being built?",
+     "as": "কোনখন ছবিত ৰংপুৰ নিৰ্মাণ দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "rangpur.webp",
+     "durbar.webp",
+     "bengal-plan.webp",
+     "coronation.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Building Rangpur",
+     "as": "ৰংপুৰ নিৰ্মাণ"
+    },
+    "why": {
+     "en": "A city of brick.",
+     "as": "ইটাৰ নগৰ।"
+    },
+    "id": "rud.test.05"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the tank Rudra dug for his mother.",
+     "as": "মাতৃৰ বাবে ৰুদ্ৰই খন্দোৱা পুখুৰীৰ নাম সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "J",
+      "O",
+      "Y",
+      "S",
+      "A",
+      "G",
+      "A",
+      "R"
+     ],
+     "as": [
+      "জয়",
+      "সা",
+      "গৰ"
+     ]
+    },
+    "answerText": {
+     "en": "JOYSAGAR",
+     "as": "জয়সাগৰ"
+    },
+    "why": {
+     "en": "Joysagar.",
+     "as": "জয়সাগৰ।"
+    },
+    "id": "rud.test.06"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Tamradhwaj",
+       "as": "তাম্ৰধ্বজ"
+      },
+      {
+       "en": "Kachari king",
+       "as": "কছাৰী ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Ram Singh of Jaintia",
+       "as": "জয়ন্তীয়াৰ ৰামসিংহ"
+      },
+      {
+       "en": "Jaintia king",
+       "as": "জয়ন্তীয়া ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Ghanashyam",
+       "as": "ঘনশ্যাম"
+      },
+      {
+       "en": "Brick builder",
+       "as": "ইটাৰ নিৰ্মাতা"
+      }
+     ],
+     [
+      {
+       "en": "Krishnaram",
+       "as": "কৃষ্ণৰাম"
+      },
+      {
+       "en": "Sakta priest",
+       "as": "শাক্ত পুৰোহিত"
+      }
+     ]
+    ],
+    "why": {
+     "en": "People of Rudra's reign.",
+     "as": "ৰুদ্ৰৰ দিনৰ লোক।"
+    },
+    "id": "rud.test.07"
+   },
+   {
+    "type": "spot",
+    "q": {
+     "en": "One word in this sentence is wrong. Tap it.",
+     "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+    },
+    "tokens": {
+     "en": [
+      "Rudra",
+      "Singha",
+      "died",
+      "at",
+      "Rangpur",
+      "in",
+      "1714."
+     ],
+     "as": [
+      "১৭১৪",
+      "চনত",
+      "ৰংপুৰত",
+      "ৰুদ্ৰ",
+      "সিংহৰ",
+      "মৃত্যু",
+      "হৈছিল।"
+     ]
+    },
+    "wrong": {
+     "en": 4,
+     "as": 2
+    },
+    "fix": {
+     "en": "→ Guwahati",
+     "as": "→ গুৱাহাটীত"
+    },
+    "answerText": {
+     "en": "Rangpur → Guwahati",
+     "as": "ৰংপুৰ → গুৱাহাটী"
+    },
+    "why": {
+     "en": "He died at Guwahati, preparing to invade Bengal.",
+     "as": "বংগ আক্ৰমণৰ প্ৰস্তুতিৰ মাজত গুৱাহাটীত মৃত্যু।"
+    },
+    "id": "rud.test.08"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "ক্ৰম অনুসৰি সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Rudra crowned",
+      "as": "ৰুদ্ৰৰ অভিষেক"
+     },
+     {
+      "en": "Maibong taken",
+      "as": "মাইবং দখল"
+     },
+     {
+      "en": "Jaintiapur taken",
+      "as": "জয়ন্তীয়াপুৰ দখল"
+     },
+     {
+      "en": "Rudra dies",
+      "as": "ৰুদ্ৰৰ মৃত্যু"
+     }
+    ],
+    "why": {
+     "en": "1696 → 1706 → 1708 → 1714.",
+     "as": "১৬৯৬ → ১৭০৬ → ১৭০৮ → ১৭১৪।"
+    },
+    "id": "rud.test.09"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Rudra Singha stopped the persecution of the satras.<br>2. Rudra Singha invaded and conquered Bengal.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ৰুদ্ৰ সিংহই সত্ৰৰ ওপৰত নিৰ্যাতন বন্ধ কৰিছিল।<br>২. ৰুদ্ৰ সিংহই বংগ আক্ৰমণ কৰি জয় কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. He died before the Bengal campaign began.",
+     "as": "কেৱল ১। বংগ অভিযান আৰম্ভ হোৱাৰ আগতেই তেওঁৰ মৃত্যু।"
+    },
+    "small": true,
+    "id": "rud.test.10"
+   }
+  ]
+ }
+}
