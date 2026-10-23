@@ -1,7 +1,7 @@
 {
  "id": "tyao-khamti",
  "no": 7,
- "version": 2,
+ "version": 3,
  "king": {
   "en": "Swargadeo Tyao Khamti",
   "as": "স্বৰ্গদেউ ত্যাও খামতি"
@@ -23,7 +23,7 @@
    "used_for": "Same account; the elder queen's fate"
   }
  ],
- "review_notes": "The result of the Chutia campaign is disputed (Gait: victorious; the Chutia kingdom article: unsuccessful), so the lesson does not state or ask it. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles.",
+ "review_notes": "The result of the Chutia campaign is disputed (Gait: victorious; the Chutia kingdom article: unsuccessful), so the lesson does not state or ask it. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 6,
   "title": {
@@ -216,35 +216,68 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Why did Tyao Khamti march against the Chutias?",
-      "as": "ত্যাও খামতিয়ে কিয় চুতীয়াৰ বিৰুদ্ধে অভিযান চলাইছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Tyao Khamti marched against the Chutias to avenge Sutuphaa.",
+      "as": "চুতুফাৰ হত্যাৰ প্ৰতিশোধ ল'বলৈ ত্যাও খামতিয়ে চুতীয়াৰ বিৰুদ্ধে অভিযান কৰিছিল।"
      },
-     "options": [
+     "answer": true,
+     "why": {
+      "en": "True. It was one of his first acts as king.",
+      "as": "শুদ্ধ। ৰজা হৈ এইটো তেওঁৰ প্ৰথম কামৰ এটা আছিল।"
+     },
+     "id": "tyk3.u1.01"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
       {
-       "en": "To punish them for killing Sutuphaa",
-       "as": "চুতুফাক হত্যা কৰাৰ শাস্তি দিবলৈ"
+       "y": "1376",
+       "l": {
+        "en": "Sutuphaa killed",
+        "as": "চুতুফা নিহত"
+       }
       },
       {
-       "en": "To marry a Chutia princess",
-       "as": "চুতীয়া কুঁৱৰী বিয়া কৰাবলৈ"
-      },
-      {
-       "en": "To capture Kamata",
-       "as": "কামতা দখল কৰিবলৈ"
-      },
-      {
-       "en": "To cross the Patkai",
-       "as": "পাটকাই পাৰ হ'বলৈ"
+       "y": "1389",
+       "l": {
+        "en": "Tyao Khamti killed",
+        "as": "ত্যাও খামতি নিহত"
+       }
       }
      ],
-     "answer": 0,
+     "items": [
+      {
+       "t": {
+        "en": "Sukhrangphaa dies",
+        "as": "চুখ্ৰাংফাৰ মৃত্যু"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Tyao Khamti crowned",
+        "as": "ত্যাও খামতিৰ অভিষেক"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Sudangphaa crowned",
+        "as": "চুদাংফাৰ অভিষেক"
+       },
+       "slot": 2
+      }
+     ],
      "why": {
-      "en": "To avenge his brother Sutuphaa, killed by the Chutia king in 1376.",
-      "as": "১৩৭৬ চনত চুতীয়া ৰজাই হত্যা কৰা ভাই চুতুফাৰ প্ৰতিশোধ ল'বলৈ।"
+      "en": "1364 → 1376 → 1380 → 1389 → 1397.",
+      "as": "১৩৬৪ → ১৩৭৬ → ১৩৮০ → ১৩৮৯ → ১৩৯৭।"
      },
-     "id": "tyk.u1.03"
+     "id": "tyk3.u1.02"
     },
     {
      "type": "tf",
@@ -258,42 +291,6 @@
       "as": "শুদ্ধ। চাৰি বছৰ ৰজা নোহোৱাৰ পিছত গোহাঁইসকলে তেওঁক সিংহাসনত বহুৱাইছিল।"
      },
      "id": "tyk2.u1.04"
-    },
-    {
-     "type": "inline",
-     "before": {
-      "en": "Tyao Khamti became king in",
-      "as": "ত্যাও খামতি ৰজা হৈছিল"
-     },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
-     },
-     "options": [
-      {
-       "en": "1376",
-       "as": "১৩৭৬"
-      },
-      {
-       "en": "1380",
-       "as": "১৩৮০"
-      },
-      {
-       "en": "1389",
-       "as": "১৩৮৯"
-      },
-      {
-       "en": "1397",
-       "as": "১৩৯৭"
-      }
-     ],
-     "answer": 1,
-     "why": {
-      "en": "1380.",
-      "as": "১৩৮০।"
-     },
-     "big": true,
-     "id": "tyk2.u1.05"
     },
     {
      "type": "whoami",
@@ -467,66 +464,40 @@
      "id": "tyk.u1.07"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "How was the younger queen sent away?",
-      "as": "সৰু ৰাণীক কেনেকৈ পঠিয়াই দিয়া হৈছিল?"
+      "en": "Which picture shows how the younger queen was sent away?",
+      "as": "কোনখন ছবিত সৰু ৰাণীক কেনেকৈ পঠোৱা হৈছিল দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "On a raft on the Brahmaputra",
-       "as": "ব্ৰহ্মপুত্ৰত ভূৰত তুলি"
-      },
-      {
-       "en": "On an elephant to Kamata",
-       "as": "হাতীত তুলি কামতালৈ"
-      },
-      {
-       "en": "Across the Patkai on foot",
-       "as": "খোজকাঢ়ি পাটকাইৰ সিপাৰলৈ"
-      },
-      {
-       "en": "By boat to the Chutia king",
-       "as": "নাৱেৰে চুতীয়া ৰজাৰ ওচৰলৈ"
-      }
+      "queen-adrift.webp",
+      "chutia-campaign.webp",
+      "fall.webp",
+      "second-interregnum.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "On a raft on the Brahmaputra. Remember the raft: it matters in the next lesson.",
-      "as": "ব্ৰহ্মপুত্ৰত ভূৰত তুলি। ভূৰখন মনত ৰাখিবা: পিছৰ পাঠত ই গুৰুত্বপূৰ্ণ।"
+     "answerText": {
+      "en": "The raft on the Brahmaputra",
+      "as": "ব্ৰহ্মপুত্ৰত ভুৰ"
      },
-     "id": "tyk.u1.08"
+     "why": {
+      "en": "She was set adrift on a raft.",
+      "as": "তেওঁক ভুৰত উটুৱাই দিয়া হৈছিল।"
+     },
+     "id": "tyk3.u2.01"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Why did the ministers not behead the younger queen?",
-      "as": "মন্ত্ৰীসকলে সৰু ৰাণীৰ মূৰ কিয় কটা নাছিল?"
+     "type": "tf",
+     "s": {
+      "en": "The ministers spared the younger queen because she was pregnant.",
+      "as": "সৰু ৰাণী গৰ্ভৱতী আছিল বাবে মন্ত্ৰীসকলে তেওঁৰ প্ৰাণ ৰক্ষা কৰিছিল।"
      },
-     "options": [
-      {
-       "en": "She was pregnant",
-       "as": "তেওঁ গৰ্ভৱতী আছিল"
-      },
-      {
-       "en": "The king forbade it",
-       "as": "ৰজাই নিষেধ কৰিছিল"
-      },
-      {
-       "en": "She escaped",
-       "as": "তেওঁ পলাইছিল"
-      },
-      {
-       "en": "She was proved innocent at once",
-       "as": "লগে লগে নিৰ্দোষ প্ৰমাণিত"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "They saw she was carrying the king's child.",
-      "as": "তেওঁলোকে দেখিলে তেওঁ ৰজাৰ সন্তান গৰ্ভত ধৰিছে।"
+      "en": "True. Her child would later become King Sudangphaa.",
+      "as": "শুদ্ধ। তেওঁৰ সন্তান পিছত ৰজা চুদাংফা হ'ল।"
      },
-     "id": "tyk2.u2.06"
+     "id": "tyk3.u2.02"
     },
     {
      "type": "picture",
@@ -672,35 +643,61 @@
      "img": "fall.webp"
     },
     {
-     "type": "mcq",
+     "type": "spot",
      "q": {
-      "en": "Why did the nobles turn against Tyao Khamti?",
-      "as": "ডাঙৰীয়াসকল কিয় ত্যাও খামতিৰ বিৰুদ্ধে গৈছিল?"
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
      },
-     "options": [
-      {
-       "en": "He did not stop the elder queen's oppression",
-       "as": "তেওঁ ডাঙৰ ৰাণীৰ অত্যাচাৰ বন্ধ কৰা নাছিল"
-      },
-      {
-       "en": "He lost a war to Kamata",
-       "as": "তেওঁ কামতাৰ ওচৰত যুদ্ধত হাৰিছিল"
-      },
-      {
-       "en": "He gave land to Mungkang",
-       "as": "তেওঁ মুংকাঙক মাটি দিছিল"
-      },
-      {
-       "en": "He left the kingdom",
-       "as": "তেওঁ ৰাজ্য এৰি গৈছিল"
-      }
-     ],
-     "answer": 0,
+     "tokens": {
+      "en": [
+       "The",
+       "younger",
+       "queen's",
+       "raft",
+       "sank",
+       "in",
+       "the",
+       "Brahmaputra."
+      ],
+      "as": [
+       "সৰু",
+       "ৰাণীৰ",
+       "ভুৰখন",
+       "ব্ৰহ্মপুত্ৰত",
+       "ডুবি",
+       "গ'ল।"
+      ]
+     },
+     "wrong": {
+      "en": 4,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ floated to Habung",
+      "as": "→ হাবুঙলৈ উটি গ'ল"
+     },
+     "answerText": {
+      "en": "sank → floated",
+      "as": "ডুবি গ'ল → উটি গ'ল"
+     },
      "why": {
-      "en": "He stayed under the elder queen's influence and let her oppress people, even after her false charge was exposed.",
-      "as": "মিছা অভিযোগ ধৰা পৰাৰ পিছতো তেওঁ ডাঙৰ ৰাণীৰ প্ৰভাৱত থাকি তাইক অত্যাচাৰ কৰিবলৈ দিছিল।"
+      "en": "The raft floated to a village in Habung, where her son Sudang was born.",
+      "as": "ভুৰখন হাবুঙৰ এখন গাঁৱলৈ উটি গৈছিল, য'ত তেওঁৰ পুত্ৰ চুদাঙৰ জন্ম হয়।"
      },
-     "id": "tyk.u2.03"
+     "id": "tyk2.u3.08",
+     "link": {
+      "lesson": 8,
+      "lessonId": "sudangphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The lost prince",
+       "as": "হেৰুৱা কোঁৱৰ"
+      },
+      "note": {
+       "en": "The raft came ashore in Habung; Sudang was born there.",
+       "as": "ভুৰখন হাবুঙত লাগিছিল; তাতে চুদাঙৰ জন্ম হয়।"
+      }
+     }
     },
     {
      "type": "story",
@@ -827,42 +824,6 @@
      "id": "tyk.u2.06"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "The nobles ruled without a king from 1389 to",
-      "as": "ডাঙৰীয়াসকলে ১৩৮৯ৰ পৰা"
-     },
-     "after": {
-      "en": ".",
-      "as": "চনলৈ ৰজা নোহোৱাকৈ শাসন কৰিছিল।"
-     },
-     "options": [
-      {
-       "en": "1380",
-       "as": "১৩৮০"
-      },
-      {
-       "en": "1397",
-       "as": "১৩৯৭"
-      },
-      {
-       "en": "1401",
-       "as": "১৪০১"
-      },
-      {
-       "en": "1407",
-       "as": "১৪০৭"
-      }
-     ],
-     "answer": 1,
-     "why": {
-      "en": "1389–1397, eight years, until the next king was found.",
-      "as": "১৩৮৯–১৩৯৭, আঠ বছৰ, পৰৱৰ্তী ৰজা বিচাৰি নোপোৱালৈকে।"
-     },
-     "id": "tyk.u2.07",
-     "big": true
-    },
-    {
      "type": "spot",
      "q": {
       "en": "One word in this sentence is wrong. Tap it.",
@@ -871,53 +832,75 @@
      "tokens": {
       "en": [
        "The",
-       "younger",
-       "queen's",
-       "raft",
-       "sank",
-       "in",
-       "the",
-       "Brahmaputra."
+       "nobles",
+       "ruled",
+       "without",
+       "a",
+       "king",
+       "from",
+       "1389",
+       "to",
+       "1497."
       ],
       "as": [
-       "সৰু",
-       "ৰাণীৰ",
-       "ভুৰখন",
-       "ব্ৰহ্মপুত্ৰত",
-       "ডুবি",
-       "গ'ল।"
+       "১৩৮৯ৰ",
+       "পৰা",
+       "১৪৯৭",
+       "লৈকে",
+       "বিষয়াসকলে",
+       "ৰজা",
+       "নোহোৱাকৈ",
+       "শাসন",
+       "কৰিছিল।"
       ]
      },
      "wrong": {
-      "en": 4,
-      "as": 4
+      "en": 9,
+      "as": 2
      },
      "fix": {
-      "en": "→ floated to Habung",
-      "as": "→ হাবুঙলৈ উটি গ'ল"
+      "en": "→ 1397",
+      "as": "→ ১৩৯৭"
      },
      "answerText": {
-      "en": "sank → floated",
-      "as": "ডুবি গ'ল → উটি গ'ল"
+      "en": "1497 → 1397",
+      "as": "১৪৯৭ → ১৩৯৭"
      },
      "why": {
-      "en": "The raft floated to a village in Habung, where her son Sudang was born.",
-      "as": "ভুৰখন হাবুঙৰ এখন গাঁৱলৈ উটি গৈছিল, য'ত তেওঁৰ পুত্ৰ চুদাঙৰ জন্ম হয়।"
+      "en": "Until 1397, when Sudangphaa was crowned.",
+      "as": "১৩৯৭ লৈকে, যেতিয়া চুদাংফাৰ অভিষেক হয়।"
      },
-     "id": "tyk2.u3.08",
-     "link": {
-      "lesson": 8,
-      "lessonId": "sudangphaa",
-      "unitNo": 1,
-      "unitTitle": {
-       "en": "The lost prince",
-       "as": "হেৰুৱা কোঁৱৰ"
+     "id": "tyk3.u3.02"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the king's fall in order.",
+      "as": "ৰজাৰ পতনৰ ঘটনাবোৰ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "The younger queen is set adrift",
+       "as": "সৰু ৰাণীক উটুৱাই দিয়া হয়"
       },
-      "note": {
-       "en": "The raft came ashore in Habung; Sudang was born there.",
-       "as": "ভুৰখন হাবুঙত লাগিছিল; তাতে চুদাঙৰ জন্ম হয়।"
+      {
+       "en": "An inquiry shows the charge was false",
+       "as": "তদন্তত অভিযোগ মিছা প্ৰমাণিত"
+      },
+      {
+       "en": "The king does not act against the elder queen",
+       "as": "ৰজাই জ্যেষ্ঠ ৰাণীৰ বিৰুদ্ধে ব্যৱস্থা নলয়"
+      },
+      {
+       "en": "The nobles have him killed (1389)",
+       "as": "বিষয়াসকলে তেওঁক হত্যা কৰায় (১৩৮৯)"
       }
-     }
+     ],
+     "why": {
+      "en": "His failure to act against the elder queen's oppression cost him his life.",
+      "as": "জ্যেষ্ঠ ৰাণীৰ অত্যাচাৰৰ বিৰুদ্ধে ব্যৱস্থা নোলোৱাৰ বাবে তেওঁ প্ৰাণ হেৰুৱালে।"
+     },
+     "id": "tyk3.u3.01"
     }
    ]
   }
@@ -1022,35 +1005,45 @@
     "id": "tyk.test.03"
    },
    {
-    "type": "mcq",
-    "q": {
-     "en": "Who saved the younger queen from being beheaded?",
-     "as": "সৰু ৰাণীক শিৰচ্ছেদৰ পৰা কোনে ৰক্ষা কৰিছিল?"
-    },
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "We received an order to behead a queen.",
+      "as": "আমি এগৰাকী ৰাণীৰ মূৰ কাটিবলৈ আদেশ পাইছিলোঁ।"
+     },
+     {
+      "en": "We saw she was pregnant.",
+      "as": "আমি দেখিলোঁ তেওঁ গৰ্ভৱতী।"
+     },
+     {
+      "en": "We set her adrift on a raft instead.",
+      "as": "আমি তাৰ সলনি তেওঁক ভুৰত উটুৱাই দিলোঁ।"
+     }
+    ],
     "options": [
      {
       "en": "The ministers",
-      "as": "মন্ত্ৰীসকলে"
+      "as": "মন্ত্ৰীসকল"
      },
      {
-      "en": "The king",
-      "as": "ৰজাই"
+      "en": "The elder queen",
+      "as": "জ্যেষ্ঠ ৰাণী"
      },
      {
-      "en": "The Chutia king",
-      "as": "চুতীয়া ৰজাই"
+      "en": "The Chutias",
+      "as": "চুতীয়া"
      },
      {
-      "en": "The Kamata king",
-      "as": "কামতা ৰজাই"
+      "en": "The Brahman of Habung",
+      "as": "হাবুঙৰ ব্ৰাহ্মণ"
      }
     ],
     "answer": 0,
     "why": {
-     "en": "The ministers, because she was pregnant.",
-     "as": "মন্ত্ৰীসকলে, কাৰণ তেওঁ সন্তানসম্ভৱা আছিল।"
+     "en": "The ministers.",
+     "as": "মন্ত্ৰীসকল।"
     },
-    "id": "tyk.test.04"
+    "id": "tyk3.test.01"
    },
    {
     "type": "order",
@@ -1083,71 +1076,40 @@
     "id": "tyk.test.05"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "Tyao Khamti was killed in",
-     "as": "ত্যাও খামতিক হত্যা কৰা হৈছিল"
-    },
-    "after": {
-     "en": ".",
-     "as": "চনত।"
-    },
-    "options": [
-     {
-      "en": "1376",
-      "as": "১৩৭৬"
-     },
-     {
-      "en": "1380",
-      "as": "১৩৮০"
-     },
-     {
-      "en": "1389",
-      "as": "১৩৮৯"
-     },
-     {
-      "en": "1397",
-      "as": "১৩৯৭"
-     }
-    ],
-    "answer": 2,
-    "why": {
-     "en": "1389.",
-     "as": "১৩৮৯।"
-    },
-    "big": true,
-    "id": "tyk2.test.06"
-   },
-   {
-    "type": "mcq",
+    "type": "picture",
     "q": {
-     "en": "Who ruled while Tyao Khamti was at war?",
-     "as": "ত্যাও খামতি যুদ্ধত থাকোঁতে কোনে দায়িত্ব লৈছিল?"
+     "en": "Which picture shows the fall of Tyao Khamti?",
+     "as": "কোনখন ছবিত ত্যাও খামতিৰ পতন দেখুওৱা হৈছে?"
     },
     "options": [
-     {
-      "en": "The elder queen",
-      "as": "জ্যেষ্ঠ ৰাণী"
-     },
-     {
-      "en": "The younger queen",
-      "as": "সৰু ৰাণী"
-     },
-     {
-      "en": "Chao Pulai",
-      "as": "চাও পুলাই"
-     },
-     {
-      "en": "The Chutia king",
-      "as": "চুতীয়া ৰজা"
-     }
+     "fall.webp",
+     "queen-adrift.webp",
+     "chutia-campaign.webp",
+     "tyao-khamti-portrait.webp"
     ],
     "answer": 0,
-    "why": {
-     "en": "The elder queen.",
-     "as": "জ্যেষ্ঠ ৰাণী।"
+    "answerText": {
+     "en": "The assassination",
+     "as": "হত্যা"
     },
-    "id": "tyk2.test.07"
+    "why": {
+     "en": "1389: the nobles had him killed.",
+     "as": "১৩৮৯: বিষয়াসকলে তেওঁক হত্যা কৰাইছিল।"
+    },
+    "id": "tyk3.test.02"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The elder queen ruled while Tyao Khamti was away at war.",
+     "as": "ত্যাও খামতি যুদ্ধত থাকোঁতে জ্যেষ্ঠ ৰাণীয়ে দায়িত্ব লৈছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "tyk3.test.03"
    },
    {
     "type": "match",

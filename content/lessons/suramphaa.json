@@ -1,7 +1,7 @@
 {
  "id": "suramphaa",
  "no": 18,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Suramphaa",
   "as": "স্বৰ্গদেউ চুৰম্ফা"
@@ -23,7 +23,7 @@
    "used_for": "Jayaditya Singha, Bhaga Raja, 1641–1644"
   }
  ],
- "review_notes": "Gait gives the popular name as Bhaga Raja, 'deposed king'; the course list spelled it Bhoga Roja (ভোগা), which is changed to Bhaga Roja (ভগা ৰজা).",
+ "review_notes": "Gait gives the popular name as Bhaga Raja, 'deposed king'; the course list spelled it Bhoga Roja (ভোগা), which is changed to Bhaga Roja (ভগা ৰজা). Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 17,
   "title": {
@@ -171,48 +171,45 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What did Suramphaa promise Sutingphaa?",
-      "as": "চুৰম্ফাই চুটিংফাক কি প্ৰতিশ্ৰুতি দিছিল?"
-     },
-     "options": [
-      {
-       "en": "To make him his heir",
-       "as": "তেওঁক উত্তৰাধিকাৰী পাতিব"
-      },
-      {
-       "en": "To give him Garhgaon",
-       "as": "তেওঁক গড়গাঁও দিব"
-      },
-      {
-       "en": "To make him Borbarua",
-       "as": "তেওঁক বৰবৰুৱা পাতিব"
-      },
-      {
-       "en": "To marry his daughter",
-       "as": "তেওঁৰ জীয়েকক বিয়া কৰাব"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "He said he was childless and would make Sutingphaa his heir. He later broke this promise.",
-      "as": "তেওঁ নিঃসন্তান বুলি কৈ চুটিংফাক উত্তৰাধিকাৰী পাতিম বুলিছিল। পিছত এই প্ৰতিশ্ৰুতি ভংগ কৰে।"
-     },
-     "id": "srm.u1.02"
-    },
-    {
      "type": "tf",
      "s": {
-      "en": "The nobles first offered the throne to Sutingphaa, who refused it.",
-      "as": "বিষয়াসকলে প্ৰথমে চুটিংফাক সিংহাসন আগবঢ়াইছিল, তেওঁ নুই কৰিছিল।"
+      "en": "Suramphaa promised to make Sutingphaa his heir.",
+      "as": "চুৰম্ফাই চুটিংফাক উত্তৰাধিকাৰী পাতিম বুলি প্ৰতিশ্ৰুতি দিছিল।"
      },
      "answer": true,
      "why": {
-      "en": "True. Sutingphaa kept his word and would not take the throne over his elder brother.",
-      "as": "শুদ্ধ। চুটিংফাই কথা ৰাখিলে, ককাইৰ ঠাইত সিংহাসন নল'লে।"
+      "en": "True; he later broke it.",
+      "as": "শুদ্ধ; পিছত ভাঙিছিল।"
      },
-     "id": "srm.u1.03"
+     "id": "srm3.u1.01"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble what angered the court about the Kachari letter.",
+      "as": "কছাৰী চিঠিৰ কোনটোৱে ৰাজসভাক খং তুলিছিল, সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "S",
+       "E",
+       "A",
+       "L"
+      ],
+      "as": [
+       "মো",
+       "হৰ"
+      ]
+     },
+     "answerText": {
+      "en": "SEAL",
+      "as": "মোহৰ"
+     },
+     "why": {
+      "en": "Its seal: a Singha's, not a Phukan's.",
+      "as": "মোহৰ: ফুকনৰ নহয়, সিংহৰ।"
+     },
+     "id": "srm3.u1.02"
     },
     {
      "type": "story",
@@ -234,39 +231,17 @@
      "id": "srm.u1.04"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "The Kachari letter angered the court because of its",
-      "as": "কছাৰী চিঠিখনে ৰাজসভাক খং তুলিছিল, কাৰণ ইয়াৰ"
+     "type": "tf",
+     "s": {
+      "en": "The nobles first offered the throne to Sutingphaa, who refused it.",
+      "as": "বিষয়াসকলে প্ৰথমে চুটিংফাক সিংহাসন আগবঢ়াইছিল, তেওঁ নুই কৰিছিল।"
      },
-     "after": {
-      "en": ".",
-      "as": "।"
-     },
-     "options": [
-      {
-       "en": "seal",
-       "as": "মোহৰ"
-      },
-      {
-       "en": "language",
-       "as": "ভাষা"
-      },
-      {
-       "en": "gifts",
-       "as": "উপহাৰ"
-      },
-      {
-       "en": "date",
-       "as": "তাৰিখ"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "The seal claimed the Kachari king was an equal, not a subordinate.",
-      "as": "মোহৰে কছাৰী ৰজাক অধীন নহয়, সমান বুলি দাবী কৰিছিল।"
+      "en": "True. Sutingphaa kept his word and would not take the throne over his elder brother.",
+      "as": "শুদ্ধ। চুটিংফাই কথা ৰাখিলে, ককাইৰ ঠাইত সিংহাসন নল'লে।"
      },
-     "id": "srm.u1.05"
+     "id": "srm.u1.03"
     },
     {
      "type": "whoami",
@@ -476,35 +451,34 @@
      }
     },
     {
-     "type": "mcq",
+     "type": "order",
      "q": {
-      "en": "Why did the nobles finally turn against Suramphaa?",
-      "as": "শেষত বিষয়াসকল কিয় চুৰম্ফাৰ বিৰুদ্ধে গৈছিল?"
+      "en": "Put Suramphaa's fall in order.",
+      "as": "চুৰম্ফাৰ পতন ক্ৰমত সজোৱা।"
      },
-     "options": [
+     "items": [
       {
-       "en": "He wanted their sons buried with his adopted heir",
-       "as": "পোষ্যপুত্ৰৰ লগত তেওঁলোকৰ পুত্ৰক পুতিব বিচাৰিছিল"
+       "en": "He names an adopted boy heir",
+       "as": "পোষ্যপুত্ৰক উত্তৰাধিকাৰী পাতে"
       },
       {
-       "en": "He lost a war to the Mughals",
-       "as": "মোগলৰ হাতত যুদ্ধত হাৰিছিল"
+       "en": "The boy dies",
+       "as": "ল'ৰাটোৰ মৃত্যু"
       },
       {
-       "en": "He became a Vaishnava",
-       "as": "বৈষ্ণৱ হৈছিল"
+       "en": "He demands nobles' sons for the grave",
+       "as": "সমাধিৰ বাবে বিষয়াৰ পুত্ৰ দাবী"
       },
       {
-       "en": "He moved the capital",
-       "as": "ৰাজধানী সলাইছিল"
+       "en": "The nobles depose him (1644)",
+       "as": "বিষয়াই সিংহাসনচ্যুত কৰে (১৬৪৪)"
       }
      ],
-     "answer": 0,
      "why": {
-      "en": "Gait notes it was not the old custom itself, but who the victims were to be, that caused the revolt.",
-      "as": "গেইটৰ মতে পুৰণি প্ৰথাটো নহয়, বলি হ'বলগীয়াসকল কোন সেয়াহে বিদ্ৰোহৰ কাৰণ।"
+      "en": "The demand for their sons was the last straw.",
+      "as": "পুত্ৰৰ দাবীয়েই শেষ সীমা পাৰ কৰিলে।"
      },
-     "id": "srm.u2.04"
+     "id": "srm3.u2.01"
     },
     {
      "type": "story",
@@ -526,39 +500,27 @@
      "id": "srm.u2.05"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Suramphaa is known as the",
-      "as": "চুৰম্ফাক কোৱা হয়"
-     },
-     "after": {
-      "en": "Roja.",
-      "as": "ৰজা।"
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Suramphaa's deposition?",
+      "as": "কোনখন ছবিত চুৰম্ফাৰ পদচ্যুতি দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Bhaga",
-       "as": "ভগা"
-      },
-      {
-       "en": "Khora",
-       "as": "খোৰা"
-      },
-      {
-       "en": "Noriya",
-       "as": "নৰীয়া"
-      },
-      {
-       "en": "Burha",
-       "as": "বুঢ়া"
-      }
+      "deposition.webp",
+      "court-intrigue.webp",
+      "shared/moidams.webp",
+      "suramphaa-portrait.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "Bhaga Roja, 'the deposed king'. Noriya Roja was his brother Sutingphaa.",
-      "as": "ভগা ৰজা, 'সিংহাসনচ্যুত ৰজা'। নৰীয়া ৰজা তেওঁৰ ভাই চুটিংফা।"
+     "answerText": {
+      "en": "The deposition",
+      "as": "পদচ্যুতি"
      },
-     "id": "srm.u2.06"
+     "why": {
+      "en": "The Bhaga Roja, 'the deposed king'.",
+      "as": "ভগা ৰজা।"
+     },
+     "id": "srm3.u2.02"
     },
     {
      "type": "spot",
@@ -696,40 +658,55 @@
     "id": "srm.test.01"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "Suramphaa was deposed in",
-     "as": "চুৰম্ফা সিংহাসনচ্যুত হৈছিল"
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
     },
-    "after": {
-     "en": ".",
-     "as": "চনত।"
-    },
-    "options": [
+    "anchors": [
      {
-      "en": "1641",
-      "as": "১৬৪১"
+      "y": "1641",
+      "l": {
+       "en": "Pratap Singha dies",
+       "as": "প্ৰতাপ সিংহৰ মৃত্যু"
+      }
      },
      {
-      "en": "1644",
-      "as": "১৬৪৪"
-     },
-     {
-      "en": "1648",
-      "as": "১৬৪৮"
-     },
-     {
-      "en": "1663",
-      "as": "১৬৬৩"
+      "y": "1648",
+      "l": {
+       "en": "Sutingphaa deposed",
+       "as": "চুটিংফা সিংহাসনচ্যুত"
+      }
      }
     ],
-    "answer": 1,
+    "items": [
+     {
+      "t": {
+       "en": "Treaty of Asurar Ali",
+       "as": "অসুৰৰ আলিৰ সন্ধি"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Suramphaa deposed",
+       "as": "চুৰম্ফা সিংহাসনচ্যুত"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Mir Jumla takes Garhgaon",
+       "as": "মীৰজুমলাই গড়গাঁও লয়"
+      },
+      "slot": 2
+     }
+    ],
     "why": {
-     "en": "1644.",
-     "as": "১৬৪৪।"
+     "en": "1639 → 1641 → 1644 → 1648 → 1662.",
+     "as": "১৬৩৯ → ১৬৪১ → ১৬৪৪ → ১৬৪৮ → ১৬৬২।"
     },
-    "big": true,
-    "id": "srm.test.02"
+    "id": "srm3.test.01"
    },
    {
     "type": "mcq",
@@ -777,35 +754,45 @@
     "id": "srm.test.04"
    },
    {
-    "type": "mcq",
-    "q": {
-     "en": "Why were Kachari envoys sent away in Suramphaa's reign?",
-     "as": "চুৰম্ফাৰ দিনত কছাৰী দূতক কিয় উভতাই পঠোৱা হৈছিল?"
-    },
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I am a Kachari envoy.",
+      "as": "মই কছাৰী দূত।"
+     },
+     {
+      "en": "My king's letter bore a Singha's seal.",
+      "as": "মোৰ ৰজাৰ চিঠিত সিংহৰ মোহৰ।"
+     },
+     {
+      "en": "I was sent away in disgrace.",
+      "as": "মোক অপমান কৰি পঠিয়াই দিয়া হৈছিল।"
+     }
+    ],
     "options": [
      {
-      "en": "Their letter bore a king's seal, not a chief's",
-      "as": "চিঠিত মুখিয়াৰ নহয়, ৰজাৰ মোহৰ"
+      "en": "A Kachari envoy",
+      "as": "কছাৰী দূত"
      },
      {
-      "en": "They came armed",
-      "as": "তেওঁলোক অস্ত্ৰ লৈ আহিছিল"
+      "en": "A Mughal envoy",
+      "as": "মোগল দূত"
      },
      {
-      "en": "They were spies",
-      "as": "তেওঁলোক চোৰাংচোৱা"
+      "en": "A Koch envoy",
+      "as": "কোচ দূত"
      },
      {
-      "en": "They brought no gifts",
-      "as": "উপহাৰ অনা নাছিল"
+      "en": "A Jaintia envoy",
+      "as": "জয়ন্তীয়া দূত"
      }
     ],
     "answer": 0,
     "why": {
-     "en": "The seal of a 'Singha' claimed independence.",
-     "as": "'সিংহ'ৰ মোহৰে স্বাধীনতা দাবী কৰিছিল।"
+     "en": "A Kachari envoy.",
+     "as": "কছাৰী দূত।"
     },
-    "id": "srm.test.05"
+    "id": "srm3.test.02"
    },
    {
     "type": "match",

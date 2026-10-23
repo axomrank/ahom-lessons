@@ -1,7 +1,7 @@
 {
  "id": "sutuphaa",
  "no": 6,
- "version": 2,
+ "version": 3,
  "king": {
   "en": "Swargadeo Sutuphaa",
   "as": "স্বৰ্গদেউ চুতুফা"
@@ -23,7 +23,7 @@
    "used_for": "Accession 1369 (modern historians) or 1364 (early historians); doubts about the account"
   }
  ],
- "review_notes": "The Wikipedia article notes that some historians doubt the murder story; the lesson gives the chronicle account. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles.",
+ "review_notes": "The Wikipedia article notes that some historians doubt the murder story; the lesson gives the chronicle account. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 5,
   "title": {
@@ -246,53 +246,17 @@
      "id": "stu2.u1.03"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Modern historians date Sutuphaa's accession to",
-      "as": "আধুনিক ইতিহাসবিদৰ মতে চুতুফা ৰজা হৈছিল"
-     },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
-     },
-     "options": [
-      {
-       "en": "1332",
-       "as": "১৩৩২"
-      },
-      {
-       "en": "1364",
-       "as": "১৩৬৪"
-      },
-      {
-       "en": "1369",
-       "as": "১৩৬৯"
-      },
-      {
-       "en": "1376",
-       "as": "১৩৭৬"
-      }
-     ],
-     "answer": 2,
-     "why": {
-      "en": "1369. The years 1364–1369 are counted as an interregnum, a time with no king.",
-      "as": "১৩৬৯। ১৩৬৪–১৩৬৯ ৰাজশূন্য কাল বুলি ধৰা হয়।"
-     },
-     "big": true,
-     "id": "stu2.u1.04"
-    },
-    {
      "type": "tf",
      "s": {
-      "en": "All four sons of Sukhaangphaa became kings.",
-      "as": "চুখাংফাৰ চাৰিওজন পুত্ৰ ৰজা হৈছিল।"
+      "en": "Older books date Sutuphaa's accession to 1364; modern historians say 1369.",
+      "as": "পুৰণি কিতাপত চুতুফাৰ অভিষেক ১৩৬৪; আধুনিক ইতিহাসবিদৰ মতে ১৩৬৯।"
      },
-     "answer": false,
+     "answer": true,
      "why": {
-      "en": "False. Three did; Chao Pulai did not.",
-      "as": "অশুদ্ধ। তিনিজনহে হৈছিল; চাও পুলাই হোৱা নাছিল।"
+      "en": "True. Modern historians count 1364–1369 as an interregnum.",
+      "as": "শুদ্ধ। আধুনিক ইতিহাসবিদে ১৩৬৪–১৩৬৯ক ৰাজশূন্য কাল বুলি ধৰে।"
      },
-     "id": "stu2.u1.05"
+     "id": "stu3.u1.01"
     },
     {
      "type": "whoami",
@@ -334,6 +298,19 @@
       "as": "চুতুফা। সাৱধান: 'এ' থকা চুতেউফা এশ বছৰ আগৰ দ্বিতীয় ৰজা।"
      },
      "id": "stu2.u1.06"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "All four sons of Sukhaangphaa became kings.",
+      "as": "চুখাংফাৰ চাৰিওজন পুত্ৰ ৰজা হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Three did; Chao Pulai did not.",
+      "as": "অশুদ্ধ। তিনিজনহে হৈছিল; চাও পুলাই হোৱা নাছিল।"
+     },
+     "id": "stu2.u1.05"
     },
     {
      "type": "match",
@@ -498,35 +475,17 @@
      "img": "safrai-betrayal.webp"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What is a regatta?",
-      "as": "নাওখেল কি?"
+     "type": "tf",
+     "s": {
+      "en": "A regatta is a boat race.",
+      "as": "নাওখেল মানে নাওৰ দৌৰ।"
      },
-     "options": [
-      {
-       "en": "A boat race",
-       "as": "নাওৰ দৌৰ"
-      },
-      {
-       "en": "A feast",
-       "as": "ভোজ"
-      },
-      {
-       "en": "A wedding",
-       "as": "বিবাহ"
-      },
-      {
-       "en": "A hunt",
-       "as": "চিকাৰ"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "A boat race. The invitation was a trap.",
-      "as": "নাওৰ দৌৰ। নিমন্ত্ৰণটো এটা ফান্দ আছিল।"
+      "en": "True. The Chutia king's invitation to a regatta was a trap.",
+      "as": "শুদ্ধ। চুতীয়া ৰজাৰ নাওখেলৰ নিমন্ত্ৰণ এটা ফান্দ আছিল।"
      },
-     "id": "stu2.u2.05"
+     "id": "stu3.u2.01"
     },
     {
      "type": "order",
@@ -559,35 +518,26 @@
      "id": "stu.u1.06"
     },
     {
-     "type": "mcq",
+     "type": "map",
      "q": {
-      "en": "Where was Sutuphaa killed?",
-      "as": "চুতুফাক ক'ত হত্যা কৰা হৈছিল?"
+      "en": "Tap the centre of the kingdom whose king lured Sutuphaa onto his boat.",
+      "as": "চুতুফাক নাৱলৈ নিয়া ৰজাৰ ৰাজ্যৰ কেন্দ্ৰ টিপা।"
      },
-     "options": [
-      {
-       "en": "On a boat on the Safrai river",
-       "as": "চাফ্ৰাই নদীত নাৱত"
-      },
-      {
-       "en": "In the palace at Charaideo",
-       "as": "চৰাইদেউৰ ৰাজকাৰেঙত"
-      },
-      {
-       "en": "On the Patkai hills",
-       "as": "পাটকাই পাহাৰত"
-      },
-      {
-       "en": "In Kamata",
-       "as": "কামতাত"
-      }
+     "target": "sadiya",
+     "choices": [
+      "sadiya",
+      "charaideo",
+      "dikhou"
      ],
-     "answer": 0,
-     "why": {
-      "en": "On the Chutia king's boat during a regatta on the Safrai river.",
-      "as": "চাফ্ৰাই নদীত নাওখেলৰ সময়ত চুতীয়া ৰজাৰ নাৱত।"
+     "answerText": {
+      "en": "Sadiya",
+      "as": "সদিয়া"
      },
-     "id": "stu.u1.07"
+     "why": {
+      "en": "Sadiya, centre of the Chutias.",
+      "as": "চুতীয়াৰ কেন্দ্ৰ সদিয়া।"
+     },
+     "id": "stu3.u2.02"
     },
     {
      "type": "unscramble",
@@ -736,35 +686,45 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Who ran the kingdom from 1376 to 1380?",
-      "as": "১৩৭৬ৰ পৰা ১৩৮০ লৈকে ৰাজ্য কোনে চলাইছিল?"
-     },
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "There were two of us.",
+       "as": "আমি দুজন আছিলোঁ।"
+      },
+      {
+       "en": "Sukaphaa created our offices.",
+       "as": "চুকাফাই আমাৰ পদ সৃষ্টি কৰিছিল।"
+      },
+      {
+       "en": "We ruled when there was no king.",
+       "as": "ৰজা নথকাত আমি শাসন কৰিছিলোঁ।"
+      }
+     ],
      "options": [
       {
        "en": "The Burhagohain and Borgohain",
        "as": "বুঢ়াগোহাঁই আৰু বৰগোহাঁই"
       },
       {
-       "en": "The Chutia king",
+       "en": "The Chutia kings",
        "as": "চুতীয়া ৰজা"
       },
       {
-       "en": "Chao Pulai",
-       "as": "চাও পুলাই"
+       "en": "The Borbarua and Borphukan",
+       "as": "বৰবৰুৱা আৰু বৰফুকন"
       },
       {
-       "en": "The Kamata king",
-       "as": "কামতা ৰজা"
+       "en": "The Naras",
+       "as": "নৰা"
       }
      ],
      "answer": 0,
      "why": {
-      "en": "The two great Gohains, as in every interregnum.",
-      "as": "দুজন প্ৰধান গোহাঁই, প্ৰতিটো ৰাজশূন্য কালৰ দৰে।"
+      "en": "The two great Gohains. The Borbarua and Borphukan came under Pratap Singha.",
+      "as": "দুজন প্ৰধান গোহাঁই। বৰবৰুৱা আৰু বৰফুকন প্ৰতাপ সিংহৰ দিনত।"
      },
-     "id": "stu2.u3.04"
+     "id": "stu3.u3.01"
     },
     {
      "type": "timeline",
@@ -946,40 +906,27 @@
     "small": true
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "Sutuphaa was killed in",
-     "as": "চুতুফাক"
-    },
-    "after": {
-     "en": ".",
-     "as": "চনত হত্যা কৰা হৈছিল।"
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Sutuphaa's death?",
+     "as": "কোনখন ছবিত চুতুফাৰ মৃত্যু দেখুওৱা হৈছে?"
     },
     "options": [
-     {
-      "en": "1364",
-      "as": "১৩৬৪"
-     },
-     {
-      "en": "1369",
-      "as": "১৩৬৯"
-     },
-     {
-      "en": "1376",
-      "as": "১৩৭৬"
-     },
-     {
-      "en": "1380",
-      "as": "১৩৮০"
-     }
+     "safrai-betrayal.webp",
+     "safrai-meeting.webp",
+     "ministers-rule.webp",
+     "sutuphaa-portrait.webp"
     ],
-    "answer": 2,
-    "why": {
-     "en": "1376, on the Safrai river.",
-     "as": "১৩৭৬, চাফ্ৰাই নদীত।"
+    "answer": 0,
+    "answerText": {
+     "en": "The betrayal on the boat",
+     "as": "নাৱত বিশ্বাসঘাতকতা"
     },
-    "id": "stu.test.02",
-    "big": true
+    "why": {
+     "en": "1376, on the Safrai.",
+     "as": "১৩৭৬, চাফ্ৰাইত।"
+    },
+    "id": "stu3.test.01"
    },
    {
     "type": "whoami",
@@ -1136,39 +1083,55 @@
     "id": "stu2.test.07"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "After Sutuphaa's death there was no king for",
-     "as": "চুতুফাৰ মৃত্যুৰ পিছত"
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
     },
-    "after": {
-     "en": "years.",
-     "as": "বছৰ ৰজা নাছিল।"
-    },
-    "options": [
+    "anchors": [
      {
-      "en": "two",
-      "as": "দুই"
+      "y": "1376",
+      "l": {
+       "en": "Sutuphaa killed",
+       "as": "চুতুফা নিহত"
+      }
      },
      {
-      "en": "four",
-      "as": "চাৰি"
-     },
-     {
-      "en": "eight",
-      "as": "আঠ"
-     },
-     {
-      "en": "twelve",
-      "as": "বাৰ"
+      "y": "1380",
+      "l": {
+       "en": "Tyao Khamti crowned",
+       "as": "ত্যাও খামতিৰ অভিষেক"
+      }
      }
     ],
-    "answer": 1,
+    "items": [
+     {
+      "t": {
+       "en": "Invitation to the regatta",
+       "as": "নাওখেলৰ নিমন্ত্ৰণ"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "The Gohains rule",
+       "as": "গোহাঁইৰ শাসন"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Campaign against the Chutias",
+       "as": "চুতীয়াৰ বিৰুদ্ধে অভিযান"
+      },
+      "slot": 2
+     }
+    ],
     "why": {
-     "en": "Four years, 1376–1380.",
-     "as": "চাৰি বছৰ, ১৩৭৬–১৩৮০।"
+     "en": "Invitation → murder (1376) → four years of Gohain rule → 1380 → Tyao Khamti's campaign.",
+     "as": "নিমন্ত্ৰণ → হত্যা (১৩৭৬) → চাৰি বছৰ গোহাঁইৰ শাসন → ১৩৮০ → ত্যাও খামতিৰ অভিযান।"
     },
-    "id": "stu2.test.08"
+    "id": "stu3.test.02"
    }
   ]
  }

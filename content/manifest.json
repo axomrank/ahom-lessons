@@ -1,5 +1,5 @@
 {
- "version": "3c27687b2e",
+ "version": "dd11931c41",
  "courses": [
   {
    "id": "ahom-kings",
@@ -9,7 +9,7 @@
  "lessons": {
   "pratap-singha": {
    "no": 17,
-   "version": 1,
+   "version": 2,
    "steps": 8,
    "title": {
     "en": "Swargadeo Pratap Singha",
@@ -139,7 +139,7 @@
   },
   "sudangphaa": {
    "no": 8,
-   "version": 2,
+   "version": 3,
    "steps": 6,
    "title": {
     "en": "Swargadeo Sudangphaa",
@@ -204,7 +204,7 @@
   },
   "suhenphaa": {
    "no": 12,
-   "version": 2,
+   "version": 3,
    "steps": 4,
    "title": {
     "en": "Swargadeo Suhenphaa",
@@ -251,7 +251,7 @@
   },
   "suhungmung": {
    "no": 14,
-   "version": 1,
+   "version": 2,
    "steps": 8,
    "title": {
     "en": "Swargadeo Suhungmung",
@@ -334,7 +334,7 @@
   },
   "sujangphaa": {
    "no": 9,
-   "version": 2,
+   "version": 3,
    "steps": 3,
    "title": {
     "en": "Swargadeo Sujangphaa",
@@ -446,7 +446,7 @@
   },
   "sukhaamphaa": {
    "no": 16,
-   "version": 1,
+   "version": 2,
    "steps": 6,
    "title": {
     "en": "Swargadeo Sukhaamphaa",
@@ -511,7 +511,7 @@
   },
   "sukhaangphaa": {
    "no": 4,
-   "version": 2,
+   "version": 3,
    "steps": 5,
    "title": {
     "en": "Swargadeo Sukhaangphaa",
@@ -567,7 +567,7 @@
   },
   "sukhrangphaa": {
    "no": 5,
-   "version": 2,
+   "version": 3,
    "steps": 4,
    "title": {
     "en": "Swargadeo Sukhrangphaa",
@@ -614,7 +614,7 @@
   },
   "suklenmung": {
    "no": 15,
-   "version": 1,
+   "version": 2,
    "steps": 5,
    "title": {
     "en": "Swargadeo Suklenmung",
@@ -670,7 +670,7 @@
   },
   "suphakphaa": {
    "no": 10,
-   "version": 2,
+   "version": 3,
    "steps": 3,
    "title": {
     "en": "Swargadeo Suphakphaa",
@@ -708,7 +708,7 @@
   },
   "supimphaa": {
    "no": 13,
-   "version": 2,
+   "version": 3,
    "steps": 4,
    "title": {
     "en": "Swargadeo Supimphaa",
@@ -755,7 +755,7 @@
   },
   "suramphaa": {
    "no": 18,
-   "version": 1,
+   "version": 2,
    "steps": 3,
    "title": {
     "en": "Swargadeo Suramphaa",
@@ -793,7 +793,7 @@
   },
   "susenphaa": {
    "no": 11,
-   "version": 2,
+   "version": 3,
    "steps": 5,
    "title": {
     "en": "Swargadeo Susenphaa",
@@ -923,7 +923,7 @@
   },
   "sutingphaa": {
    "no": 19,
-   "version": 1,
+   "version": 2,
    "steps": 5,
    "title": {
     "en": "Swargadeo Sutingphaa",
@@ -979,7 +979,7 @@
   },
   "sutuphaa": {
    "no": 6,
-   "version": 2,
+   "version": 3,
    "steps": 4,
    "title": {
     "en": "Swargadeo Sutuphaa",
@@ -1026,7 +1026,7 @@
   },
   "tyao-khamti": {
    "no": 7,
-   "version": 2,
+   "version": 3,
    "steps": 4,
    "title": {
     "en": "Swargadeo Tyao Khamti",

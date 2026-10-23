@@ -1,7 +1,7 @@
 {
  "id": "suklenmung",
  "no": 15,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Suklenmung",
   "as": "স্বৰ্গদেউ চুক্লেনমুং"
@@ -28,7 +28,7 @@
    "used_for": "Sankar Deb persecuted in Ahom territory, went to Barpeta under Nar Narayan"
   }
  ],
- "review_notes": "The execution of Hari, Sankardev's son-in-law, is from the Vaishnava biographies (charit puthis) and Wikipedia, not Gait; it is told here as 'the story goes'. Gait calls Suklenmung the first Ahom ruler to strike coins; later scholars sometimes credit Jayadhwaj Singha with the first coins in Sanskrit. The Koch road is commonly called the Gohain Kamal Ali; Gait describes it without the name.",
+ "review_notes": "The execution of Hari, Sankardev's son-in-law, is from the Vaishnava biographies (charit puthis) and Wikipedia, not Gait; it is told here as 'the story goes'. Gait calls Suklenmung the first Ahom ruler to strike coins; later scholars sometimes credit Jayadhwaj Singha with the first coins in Sanskrit. The Koch road is commonly called the Gohain Kamal Ali; Gait describes it without the name. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 14,
   "title": {
@@ -259,70 +259,51 @@
      "id": "skl.u1.02"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Which king made Garhgaon the Ahom capital?",
-      "as": "কোনজন ৰজাই গড়গাঁওক আহোম ৰাজধানী কৰিছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Ahom coins were round.",
+      "as": "আহোম মুদ্ৰা ঘূৰণীয়া আছিল।"
      },
-     "options": [
-      {
-       "en": "Suklenmung",
-       "as": "চুক্লেনমুং"
-      },
-      {
-       "en": "Sukaphaa",
-       "as": "চুকাফা"
-      },
-      {
-       "en": "Rudra Singha",
-       "as": "ৰুদ্ৰ সিংহ"
-      },
-      {
-       "en": "Suhungmung",
-       "as": "চুহুংমুং"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "Suklenmung, around 1540. Sukaphaa built Charaideo; Rudra Singha moved to Rangpur; Suhungmung ruled from Bakata.",
-      "as": "চুক্লেনমুঙে, ১৫৪০ চনৰ আশে-পাশে। চুকাফাই চৰাইদেউ পাতিছিল; ৰুদ্ৰ সিংহ ৰংপুৰলৈ গৈছিল; চুহুংমুঙে বকতাৰ পৰা শাসন কৰিছিল।"
+      "en": "False. They were octagonal, eight-sided.",
+      "as": "অশুদ্ধ। অষ্টভুজ, আঠ কোণীয়া।"
      },
-     "id": "skl.u1.03"
+     "id": "skl3.u1.03"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Because of his capital, Suklenmung is called the",
-      "as": "ৰাজধানীৰ বাবে চুক্লেনমুঙক"
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble his popular name: ___ Roja.",
+      "as": "তেওঁৰ জনপ্ৰিয় নাম সজাই লিখা: ___ ৰজা।"
      },
-     "after": {
-      "en": "Roja.",
-      "as": "ৰজা বোলা হয়।"
+     "word": {
+      "en": [
+       "G",
+       "A",
+       "R",
+       "H",
+       "G",
+       "A",
+       "Y",
+       "A",
+       "N"
+      ],
+      "as": [
+       "গড়",
+       "গ",
+       "ঞা"
+      ]
      },
-     "options": [
-      {
-       "en": "Garhgayan",
-       "as": "গড়গঞা"
-      },
-      {
-       "en": "Dihingia",
-       "as": "দিহিঙীয়া"
-      },
-      {
-       "en": "Khora",
-       "as": "খোৰা"
-      },
-      {
-       "en": "Bhaga",
-       "as": "ভগা"
-      }
-     ],
-     "answer": 0,
+     "answerText": {
+      "en": "GARHGAYAN",
+      "as": "গড়গঞা"
+     },
      "why": {
-      "en": "Garhgayan Roja, from Garhgaon. Dihingia was his father; Khora Roja was his son.",
-      "as": "গড়গাঁৱৰ পৰা গড়গঞা ৰজা। দিহিঙীয়া তেওঁৰ পিতৃ; খোৰা ৰজা তেওঁৰ পুত্ৰ।"
+      "en": "Garhgayan Roja.",
+      "as": "গড়গঞা ৰজা।"
      },
-     "id": "skl.u1.04"
+     "id": "skl3.u1.02"
     },
     {
      "type": "map",
@@ -393,35 +374,27 @@
      "id": "skl.u1.07"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "What shape were Ahom coins?",
-      "as": "আহোম মুদ্ৰাৰ আকৃতি কেনেকুৱা আছিল?"
+      "en": "Which picture shows the building of Garhgaon?",
+      "as": "কোনখন ছবিত গড়গাঁও নিৰ্মাণ দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Eight-sided",
-       "as": "আঠ কোণীয়া"
-      },
-      {
-       "en": "Round",
-       "as": "ঘূৰণীয়া"
-      },
-      {
-       "en": "Square",
-       "as": "বৰ্গাকাৰ"
-      },
-      {
-       "en": "Triangular",
-       "as": "ত্ৰিভুজাকাৰ"
-      }
+      "building-garhgaon.webp",
+      "accession.webp",
+      "pichala.webp",
+      "sankardev-leaves.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "Octagonal. Later Ahom kings kept the same shape.",
-      "as": "অষ্টভুজ। পিছৰ আহোম ৰজাসকলেও একে আকৃতি ৰাখিছিল।"
+     "answerText": {
+      "en": "Building Garhgaon",
+      "as": "গড়গাঁও নিৰ্মাণ"
      },
-     "id": "skl.u1.08"
+     "why": {
+      "en": "Suklenmung's new capital, around 1540.",
+      "as": "১৫৪০ চনৰ আশে-পাশে চুক্লেনমুঙৰ নতুন ৰাজধানী।"
+     },
+     "id": "skl3.u1.01"
     },
     {
      "type": "match",
@@ -601,35 +574,40 @@
      "id": "skl.u2.03"
     },
     {
-     "type": "mcq",
+     "type": "map",
      "q": {
-      "en": "Where did the Ahoms defeat the Koches in 1547?",
-      "as": "১৫৪৭ চনত আহোমে কোচক ক'ত পৰাস্ত কৰিছিল?"
+      "en": "Tap Narayanpur, near the Pichala battlefield.",
+      "as": "পিছলা যুদ্ধক্ষেত্ৰৰ ওচৰৰ নাৰায়ণপুৰ টিপা।"
      },
-     "options": [
-      {
-       "en": "On the Pichala river",
-       "as": "পিছলা নদীৰ পাৰত"
-      },
-      {
-       "en": "At Saraighat",
-       "as": "শৰাইঘাটত"
-      },
-      {
-       "en": "At Dimapur",
-       "as": "ডিমাপুৰত"
-      },
-      {
-       "en": "At Sadiya",
-       "as": "সদিয়াত"
-      }
+     "target": "narayanpur",
+     "choices": [
+      "narayanpur",
+      "garhgaon",
+      "kaliabor",
+      "charaideo"
      ],
-     "answer": 0,
-     "why": {
-      "en": "At Pichala, near Narayanpur. Saraighat (1671) was against the Mughals.",
-      "as": "নাৰায়ণপুৰৰ ওচৰৰ পিছলাত। শৰাইঘাট (১৬৭১) মোগলৰ বিৰুদ্ধে।"
+     "answerText": {
+      "en": "Narayanpur",
+      "as": "নাৰায়ণপুৰ"
      },
-     "id": "skl.u2.04"
+     "why": {
+      "en": "The Ahoms won on the Pichala, near Narayanpur, in 1547.",
+      "as": "১৫৪৭ চনত নাৰায়ণপুৰৰ ওচৰৰ পিছলাত আহোমৰ জয়।"
+     },
+     "id": "skl3.u2.01"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Gohain Kamal Ali was built by the Ahoms.",
+      "as": "গোঁহাই কমল আলি আহোমে বান্ধিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. The Koches built it during their advance in 1546–47.",
+      "as": "অশুদ্ধ। ১৫৪৬–৪৭ত আগবাঢ়োঁতে কোচসকলে ইয়াক বান্ধিছিল।"
+     },
+     "id": "skl.u2.06"
     },
     {
      "type": "map",
@@ -653,19 +631,6 @@
       "as": "নাৰায়ণপুৰ উত্তৰ পাৰত, আজিৰ লখিমপুৰ জিলাত।"
      },
      "id": "skl.u2.05"
-    },
-    {
-     "type": "tf",
-     "s": {
-      "en": "The Gohain Kamal Ali was built by the Ahoms.",
-      "as": "গোঁহাই কমল আলি আহোমে বান্ধিছিল।"
-     },
-     "answer": false,
-     "why": {
-      "en": "False. The Koches built it during their advance in 1546–47.",
-      "as": "অশুদ্ধ। ১৫৪৬–৪৭ত আগবাঢ়োঁতে কোচসকলে ইয়াক বান্ধিছিল।"
-     },
-     "id": "skl.u2.06"
     },
     {
      "type": "order",
@@ -768,35 +733,38 @@
      "id": "skl.u3.01"
     },
     {
-     "type": "mcq",
+     "type": "unscramble",
      "q": {
-      "en": "Sankardev's faith is called:",
-      "as": "শংকৰদেৱৰ ধৰ্মক কি বোলা হয়?"
+      "en": "Unscramble Sankardev's faith: ___ Dharma.",
+      "as": "শংকৰদেৱৰ ধৰ্ম সজাই লিখা।"
      },
-     "options": [
-      {
-       "en": "Ekasarana Dharma",
-       "as": "একশৰণ নাম ধৰ্ম"
-      },
-      {
-       "en": "Shaktism",
-       "as": "শাক্ত ধৰ্ম"
-      },
-      {
-       "en": "Buddhism",
-       "as": "বৌদ্ধ ধৰ্ম"
-      },
-      {
-       "en": "Tai Phralung",
-       "as": "টাই ফ্ৰালুং"
-      }
-     ],
-     "answer": 0,
+     "word": {
+      "en": [
+       "E",
+       "K",
+       "A",
+       "S",
+       "A",
+       "R",
+       "A",
+       "N",
+       "A"
+      ],
+      "as": [
+       "এক",
+       "শ",
+       "ৰণ"
+      ]
+     },
+     "answerText": {
+      "en": "EKASARANA",
+      "as": "একশৰণ"
+     },
      "why": {
-      "en": "Ekasarana, 'shelter in One'. Shaktism (worship of the goddess) was the faith his followers argued against.",
-      "as": "একশৰণ, 'একৰ শৰণ'। শাক্ত ধৰ্মৰ (দেৱী উপাসনা) বিপৰীতে তেওঁৰ অনুগামীসকলে যুক্তি দিছিল।"
+      "en": "Ekasarana: shelter in One.",
+      "as": "একশৰণ।"
      },
-     "id": "skl.u3.02"
+     "id": "skl3.u3.01"
     },
     {
      "type": "story",
@@ -831,39 +799,45 @@
      "id": "skl.u3.04"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Hari, who was put to death, was Sankardev's",
-      "as": "মৃত্যুদণ্ড পোৱা হৰি আছিল শংকৰদেৱৰ"
-     },
-     "after": {
-      "en": ".",
-      "as": "।"
-     },
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Sankardev's son-in-law.",
+       "as": "মই শংকৰদেৱৰ জোঁৱাই।"
+      },
+      {
+       "en": "I was blamed when an elephant escaped.",
+       "as": "এটা হাতী পলোৱাত মোক দোষ দিয়া হৈছিল।"
+      },
+      {
+       "en": "I was put to death.",
+       "as": "মোক মৃত্যুদণ্ড দিয়া হৈছিল।"
+      }
+     ],
      "options": [
       {
-       "en": "son-in-law",
-       "as": "জোঁৱাই"
+       "en": "Hari",
+       "as": "হৰি"
       },
       {
-       "en": "brother",
-       "as": "ভাই"
+       "en": "Madhavdev",
+       "as": "মাধৱদেৱ"
       },
       {
-       "en": "teacher",
-       "as": "গুৰু"
+       "en": "Chilarai",
+       "as": "চিলাৰায়"
       },
       {
-       "en": "king",
-       "as": "ৰজা"
+       "en": "Konseng",
+       "as": "কনচেং"
       }
      ],
      "answer": 0,
      "why": {
-      "en": "His son-in-law. Sankardev's chosen successor was Madhavdev.",
-      "as": "জোঁৱাই। শংকৰদেৱৰ মনোনীত উত্তৰাধিকাৰী আছিল মাধৱদেৱ।"
+      "en": "Hari.",
+      "as": "হৰি।"
      },
-     "id": "skl.u3.05"
+     "id": "skl3.u3.02"
     },
     {
      "type": "story",
@@ -1047,40 +1021,27 @@
      "id": "skl.u4.03"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Suklenmung died in",
-      "as": "চুক্লেনমুঙৰ মৃত্যু হৈছিল"
-     },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the next king's procession?",
+      "as": "কোনখন ছবিত পৰৱৰ্তী ৰজাৰ শোভাযাত্ৰা দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "1539",
-       "as": "১৫৩৯"
-      },
-      {
-       "en": "1547",
-       "as": "১৫৪৭"
-      },
-      {
-       "en": "1552",
-       "as": "১৫৫২"
-      },
-      {
-       "en": "1603",
-       "as": "১৬০৩"
-      }
+      "son-procession.webp",
+      "rikkhvan.webp",
+      "building-garhgaon.webp",
+      "pichala.webp"
      ],
-     "answer": 2,
-     "why": {
-      "en": "1552, after 13 years. 1603 is when his son Sukhaamphaa died.",
-      "as": "১৫৫২, ১৩ বছৰৰ পিছত। ১৬০৩ চনত তেওঁৰ পুত্ৰ চুখাম্ফাৰ মৃত্যু হয়।"
+     "answer": 0,
+     "answerText": {
+      "en": "Sukhaamphaa's procession",
+      "as": "চুখাম্ফাৰ শোভাযাত্ৰা"
      },
-     "big": true,
-     "id": "skl.u4.04"
+     "why": {
+      "en": "Suklenmung died in 1552; his son Sukhaamphaa followed.",
+      "as": "১৫৫২ চনত চুক্লেনমুঙৰ মৃত্যু; পুত্ৰ চুখাম্ফা ৰজা।"
+     },
+     "id": "skl3.u4.01"
     },
     {
      "type": "timeline",
@@ -1222,35 +1183,45 @@
   ],
   "steps": [
    {
-    "type": "mcq",
-    "q": {
-     "en": "Suklenmung is also known as:",
-     "as": "চুক্লেনমুঙক আন কি নামেৰে জনা যায়?"
-    },
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I built Garhgaon.",
+      "as": "মই গড়গাঁও নিৰ্মাণ কৰিছিলোঁ।"
+     },
+     {
+      "en": "I struck the first Ahom coins.",
+      "as": "মই প্ৰথম আহোম মুদ্ৰা প্ৰচলন কৰিছিলোঁ।"
+     },
+     {
+      "en": "I am the Garhgayan Roja.",
+      "as": "মই গড়গঞা ৰজা।"
+     }
+    ],
     "options": [
      {
-      "en": "Garhgayan Roja",
-      "as": "গড়গঞা ৰজা"
+      "en": "Suklenmung",
+      "as": "চুক্লেনমুং"
      },
      {
-      "en": "Khora Roja",
-      "as": "খোৰা ৰজা"
+      "en": "Suhungmung",
+      "as": "চুহুংমুং"
      },
      {
-      "en": "Dihingia Roja",
-      "as": "দিহিঙীয়া ৰজা"
+      "en": "Sukhaamphaa",
+      "as": "চুখাম্ফা"
      },
      {
-      "en": "Burha Roja",
-      "as": "বুঢ়া ৰজা"
+      "en": "Pratap Singha",
+      "as": "প্ৰতাপ সিংহ"
      }
     ],
     "answer": 0,
     "why": {
-     "en": "Garhgayan Roja, after Garhgaon. Khora Roja was Sukhaamphaa; Dihingia was Suhungmung; Burha Roja was Pratap Singha.",
-     "as": "গড়গাঁৱৰ পৰা গড়গঞা ৰজা। খোৰা ৰজা চুখাম্ফা; দিহিঙীয়া চুহুংমুং; বুঢ়া ৰজা প্ৰতাপ সিংহ।"
+     "en": "Suklenmung.",
+     "as": "চুক্লেনমুং।"
     },
-    "id": "skl.test.01"
+    "id": "skl3.test.01"
    },
    {
     "type": "mcq",
@@ -1420,40 +1391,55 @@
     "id": "skl.test.07"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "The Ahoms defeated the Koches at Pichala in",
-     "as": "আহোমে পিছলাত কোচক পৰাস্ত কৰিছিল"
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
     },
-    "after": {
-     "en": ".",
-     "as": "চনত।"
-    },
-    "options": [
+    "anchors": [
      {
-      "en": "1527",
-      "as": "১৫২৭"
+      "y": "1539",
+      "l": {
+       "en": "Suklenmung crowned",
+       "as": "চুক্লেনমুঙৰ অভিষেক"
+      }
      },
      {
-      "en": "1547",
-      "as": "১৫৪৭"
-     },
-     {
-      "en": "1563",
-      "as": "১৫৬৩"
-     },
-     {
-      "en": "1615",
-      "as": "১৬১৫"
+      "y": "1552",
+      "l": {
+       "en": "Suklenmung dies",
+       "as": "চুক্লেনমুঙৰ মৃত্যু"
+      }
      }
     ],
-    "answer": 1,
+    "items": [
+     {
+      "t": {
+       "en": "Turbak killed",
+       "as": "তুৰবক নিহত"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Victory at Pichala",
+       "as": "পিছলাত জয়"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Treaty of Majuli",
+       "as": "মাজুলীৰ সন্ধি"
+      },
+      "slot": 2
+     }
+    ],
     "why": {
-     "en": "1547. 1563 is Chilarai's second invasion, under Sukhaamphaa.",
-     "as": "১৫৪৭। ১৫৬৩ চিলাৰায়ৰ দ্বিতীয় আক্ৰমণ, চুখাম্ফাৰ দিনত।"
+     "en": "1533 → 1539 → 1547 → 1552 → 1563.",
+     "as": "১৫৩৩ → ১৫৩৯ → ১৫৪৭ → ১৫৫২ → ১৫৬৩।"
     },
-    "big": true,
-    "id": "skl.test.08"
+    "id": "skl3.test.02"
    },
    {
     "type": "match",

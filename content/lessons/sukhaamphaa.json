@@ -1,7 +1,7 @@
 {
  "id": "sukhaamphaa",
  "no": 16,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Sukhaamphaa",
   "as": "স্বৰ্গদেউ চুখাম্ফা"
@@ -28,7 +28,7 @@
    "used_for": "Koch general, brother of Nara Narayan; 1563 invasion"
   }
  ],
- "review_notes": "The name 'Treaty of Majuli' is used by textbooks and Wikipedia; Gait gives the terms without naming the place. Gait dates Chilarai's main invasion to January 1563 (some books say 1562). Reign length follows the Buranjis (51 years), as Gait prefers, not Kasinath (59).",
+ "review_notes": "The name 'Treaty of Majuli' is used by textbooks and Wikipedia; Gait gives the terms without naming the place. Gait dates Chilarai's main invasion to January 1563 (some books say 1562). Reign length follows the Buranjis (51 years), as Gait prefers, not Kasinath (59). Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 15,
   "title": {
@@ -250,35 +250,17 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Why was Sukhaamphaa called the Khora Roja?",
-      "as": "চুখাম্ফাক কিয় খোৰা ৰজা বোলা হৈছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Sukhaamphaa was called Khora Roja because he was lame after an injury.",
+      "as": "আঘাতৰ পিছত খোৰা হোৱা বাবে চুখাম্ফাক খোৰা ৰজা বোলা হৈছিল।"
      },
-     "options": [
-      {
-       "en": "He was lame after an injury",
-       "as": "আঘাতৰ পিছত তেওঁ খোৰা হৈছিল"
-      },
-      {
-       "en": "He was very old",
-       "as": "তেওঁ বহুত বুঢ়া আছিল"
-      },
-      {
-       "en": "He was greedy",
-       "as": "তেওঁ লোভী আছিল"
-      },
-      {
-       "en": "He built many tanks",
-       "as": "তেওঁ বহু পুখুৰী খান্দিছিল"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "'Khora' means lame. He hurt his foot catching elephants. Do not mix him up with the Bhaga Roja (Suramphaa) or Burha Roja (Pratap Singha).",
-      "as": "'খোৰা' মানে লেঙেৰা। হাতী ধৰোঁতে তেওঁৰ ভৰিত আঘাত লাগিছিল। ভগা ৰজা (চুৰম্ফা) বা বুঢ়া ৰজা (প্ৰতাপ সিংহ)ৰ সৈতে খেলিমেলি নকৰিবা।"
+      "en": "True: hurt while catching elephants.",
+      "as": "শুদ্ধ: হাতী ধৰোঁতে আঘাত।"
      },
-     "id": "skp.u1.02"
+     "id": "skp3.u1.01"
     },
     {
      "type": "story",
@@ -300,6 +282,57 @@
      "id": "skp.u1.03"
     },
     {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1552",
+       "l": {
+        "en": "Becomes king",
+        "as": "ৰজা হয়"
+       }
+      },
+      {
+       "y": "1603",
+       "l": {
+        "en": "Dies",
+        "as": "মৃত্যু"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Garhgaon built",
+        "as": "গড়গাঁও নিৰ্মাণ"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Treaty of Majuli",
+        "as": "মাজুলীৰ সন্ধি"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Pratap Singha's reign",
+        "as": "প্ৰতাপ সিংহৰ ৰাজত্ব"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1540 → 1552 → 1563 → 1603 → 1603–1641: a 51-year reign.",
+      "as": "১৫৪০ → ১৫৫২ → ১৫৬৩ → ১৬০৩ → ১৬০৩–১৬৪১: ৫১ বছৰীয়া ৰাজত্ব।"
+     },
+     "id": "skp3.u1.02"
+    },
+    {
      "type": "tf",
      "s": {
       "en": "The seven rebel princes were pardoned the first time.",
@@ -311,42 +344,6 @@
       "as": "শুদ্ধ। বৰগোহাঁইয়ে তেওঁলোকৰ হৈ অনুৰোধ কৰিছিল। ১৫৫৯ চনত পুনৰ বিদ্ৰোহ কৰাত মৃত্যুদণ্ড দিয়া হয়।"
      },
      "id": "skp.u1.04"
-    },
-    {
-     "type": "inline",
-     "before": {
-      "en": "Sukhaamphaa reigned for about",
-      "as": "চুখাম্ফাই প্ৰায়"
-     },
-     "after": {
-      "en": "years.",
-      "as": "বছৰ ৰাজত্ব কৰিছিল।"
-     },
-     "options": [
-      {
-       "en": "13",
-       "as": "১৩"
-      },
-      {
-       "en": "38",
-       "as": "৩৮"
-      },
-      {
-       "en": "42",
-       "as": "৪২"
-      },
-      {
-       "en": "51",
-       "as": "৫১"
-      }
-     ],
-     "answer": 3,
-     "why": {
-      "en": "51 years (1552–1603), the longest Ahom reign. Suhungmung ruled 42, Pratap Singha 38.",
-      "as": "৫১ বছৰ (১৫৫২–১৬০৩), আটাইতকৈ দীঘলীয়া আহোম ৰাজত্ব। চুহুংমুং ৪২, প্ৰতাপ সিংহ ৩৮।"
-     },
-     "big": true,
-     "id": "skp.u1.05"
     },
     {
      "type": "unscramble",
@@ -537,35 +534,17 @@
      "id": "skp.u2.03"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Where did Sukhaamphaa flee when Chilarai won?",
-      "as": "চিলাৰায় জয়ী হোৱাত চুখাম্ফা ক'লৈ পলাইছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Chilarai's army captured the Ahom capital Garhgaon.",
+      "as": "চিলাৰায়ৰ সৈন্যই আহোম ৰাজধানী গড়গাঁও দখল কৰিছিল।"
      },
-     "options": [
-      {
-       "en": "Namrup",
-       "as": "নামৰূপ"
-      },
-      {
-       "en": "Guwahati",
-       "as": "গুৱাহাটী"
-      },
-      {
-       "en": "Kamatapur",
-       "as": "কামতাপুৰ"
-      },
-      {
-       "en": "Dimapur",
-       "as": "ডিমাপুৰ"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "East, to Charaikharang in Namrup, while Chilarai took Garhgaon.",
-      "as": "পূবৰ নামৰূপৰ চৰাইখৰঙলৈ; চিলাৰায়ে গড়গাঁও দখল কৰিলে।"
+      "en": "True. In 1563 Chilarai camped at Garhgaon for about three months.",
+      "as": "শুদ্ধ। ১৫৬৩ চনত চিলাৰায়ে প্ৰায় তিনি মাহ গড়গাঁৱত ছাউনি পাতিছিল।"
      },
-     "id": "skp.u2.04"
+     "id": "skp.u2.06"
     },
     {
      "type": "story",
@@ -587,17 +566,27 @@
      "id": "skp.u2.05"
     },
     {
-     "type": "tf",
-     "s": {
-      "en": "Chilarai's army captured the Ahom capital Garhgaon.",
-      "as": "চিলাৰায়ৰ সৈন্যই আহোম ৰাজধানী গড়গাঁও দখল কৰিছিল।"
+     "type": "map",
+     "q": {
+      "en": "Tap Namrup, where the king fled.",
+      "as": "ৰজা পলাই যোৱা নামৰূপ টিপা।"
      },
-     "answer": true,
+     "target": "namrup",
+     "choices": [
+      "namrup",
+      "majuli",
+      "dikhowmukh",
+      "narayanpur"
+     ],
+     "answerText": {
+      "en": "Namrup",
+      "as": "নামৰূপ"
+     },
      "why": {
-      "en": "True. In 1563 Chilarai camped at Garhgaon for about three months.",
-      "as": "শুদ্ধ। ১৫৬৩ চনত চিলাৰায়ে প্ৰায় তিনি মাহ গড়গাঁৱত ছাউনি পাতিছিল।"
+      "en": "Namrup, in the far east.",
+      "as": "পূবৰ নামৰূপ।"
      },
-     "id": "skp.u2.06"
+     "id": "skp3.u2.01"
     },
     {
      "type": "spot",
@@ -693,35 +682,27 @@
      "id": "skp.u3.01"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "Which treaty ended Chilarai's invasion?",
-      "as": "কোনখন সন্ধিয়ে চিলাৰায়ৰ আক্ৰমণৰ অন্ত পেলাইছিল?"
+      "en": "Which picture shows the treaty that ended Chilarai's invasion?",
+      "as": "কোনখন ছবিত চিলাৰায়ৰ আক্ৰমণৰ অন্ত পেলোৱা সন্ধি দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Treaty of Majuli",
-       "as": "মাজুলীৰ সন্ধি"
-      },
-      {
-       "en": "Treaty of Ghilajharighat",
-       "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
-      },
-      {
-       "en": "Treaty of Yandabo",
-       "as": "ইয়াণ্ডাবুৰ সন্ধি"
-      },
-      {
-       "en": "Treaty of Asurar Ali",
-       "as": "অসুৰৰ আলিৰ সন্ধি"
-      }
+      "treaty-majuli.webp",
+      "chilarai-garhgaon.webp",
+      "procession.webp",
+      "long-peace.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "The Treaty of Majuli (1563). Ghilajharighat (1663) was with Mir Jumla; Asurar Ali (1639) with the Mughals; Yandabo (1826) ended the Burmese war.",
-      "as": "মাজুলীৰ সন্ধি (১৫৬৩)। ঘিলাধাৰীঘাট (১৬৬৩) মীৰজুমলাৰ সৈতে; অসুৰৰ আলি (১৬৩৯) মোগলৰ সৈতে; ইয়াণ্ডাবু (১৮২৬) মান যুদ্ধৰ অন্ত।"
+     "answerText": {
+      "en": "The Treaty of Majuli",
+      "as": "মাজুলীৰ সন্ধি"
      },
-     "id": "skp.u3.02"
+     "why": {
+      "en": "1563.",
+      "as": "১৫৬৩।"
+     },
+     "id": "skp3.u3.01"
     },
     {
      "type": "odd",
@@ -1012,35 +993,17 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What did the Nara Raja send instead of his daughter?",
-      "as": "নৰা ৰজাই জীয়েকৰ সলনি কাক পঠাইছিল?"
+     "type": "tf",
+     "s": {
+      "en": "The Nara Raja sent his daughter as promised.",
+      "as": "প্ৰতিশ্ৰুতিমতে নৰা ৰজাই জীয়েক পঠাইছিল।"
      },
-     "options": [
-      {
-       "en": "His sister",
-       "as": "ভনীয়েক"
-      },
-      {
-       "en": "His son",
-       "as": "পুত্ৰ"
-      },
-      {
-       "en": "An army",
-       "as": "সৈন্য"
-      },
-      {
-       "en": "Elephants",
-       "as": "হাতী"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "His sister. The broken promise led to a short war.",
-      "as": "ভনীয়েক। প্ৰতিশ্ৰুতি ভংগৰ বাবে এখন চুটি যুদ্ধ হৈছিল।"
+      "en": "False. He sent his sister instead, and war followed.",
+      "as": "অশুদ্ধ। জীয়েকৰ সলনি ভনীয়েক পঠাইছিল; তাৰ পিছত যুদ্ধ।"
      },
-     "id": "skp.u4.04"
+     "id": "skp3.u4.01"
     },
     {
      "type": "story",
@@ -1060,19 +1023,6 @@
       }
      ],
      "id": "skp.u4.05"
-    },
-    {
-     "type": "tf",
-     "s": {
-      "en": "Sukhaamphaa married a Koch princess in 1585.",
-      "as": "চুখাম্ফাই ১৫৮৫ চনত এগৰাকী কোচ কুমাৰীক বিয়া কৰাইছিল।"
-     },
-     "answer": true,
-     "why": {
-      "en": "True: Sankala, with a dowry of elephants, horses and servants.",
-      "as": "শুদ্ধ: হাতী, ঘোঁৰা আৰু দাস-দাসীৰ যৌতুকৰে শংকলা।"
-     },
-     "id": "skp.u4.06"
     },
     {
      "type": "timeline",
@@ -1124,6 +1074,19 @@
       "as": "১৫৫৯ → ১৫৬৩ → ১৫৭০ → ১৫৮৫ → ১৫৯৬।"
      },
      "id": "skp.u4.07"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Sukhaamphaa married a Koch princess in 1585.",
+      "as": "চুখাম্ফাই ১৫৮৫ চনত এগৰাকী কোচ কুমাৰীক বিয়া কৰাইছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: Sankala, with a dowry of elephants, horses and servants.",
+      "as": "শুদ্ধ: হাতী, ঘোঁৰা আৰু দাস-দাসীৰ যৌতুকৰে শংকলা।"
+     },
+     "id": "skp.u4.06"
     }
    ]
   },
@@ -1186,35 +1149,45 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Who was Sankardev's chief disciple and successor?",
-      "as": "শংকৰদেৱৰ প্ৰধান শিষ্য আৰু উত্তৰাধিকাৰী কোন?"
-     },
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Sankardev's chief disciple.",
+       "as": "মই শংকৰদেৱৰ প্ৰধান শিষ্য।"
+      },
+      {
+       "en": "I succeeded him.",
+       "as": "মই তেওঁৰ উত্তৰাধিকাৰী।"
+      },
+      {
+       "en": "My name ends in -dev.",
+       "as": "মোৰ নাম '-দেৱ'ত শেষ।"
+      }
+     ],
      "options": [
       {
        "en": "Madhavdev",
        "as": "মাধৱদেৱ"
       },
       {
-       "en": "Chilarai",
-       "as": "চিলাৰায়"
+       "en": "Sankardev",
+       "as": "শংকৰদেৱ"
       },
       {
-       "en": "Aikhek",
-       "as": "আইখেক"
+       "en": "Damodardev",
+       "as": "দামোদৰদেৱ"
       },
       {
-       "en": "Kankham",
-       "as": "কানখাম"
+       "en": "Hari",
+       "as": "হৰি"
       }
      ],
      "answer": 0,
      "why": {
-      "en": "Madhavdev. Chilarai was a Koch general; Aikhek and Kankham were Ahom Burhagohains.",
-      "as": "মাধৱদেৱ। চিলাৰায় কোচ সেনাপতি; আইখেক আৰু কানখাম আহোম বুঢ়াগোহাঁই।"
+      "en": "Madhavdev.",
+      "as": "মাধৱদেৱ।"
      },
-     "id": "skp.u5.02"
+     "id": "skp3.u5.01"
     },
     {
      "type": "story",
@@ -1237,40 +1210,27 @@
      "id": "skp.u5.03"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Sukhaamphaa died in",
-      "as": "চুখাম্ফাৰ মৃত্যু হৈছিল"
-     },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the faith spreading through satras?",
+      "as": "কোনখন ছবিত সত্ৰৰ জৰিয়তে ধৰ্মৰ বিস্তাৰ দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "1552",
-       "as": "১৫৫২"
-      },
-      {
-       "en": "1563",
-       "as": "১৫৬৩"
-      },
-      {
-       "en": "1596",
-       "as": "১৫৯৬"
-      },
-      {
-       "en": "1603",
-       "as": "১৬০৩"
-      }
+      "naam-prasanga.webp",
+      "chilarai-garhgaon.webp",
+      "treaty-majuli.webp",
+      "procession-2.webp"
      ],
-     "answer": 3,
-     "why": {
-      "en": "1603, at Khowang. Some later writers said 1611, but the Buranjis agree on 1603.",
-      "as": "১৬০৩, খোৱাঙত। পিছৰ কিছুমান লেখকে ১৬১১ বুলিছিল, কিন্তু বুৰঞ্জীবোৰে ১৬০৩ত একমত।"
+     "answer": 0,
+     "answerText": {
+      "en": "Naam-prasanga",
+      "as": "নাম-প্ৰসংগ"
      },
-     "big": true,
-     "id": "skp.u5.04"
+     "why": {
+      "en": "Prayer and singing God's name.",
+      "as": "নাম-প্ৰাৰ্থনা।"
+     },
+     "id": "skp3.u5.02"
     },
     {
      "type": "whoami",
@@ -1314,36 +1274,44 @@
      "id": "skp.u5.05"
     },
     {
-     "type": "mcq",
+     "type": "spot",
      "q": {
-      "en": "Consider the statements:<br>1. Sukhaamphaa had the longest reign of any Ahom king.<br>2. Sukhaamphaa was the son of Suhungmung.<br>Which is/are correct?",
-      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুখাম্ফাৰ ৰাজত্ব আহোম ৰজাৰ ভিতৰত আটাইতকৈ দীঘল।<br>২. চুখাম্ফা চুহুংমুঙৰ পুত্ৰ আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
      },
-     "options": [
-      {
-       "en": "1 only",
-       "as": "কেৱল ১"
-      },
-      {
-       "en": "2 only",
-       "as": "কেৱল ২"
-      },
-      {
-       "en": "Both 1 and 2",
-       "as": "১ আৰু ২ দুয়োটা"
-      },
-      {
-       "en": "Neither 1 nor 2",
-       "as": "১ বা ২ কোনোটো নহয়"
-      }
-     ],
-     "answer": 0,
+     "tokens": {
+      "en": [
+       "Sukhaamphaa",
+       "was",
+       "the",
+       "son",
+       "of",
+       "Suhungmung."
+      ],
+      "as": [
+       "চুখাম্ফা",
+       "চুহুংমুঙৰ",
+       "পুত্ৰ",
+       "আছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 5,
+      "as": 1
+     },
+     "fix": {
+      "en": "→ Suklenmung",
+      "as": "→ চুক্লেনমুঙৰ"
+     },
+     "answerText": {
+      "en": "Suhungmung → Suklenmung",
+      "as": "চুহুংমুং → চুক্লেনমুং"
+     },
      "why": {
-      "en": "Only 1. He was Suklenmung's son and Suhungmung's grandson.",
-      "as": "কেৱল ১। তেওঁ চুক্লেনমুঙৰ পুত্ৰ আৰু চুহুংমুঙৰ নাতি।"
+      "en": "His father was Suklenmung; Suhungmung was his grandfather.",
+      "as": "তেওঁৰ পিতৃ চুক্লেনমুং; চুহুংমুং ককা।"
      },
-     "small": true,
-     "id": "skp.u5.06"
+     "id": "skp3.u5.03"
     },
     {
      "type": "match",
@@ -1447,35 +1415,27 @@
     "id": "skp.test.01"
    },
    {
-    "type": "mcq",
+    "type": "map",
     "q": {
-     "en": "The Ahom king at the time of the Treaty of Majuli was:",
-     "as": "মাজুলীৰ সন্ধিৰ সময়ত আহোম ৰজা আছিল:"
+     "en": "Tap Garhgaon, the capital Chilarai occupied.",
+     "as": "চিলাৰায়ে দখল কৰা ৰাজধানী গড়গাঁও টিপা।"
     },
-    "options": [
-     {
-      "en": "Sukhaamphaa",
-      "as": "চুখাম্ফা"
-     },
-     {
-      "en": "Suklenmung",
-      "as": "চুক্লেনমুং"
-     },
-     {
-      "en": "Pratap Singha",
-      "as": "প্ৰতাপ সিংহ"
-     },
-     {
-      "en": "Suhungmung",
-      "as": "চুহুংমুং"
-     }
+    "target": "garhgaon",
+    "choices": [
+     "garhgaon",
+     "majuli",
+     "namrup",
+     "narayanpur"
     ],
-    "answer": 0,
-    "why": {
-     "en": "Sukhaamphaa, in 1563.",
-     "as": "চুখাম্ফা, ১৫৬৩ চনত।"
+    "answerText": {
+     "en": "Garhgaon",
+     "as": "গড়গাঁও"
     },
-    "id": "skp.test.02"
+    "why": {
+     "en": "Garhgaon, 1563.",
+     "as": "গড়গাঁও, ১৫৬৩।"
+    },
+    "id": "skp3.test.01"
    },
    {
     "type": "mcq",
@@ -1635,15 +1595,21 @@
     "id": "skp.test.08"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "Sukhaamphaa's successor was his son",
-     "as": "চুখাম্ফাৰ উত্তৰাধিকাৰী আছিল তেওঁৰ পুত্ৰ"
-    },
-    "after": {
-     "en": ".",
-     "as": "।"
-    },
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was Sukhaamphaa's son.",
+      "as": "মই চুখাম্ফাৰ পুত্ৰ।"
+     },
+     {
+      "en": "I created the Borbarua and Borphukan.",
+      "as": "মই বৰবৰুৱা আৰু বৰফুকন সৃষ্টি কৰিছিলোঁ।"
+     },
+     {
+      "en": "I was the Burha Roja.",
+      "as": "মই বুঢ়া ৰজা।"
+     }
+    ],
     "options": [
      {
       "en": "Pratap Singha",
@@ -1658,16 +1624,16 @@
       "as": "জয়ধ্বজ সিংহ"
      },
      {
-      "en": "Gadadhar Singha",
-      "as": "গদাধৰ সিংহ"
+      "en": "Suklenmung",
+      "as": "চুক্লেনমুং"
      }
     ],
     "answer": 0,
     "why": {
-     "en": "Pratap Singha (1603–1641).",
-     "as": "প্ৰতাপ সিংহ (১৬০৩–১৬৪১)।"
+     "en": "Pratap Singha.",
+     "as": "প্ৰতাপ সিংহ।"
     },
-    "id": "skp.test.09"
+    "id": "skp3.test.02"
    }
   ]
  }

@@ -1,7 +1,7 @@
 {
  "id": "suhenphaa",
  "no": 12,
- "version": 2,
+ "version": 3,
  "king": {
   "en": "Swargadeo Suhenphaa",
   "as": "স্বৰ্গদেউ চুহেনফা"
@@ -23,7 +23,7 @@
    "used_for": "Same events (citing Gait, Barbaruah, Barua)"
   }
  ],
- "review_notes": "The AHOM catalogue calls the battle 'Turung'; Gait says Dampuk on the Dikhu, so the lesson uses Dampuk. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles.",
+ "review_notes": "The AHOM catalogue calls the battle 'Turung'; Gait says Dampuk on the Dikhu, so the lesson uses Dampuk. Rebuilt 2026-10-23 (version 2): published steps kept with their ids; new units add context and exam practice, nothing beyond Gait (1906) and the cited articles. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 11,
   "title": {
@@ -210,71 +210,68 @@
      "id": "shn.u1.03"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Suhenphaa became king in",
-      "as": "চুহেনফা ৰজা হৈছিল"
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
      },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
-     },
-     "options": [
+     "anchors": [
       {
-       "en": "1439",
-       "as": "১৪৩৯"
+       "y": "1439",
+       "l": {
+        "en": "Susenphaa becomes king",
+        "as": "চুচেনফা ৰজা হয়"
+       }
       },
       {
-       "en": "1488",
-       "as": "১৪৮৮"
-      },
-      {
-       "en": "1490",
-       "as": "১৪৯০"
-      },
-      {
-       "en": "1493",
-       "as": "১৪৯৩"
+       "y": "1493",
+       "l": {
+        "en": "Suhenphaa killed",
+        "as": "চুহেনফা নিহত"
+       }
       }
      ],
-     "answer": 1,
+     "items": [
+      {
+       "t": {
+        "en": "Patkai treaty",
+        "as": "পাটকাই সন্ধি"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Suhenphaa becomes king",
+        "as": "চুহেনফা ৰজা হয়"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Supimphaa becomes king",
+        "as": "চুপিম্ফা ৰজা হয়"
+       },
+       "slot": 2
+      }
+     ],
      "why": {
-      "en": "1488, after his father's 49 years.",
-      "as": "১৪৮৮, পিতৃৰ ৪৯ বছৰৰ পিছত।"
+      "en": "1401 → 1439 → 1488 → 1493 → 1493.",
+      "as": "১৪০১ → ১৪৩৯ → ১৪৮৮ → ১৪৯৩ → ১৪৯৩।"
      },
-     "big": true,
-     "id": "shn2.u1.04"
+     "id": "shn3.u1.01"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What happened to the Borgohain who first fought the Tangsu?",
-      "as": "প্ৰথমে টাংচুৰ সৈতে যুঁজা বৰগোহাঁইৰ কি হৈছিল?"
+     "type": "tf",
+     "s": {
+      "en": "The Borgohain who first fought the Tangsu was killed.",
+      "as": "প্ৰথমে টাংচুৰ সৈতে যুঁজা বৰগোহাঁই নিহত হৈছিল।"
      },
-     "options": [
-      {
-       "en": "He was killed",
-       "as": "তেওঁ নিহত হৈছিল"
-      },
-      {
-       "en": "He became king",
-       "as": "তেওঁ ৰজা হৈছিল"
-      },
-      {
-       "en": "He fled to Kamata",
-       "as": "তেওঁ কামতালৈ পলাইছিল"
-      },
-      {
-       "en": "He was made Borpatrogohain",
-       "as": "তেওঁক বৰপাত্ৰগোহাঁই পতা হৈছিল"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "The Nagas routed his force and cut off his head.",
-      "as": "নগাসকলে তেওঁৰ বাহিনী বিধ্বস্ত কৰি মূৰ কাটি পেলাইছিল।"
+      "en": "True; the Nagas cut off his head.",
+      "as": "শুদ্ধ; নগাসকলে তেওঁৰ মূৰ কাটিছিল।"
      },
-     "id": "shn2.u1.05"
+     "id": "shn3.u1.02"
     },
     {
      "type": "whoami",
@@ -455,71 +452,57 @@
      "img": "kachari-peace.webp"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "How did the Ahom–Kachari war of 1490 end?",
-      "as": "১৪৯০ চনৰ আহোম–কছাৰী যুদ্ধ কেনেকৈ শেষ হৈছিল?"
+      "en": "Which picture shows how the Kachari war ended?",
+      "as": "কোনখন ছবিত কছাৰী যুদ্ধৰ অন্ত দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "The Ahoms asked for peace and sent a princess",
-       "as": "আহোমে শান্তি বিচাৰি এগৰাকী কুঁৱৰী পঠিয়াইছিল"
-      },
-      {
-       "en": "The Kacharis were driven out of Assam",
-       "as": "কছাৰীক অসমৰ পৰা খেদি দিয়া হৈছিল"
-      },
-      {
-       "en": "The Kamata king stopped the war",
-       "as": "কামতা ৰজাই যুদ্ধ বন্ধ কৰিছিল"
-      },
-      {
-       "en": "The Ahoms captured Dimapur",
-       "as": "আহোমে ডিমাপুৰ দখল কৰিছিল"
-      }
+      "kachari-peace.webp",
+      "dikhou-battle.webp",
+      "tangsu-ambush.webp",
+      "palace-repairs.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "The Ahoms sued for peace. Dimapur was taken much later, in 1536, under Suhungmung.",
-      "as": "আহোমে শান্তি বিচাৰিছিল। ডিমাপুৰ বহু পিছত, ১৫৩৬ চনত চুহুংমুঙৰ দিনত দখল হৈছিল।"
+     "answerText": {
+      "en": "Peace at a price",
+      "as": "দাম দি শান্তি"
      },
-     "id": "shn.u1.07"
+     "why": {
+      "en": "The Ahoms asked for peace and sent a princess.",
+      "as": "আহোমে শান্তি বিচাৰি এগৰাকী কুমাৰী পঠাইছিল।"
+     },
+     "id": "shn3.u2.01"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "The Ahoms were defeated at Dampuk in",
-      "as": "আহোমসকল দামপুকত"
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the place of the 1490 defeat.",
+      "as": "১৪৯০ চনৰ পৰাজয়ৰ ঠাইখনৰ নাম সজাই লিখা।"
      },
-     "after": {
-      "en": ".",
-      "as": "চনত পৰাস্ত হৈছিল।"
+     "word": {
+      "en": [
+       "D",
+       "A",
+       "M",
+       "P",
+       "U",
+       "K"
+      ],
+      "as": [
+       "দাম",
+       "পুক"
+      ]
      },
-     "options": [
-      {
-       "en": "1488",
-       "as": "১৪৮৮"
-      },
-      {
-       "en": "1490",
-       "as": "১৪৯০"
-      },
-      {
-       "en": "1493",
-       "as": "১৪৯৩"
-      },
-      {
-       "en": "1497",
-       "as": "১৪৯৭"
-      }
-     ],
-     "answer": 1,
+     "answerText": {
+      "en": "DAMPUK",
+      "as": "দামপুক"
+     },
      "why": {
-      "en": "1490, two years into Suhenphaa's reign.",
-      "as": "১৪৯০, চুহেনফাৰ ৰাজত্বৰ দুবছৰৰ মূৰত।"
+      "en": "Dampuk, on the Dikhou.",
+      "as": "দিখৌৰ পাৰৰ দামপুক।"
      },
-     "id": "shn.u1.08",
-     "big": true
+     "id": "shn3.u2.02"
     },
     {
      "type": "tf",
@@ -685,37 +668,6 @@
      "id": "shn.u2.03"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Why did the Tairungban men kill Suhenphaa?",
-      "as": "তাইৰুংবান লোকে কিয় চুহেনফাক হত্যা কৰিছিল?"
-     },
-     "options": [
-      {
-       "en": "Revenge for being punished for stealing paddy",
-       "as": "ধান চুৰিৰ শাস্তিৰ প্ৰতিশোধ"
-      },
-      {
-       "en": "A quarrel over a queen",
-       "as": "ৰাণীক লৈ কাজিয়া"
-      },
-      {
-       "en": "To make the Kachari king ruler",
-       "as": "কছাৰী ৰজাক শাসক পাতিবলৈ"
-      },
-      {
-       "en": "Because he lost on the Dikhou",
-       "as": "দিখৌত হৰাৰ বাবে"
-      }
-     ],
-     "answer": 0,
-     "why": {
-      "en": "They had been punished for stealing paddy from the royal granary.",
-      "as": "ৰাজভঁৰালৰ ধান চুৰিৰ বাবে তেওঁলোকক শাস্তি দিয়া হৈছিল।"
-     },
-     "id": "shn.u2.04"
-    },
-    {
      "type": "tf",
      "s": {
       "en": "Suhenphaa died peacefully of old age.",
@@ -727,6 +679,36 @@
       "as": "অশুদ্ধ। ১৪৯৩ চনত তেওঁক ৰাজকাৰেঙত খোচি হত্যা কৰা হৈছিল।"
      },
      "id": "shn.u2.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the murder story in order.",
+      "as": "হত্যাৰ কাহিনী ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Paddy is stolen from the royal granary",
+       "as": "ৰাজভঁৰালৰ ধান চুৰ"
+      },
+      {
+       "en": "The Tairungban men are punished",
+       "as": "তাইৰুংবান লোকৰ শাস্তি"
+      },
+      {
+       "en": "The king oversees palace repairs",
+       "as": "ৰজাই ৰাজপ্ৰসাদ মেৰামতি চায়"
+      },
+      {
+       "en": "They stab him with a pointed bamboo",
+       "as": "চোকা বাঁহেৰে আঘাত"
+      }
+     ],
+     "why": {
+      "en": "Theft → punishment → revenge in 1493.",
+      "as": "চুৰ → শাস্তি → ১৪৯৩ চনত প্ৰতিশোধ।"
+     },
+     "id": "shn3.u3.01"
     },
     {
      "type": "whoami",
@@ -821,39 +803,27 @@
      "id": "shn.u2.07"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "The king was killed with a pointed",
-      "as": "ৰজাক চোকা"
-     },
-     "after": {
-      "en": ".",
-      "as": "ৰে হত্যা কৰা হৈছিল।"
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the murder in the palace?",
+      "as": "কোনখন ছবিত ৰাজপ্ৰসাদত হত্যা দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "bamboo",
-       "as": "বাঁহ"
-      },
-      {
-       "en": "sword",
-       "as": "তৰোৱাল"
-      },
-      {
-       "en": "arrow",
-       "as": "কাঁড়"
-      },
-      {
-       "en": "spear",
-       "as": "যাঠি"
-      }
+      "palace-murder.webp",
+      "palace-repairs.webp",
+      "kachari-peace.webp",
+      "dikhou-battle.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "A pointed bamboo.",
-      "as": "চোকা বাঁহ।"
+     "answerText": {
+      "en": "The murder",
+      "as": "হত্যা"
      },
-     "id": "shn2.u3.08"
+     "why": {
+      "en": "1493.",
+      "as": "১৪৯৩।"
+     },
+     "id": "shn3.u3.02"
     }
    ]
   }
@@ -926,35 +896,45 @@
     "id": "shn.test.02"
    },
    {
-    "type": "mcq",
-    "q": {
-     "en": "How was Suhenphaa killed?",
-     "as": "চুহেনফাক কেনেকৈ হত্যা কৰা হৈছিল?"
-    },
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "We were punished for stealing paddy.",
+      "as": "ধান চুৰৰ বাবে আমি শাস্তি পাইছিলোঁ।"
+     },
+     {
+      "en": "We took revenge in the palace.",
+      "as": "আমি ৰাজপ্ৰসাদত প্ৰতিশোধ লৈছিলোঁ।"
+     },
+     {
+      "en": "Some say the Burhagohain was behind us.",
+      "as": "কোনোৱে কয় আমাৰ আঁৰত বুঢ়াগোহাঁই আছিল।"
+     }
+    ],
     "options": [
      {
-      "en": "Stabbed with a pointed bamboo in his palace",
-      "as": "ৰাজকাৰেঙত জোঙা বাঁহেৰে খোচি"
+      "en": "The Tairungban men",
+      "as": "তাইৰুংবান লোক"
      },
      {
-      "en": "By a poisoned arrow",
-      "as": "বিহ লগোৱা কাঁড়েৰে"
+      "en": "The Tangsu Nagas",
+      "as": "টাংচু নগা"
      },
      {
-      "en": "On a boat on the Safrai",
-      "as": "চাফ্ৰাইত নাৱত"
+      "en": "The Kacharis",
+      "as": "কছাৰী"
      },
      {
-      "en": "By a spear while riding an elephant",
-      "as": "হাতীত উঠি থাকোঁতে যাঠিৰে"
+      "en": "The Chutias",
+      "as": "চুতীয়া"
      }
     ],
     "answer": 0,
     "why": {
-     "en": "Stabbed with a pointed bamboo during palace repairs. The Safrai was Sutuphaa's death; Sudangphaa only got a spear wound.",
-     "as": "ৰাজকাৰেঙ মেৰামতিৰ সময়ত জোঙা বাঁহেৰে। চাফ্ৰাইত চুতুফা নিহত হৈছিল; চুদাংফাই কেৱল যাঠিৰ আঘাত পাইছিল।"
+     "en": "Men of the Tairungban clan.",
+     "as": "তাইৰুংবান খেলৰ লোক।"
     },
-    "id": "shn.test.03"
+    "id": "shn3.test.01"
    },
    {
     "type": "spot",
@@ -1019,40 +999,26 @@
     "id": "shn.test.05"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "Suhenphaa was killed in",
-     "as": "চুহেনফাক হত্যা কৰা হৈছিল"
+    "type": "map",
+    "q": {
+     "en": "Tap the river of the 1490 defeat.",
+     "as": "১৪৯০ চনৰ পৰাজয়ৰ নদীখন টিপা।"
     },
-    "after": {
-     "en": ".",
-     "as": "চনত।"
-    },
-    "options": [
-     {
-      "en": "1488",
-      "as": "১৪৮৮"
-     },
-     {
-      "en": "1490",
-      "as": "১৪৯০"
-     },
-     {
-      "en": "1493",
-      "as": "১৪৯৩"
-     },
-     {
-      "en": "1497",
-      "as": "১৪৯৭"
-     }
+    "target": "dikhou",
+    "choices": [
+     "dikhou",
+     "disang",
+     "dihing"
     ],
-    "answer": 2,
-    "why": {
-     "en": "1493.",
-     "as": "১৪৯৩।"
+    "answerText": {
+     "en": "The Dikhou",
+     "as": "দিখৌ"
     },
-    "big": true,
-    "id": "shn2.test.06"
+    "why": {
+     "en": "Dampuk, on the Dikhou.",
+     "as": "দিখৌৰ পাৰৰ দামপুক।"
+    },
+    "id": "shn3.test.02"
    },
    {
     "type": "whoami",

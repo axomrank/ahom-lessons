@@ -1,7 +1,7 @@
 {
  "id": "pratap-singha",
  "no": 17,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Pratap Singha",
   "as": "স্বৰ্গদেউ প্ৰতাপ সিংহ"
@@ -28,7 +28,7 @@
    "used_for": "First Borbarua; paik system and gots; Treaty of Asurar Ali; father of Lachit"
   }
  ],
- "review_notes": "Gait does not describe the creation of the Borbarua; it, Momai Tamuli's paik reforms and the got of four paiks are from Wikipedia and textbooks. Gait places the Bharali night attack in 1615–16 and calls the place the Bharali mouth; the AHOM catalogue and many books name Samdhara. Mangaldoi's father is Parikshit in Gait; some sources say Raghudev.",
+ "review_notes": "Gait does not describe the creation of the Borbarua; it, Momai Tamuli's paik reforms and the got of four paiks are from Wikipedia and textbooks. Gait places the Bharali night attack in 1615–16 and calls the place the Bharali mouth; the AHOM catalogue and many books name Samdhara. Mangaldoi's father is Parikshit in Gait; some sources say Raghudev. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 16,
   "title": {
@@ -289,35 +289,17 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Why was Pratap Singha called the Burha Roja?",
-      "as": "প্ৰতাপ সিংহক কিয় বুঢ়া ৰজা বোলা হৈছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Pratap Singha was called Burha Roja because he was old when crowned.",
+      "as": "ৰজা হওঁতে বয়সস্থ আছিল বাবে প্ৰতাপ সিংহক বুঢ়া ৰজা বোলা হৈছিল।"
      },
-     "options": [
-      {
-       "en": "He was old when he became king",
-       "as": "ৰজা হওঁতে তেওঁ বুঢ়া আছিল"
-      },
-      {
-       "en": "He lived to 100",
-       "as": "তেওঁ ১০০ বছৰ জীয়াই আছিল"
-      },
-      {
-       "en": "He ruled the Burhagohain's land",
-       "as": "তেওঁ বুঢ়াগোহাঁইৰ এলেকা শাসন কৰিছিল"
-      },
-      {
-       "en": "He was lame",
-       "as": "তেওঁ খোৰা আছিল"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "He was already advanced in years at his accession. The lame king was his father, the Khora Roja.",
-      "as": "ৰজা হওঁতে তেওঁ বয়সস্থ আছিল। খোৰা ৰজা তেওঁৰ পিতৃ।"
+      "en": "True.",
+      "as": "শুদ্ধ।"
      },
-     "id": "prs.u1.02"
+     "id": "prs3.u1.01"
     },
     {
      "type": "match",
@@ -406,40 +388,55 @@
      "id": "prs.u1.05"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Pratap Singha became king in",
-      "as": "প্ৰতাপ সিংহ ৰজা হৈছিল"
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
      },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
-     },
-     "options": [
+     "anchors": [
       {
-       "en": "1552",
-       "as": "১৫৫২"
+       "y": "1552",
+       "l": {
+        "en": "Sukhaamphaa crowned",
+        "as": "চুখাম্ফাৰ অভিষেক"
+       }
       },
       {
-       "en": "1603",
-       "as": "১৬০৩"
-      },
-      {
-       "en": "1615",
-       "as": "১৬১৫"
-      },
-      {
-       "en": "1641",
-       "as": "১৬৪১"
+       "y": "1641",
+       "l": {
+        "en": "Pratap Singha dies",
+        "as": "প্ৰতাপ সিংহৰ মৃত্যু"
+       }
       }
      ],
-     "answer": 1,
+     "items": [
+      {
+       "t": {
+        "en": "Turbak invades",
+        "as": "তুৰবকৰ আক্ৰমণ"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Pratap Singha crowned",
+        "as": "প্ৰতাপ সিংহৰ অভিষেক"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Mir Jumla invades",
+        "as": "মীৰজুমলাৰ আক্ৰমণ"
+       },
+       "slot": 2
+      }
+     ],
      "why": {
-      "en": "1603. He ruled until 1641, 38 years.",
-      "as": "১৬০৩। তেওঁ ১৬৪১ লৈকে, ৩৮ বছৰ ৰাজত্ব কৰিছিল।"
+      "en": "1532 → 1552 → 1603 → 1641 → 1662.",
+      "as": "১৫৩২ → ১৫৫২ → ১৬০৩ → ১৬৪১ → ১৬৬২।"
      },
-     "big": true,
-     "id": "prs.u1.06"
+     "id": "prs3.u1.02"
     },
     {
      "type": "unscramble",
@@ -531,35 +528,38 @@
      }
     },
     {
-     "type": "mcq",
+     "type": "unscramble",
      "q": {
-      "en": "Which two offices did Pratap Singha create?",
-      "as": "প্ৰতাপ সিংহই কোনকেইটা পদ সৃষ্টি কৰিছিল?"
+      "en": "Unscramble one office Pratap Singha created.",
+      "as": "প্ৰতাপ সিংহই সৃষ্টি কৰা এটা পদ সজাই লিখা।"
      },
-     "options": [
-      {
-       "en": "Borbarua and Borphukan",
-       "as": "বৰবৰুৱা আৰু বৰফুকন"
-      },
-      {
-       "en": "Burhagohain and Borgohain",
-       "as": "বুঢ়াগোহাঁই আৰু বৰগোহাঁই"
-      },
-      {
-       "en": "Borpatrogohain and Borbarua",
-       "as": "বৰপাত্ৰগোহাঁই আৰু বৰবৰুৱা"
-      },
-      {
-       "en": "Sadiya Khowa and Marangi Khowa Gohain",
-       "as": "সদিয়াখোৱা আৰু মৰঙীখোৱা গোহাঁই"
-      }
-     ],
-     "answer": 0,
+     "word": {
+      "en": [
+       "B",
+       "O",
+       "R",
+       "P",
+       "H",
+       "U",
+       "K",
+       "A",
+       "N"
+      ],
+      "as": [
+       "বৰ",
+       "ফু",
+       "কন"
+      ]
+     },
+     "answerText": {
+      "en": "BORPHUKAN",
+      "as": "বৰফুকন"
+     },
      "why": {
-      "en": "Borbarua and Borphukan. The Burhagohain and Borgohain go back to Sukaphaa; the Borpatrogohain to Suhungmung.",
-      "as": "বৰবৰুৱা আৰু বৰফুকন। বুঢ়াগোহাঁই আৰু বৰগোহাঁই চুকাফাৰ দিনৰ; বৰপাত্ৰগোহাঁই চুহুংমুঙৰ।"
+      "en": "The Borphukan (and the Borbarua).",
+      "as": "বৰফুকন (আৰু বৰবৰুৱা)।"
      },
-     "id": "prs.u2.02"
+     "id": "prs3.u2.01"
     },
     {
      "type": "story",
@@ -821,35 +821,27 @@
      "id": "prs.u3.01"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "Why did the Ahoms fight the Kacharis in 1606?",
-      "as": "১৬০৬ চনত আহোমে কিয় কছাৰীৰ সৈতে যুঁজিছিল?"
+      "en": "Which picture shows the Jaintia bride being brought home?",
+      "as": "কোনখন ছবিত জয়ন্তীয়া কইনাক অনা দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "To bring a Jaintia princess through their land",
-       "as": "তেওঁলোকৰ এলেকাৰে জয়ন্তীয়া কুমাৰীক আনিবলৈ"
-      },
-      {
-       "en": "To take Dimapur",
-       "as": "ডিমাপুৰ ল'বলৈ"
-      },
-      {
-       "en": "To stop Turbak",
-       "as": "তুৰবকক ৰখাবলৈ"
-      },
-      {
-       "en": "Over a cock fight",
-       "as": "কুকুৰা-যুঁজক লৈ"
-      }
+      "jaintia-bride.webp",
+      "mangaldoi.webp",
+      "balinarayan.webp",
+      "paik-reforms.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "The Jaintia king insisted the bride travel through Kachari land, which the Kachari king refused.",
-      "as": "জয়ন্তীয়া ৰজাই কছাৰী এলেকাৰে কইনা পঠোৱাৰ চৰ্ত দিছিল, যাক কছাৰী ৰজাই অস্বীকাৰ কৰিছিল।"
+     "answerText": {
+      "en": "The Jaintia bride",
+      "as": "জয়ন্তীয়া কইনা"
      },
-     "id": "prs.u3.02"
+     "why": {
+      "en": "1606: the road through Kachari land was forced open.",
+      "as": "১৬০৬: কছাৰী এলেকাৰ বাট বলেৰে মুকলি কৰা হৈছিল।"
+     },
+     "id": "prs3.u3.01"
     },
     {
      "type": "story",
@@ -871,27 +863,33 @@
      "id": "prs.u3.03"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Pratap Singha's Koch queen was",
-      "as": "প্ৰতাপ সিংহৰ কোচ ৰাণী আছিল"
-     },
-     "after": {
-      "en": ".",
-      "as": "।"
-     },
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a Koch princess.",
+       "as": "মই কোচ কুমাৰী।"
+      },
+      {
+       "en": "I married Pratap Singha in 1608.",
+       "as": "১৬০৮ চনত মই প্ৰতাপ সিংহক বিয়া কৰাইছিলোঁ।"
+      },
+      {
+       "en": "A town is said to bear my name.",
+       "as": "এখন নগৰ মোৰ নামেৰে বুলি কোৱা হয়।"
+      }
+     ],
      "options": [
       {
        "en": "Mangaldoi",
        "as": "মংগলদৈ"
       },
       {
-       "en": "Sankala",
-       "as": "শংকলা"
-      },
-      {
        "en": "Rajani",
        "as": "ৰজনী"
+      },
+      {
+       "en": "Sankala",
+       "as": "শংকলা"
       },
       {
        "en": "Phuleswari",
@@ -900,10 +898,10 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Mangaldoi. Sankala married his father Sukhaamphaa; Rajani married Sukhaangphaa long before; Phuleswari was Siva Singha's queen.",
-      "as": "মংগলদৈ। শংকলা তেওঁৰ পিতৃ চুখাম্ফাৰ ৰাণী; ৰজনী বহু আগৰ চুখাংফাৰ; ফুলেশ্বৰী শিৱ সিংহৰ ৰাণী।"
+      "en": "Mangaldoi.",
+      "as": "মংগলদৈ।"
      },
-     "id": "prs.u3.04"
+     "id": "prs3.u3.02"
     },
     {
      "type": "story",
@@ -1057,11 +1055,21 @@
      "id": "prs.u4.02"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Who led the first Mughal invasion of 1615?",
-      "as": "১৬১৫ চনৰ প্ৰথম মোগল আক্ৰমণৰ নেতৃত্ব কোনে দিছিল?"
-     },
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I led the first Mughal invasion, in 1615.",
+       "as": "মই ১৬১৫ চনৰ প্ৰথম মোগল আক্ৰমণৰ নেতৃত্ব দিছিলোঁ।"
+      },
+      {
+       "en": "Satrajit came with me.",
+       "as": "সত্ৰাজিৎ মোৰ লগত আহিছিল।"
+      },
+      {
+       "en": "I was killed after a night attack.",
+       "as": "নিশাৰ আক্ৰমণৰ পিছত মই নিহত হৈছিলোঁ।"
+      }
+     ],
      "options": [
       {
        "en": "Abu Bakr",
@@ -1072,20 +1080,20 @@
        "as": "মীৰজুমলা"
       },
       {
-       "en": "Ram Singh",
-       "as": "ৰামসিংহ"
-      },
-      {
        "en": "Turbak",
        "as": "তুৰবক"
+      },
+      {
+       "en": "Ram Singh",
+       "as": "ৰামসিংহ"
       }
      ],
      "answer": 0,
      "why": {
-      "en": "Abu Bakr, with Satrajit. Mir Jumla came in 1662 and Ram Singh in 1669; Turbak was a Bengal commander of 1532.",
-      "as": "আবু বকৰ, সত্ৰাজিতৰ সৈতে। মীৰজুমলা ১৬৬২ আৰু ৰামসিংহ ১৬৬৯ চনত আহিছিল; তুৰবক ১৫৩২ চনৰ বংগৰ সেনাপতি।"
+      "en": "Abu Bakr.",
+      "as": "আবু বকৰ।"
      },
-     "id": "prs.u4.03"
+     "id": "prs3.u4.01"
     },
     {
      "type": "map",
@@ -1342,70 +1350,71 @@
      "id": "prs.u5.04"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "Which treaty fixed the Ahom–Mughal border in 1639?",
-      "as": "কোনখন সন্ধিয়ে ১৬৩৯ চনত আহোম-মোগল সীমা নিৰ্ধাৰণ কৰিছিল?"
+      "en": "Which picture shows the western defence line?",
+      "as": "কোনখন ছবিত পশ্চিমৰ প্ৰতিৰক্ষা ৰেখা দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Treaty of Asurar Ali",
-       "as": "অসুৰৰ আলিৰ সন্ধি"
-      },
-      {
-       "en": "Treaty of Majuli",
-       "as": "মাজুলীৰ সন্ধি"
-      },
-      {
-       "en": "Treaty of Ghilajharighat",
-       "as": "ঘিলাধাৰীঘাটৰ সন্ধি"
-      },
-      {
-       "en": "Treaty of Yandabo",
-       "as": "ইয়াণ্ডাবুৰ সন্ধি"
-      }
+      "western-line.webp",
+      "samdhara-night.webp",
+      "mughal-river-war.webp",
+      "new-offices.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "Asurar Ali, 1639. Majuli (1563) was with the Koches; Ghilajharighat (1663) with Mir Jumla; Yandabo (1826) ended the Burmese war.",
-      "as": "অসুৰৰ আলি, ১৬৩৯। মাজুলী (১৫৬৩) কোচৰ সৈতে; ঘিলাধাৰীঘাট (১৬৬৩) মীৰজুমলাৰ সৈতে; ইয়াণ্ডাবু (১৮২৬) মান যুদ্ধৰ অন্ত।"
+     "answerText": {
+      "en": "The western line",
+      "as": "পশ্চিমৰ সীমা"
      },
-     "id": "prs.u5.05"
+     "why": {
+      "en": "The 1639 Treaty of Asurar Ali fixed the border.",
+      "as": "১৬৩৯ চনৰ অসুৰৰ আলিৰ সন্ধিয়ে সীমা নিৰ্ধাৰণ কৰিছিল।"
+     },
+     "id": "prs3.u5.01"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Under the 1639 treaty, the border on the north bank was the",
-      "as": "১৬৩৯ চনৰ সন্ধিমতে উত্তৰ পাৰৰ সীমা আছিল"
+     "type": "match",
+     "q": {
+      "en": "Match the 1639 border.",
+      "as": "১৬৩৯ চনৰ সীমা মিলোৱা।"
      },
-     "after": {
-      "en": ".",
-      "as": "।"
-     },
-     "options": [
-      {
-       "en": "Barnadi",
-       "as": "বৰনদী"
-      },
-      {
-       "en": "Manas",
-       "as": "মানাহ"
-      },
-      {
-       "en": "Karatoya",
-       "as": "কৰতোৱা"
-      },
-      {
-       "en": "Dikhow",
-       "as": "দিখৌ"
-      }
+     "pairs": [
+      [
+       {
+        "en": "North bank",
+        "as": "উত্তৰ পাৰ"
+       },
+       {
+        "en": "Barnadi",
+        "as": "বৰনদী"
+       }
+      ],
+      [
+       {
+        "en": "South bank",
+        "as": "দক্ষিণ পাৰ"
+       },
+       {
+        "en": "Asurar Ali",
+        "as": "অসুৰৰ আলি"
+       }
+      ],
+      [
+       {
+        "en": "West of the line",
+        "as": "ৰেখাৰ পশ্চিম"
+       },
+       {
+        "en": "Mughal Kamrup",
+        "as": "মোগলৰ কামৰূপ"
+       }
+      ]
      ],
-     "answer": 0,
      "why": {
-      "en": "The Barnadi on the north bank, the Asurar Ali on the south.",
-      "as": "উত্তৰ পাৰত বৰনদী, দক্ষিণ পাৰত অসুৰৰ আলি।"
+      "en": "The 1639 border.",
+      "as": "১৬৩৯ চনৰ সীমা।"
      },
-     "id": "prs.u5.06"
+     "id": "prs3.u5.02"
     },
     {
      "type": "timeline",
@@ -1459,36 +1468,17 @@
      "id": "prs.u5.07"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Consider the statements:<br>1. The Ahoms captured Hajo in Pratap Singha's reign.<br>2. The Treaty of Asurar Ali gave all of Kamrup to the Ahoms.<br>Which is/are correct?",
-      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. প্ৰতাপ সিংহৰ ৰাজত্বকালত আহোমে হাজো দখল কৰিছিল।<br>২. অসুৰৰ আলিৰ সন্ধিয়ে গোটেই কামৰূপ আহোমক দিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+     "type": "tf",
+     "s": {
+      "en": "The Treaty of Asurar Ali gave all of Kamrup to the Ahoms.",
+      "as": "অসুৰৰ আলিৰ সন্ধিয়ে গোটেই কামৰূপ আহোমক দিছিল।"
      },
-     "options": [
-      {
-       "en": "1 only",
-       "as": "কেৱল ১"
-      },
-      {
-       "en": "2 only",
-       "as": "কেৱল ২"
-      },
-      {
-       "en": "Both 1 and 2",
-       "as": "১ আৰু ২ দুয়োটা"
-      },
-      {
-       "en": "Neither 1 nor 2",
-       "as": "১ বা ২ কোনোটো নহয়"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "Only 1. After the treaty, Kamrup west of the border stayed with the Mughals.",
-      "as": "কেৱল ১। সন্ধিৰ পিছত সীমাৰ পশ্চিমৰ কামৰূপ মোগলৰ হাতত থাকিল।"
+      "en": "False. Kamrup west of the line stayed Mughal for twenty years.",
+      "as": "অশুদ্ধ। ৰেখাৰ পশ্চিমৰ কামৰূপ বিশ বছৰ মোগলৰ হাতত আছিল।"
      },
-     "small": true,
-     "id": "prs.u5.08"
+     "id": "prs3.u5.03"
     }
    ]
   },
@@ -1538,35 +1528,17 @@
      "id": "prs.u6.01"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What was the Dopgarh built for?",
-      "as": "দোপগড় কিয় নিৰ্মাণ কৰা হৈছিল?"
+     "type": "tf",
+     "s": {
+      "en": "The Dopgarh was a wall against Naga raids.",
+      "as": "দোপগড় নগাৰ আক্ৰমণৰ বিৰুদ্ধে গড় আছিল।"
      },
-     "options": [
-      {
-       "en": "To keep out Naga raids",
-       "as": "নগাৰ আক্ৰমণ ৰখাবলৈ"
-      },
-      {
-       "en": "To stop floods on the Dihing",
-       "as": "ডিহিঙৰ বানপানী ৰখাবলৈ"
-      },
-      {
-       "en": "As a royal tomb",
-       "as": "ৰাজকীয় সমাধি হিচাপে"
-      },
-      {
-       "en": "As a temple",
-       "as": "মন্দিৰ হিচাপে"
-      }
-     ],
-     "answer": 0,
+     "answer": true,
      "why": {
-      "en": "It was a defensive wall on the Naga frontier.",
-      "as": "ই নগা সীমান্তৰ প্ৰতিৰক্ষা গড় আছিল।"
+      "en": "True.",
+      "as": "শুদ্ধ।"
      },
-     "id": "prs.u6.02"
+     "id": "prs3.u6.01"
     },
     {
      "type": "story",
@@ -1588,39 +1560,36 @@
      "id": "prs.u6.03"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "When he owned 1,000 elephants, Pratap Singha took the title",
-      "as": "১,০০০ হাতী হোৱাত প্ৰতাপ সিংহই উপাধি লৈছিল"
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the title for the lord of 1,000 elephants.",
+      "as": "এহেজাৰ হাতীৰ প্ৰভুৰ উপাধিটো সজাই লিখা।"
      },
-     "after": {
-      "en": ".",
-      "as": "।"
+     "word": {
+      "en": [
+       "G",
+       "A",
+       "J",
+       "P",
+       "A",
+       "T",
+       "I"
+      ],
+      "as": [
+       "গজ",
+       "প",
+       "তি"
+      ]
      },
-     "options": [
-      {
-       "en": "Gajpati",
-       "as": "গজপতি"
-      },
-      {
-       "en": "Swarganarayan",
-       "as": "স্বৰ্গনাৰায়ণ"
-      },
-      {
-       "en": "Khora Roja",
-       "as": "খোৰা ৰজা"
-      },
-      {
-       "en": "Chaolung",
-       "as": "চাওলুং"
-      }
-     ],
-     "answer": 0,
+     "answerText": {
+      "en": "GAJPATI",
+      "as": "গজপতি"
+     },
      "why": {
-      "en": "Gajpati, 'lord of elephants'. He renamed the town of Jamirguri as Gajpur.",
-      "as": "গজপতি, 'হাতীৰ প্ৰভু'। তেওঁ জামিৰগুৰি নগৰৰ নাম গজপুৰ ৰাখিছিল।"
+      "en": "Gajpati.",
+      "as": "গজপতি।"
      },
-     "id": "prs.u6.04"
+     "id": "prs3.u6.02"
     },
     {
      "type": "story",
@@ -1846,35 +1815,46 @@
      "id": "prs.u7.03"
     },
     {
-     "type": "mcq",
+     "type": "spot",
      "q": {
-      "en": "How long did Pratap Singha reign?",
-      "as": "প্ৰতাপ সিংহই কিমান বছৰ ৰাজত্ব কৰিছিল?"
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
      },
-     "options": [
-      {
-       "en": "38 years",
-       "as": "৩৮ বছৰ"
-      },
-      {
-       "en": "51 years",
-       "as": "৫১ বছৰ"
-      },
-      {
-       "en": "15 years",
-       "as": "১৫ বছৰ"
-      },
-      {
-       "en": "42 years",
-       "as": "৪২ বছৰ"
-      }
-     ],
-     "answer": 0,
+     "tokens": {
+      "en": [
+       "Pratap",
+       "Singha",
+       "reigned",
+       "for",
+       "51",
+       "years."
+      ],
+      "as": [
+       "প্ৰতাপ",
+       "সিংহই",
+       "৫১",
+       "বছৰ",
+       "ৰাজত্ব",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 4,
+      "as": 2
+     },
+     "fix": {
+      "en": "→ 38",
+      "as": "→ ৩৮"
+     },
+     "answerText": {
+      "en": "51 → 38",
+      "as": "৫১ → ৩৮"
+     },
      "why": {
-      "en": "38 years, 1603–1641. Sukhaamphaa ruled 51, Suhungmung 42.",
-      "as": "৩৮ বছৰ, ১৬০৩–১৬৪১। চুখাম্ফা ৫১, চুহুংমুং ৪২।"
+      "en": "38 years (1603–1641). 51 was his father Sukhaamphaa.",
+      "as": "৩৮ বছৰ (১৬০৩–১৬৪১)। ৫১ তেওঁৰ পিতৃ চুখাম্ফাৰ।"
      },
-     "id": "prs.u7.04"
+     "id": "prs3.u7.01"
     },
     {
      "type": "whoami",
@@ -2047,35 +2027,27 @@
     "id": "prs.test.01"
    },
    {
-    "type": "mcq",
+    "type": "picture",
     "q": {
-     "en": "Who was the first Borbarua?",
-     "as": "প্ৰথম বৰবৰুৱা কোন আছিল?"
+     "en": "Which picture shows Momai Tamuli's paik reforms?",
+     "as": "কোনখন ছবিত মোমাই তামুলীৰ পাইক সংস্কাৰ দেখুওৱা হৈছে?"
     },
     "options": [
-     {
-      "en": "Momai Tamuli",
-      "as": "মোমাই তামুলী"
-     },
-     {
-      "en": "Langi Panisiya",
-      "as": "লাংগী পানীচিয়া"
-     },
-     {
-      "en": "Lachit",
-      "as": "লাচিত"
-     },
-     {
-      "en": "Atan",
-      "as": "আতন"
-     }
+     "paik-reforms.webp",
+     "new-offices.webp",
+     "accession.webp",
+     "mangaldoi.webp"
     ],
     "answer": 0,
-    "why": {
-     "en": "Momai Tamuli; Langi Panisiya was the first Borphukan.",
-     "as": "মোমাই তামুলী; লাংগী পানীচিয়া প্ৰথম বৰফুকন।"
+    "answerText": {
+     "en": "The paik reforms",
+     "as": "পাইক সংস্কাৰ"
     },
-    "id": "prs.test.02"
+    "why": {
+     "en": "Momai Tamuli, the first Borbarua.",
+     "as": "প্ৰথম বৰবৰুৱা মোমাই তামুলী।"
+    },
+    "id": "prs3.test.01"
    },
    {
     "type": "mcq",
@@ -2204,39 +2176,55 @@
     "id": "prs.test.07"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "Pratap Singha took the title Gajpati because he owned",
-     "as": "প্ৰতাপ সিংহই গজপতি উপাধি লৈছিল, কাৰণ তেওঁৰ আছিল"
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
     },
-    "after": {
-     "en": ".",
-     "as": "।"
-    },
-    "options": [
+    "anchors": [
      {
-      "en": "1,000 elephants",
-      "as": "১,০০০ হাতী"
+      "y": "1603",
+      "l": {
+       "en": "Crowned",
+       "as": "অভিষেক"
+      }
      },
      {
-      "en": "100 ships",
-      "as": "১০০ জাহাজ"
-     },
-     {
-      "en": "1,000 horses",
-      "as": "১,০০০ ঘোঁৰা"
-     },
-     {
-      "en": "100 forts",
-      "as": "১০০ গড়"
+      "y": "1641",
+      "l": {
+       "en": "Dies",
+       "as": "মৃত্যু"
+      }
      }
     ],
-    "answer": 0,
+    "items": [
+     {
+      "t": {
+       "en": "Treaty of Majuli",
+       "as": "মাজুলীৰ সন্ধি"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Hajo captured",
+       "as": "হাজো দখল"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Suramphaa deposed",
+       "as": "চুৰম্ফা সিংহাসনচ্যুত"
+      },
+      "slot": 2
+     }
+    ],
     "why": {
-     "en": "A thousand elephants.",
-     "as": "এহেজাৰ হাতী।"
+     "en": "1563 → 1603 → 1636 → 1641 → 1644.",
+     "as": "১৫৬৩ → ১৬০৩ → ১৬৩৬ → ১৬৪১ → ১৬৪৪।"
     },
-    "id": "prs.test.08"
+    "id": "prs3.test.02"
    },
    {
     "type": "odd",

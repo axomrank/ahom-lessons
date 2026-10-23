@@ -1,7 +1,7 @@
 {
  "id": "suhungmung",
  "no": 14,
- "version": 1,
+ "version": 2,
  "king": {
   "en": "Swargadeo Suhungmung",
   "as": "স্বৰ্গদেউ চুহুংমুং"
@@ -33,7 +33,7 @@
    "used_for": "1532–33 campaign"
   }
  ],
- "review_notes": "Gait places the creation of the Barpatra Gohain just before the Kachari war of November 1526; most textbooks give 1527, which this lesson uses (as the Sukaphaa lesson does). The 1510 enquiry is described by Gait as a count of the people divided into clans; textbooks call it the first paik census. Mula Gabharu's story comes from tradition, not from Gait.",
+ "review_notes": "Gait places the creation of the Barpatra Gohain just before the Kachari war of November 1526; most textbooks give 1527, which this lesson uses (as the Sukaphaa lesson does). The 1510 enquiry is described by Gait as a count of the people divided into clans; textbooks call it the first paik census. Mula Gabharu's story comes from tradition, not from Gait. Exercise mix upgraded 2026-10-23: plain MCQ and fill-the-year questions replaced with game-like types.",
  "buildsOn": {
   "no": 13,
   "title": {
@@ -282,70 +282,40 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Who was the first Ahom king to take a Hindu title?",
-      "as": "হিন্দু উপাধি লোৱা প্ৰথম আহোম ৰজা কোন?"
+     "type": "tf",
+     "s": {
+      "en": "Suhungmung was the first Ahom king to take a Hindu title.",
+      "as": "চুহুংমুং হিন্দু উপাধি লোৱা প্ৰথম আহোম ৰজা।"
      },
-     "options": [
-      {
-       "en": "Sukaphaa",
-       "as": "চুকাফা"
-      },
-      {
-       "en": "Suhungmung",
-       "as": "চুহুংমুং"
-      },
-      {
-       "en": "Pratap Singha",
-       "as": "প্ৰতাপ সিংহ"
-      },
-      {
-       "en": "Rudra Singha",
-       "as": "ৰুদ্ৰ সিংহ"
-      }
-     ],
-     "answer": 1,
+     "answer": true,
      "why": {
-      "en": "Suhungmung, as Swarganarayan. Pratap Singha and Rudra Singha came later; Sukaphaa used the Tai title Chaolung.",
-      "as": "চুহুংমুং, স্বৰ্গনাৰায়ণ নামেৰে। প্ৰতাপ সিংহ আৰু ৰুদ্ৰ সিংহ পিছৰ; চুকাফাই টাই উপাধি চাওলুং ব্যৱহাৰ কৰিছিল।"
+      "en": "True: Swarganarayan.",
+      "as": "শুদ্ধ: স্বৰ্গনাৰায়ণ।"
      },
-     "id": "shm.u1.02"
+     "id": "shm3.u1.01"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Suhungmung's Hindu title was",
-      "as": "চুহুংমুঙৰ হিন্দু উপাধি আছিল"
-     },
-     "after": {
-      "en": ".",
-      "as": "।"
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows Suhungmung becoming Swarganarayan?",
+      "as": "কোনখন ছবিত চুহুংমুং স্বৰ্গনাৰায়ণ হোৱা দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Swarganarayan",
-       "as": "স্বৰ্গনাৰায়ণ"
-      },
-      {
-       "en": "Gadadhar",
-       "as": "গদাধৰ"
-      },
-      {
-       "en": "Jayadhwaj",
-       "as": "জয়ধ্বজ"
-      },
-      {
-       "en": "Chaolung",
-       "as": "চাওলুং"
-      }
+      "swarganarayan.webp",
+      "counting-men.webp",
+      "chutia-fall.webp",
+      "assassination.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "Swarganarayan, 'lord of heaven'. Later kings were called Swargadeo, a title with the same idea.",
-      "as": "স্বৰ্গনাৰায়ণ। পিছৰ ৰজাসকলক স্বৰ্গদেউ বোলা হৈছিল, একে ধাৰণাৰ উপাধি।"
+     "answerText": {
+      "en": "Swarganarayan",
+      "as": "স্বৰ্গনাৰায়ণ"
      },
-     "id": "shm.u1.03"
+     "why": {
+      "en": "His Hindu title.",
+      "as": "তেওঁৰ হিন্দু উপাধি।"
+     },
+     "id": "shm3.u1.02"
     },
     {
      "type": "story",
@@ -546,71 +516,96 @@
      "id": "shm.u2.01"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "Suhungmung ordered the first count of the people in",
-      "as": "চুহুংমুঙে প্ৰথম প্ৰজা গণনাৰ আদেশ দিছিল"
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
      },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
-     },
-     "options": [
+     "anchors": [
       {
-       "en": "1497",
-       "as": "১৪৯৭"
+       "y": "1497",
+       "l": {
+        "en": "Becomes king",
+        "as": "ৰজা হয়"
+       }
       },
       {
-       "en": "1510",
-       "as": "১৫১০"
-      },
-      {
-       "en": "1523",
-       "as": "১৫২৩"
-      },
-      {
-       "en": "1539",
-       "as": "১৫৩৯"
+       "y": "1523",
+       "l": {
+        "en": "Chutias annexed",
+        "as": "চুতীয়া অধিকাৰ"
+       }
       }
      ],
-     "answer": 1,
+     "items": [
+      {
+       "t": {
+        "en": "Supimphaa rules",
+        "as": "চুপিম্ফাৰ ৰাজত্ব"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "First count of the people",
+        "as": "প্ৰথম প্ৰজা গণনা"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Turbak invades",
+        "as": "তুৰবকৰ আক্ৰমণ"
+       },
+       "slot": 2
+      }
+     ],
      "why": {
-      "en": "1510. He became king in 1497, annexed the Chutias in 1523 and died in 1539.",
-      "as": "১৫১০। তেওঁ ১৪৯৭ চনত ৰজা হয়, ১৫২৩ চনত চুতীয়া ৰাজ্য অধিকাৰ কৰে আৰু ১৫৩৯ চনত মৃত্যু হয়।"
+      "en": "1493 → 1497 → 1510 → 1523 → 1532.",
+      "as": "১৪৯৩ → ১৪৯৭ → ১৫১০ → ১৫২৩ → ১৫৩২।"
      },
-     "big": true,
-     "id": "shm.u2.02"
+     "id": "shm3.u2.01"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What was a paik?",
-      "as": "পাইক কি আছিল?"
-     },
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a free man.",
+       "as": "মই মুক্ত মানুহ।"
+      },
+      {
+       "en": "I served the state in turn.",
+       "as": "মই পাল পাতি ৰাজ্যৰ সেৱা কৰিছিলোঁ।"
+      },
+      {
+       "en": "I was counted in 1510.",
+       "as": "১৫১০ চনত মোক গণনা কৰা হৈছিল।"
+      }
+     ],
      "options": [
       {
-       "en": "A man who served the state in turn",
-       "as": "পাল পাতি ৰাজ্যৰ সেৱা কৰা পুৰুষ"
+       "en": "A paik",
+       "as": "পাইক"
       },
       {
-       "en": "A royal priest",
-       "as": "ৰাজপুৰোহিত"
+       "en": "A Gohain",
+       "as": "গোহাঁই"
       },
       {
-       "en": "A gold coin",
-       "as": "সোণৰ মুদ্ৰা"
+       "en": "A Brahman",
+       "as": "ব্ৰাহ্মণ"
       },
       {
-       "en": "A war elephant",
-       "as": "যুদ্ধৰ হাতী"
+       "en": "A Deodhai",
+       "as": "দেওধাই"
       }
      ],
      "answer": 0,
      "why": {
-      "en": "A paik was a free adult man who gave the state labour or military service by turns. The whole kingdom rested on them.",
-      "as": "পাইক আছিল পাল পাতি ৰাজ্যক শ্ৰম বা সামৰিক সেৱা দিয়া প্ৰাপ্তবয়স্ক পুৰুষ। গোটেই ৰাজ্যখন তেওঁলোকৰ ওপৰত থিয় দি আছিল।"
+      "en": "A paik.",
+      "as": "পাইক।"
      },
-     "id": "shm.u2.03"
+     "id": "shm3.u2.02"
     },
     {
      "type": "story",
@@ -804,35 +799,45 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Where was the capital of the Chutia kingdom?",
-      "as": "চুতীয়া ৰাজ্যৰ ৰাজধানী ক'ত আছিল?"
-     },
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was a kingdom in the north-east.",
+       "as": "মই উত্তৰ-পূবৰ এখন ৰাজ্য।"
+      },
+      {
+       "en": "My capital was Sadiya.",
+       "as": "মোৰ ৰাজধানী সদিয়া।"
+      },
+      {
+       "en": "I fell in 1523.",
+       "as": "১৫২৩ চনত মোৰ পতন হয়।"
+      }
+     ],
      "options": [
       {
-       "en": "Sadiya",
-       "as": "সদিয়া"
+       "en": "The Chutia kingdom",
+       "as": "চুতীয়া ৰাজ্য"
       },
       {
-       "en": "Dimapur",
-       "as": "ডিমাপুৰ"
+       "en": "The Kachari kingdom",
+       "as": "কছাৰী ৰাজ্য"
       },
       {
-       "en": "Kamatapur",
-       "as": "কামতাপুৰ"
+       "en": "Kamata",
+       "as": "কামতা"
       },
       {
-       "en": "Charaideo",
-       "as": "চৰাইদেউ"
+       "en": "Mungkang",
+       "as": "মুংকাং"
       }
      ],
      "answer": 0,
      "why": {
-      "en": "Sadiya, in the far east. Dimapur was the Kachari capital, Kamatapur the capital of Kamata, Charaideo the old Ahom capital.",
-      "as": "সুদূৰ পূবৰ সদিয়া। ডিমাপুৰ কছাৰী ৰাজধানী, কামতাপুৰ কামতাৰ, চৰাইদেউ পুৰণি আহোম ৰাজধানী।"
+      "en": "The Chutia kingdom.",
+      "as": "চুতীয়া ৰাজ্য।"
      },
-     "id": "shm.u3.02"
+     "id": "shm3.u3.01"
     },
     {
      "type": "story",
@@ -1127,71 +1132,95 @@
      }
     },
     {
-     "type": "mcq",
+     "type": "unscramble",
      "q": {
-      "en": "Which office did Suhungmung create?",
-      "as": "চুহুংমুঙে কোনটো পদ সৃষ্টি কৰিছিল?"
+      "en": "Unscramble the office Suhungmung created.",
+      "as": "চুহুংমুঙে সৃষ্টি কৰা পদটো সজাই লিখা।"
      },
-     "options": [
-      {
-       "en": "Borpatrogohain",
-       "as": "বৰপাত্ৰগোহাঁই"
-      },
-      {
-       "en": "Burhagohain",
-       "as": "বুঢ়াগোহাঁই"
-      },
-      {
-       "en": "Borbarua",
-       "as": "বৰবৰুৱা"
-      },
-      {
-       "en": "Borphukan",
-       "as": "বৰফুকন"
-      }
-     ],
-     "answer": 0,
+     "word": {
+      "en": [
+       "B",
+       "O",
+       "R",
+       "P",
+       "A",
+       "T",
+       "R",
+       "O",
+       "G",
+       "O",
+       "H",
+       "A",
+       "I",
+       "N"
+      ],
+      "as": [
+       "বৰ",
+       "পাত্ৰ",
+       "গো",
+       "হাঁই"
+      ]
+     },
+     "answerText": {
+      "en": "BORPATROGOHAIN",
+      "as": "বৰপাত্ৰগোহাঁই"
+     },
      "why": {
-      "en": "The Borpatrogohain, in 1527. The Burhagohain dates from Sukaphaa; the Borbarua and Borphukan came under Pratap Singha.",
-      "as": "বৰপাত্ৰগোহাঁই, ১৫২৭ চনত। বুঢ়াগোহাঁই চুকাফাৰ দিনৰ; বৰবৰুৱা আৰু বৰফুকন প্ৰতাপ সিংহৰ দিনত।"
+      "en": "Borpatrogohain.",
+      "as": "বৰপাত্ৰগোহাঁই।"
      },
-     "id": "shm.u4.04"
+     "id": "shm3.u4.01"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "The Borpatrogohain was created in",
-      "as": "বৰপাত্ৰগোহাঁই পদ সৃষ্টি হৈছিল"
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
      },
-     "after": {
-      "en": ".",
-      "as": "চনত।"
-     },
-     "options": [
+     "anchors": [
       {
-       "en": "1228",
-       "as": "১২২৮"
+       "y": "1497",
+       "l": {
+        "en": "Suhungmung crowned",
+        "as": "চুহুংমুঙৰ অভিষেক"
+       }
       },
       {
-       "en": "1497",
-       "as": "১৪৯৭"
-      },
-      {
-       "en": "1527",
-       "as": "১৫২৭"
-      },
-      {
-       "en": "1615",
-       "as": "১৬১৫"
+       "y": "1539",
+       "l": {
+        "en": "Suhungmung dies",
+        "as": "চুহুংমুঙৰ মৃত্যু"
+       }
       }
      ],
-     "answer": 2,
+     "items": [
+      {
+       "t": {
+        "en": "Konseng born among the Nagas",
+        "as": "নগাৰ মাজত কনচেঙৰ জন্ম"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Borpatrogohain created",
+        "as": "বৰপাত্ৰগোহাঁই সৃষ্টি"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Borbarua created",
+        "as": "বৰবৰুৱা সৃষ্টি"
+       },
+       "slot": 2
+      }
+     ],
      "why": {
-      "en": "1527. With the Burhagohain and the Borgohain he made up the three great Gohains (Dangarias).",
-      "as": "১৫২৭। বুঢ়াগোহাঁই আৰু বৰগোহাঁইৰ সৈতে তেওঁ তিনিজন প্ৰধান গোহাঁই (ডাঙৰীয়া) হ'ল।"
+      "en": "About 1494 → 1497 → 1527 → 1539 → 1600s.",
+      "as": "প্ৰায় ১৪৯৪ → ১৪৯৭ → ১৫২৭ → ১৫৩৯ → ১৬০০ৰ দশক।"
      },
-     "big": true,
-     "id": "shm.u4.05"
+     "id": "shm3.u4.02"
     },
     {
      "type": "spot",
@@ -1356,35 +1385,17 @@
      }
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "What was the Kachari capital?",
-      "as": "কছাৰী ৰাজধানী কি আছিল?"
+     "type": "tf",
+     "s": {
+      "en": "Dimapur was the Chutia capital.",
+      "as": "ডিমাপুৰ চুতীয়া ৰাজধানী আছিল।"
      },
-     "options": [
-      {
-       "en": "Dimapur",
-       "as": "ডিমাপুৰ"
-      },
-      {
-       "en": "Sadiya",
-       "as": "সদিয়া"
-      },
-      {
-       "en": "Garhgaon",
-       "as": "গড়গাঁও"
-      },
-      {
-       "en": "Hajo",
-       "as": "হাজো"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "Dimapur, on the Dhansiri. Sadiya was the Chutia capital; Garhgaon became the Ahom capital under Suklenmung.",
-      "as": "ধনশিৰিৰ পাৰৰ ডিমাপুৰ। সদিয়া চুতীয়া ৰাজধানী; গড়গাঁও চুক্লেনমুঙৰ দিনত আহোম ৰাজধানী হয়।"
+      "en": "False. Dimapur was the Kachari capital; Sadiya was the Chutia capital.",
+      "as": "অশুদ্ধ। ডিমাপুৰ কছাৰী ৰাজধানী; সদিয়া চুতীয়া ৰাজধানী।"
      },
-     "id": "shm.u5.02"
+     "id": "shm3.u5.01"
     },
     {
      "type": "story",
@@ -1472,39 +1483,27 @@
      "id": "shm.u5.06"
     },
     {
-     "type": "inline",
-     "before": {
-      "en": "The Kacharis ruled the valley of the",
-      "as": "কছাৰীসকলে"
+     "type": "map",
+     "q": {
+      "en": "Tap the river of the Kachari valley.",
+      "as": "কছাৰী উপত্যকাৰ নদীখন টিপা।"
      },
-     "after": {
-      "en": "river.",
-      "as": "নদীৰ উপত্যকা শাসন কৰিছিল।"
-     },
-     "options": [
-      {
-       "en": "Dhansiri",
-       "as": "ধনশিৰি"
-      },
-      {
-       "en": "Dihing",
-       "as": "ডিহিং"
-      },
-      {
-       "en": "Subansiri",
-       "as": "সোৱণশিৰি"
-      },
-      {
-       "en": "Manas",
-       "as": "মানাহ"
-      }
+     "target": "dhansiri-south",
+     "choices": [
+      "dhansiri-south",
+      "dihing",
+      "bharali",
+      "karatoya"
      ],
-     "answer": 0,
-     "why": {
-      "en": "The Dhansiri, which flows past Dimapur and joins the Brahmaputra.",
-      "as": "ধনশিৰি, যি ডিমাপুৰৰ কাষেৰে বৈ ব্ৰহ্মপুত্ৰত মিলিছে।"
+     "answerText": {
+      "en": "The Dhansiri",
+      "as": "ধনশিৰি"
      },
-     "id": "shm.u5.07"
+     "why": {
+      "en": "The Dhansiri, past Dimapur.",
+      "as": "ডিমাপুৰৰ কাষেৰে ধনশিৰি।"
+     },
+     "id": "shm3.u5.02"
     },
     {
      "type": "picture",
@@ -1577,35 +1576,27 @@
      "id": "shm.u6.01"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "Who led the invasion of 1532?",
-      "as": "১৫৩২ চনৰ আক্ৰমণৰ নেতৃত্ব কোনে দিছিল?"
+      "en": "Which picture shows Turbak's invasion?",
+      "as": "কোনখন ছবিত তুৰবকৰ আক্ৰমণ দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Turbak",
-       "as": "তুৰবক"
-      },
-      {
-       "en": "Mir Jumla",
-       "as": "মীৰজুমলা"
-      },
-      {
-       "en": "Chilarai",
-       "as": "চিলাৰায়"
-      },
-      {
-       "en": "Ram Singh",
-       "as": "ৰামসিংহ"
-      }
+      "turbak-invasion.webp",
+      "mula-gabharu.webp",
+      "chutia-fall.webp",
+      "pursuit-dimapur.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "Turbak. Chilarai (Koch) came in 1563; Mir Jumla in 1662 and Ram Singh in 1669 were Mughal generals.",
-      "as": "তুৰবক। চিলাৰায় (কোচ) ১৫৬৩ চনত আহিছিল; মীৰজুমলা (১৬৬২) আৰু ৰামসিংহ (১৬৬৯) মোগল সেনাপতি।"
+     "answerText": {
+      "en": "Turbak's army",
+      "as": "তুৰবকৰ সৈন্য"
      },
-     "id": "shm.u6.02"
+     "why": {
+      "en": "1532: cavalry, elephants and cannon.",
+      "as": "১৫৩২: অশ্বাৰোহী, হাতী আৰু কামান।"
+     },
+     "id": "shm3.u6.01"
     },
     {
      "type": "story",
@@ -1844,67 +1835,71 @@
      "id": "shm.u7.02"
     },
     {
-     "type": "mcq",
+     "type": "picture",
      "q": {
-      "en": "How did Suhungmung die?",
-      "as": "চুহুংমুঙৰ মৃত্যু কেনেকৈ হৈছিল?"
+      "en": "Which picture shows how Suhungmung died?",
+      "as": "কোনখন ছবিত চুহুংমুঙৰ মৃত্যু দেখুওৱা হৈছে?"
      },
      "options": [
-      {
-       "en": "Stabbed in his sleep",
-       "as": "টোপনিতে চুৰীৰ আঘাত"
-      },
-      {
-       "en": "Killed by Turbak",
-       "as": "তুৰবকৰ হাতত"
-      },
-      {
-       "en": "Of old age",
-       "as": "বাৰ্ধক্যত"
-      },
-      {
-       "en": "In a flood",
-       "as": "বানপানীত"
-      }
+      "assassination.webp",
+      "western-frontier.webp",
+      "swarganarayan.webp",
+      "konseng-at-court.webp"
      ],
      "answer": 0,
-     "why": {
-      "en": "A servant, Ratiman, stabbed him in January 1539, it is said at the bidding of his son Suklen.",
-      "as": "১৫৩৯ চনৰ জানুৱাৰীত দাস ৰতিমানে তেওঁক আঘাত কৰে; কোৱা হয় পুত্ৰ চুক্লেনৰ কথামতে।"
+     "answerText": {
+      "en": "Murder in the night",
+      "as": "নিশাৰ হত্যা"
      },
-     "id": "shm.u7.03"
+     "why": {
+      "en": "Stabbed in his sleep, January 1539.",
+      "as": "১৫৩৯ জানুৱাৰী, টোপনিতে আঘাত।"
+     },
+     "id": "shm3.u7.01"
     },
     {
-     "type": "mcq",
+     "type": "spot",
      "q": {
-      "en": "Consider the statements:<br>1. Suhungmung ruled for about 42 years.<br>2. Suhungmung was succeeded by his brother.<br>Which is/are correct?",
-      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. চুহুংমুঙে প্ৰায় ৪২ বছৰ ৰাজত্ব কৰিছিল।<br>২. চুহুংমুঙৰ পিছত তেওঁৰ ভাই ৰজা হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
      },
-     "options": [
-      {
-       "en": "1 only",
-       "as": "কেৱল ১"
-      },
-      {
-       "en": "2 only",
-       "as": "কেৱল ২"
-      },
-      {
-       "en": "Both 1 and 2",
-       "as": "১ আৰু ২ দুয়োটা"
-      },
-      {
-       "en": "Neither 1 nor 2",
-       "as": "১ বা ২ কোনোটো নহয়"
-      }
-     ],
-     "answer": 0,
+     "tokens": {
+      "en": [
+       "Suhungmung",
+       "was",
+       "succeeded",
+       "by",
+       "his",
+       "brother",
+       "Suklenmung."
+      ],
+      "as": [
+       "চুহুংমুঙৰ",
+       "পিছত",
+       "তেওঁৰ",
+       "ভাই",
+       "চুক্লেনমুং",
+       "ৰজা",
+       "হৈছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 5,
+      "as": 3
+     },
+     "fix": {
+      "en": "→ son",
+      "as": "→ পুত্ৰ"
+     },
+     "answerText": {
+      "en": "brother → son",
+      "as": "ভাই → পুত্ৰ"
+     },
      "why": {
-      "en": "Only 1. He ruled 1497–1539, and was followed by his son Suklenmung.",
-      "as": "কেৱল ১। তেওঁ ১৪৯৭–১৫৩৯ লৈকে ৰাজত্ব কৰে; তাৰ পিছত পুত্ৰ চুক্লেনমুং।"
+      "en": "Suklenmung was his son.",
+      "as": "চুক্লেনমুং তেওঁৰ পুত্ৰ।"
      },
-     "small": true,
-     "id": "shm.u7.04"
+     "id": "shm3.u7.02"
     },
     {
      "type": "story",
@@ -2211,35 +2206,45 @@
     "id": "shm.test.05"
    },
    {
-    "type": "mcq",
-    "q": {
-     "en": "Mula Gabharu is remembered for fighting against:",
-     "as": "মূলা গাভৰুক কাৰ বিৰুদ্ধে যুঁজাৰ বাবে স্মৰণ কৰা হয়?"
-    },
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the wife of an Ahom commander.",
+      "as": "মই আহোম সেনাপতিৰ পত্নী।"
+     },
+     {
+      "en": "I took up my husband's sword.",
+      "as": "মই স্বামীৰ তৰোৱাল তুলি লৈছিলোঁ।"
+     },
+     {
+      "en": "I died fighting Turbak's army.",
+      "as": "তুৰবকৰ সৈন্যৰ সৈতে যুঁজি মই প্ৰাণ দিছিলোঁ।"
+     }
+    ],
     "options": [
      {
-      "en": "Turbak's army",
-      "as": "তুৰবকৰ সৈন্য"
+      "en": "Mula Gabharu",
+      "as": "মূলা গাভৰু"
      },
      {
-      "en": "The Mughals",
-      "as": "মোগল"
+      "en": "Joymoti",
+      "as": "জয়মতী"
      },
      {
-      "en": "The Burmese",
-      "as": "মান"
+      "en": "Rajani",
+      "as": "ৰজনী"
      },
      {
-      "en": "The Koches",
-      "as": "কোচ"
+      "en": "Mangaldoi",
+      "as": "মংগলদৈ"
      }
     ],
     "answer": 0,
     "why": {
-     "en": "She died fighting Turbak's army in 1533.",
-     "as": "১৫৩৩ চনত তুৰবকৰ সৈন্যৰ সৈতে যুঁজি তেওঁ প্ৰাণ দিছিল।"
+     "en": "Mula Gabharu.",
+     "as": "মূলা গাভৰু।"
     },
-    "id": "shm.test.06"
+    "id": "shm3.test.01"
    },
    {
     "type": "fill",
@@ -2270,40 +2275,27 @@
     "id": "shm.test.07"
    },
    {
-    "type": "inline",
-    "before": {
-     "en": "The Kachari capital Dimapur was taken in 1531 and again in",
-     "as": "কছাৰী ৰাজধানী ডিমাপুৰ ১৫৩১ চনত আৰু পুনৰ"
+    "type": "map",
+    "q": {
+     "en": "Tap Dimapur, taken in 1531 and 1536.",
+     "as": "১৫৩১ আৰু ১৫৩৬ চনত দখল কৰা ডিমাপুৰ টিপা।"
     },
-    "after": {
-     "en": ".",
-     "as": "চনত দখল হৈছিল।"
-    },
-    "options": [
-     {
-      "en": "1523",
-      "as": "১৫২৩"
-     },
-     {
-      "en": "1533",
-      "as": "১৫৩৩"
-     },
-     {
-      "en": "1536",
-      "as": "১৫৩৬"
-     },
-     {
-      "en": "1539",
-      "as": "১৫৩৯"
-     }
+    "target": "dimapur",
+    "choices": [
+     "dimapur",
+     "sadiya",
+     "singri",
+     "charaideo"
     ],
-    "answer": 2,
-    "why": {
-     "en": "1536, when Detsung was killed.",
-     "as": "১৫৩৬, যেতিয়া দেৎচুং নিহত হয়।"
+    "answerText": {
+     "en": "Dimapur",
+     "as": "ডিমাপুৰ"
     },
-    "big": true,
-    "id": "shm.test.08"
+    "why": {
+     "en": "Dimapur.",
+     "as": "ডিমাপুৰ।"
+    },
+    "id": "shm3.test.02"
    },
    {
     "type": "odd",
