@@ -563,3 +563,4 @@ a.tl-row { background: var(--surface); border: 1.5px solid var(--line); }
   .home-page .era-sec .kings { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   .home-page .era-sec .kings .cp-card { grid-column: 1 / -1; }
 }
+.setting.ver #app-ver { font-family: ui-monospace, monospace; font-size: 13px; color: var(--ink-3); }

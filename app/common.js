@@ -117,8 +117,13 @@ const SFX = {   // volumes set for phone speakers
 /* ---------- content + media ---------- */
 const mediaBase = CFG.mediaBase || "content/media/";
 const media = (path, size) => mediaBase + (size === 480 ? path.replace(/\.webp$/, "@480.webp") : path);   // path like "sukaphaa/x.webp", "shared/x.webp", "faces/x.webp"
+// Every content file is fetched with the release number (?v=…) from content/manifest.json, so a new
+// release is a new address that no browser or service-worker cache can answer with an old copy.
+let release = null;
+const releaseVersion = () => (release = release || fetch("content/manifest.json", { cache: "no-cache" }).then((r) => r.json()).then((m) => m.version).catch(() => ""));
 async function getJSON(url) {
-  const r = await fetch(url, { cache: "no-cache" });
+  const v = url.startsWith("content/") && url !== "content/manifest.json" ? await releaseVersion() : "";
+  const r = await fetch(v ? `${url}?v=${v}` : url, { cache: "no-cache" });
   if (!r.ok) throw new Error(`${url}: ${r.status}`);
   return r.json();
 }
@@ -167,7 +172,8 @@ function openSettings(extra = "") {
     <div class="setting"><span>${T(B("Sound", "শব্দ"))}</span>${seg("sound", [[true, T(B("On", "অন"))], [false, T(B("Off", "অফ"))]])}</div>
     <div class="setting"><span>${T(B("Text size", "আখৰৰ আকাৰ"))}</span>${seg("fs", [[0.92, "A−"], [1, "A"], [1.12, "A+"]])}</div>
     <div class="setting"><span>${T(B("Animations", "এনিমেচন"))}</span>${seg("motion", [[true, T(B("On", "অন"))], [false, T(B("Off", "অফ"))]])}</div>
-    ${extra}<button class="link" data-close-settings>${T(B("Close", "বন্ধ কৰা"))}</button></div>`;
+    ${extra}<div class="setting ver"><span>${T(B("App version", "এপৰ সংস্কৰণ"))}</span><span id="app-ver">…</span></div><button class="link" data-close-settings>${T(B("Close", "বন্ধ কৰা"))}</button></div>`;
+  releaseVersion().then((v) => { const el = document.getElementById("app-ver"); if (el) el.textContent = v || "?"; });
 }
 document.addEventListener("click", (e) => {
   const b = e.target.closest("[data-set]");

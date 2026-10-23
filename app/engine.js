@@ -71,6 +71,7 @@ async function publishedKings() {
   return course.kings.filter((k) => k.lesson && manifest.lessons[k.lesson]);
 }
 let NEXT = null;   // the lesson after this one: { id, n, name }
+let pendingUpdate = false;   // a new app version took over while a unit was being played; reload on the way back to the path
 let GATE = null;   // the earlier lesson that must be finished before this one opens: { id, n, name }, or null
 async function lessonGate(L) {
   if (UNLOCK_ALL || AXOM.getLesson(L.id).done.test) return null;
@@ -267,6 +268,7 @@ document.title = L.no ? `${L.king.en} · Lesson ${L.no}` : `${L.king.en} · Ahom
 const ALL = [...L.units, L.test];
 const unlocked = (k) => !GATE && (UNLOCK_ALL || k === 0 || !!P.done[ALL[k - 1].id]);
 function showView(id) {
+  if (pendingUpdate && id === "v-path") return location.reload();
   $$(".view").forEach((v) => v.classList.toggle("on", v.id === id));
   if (id === "v-path") $("#v-empty").classList.add("on");   // wide screens show an empty right pane beside the path
 }
@@ -738,4 +740,12 @@ if (VIRTUAL) {
 }   // end boot
 
 load();
+// When a new app version takes over: reload now if the learner is on the unit path, or as soon as they return to it.
+// A unit being played is never interrupted.
+if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    const playing = document.querySelector("#v-play.on, #v-done.on");
+    if (playing) pendingUpdate = true; else location.reload();
+  });
+}
 })();
