@@ -3,7 +3,7 @@
    VERSION is stamped by scripts/build.py on every build, so phones
    fetch the new app files after each release.
    ========================================================= */
-const VERSION = "a15222aba1";
+const VERSION = "a2abb3e2e8";
 const SHELL = `axom-shell-${VERSION}`;
 const RUNTIME = "axom-runtime";
 const OFFLINE = "axom-offline";   // lessons the learner downloaded (see app/common.js)

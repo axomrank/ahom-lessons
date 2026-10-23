@@ -10,14 +10,12 @@ window.AXOM_CONFIG = {
 
   /* Firebase (accounts + progress sync). Leave null to run without accounts:
      progress is then saved only on the device.
-     Paste the config object from Firebase console → Project settings → Your apps → Web app. */
-  firebase: null,
-  /* Example:
+     Project: axomrank-ahom (Firebase console → Project settings → Your apps → "Ahom Lessons web").
+     These values are public by design; firestore.rules protects the data. */
   firebase: {
-    apiKey: "…",
-    authDomain: "axomrank-app.firebaseapp.com",
-    projectId: "axomrank-app",
-    appId: "…",
+    apiKey: "AIzaSyBP2HszDlaIr3aNEiuNTfFReENCp8LL_5A",
+    authDomain: "axomrank-ahom.firebaseapp.com",
+    projectId: "axomrank-ahom",
+    appId: "1:355643471385:web:214d811bdeb632c67cdc88",
   },
-  */
 };
