@@ -45,8 +45,9 @@ for f in sorted(os.listdir("content/lessons")):
 
 all_ids = {}
 for lid, L in lessons.items():
-    for k in ("no", "version", "king", "reign", "portrait", "map", "units", "test"):
+    for k in ("no", "version", "king", "reign", "portrait", "sources", "map", "units", "test"):
         if k not in L: err(f"{lid}: missing '{k}'")
+    if not L.get("sources"): err(f"{lid}: list at least one source (title, url, used_for)")
     mdir = f"content/media/{lid}"
     def need_img(name, where):
         for n in (name, name.replace(".webp", "@480.webp")):

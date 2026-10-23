@@ -1,12 +1,10 @@
 # Published site: index.html, lesson.html, app/, content/, icons/, sw.js, manifest, _headers, _redirects.
 # Kept local:
 .claude/
-.test/
-docs/
 product-plan.md
-government-exam-prep-app-brief.txt
+nesfic-application/
+nesfic_2026_challenges.csv
 # tool caches
 node_modules/
 .wrangler/
-.firebase/
 *.log

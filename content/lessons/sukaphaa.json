@@ -11,6 +11,39 @@
   "as": "ৰাজত্বকাল ১২২৮–১২৬৮"
  },
  "portrait": "sukaphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "Sukaphaa",
+   "url": "https://en.wikipedia.org/wiki/Sukaphaa",
+   "used_for": "Birth, Mong Mao, 1215, followers, route, Pangsau, Namrup 1228, settlements and years, marriages, death 1268, successor, Chaolung, Asom Divas 1996"
+  },
+  {
+   "title": "Ahom kingdom",
+   "url": "https://en.wikipedia.org/wiki/Ahom_kingdom",
+   "used_for": "Founding 1228, Burhagohain and Borgohain, Buranji tradition, Mong Dun Shun Kham, Treaty of Yandabo 1826"
+  },
+  {
+   "title": "Asom Divas",
+   "url": "https://en.wikipedia.org/wiki/Asom_Divas",
+   "used_for": "2 December, official since 1996"
+  },
+  {
+   "title": "Charaideo District, Government of Assam: History",
+   "url": "https://charaideo.assam.gov.in/about-us/history",
+   "used_for": "Che-Rai-Doi meaning"
+  },
+  {
+   "title": "Directorate of Archaeology, Assam: World Heritage report",
+   "url": "https://charaideomoidamarch.assam.gov.in/reports/worldHeritage08aug24.pdf",
+   "used_for": "Moidams inscribed 26 July 2024, India's 43rd, Assam's 3rd, first cultural site in NE India"
+  },
+  {
+   "title": "Pangsau Pass",
+   "url": "https://en.wikipedia.org/wiki/Pangsau_Pass",
+   "used_for": "Changlang district, Patkai, Stilwell (Ledo) Road"
+  }
+ ],
+ "review_notes": "Left out as unverified: personal names of the first Burhagohain/Borgohain, 'Phuralong rituals' at Charaideo, 'Rwan-hon' stilt houses. To confirm against the SEBA textbook or Gait: Garhgaon as capital under Suklenmung (1540).",
  "map": {
   "view": "0 0 340 250",
   "texts": [

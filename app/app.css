@@ -278,7 +278,6 @@ body:has(#as:checked) .statement { line-height: 1.6; }
 .btn:disabled { --c: var(--surface-2); --d: var(--line-2); --fg: var(--ink-3); cursor: default; }
 .fb-good .btn { --c: var(--good); --d: var(--good-dark); }
 .fb-bad .btn { --c: var(--bad); --d: var(--bad-dark); }
-.btn.gold { --c: var(--gold); --d: var(--gold-dark); }
 body:has(#as:checked) .btn { letter-spacing: 0; text-transform: none; font-size: 17px; }
 
 /* unit complete */

@@ -11,6 +11,29 @@
   "as": "ৰাজত্বকাল ১২৬৮–১২৮১"
  },
  "portrait": "suteuphaa-portrait.webp",
+ "sources": [
+  {
+   "title": "Suteuphaa",
+   "url": "https://en.wikipedia.org/wiki/Suteuphaa",
+   "used_for": "Reign 1268–1281, eldest son, embassy to Mong Mao, Kacharis east of the Dikhou, rooster story, Naras of Mungkang, Borgohain jailed and pardoned, successor Subinphaa"
+  },
+  {
+   "title": "E. A. Gait, A History of Assam (1926), p. 79",
+   "url": "",
+   "used_for": "Dikhou, embassy, Mungkang expedition (cited by the Wikipedia article)"
+  },
+  {
+   "title": "H. Barbaruah, Ahomar-Din (1981), pp. 24, 75",
+   "url": "",
+   "used_for": "Rooster story; dispute over the Mungkang dating (cited by the Wikipedia article)"
+  },
+  {
+   "title": "Subinphaa",
+   "url": "https://en.wikipedia.org/wiki/Subinphaa",
+   "used_for": "Successor, reign 1281–1293"
+  }
+ ],
+ "review_notes": "Left out as unsourced: the 'Naga hills campaign' in the AHOM scene notes. The rooster story is a chronicle legend and is labelled as a story.",
  "buildsOn": {
   "no": 1,
   "title": {

@@ -42,15 +42,9 @@ const ICONS = {
   river: '<svg viewBox="0 0 24 24"><path d="M3 6c3 0 3 3 6 3s3-3 6-3 3 3 6 3M3 12c3 0 3 3 6 3s3-3 6-3 3 3 6 3M3 18c3 0 3 3 6 3"/></svg>',
   moon: '<svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>',
   flag: '<svg viewBox="0 0 24 24"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg>',
-  scroll: '<svg viewBox="0 0 24 24"><path d="M8 3h11v15a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-1h11v1a3 3 0 0 0 3 3M8 3a3 3 0 0 0-3 3v11M11 8h5M11 12h5"/></svg>',
   trophy: '<svg viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H4a3 3 0 0 0 4 4M16 6h4a3 3 0 0 1-4 4M12 13v4M8 21h8M9 17h6"/></svg>',
   lock: '<svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>',
   done: '<svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-width="3.4"/></svg>',
-  back: '<svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>',
-  soundOn: '<svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>',
-  soundOff: '<svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M17 9l5 6M22 9l-5 6"/></svg>',
-  fire: '<svg viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12.6 2.2c.3 2.8-1 4.4-2.4 6-1.4 1.6-2.9 3.3-2.9 6.1A5.2 5.2 0 0 0 12.5 20a5.6 5.6 0 0 0 5.7-5.6c0-2.3-1-3.9-2-5.2-.2 1.3-.8 2.3-1.9 2.8.4-3.3-.4-6.8-1.7-9.8z"/></svg>',
-  gem: '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 3h10l4 5.5L12 21 3 8.5z"/><path fill="#fff" opacity=".35" d="M7 3l2.5 5.5H3zM12 21 9.5 8.5h5z"/></svg>',
 };
 const ART = {
   scroll: `<svg viewBox="0 0 200 150"><rect x="44" y="32" width="112" height="86" rx="6" fill="var(--surface)" stroke="var(--terra)" stroke-width="3"/><rect x="30" y="26" width="18" height="98" rx="9" fill="var(--terra)"/><rect x="152" y="26" width="18" height="98" rx="9" fill="var(--terra)"/>${[50, 62, 74, 86, 98].map((y, i) => `<path d="M60 ${y}h${i % 2 ? 66 : 80}" stroke="var(--indigo)" stroke-width="4" stroke-linecap="round" opacity="${0.85 - i * 0.1}"/>`).join("")}<circle cx="132" cy="104" r="8" fill="var(--gold)"/></svg>`,
@@ -107,11 +101,11 @@ document.body.insertAdjacentHTML("afterbegin", `
   <div class="confetti" id="confetti" aria-hidden="true"></div>
   <div class="view" id="v-path">
     <div class="p-top">
-      <a class="icon-btn" href="index.html" aria-label="All lessons">${ICONS.back}</a>
+      <a class="icon-btn" href="index.html" aria-label="All lessons">${AXOM.ICON.back}</a>
       <label class="lang" for="as"><span class="en">অ</span><span class="as">EN</span></label>
       <span class="spacer"></span>
-      <span class="fire" id="fire">${ICONS.fire}<span id="streak"></span></span>
-      <span class="gem">${ICONS.gem}<span id="xp-total"></span></span>
+      <span class="fire" id="fire">${AXOM.ICON.fire}<span id="streak"></span></span>
+      <span class="gem">${AXOM.ICON.gem}<span id="xp-total"></span></span>
       <button class="icon-btn" id="sound" aria-label="Sound on or off"></button>
     </div>
     <div class="p-scroll">
@@ -170,7 +164,7 @@ function topStats() {
   $("#fire").classList.toggle("on", s > 0);
   $("#streak").innerHTML = N(s);
   $("#xp-total").innerHTML = N(G.xp);
-  $("#sound").innerHTML = G.sound ? ICONS.soundOn : ICONS.soundOff;
+  $("#sound").innerHTML = G.sound ? AXOM.ICON.soundOn : AXOM.ICON.soundOff;
   $("#sound").classList.toggle("off", !G.sound);
 }
 const BY_ID = new Map(ALL.flatMap((u) => u.steps.map((s) => [s.id, s])));

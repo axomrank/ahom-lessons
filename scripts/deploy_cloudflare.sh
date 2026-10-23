@@ -7,7 +7,7 @@ cd "$(dirname "$0")/.."
 PROJECT="${1:-ahom-lessons}"
 python3 scripts/build.py
 OUT="$(mktemp -d "${TMPDIR:-/home/angsuman/extra_spac/tmp}/axom-dist.XXXX")"
-# Copy only the website (never docs/, plans or other folders)
-cp -r index.html lesson.html sw.js manifest.webmanifest _headers _redirects app content icons lessons "$OUT/"
+# Copy only the website (never plans, scripts or other folders)
+cp -r index.html lesson.html sw.js manifest.webmanifest _headers _redirects app content icons "$OUT/"
 npx --yes wrangler@3 pages deploy "$OUT" --project-name "$PROJECT" --branch main
 rm -rf "$OUT"
