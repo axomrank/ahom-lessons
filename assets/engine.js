@@ -117,6 +117,11 @@ function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
     out += lab(h.label, !story && isChoice(h.id));
   });
   if (story && route) (spec.routes || []).forEach((r) => (out += `<path class="route" d="${r}" marker-end="url(#arrowhead)"/>`));
+  (spec.passes || []).forEach((p) => {   // mountain passes: always highlighted, so learners notice them
+    if (isChoice(p.id) && !story) { out += `<g class="hit pass-hit" data-place="${p.id}"><circle class="ring" cx="${p.x}" cy="${p.y}" r="17"/><circle class="pass" cx="${p.x}" cy="${p.y}" r="8"/></g>`; return; }
+    out += `<circle class="pass-glow" cx="${p.x}" cy="${p.y}" r="13"/><circle class="pass" cx="${p.x}" cy="${p.y}" r="8"/><path class="pass-mark" d="M${p.x - 4} ${p.y + 3} L${p.x} ${p.y - 3} L${p.x + 4} ${p.y + 3}"/>`;
+    out += lab({ ...p.label, cls: "place passlbl" }, !story && choices.length > 0);
+  });
   (spec.places || []).forEach((p) => {
     if (!story && !isChoice(p.id)) return;
     if (isChoice(p.id) && !story) out += `<g class="hit" data-place="${p.id}"><circle class="ring" cx="${p.x}" cy="${p.y}" r="17"/><circle class="dot" cx="${p.x}" cy="${p.y}" r="7"/></g>`;
@@ -157,6 +162,7 @@ document.body.insertAdjacentHTML("afterbegin", `
           <div class="eyebrow">${T(B(`Ahom kings · Lesson ${L.no}`, `আহোম ৰজা · পাঠ ${asNum(L.no)}`))}</div>
           <h1>${T(L.king)}</h1>
           <div class="reign">${T(L.reign)}</div>
+          ${L.buildsOn ? `<a class="builds-on" href="${L.buildsOn.file}">${T(B(`Builds on Lesson ${L.buildsOn.no}: ${L.buildsOn.title.en}`, `পাঠ ${asNum(L.buildsOn.no)}ৰ ভেটিত: ${L.buildsOn.title.as}`))}</a>` : ""}
           <div class="meter"><i id="meter"></i></div>
           <div class="count" id="count"></div>
         </div>
@@ -229,6 +235,7 @@ function renderPath() {
     const popHTML = pop === k ? `<div class="pop ${isDone ? "done" : isTest ? "test" : open ? "" : "locked"}">
         <h3>${T(u.title)}</h3>
         <p>${open ? T(B(`${ex} exercises · about 4 min`, `${asNum(ex)}টা অনুশীলন · প্ৰায় ৪ মিনিট`)) : T(B("Complete the step above to unlock this.", "ওপৰৰ স্তৰটো শেষ কৰিলে এইটো খোল খাব।"))}</p>
+        ${open && unitLinks(u).length ? `<p class="builds">${CHAIN}${T(B("Builds on", "ভেটি"))}: ${unitLinks(u).map((l) => T(linkLabel(l))).join(", ")}</p>` : ""}
         ${open ? `<div class="types">${types.map((ty) => `<span>${T(KICK[ty])}</span>`).join("")}</div><button class="btn" data-start="${k}">${isDone ? T(B("Practise again", "আকৌ অনুশীলন")) : T(B("Start", "আৰম্ভ"))}</button>` : ""}
       </div>` : "";
     return `<div class="node-wrap" style="transform:translateX(${offs[k % offs.length]}px);z-index:${pop === k ? 6 : 1}">
@@ -239,6 +246,34 @@ function renderPath() {
     </div>`;
   }).join("");
 }
+
+/* ---------- connections between units / lessons ---------- */
+// step.link = { unit: "u1", note }                       → a unit earlier in this lesson
+// step.link = { lesson: 1, file, unitNo, unitTitle, note } → a unit in another lesson
+function linkLabel(link) {
+  if (link.lesson) return B(`Lesson ${link.lesson} · ${link.unitTitle.en}`, `পাঠ ${asNum(link.lesson)} · ${link.unitTitle.as}`);
+  const k = ALL.findIndex((u) => u.id === link.unit);
+  return k < 0 ? B("", "") : B(`Unit ${k + 1} · ${ALL[k].title.en}`, `অধ্যায় ${asNum(k + 1)} · ${ALL[k].title.as}`);
+}
+const CHAIN = '<svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>';
+function linkCallout(link) {
+  return `<button class="linkback" data-link><span class="ic">${CHAIN}</span><span><small>${T(B("Connects to", "সংযোগ"))} · ${T(linkLabel(link))}</small>${T(link.note)}</span></button>`;
+}
+function openLinkSheet(link) {
+  let body = `<p class="note">${T(link.note)}</p>`;
+  if (link.lesson) {
+    body += `<a class="btn" href="${link.file}" target="_blank" rel="noopener">${T(B(`Open Lesson ${link.lesson} in a new tab`, `পাঠ ${asNum(link.lesson)} নতুন টেবত খোলা`))}</a>`;
+  } else {
+    const u = ALL.find((x) => x.id === link.unit);
+    if (u && u.learned) body += `<ul class="recap">${u.learned.map((l) => `<li>${T(l)}</li>`).join("")}</ul>`;
+  }
+  $("#sheet-root").innerHTML = `<div class="backdrop" data-keep></div><div class="sheet left"><div class="grab"></div><h2>${T(linkLabel(link))}</h2>${body}<button class="link" data-keep>${T(B("Back to the exercise", "অনুশীলনলৈ উভতি যোৱা"))}</button></div>`;
+}
+const unitLinks = (u) => {
+  const seen = new Map();
+  u.steps.forEach((s) => { if (s.link) { const key = s.link.lesson ? `L${s.link.lesson}:${s.link.unitNo}` : s.link.unit; if (!seen.has(key)) seen.set(key, s.link); } });
+  return [...seen.values()];
+};
 
 /* ---------- unit play ---------- */
 let U = null;
@@ -265,8 +300,8 @@ function renderStep(animate) {
   scr.classList.remove("enter"); void scr.offsetWidth; if (animate) scr.classList.add("enter");
   const kick = s.type === "story" ? `<div class="kicker story">${T(KICK.story)}</div>`
     : it.retry ? `<div class="kicker retry">${T(B("Previous mistake", "আগৰ ভুল"))}</div>`
-    : `<div class="kicker">${T(KICK[s.type])}${s.type === "whoami" ? `<span class="xp" id="who-xp"></span>` : ""}</div>`;
-  scr.innerHTML = kick + RENDER[s.type](s);
+    : `<div class="kicker">${T(KICK[s.type])}${s.link ? `<button class="linkchip" data-link>${CHAIN}${T(linkLabel(s.link))}</button>` : ""}${s.type === "whoami" ? `<span class="xp" id="who-xp"></span>` : ""}</div>`;
+  scr.innerHTML = kick + RENDER[s.type](s) + (s.type === "story" && s.link ? linkCallout(s.link) : "");
   scr.scrollTop = 0;
   if (SETUP[s.type]) SETUP[s.type](s, scr);
   refresh();
@@ -474,6 +509,7 @@ document.addEventListener("click", (e) => {
   if ($("#v-path").classList.contains("on") && pop != null && !g(".pop")) { pop = null; return renderPath(); }
   if (g("#done-btn")) { showView("v-path"); renderPath(); return; }
   if (g("#exit")) return openSheet();
+  if (g("[data-link]") && U) { const s0 = step().s; if (s0.link) return openLinkSheet(s0.link); }
   if (g("[data-keep]")) return closeSheet();
   if (g("[data-leave]")) { closeSheet(); showView("v-path"); renderPath(); return; }
   if (!$("#v-play").classList.contains("on") || !U || U.phase !== "answer") return;

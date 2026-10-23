@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Noto+Sans+Bengali:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/engine.css?v=2">
+<link rel="stylesheet" href="../assets/engine.css?v=4">
 </head>
 <body>
 <script>
@@ -32,6 +32,7 @@ window.LESSON = {
     hills: [{ id: "patkai", peaks: [[214, 232], [232, 206], [250, 186], [268, 168], [286, 150], [304, 132], [322, 116]], zone: "M214 232 L250 186 L286 150 L322 116",
       label: { t: B("Patkai hills →", "পাটকাই পাহাৰ →"), x: 224, y: 206, anchor: "end" } }],
     routes: ["M318 214 C 300 196, 286 182, 268 170 S 238 156, 226 150"],
+    passes: [{ id: "pangsau", x: 262, y: 174, label: { t: B("Pangsau Pass", "পাংচাউ গিৰিপথ"), x: 336, y: 194, anchor: "end" } }],
     places: [
       { id: "mongmao", x: 318, y: 214, label: { t: B("← via Myanmar to Mong Mao", "← ম্যানমাৰ হৈ মং মাওলৈ"), x: 334, y: 240, anchor: "end" } },
       { id: "namrup", x: 226, y: 150, label: { t: B("Namrup", "নামৰূপ"), x: 208, y: 136 } },
@@ -54,13 +55,16 @@ window.LESSON = {
         { type: "tf", s: B("Sukaphaa came from Thailand.", "চুকাফা থাইলেণ্ডৰ পৰা আহিছিল।"), answer: false,
           why: B("He came from Mong Mao, a Tai state in Yunnan, China. The Tai are related to the Thai, which makes this a common trap.", "তেওঁ চীনৰ ইউনানৰ টাই ৰাজ্য মং মাওৰ পৰা আহিছিল। টাইসকল থাইসকলৰ সম্পৰ্কীয়, সেয়ে এইটো এটা সাধাৰণ ফান্দ।") },
         { type: "story", map: { labels: true, route: true }, title: B("Across the Patkai", "পাটকাই পাৰ হৈ"),
-          text: [B("For 13 years they travelled through Upper Burma. They crossed the <mark>Patkai hills</mark> through the Pangsau Pass.", "১৩ বছৰ ধৰি তেওঁলোকে উজনি বাৰ্মাৰ মাজেৰে যাত্ৰা কৰে। পাংচাউ গিৰিপথেদি তেওঁলোকে <mark>পাটকাই পাহাৰ</mark> পাৰ হয়।"),
+          text: [B("For 13 years they travelled through Upper Burma. They crossed the <mark>Patkai hills</mark> through the <mark>Pangsau Pass</mark>.", "১৩ বছৰ ধৰি তেওঁলোকে উজনি বাৰ্মাৰ মাজেৰে যাত্ৰা কৰে। <mark>পাংচাউ গিৰিপথেদি</mark> তেওঁলোকে <mark>পাটকাই পাহাৰ</mark> পাৰ হয়।"),
                  B("In <mark>December 1228</mark> Sukaphaa reached <mark>Namrup</mark> in Upper Assam.", "<mark>১২২৮ চনৰ ডিচেম্বৰ</mark>ত চুকাফা উজনি অসমৰ <mark>নামৰূপ</mark> পায়।")] },
         { type: "map", q: B("Tap the hills Sukaphaa crossed to enter Assam.", "অসমলৈ আহোঁতে চুকাফাই পাৰ হোৱা পাহাৰখন টিপা।"), target: "patkai", choices: ["patkai", "namrup", "charaideo", "habung"],
           answerText: B("The Patkai hills", "পাটকাই পাহাৰ"),
           why: B("The Patkai hills lie on today's India–Myanmar border, between Mong Mao and the Assam valley.", "পাটকাই পাহাৰ আজিৰ ভাৰত–ম্যানমাৰ সীমান্তত, মং মাও আৰু অসম উপত্যকাৰ মাজত।") },
         { type: "unscramble", q: B("Unscramble the name of the hills.", "পাহাৰখনৰ নামটো সজাই লিখা।"), word: { en: ["P","A","T","K","A","I"], as: ["পা","ট","কা","ই"] },
           answerText: B("PATKAI", "পাটকাই"), why: B("He crossed the Patkai hills through the Pangsau Pass.", "তেওঁ পাংচাউ গিৰিপথেদি পাটকাই পাহাৰ পাৰ হৈছিল।") },
+        { type: "inline", before: B("He crossed the Patkai hills through the", "তেওঁ"), after: B("Pass.", "গিৰিপথেদি পাটকাই পাহাৰ পাৰ হৈছিল।"),
+          options: [B("Pangsau","পাংচাউ"), B("Nathu La","নাথু লা"), B("Bomdila","বমডিলা"), B("Sela","চেলা")], answer: 0,
+          why: B("The Pangsau Pass is on the India–Myanmar border, in today's Changlang district of Arunachal Pradesh. The Second World War Stilwell (Ledo) Road later crossed the same pass. Nathu La is in Sikkim; Bomdila and Sela are in western Arunachal.", "পাংচাউ গিৰিপথ ভাৰত–ম্যানমাৰ সীমান্তত, আজিৰ অৰুণাচল প্ৰদেশৰ চাংলাং জিলাত। দ্বিতীয় বিশ্বযুদ্ধৰ ষ্টিলৱেল (লেডো) পথো পিছত এই গিৰিপথেদি গৈছিল। নাথু লা চিকিমত; বমডিলা আৰু চেলা পশ্চিম অৰুণাচলত।") },
         { type: "inline", before: B("Sukaphaa entered Assam in", "চুকাফাই"), after: B(".", "চনত অসমত প্ৰৱেশ কৰিছিল।"),
           options: [B("1215","১২১৫"), B("1228","১২২৮"), B("1253","১২৫৩"), B("1268","১২৬৮")], answer: 1, big: true,
           why: B("He left Mong Mao in 1215 and entered Assam in 1228. Charaideo came later (1253), and he died in 1268.", "তেওঁ ১২১৫ চনত মং মাও এৰি ১২২৮ চনত অসমত প্ৰৱেশ কৰিছিল। চৰাইদেউ পিছত (১২৫৩), আৰু ১২৬৮ চনত তেওঁৰ মৃত্যু হয়।") },
@@ -79,6 +83,7 @@ window.LESSON = {
       learned: [B("He moved for about 25 years before building a capital", "ৰাজধানী সজাৰ আগতে তেওঁ প্ৰায় ২৫ বছৰ ঠাই সলনি কৰিছিল"), B("First settlement: Tipam", "প্ৰথম বসতি: তিপাম"), B("Abhoypur → Habung → Ligirigaon → Simaluguri", "অভয়পুৰ → হাবুং → লিগিৰীগাঁও → চিমলুগুৰি"), B("His people grew wet rice", "তেওঁৰ লোকসকলে পানীখেতি কৰিছিল")],
       steps: [
         { type: "story", img: "first-view-valley.webp", title: B("A valley of rivers", "নদীৰ উপত্যকা"),
+          link: { unit: "u1", note: B("He reached Namrup in December 1228. The search for a home began from there.", "১২২৮ চনৰ ডিচেম্বৰত তেওঁ নামৰূপ পাইছিল। তাৰ পৰাই ঘৰৰ সন্ধান আৰম্ভ হৈছিল।") },
           text: [B("Sukaphaa did not build a capital at once. For about <mark>25 years</mark> he moved from place to place.", "চুকাফাই লগে লগে ৰাজধানী সজা নাছিল। প্ৰায় <mark>২৫ বছৰ</mark> ধৰি তেওঁ ঠাইৰ পৰা ঠাইলৈ গৈছিল।"),
                  B("His people grew <mark>wet rice</mark>, so they looked for flat, fertile land near rivers.", "তেওঁৰ লোকসকলে <mark>পানীখেতি</mark> কৰিছিল, সেয়ে তেওঁলোকে নদীৰ কাষৰ সমতল, উৰ্বৰ মাটি বিচাৰিছিল।")] },
         { type: "tf", s: B("Sukaphaa built his capital as soon as he arrived in 1228.", "১২২৮ চনত অহাৰ লগে লগে চুকাফাই ৰাজধানী সাজিছিল।"), answer: false,
@@ -125,6 +130,7 @@ window.LESSON = {
         { type: "tf", s: B("Sukaphaa only made friends and never used force.", "চুকাফাই কেৱল মিত্ৰতা কৰিছিল, কেতিয়াও বল প্ৰয়োগ কৰা নাছিল।"), answer: false,
           why: B("He made alliances with those who joined him, but those who resisted were put down by force.", "যিসকলে যোগ দিছিল তেওঁলোকৰ সৈতে মিত্ৰতা কৰিছিল, কিন্তু বিৰোধীসকলক বলেৰে দমন কৰিছিল।") },
         { type: "match", q: B("Tap the matching pairs.", "যোৰাবোৰ মিলোৱা।"),
+          link: { unit: "u1", note: B("Mong Mao, the homeland Sukaphaa left in 1215.", "মং মাও, যি জন্মভূমি চুকাফাই ১২১৫ চনত এৰিছিল।") },
           pairs: [[B("Badaucha","বদৌচা"), B("Moran chief","মৰাণ ৰজা")], [B("Thakumatha","থাকুমথা"), B("Barahi chief","বৰাহী ৰজা")], [B("Bor Asom","বৰ অসম"), B("Greater Assam","বৃহত্তৰ অসম")], [B("Mong Mao","মং মাও"), B("Sukaphaa's homeland","চুকাফাৰ জন্মভূমি")]],
           why: B("Two marriage alliances (Moran and Barahi) built the idea of Bor Asom.", "দুটা বৈবাহিক সম্বন্ধই (মৰাণ আৰু বৰাহী) বৰ অসমৰ ধাৰণা গঢ়িছিল।") },
       ],
@@ -165,12 +171,14 @@ window.LESSON = {
       learned: [B("Charaideo became the capital in 1253", "১২৫৩ চনত চৰাইদেউ ৰাজধানী হয়"), B("Che-Rai-Doi: a shining town on a hilltop", "চে-ৰাই-দৈ: পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ"), B("Sukaphaa died in 1268", "১২৬৮ চনত চুকাফাৰ মৃত্যু হয়"), B("His son Suteuphaa became king", "তেওঁৰ পুত্ৰ চুতেউফা ৰজা হয়")],
       steps: [
         { type: "story", img: "building-charaideo.webp", title: B("The first capital", "প্ৰথম ৰাজধানী"),
+          link: { unit: "u2", note: B("Charaideo was the last stop after Tipam, Abhoypur, Habung, Ligirigaon and Simaluguri.", "তিপাম, অভয়পুৰ, হাবুং, লিগিৰীগাঁও আৰু চিমলুগুৰিৰ পিছত চৰাইদেউ আছিল শেষ ঠাই।") },
           text: [B("In <mark>1253</mark> Sukaphaa founded his capital at <mark>Charaideo</mark>.", "<mark>১২৫৩</mark> চনত চুকাফাই <mark>চৰাইদেউ</mark>ত ৰাজধানী স্থাপন কৰিছিল।"),
                  B("The name comes from the Tai words <i>Che-Rai-Doi</i>: <mark>\"a shining town on a hilltop\"</mark>.", "এই নাম টাই শব্দ <i>চে-ৰাই-দৈ</i>ৰ পৰা আহিছে: <mark>\"পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ\"</mark>।")] },
         { type: "mcq", q: B("What does Che-Rai-Doi mean?", "চে-ৰাই-দৈৰ অৰ্থ কি?"),
           options: [B("A shining town on a hilltop", "পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ"), B("Land of golden gardens", "সোণৰ বাগিচাৰ দেশ"), B("City of the great river", "মহানদীৰ নগৰ"), B("Home of the tiger", "বাঘৰ ঘৰ")], answer: 0,
           why: B("Che = town, Rai = shining, Doi = hill. \"Land of golden gardens\" (Mong Dun Shun Kham) was the Ahom name for the whole country.", "চে = নগৰ, ৰাই = উজ্জ্বল, দৈ = পাহাৰ। \"সোণৰ বাগিচাৰ দেশ\" (মুং-দুন-চুন-খাম) আছিল গোটেই দেশখনৰ আহোম নাম।") },
         { type: "story", map: { labels: true, route: false }, title: B("Where is Charaideo?", "চৰাইদেউ ক'ত?"),
+          link: { unit: "u1", note: B("Compare it with Namrup, where he first arrived in 1228, east of Charaideo.", "চৰাইদেউৰ পূবে থকা নামৰূপৰ সৈতে তুলনা কৰা, য'ত তেওঁ ১২২৮ চনত প্ৰথম উপস্থিত হৈছিল।") },
           text: [B("Charaideo lies on the south bank of the Brahmaputra, west of Namrup, near today's Sivasagar.", "চৰাইদেউ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত, নামৰূপৰ পশ্চিমে, আজিৰ শিৱসাগৰৰ ওচৰত।"),
                  B("Today it is a district of its own.", "আজি ই এখন সুকীয়া জিলা।")] },
         { type: "map", q: B("Tap Charaideo on the map.", "মানচিত্ৰত চৰাইদেউ টিপা।"), target: "charaideo", choices: ["charaideo", "namrup", "habung", "mongmao"],
@@ -195,6 +203,7 @@ window.LESSON = {
       learned: [B("Moidams: royal burial mounds at Charaideo", "মৈদাম: চৰাইদেউৰ ৰাজকীয় সমাধি"), B("UNESCO World Heritage Site in 2024, India's 43rd", "২০২৪ চনত ইউনেস্কো বিশ্ব ঐতিহ্য, ভাৰতৰ ৪৩তম"), B("Asom Divas: 2 December", "অসম দিৱস: ২ ডিচেম্বৰ"), B("Official since 1996", "১৯৯৬ৰ পৰা চৰকাৰী")],
       steps: [
         { type: "story", img: "moidams.webp", title: B("The moidams", "মৈদাম"),
+          link: { unit: "u5", note: B("Charaideo, the capital founded in 1253, became the royal burial ground.", "১২৫৩ চনত পতা ৰাজধানী চৰাইদেউ ৰাজকীয় সমাধিস্থল হৈ পৰিল।") },
           text: [B("Ahom kings and queens were buried at Charaideo in <mark>moidams</mark>, earthen mounds built over burial vaults.", "আহোম ৰজা-ৰাণীসকলক চৰাইদেউত <mark>মৈদাম</mark>ত সমাধিস্থ কৰা হৈছিল। মৈদাম হৈছে সমাধি-কোঠাৰ ওপৰত সজা মাটিৰ স্তূপ।"),
                  B("In <mark>2024</mark> the Moidams of Charaideo became a <mark>UNESCO World Heritage Site</mark>.", "<mark>২০২৪</mark> চনত চৰাইদেউৰ মৈদাম <mark>ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ</mark> হয়।")] },
         { type: "picture", q: B("Which one is a moidam?", "কোনখন মৈদাম?"),
@@ -207,6 +216,7 @@ window.LESSON = {
         { type: "tf", s: B("The Charaideo Moidams are the first cultural World Heritage Site in Northeast India.", "চৰাইদেউৰ মৈদাম উত্তৰ-পূব ভাৰতৰ প্ৰথম সাংস্কৃতিক বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"), answer: true,
           why: B("True. Assam's earlier sites, Kaziranga and Manas, are natural sites.", "শুদ্ধ। অসমৰ আগৰ দুটা ক্ষেত্ৰ কাজিৰঙা আৰু মানাহ প্ৰাকৃতিক ক্ষেত্ৰ।") },
         { type: "story", art: "calendar", title: B("Asom Divas", "অসম দিৱস"),
+          link: { unit: "u1", note: B("2 December marks his arrival in Assam in December 1228.", "২ ডিচেম্বৰে ১২২৮ চনৰ ডিচেম্বৰত তেওঁৰ অসম আগমন সোঁৱৰায়।") },
           text: [B("Every <mark>2 December</mark>, Assam celebrates <mark>Asom Divas</mark> (Sukaphaa Divas) to remember his arrival.", "প্ৰতি বছৰে <mark>২ ডিচেম্বৰ</mark>ত তেওঁৰ আগমন সোঁৱৰি <mark>অসম দিৱস</mark> (চুকাফা দিৱস) পালন কৰা হয়।"),
                  B("The Assam government made it an official observance in <mark>1996</mark>.", "অসম চৰকাৰে <mark>১৯৯৬</mark> চনত ইয়াক চৰকাৰীভাৱে পালন কৰাৰ সিদ্ধান্ত লয়।")] },
         { type: "spot", q: B("One part of this sentence is wrong. Tap it.", "এই বাক্যটোৰ এটা অংশ ভুল। সেইটো টিপা।"),
@@ -237,6 +247,8 @@ window.LESSON = {
         why: B("Only 1. The Borpatrogohain was created by Suhungmung in 1527.", "কেৱল ১। বৰপাত্ৰগোহাঁই ১৫২৭ চনত চুহুংমুঙে সৃষ্টি কৰিছিল।") },
       { type: "tf", s: B("Sukaphaa's first capital was Charaideo, founded in 1228.", "চুকাফাৰ প্ৰথম ৰাজধানী চৰাইদেউ, ১২২৮ চনত স্থাপিত।"), answer: false,
         why: B("He arrived in 1228. Charaideo was founded in 1253, after 25 years of moving.", "তেওঁ ১২২৮ চনত আহিছিল। ২৫ বছৰ ঠাই সলনি কৰাৰ পিছত ১২৫৩ চনত চৰাইদেউ স্থাপন হয়।") },
+      { type: "map", q: B("Tap the pass Sukaphaa used to cross the Patkai.", "পাটকাই পাৰ হ'বলৈ চুকাফাই ব্যৱহাৰ কৰা গিৰিপথটো টিপা।"), target: "pangsau", choices: ["pangsau", "namrup", "charaideo", "habung"],
+        answerText: B("The Pangsau Pass", "পাংচাউ গিৰিপথ"), why: B("The Pangsau Pass is on the Patkai ridge, on today's India–Myanmar border.", "পাংচাউ গিৰিপথ পাটকাই পৰ্বতমালাত, আজিৰ ভাৰত–ম্যানমাৰ সীমান্তত।") },
       { type: "map", q: B("Where did Sukaphaa first arrive in December 1228?", "১২২৮ চনৰ ডিচেম্বৰত চুকাফা প্ৰথমে ক'ত উপস্থিত হৈছিল?"), target: "namrup", choices: ["namrup", "charaideo", "habung", "mongmao"],
         answerText: B("Namrup", "নামৰূপ"), why: B("He came down from the Patkai into Namrup. Charaideo came 25 years later.", "পাটকাইৰ পৰা তেওঁ নামৰূপলৈ নামি আহিছিল। চৰাইদেউ ২৫ বছৰ পিছত।") },
       { type: "odd", q: B("Which one did NOT happen in Sukaphaa's reign?", "কোনটো চুকাফাৰ ৰাজত্বকালত হোৱা নাছিল?"),
@@ -252,6 +264,6 @@ window.LESSON = {
   },
 };
 </script>
-<script src="../assets/engine.js?v=2"></script>
+<script src="../assets/engine.js?v=4"></script>
 </body>
 </html>

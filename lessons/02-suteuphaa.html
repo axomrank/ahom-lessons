@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Noto+Sans+Bengali:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/engine.css?v=2">
+<link rel="stylesheet" href="../assets/engine.css?v=4">
 </head>
 <body>
 <script>
@@ -25,6 +25,7 @@ window.LESSON = {
   king: B("Swargadeo Suteuphaa", "স্বৰ্গদেউ চুতেউফা"),
   reign: B("Reign 1268–1281", "ৰাজত্বকাল ১২৬৮–১২৮১"),
   portrait: "images/suteuphaa-portrait.webp",
+  buildsOn: { no: 1, file: "01-sukaphaa.html", title: B("Sukaphaa", "চুকাফা") },
 
   /* schematic map: the Dikhou and its neighbours (not to scale) */
   map: {
@@ -50,6 +51,7 @@ window.LESSON = {
       learned: [B("Suteuphaa was Sukaphaa's eldest son", "চুতেউফা চুকাফাৰ জ্যেষ্ঠ পুত্ৰ"), B("He became the second Ahom king in 1268", "১২৬৮ চনত তেওঁ দ্বিতীয় আহোম ৰজা হয়"), B("He sent an embassy to the old homeland, Mong Mao", "তেওঁ পুৰণি জন্মভূমি মং মাওলৈ দূত পঠিয়াইছিল")],
       steps: [
         { type: "story", img: "suteuphaa-court.webp", title: B("The second king", "দ্বিতীয় ৰজা"),
+          link: { lesson: 1, file: "01-sukaphaa.html", unitNo: 5, unitTitle: B("Charaideo", "চৰাইদেউ"), note: B("Sukaphaa died at Charaideo in 1268 after a reign of 40 years.", "৪০ বছৰ ৰাজত্বৰ পিছত ১২৬৮ চনত চৰাইদেউত চুকাফাৰ মৃত্যু হৈছিল।") },
           text: [B("When Sukaphaa died in 1268, the nobles placed his <mark>eldest son</mark> on the throne.", "১২৬৮ চনত চুকাফাৰ মৃত্যুৰ পিছত সম্ভ্ৰান্ত লোকসকলে তেওঁৰ <mark>জ্যেষ্ঠ পুত্ৰ</mark>ক সিংহাসনত বহুৱাইছিল।"),
                  B("He was <mark>Suteuphaa</mark>, the second king of the Ahom kingdom.", "তেওঁ আছিল <mark>চুতেউফা</mark>, আহোম ৰাজ্যৰ দ্বিতীয় ৰজা।")] },
         { type: "mcq", q: B("Who was Suteuphaa?", "চুতেউফা কোন আছিল?"),
@@ -59,6 +61,7 @@ window.LESSON = {
           options: [B("1228","১২২৮"), B("1253","১২৫৩"), B("1268","১২৬৮"), B("1281","১২৮১")], answer: 2, big: true,
           why: B("1268, the year Sukaphaa died. 1281 is when Suteuphaa's own reign ended.", "১২৬৮, যিবছৰ চুকাফাৰ মৃত্যু হয়। ১২৮১ চনত চুতেউফাৰ নিজৰ ৰাজত্ব শেষ হয়।") },
         { type: "story", art: "embassy", title: B("A message home", "জন্মভূমিলৈ বাৰ্তা"),
+          link: { lesson: 1, file: "01-sukaphaa.html", unitNo: 1, unitTitle: B("The journey", "যাত্ৰা"), note: B("Mong Mao is the Tai homeland Sukaphaa left in 1215.", "মং মাও হৈছে সেই টাই জন্মভূমি, যিখন চুকাফাই ১২১৫ চনত এৰিছিল।") },
           text: [B("Suteuphaa sent an <mark>embassy</mark> (a group of envoys) to the Ahoms' old homeland, <mark>Mong Mao</mark>.", "চুতেউফাই আহোমসকলৰ পুৰণি জন্মভূমি <mark>মং মাও</mark>লৈ <mark>দূত</mark> পঠিয়াইছিল।"),
                  B("Its ruler replied with gifts and congratulations.", "তাৰ ৰজাই উপহাৰ আৰু অভিনন্দন পঠিয়াইছিল।")] },
         { type: "tf", s: B("Suteuphaa cut all ties with the old homeland, Mong Mao.", "চুতেউফাই পুৰণি জন্মভূমি মং মাওৰ সৈতে সকলো সম্পৰ্ক ছিন্ন কৰিছিল।"), answer: false,
@@ -81,6 +84,7 @@ window.LESSON = {
           text: [B("The <mark>Kacharis</mark> also lived in parts of Upper Assam, close to the young Ahom kingdom.", "নতুন আহোম ৰাজ্যৰ ওচৰতে, উজনি অসমৰ কিছু অংশত <mark>কছাৰী</mark>সকলো বাস কৰিছিল।"),
                  B("Suteuphaa forced them to leave the land <mark>east of the Dikhou river</mark>.", "চুতেউফাই তেওঁলোকক <mark>দিখৌ নদীৰ পূব পাৰৰ</mark> মাটি এৰিবলৈ বাধ্য কৰিছিল।")] },
         { type: "story", map: { route: true }, title: B("Where is the Dikhou?", "দিখৌ ক'ত?"),
+          link: { lesson: 1, file: "01-sukaphaa.html", unitNo: 5, unitTitle: B("Charaideo", "চৰাইদেউ"), note: B("Charaideo, Sukaphaa's capital from 1253, lies east of the Dikhou, on the side the Ahoms kept.", "১২৫৩ৰ পৰা চুকাফাৰ ৰাজধানী চৰাইদেউ দিখৌৰ পূবে, আহোমৰ হাতত থকা পাৰত।") },
           text: [B("The Dikhou flows north into the Brahmaputra, near today's Sivasagar.", "দিখৌ উত্তৰলৈ বৈ গৈ আজিৰ শিৱসাগৰৰ ওচৰত ব্ৰহ্মপুত্ৰত মিলিছে।"),
                  B("Charaideo lies to its east. After Suteuphaa, the Kacharis lived west of the river.", "চৰাইদেউ ইয়াৰ পূবে। চুতেউফাৰ পিছত কছাৰীসকল নদীৰ পশ্চিমে থাকিল।")] },
         { type: "map", q: B("Tap the Dikhou river.", "দিখৌ নদী টিপা।"), target: "dikhou", choices: ["dikhou", "disang", "dihing"],
@@ -106,6 +110,7 @@ window.LESSON = {
       learned: [B("A chronicle story: a canal to dig in one night", "বুৰঞ্জীৰ কাহিনী: এক নিশাতে খাল খন্দাৰ চৰ্ত"), B("Ahom soldiers made roosters crow early", "আহোম সৈন্যই কুকুৰা আগতীয়াকৈ ডাকিবলৈ বাধ্য কৰিছিল"), B("The Kacharis gave up the land; the Ahoms took it", "কছাৰীসকলে মাটি এৰিলে; আহোমসকলে দখল কৰিলে")],
       steps: [
         { type: "story", img: "kachari-envoys.webp", title: B("A challenge", "এটা চৰ্ত"),
+          link: { unit: "u2", note: B("This story explains how the land east of the Dikhou was won.", "দিখৌৰ পূব পাৰৰ মাটি কেনেকৈ অহা হৈছিল, এই কাহিনীয়ে তাক কয়।") },
           text: [B("An Ahom chronicle tells how the land dispute was settled.", "এখন আহোম বুৰঞ্জীত মাটিৰ বিবাদ কেনেকৈ মীমাংসা হৈছিল, তাৰ কাহিনী আছে।"),
                  B("The Kacharis were challenged to dig a <mark>canal to the Dikhou</mark> in a <mark>single night</mark>.", "কছাৰীসকলক <mark>এক নিশাতে</mark> <mark>দিখৌলৈকে এটা খাল</mark> খান্দিবলৈ চৰ্ত দিয়া হৈছিল।")] },
         { type: "story", art: "rooster", title: B("Before dawn", "পুৱাৰ আগতে"),
@@ -138,6 +143,7 @@ window.LESSON = {
           text: [B("A quarrel broke out with the <mark>Naras</mark>, the Shans of <mark>Mungkang</mark>, a kingdom in Upper Burma.", "উজনি বাৰ্মাৰ ৰাজ্য <mark>মুংকাং</mark>ৰ শ্যান লোক <mark>নৰা</mark>সকলৰ সৈতে বিবাদ হৈছিল।"),
                  B("Suteuphaa sent an army under the <mark>Burhagohain</mark>. It was <mark>defeated</mark>.", "চুতেউফাই <mark>বুঢ়াগোহাঁই</mark>ৰ নেতৃত্বত সৈন্য পঠিয়াইছিল। সেই সৈন্য <mark>পৰাজিত</mark> হৈছিল।")] },
         { type: "story", img: "suteuphaa-court.webp", title: B("A deal instead of a fight", "যুদ্ধৰ সলনি বুজাবুজি"),
+          link: { lesson: 1, file: "01-sukaphaa.html", unitNo: 4, unitTitle: B("Running the kingdom", "ৰাজ্য পৰিচালনা"), note: B("Sukaphaa created these two great offices, the Burhagohain and the Borgohain.", "চুকাফাই এই দুটা প্ৰধান পদ, বুঢ়াগোহাঁই আৰু বৰগোহাঁই, সৃষ্টি কৰিছিল।") },
           text: [B("A second force went under the <mark>Borgohain</mark>. He made a deal with the enemy instead of fighting.", "দ্বিতীয় দল এটা <mark>বৰগোহাঁই</mark>ৰ নেতৃত্বত গৈছিল। তেওঁ যুদ্ধ নকৰি শত্ৰুৰ সৈতে বুজাবুজি কৰিছিল।"),
                  B("He was <mark>imprisoned</mark>, and later pardoned. Some historians think these events happened under a later king.", "তেওঁক <mark>বন্দী</mark> কৰা হৈছিল, পিছত ক্ষমা কৰা হৈছিল। কিছুমান ইতিহাসবিদৰ মতে এই ঘটনা পিছৰ এজন ৰজাৰ দিনত হৈছিল।")] },
         { type: "whoami", clues: [B("I led the second Ahom force against the Naras.", "মই নৰাসকলৰ বিৰুদ্ধে দ্বিতীয় আহোম দলৰ নেতৃত্ব দিছিলোঁ।"), B("I made a deal with the enemy instead of fighting.", "মই যুদ্ধ নকৰি শত্ৰুৰ সৈতে বুজাবুজি কৰিছিলোঁ।"), B("I was imprisoned, then pardoned.", "মোক বন্দী কৰা হৈছিল, পিছত ক্ষমা কৰা হৈছিল।")],
@@ -150,6 +156,7 @@ window.LESSON = {
           text: [B("Suteuphaa died in <mark>1281</mark>. He had kept growing the kingdom his father founded.", "<mark>১২৮১</mark> চনত চুতেউফাৰ মৃত্যু হয়। পিতৃয়ে পতা ৰাজ্য তেওঁ বঢ়াই গৈছিল।"),
                  B("The eldest of his four sons, <mark>Subinphaa</mark>, became the next king.", "তেওঁৰ চাৰিজন পুত্ৰৰ ভিতৰত জ্যেষ্ঠ <mark>চুবিনফা</mark> পৰৱৰ্তী ৰজা হয়।")] },
         { type: "timeline", q: B("Place each event on the timeline.", "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"),
+          link: { lesson: 1, file: "01-sukaphaa.html", unitNo: 5, unitTitle: B("Charaideo", "চৰাইদেউ"), note: B("Charaideo was founded by Sukaphaa in 1253.", "চৰাইদেউ ১২৫৩ চনত চুকাফাই স্থাপন কৰিছিল।") },
           anchors: [{ y: "1268", l: B("Suteuphaa becomes king", "চুতেউফা ৰজা হয়") }, { y: "1281", l: B("Suteuphaa dies", "চুতেউফাৰ মৃত্যু") }],
           items: [{ t: B("Charaideo founded", "চৰাইদেউ স্থাপন"), slot: 0 }, { t: B("Kacharis leave land east of the Dikhou", "কছাৰীয়ে দিখৌৰ পূব পাৰ এৰে"), slot: 1 }, { t: B("Subinphaa becomes king", "চুবিনফা ৰজা হয়"), slot: 2 }],
           why: B("Charaideo (1253, Sukaphaa) → Suteuphaa's reign 1268–1281, when the Kacharis left the land east of the Dikhou → Subinphaa from 1281.", "চৰাইদেউ (১২৫৩, চুকাফা) → চুতেউফাৰ ৰাজত্ব ১২৬৮–১২৮১, যেতিয়া কছাৰীয়ে দিখৌৰ পূব পাৰ এৰে → ১২৮১ৰ পৰা চুবিনফা।") },
@@ -188,6 +195,6 @@ window.LESSON = {
   },
 };
 </script>
-<script src="../assets/engine.js?v=2"></script>
+<script src="../assets/engine.js?v=4"></script>
 </body>
 </html>
