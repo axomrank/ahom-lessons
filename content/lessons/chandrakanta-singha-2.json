@@ -1,0 +1,871 @@
+{
+ "id": "chandrakanta-singha-2",
+ "no": 39,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Chandrakanta Singha",
+  "as": "স্বৰ্গদেউ চন্দ্ৰকান্ত সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1819–1821",
+  "as": "ৰাজত্বকাল ১৮১৯–১৮২১"
+ },
+ "portrait": "chandrakanta-singha-2-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VIII, pp. 224–229",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Chandrakant reinstated by the Burmese at Jagpur, 1819, a nominal ruler; Bar Gohain and Bar Barua killed; Patal Bar Barua killed; Chandrakant flees April 1821; Jogesvar set up; Chandrakant's campaigns with Sikh and Hindustani troops and Robert Bruce's muskets; Gauhati reoccupied January 1822; Mingi Maha Bandula; defeat at Mahgarh, 1822; lured back, seized at Jorhat and confined at Rangpur"
+  },
+  {
+   "title": "AHOM catalogue (scene rows), /AHOM/data/ahom.csv",
+   "url": "https://en.wikipedia.org/wiki/Chandrakanta_Singha",
+   "used_for": "Scenes AHOM-221, 222, 273, 274, 275; Hadira Chowki and Mingimaha Tilwa"
+  }
+ ],
+ "review_notes": "Gait places Mahgarh in June 1822; the catalogue puts Mahgarh in April and the final defeat at Hadira (Assam) Chowki in June–July 1822. The lesson says 1822 for both. The course gives the second reign as 1819–1821; the 1821–22 campaigns are taught here as his fight after losing the throne.",
+ "buildsOn": {
+  "no": 38,
+  "title": {
+   "en": "Purandar Singha",
+   "as": "পুৰন্দৰ সিংহ"
+  },
+  "id": "purandar-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1819",
+    "t": {
+     "en": "Restored by the Burmese as a puppet",
+     "as": "মানে পুতলা ৰজা হিচাপে পুনৰ পাতে"
+    }
+   },
+   {
+    "y": "1821",
+    "t": {
+     "en": "Flees to British territory",
+     "as": "ব্ৰিটিছ এলেকালৈ পলায়ন"
+    }
+   },
+   {
+    "y": "1822",
+    "t": {
+     "en": "Retakes Guwahati",
+     "as": "গুৱাহাটী পুনৰ দখল"
+    }
+   },
+   {
+    "y": "1822",
+    "t": {
+     "en": "Beaten at Mahgarh and Hadira Chowki",
+     "as": "মহগড় আৰু হাদিৰা চকীত পৰাজয়"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.6,
+   25.6,
+   95.8,
+   27.8
+  ],
+  "show": [
+   "brahmaputra",
+   "guwahati",
+   "jorhat",
+   "rangpur",
+   "nazira",
+   "majuli"
+  ],
+  "routes": [
+   [
+    "guwahati",
+    [
+     26.6,
+     93.4
+    ],
+    "jorhat"
+   ]
+  ],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "jorhat": {
+    "pos": "w"
+   },
+   "rangpur": {
+    "pos": "n"
+   },
+   "nazira": {
+    "pos": "e"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "brahmaputra": {
+    "at": [
+     26.35,
+     91.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A king on strings",
+    "as": "সুতাৰে বন্ধা ৰজা"
+   },
+   "learned": [
+    {
+     "en": "In 1819 the Burmese put Chandrakanta back on the throne",
+     "as": "১৮১৯ চনত মানে চন্দ্ৰকান্তক পুনৰ সিংহাসনত বহুৱালে"
+    },
+    {
+     "en": "He was king in name only; Burmese generals ruled",
+     "as": "তেওঁ নামতহে ৰজা; মান সেনাপতিয়ে শাসন কৰিলে"
+    },
+    {
+     "en": "The Burmese killed his ministers at will",
+     "as": "মানে ইচ্ছামতে তেওঁৰ মন্ত্ৰীক হত্যা কৰিলে"
+    },
+    {
+     "en": "Fearing for his life, he fled in April 1821",
+     "as": "প্ৰাণৰ ভয়ত তেওঁ ১৮২১ চনৰ এপ্ৰিলত পলাল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "restored.webp",
+     "title": {
+      "en": "Back on the throne",
+      "as": "পুনৰ সিংহাসনত"
+     },
+     "text": [
+      {
+       "en": "After Nazira, the Burmese reinstated [[chandrakanta-singha]], slit ear and all. But he was only a <mark>puppet</mark>: the Burmese commanders held real power and hunted down Purnananda's followers.",
+       "as": "নাজিৰাৰ পিছত মানে কটা কাণৰ সৈতেই [[chandrakanta-singha]]ক পুনৰ ৰজা পাতিলে। কিন্তু তেওঁ আছিল <mark>পুতলা</mark>: মান সেনাপতিৰ হাতত প্ৰকৃত ক্ষমতা আছিল, আৰু তেওঁলোকে পূৰ্ণানন্দৰ অনুগামীক খেদি খেদি মাৰিলে।"
+      }
+     ],
+     "id": "ck2.u1.01",
+     "link": {
+      "lesson": 38,
+      "lessonId": "purandar-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Ala Mingi's army",
+       "as": "আলা মিংগিৰ সৈন্য"
+      },
+      "note": {
+       "en": "The Ahoms lost at Nazira in 1819.",
+       "as": "১৮১৯ চনত নাজিৰাত আহোম হাৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The Burmese let Chandrakanta rule freely in his second reign.",
+      "as": "দ্বিতীয় ৰাজত্বত মানে চন্দ্ৰকান্তক স্বাধীনভাৱে শাসন কৰিবলৈ দিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He was a puppet.",
+      "as": "অশুদ্ধ। তেওঁ পুতলা আছিল।"
+     },
+     "id": "ck2.u1.02"
+    },
+    {
+     "type": "story",
+     "img": "escape.webp",
+     "title": {
+      "en": "Escape",
+      "as": "পলায়ন"
+     },
+     "text": [
+      {
+       "en": "When the Burmese killed his Borbarua, Patal, without even asking him, Chandrakanta knew he was next. In <mark>April 1821</mark> he <mark>fled to British territory</mark>.",
+       "as": "মানে তেওঁক নোসোধাকৈ বৰবৰুৱা পাতলক হত্যা কৰাত চন্দ্ৰকান্তই বুজিলে পিছৰ পাল তেওঁৰ। <mark>১৮২১ চনৰ এপ্ৰিলত</mark> তেওঁ <mark>ব্ৰিটিছ এলেকালৈ পলাল</mark>।"
+      }
+     ],
+     "id": "ck2.u1.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "My ear was slit, yet I was king twice.",
+       "as": "মোৰ কাণ কটা হৈছিল, তথাপি মই দুবাৰ ৰজা হৈছিলোঁ।"
+      },
+      {
+       "en": "The Burmese restored me in 1819.",
+       "as": "১৮১৯ চনত মানে মোক পুনৰ পাতিছিল।"
+      },
+      {
+       "en": "I fled from them in 1821.",
+       "as": "১৮২১ চনত মই তেওঁলোকৰ পৰা পলাইছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Chandrakanta Singha",
+       "as": "চন্দ্ৰকান্ত সিংহ"
+      },
+      {
+       "en": "Purandar Singha",
+       "as": "পুৰন্দৰ সিংহ"
+      },
+      {
+       "en": "Jogeswar Singha",
+       "as": "যোগেশ্বৰ সিংহ"
+      },
+      {
+       "en": "Gaurinath Singha",
+       "as": "গৌৰীনাথ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Chandrakanta Singha.",
+      "as": "চন্দ্ৰকান্ত সিংহ।"
+     },
+     "id": "ck2.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble: a king with no real power is a ___.",
+      "as": "প্ৰকৃত ক্ষমতা নথকা ৰজা হৈছে ___।"
+     },
+     "word": {
+      "en": [
+       "P",
+       "U",
+       "P",
+       "P",
+       "E",
+       "T"
+      ],
+      "as": [
+       "পুত",
+       "লা"
+      ]
+     },
+     "answerText": {
+      "en": "PUPPET",
+      "as": "পুতলা"
+     },
+     "why": {
+      "en": "A puppet.",
+      "as": "পুতলা।"
+     },
+     "id": "ck2.u1.05"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "walk",
+   "title": {
+    "en": "The fight back",
+    "as": "প্ৰতিৰোধ"
+   },
+   "learned": [
+    {
+     "en": "Chandrakanta raised Sikh and Hindustani troops in Bengal",
+     "as": "চন্দ্ৰকান্তই বংগত শিখ আৰু হিন্দুস্থানী সৈন্য গোটালে"
+    },
+    {
+     "en": "Robert Bruce got him muskets and ammunition from Calcutta",
+     "as": "ৰবাৰ্ট ব্ৰুছে কলিকতাৰ পৰা বন্দুক আৰু গুলী আনি দিলে"
+    },
+    {
+     "en": "He retook Guwahati",
+     "as": "তেওঁ গুৱাহাটী পুনৰ দখল কৰিলে"
+    },
+    {
+     "en": "For a while, the old king was winning",
+     "as": "কিছুদিন বুঢ়া ৰজাই জিকি আছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Chandrakanta fled the Burmese in 1821.",
+      "as": "মনত পেলোৱা: ১৮২১ চনত চন্দ্ৰকান্ত মানৰ পৰা পলাইছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "ck2.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A king on strings.",
+       "as": "সুতাৰে বন্ধা ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "guwahati.webp",
+     "title": {
+      "en": "Muskets from Calcutta",
+      "as": "কলিকতাৰ বন্দুক"
+     },
+     "text": [
+      {
+       "en": "Chandrakanta did not give up. He hired <mark>Sikh and Hindustani</mark> soldiers. An Englishman, <mark>Robert Bruce</mark>, got him 300 muskets and powder from Calcutta.",
+       "as": "চন্দ্ৰকান্তই হাৰ নামানিলে। তেওঁ <mark>শিখ আৰু হিন্দুস্থানী</mark> সৈন্য ভাৰা কৰিলে। এজন ইংৰাজ, <mark>ৰবাৰ্ট ব্ৰুছে</mark>, কলিকতাৰ পৰা ৩০০ বন্দুক আৰু বাৰুদ আনি দিলে।"
+      },
+      {
+       "en": "Beating the scattered Burmese posts, he <mark>retook Guwahati</mark>.",
+       "as": "ছিটিকি থকা মান চকী হৰুৱাই তেওঁ <mark>গুৱাহাটী পুনৰ দখল কৰিলে</mark>।"
+      }
+     ],
+     "id": "ck2.u2.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Guwahati, which Chandrakanta retook.",
+      "as": "চন্দ্ৰকান্তই পুনৰ লোৱা গুৱাহাটী টিপা।"
+     },
+     "target": "guwahati",
+     "choices": [
+      "guwahati",
+      "jorhat",
+      "nazira",
+      "majuli"
+     ],
+     "answerText": {
+      "en": "Guwahati",
+      "as": "গুৱাহাটী"
+     },
+     "why": {
+      "en": "Guwahati.",
+      "as": "গুৱাহাটী।"
+     },
+     "id": "ck2.u2.03"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Robert Bruce",
+        "as": "ৰবাৰ্ট ব্ৰুছ"
+       },
+       {
+        "en": "Got muskets from Calcutta",
+        "as": "কলিকতাৰ পৰা বন্দুক আনিলে"
+       }
+      ],
+      [
+       {
+        "en": "Sikhs and Hindustanis",
+        "as": "শিখ আৰু হিন্দুস্থানী"
+       },
+       {
+        "en": "Chandrakanta's hired troops",
+        "as": "চন্দ্ৰকান্তৰ ভাৰাতীয়া সৈন্য"
+       }
+      ],
+      [
+       {
+        "en": "Patal",
+        "as": "পাতল"
+       },
+       {
+        "en": "Borbarua killed by the Burmese",
+        "as": "মানে হত্যা কৰা বৰবৰুৱা"
+       }
+      ]
+     ],
+     "why": {
+      "en": "The fight back.",
+      "as": "প্ৰতিৰোধ।"
+     },
+     "id": "ck2.u2.04"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Robert",
+       "Bruce",
+       "fought",
+       "for",
+       "the",
+       "Burmese."
+      ],
+      "as": [
+       "ৰবাৰ্ট",
+       "ব্ৰুছে",
+       "মানৰ",
+       "হৈ",
+       "যুঁজিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 5,
+      "as": 2
+     },
+     "fix": {
+      "en": "→ Chandrakanta",
+      "as": "→ চন্দ্ৰকান্তৰ"
+     },
+     "answerText": {
+      "en": "Burmese → Chandrakanta",
+      "as": "মান → চন্দ্ৰকান্ত"
+     },
+     "why": {
+      "en": "He supplied Chandrakanta (after first serving Purandar).",
+      "as": "তেওঁ চন্দ্ৰকান্তক যোগান ধৰিছিল (প্ৰথমে পুৰন্দৰৰ হৈ আছিল)।"
+     },
+     "id": "ck2.u2.05"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "moon",
+   "title": {
+    "en": "The last stand",
+    "as": "শেষ যুঁজ"
+   },
+   "learned": [
+    {
+     "en": "Burma sent its great general, Maha Bandula, with a big army",
+     "as": "বাৰ্মাই মহা সেনাপতি মহাবান্দুলাক ডাঙৰ সৈন্যৰ সৈতে পঠালে"
+    },
+    {
+     "en": "Chandrakanta fought bravely at Mahgarh in 1822 but lost",
+     "as": "চন্দ্ৰকান্ত ১৮২২ চনত মহগড়ত বীৰদৰ্পে যুঁজিও হাৰিল"
+    },
+    {
+     "en": "After Hadira Chowki, the Burmese general Tilwa was named Raja of Assam",
+     "as": "হাদিৰা চকীৰ পিছত মান সেনাপতি টিলোৱাক অসমৰ ৰজা ঘোষণা কৰা হ'ল"
+    },
+    {
+     "en": "Lured back with promises, Chandrakanta was imprisoned",
+     "as": "প্ৰতিশ্ৰুতিৰে ঘূৰাই আনি চন্দ্ৰকান্তক বন্দী কৰা হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match.",
+      "as": "মনত পেলোৱা: মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Robert Bruce",
+        "as": "ৰবাৰ্ট ব্ৰুছ"
+       },
+       {
+        "en": "Muskets",
+        "as": "বন্দুক"
+       }
+      ],
+      [
+       {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+       },
+       {
+        "en": "Retaken",
+        "as": "পুনৰ দখল"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall.",
+      "as": "মনত পেলোৱা।"
+     },
+     "id": "ck2.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "The fight back.",
+       "as": "প্ৰতিৰোধ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "mahgarh.webp",
+     "title": {
+      "en": "Mahgarh",
+      "as": "মহগড়"
+     },
+     "text": [
+      {
+       "en": "In 1822 <mark>Maha Bandula</mark>, Burma's greatest general, arrived with reinforcements. At <mark>Mahgarh</mark> Chandrakanta fought with great courage, until his ammunition ran out. 1,500 of his men fell.",
+       "as": "১৮২২ চনত বাৰ্মাৰ শ্ৰেষ্ঠ সেনাপতি <mark>মহাবান্দুলা</mark> অতিৰিক্ত সৈন্য লৈ আহিল। <mark>মহগড়</mark>ত চন্দ্ৰকান্তই গুলী শেষ নোহোৱালৈকে বীৰত্বেৰে যুঁজিলে। তেওঁৰ ১,৫০০ সৈন্য নিহত হ'ল।"
+      }
+     ],
+     "id": "ck2.u3.02"
+    },
+    {
+     "type": "story",
+     "img": "hadira.webp",
+     "title": {
+      "en": "A Burmese Raja of Assam",
+      "as": "অসমৰ মান ৰজা"
+     },
+     "text": [
+      {
+       "en": "After a last defeat at <mark>Hadira Chowki</mark>, the Burmese general Mingimaha Tilwa was proclaimed <mark>Raja of Assam</mark>. Later the Burmese lured Chandrakanta back with sweet words, seized him at Jorhat, and locked him up at Rangpur.",
+       "as": "<mark>হাদিৰা চকী</mark>ত শেষ পৰাজয়ৰ পিছত মান সেনাপতি মিংগিমহা টিলোৱাক <mark>অসমৰ ৰজা</mark> ঘোষণা কৰা হ'ল। পিছত মানে মিঠা কথাৰে চন্দ্ৰকান্তক ঘূৰাই আনি যোৰহাটত ধৰিলে আৰু ৰংপুৰত বন্দী কৰি ৰাখিলে।"
+      }
+     ],
+     "id": "ck2.u3.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put Chandrakanta's second act in order.",
+      "as": "চন্দ্ৰকান্তৰ দ্বিতীয় অধ্যায় ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Restored as a puppet (1819)",
+       "as": "পুতলা হিচাপে পুনৰ ৰজা (১৮১৯)"
+      },
+      {
+       "en": "Flees (1821)",
+       "as": "পলায়ন (১৮২১)"
+      },
+      {
+       "en": "Retakes Guwahati",
+       "as": "গুৱাহাটী পুনৰ দখল"
+      },
+      {
+       "en": "Defeated at Mahgarh (1822)",
+       "as": "মহগড়ত পৰাজয় (১৮২২)"
+      }
+     ],
+     "why": {
+      "en": "Puppet → fugitive → fighter → defeated.",
+      "as": "পুতলা → পলাতক → যোদ্ধা → পৰাজিত।"
+     },
+     "id": "ck2.u3.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember P-F-M",
+      "as": "মনত ৰাখা পু-প-ম"
+     },
+     "text": [
+      {
+       "en": "Chandrakanta's second act: <mark>P</mark>uppet (1819), <mark>F</mark>light (1821), <mark>M</mark>ahgarh (1822). The bravest moment of a broken dynasty.",
+       "as": "চন্দ্ৰকান্তৰ দ্বিতীয় অধ্যায়: <mark>পু</mark>তলা (১৮১৯), <mark>প</mark>লায়ন (১৮২১), <mark>ম</mark>হগড় (১৮২২)। ভাঙি পৰা বংশৰ সাহসীতম মুহূৰ্ত।"
+      }
+     ],
+     "id": "ck2.u3.05"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was Burma's greatest general.",
+       "as": "মই বাৰ্মাৰ শ্ৰেষ্ঠ সেনাপতি।"
+      },
+      {
+       "en": "I beat Chandrakanta at Mahgarh.",
+       "as": "মই মহগড়ত চন্দ্ৰকান্তক হৰুৱাইছিলোঁ।"
+      },
+      {
+       "en": "I later fought the British in Arakan.",
+       "as": "পিছত মই আৰাকানত ব্ৰিটিছৰ সৈতে যুঁজিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Maha Bandula",
+       "as": "মহাবান্দুলা"
+      },
+      {
+       "en": "Ala Mingi",
+       "as": "আলা মিংগি"
+      },
+      {
+       "en": "Bodawpaya",
+       "as": "বদ'পায়া"
+      },
+      {
+       "en": "Tilwa",
+       "as": "টিলোৱা"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Maha Bandula.",
+      "as": "মহাবান্দুলা।"
+     },
+     "id": "ck2.u3.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Chandrakanta Singha",
+    "as": "তুমি স্বৰ্গদেউ চন্দ্ৰকান্ত সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was king three times.",
+      "as": "মই তিনিবাৰ ৰজা হৈছিলোঁ।"
+     },
+     {
+      "en": "The Burmese made me their puppet.",
+      "as": "মানে মোক পুতলা কৰিছিল।"
+     },
+     {
+      "en": "I fought Bandula at Mahgarh.",
+      "as": "মই মহগড়ত বান্দুলাৰ সৈতে যুঁজিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Chandrakanta Singha",
+      "as": "চন্দ্ৰকান্ত সিংহ"
+     },
+     {
+      "en": "Purandar Singha",
+      "as": "পুৰন্দৰ সিংহ"
+     },
+     {
+      "en": "Jogeswar Singha",
+      "as": "যোগেশ্বৰ সিংহ"
+     },
+     {
+      "en": "Kamaleswar Singha",
+      "as": "কমলেশ্বৰ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Chandrakanta: 1811–18, 1819–21, and briefly in 1821–22 in Lower Assam.",
+     "as": "চন্দ্ৰকান্ত: ১৮১১–১৮, ১৮১৯–২১, আৰু ১৮২১–২২ চনত নামনি অসমত অলপ সময়।"
+    },
+    "id": "ck2.test.01"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the battle of Mahgarh?",
+     "as": "কোনখন ছবিত মহগড়ৰ যুদ্ধ দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "mahgarh.webp",
+     "guwahati.webp",
+     "restored.webp",
+     "escape.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Mahgarh, 1822",
+     "as": "মহগড়, ১৮২২"
+    },
+    "why": {
+     "en": "His last stand.",
+     "as": "তেওঁৰ শেষ যুঁজ।"
+    },
+    "id": "ck2.test.02"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1819",
+      "l": {
+       "en": "Chandrakanta restored",
+       "as": "চন্দ্ৰকান্ত পুনৰ ৰজা"
+      }
+     },
+     {
+      "y": "1822",
+      "l": {
+       "en": "Mahgarh",
+       "as": "মহগড়"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Purandar crowned",
+       "as": "পুৰন্দৰৰ অভিষেক"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Chandrakanta flees the Burmese",
+       "as": "চন্দ্ৰকান্ত মানৰ পৰা পলায়"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Treaty of Yandabo",
+       "as": "ইয়াণ্ডাবু সন্ধি"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1818 → 1819 → 1821 → 1822 → 1826.",
+     "as": "১৮১৮ → ১৮১৯ → ১৮২১ → ১৮২২ → ১৮২৬।"
+    },
+    "id": "ck2.test.03"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Robert Bruce supplied muskets to Chandrakanta.",
+     "as": "ৰবাৰ্ট ব্ৰুছে চন্দ্ৰকান্তক বন্দুক যোগান ধৰিছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "ck2.test.04"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the battle of 1822.",
+     "as": "১৮২২ চনৰ যুদ্ধ সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "M",
+      "A",
+      "H",
+      "G",
+      "A",
+      "R",
+      "H"
+     ],
+     "as": [
+      "মহ",
+      "গড়"
+     ]
+    },
+    "answerText": {
+     "en": "MAHGARH",
+     "as": "মহগড়"
+    },
+    "why": {
+     "en": "Mahgarh.",
+     "as": "মহগড়।"
+    },
+    "id": "ck2.test.05"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the kings of the end in order.",
+     "as": "শেষৰ ৰজাসকলক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Kamaleswar",
+      "as": "কমলেশ্বৰ"
+     },
+     {
+      "en": "Chandrakanta (1st)",
+      "as": "চন্দ্ৰকান্ত (প্ৰথম)"
+     },
+     {
+      "en": "Purandar (1st)",
+      "as": "পুৰন্দৰ (প্ৰথম)"
+     },
+     {
+      "en": "Chandrakanta (2nd)",
+      "as": "চন্দ্ৰকান্ত (দ্বিতীয়)"
+     }
+    ],
+    "why": {
+     "en": "Kings 36–39.",
+     "as": "৩৬–৩৯ নম্বৰ ৰজা।"
+    },
+    "id": "ck2.test.06"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Chandrakanta Singha was restored to the throne by the Burmese in 1819.<br>2. Chandrakanta defeated Maha Bandula at Mahgarh.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ১৮১৯ চনত মানে চন্দ্ৰকান্ত সিংহক পুনৰ সিংহাসনত বহুৱাইছিল।<br>২. চন্দ্ৰকান্তই মহগড়ত মহাবান্দুলাক হৰুৱাইছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. He lost at Mahgarh when his ammunition ran out.",
+     "as": "কেৱল ১। গুলী শেষ হোৱাত তেওঁ মহগড়ত হাৰিল।"
+    },
+    "small": true,
+    "id": "ck2.test.07"
+   }
+  ]
+ }
+}

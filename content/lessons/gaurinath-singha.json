@@ -1,0 +1,1159 @@
+{
+ "id": "gaurinath-singha",
+ "no": 35,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Gaurinath Singha",
+  "as": "স্বৰ্গদেউ গৌৰীনাথ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1780–1795",
+  "as": "ৰাজত্বকাল ১৭৮০–১৭৯৫"
+ },
+ "portrait": "gaurinath-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VIII, pp. 190–214",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Gaurinath (Suhitpangpha) mutilates the princes; April 1782 torch-bearer attack; massacre of Moamarias; 1786 rising north of the Lohit; Goramur sattra taken; Gaurinath flees to Gauhati; Purnanand Burha Gohain holds the Namdang line; famine; Bharat Singh at Rangpur with coins of 1793; Manipur Raja's help fails; Krishna Narayan of Darrang; Captain Welsh's expedition (Nov 1792 – July 1794), Gauhati taken, reforms, Rangpur recovered 18 March 1794; Sir John Shore recalls him; capital moved to Jorhat; standing army; death 19 Dec 1794; character"
+  },
+  {
+   "title": "AHOM catalogue (scene rows), /AHOM/data/ahom.csv",
+   "url": "https://en.wikipedia.org/wiki/Gaurinath_Singha",
+   "used_for": "Scenes AHOM-207, 209, 210, 212, 266, 267, 268, 270; the 1793 commercial treaty"
+  }
+ ],
+ "review_notes": "Gait dates Gaurinath's death to 19 December 1794; the course list gives 1780–1795 (Kamaleswar's accession was early 1795). Welsh's commercial agreement of Feb 1793 is from the catalogue and Wikipedia; Gait mentions the reforms but not this treaty by name.",
+ "buildsOn": {
+  "no": 34,
+  "title": {
+   "en": "Lakshmi Singha",
+   "as": "লক্ষ্মী সিংহ"
+  },
+  "id": "lakshmi-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1780",
+    "t": {
+     "en": "Becomes king",
+     "as": "ৰজা হয়"
+    }
+   },
+   {
+    "y": "1782",
+    "t": {
+     "en": "Bihu-time torch-bearer attack",
+     "as": "বিহুৰ সময়ত জোৰ-বোকা আক্ৰমণ"
+    }
+   },
+   {
+    "y": "1786",
+    "t": {
+     "en": "Second Moamoria rising",
+     "as": "দ্বিতীয় মোৱামৰীয়া বিদ্ৰোহ"
+    }
+   },
+   {
+    "y": "1788",
+    "t": {
+     "en": "Flees to Guwahati",
+     "as": "গুৱাহাটীলৈ পলায়ন"
+    }
+   },
+   {
+    "y": "1792",
+    "t": {
+     "en": "Captain Welsh arrives",
+     "as": "কেপ্তেইন ৱেল্‌চৰ আগমন"
+    }
+   },
+   {
+    "y": "1794",
+    "t": {
+     "en": "Capital moves to Jorhat; dies",
+     "as": "যোৰহাটলৈ ৰাজধানী; মৃত্যু"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.6,
+   25.6,
+   95.8,
+   27.8
+  ],
+  "show": [
+   "brahmaputra",
+   "guwahati",
+   "jorhat",
+   "rangpur",
+   "bengmara",
+   "majuli"
+  ],
+  "routes": [
+   [
+    "rangpur",
+    "jorhat",
+    [
+     26.62,
+     93.4
+    ],
+    "guwahati"
+   ]
+  ],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "jorhat": {
+    "pos": "s"
+   },
+   "rangpur": {
+    "pos": "e"
+   },
+   "bengmara": {
+    "pos": "n"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "brahmaputra": {
+    "at": [
+     26.35,
+     91.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "moon",
+   "title": {
+    "en": "A cruel king",
+    "as": "নিষ্ঠুৰ ৰজা"
+   },
+   "learned": [
+    {
+     "en": "Gaurinath (Suhitpangphaa), Lakshmi Singha's son, became king in 1780",
+     "as": "লক্ষ্মী সিংহৰ পুত্ৰ গৌৰীনাথ (চুহিতপাংফা) ১৭৮০ চনত ৰজা হ'ল"
+    },
+    {
+     "en": "He had the other princes mutilated so they could never rule",
+     "as": "আন কোঁৱৰসকলে কেতিয়াও ৰজা হ'ব নোৱাৰাকৈ তেওঁ অংগহানি কৰালে"
+    },
+    {
+     "en": "He persecuted the Moamorias at every turn",
+     "as": "তেওঁ সকলো সুযোগতে মোৱামৰীয়াক উৎপীড়ন কৰিলে"
+    },
+    {
+     "en": "Gait calls him the worst of all Ahom kings",
+     "as": "গেইটে তেওঁক আটাইতকৈ বেয়া আহোম ৰজা বুলিছে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "rangpur-falls.webp",
+     "title": {
+      "en": "The new king",
+      "as": "নতুন ৰজা"
+     },
+     "text": [
+      {
+       "en": "In <mark>1780</mark> [[gaurinath-singha]] (Suhitpangphaa) took the throne. At once he had the other princes of the blood <mark>mutilated</mark>, so none could challenge him.",
+       "as": "<mark>১৭৮০</mark> চনত [[gaurinath-singha]] (চুহিতপাংফা) সিংহাসনত বহিল। লগে লগে তেওঁ আন সকলো তেজৰ কোঁৱৰক <mark>অংগহানি</mark> কৰালে, যাতে কোনেও প্ৰত্যাহ্বান জনাব নোৱাৰে।"
+      },
+      {
+       "en": "He hated the Moamorias and oppressed them whenever he could.",
+       "as": "তেওঁ মোৱামৰীয়াক ঘৃণা কৰিছিল আৰু সুযোগ পালেই অত্যাচাৰ কৰিছিল।"
+      }
+     ],
+     "id": "gnt.u1.01",
+     "link": {
+      "lesson": 28,
+      "lessonId": "sulikphaa",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The hunt for princes",
+       "as": "কোঁৱৰ চিকাৰ"
+      },
+      "note": {
+       "en": "The Lora Roja had also mutilated princes.",
+       "as": "লৰা ৰজাইও কোঁৱৰক অংগহানি কৰাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Gaurinath was the son of Lakshmi Singha.",
+      "as": "গৌৰীনাথ লক্ষ্মী সিংহৰ পুত্ৰ আছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "gnt.u1.02"
+    },
+    {
+     "type": "story",
+     "img": "bihu-ambush.webp",
+     "title": {
+      "en": "Torches in the night",
+      "as": "ৰাতিৰ জোৰ"
+     },
+     "text": [
+      {
+       "en": "One night in <mark>April 1782</mark>, at Bihu time, the king was returning from fishing. Moamorias, <mark>disguised as torch-bearers</mark>, joined his party, got inside the town and attacked. Gaurinath escaped on an elephant.",
+       "as": "<mark>১৭৮২ চনৰ এপ্ৰিলৰ</mark> বিহুৰ সময়ৰ এটা ৰাতি ৰজা মাছ মৰাৰ পৰা উভতিছিল। <mark>জোৰ-বোকাৰ ছদ্মবেশত</mark> মোৱামৰীয়াই তেওঁৰ দলত সোমাই নগৰৰ ভিতৰ পাই আক্ৰমণ কৰিলে। গৌৰীনাথ হাতীৰে পলাই ৰক্ষা পৰিল।"
+      },
+      {
+       "en": "The revenge was a massacre: thousands of Moamorias, women and children too, were killed.",
+       "as": "প্ৰতিশোধ আছিল হত্যাকাণ্ড: হাজাৰ হাজাৰ মোৱামৰীয়া, মহিলা আৰু শিশুকে ধৰি, নিহত হ'ল।"
+      }
+     ],
+     "id": "gnt.u1.03"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "The",
+       "rebels",
+       "entered",
+       "the",
+       "town",
+       "disguised",
+       "as",
+       "priests."
+      ],
+      "as": [
+       "বিদ্ৰোহীসকল",
+       "পুৰোহিতৰ",
+       "ছদ্মবেশত",
+       "নগৰত",
+       "সোমাইছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 7,
+      "as": 1
+     },
+     "fix": {
+      "en": "→ torch-bearers",
+      "as": "→ জোৰ-বোকাৰ"
+     },
+     "answerText": {
+      "en": "priests → torch-bearers",
+      "as": "পুৰোহিত → জোৰ-বোকা"
+     },
+     "why": {
+      "en": "They carried the torches for the king's party.",
+      "as": "তেওঁলোকে ৰজাৰ দলৰ জোৰ কঢ়িয়াইছিল।"
+     },
+     "id": "gnt.u1.04"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the cycle of violence in order.",
+      "as": "হিংসাৰ চক্ৰ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Princes mutilated (1780)",
+       "as": "কোঁৱৰৰ অংগহানি (১৭৮০)"
+      },
+      {
+       "en": "Torch-bearer attack (1782)",
+       "as": "জোৰ-বোকাৰ আক্ৰমণ (১৭৮২)"
+      },
+      {
+       "en": "Massacre of Moamorias",
+       "as": "মোৱামৰীয়া হত্যাকাণ্ড"
+      },
+      {
+       "en": "A bigger rising (1786)",
+       "as": "ডাঙৰ বিদ্ৰোহ (১৭৮৬)"
+      }
+     ],
+     "why": {
+      "en": "Each cruelty fed the next revolt.",
+      "as": "প্ৰতিটো নিষ্ঠুৰতাই পৰৱৰ্তী বিদ্ৰোহক ইন্ধন দিলে।"
+     },
+     "id": "gnt.u1.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the Bihu ambush on Gaurinath?",
+      "as": "কোনখন ছবিত গৌৰীনাথৰ ওপৰত বিহুৰ আক্ৰমণ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "bihu-ambush.webp",
+      "rangpur-falls.webp",
+      "flight.webp",
+      "welsh.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Bihu ambush, 1782",
+      "as": "বিহুৰ আক্ৰমণ, ১৭৮২"
+     },
+     "why": {
+      "en": "Torch-bearers turned attackers.",
+      "as": "জোৰ-বোকা হ'ল আক্ৰমণকাৰী।"
+     },
+     "id": "gnt.u1.06"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "hill",
+   "title": {
+    "en": "The king runs",
+    "as": "ৰজা পলায়"
+   },
+   "learned": [
+    {
+     "en": "In 1786 the Moamorias rose again, from north of the river",
+     "as": "১৭৮৬ চনত মোৱামৰীয়াই নদীৰ উত্তৰৰ পৰা পুনৰ বিদ্ৰোহ কৰিলে"
+    },
+    {
+     "en": "They burnt Majuli satras and reached Rangpur's gates",
+     "as": "তেওঁলোকে মাজুলীৰ সত্ৰ জ্বলাই ৰংপুৰৰ দুৱাৰ পালেহি"
+    },
+    {
+     "en": "Gaurinath fled in panic down the river to Guwahati",
+     "as": "গৌৰীনাথ ভয়ত নদীৰে গুৱাহাটীলৈ পলাল"
+    },
+    {
+     "en": "Purnananda Burhagohain stayed and fought on",
+     "as": "পূৰ্ণানন্দ বুঢ়াগোহাঁই থাকি যুঁজি গ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: in 1782 the rebels came disguised as torch-bearers.",
+      "as": "মনত পেলোৱা: ১৭৮২ চনত বিদ্ৰোহী জোৰ-বোকাৰ ছদ্মবেশত আহিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "gnt.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A cruel king.",
+       "as": "নিষ্ঠুৰ ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "harihar.webp",
+     "title": {
+      "en": "Fire on the river",
+      "as": "নদীত জুই"
+     },
+     "text": [
+      {
+       "en": "In <mark>1786</mark> the rebels rose north of the Brahmaputra under Harihar Tanti. They burnt the satras of [[majuli]], beat army after army, and came to the gates of Rangpur.",
+       "as": "<mark>১৭৮৬</mark> চনত হৰিহৰ তাঁতীৰ নেতৃত্বত ব্ৰহ্মপুত্ৰৰ উত্তৰত বিদ্ৰোহ হ'ল। তেওঁলোকে [[majuli]]ৰ সত্ৰ জ্বলালে, এটাৰ পিছত এটা সৈন্যদল হৰুৱালে, আৰু ৰংপুৰৰ দুৱাৰ পালেহি।"
+      }
+     ],
+     "id": "gnt.u2.02"
+    },
+    {
+     "type": "story",
+     "img": "flight.webp",
+     "title": {
+      "en": "Down the river",
+      "as": "নদীৰে নামনিলৈ"
+     },
+     "text": [
+      {
+       "en": "The king <mark>fled in panic to Guwahati</mark> with most of his officers. Only the Burhagohain, [[purnananda]], stayed behind to fight.",
+       "as": "ৰজা বেছিভাগ বিষয়াৰ সৈতে <mark>ভয়ত গুৱাহাটীলৈ পলাল</mark>। কেৱল বুঢ়াগোহাঁই [[purnananda]] যুঁজিবলৈ ৰৈ গ'ল।"
+      },
+      {
+       "en": "The rebels crowned their own king, Bharat Singha, at Rangpur. He even struck coins dated 1793.",
+       "as": "বিদ্ৰোহীয়ে ৰংপুৰত নিজৰ ৰজা ভৰত সিংহক অভিষেক কৰিলে। তেওঁ ১৭৯৩ চনৰ মুদ্ৰাও উলিয়াইছিল।"
+      }
+     ],
+     "id": "gnt.u2.03"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Guwahati, where Gaurinath fled.",
+      "as": "গৌৰীনাথ পলাই যোৱা গুৱাহাটী টিপা।"
+     },
+     "target": "guwahati",
+     "choices": [
+      "guwahati",
+      "rangpur",
+      "jorhat",
+      "bengmara"
+     ],
+     "answerText": {
+      "en": "Guwahati",
+      "as": "গুৱাহাটী"
+     },
+     "why": {
+      "en": "Guwahati, far downstream.",
+      "as": "নামনিৰ গুৱাহাটী।"
+     },
+     "id": "gnt.u2.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I stayed when the king fled.",
+       "as": "ৰজা পলাওঁতে মই ৰৈ গৈছিলোঁ।"
+      },
+      {
+       "en": "I held a line of forts on the Namdang.",
+       "as": "মই নামদাঙত দুৰ্গৰ শাৰী ধৰি ৰাখিছিলোঁ।"
+      },
+      {
+       "en": "I was the Burhagohain.",
+       "as": "মই বুঢ়াগোহাঁই আছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Purnananda",
+       "as": "পূৰ্ণানন্দ"
+      },
+      {
+       "en": "Kirti Chandra",
+       "as": "কীৰ্তিচন্দ্ৰ"
+      },
+      {
+       "en": "Badan Chandra",
+       "as": "বদনচন্দ্ৰ"
+      },
+      {
+       "en": "Ragha Moran",
+       "as": "ৰাঘ মৰাণ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Purnananda Burhagohain.",
+      "as": "পূৰ্ণানন্দ বুঢ়াগোহাঁই।"
+     },
+     "id": "gnt.u2.05"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Who was NOT a Moamoria-side ruler?",
+      "as": "কোনজন মোৱামৰীয়া পক্ষৰ শাসক নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Ramakanta",
+       "as": "ৰমাকান্ত"
+      },
+      {
+       "en": "Bharat Singha",
+       "as": "ভৰত সিংহ"
+      },
+      {
+       "en": "Sarbananda Singha",
+       "as": "চৰ্বানন্দ সিংহ"
+      },
+      {
+       "en": "Purnananda",
+       "as": "পূৰ্ণানন্দ"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Purnananda fought for the Ahom king.",
+      "as": "পূৰ্ণানন্দ আহোম ৰজাৰ পক্ষত যুঁজিছিল।"
+     },
+     "id": "gnt.u2.06"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "walk",
+   "title": {
+    "en": "The redcoats come",
+    "as": "ৰঙা কোটৰ আগমন"
+   },
+   "learned": [
+    {
+     "en": "Gaurinath asked the British East India Company for help",
+     "as": "গৌৰীনাথে ব্ৰিটিছ ইষ্ট ইণ্ডিয়া কোম্পানীৰ সহায় বিচাৰিলে"
+    },
+    {
+     "en": "Captain Welsh came with six companies of sepoys, 1792",
+     "as": "১৭৯২ চনত কেপ্তেইন ৱেল্‌চ ছটা কোম্পানী চিপাহী লৈ আহিল"
+    },
+    {
+     "en": "He retook Guwahati and, in March 1794, Rangpur",
+     "as": "তেওঁ গুৱাহাটী আৰু ১৭৯৪ চনৰ মাৰ্চত ৰংপুৰ পুনৰ দখল কৰিলে"
+    },
+    {
+     "en": "A new Governor General recalled him in 1794",
+     "as": "নতুন গৱৰ্ণৰ জেনেৰেলে ১৭৯৪ চনত তেওঁক ঘূৰাই মাতিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "order",
+     "q": {
+      "en": "Warm-up: put the king's fall in order.",
+      "as": "মনত পেলোৱা: ৰজাৰ পতন ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Torch-bearer attack",
+       "as": "জোৰ-বোকাৰ আক্ৰমণ"
+      },
+      {
+       "en": "1786 rising",
+       "as": "১৭৮৬ৰ বিদ্ৰোহ"
+      },
+      {
+       "en": "Flight to Guwahati",
+       "as": "গুৱাহাটীলৈ পলায়ন"
+      }
+     ],
+     "why": {
+      "en": "1782 → 1786 → 1788.",
+      "as": "১৭৮২ → ১৭৮৬ → ১৭৮৮।"
+     },
+     "id": "gnt.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "The king runs.",
+       "as": "ৰজা পলায়।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "welsh.webp",
+     "title": {
+      "en": "A call to Calcutta",
+      "as": "কলিকতালৈ আহ্বান"
+     },
+     "text": [
+      {
+       "en": "Even Guwahati was not safe. Gaurinath begged the <mark>British</mark> for help. Lord Cornwallis sent [[welsh]] with six companies of sepoys, in <mark>November 1792</mark>.",
+       "as": "গুৱাহাটীও নিৰাপদ নাছিল। গৌৰীনাথে <mark>ব্ৰিটিছ</mark>ৰ সহায় খুজিলে। লৰ্ড কৰ্নৱালিছে <mark>১৭৯২ চনৰ নৱেম্বৰত</mark> ছটা কোম্পানী চিপাহীৰ সৈতে [[welsh]]ক পঠালে।"
+      },
+      {
+       "en": "On the way, Welsh met the king himself in a canoe, fleeing a mob of fishermen.",
+       "as": "বাটত ৱেল্‌চে ৰজাক নিজেই এখন সৰু নাৱত পালে, মাছমৰীয়াৰ এদল লোকৰ ভয়ত পলাই আছিল।"
+      }
+     ],
+     "id": "gnt.u3.02"
+    },
+    {
+     "type": "story",
+     "img": "treaty.webp",
+     "title": {
+      "en": "Order, for a while",
+      "as": "কিছুদিনৰ শৃংখলা"
+     },
+     "text": [
+      {
+       "en": "Welsh took Guwahati in a night march, made the king stop his killings, and in <mark>March 1794</mark> marched into Rangpur.",
+       "as": "ৱেল্‌চে ৰাতিৰ অভিযানত গুৱাহাটী ল'লে, ৰজাৰ হত্যা বন্ধ কৰালে, আৰু <mark>১৭৯৪ চনৰ মাৰ্চত</mark> ৰংপুৰত সোমাল।"
+      },
+      {
+       "en": "Then a new Governor General, Sir John Shore, chose <mark>non-interference</mark>. Welsh was ordered home by July 1794.",
+       "as": "তাৰ পিছত নতুন গৱৰ্ণৰ জেনেৰেল চাৰ জন শ্বৰে <mark>হস্তক্ষেপ নকৰা</mark> নীতি ল'লে। ১৭৯৪ চনৰ জুলাইৰ ভিতৰত ৱেল্‌চক ঘূৰি যাবলৈ আদেশ দিয়া হ'ল।"
+      }
+     ],
+     "id": "gnt.u3.03"
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each event on the timeline.",
+      "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1792",
+       "l": {
+        "en": "Welsh arrives",
+        "as": "ৱেল্‌চৰ আগমন"
+       }
+      },
+      {
+       "y": "1794",
+       "l": {
+        "en": "Welsh leaves",
+        "as": "ৱেল্‌চৰ প্ৰত্যাৱৰ্তন"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Gaurinath flees to Guwahati",
+        "as": "গৌৰীনাথ গুৱাহাটীলৈ পলায়"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Rangpur retaken",
+        "as": "ৰংপুৰ পুনৰ দখল"
+       },
+       "slot": 1
+      },
+      {
+       "t": {
+        "en": "Gaurinath dies",
+        "as": "গৌৰীনাথৰ মৃত্যু"
+       },
+       "slot": 2
+      }
+     ],
+     "why": {
+      "en": "1788 → Nov 1792 → Mar 1794 → Jul 1794 → Dec 1794.",
+      "as": "১৭৮৮ → নৱে ১৭৯২ → মাৰ্চ ১৭৯৪ → জুলাই ১৭৯৪ → ডিচে ১৭৯৪।"
+     },
+     "id": "gnt.u3.04"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Captain Welsh stayed in Assam until the Burmese came.",
+      "as": "মান অহালৈকে কেপ্তেইন ৱেল্‌চ অসমত আছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. He was recalled in 1794, long before.",
+      "as": "অশুদ্ধ। ১৭৯৪ চনতে তেওঁক ঘূৰাই মতা হৈছিল।"
+     },
+     "id": "gnt.u3.05"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the captain's name.",
+      "as": "কেপ্তেইনৰ নাম সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "W",
+       "E",
+       "L",
+       "S",
+       "H"
+      ],
+      "as": [
+       "ৱে",
+       "ল্‌চ"
+      ]
+     },
+     "answerText": {
+      "en": "WELSH",
+      "as": "ৱেল্‌চ"
+     },
+     "why": {
+      "en": "Captain Thomas Welsh.",
+      "as": "কেপ্তেইন টমাছ ৱেল্‌চ।"
+     },
+     "id": "gnt.u3.06"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "home",
+   "title": {
+    "en": "A new capital, a sad end",
+    "as": "নতুন ৰাজধানী, দুখৰ অন্ত"
+   },
+   "learned": [
+    {
+     "en": "Afraid to stay at Rangpur, the court moved to Jorhat in 1794",
+     "as": "ৰংপুৰত থাকিবলৈ ভয় কৰি ৰাজসভা ১৭৯৪ চনত যোৰহাটলৈ গ'ল"
+    },
+    {
+     "en": "Jorhat was the last Ahom capital",
+     "as": "যোৰহাট আছিল শেষ আহোম ৰাজধানী"
+    },
+    {
+     "en": "A standing army, drilled like the sepoys, was raised",
+     "as": "চিপাহীৰ দৰে প্ৰশিক্ষিত স্থায়ী সেনা গঠন হ'ল"
+    },
+    {
+     "en": "Gaurinath died in December 1794",
+     "as": "১৭৯৪ চনৰ ডিচেম্বৰত গৌৰীনাথৰ মৃত্যু"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I led the sepoys to Assam.",
+       "as": "মনত পেলোৱা: মই চিপাহী লৈ অসমলৈ আহিছিলোঁ।"
+      },
+      {
+       "en": "I retook Rangpur in 1794.",
+       "as": "মই ১৭৯৪ চনত ৰংপুৰ পুনৰ ল'লোঁ।"
+      },
+      {
+       "en": "I was recalled the same year.",
+       "as": "একে বছৰতে মোক ঘূৰাই মতা হ'ল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Captain Welsh",
+       "as": "কেপ্তেইন ৱেল্‌চ"
+      },
+      {
+       "en": "David Scott",
+       "as": "ডেভিড স্কট"
+      },
+      {
+       "en": "Lord Cornwallis",
+       "as": "লৰ্ড কৰ্নৱালিছ"
+      },
+      {
+       "en": "Purnananda",
+       "as": "পূৰ্ণানন্দ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Captain Welsh.",
+      "as": "কেপ্তেইন ৱেল্‌চ।"
+     },
+     "id": "gnt.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "The redcoats come.",
+       "as": "ৰঙা কোটৰ আগমন।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "jorhat.webp",
+     "title": {
+      "en": "The last capital",
+      "as": "শেষ ৰাজধানী"
+     },
+     "text": [
+      {
+       "en": "Once Welsh left, Gaurinath dared not stay at Rangpur. In <mark>1794</mark> he moved the court to [[jorhat]], which stayed the <mark>last Ahom capital</mark>. Rangpur fell to the rebels again.",
+       "as": "ৱেল্‌চ যোৱাৰ পিছত গৌৰীনাথে ৰংপুৰত থাকিবলৈ সাহ নকৰিলে। <mark>১৭৯৪</mark> চনত তেওঁ ৰাজসভা [[jorhat]]লৈ নিলে, যি <mark>শেষ আহোম ৰাজধানী</mark> হৈ থাকিল। ৰংপুৰ পুনৰ বিদ্ৰোহীৰ হাতত পৰিল।"
+      },
+      {
+       "en": "Old soldiers were drilled with flintlocks by two of Welsh's sepoy officers: a new standing army.",
+       "as": "ৱেল্‌চৰ দুজন চিপাহী বিষয়াই পুৰণি সৈন্যক ফ্লিণ্টলক বন্দুকেৰে প্ৰশিক্ষণ দিলে: নতুন স্থায়ী সেনা।"
+      }
+     ],
+     "id": "gnt.u4.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Jorhat, the last Ahom capital.",
+      "as": "শেষ আহোম ৰাজধানী যোৰহাট টিপা।"
+     },
+     "target": "jorhat",
+     "choices": [
+      "jorhat",
+      "rangpur",
+      "guwahati",
+      "bengmara"
+     ],
+     "answerText": {
+      "en": "Jorhat",
+      "as": "যোৰহাট"
+     },
+     "why": {
+      "en": "Jorhat, from 1794.",
+      "as": "১৭৯৪ চনৰ পৰা যোৰহাট।"
+     },
+     "id": "gnt.u4.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the Ahom capitals in order.",
+      "as": "আহোম ৰাজধানীবোৰ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Charaideo",
+       "as": "চৰাইদেউ"
+      },
+      {
+       "en": "Garhgaon",
+       "as": "গড়গাঁও"
+      },
+      {
+       "en": "Rangpur",
+       "as": "ৰংপুৰ"
+      },
+      {
+       "en": "Jorhat",
+       "as": "যোৰহাট"
+      }
+     ],
+     "why": {
+      "en": "Charaideo → Garhgaon (1540) → Rangpur (Rudra) → Jorhat (1794).",
+      "as": "চৰাইদেউ → গড়গাঁও (১৫৪০) → ৰংপুৰ (ৰুদ্ৰ) → যোৰহাট (১৭৯৪)।"
+     },
+     "id": "gnt.u4.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember T-W-J",
+      "as": "মনত ৰাখা জো-ৱে-যো"
+     },
+     "text": [
+      {
+       "en": "Gaurinath in three steps: <mark>T</mark>orch-bearers attack (1782), <mark>W</mark>elsh comes (1792), <mark>J</mark>orhat becomes capital (1794). He died in <mark>December 1794</mark>, 'a poor debilitated man', in Welsh's words.",
+       "as": "গৌৰীনাথ তিনিটা খোজত: <mark>জো</mark>ৰ-বোকাৰ আক্ৰমণ (১৭৮২), <mark>ৱে</mark>ল্‌চৰ আগমন (১৭৯২), <mark>যো</mark>ৰহাট ৰাজধানী (১৭৯৪)। <mark>১৭৯৪ চনৰ ডিচেম্বৰত</mark> তেওঁৰ মৃত্যু হয়; ৱেল্‌চৰ ভাষাত 'এজন দুৰ্বল মানুহ'।"
+      }
+     ],
+     "id": "gnt.u4.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Gaurinath",
+       "made",
+       "Garhgaon",
+       "the",
+       "last",
+       "Ahom",
+       "capital."
+      ],
+      "as": [
+       "গৌৰীনাথে",
+       "গড়গাঁৱক",
+       "শেষ",
+       "আহোম",
+       "ৰাজধানী",
+       "কৰিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 2,
+      "as": 1
+     },
+     "fix": {
+      "en": "→ Jorhat",
+      "as": "→ যোৰহাটক"
+     },
+     "answerText": {
+      "en": "Garhgaon → Jorhat",
+      "as": "গড়গাঁও → যোৰহাট"
+     },
+     "why": {
+      "en": "Jorhat, 1794.",
+      "as": "যোৰহাট, ১৭৯৪।"
+     },
+     "id": "gnt.u4.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Gaurinath Singha",
+    "as": "তুমি স্বৰ্গদেউ গৌৰীনাথ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "tf",
+    "s": {
+     "en": "Gaurinath fled to Guwahati during the second Moamoria rising.",
+     "as": "দ্বিতীয় মোৱামৰীয়া বিদ্ৰোহৰ সময়ত গৌৰীনাথ গুৱাহাটীলৈ পলাইছিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "gnt.test.01"
+   },
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I mutilated the princes.",
+      "as": "মই কোঁৱৰসকলক অংগহানি কৰাইছিলোঁ।"
+     },
+     {
+      "en": "I fled to Guwahati.",
+      "as": "মই গুৱাহাটীলৈ পলাইছিলোঁ।"
+     },
+     {
+      "en": "I called in Captain Welsh.",
+      "as": "মই কেপ্তেইন ৱেল্‌চক মাতিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Gaurinath Singha",
+      "as": "গৌৰীনাথ সিংহ"
+     },
+     {
+      "en": "Lakshmi Singha",
+      "as": "লক্ষ্মী সিংহ"
+     },
+     {
+      "en": "Kamaleswar Singha",
+      "as": "কমলেশ্বৰ সিংহ"
+     },
+     {
+      "en": "Chandrakanta Singha",
+      "as": "চন্দ্ৰকান্ত সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Gaurinath Singha.",
+     "as": "গৌৰীনাথ সিংহ।"
+    },
+    "id": "gnt.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Jorhat.",
+     "as": "যোৰহাট টিপা।"
+    },
+    "target": "jorhat",
+    "choices": [
+     "jorhat",
+     "rangpur",
+     "guwahati",
+     "majuli"
+    ],
+    "answerText": {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    "why": {
+     "en": "Jorhat.",
+     "as": "যোৰহাট।"
+    },
+    "id": "gnt.test.03"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows Captain Welsh's expedition?",
+     "as": "কোনখন ছবিত কেপ্তেইন ৱেল্‌চৰ অভিযান দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "welsh.webp",
+     "flight.webp",
+     "jorhat.webp",
+     "harihar.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Welsh's sepoys",
+     "as": "ৱেল্‌চৰ চিপাহী"
+    },
+    "why": {
+     "en": "1792–94.",
+     "as": "১৭৯২–৯৪।"
+    },
+    "id": "gnt.test.04"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Captain Welsh",
+       "as": "কেপ্তেইন ৱেল্‌চ"
+      },
+      {
+       "en": "Sepoys sent by Cornwallis",
+       "as": "কৰ্নৱালিছে পঠোৱা চিপাহী"
+      }
+     ],
+     [
+      {
+       "en": "Purnananda",
+       "as": "পূৰ্ণানন্দ"
+      },
+      {
+       "en": "Stayed and fought",
+       "as": "থাকি যুঁজিলে"
+      }
+     ],
+     [
+      {
+       "en": "Bharat Singha",
+       "as": "ভৰত সিংহ"
+      },
+      {
+       "en": "Rebel king at Rangpur",
+       "as": "ৰংপুৰৰ বিদ্ৰোহী ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Sir John Shore",
+       "as": "চাৰ জন শ্বৰ"
+      },
+      {
+       "en": "Recalled Welsh",
+       "as": "ৱেল্‌চক ঘূৰাই মাতিলে"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Gaurinath's world.",
+     "as": "গৌৰীনাথৰ জগত।"
+    },
+    "id": "gnt.test.05"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put these in order.",
+     "as": "এইবোৰ ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Ragha killed at Bihu",
+      "as": "বিহুত ৰাঘ নিহত"
+     },
+     {
+      "en": "Torch-bearer attack",
+      "as": "জোৰ-বোকাৰ আক্ৰমণ"
+     },
+     {
+      "en": "Welsh retakes Rangpur",
+      "as": "ৱেল্‌চে ৰংপুৰ পুনৰ লয়"
+     },
+     {
+      "en": "Court moves to Jorhat",
+      "as": "যোৰহাটলৈ ৰাজসভা"
+     }
+    ],
+    "why": {
+     "en": "1770 → 1782 → 1794 → 1794.",
+     "as": "১৭৭০ → ১৭৮২ → ১৭৯৪ → ১৭৯৪।"
+    },
+    "id": "gnt.test.06"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the last Ahom capital.",
+     "as": "শেষ আহোম ৰাজধানী সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "J",
+      "O",
+      "R",
+      "H",
+      "A",
+      "T"
+     ],
+     "as": [
+      "যোৰ",
+      "হাট"
+     ]
+    },
+    "answerText": {
+     "en": "JORHAT",
+     "as": "যোৰহাট"
+    },
+    "why": {
+     "en": "Jorhat.",
+     "as": "যোৰহাট।"
+    },
+    "id": "gnt.test.07"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Captain Welsh was sent during Lord Cornwallis's time.<br>2. Rangpur remained the Ahom capital till 1826.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. লৰ্ড কৰ্নৱালিছৰ দিনত কেপ্তেইন ৱেল্‌চক পঠোৱা হৈছিল।<br>২. ১৮২৬ লৈকে ৰংপুৰ আহোম ৰাজধানী আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. The capital moved to Jorhat in 1794.",
+     "as": "কেৱল ১। ১৭৯৪ চনত ৰাজধানী যোৰহাটলৈ গ'ল।"
+    },
+    "small": true,
+    "id": "gnt.test.08"
+   }
+  ]
+ }
+}

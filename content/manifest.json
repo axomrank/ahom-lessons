@@ -1,5 +1,5 @@
 {
- "version": "1067864b77",
+ "version": "5e4ec570ee",
  "courses": [
   {
    "id": "ahom-kings",
@@ -72,6 +72,109 @@
     }
    ]
   },
+  "chandrakanta-singha-2": {
+   "no": 39,
+   "version": 1,
+   "steps": 4,
+   "title": {
+    "en": "Swargadeo Chandrakanta Singha",
+    "as": "স্বৰ্গদেউ চন্দ্ৰকান্ত সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A king on strings",
+      "as": "সুতাৰে বন্ধা ৰজা"
+     },
+     "i": "crown",
+     "ex": 3
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The fight back",
+      "as": "প্ৰতিৰোধ"
+     },
+     "i": "walk",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The last stand",
+      "as": "শেষ যুঁজ"
+     },
+     "i": "moon",
+     "ex": 3
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 7
+    }
+   ]
+  },
+  "chandrakanta-singha": {
+   "no": 37,
+   "version": 1,
+   "steps": 5,
+   "title": {
+    "en": "Swargadeo Chandrakanta Singha",
+    "as": "স্বৰ্গদেউ চন্দ্ৰকান্ত সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A boy king and his friend",
+      "as": "কিশোৰ ৰজা আৰু বন্ধু"
+     },
+     "i": "crown",
+     "ex": 3
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The traitor goes to Ava",
+      "as": "বিশ্বাসঘাতক আভালৈ"
+     },
+     "i": "walk",
+     "ex": 3
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The Burmese arrive",
+      "as": "মানৰ আগমন"
+     },
+     "i": "hill",
+     "ex": 4
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Death at the river",
+      "as": "নদীৰ ঘাটত মৃত্যু"
+     },
+     "i": "moon",
+     "ex": 3
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 7
+    }
+   ]
+  },
   "gadadhar-singha": {
    "no": 29,
    "version": 1,
@@ -134,6 +237,62 @@
      },
      "i": "trophy",
      "ex": 10
+    }
+   ]
+  },
+  "gaurinath-singha": {
+   "no": 35,
+   "version": 1,
+   "steps": 5,
+   "title": {
+    "en": "Swargadeo Gaurinath Singha",
+    "as": "স্বৰ্গদেউ গৌৰীনাথ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A cruel king",
+      "as": "নিষ্ঠুৰ ৰজা"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The king runs",
+      "as": "ৰজা পলায়"
+     },
+     "i": "hill",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The redcoats come",
+      "as": "ৰঙা কোটৰ আগমন"
+     },
+     "i": "walk",
+     "ex": 4
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "A new capital, a sad end",
+      "as": "নতুন ৰাজধানী, দুখৰ অন্ত"
+     },
+     "i": "home",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 8
     }
    ]
   },
@@ -258,6 +417,147 @@
     }
    ]
   },
+  "jogeswar-singha": {
+   "no": 40,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Jogeswar Singha",
+    "as": "স্বৰ্গদেউ যোগেশ্বৰ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "The days of the Burmese",
+      "as": "মানৰ দিন"
+     },
+     "i": "moon",
+     "ex": 3
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The British come, the Burmese go",
+      "as": "ব্ৰিটিছ আহে, মান যায়"
+     },
+     "i": "walk",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 4
+    }
+   ]
+  },
+  "kamaleswar-singha": {
+   "no": 36,
+   "version": 1,
+   "steps": 4,
+   "title": {
+    "en": "Swargadeo Kamaleswar Singha",
+    "as": "স্বৰ্গদেউ কমলেশ্বৰ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "The minister who ruled",
+      "as": "শাসন কৰা মন্ত্ৰী"
+     },
+     "i": "crown",
+     "ex": 3
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Ending the rebellion",
+      "as": "বিদ্ৰোহৰ অন্ত"
+     },
+     "i": "hill",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "Peace, then smallpox",
+      "as": "শান্তি, তাৰ পিছত বসন্ত"
+     },
+     "i": "star",
+     "ex": 3
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 5
+    }
+   ]
+  },
+  "lakshmi-singha": {
+   "no": 34,
+   "version": 1,
+   "steps": 5,
+   "title": {
+    "en": "Swargadeo Lakshmi Singha",
+    "as": "স্বৰ্গদেউ লক্ষ্মী সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "An old king, an angry people",
+      "as": "বুঢ়া ৰজা, ক্ষুব্ধ প্ৰজা"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "The rebels take the capital",
+      "as": "বিদ্ৰোহীৰ হাতত ৰাজধানী"
+     },
+     "i": "hill",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The queen's blow",
+      "as": "ৰাণীৰ আঘাত"
+     },
+     "i": "star",
+     "ex": 5
+    },
+    {
+     "id": "u4",
+     "t": {
+      "en": "Revenge and a fragile peace",
+      "as": "প্ৰতিশোধ আৰু ভংগুৰ শান্তি"
+     },
+     "i": "moon",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 7
+    }
+   ]
+  },
   "pramatta-singha": {
    "no": 32,
    "version": 1,
@@ -376,6 +676,91 @@
      },
      "i": "trophy",
      "ex": 10
+    }
+   ]
+  },
+  "purandar-singha-2": {
+   "no": 41,
+   "version": 1,
+   "steps": 4,
+   "title": {
+    "en": "Swargadeo Purandar Singha",
+    "as": "স্বৰ্গদেউ পুৰন্দৰ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "Revolts against the new masters",
+      "as": "নতুন প্ৰভুৰ বিৰুদ্ধে বিদ্ৰোহ"
+     },
+     "i": "hill",
+     "ex": 3
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "A king again, on terms",
+      "as": "চৰ্তসাপেক্ষে পুনৰ ৰজা"
+     },
+     "i": "crown",
+     "ex": 4
+    },
+    {
+     "id": "u3",
+     "t": {
+      "en": "The end of six hundred years",
+      "as": "ছশ বছৰৰ অন্ত"
+     },
+     "i": "moon",
+     "ex": 3
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 7
+    }
+   ]
+  },
+  "purandar-singha": {
+   "no": 38,
+   "version": 1,
+   "steps": 3,
+   "title": {
+    "en": "Swargadeo Purandar Singha",
+    "as": "স্বৰ্গদেউ পুৰন্দৰ সিংহ"
+   },
+   "units": [
+    {
+     "id": "u1",
+     "t": {
+      "en": "A king made by a slit ear",
+      "as": "কাণ কটাৰে পতা ৰজা"
+     },
+     "i": "crown",
+     "ex": 3
+    },
+    {
+     "id": "u2",
+     "t": {
+      "en": "Ala Mingi's army",
+      "as": "আলা মিংগিৰ সৈন্য"
+     },
+     "i": "hill",
+     "ex": 4
+    },
+    {
+     "id": "test",
+     "t": {
+      "en": "Lesson test",
+      "as": "পাঠৰ পৰীক্ষা"
+     },
+     "i": "trophy",
+     "ex": 5
     }
    ]
   },

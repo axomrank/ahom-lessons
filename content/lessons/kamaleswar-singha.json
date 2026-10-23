@@ -1,0 +1,744 @@
+{
+ "id": "kamaleswar-singha",
+ "no": 36,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Kamaleswar Singha",
+  "as": "স্বৰ্গদেউ কমলেশ্বৰ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1795–1811",
+  "as": "ৰাজত্বকাল ১৭৯৫–১৮১১"
+ },
+ "portrait": "kamaleswar-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VIII, pp. 211–220",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Burha Gohain conceals Gaurinath's death, kills the Bar Barua, installs Kinaram (Kamalesvar, Suklingpha), descendant of Gadadhar; Burha Gohain rules; standing army; Dumdumiya rising in Kamrup; Daflas and Moamarias beaten; Bharathi Raja killed 1799; Khamtis beaten 1800; Kachari war 1803–05; Moran Moamarias of Bengmara submit, chief made Bar Senapati; peace; smallpox 1810; Bhogdoi dug at Jorhat; Hannay: 'protector and regenerator of his country'"
+  },
+  {
+   "title": "AHOM catalogue (scene rows), /AHOM/data/ahom.csv",
+   "url": "https://en.wikipedia.org/wiki/Purnananda_Burhagohain",
+   "used_for": "Scenes AHOM-213, 269, 271; Matak settlement 1805"
+  }
+ ],
+ "review_notes": "Gait gives the king's death in the 1810 smallpox epidemic; the course list says 1795–1811. The lesson keeps 1811 for the reign's end and says smallpox killed him.",
+ "buildsOn": {
+  "no": 35,
+  "title": {
+   "en": "Gaurinath Singha",
+   "as": "গৌৰীনাথ সিংহ"
+  },
+  "id": "gaurinath-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1795",
+    "t": {
+     "en": "Kinaram crowned as Kamaleswar",
+     "as": "কিনাৰাম কমলেশ্বৰ নামেৰে ৰজা"
+    }
+   },
+   {
+    "y": "1799",
+    "t": {
+     "en": "Last Moamoria leader in the east killed",
+     "as": "পূবৰ শেষ মোৱামৰীয়া নেতা নিহত"
+    }
+   },
+   {
+    "y": "1805",
+    "t": {
+     "en": "Matak autonomy; Moamoria war ends",
+     "as": "মটক স্বায়ত্তশাসন; মোৱামৰীয়া যুদ্ধৰ অন্ত"
+    }
+   },
+   {
+    "y": "1811",
+    "t": {
+     "en": "Dies of smallpox",
+     "as": "বসন্তত মৃত্যু"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.4,
+   26.2,
+   95.8,
+   27.6
+  ],
+  "show": [
+   "brahmaputra",
+   "rangpur",
+   "garhgaon",
+   "jorhat",
+   "majuli",
+   "bengmara",
+   "guwahati"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "rangpur": {
+    "pos": "e"
+   },
+   "garhgaon": {
+    "pos": "s"
+   },
+   "jorhat": {
+    "pos": "w"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "bengmara": {
+    "pos": "n"
+   },
+   "brahmaputra": {
+    "at": [
+     26.85,
+     93.7
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "The minister who ruled",
+    "as": "শাসন কৰা মন্ত্ৰী"
+   },
+   "learned": [
+    {
+     "en": "Purnananda hid Gaurinath's death and removed his rival",
+     "as": "পূৰ্ণানন্দই গৌৰীনাথৰ মৃত্যু লুকুৱাই প্ৰতিদ্বন্দ্বীক আঁতৰালে"
+    },
+    {
+     "en": "He crowned the boy Kinaram as Kamaleswar Singha (1795)",
+     "as": "তেওঁ কিশোৰ কিনাৰামক কমলেশ্বৰ সিংহ নামেৰে ৰজা পাতিলে (১৭৯৫)"
+    },
+    {
+     "en": "The king was a puppet; Purnananda ruled from Jorhat",
+     "as": "ৰজা পুতলা; পূৰ্ণানন্দই যোৰহাটৰ পৰা শাসন কৰিলে"
+    },
+    {
+     "en": "He grew the standing army of drilled sepoys",
+     "as": "তেওঁ প্ৰশিক্ষিত চিপাহীৰ স্থায়ী সেনা বঢ়ালে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "regency.webp",
+     "title": {
+      "en": "A death kept secret",
+      "as": "গোপন ৰখা মৃত্যু"
+     },
+     "text": [
+      {
+       "en": "When Gaurinath died, [[purnananda]] Burhagohain kept it secret. Using the dead king's name, he called his rival the Borbarua to the palace, and had him killed.",
+       "as": "গৌৰীনাথৰ মৃত্যুৰ পিছত [[purnananda]] বুঢ়াগোহাঁইয়ে কথাটো গোপন ৰাখিলে। মৃত ৰজাৰ নাম লৈ তেওঁ প্ৰতিদ্বন্দ্বী বৰবৰুৱাক ৰাজপ্ৰসাদলৈ মাতি হত্যা কৰালে।"
+      },
+      {
+       "en": "Then he crowned a boy, Kinaram, a descendant of Gadadhar Singha, as [[kamaleswar-singha]] (Suklingphaa).",
+       "as": "তাৰ পিছত তেওঁ গদাধৰ সিংহৰ বংশধৰ কিশোৰ কিনাৰামক [[kamaleswar-singha]] (চুক্লিংফা) নামেৰে অভিষেক কৰিলে।"
+      }
+     ],
+     "id": "kml.u1.01",
+     "link": {
+      "lesson": 35,
+      "lessonId": "gaurinath-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The king runs",
+       "as": "ৰজা পলায়"
+      },
+      "note": {
+       "en": "Purnananda had stayed and fought when Gaurinath fled.",
+       "as": "গৌৰীনাথ পলাওঁতে পূৰ্ণানন্দ থাকি যুঁজিছিল।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was crowned as a boy.",
+       "as": "মই কিশোৰ অৱস্থাত অভিষিক্ত।"
+      },
+      {
+       "en": "My birth name was Kinaram.",
+       "as": "মোৰ জন্মৰ নাম কিনাৰাম।"
+      },
+      {
+       "en": "Purnananda ruled in my name.",
+       "as": "পূৰ্ণানন্দই মোৰ নামত শাসন কৰিছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Kamaleswar Singha",
+       "as": "কমলেশ্বৰ সিংহ"
+      },
+      {
+       "en": "Chandrakanta Singha",
+       "as": "চন্দ্ৰকান্ত সিংহ"
+      },
+      {
+       "en": "Purandar Singha",
+       "as": "পুৰন্দৰ সিংহ"
+      },
+      {
+       "en": "Jogeswar Singha",
+       "as": "যোগেশ্বৰ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Kamaleswar Singha.",
+      "as": "কমলেশ্বৰ সিংহ।"
+     },
+     "id": "kml.u1.02"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Kamaleswar Singha ruled the kingdom himself.",
+      "as": "কমলেশ্বৰ সিংহই নিজেই ৰাজ্য শাসন কৰিছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Purnananda Burhagohain ruled; the king was a puppet.",
+      "as": "অশুদ্ধ। পূৰ্ণানন্দ বুঢ়াগোহাঁইয়ে শাসন কৰিছিল; ৰজা পুতলা।"
+     },
+     "id": "kml.u1.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A new army",
+      "as": "নতুন সেনা"
+     },
+     "text": [
+      {
+       "en": "Purnananda kept and grew the <mark>standing army</mark>: paid soldiers in uniform with flintlocks, instead of farmers called up for war. Even the satras were asked to help pay for it.",
+       "as": "পূৰ্ণানন্দই <mark>স্থায়ী সেনা</mark> ৰাখিলে আৰু বঢ়ালে: যুদ্ধৰ সময়ত মতা খেতিয়কৰ সলনি ইউনিফৰ্ম আৰু ফ্লিণ্টলক থকা দৰমহা পোৱা সৈন্য। সত্ৰবোৰকো ইয়াৰ খৰচ দিবলৈ কোৱা হ'ল।"
+      }
+     ],
+     "id": "kml.u1.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which was NOT part of Purnananda's new army?",
+      "as": "কোনটো পূৰ্ণানন্দৰ নতুন সেনাৰ অংশ নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Uniforms",
+       "as": "ইউনিফৰ্ম"
+      },
+      {
+       "en": "Flintlock guns",
+       "as": "ফ্লিণ্টলক বন্দুক"
+      },
+      {
+       "en": "Regular pay",
+       "as": "নিয়মীয়া দৰমহা"
+      },
+      {
+       "en": "War elephants only",
+       "as": "কেৱল যুদ্ধৰ হাতী"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "It was modelled on the Company's sepoys.",
+      "as": "ই কোম্পানীৰ চিপাহীৰ আৰ্হিত গঢ়া।"
+     },
+     "id": "kml.u1.05"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "hill",
+   "title": {
+    "en": "Ending the rebellion",
+    "as": "বিদ্ৰোহৰ অন্ত"
+   },
+   "learned": [
+    {
+     "en": "Purnananda beat Moamoria, Dafla and Kachari risings one by one",
+     "as": "পূৰ্ণানন্দই মোৱামৰীয়া, ডফলা আৰু কছাৰী বিদ্ৰোহ এটা এটাকৈ দমন কৰিলে"
+    },
+    {
+     "en": "The Moran leader Sarbananda ruled from Bengmara",
+     "as": "মৰাণ নেতা চৰ্বানন্দই বেংমৰাৰ পৰা শাসন কৰিছিল"
+    },
+    {
+     "en": "In 1805 he was made Barsenapati of an autonomous Matak land",
+     "as": "১৮০৫ চনত তেওঁক স্বায়ত্তশাসিত মটকৰ বৰসেনাপতি কৰা হ'ল"
+    },
+    {
+     "en": "Mercy to those who submitted brought peace",
+     "as": "বশ্যতা মনাসকলক ক্ষমা কৰাত শান্তি আহিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Kamaleswar's birth name was Kinaram.",
+      "as": "মনত পেলোৱা: কমলেশ্বৰৰ জন্মৰ নাম কিনাৰাম।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "kml.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The minister who ruled.",
+       "as": "শাসন কৰা মন্ত্ৰী।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "bengmara.webp",
+     "title": {
+      "en": "A rival king at Bengmara",
+      "as": "বেংমৰাৰ প্ৰতিদ্বন্দ্বী ৰজা"
+     },
+     "text": [
+      {
+       "en": "East of the Dibru, the Moran leader <mark>Sarbananda Singha</mark> called himself king and ruled from [[bengmara]], today's Tinsukia.",
+       "as": "ডিব্ৰুৰ পূবে মৰাণ নেতা <mark>চৰ্বানন্দ সিংহই</mark> নিজকে ৰজা বুলি [[bengmara]]ৰ পৰা, আজিৰ তিনিচুকীয়াৰ পৰা, শাসন কৰিছিল।"
+      }
+     ],
+     "id": "kml.u2.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Bengmara, Sarbananda's capital.",
+      "as": "চৰ্বানন্দৰ ৰাজধানী বেংমৰা টিপা।"
+     },
+     "target": "bengmara",
+     "choices": [
+      "bengmara",
+      "jorhat",
+      "rangpur",
+      "majuli"
+     ],
+     "answerText": {
+      "en": "Bengmara",
+      "as": "বেংমৰা"
+     },
+     "why": {
+      "en": "Bengmara, today's Tinsukia.",
+      "as": "বেংমৰা, আজিৰ তিনিচুকীয়া।"
+     },
+     "id": "kml.u2.03"
+    },
+    {
+     "type": "story",
+     "img": "matak.webp",
+     "title": {
+      "en": "A deal, not a war",
+      "as": "যুদ্ধ নহয়, বুজাবুজি"
+     },
+     "text": [
+      {
+       "en": "In <mark>1805</mark> Purnananda made peace: Sarbananda became <mark>Barsenapati</mark> of the [[matak]], ruling his own people and paying tribute. The long Moamoria war was over.",
+       "as": "<mark>১৮০৫</mark> চনত পূৰ্ণানন্দই শান্তি স্থাপন কৰিলে: চৰ্বানন্দ [[matak]]ৰ <mark>বৰসেনাপতি</mark> হ'ল, নিজৰ মানুহক শাসন কৰি কৰ দিব। দীঘলীয়া মোৱামৰীয়া যুদ্ধৰ অন্ত পৰিল।"
+      }
+     ],
+     "id": "kml.u2.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble Sarbananda's title.",
+      "as": "চৰ্বানন্দৰ উপাধি সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "B",
+       "A",
+       "R",
+       "S",
+       "E",
+       "N",
+       "A",
+       "P",
+       "A",
+       "T",
+       "I"
+      ],
+      "as": [
+       "বৰ",
+       "সে",
+       "না",
+       "পতি"
+      ]
+     },
+     "answerText": {
+      "en": "BARSENAPATI",
+      "as": "বৰসেনাপতি"
+     },
+     "why": {
+      "en": "Barsenapati, 'chief commander'.",
+      "as": "বৰসেনাপতি, 'প্ৰধান সেনাপতি'।"
+     },
+     "id": "kml.u2.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the Moamoria story in order.",
+      "as": "মোৱামৰীয়া কাহিনী ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "First rising (1769)",
+       "as": "প্ৰথম বিদ্ৰোহ (১৭৬৯)"
+      },
+      {
+       "en": "Second rising (1786)",
+       "as": "দ্বিতীয় বিদ্ৰোহ (১৭৮৬)"
+      },
+      {
+       "en": "Welsh retakes Rangpur (1794)",
+       "as": "ৱেল্‌চে ৰংপুৰ লয় (১৭৯৪)"
+      },
+      {
+       "en": "Matak settlement (1805)",
+       "as": "মটক বুজাবুজি (১৮০৫)"
+      }
+     ],
+     "why": {
+      "en": "36 years from revolt to settlement.",
+      "as": "বিদ্ৰোহৰ পৰা বুজাবুজিলৈ ৩৬ বছৰ।"
+     },
+     "id": "kml.u2.06"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "star",
+   "title": {
+    "en": "Peace, then smallpox",
+    "as": "শান্তি, তাৰ পিছত বসন্ত"
+   },
+   "learned": [
+    {
+     "en": "The country had peace and grew fairly prosperous again",
+     "as": "দেশত শান্তি আহিল আৰু পুনৰ সমৃদ্ধ হ'ল"
+    },
+    {
+     "en": "Purnananda rebuilt Rangpur and improved Jorhat (the Bhogdoi)",
+     "as": "পূৰ্ণানন্দই ৰংপুৰ পুনৰ গঢ়িলে আৰু যোৰহাট উন্নত কৰিলে (ভোগদৈ)"
+    },
+    {
+     "en": "Kamaleswar died of smallpox",
+     "as": "বসন্ত ৰোগত কমলেশ্বৰৰ মৃত্যু হ'ল"
+    },
+    {
+     "en": "Hannay called Purnananda 'protector and regenerator of his country'",
+     "as": "হেনেই পূৰ্ণানন্দক 'দেশৰ ৰক্ষক আৰু পুনৰুজ্জীৱক' বুলিছিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "match",
+     "q": {
+      "en": "Warm-up: match.",
+      "as": "মনত পেলোৱা: মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Sarbananda",
+        "as": "চৰ্বানন্দ"
+       },
+       {
+        "en": "Barsenapati of Matak",
+        "as": "মটকৰ বৰসেনাপতি"
+       }
+      ],
+      [
+       {
+        "en": "Bengmara",
+        "as": "বেংমৰা"
+       },
+       {
+        "en": "His capital",
+        "as": "তেওঁৰ ৰাজধানী"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Recall.",
+      "as": "মনত পেলোৱা।"
+     },
+     "id": "kml.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "Ending the rebellion.",
+       "as": "বিদ্ৰোহৰ অন্ত।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Quiet years",
+      "as": "শান্ত বছৰ"
+     },
+     "text": [
+      {
+       "en": "For the rest of the reign the land was at peace. Purnananda rebuilt Rangpur, and at Jorhat had the <mark>Bhogdoi</mark> channel dug for water.",
+       "as": "ৰাজত্বৰ বাকী সময় দেশত শান্তি আছিল। পূৰ্ণানন্দই ৰংপুৰ পুনৰ গঢ়িলে, আৰু যোৰহাটত পানীৰ বাবে <mark>ভোগদৈ</mark> খন্দালে।"
+      },
+      {
+       "en": "Then smallpox swept the country, and the young king <mark>died of it</mark>.",
+       "as": "তাৰ পিছত বসন্ত ৰোগে দেশ ছানি ধৰিলে, আৰু ডেকা ৰজাৰ <mark>তাতেই মৃত্যু হ'ল</mark>।"
+      }
+     ],
+     "id": "kml.u3.02"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Credit for the peace belongs mainly to the king, says Gait.",
+      "as": "গেইটৰ মতে শান্তিৰ কৃতিত্ব মূলতঃ ৰজাৰ।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. Gait gives it to Purnananda; the king was 'a mere puppet'.",
+      "as": "অশুদ্ধ। গেইটে পূৰ্ণানন্দক দিয়ে; ৰজা 'কেৱল পুতলা'।"
+     },
+     "id": "kml.u3.03"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember K-P-M",
+      "as": "মনত ৰাখা কি-পূ-ম"
+     },
+     "text": [
+      {
+       "en": "Kamaleswar in three letters: <mark>K</mark>inaram crowned as a boy, <mark>P</mark>urnananda rules, <mark>M</mark>atak settlement (1805).",
+       "as": "কমলেশ্বৰ তিনিটা আখৰত: কিশোৰ <mark>কি</mark>নাৰামৰ অভিষেক, <mark>পূ</mark>ৰ্ণানন্দৰ শাসন, <mark>ম</mark>টক বুজাবুজি (১৮০৫)।"
+      }
+     ],
+     "id": "kml.u3.04"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I hid a king's death.",
+       "as": "মই এজন ৰজাৰ মৃত্যু লুকুৱাইছিলোঁ।"
+      },
+      {
+       "en": "I made peace with the Matak.",
+       "as": "মই মটকৰ সৈতে শান্তি কৰিছিলোঁ।"
+      },
+      {
+       "en": "I was called the regenerator of my country.",
+       "as": "মোক দেশৰ পুনৰুজ্জীৱক বোলা হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Purnananda",
+       "as": "পূৰ্ণানন্দ"
+      },
+      {
+       "en": "Kamaleswar",
+       "as": "কমলেশ্বৰ"
+      },
+      {
+       "en": "Badan Chandra",
+       "as": "বদনচন্দ্ৰ"
+      },
+      {
+       "en": "Captain Welsh",
+       "as": "কেপ্তেইন ৱেল্‌চ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Purnananda Burhagohain.",
+      "as": "পূৰ্ণানন্দ বুঢ়াগোহাঁই।"
+     },
+     "id": "kml.u3.05"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Kamaleswar Singha",
+    "as": "তুমি স্বৰ্গদেউ কমলেশ্বৰ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was a puppet king.",
+      "as": "মই পুতলা ৰজা।"
+     },
+     {
+      "en": "Smallpox killed me.",
+      "as": "বসন্তত মোৰ মৃত্যু।"
+     },
+     {
+      "en": "My brother Chandrakanta followed me.",
+      "as": "মোৰ পিছত ভাই চন্দ্ৰকান্ত ৰজা হ'ল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Kamaleswar Singha",
+      "as": "কমলেশ্বৰ সিংহ"
+     },
+     {
+      "en": "Gaurinath Singha",
+      "as": "গৌৰীনাথ সিংহ"
+     },
+     {
+      "en": "Lakshmi Singha",
+      "as": "লক্ষ্মী সিংহ"
+     },
+     {
+      "en": "Purandar Singha",
+      "as": "পুৰন্দৰ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Kamaleswar Singha.",
+     "as": "কমলেশ্বৰ সিংহ।"
+    },
+    "id": "kml.test.01"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the Matak settlement?",
+     "as": "কোনখন ছবিত মটক বুজাবুজি দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "matak.webp",
+     "bengmara.webp",
+     "regency.webp",
+     "kamaleswar-singha-portrait.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Matak, 1805",
+     "as": "মটক, ১৮০৫"
+    },
+    "why": {
+     "en": "Sarbananda made Barsenapati.",
+     "as": "চৰ্বানন্দ বৰসেনাপতি।"
+    },
+    "id": "kml.test.02"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Bengmara.",
+     "as": "বেংমৰা টিপা।"
+    },
+    "target": "bengmara",
+    "choices": [
+     "bengmara",
+     "jorhat",
+     "rangpur",
+     "majuli"
+    ],
+    "answerText": {
+     "en": "Bengmara",
+     "as": "বেংমৰা"
+    },
+    "why": {
+     "en": "Bengmara.",
+     "as": "বেংমৰা।"
+    },
+    "id": "kml.test.03"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The Moamoria war ended with the Matak settlement of 1805.",
+     "as": "১৮০৫ চনৰ মটক বুজাবুজিৰে মোৱামৰীয়া যুদ্ধৰ অন্ত পৰিল।"
+    },
+    "answer": true,
+    "why": {
+     "en": "True.",
+     "as": "শুদ্ধ।"
+    },
+    "id": "kml.test.04"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Purnananda Burhagohain raised a standing army of drilled soldiers.<br>2. Kamaleswar Singha was killed by the Burmese.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. পূৰ্ণানন্দ বুঢ়াগোহাঁইয়ে প্ৰশিক্ষিত সৈন্যৰ স্থায়ী সেনা গঢ়িছিল।<br>২. কমলেশ্বৰ সিংহ মানৰ হাতত নিহত হৈছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Kamaleswar died of smallpox; the Burmese came later.",
+     "as": "কেৱল ১। কমলেশ্বৰৰ বসন্তত মৃত্যু; মান পিছতহে আহিছিল।"
+    },
+    "small": true,
+    "id": "kml.test.05"
+   }
+  ]
+ }
+}

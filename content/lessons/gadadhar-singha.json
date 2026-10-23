@@ -1149,35 +1149,16 @@
      "id": "gds.u5.04"
     },
     {
-     "type": "mcq",
-     "q": {
-      "en": "Consider the statements:<br>1. Gadadhar Singha drove the Mughals beyond the Manas.<br>2. Gadadhar Singha was a disciple of the Auniati Gosain.<br>Which is/are correct?",
-      "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. গদাধৰ সিংহই মোগলক মানাহৰ সিপাৰলৈ খেদিছিল।<br>২. গদাধৰ সিংহ আউনীআটী গোঁসাইৰ শিষ্য আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+     "type": "tf",
+     "s": {
+      "en": "Gadadhar Singha was a disciple of the Auniati Gosain.",
+      "as": "গদাধৰ সিংহ আউনীআটী গোঁসাইৰ শিষ্য আছিল।"
      },
-     "options": [
-      {
-       "en": "1 only",
-       "as": "কেৱল ১"
-      },
-      {
-       "en": "2 only",
-       "as": "কেৱল ২"
-      },
-      {
-       "en": "Both 1 and 2",
-       "as": "১ আৰু ২ দুয়োটা"
-      },
-      {
-       "en": "Neither 1 nor 2",
-       "as": "১ বা ২ কোনোটো নহয়"
-      }
-     ],
-     "answer": 0,
+     "answer": false,
      "why": {
-      "en": "Only 1. He persecuted the gosains; his son Rudra later made the Auniati Gosain his guru.",
-      "as": "কেৱল ১। তেওঁ গোঁসাইক নিৰ্যাতন কৰিছিল; পুত্ৰ ৰুদ্ৰই পিছত আউনীআটী গোঁসাইক গুৰু পাতিছিল।"
+      "en": "False. He persecuted the gosains; his son Rudra later made the Auniati Gosain his guru.",
+      "as": "অশুদ্ধ। তেওঁ গোঁসাইক নিৰ্যাতন কৰিছিল; পুত্ৰ ৰুদ্ৰই পিছত আউনীআটী গোঁসাইক গুৰু পাতিছিল।"
      },
-     "small": true,
      "id": "gds.u5.05"
     },
     {

@@ -758,7 +758,8 @@
      "en": "Brother of Rajeswar Singha",
      "as": "ৰাজেশ্বৰ সিংহৰ ভাই"
     }
-   }
+   },
+   "lesson": "lakshmi-singha"
   },
   {
    "n": 35,
@@ -778,7 +779,8 @@
      "en": "Son of Lakshmi Singha",
      "as": "লক্ষ্মী সিংহৰ পুত্ৰ"
     }
-   }
+   },
+   "lesson": "gaurinath-singha"
   },
   {
    "n": 36,
@@ -798,7 +800,8 @@
      "en": "Placed on the throne as an infant",
      "as": "শিশু অৱস্থাত সিংহাসনত বহুওৱা"
     }
-   }
+   },
+   "lesson": "kamaleswar-singha"
   },
   {
    "n": 37,
@@ -818,7 +821,8 @@
      "en": "Brother of Kamaleswar Singha",
      "as": "কমলেশ্বৰ সিংহৰ ভাই"
     }
-   }
+   },
+   "lesson": "chandrakanta-singha"
   },
   {
    "n": 38,
@@ -838,7 +842,8 @@
      "en": "Installed by Ruchinath Burhagohain",
      "as": "ৰুচিনাথ বুঢ়াগোহাঁইয়ে বহুওৱা"
     }
-   }
+   },
+   "lesson": "purandar-singha"
   },
   {
    "n": 39,
@@ -858,7 +863,8 @@
      "en": "Brother of Kamaleswar Singha",
      "as": "কমলেশ্বৰ সিংহৰ ভাই"
     }
-   }
+   },
+   "lesson": "chandrakanta-singha-2"
   },
   {
    "n": 40,
@@ -877,7 +883,8 @@
      "en": "Puppet king of the Burmese",
      "as": "মানৰ পুতলা ৰজা"
     }
-   }
+   },
+   "lesson": "jogeswar-singha"
   },
   {
    "n": 41,
@@ -897,7 +904,8 @@
      "en": "Installed by Ruchinath Burhagohain",
      "as": "ৰুচিনাথ বুঢ়াগোহাঁইয়ে বহুওৱা"
     }
-   }
+   },
+   "lesson": "purandar-singha-2"
   }
  ]
 }

@@ -1,0 +1,641 @@
+{
+ "id": "jogeswar-singha",
+ "no": 40,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Jogeswar Singha",
+  "as": "স্বৰ্গদেউ যোগেশ্বৰ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1821–1822",
+  "as": "ৰাজত্বকাল ১৮২১–১৮২২"
+ },
+ "portrait": "jogeswar-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VIII–IX, pp. 225–229",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Jogesvar set up by the Burmese after Chandrakant's flight; Burmese oppressions and massacres (Butler's account); marauders disguised as Burmese; people flee to the hills, Jaintia and Manipur; a new Burmese governor improves matters; First Burmese War and expulsion"
+  },
+  {
+   "title": "Jogeswar Singha",
+   "url": "https://en.wikipedia.org/wiki/Jogeswar_Singha",
+   "used_for": "Brother of Hemo Aideo; puppet king 1821–22"
+  },
+  {
+   "title": "Treaty of Yandabo",
+   "url": "https://en.wikipedia.org/wiki/Treaty_of_Yandabo",
+   "used_for": "24 February 1826; Burma renounces Assam, Manipur, Cachar and Jaintia"
+  },
+  {
+   "title": "AHOM catalogue (scene rows), /AHOM/data/ahom.csv",
+   "url": "https://en.wikipedia.org/wiki/First_Anglo-Burmese_War",
+   "used_for": "Scenes AHOM-223, 224, 225, 228; Rangpur surrender, January 1825"
+  }
+ ],
+ "review_notes": "Jogeswar's family link to Hemo Aideo follows Wikipedia. Atrocities are described in general terms suitable for school learners; Gait quotes Butler's detailed account.",
+ "buildsOn": {
+  "no": 39,
+  "title": {
+   "en": "Chandrakanta Singha",
+   "as": "চন্দ্ৰকান্ত সিংহ"
+  },
+  "id": "chandrakanta-singha-2"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1821",
+    "t": {
+     "en": "Set up by the Burmese",
+     "as": "মানে পাতে"
+    }
+   },
+   {
+    "y": "1824",
+    "t": {
+     "en": "British declare war on Burma",
+     "as": "ব্ৰিটিছে বাৰ্মাৰ বিৰুদ্ধে যুদ্ধ ঘোষণা কৰে"
+    }
+   },
+   {
+    "y": "1825",
+    "t": {
+     "en": "Burmese surrender at Rangpur",
+     "as": "ৰংপুৰত মানৰ আত্মসমৰ্পণ"
+    }
+   },
+   {
+    "y": "1826",
+    "t": {
+     "en": "Treaty of Yandabo",
+     "as": "ইয়াণ্ডাবু সন্ধি"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.6,
+   25.6,
+   95.8,
+   27.8
+  ],
+  "show": [
+   "brahmaputra",
+   "guwahati",
+   "jorhat",
+   "rangpur",
+   "nazira",
+   "majuli"
+  ],
+  "routes": [
+   [
+    "guwahati",
+    [
+     26.6,
+     93.4
+    ],
+    "jorhat",
+    "rangpur"
+   ]
+  ],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "jorhat": {
+    "pos": "w"
+   },
+   "rangpur": {
+    "pos": "n"
+   },
+   "nazira": {
+    "pos": "e"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "brahmaputra": {
+    "at": [
+     26.35,
+     91.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "moon",
+   "title": {
+    "en": "The days of the Burmese",
+    "as": "মানৰ দিন"
+   },
+   "learned": [
+    {
+     "en": "The Burmese set up Jogeswar Singha as a powerless king",
+     "as": "মানে যোগেশ্বৰ সিংহক ক্ষমতাহীন ৰজা পাতিলে"
+    },
+    {
+     "en": "His sister Hemo Aideo had been sent to the Burmese king's court",
+     "as": "তেওঁৰ ভনী হেমো আইদেউক মান ৰজাৰ ওচৰলৈ পঠোৱা হৈছিল"
+    },
+    {
+     "en": "Burmese troops looted, burnt and killed across Assam",
+     "as": "মান সৈন্যই সমগ্ৰ অসমত লুট, জুই আৰু হত্যা চলালে"
+    },
+    {
+     "en": "Thousands fled to the hills, Jaintia and Manipur",
+     "as": "হাজাৰ হাজাৰ মানুহ পাহাৰ, জয়ন্তীয়া আৰু মণিপুৰলৈ পলাল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "manor-din.webp",
+     "title": {
+      "en": "A king who was not a king",
+      "as": "ৰজা নোহোৱা ৰজা"
+     },
+     "text": [
+      {
+       "en": "When Chandrakanta fled, the Burmese crowned [[jogeswar-singha]]. His sister, <mark>Hemo Aideo</mark>, had earlier been sent to the Burmese king. Jogeswar held no power at all.",
+       "as": "চন্দ্ৰকান্ত পলোৱাৰ পিছত মানে [[jogeswar-singha]]ক ৰজা পাতিলে। তেওঁৰ ভনী <mark>হেমো আইদেউ</mark>ক আগতেই মান ৰজাৰ ওচৰলৈ পঠোৱা হৈছিল। যোগেশ্বৰৰ অকণো ক্ষমতা নাছিল।"
+      }
+     ],
+     "id": "jgs.u1.01",
+     "link": {
+      "lesson": 39,
+      "lessonId": "chandrakanta-singha-2",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "A king on strings",
+       "as": "সুতাৰে বন্ধা ৰজা"
+      },
+      "note": {
+       "en": "Chandrakanta fled the Burmese in 1821.",
+       "as": "১৮২১ চনত চন্দ্ৰকান্ত মানৰ পৰা পলাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "The Burmese crowned me.",
+       "as": "মানে মোক ৰজা পাতিছিল।"
+      },
+      {
+       "en": "My sister was sent to Burma.",
+       "as": "মোৰ ভনীক বাৰ্মালৈ পঠোৱা হৈছিল।"
+      },
+      {
+       "en": "I had no power at all.",
+       "as": "মোৰ অকণো ক্ষমতা নাছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Jogeswar Singha",
+       "as": "যোগেশ্বৰ সিংহ"
+      },
+      {
+       "en": "Chandrakanta Singha",
+       "as": "চন্দ্ৰকান্ত সিংহ"
+      },
+      {
+       "en": "Purandar Singha",
+       "as": "পুৰন্দৰ সিংহ"
+      },
+      {
+       "en": "Bharat Singha",
+       "as": "ভৰত সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Jogeswar Singha.",
+      "as": "যোগেশ্বৰ সিংহ।"
+     },
+     "id": "jgs.u1.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Manor Din",
+      "as": "মানৰ দিন"
+     },
+     "text": [
+      {
+       "en": "These were the darkest years. Burmese soldiers robbed, burnt villages and temples, and killed without cause. Bandits disguised as Burmese did even worse. People fled to the hills, to Jaintia and Manipur, or fought back as guerrillas.",
+       "as": "এয়া আছিল আটাইতকৈ আন্ধাৰ বছৰ। মান সৈন্যই লুট কৰিলে, গাঁও আৰু মন্দিৰ জ্বলালে, অকাৰণে হত্যা কৰিলে। মানৰ ছদ্মবেশত ডকাইতে আৰু বেয়া কৰিলে। মানুহ পাহাৰ, জয়ন্তীয়া, মণিপুৰলৈ পলাল, বা গুপ্ত যুঁজ দিলে।"
+      },
+      {
+       "en": "Assamese memory still calls them the [[manor-din]].",
+       "as": "অসমীয়াৰ স্মৃতিত ইয়াক আজিও [[manor-din]] বোলা হয়।"
+      }
+     ],
+     "id": "jgs.u1.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Many Assamese fled to the hills and neighbouring kingdoms during the Manor Din.",
+      "as": "মানৰ দিনত বহু অসমীয়া পাহাৰ আৰু ওচৰৰ ৰাজ্যলৈ পলাইছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "jgs.u1.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the name of Jogeswar's sister.",
+      "as": "যোগেশ্বৰৰ ভনীৰ নাম সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "H",
+       "E",
+       "M",
+       "O"
+      ],
+      "as": [
+       "হে",
+       "মো"
+      ]
+     },
+     "answerText": {
+      "en": "HEMO",
+      "as": "হেমো"
+     },
+     "why": {
+      "en": "Hemo Aideo.",
+      "as": "হেমো আইদেউ।"
+     },
+     "id": "jgs.u1.05"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "walk",
+   "title": {
+    "en": "The British come, the Burmese go",
+    "as": "ব্ৰিটিছ আহে, মান যায়"
+   },
+   "learned": [
+    {
+     "en": "The British declared war on Burma in 1824",
+     "as": "১৮২৪ চনত ব্ৰিটিছে বাৰ্মাৰ বিৰুদ্ধে যুদ্ধ ঘোষণা কৰিলে"
+    },
+    {
+     "en": "Gunboats and troops came up the Brahmaputra",
+     "as": "বন্দুকধাৰী নাও আৰু সৈন্য ব্ৰহ্মপুত্ৰেৰে উজাই আহিল"
+    },
+    {
+     "en": "The Burmese garrison at Rangpur surrendered in January 1825",
+     "as": "১৮২৫ চনৰ জানুৱাৰীত ৰংপুৰৰ মান সৈন্যই আত্মসমৰ্পণ কৰিলে"
+    },
+    {
+     "en": "The Treaty of Yandabo, 24 February 1826, gave Assam to the British",
+     "as": "২৪ ফেব্ৰুৱাৰী ১৮২৬ৰ ইয়াণ্ডাবু সন্ধিয়ে অসম ব্ৰিটিছক দিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: the Burmese set up Jogeswar as a puppet.",
+      "as": "মনত পেলোৱা: মানে যোগেশ্বৰক পুতলা ৰজা পাতিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "jgs.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "The days of the Burmese.",
+       "as": "মানৰ দিন।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "war.webp",
+     "title": {
+      "en": "War up the river",
+      "as": "নদীৰে উজাই যুদ্ধ"
+     },
+     "text": [
+      {
+       "en": "Burmese threats on the Bengal frontier pushed the British to war. In <mark>1824</mark> the First Anglo-Burmese War began. Troops and gunboats came up the Brahmaputra.",
+       "as": "বংগ সীমান্তত মানৰ ভাবুকিয়ে ব্ৰিটিছক যুদ্ধলৈ ঠেলি দিলে। <mark>১৮২৪</mark> চনত প্ৰথম ইংগ-বৰ্মী যুদ্ধ আৰম্ভ হ'ল। সৈন্য আৰু বন্দুকধাৰী নাও ব্ৰহ্মপুত্ৰেৰে উজাই আহিল।"
+      }
+     ],
+     "id": "jgs.u2.02"
+    },
+    {
+     "type": "story",
+     "img": "rangpur-surrender.webp",
+     "title": {
+      "en": "Rangpur falls",
+      "as": "ৰংপুৰৰ পতন"
+     },
+     "text": [
+      {
+       "en": "In <mark>January 1825</mark> Colonel Richards forced the Burmese garrison at <mark>Rangpur</mark> to surrender. Upper Assam was free of the Burmese.",
+       "as": "<mark>১৮২৫ চনৰ জানুৱাৰীত</mark> কৰ্ণেল ৰিচাৰ্ডছে <mark>ৰংপুৰ</mark>ৰ মান সৈন্যক আত্মসমৰ্পণ কৰিবলৈ বাধ্য কৰিলে। উজনি অসম মানমুক্ত হ'ল।"
+      }
+     ],
+     "id": "jgs.u2.03"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Rangpur, where the Burmese surrendered.",
+      "as": "মানে আত্মসমৰ্পণ কৰা ৰংপুৰ টিপা।"
+     },
+     "target": "rangpur",
+     "choices": [
+      "rangpur",
+      "guwahati",
+      "jorhat",
+      "majuli"
+     ],
+     "answerText": {
+      "en": "Rangpur",
+      "as": "ৰংপুৰ"
+     },
+     "why": {
+      "en": "Rangpur, January 1825.",
+      "as": "ৰংপুৰ, ১৮২৫ চনৰ জানুৱাৰী।"
+     },
+     "id": "jgs.u2.04"
+    },
+    {
+     "type": "story",
+     "img": "yandabo.webp",
+     "title": {
+      "en": "Yandabo",
+      "as": "ইয়াণ্ডাবু"
+     },
+     "text": [
+      {
+       "en": "On <mark>24 February 1826</mark>, at Yandabo near Ava, Burma signed the [[yandabo]]. It gave up all claim to <mark>Assam</mark>, Manipur, Cachar and Jaintia. Assam now belonged to the East India Company.",
+       "as": "<mark>২৪ ফেব্ৰুৱাৰী ১৮২৬</mark> তাৰিখে আভাৰ ওচৰৰ ইয়াণ্ডাবুত বাৰ্মাই [[yandabo]]ত চহী কৰিলে। ই <mark>অসম</mark>, মণিপুৰ, কাছাৰ আৰু জয়ন্তীয়াৰ ওপৰত সকলো দাবী এৰিলে। অসম এতিয়া ইষ্ট ইণ্ডিয়া কোম্পানীৰ।"
+      },
+      {
+       "en": "Freedom from Burma, but not freedom: about six centuries after Sukaphaa, a new master had come.",
+       "as": "বাৰ্মাৰ পৰা মুক্তি, কিন্তু স্বাধীনতা নহয়: চুকাফাৰ প্ৰায় ছশ বছৰ পিছত নতুন প্ৰভু আহিল।"
+      }
+     ],
+     "id": "jgs.u2.05",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The journey",
+       "as": "যাত্ৰা"
+      },
+      "note": {
+       "en": "Sukaphaa founded the kingdom in 1228.",
+       "as": "চুকাফাই ১২২৮ চনত ৰাজ্য পাতিছিল।"
+      }
+     }
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "The Treaty of Yandabo was signed in",
+      "as": "ইয়াণ্ডাবু সন্ধি স্বাক্ষৰিত হৈছিল"
+     },
+     "after": {
+      "en": ".",
+      "as": "চনত।"
+     },
+     "answer": "1826",
+     "asOptions": [
+      "১৮১৭",
+      "১৮২৪",
+      "১৮২৬",
+      "১৮৩৮"
+     ],
+     "asAnswer": 2,
+     "answerText": {
+      "en": "1826",
+      "as": "১৮২৬"
+     },
+     "why": {
+      "en": "24 February 1826.",
+      "as": "২৪ ফেব্ৰুৱাৰী ১৮২৬।"
+     },
+     "id": "jgs.u2.06"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the end of Burmese rule in order.",
+      "as": "মান শাসনৰ অন্ত ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Jogeswar set up (1821)",
+       "as": "যোগেশ্বৰক পতা হয় (১৮২১)"
+      },
+      {
+       "en": "War declared (1824)",
+       "as": "যুদ্ধ ঘোষণা (১৮২৪)"
+      },
+      {
+       "en": "Rangpur surrenders (1825)",
+       "as": "ৰংপুৰৰ আত্মসমৰ্পণ (১৮২৫)"
+      },
+      {
+       "en": "Treaty of Yandabo (1826)",
+       "as": "ইয়াণ্ডাবু সন্ধি (১৮২৬)"
+      }
+     ],
+     "why": {
+      "en": "Remember J-W-R-Y: 21, 24, 25, 26.",
+      "as": "মনত ৰাখা যো-যু-ৰং-ই: ২১, ২৪, ২৫, ২৬।"
+     },
+     "id": "jgs.u2.07"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Jogeswar Singha",
+    "as": "তুমি স্বৰ্গদেউ যোগেশ্বৰ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I ended a war in 1826.",
+      "as": "মই ১৮২৬ চনত যুদ্ধৰ অন্ত পেলাইছিলোঁ।"
+     },
+     {
+      "en": "I was signed near Ava.",
+      "as": "আভাৰ ওচৰত মোক চহী কৰা হৈছিল।"
+     },
+     {
+      "en": "I gave Assam to the East India Company.",
+      "as": "মই অসম ইষ্ট ইণ্ডিয়া কোম্পানীক দিছিলোঁ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Treaty of Yandabo",
+      "as": "ইয়াণ্ডাবু সন্ধি"
+     },
+     {
+      "en": "Matak settlement",
+      "as": "মটক বুজাবুজি"
+     },
+     {
+      "en": "Commercial treaty of 1793",
+      "as": "১৭৯৩ৰ বাণিজ্য সন্ধি"
+     },
+     {
+      "en": "Patkai boundary treaty",
+      "as": "পাটকাই সীমা সন্ধি"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "The Treaty of Yandabo.",
+     "as": "ইয়াণ্ডাবু সন্ধি।"
+    },
+    "id": "jgs.test.01"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the signing at Yandabo?",
+     "as": "কোনখন ছবিত ইয়াণ্ডাবুৰ চহী দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "yandabo.webp",
+     "war.webp",
+     "manor-din.webp",
+     "rangpur-surrender.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "Yandabo, 1826",
+     "as": "ইয়াণ্ডাবু, ১৮২৬"
+    },
+    "why": {
+     "en": "24 February 1826.",
+     "as": "২৪ ফেব্ৰুৱাৰী ১৮২৬।"
+    },
+    "id": "jgs.test.02"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1817",
+      "l": {
+       "en": "First Burmese invasion",
+       "as": "প্ৰথম মান আক্ৰমণ"
+      }
+     },
+     {
+      "y": "1826",
+      "l": {
+       "en": "Treaty of Yandabo",
+       "as": "ইয়াণ্ডাবু সন্ধি"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Welsh's expedition",
+       "as": "ৱেল্‌চৰ অভিযান"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "Jogeswar set up",
+       "as": "যোগেশ্বৰক পতা হয়"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Purandar deposed",
+       "as": "পুৰন্দৰক আঁতৰোৱা হয়"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1792 → 1817 → 1821 → 1826 → 1838.",
+     "as": "১৭৯২ → ১৮১৭ → ১৮২১ → ১৮২৬ → ১৮৩৮।"
+    },
+    "id": "jgs.test.03"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. The Treaty of Yandabo ended the First Anglo-Burmese War.<br>2. Jogeswar Singha led the Ahom army against the Burmese.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ইয়াণ্ডাবু সন্ধিয়ে প্ৰথম ইংগ-বৰ্মী যুদ্ধৰ অন্ত পেলাইছিল।<br>২. যোগেশ্বৰ সিংহই মানৰ বিৰুদ্ধে আহোম সৈন্য পৰিচালনা কৰিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Jogeswar was the Burmese puppet.",
+     "as": "কেৱল ১। যোগেশ্বৰ মানৰ পুতলা আছিল।"
+    },
+    "small": true,
+    "id": "jgs.test.04"
+   }
+  ]
+ }
+}

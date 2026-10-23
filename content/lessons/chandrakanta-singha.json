@@ -1,0 +1,1006 @@
+{
+ "id": "chandrakanta-singha",
+ "no": 37,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Chandrakanta Singha",
+  "as": "স্বৰ্গদেউ চন্দ্ৰকান্ত সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1811–1818",
+  "as": "ৰাজত্বকাল ১৮১১–১৮১৮"
+ },
+ "portrait": "chandrakanta-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VIII, pp. 220–223",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Chandrakant (Sudinpha), a boy; Bar Phukan's proposal to become tributary to the British rejected; Satram and the plot against the Burha Gohain; Badan Chandra Bar Phukan's oppressions; flight to Calcutta and Amarapura; 1816–17 Burmese army of 8,000 swelling to 16,000; defeat at Ghiladhari; Purnanand's death (tradition: swallowed diamonds); defeat at Kathalbari; Ruchinath flees to Gauhati; Burmese occupy Jorhat, leave April 1817 with an indemnity and a girl for the royal harem; Rup Singh kills the Bar Phukan; Ruchinath and Brajanath take Jorhat, February 1818"
+  },
+  {
+   "title": "AHOM catalogue (scene rows), /AHOM/data/ahom.csv",
+   "url": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+   "used_for": "Scenes AHOM-214, 215, 217, 218, 272; Badan killed while bathing; Hemo Aideo"
+  }
+ ],
+ "review_notes": "The girl sent to Ava is called Hemo Aideo in Assamese tradition; Gait says she was 'palmed off' as the king's daughter. Purnananda's death by swallowing diamonds is reported by Gait as 'some say'.",
+ "buildsOn": {
+  "no": 36,
+  "title": {
+   "en": "Kamaleswar Singha",
+   "as": "কমলেশ্বৰ সিংহ"
+  },
+  "id": "kamaleswar-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1811",
+    "t": {
+     "en": "Becomes king as a boy",
+     "as": "কিশোৰ অৱস্থাত ৰজা"
+    }
+   },
+   {
+    "y": "1815",
+    "t": {
+     "en": "Badan Chandra flees to Bengal, then Ava",
+     "as": "বদনচন্দ্ৰ বংগ, তাৰ পিছত আভালৈ পলায়"
+    }
+   },
+   {
+    "y": "1817",
+    "t": {
+     "en": "First Burmese invasion; Purnananda dies",
+     "as": "প্ৰথম মান আক্ৰমণ; পূৰ্ণানন্দৰ মৃত্যু"
+    }
+   },
+   {
+    "y": "1817",
+    "t": {
+     "en": "Badan Chandra assassinated",
+     "as": "বদনচন্দ্ৰ হত্যা"
+    }
+   },
+   {
+    "y": "1818",
+    "t": {
+     "en": "Driven out by Ruchinath",
+     "as": "ৰুচিনাথে খেদে"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   93.4,
+   26.2,
+   96.6,
+   27.6
+  ],
+  "show": [
+   "brahmaputra",
+   "jorhat",
+   "rangpur",
+   "guwahati",
+   "bengmara",
+   "namrup"
+  ],
+  "routes": [
+   [
+    [
+     27.1,
+     96.4
+    ],
+    "namrup",
+    "jorhat"
+   ]
+  ],
+  "texts": [],
+  "labels": {
+   "jorhat": {
+    "pos": "w"
+   },
+   "rangpur": {
+    "pos": "s"
+   },
+   "bengmara": {
+    "pos": "n"
+   },
+   "namrup": {
+    "pos": "e"
+   },
+   "brahmaputra": {
+    "at": [
+     26.85,
+     93.7
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A boy king and his friend",
+    "as": "কিশোৰ ৰজা আৰু বন্ধু"
+   },
+   "learned": [
+    {
+     "en": "Chandrakanta, Kamaleswar's brother, became king as a boy in 1811",
+     "as": "কমলেশ্বৰৰ ভাই চন্দ্ৰকান্ত ১৮১১ চনত কিশোৰ অৱস্থাত ৰজা হ'ল"
+    },
+    {
+     "en": "Purnananda still ruled for him",
+     "as": "পূৰ্ণানন্দই এতিয়াও তেওঁৰ হৈ শাসন কৰিলে"
+    },
+    {
+     "en": "The king's friend Satram plotted to kill Purnananda",
+     "as": "ৰজাৰ বন্ধু সত্ৰামে পূৰ্ণানন্দক হত্যাৰ ষড়যন্ত্ৰ কৰিলে"
+    },
+    {
+     "en": "Satram was banished; the court was split",
+     "as": "সত্ৰামক নিৰ্বাসন দিয়া হ'ল; ৰাজসভা দুভাগ হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "factions.webp",
+     "title": {
+      "en": "The boy and the old minister",
+      "as": "কিশোৰ আৰু বুঢ়া মন্ত্ৰী"
+     },
+     "text": [
+      {
+       "en": "In <mark>1811</mark> Purnananda chose the late king's brother, [[chandrakanta-singha]] (Sudingphaa). The boy grew up resenting the old minister.",
+       "as": "<mark>১৮১১</mark> চনত পূৰ্ণানন্দই মৃত ৰজাৰ ভাই [[chandrakanta-singha]] (চুডিংফা)ক বাছি ল'লে। ডাঙৰ হোৱাৰ লগে লগে কিশোৰে বুঢ়া মন্ত্ৰীক অপছন্দ কৰিবলৈ ধৰিলে।"
+      },
+      {
+       "en": "He made a friend of <mark>Satram</mark>, a soothsayer's son, and seated him beside the throne. Satram plotted to have Purnananda killed; the plot leaked, and Satram was banished.",
+       "as": "তেওঁ এজন গণকৰ পুত্ৰ <mark>সত্ৰাম</mark>ক বন্ধু কৰিলে আৰু সিংহাসনৰ কাষত বহুৱালে। সত্ৰামে পূৰ্ণানন্দক হত্যাৰ ষড়যন্ত্ৰ কৰিলে; কথা ওলাই পৰিল, আৰু সত্ৰামক নিৰ্বাসন দিয়া হ'ল।"
+      }
+     ],
+     "id": "ckt.u1.01",
+     "link": {
+      "lesson": 36,
+      "lessonId": "kamaleswar-singha",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The minister who ruled",
+       "as": "শাসন কৰা মন্ত্ৰী"
+      },
+      "note": {
+       "en": "Purnananda ruled for Kamaleswar too.",
+       "as": "পূৰ্ণানন্দই কমলেশ্বৰৰ হৈও শাসন কৰিছিল।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "I was the king's young friend.",
+       "as": "মই ৰজাৰ ডেকা বন্ধু।"
+      },
+      {
+       "en": "I sat beside the throne.",
+       "as": "মই সিংহাসনৰ কাষত বহিছিলোঁ।"
+      },
+      {
+       "en": "I plotted against Purnananda.",
+       "as": "মই পূৰ্ণানন্দৰ বিৰুদ্ধে ষড়যন্ত্ৰ কৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Satram",
+       "as": "সত্ৰাম"
+      },
+      {
+       "en": "Badan Chandra",
+       "as": "বদনচন্দ্ৰ"
+      },
+      {
+       "en": "Ruchinath",
+       "as": "ৰুচিনাথ"
+      },
+      {
+       "en": "Rup Singh",
+       "as": "ৰূপ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Satram.",
+      "as": "সত্ৰাম।"
+     },
+     "id": "ckt.u1.02"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "A proposal to make Assam tributary to the British was accepted.",
+      "as": "অসমক ব্ৰিটিছৰ কৰদ কৰাৰ প্ৰস্তাৱ গ্ৰহণ কৰা হৈছিল।"
+     },
+     "answer": false,
+     "why": {
+      "en": "False. The nobles rejected it as too unpopular.",
+      "as": "অশুদ্ধ। বিষয়াসকলে অজনপ্ৰিয় বুলি নাকচ কৰিলে।"
+     },
+     "id": "ckt.u1.03"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the split court of Chandrakanta?",
+      "as": "কোনখন ছবিত চন্দ্ৰকান্তৰ বিভক্ত ৰাজসভা দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "factions.webp",
+      "ava.webp",
+      "invasion.webp",
+      "badan-killed.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "Court factions",
+      "as": "ৰাজসভাৰ দলাদলি"
+     },
+     "why": {
+      "en": "Satram, Purnananda, Badan.",
+      "as": "সত্ৰাম, পূৰ্ণানন্দ, বদন।"
+     },
+     "id": "ckt.u1.04"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "walk",
+   "title": {
+    "en": "The traitor goes to Ava",
+    "as": "বিশ্বাসঘাতক আভালৈ"
+   },
+   "learned": [
+    {
+     "en": "Badan Chandra, the Borphukan at Guwahati, was cruel and corrupt",
+     "as": "গুৱাহাটীৰ বৰফুকন বদনচন্দ্ৰ নিষ্ঠুৰ আৰু দুৰ্নীতিপৰায়ণ আছিল"
+    },
+    {
+     "en": "Warned by his daughter, he escaped Purnananda's arrest",
+     "as": "জীয়েকৰ সতৰ্কবাণীত তেওঁ পূৰ্ণানন্দৰ গ্ৰেপ্তাৰৰ পৰা পলাল"
+    },
+    {
+     "en": "The British refused him help",
+     "as": "ব্ৰিটিছে তেওঁক সহায় নকৰিলে"
+    },
+    {
+     "en": "He went to the Burmese king at Ava and asked for an army",
+     "as": "তেওঁ আভাত মান ৰজাৰ ওচৰলৈ গৈ সৈন্য বিচাৰিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Satram plotted against Purnananda.",
+      "as": "মনত পেলোৱা: সত্ৰামে পূৰ্ণানন্দৰ বিৰুদ্ধে ষড়যন্ত্ৰ কৰিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "ckt.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A boy king and his friend.",
+       "as": "কিশোৰ ৰজা আৰু বন্ধু।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A wild elephant in Guwahati",
+      "as": "গুৱাহাটীত মতলীয়া হাতী"
+     },
+     "text": [
+      {
+       "en": "The new Borphukan, [[badan-chandra]], plundered Lower Assam. His sons' favourite joke: feed an elephant bhang and set it loose in Guwahati, laughing as it smashed houses and people.",
+       "as": "নতুন বৰফুকন [[badan-chandra]]ই নামনি অসম লুট কৰিলে। তেওঁৰ পুত্ৰৰ প্ৰিয় ধেমালি: হাতীক ভাং খুৱাই গুৱাহাটীত এৰি দিয়া, আৰু ঘৰ-মানুহ গচকি যোৱা দেখি হাঁহি থকা।"
+      },
+      {
+       "en": "Purnananda sent men to arrest him. Warned by his own daughter, Purnananda's daughter-in-law, he <mark>fled to Bengal</mark>.",
+       "as": "পূৰ্ণানন্দই তেওঁক ধৰিবলৈ মানুহ পঠালে। পূৰ্ণানন্দৰ বোৱাৰী, তেওঁৰ নিজৰ জীয়েকৰ সতৰ্কবাণীত তেওঁ <mark>বংগলৈ পলাল</mark>।"
+      }
+     ],
+     "id": "ckt.u2.02"
+    },
+    {
+     "type": "story",
+     "img": "ava.webp",
+     "title": {
+      "en": "To the court of Ava",
+      "as": "আভাৰ ৰাজসভালৈ"
+     },
+     "text": [
+      {
+       "en": "In Calcutta the British would not help. So Badan went on to <mark>Ava</mark>, met the Burmese king Bodawpaya, and painted Purnananda as a usurper. He came home with a promise of an army.",
+       "as": "কলিকতাত ব্ৰিটিছে সহায় নকৰিলে। গতিকে বদন <mark>আভা</mark>লৈ গ'ল, মান ৰজা বদ'পায়াক লগ কৰিলে, আৰু পূৰ্ণানন্দক ক্ষমতা দখলকাৰী বুলি বৰ্ণনা কৰিলে। তেওঁ সৈন্যৰ প্ৰতিশ্ৰুতি লৈ উভতিল।"
+      }
+     ],
+     "id": "ckt.u2.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put Badan Chandra's road in order.",
+      "as": "বদনচন্দ্ৰৰ যাত্ৰা ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Oppresses Guwahati",
+       "as": "গুৱাহাটীত অত্যাচাৰ"
+      },
+      {
+       "en": "Escapes arrest",
+       "as": "গ্ৰেপ্তাৰৰ পৰা পলায়ন"
+      },
+      {
+       "en": "Refused in Calcutta",
+       "as": "কলিকতাত প্ৰত্যাখ্যাত"
+      },
+      {
+       "en": "Received at Ava",
+       "as": "আভাত আদৰণি"
+      }
+     ],
+     "why": {
+      "en": "Guwahati → Bengal → Calcutta → Ava.",
+      "as": "গুৱাহাটী → বংগ → কলিকতা → আভা।"
+     },
+     "id": "ckt.u2.04"
+    },
+    {
+     "type": "unscramble",
+     "q": {
+      "en": "Unscramble the Burmese capital Badan went to.",
+      "as": "বদন যোৱা মানৰ ৰাজধানী সজাই লিখা।"
+     },
+     "word": {
+      "en": [
+       "A",
+       "V",
+       "A"
+      ],
+      "as": [
+       "আ",
+       "ভা"
+      ]
+     },
+     "answerText": {
+      "en": "AVA",
+      "as": "আভা"
+     },
+     "why": {
+      "en": "Ava (Amarapura).",
+      "as": "আভা (অমৰাপুৰা)।"
+     },
+     "id": "ckt.u2.05"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "hill",
+   "title": {
+    "en": "The Burmese arrive",
+    "as": "মানৰ আগমন"
+   },
+   "learned": [
+    {
+     "en": "In 1817 a Burmese army of about 16,000 crossed the Patkai",
+     "as": "১৮১৭ চনত প্ৰায় ১৬,০০০ মান সৈন্যই পাটকাই পাৰ হ'ল"
+    },
+    {
+     "en": "The Ahoms lost at Ghiladhari; Purnananda died",
+     "as": "ঘিলাধাৰীত আহোম হাৰিল; পূৰ্ণানন্দৰ মৃত্যু হ'ল"
+    },
+    {
+     "en": "The Burmese took Jorhat; Badan became all-powerful",
+     "as": "মানে যোৰহাট ল'লে; বদন সৰ্বশক্তিমান হ'ল"
+    },
+    {
+     "en": "This began the Manor Din, 'the days of the Burmese'",
+     "as": "এয়াই মানৰ দিনৰ আৰম্ভণি"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I went to Ava.",
+       "as": "মনত পেলোৱা: মই আভালৈ গৈছিলোঁ।"
+      },
+      {
+       "en": "I was the Borphukan.",
+       "as": "মই বৰফুকন।"
+      },
+      {
+       "en": "My sons let loose a drunk elephant.",
+       "as": "মোৰ পুত্ৰই মতলীয়া হাতী এৰি দিছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Badan Chandra",
+       "as": "বদনচন্দ্ৰ"
+      },
+      {
+       "en": "Satram",
+       "as": "সত্ৰাম"
+      },
+      {
+       "en": "Purnananda",
+       "as": "পূৰ্ণানন্দ"
+      },
+      {
+       "en": "Ruchinath",
+       "as": "ৰুচিনাথ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Badan Chandra.",
+      "as": "বদনচন্দ্ৰ।"
+     },
+     "id": "ckt.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "The traitor goes to Ava.",
+       "as": "বিশ্বাসঘাতক আভালৈ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "invasion.webp",
+     "title": {
+      "en": "Across the Patkai",
+      "as": "পাটকাই পাৰ হৈ"
+     },
+     "text": [
+      {
+       "en": "Late in 1816 a Burmese army marched. Joined by the chiefs of Mungkong, Hukong and Manipur, it was <mark>16,000 strong</mark> by the time it reached Namrup, in early 1817.",
+       "as": "১৮১৬ চনৰ শেষত মান সৈন্য আগবাঢ়িল। মুংকং, হুকং আৰু মণিপুৰৰ মুখীয়াল যোগ দিয়াত ১৮১৭ চনৰ আৰম্ভণিতে নামৰূপ পাওঁতে ই <mark>১৬,০০০</mark> হ'ল।"
+      },
+      {
+       "en": "The Ahoms were beaten at <mark>Ghiladhari</mark>. At that moment Purnananda died; some say he swallowed diamonds. No other leader could take his place.",
+       "as": "<mark>ঘিলাধাৰী</mark>ত আহোম হাৰিল। সেই মুহূৰ্ততে পূৰ্ণানন্দৰ মৃত্যু হ'ল; কোনোৱে কয় তেওঁ হীৰা গিলিছিল। তেওঁৰ ঠাই ল'ব পৰা আন নেতা নাছিল।"
+      }
+     ],
+     "id": "ckt.u3.02",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The journey",
+       "as": "যাত্ৰা"
+      },
+      "note": {
+       "en": "Sukaphaa had crossed the same Patkai hills in 1228.",
+       "as": "চুকাফাই ১২২৮ চনত একে পাটকাই পাৰ হৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "The first Burmese army came at Badan Chandra's request.",
+      "as": "প্ৰথম মান সৈন্য বদনচন্দ্ৰৰ অনুৰোধত আহিছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "ckt.u3.03"
+    },
+    {
+     "type": "story",
+     "img": "jorhat-occupied.webp",
+     "title": {
+      "en": "Masters of Jorhat",
+      "as": "যোৰহাটৰ মালিক"
+     },
+     "text": [
+      {
+       "en": "The Burmese occupied <mark>Jorhat</mark>. Purnananda's son [[ruchinath]] fled to Guwahati. Chandrakanta stayed on as king, but Badan Chandra now held the power.",
+       "as": "মানে <mark>যোৰহাট</mark> দখল কৰিলে। পূৰ্ণানন্দৰ পুত্ৰ [[ruchinath]] গুৱাহাটীলৈ পলাল। চন্দ্ৰকান্ত ৰজা হৈ থাকিল, কিন্তু ক্ষমতা এতিয়া বদনচন্দ্ৰৰ হাতত।"
+      },
+      {
+       "en": "In April 1817 the Burmese went home with a large payment and a girl for their king's harem: the [[manor-din]] had begun.",
+       "as": "১৮১৭ চনৰ এপ্ৰিলত মানে ডাঙৰ ধন আৰু ৰজাৰ অন্তঃপুৰৰ বাবে এজনী কন্যা লৈ উভতিল: [[manor-din]]ৰ আৰম্ভণি হ'ল।"
+      }
+     ],
+     "id": "ckt.u3.04"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Jorhat, which the Burmese occupied.",
+      "as": "মানে দখল কৰা যোৰহাট টিপা।"
+     },
+     "target": "jorhat",
+     "choices": [
+      "jorhat",
+      "guwahati",
+      "bengmara",
+      "namrup"
+     ],
+     "answerText": {
+      "en": "Jorhat",
+      "as": "যোৰহাট"
+     },
+     "why": {
+      "en": "Jorhat.",
+      "as": "যোৰহাট।"
+     },
+     "id": "ckt.u3.05"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Purnananda",
+       "invited",
+       "the",
+       "Burmese",
+       "into",
+       "Assam."
+      ],
+      "as": [
+       "পূৰ্ণানন্দই",
+       "মানক",
+       "অসমলৈ",
+       "মাতি",
+       "আনিছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 0,
+      "as": 0
+     },
+     "fix": {
+      "en": "→ Badan Chandra",
+      "as": "→ বদনচন্দ্ৰই"
+     },
+     "answerText": {
+      "en": "Purnananda → Badan Chandra",
+      "as": "পূৰ্ণানন্দ → বদনচন্দ্ৰ"
+     },
+     "why": {
+      "en": "Purnananda fought them and died; Badan brought them.",
+      "as": "পূৰ্ণানন্দই যুঁজি মৃত্যুবৰণ কৰিলে; বদনে আনিছিল।"
+     },
+     "id": "ckt.u3.06"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "icon": "moon",
+   "title": {
+    "en": "Death at the river",
+    "as": "নদীৰ ঘাটত মৃত্যু"
+   },
+   "learned": [
+    {
+     "en": "Badan Chandra was killed by Subedar Rup Singh in 1817",
+     "as": "১৮১৭ চনত চুবেদাৰ ৰূপ সিংহই বদনচন্দ্ৰক হত্যা কৰিলে"
+    },
+    {
+     "en": "Ruchinath refused to forgive Chandrakanta",
+     "as": "ৰুচিনাথে চন্দ্ৰকান্তক ক্ষমা নকৰিলে"
+    },
+    {
+     "en": "He brought Brajanath and an army and took Jorhat, February 1818",
+     "as": "তেওঁ ব্ৰজনাথ আৰু সৈন্য লৈ ১৮১৮ চনৰ ফেব্ৰুৱাৰীত যোৰহাট ল'লে"
+    },
+    {
+     "en": "Chandrakanta fled; his first reign was over",
+     "as": "চন্দ্ৰকান্ত পলাল; প্ৰথম ৰাজত্বকালৰ অন্ত"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Purnananda died during the first Burmese invasion.",
+      "as": "মনত পেলোৱা: প্ৰথম মান আক্ৰমণৰ সময়ত পূৰ্ণানন্দৰ মৃত্যু হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "ckt.u4.01",
+     "link": {
+      "unit": "u3",
+      "note": {
+       "en": "The Burmese arrive.",
+       "as": "মানৰ আগমন।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "badan-killed.webp",
+     "title": {
+      "en": "The bather",
+      "as": "গা ধুই থকা মানুহ"
+     },
+     "text": [
+      {
+       "en": "Badan Chandra's rule did not last. With the queen mother and some nobles behind him, <mark>Subedar Rup Singh</mark> struck him down with a dao while he bathed at Jorhat, in 1817.",
+       "as": "বদনচন্দ্ৰৰ শাসন বেছিদিন নাথাকিল। ৰাজমাতৃ আৰু কিছুমান বিষয়াৰ সমৰ্থনত <mark>চুবেদাৰ ৰূপ সিংহই</mark> ১৮১৭ চনত যোৰহাটত গা ধুই থাকোঁতে তেওঁক দা'ৰে কাটিলে।"
+      }
+     ],
+     "id": "ckt.u4.02"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "The son returns",
+      "as": "পুত্ৰৰ প্ৰত্যাৱৰ্তন"
+     },
+     "text": [
+      {
+       "en": "Ruchinath could not forgive Chandrakanta for abandoning him. He found a new candidate, Brajanath, and with hired troops took Jorhat in <mark>February 1818</mark>. Chandrakanta fled.",
+       "as": "চন্দ্ৰকান্তই এৰি দিয়াৰ বাবে ৰুচিনাথে তেওঁক ক্ষমা কৰিব নোৱাৰিলে। তেওঁ নতুন প্ৰাৰ্থী ব্ৰজনাথক বিচাৰি উলিয়ালে, আৰু ভাৰাতীয়া সৈন্যৰে <mark>১৮১৮ চনৰ ফেব্ৰুৱাৰীত</mark> যোৰহাট ল'লে। চন্দ্ৰকান্ত পলাল।"
+      }
+     ],
+     "id": "ckt.u4.03"
+    },
+    {
+     "type": "match",
+     "q": {
+      "en": "Tap the matching pairs.",
+      "as": "যোৰাবোৰ মিলোৱা।"
+     },
+     "pairs": [
+      [
+       {
+        "en": "Badan Chandra",
+        "as": "বদনচন্দ্ৰ"
+       },
+       {
+        "en": "Brought the Burmese",
+        "as": "মান আনিলে"
+       }
+      ],
+      [
+       {
+        "en": "Rup Singh",
+        "as": "ৰূপ সিংহ"
+       },
+       {
+        "en": "Killed Badan",
+        "as": "বদনক হত্যা কৰিলে"
+       }
+      ],
+      [
+       {
+        "en": "Ruchinath",
+        "as": "ৰুচিনাথ"
+       },
+       {
+        "en": "Drove out Chandrakanta",
+        "as": "চন্দ্ৰকান্তক খেদিলে"
+       }
+      ],
+      [
+       {
+        "en": "Satram",
+        "as": "সত্ৰাম"
+       },
+       {
+        "en": "The king's banished friend",
+        "as": "ৰজাৰ নিৰ্বাসিত বন্ধু"
+       }
+      ]
+     ],
+     "why": {
+      "en": "Chandrakanta's first reign.",
+      "as": "চন্দ্ৰকান্তৰ প্ৰথম ৰাজত্বকাল।"
+     },
+     "id": "ckt.u4.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember S-B-B",
+      "as": "মনত ৰাখা স-ব-ব"
+     },
+     "text": [
+      {
+       "en": "Chandrakanta's first reign: <mark>S</mark>atram's plot, <mark>B</mark>adan goes to Ava, <mark>B</mark>urmese arrive (1817).",
+       "as": "চন্দ্ৰকান্তৰ প্ৰথম ৰাজত্ব: <mark>স</mark>ত্ৰামৰ ষড়যন্ত্ৰ, <mark>ব</mark>দন আভালৈ, <mark>ব</mark>ৰ্মী মানৰ আগমন (১৮১৭)।"
+      }
+     ],
+     "id": "ckt.u4.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use S-B-B: put the reign in order.",
+      "as": "স-ব-ব ব্যৱহাৰ কৰি ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Satram banished",
+       "as": "সত্ৰামৰ নিৰ্বাসন"
+      },
+      {
+       "en": "Badan goes to Ava",
+       "as": "বদন আভালৈ"
+      },
+      {
+       "en": "Burmese take Jorhat (1817)",
+       "as": "মানে যোৰহাট লয় (১৮১৭)"
+      },
+      {
+       "en": "Ruchinath takes Jorhat (1818)",
+       "as": "ৰুচিনাথে যোৰহাট লয় (১৮১৮)"
+      }
+     ],
+     "why": {
+      "en": "S → B → B → exit.",
+      "as": "স → ব → ব → বিদায়।"
+     },
+     "id": "ckt.u4.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Chandrakanta Singha",
+    "as": "তুমি স্বৰ্গদেউ চন্দ্ৰকান্ত সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I brought the Burmese into Assam.",
+      "as": "মই মানক অসমলৈ আনিছিলোঁ।"
+     },
+     {
+      "en": "I went to Ava.",
+      "as": "মই আভালৈ গৈছিলোঁ।"
+     },
+     {
+      "en": "I was killed while bathing.",
+      "as": "গা ধুই থাকোঁতে মোক হত্যা কৰা হৈছিল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Badan Chandra",
+      "as": "বদনচন্দ্ৰ"
+     },
+     {
+      "en": "Satram",
+      "as": "সত্ৰাম"
+     },
+     {
+      "en": "Ruchinath",
+      "as": "ৰুচিনাথ"
+     },
+     {
+      "en": "Purnananda",
+      "as": "পূৰ্ণানন্দ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Badan Chandra Borphukan.",
+     "as": "বদনচন্দ্ৰ বৰফুকন।"
+    },
+    "id": "ckt.test.01"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the first Burmese invasion?",
+     "as": "কোনখন ছবিত প্ৰথম মান আক্ৰমণ দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "invasion.webp",
+     "factions.webp",
+     "badan-killed.webp",
+     "ava.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "1817",
+     "as": "১৮১৭"
+    },
+    "why": {
+     "en": "The Manor Din begins.",
+     "as": "মানৰ দিনৰ আৰম্ভণি।"
+    },
+    "id": "ckt.test.02"
+   },
+   {
+    "type": "timeline",
+    "q": {
+     "en": "Place each event on the timeline.",
+     "as": "প্ৰতিটো ঘটনা সময়ৰেখাত বহুওৱা।"
+    },
+    "anchors": [
+     {
+      "y": "1811",
+      "l": {
+       "en": "Chandrakanta crowned",
+       "as": "চন্দ্ৰকান্তৰ অভিষেক"
+      }
+     },
+     {
+      "y": "1818",
+      "l": {
+       "en": "Chandrakanta driven out",
+       "as": "চন্দ্ৰকান্তক খেদা হয়"
+      }
+     }
+    ],
+    "items": [
+     {
+      "t": {
+       "en": "Matak settlement",
+       "as": "মটক বুজাবুজি"
+      },
+      "slot": 0
+     },
+     {
+      "t": {
+       "en": "First Burmese invasion",
+       "as": "প্ৰথম মান আক্ৰমণ"
+      },
+      "slot": 1
+     },
+     {
+      "t": {
+       "en": "Treaty of Yandabo",
+       "as": "ইয়াণ্ডাবু সন্ধি"
+      },
+      "slot": 2
+     }
+    ],
+    "why": {
+     "en": "1805 → 1811 → 1817 → 1818 → 1826.",
+     "as": "১৮০৫ → ১৮১১ → ১৮১৭ → ১৮১৮ → ১৮২৬।"
+    },
+    "id": "ckt.test.03"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Jorhat.",
+     "as": "যোৰহাট টিপা।"
+    },
+    "target": "jorhat",
+    "choices": [
+     "jorhat",
+     "guwahati",
+     "bengmara",
+     "namrup"
+    ],
+    "answerText": {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    "why": {
+     "en": "Jorhat.",
+     "as": "যোৰহাট।"
+    },
+    "id": "ckt.test.04"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble: the days of the Burmese, Manor ___.",
+     "as": "মানৰ ___।"
+    },
+    "word": {
+     "en": [
+      "D",
+      "I",
+      "N"
+     ],
+     "as": [
+      "দি",
+      "ন"
+     ]
+    },
+    "answerText": {
+     "en": "DIN",
+     "as": "দিন"
+    },
+    "why": {
+     "en": "Manor Din.",
+     "as": "মানৰ দিন।"
+    },
+    "id": "ckt.test.05"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The British agreed to help Badan Chandra.",
+     "as": "ব্ৰিটিছে বদনচন্দ্ৰক সহায় কৰিবলৈ মান্তি হৈছিল।"
+    },
+    "answer": false,
+    "why": {
+     "en": "False; so he turned to Burma.",
+     "as": "অশুদ্ধ; সেয়ে তেওঁ বাৰ্মালৈ গ'ল।"
+    },
+    "id": "ckt.test.06"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. The first Burmese invasion of Assam took place in 1817.<br>2. Purnananda Burhagohain invited the Burmese.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. অসমত প্ৰথম মান আক্ৰমণ ১৮১৭ চনত হৈছিল।<br>২. পূৰ্ণানন্দ বুঢ়াগোহাঁইয়ে মানক মাতিছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Badan Chandra invited them; Purnananda fought them.",
+     "as": "কেৱল ১। বদনচন্দ্ৰই মাতিছিল; পূৰ্ণানন্দই যুঁজিছিল।"
+    },
+    "small": true,
+    "id": "ckt.test.07"
+   }
+  ]
+ }
+}

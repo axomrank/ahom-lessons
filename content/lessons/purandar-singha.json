@@ -1,0 +1,618 @@
+{
+ "id": "purandar-singha",
+ "no": 38,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Purandar Singha",
+  "as": "স্বৰ্গদেউ পুৰন্দৰ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1818–1819",
+  "as": "ৰাজত্বকাল ১৮১৮–১৮১৯"
+ },
+ "portrait": "purandar-singha-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. VIII, pp. 223–224",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "Brajanath, great-grandson of Rajesvar, strikes coins but is ineligible (mutilated); his son Purandar Singh made king, Feb 1818; Chandrakant's right ear slit; Ala Mingi's Burmese army, Feb 1819; Ahom defeat at Nazira; Purandar flees to Gauhati and then to British territory; offers a tribute of three lakhs for British help, refused"
+  },
+  {
+   "title": "AHOM catalogue (scene rows), /AHOM/data/ahom.csv",
+   "url": "https://en.wikipedia.org/wiki/Purandar_Singha",
+   "used_for": "Scenes AHOM-219, 220"
+  }
+ ],
+ "review_notes": "Gait follows the Buranjis in dating Ala Mingi's arrival to February 1819 (Wilson says early 1818).",
+ "buildsOn": {
+  "no": 37,
+  "title": {
+   "en": "Chandrakanta Singha",
+   "as": "চন্দ্ৰকান্ত সিংহ"
+  },
+  "id": "chandrakanta-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1818",
+    "t": {
+     "en": "Crowned at Jorhat by Ruchinath",
+     "as": "ৰুচিনাথে যোৰহাটত ৰজা পাতে"
+    }
+   },
+   {
+    "y": "1819",
+    "t": {
+     "en": "Second Burmese invasion; defeat at Nazira",
+     "as": "দ্বিতীয় মান আক্ৰমণ; নাজিৰাত পৰাজয়"
+    }
+   },
+   {
+    "y": "1819",
+    "t": {
+     "en": "Flees to British territory",
+     "as": "ব্ৰিটিছ এলেকালৈ পলায়ন"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.6,
+   25.6,
+   95.8,
+   27.8
+  ],
+  "show": [
+   "brahmaputra",
+   "guwahati",
+   "jorhat",
+   "rangpur",
+   "nazira",
+   "majuli"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "jorhat": {
+    "pos": "w"
+   },
+   "rangpur": {
+    "pos": "n"
+   },
+   "nazira": {
+    "pos": "e"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "brahmaputra": {
+    "at": [
+     26.35,
+     91.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "crown",
+   "title": {
+    "en": "A king made by a slit ear",
+    "as": "কাণ কটাৰে পতা ৰজা"
+   },
+   "learned": [
+    {
+     "en": "Ruchinath's candidate Brajanath could not rule: he was mutilated",
+     "as": "ৰুচিনাথৰ প্ৰাৰ্থী ব্ৰজনাথ ৰজা হ'ব নোৱাৰিলে: তেওঁৰ অংগহানি হৈছিল"
+    },
+    {
+     "en": "So his son Purandar Singha was crowned in February 1818",
+     "as": "সেয়ে তেওঁৰ পুত্ৰ পুৰন্দৰ সিংহক ১৮১৮ চনৰ ফেব্ৰুৱাৰীত ৰজা পতা হ'ল"
+    },
+    {
+     "en": "Chandrakanta's right ear was slit to bar him from the throne",
+     "as": "সিংহাসনৰ অযোগ্য কৰিবলৈ চন্দ্ৰকান্তৰ সোঁ কাণ কটা হ'ল"
+    },
+    {
+     "en": "Purandar descended from Rajeswar Singha",
+     "as": "পুৰন্দৰ ৰাজেশ্বৰ সিংহৰ বংশধৰ"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "crowned.webp",
+     "title": {
+      "en": "The coins that came too soon",
+      "as": "সোনকালে উলিওৱা মুদ্ৰা"
+     },
+     "text": [
+      {
+       "en": "Ruchinath took Jorhat with Brajanath, a great-grandson of Rajeswar Singha. Brajanath at once struck coins in his own name. Then it was remembered that he had been <mark>mutilated</mark>, so he could not be king.",
+       "as": "ৰুচিনাথে ৰাজেশ্বৰ সিংহৰ প্ৰপৌত্ৰ ব্ৰজনাথক লৈ যোৰহাট ল'লে। ব্ৰজনাথে লগে লগে নিজৰ নামত মুদ্ৰা উলিয়ালে। তেতিয়াহে মনত পৰিল যে তেওঁৰ <mark>অংগহানি</mark> হৈছিল, গতিকে তেওঁ ৰজা হ'ব নোৱাৰে।"
+      },
+      {
+       "en": "So his young son, [[purandar-singha]], was crowned instead.",
+       "as": "সেয়ে তেওঁৰ ডেকা পুত্ৰ [[purandar-singha]]ক ৰজা পতা হ'ল।"
+      }
+     ],
+     "id": "prd.u1.01",
+     "link": {
+      "lesson": 37,
+      "lessonId": "chandrakanta-singha",
+      "unitNo": 4,
+      "unitTitle": {
+       "en": "Death at the river",
+       "as": "নদীৰ ঘাটত মৃত্যু"
+      },
+      "note": {
+       "en": "Ruchinath took Jorhat in February 1818.",
+       "as": "ৰুচিনাথে ১৮১৮ চনৰ ফেব্ৰুৱাৰীত যোৰহাট লৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Brajanath could not be king because he had been mutilated.",
+      "as": "অংগহানি হোৱাৰ বাবে ব্ৰজনাথ ৰজা হ'ব নোৱাৰিলে।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: a king had to be without blemish.",
+      "as": "শুদ্ধ: ৰজাৰ শৰীৰত খুঁত থাকিব নালাগে।"
+     },
+     "id": "prd.u1.02",
+     "link": {
+      "lesson": 33,
+      "lessonId": "rajeswar-singha",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "A king who loved palaces",
+       "as": "ৰাজপ্ৰসাদপ্ৰেমী ৰজা"
+      },
+      "note": {
+       "en": "The same rule passed over the smallpox-scarred Barjana Gohain.",
+       "as": "একে নিয়মত বসন্তৰ দাগ থকা বৰজনা গোহাঁইক এৰা হৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "A cut ear",
+      "as": "কটা কাণ"
+     },
+     "text": [
+      {
+       "en": "Chandrakanta was caught, and his <mark>right ear was slit</mark>: by the old rule, a blemished prince could never sit on the throne again.",
+       "as": "চন্দ্ৰকান্তক ধৰা হ'ল, আৰু তেওঁৰ <mark>সোঁ কাণ কটা হ'ল</mark>: পুৰণি নিয়ম মতে খুঁত থকা কোঁৱৰ আৰু কেতিয়াও সিংহাসনত বহিব নোৱাৰে।"
+      }
+     ],
+     "id": "prd.u1.03"
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "My father struck coins but could not rule.",
+       "as": "মোৰ পিতৃয়ে মুদ্ৰা উলিয়াইছিল কিন্তু ৰজা হ'ব নোৱাৰিলে।"
+      },
+      {
+       "en": "Ruchinath crowned me in 1818.",
+       "as": "ৰুচিনাথে ১৮১৮ চনত মোক ৰজা পাতিলে।"
+      },
+      {
+       "en": "I would be the last Ahom king.",
+       "as": "মই শেষ আহোম ৰজা হ'ম।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Purandar Singha",
+       "as": "পুৰন্দৰ সিংহ"
+      },
+      {
+       "en": "Chandrakanta Singha",
+       "as": "চন্দ্ৰকান্ত সিংহ"
+      },
+      {
+       "en": "Jogeswar Singha",
+       "as": "যোগেশ্বৰ সিংহ"
+      },
+      {
+       "en": "Kamaleswar Singha",
+       "as": "কমলেশ্বৰ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Purandar Singha.",
+      "as": "পুৰন্দৰ সিংহ।"
+     },
+     "id": "prd.u1.04"
+    },
+    {
+     "type": "spot",
+     "q": {
+      "en": "One word in this sentence is wrong. Tap it.",
+      "as": "এই বাক্যটোৰ এটা শব্দ ভুল। সেইটো টিপা।"
+     },
+     "tokens": {
+      "en": [
+       "Chandrakanta's",
+       "nose",
+       "was",
+       "cut",
+       "to",
+       "bar",
+       "him",
+       "from",
+       "the",
+       "throne."
+      ],
+      "as": [
+       "সিংহাসনৰ",
+       "অযোগ্য",
+       "কৰিবলৈ",
+       "চন্দ্ৰকান্তৰ",
+       "নাক",
+       "কটা",
+       "হৈছিল।"
+      ]
+     },
+     "wrong": {
+      "en": 1,
+      "as": 4
+     },
+     "fix": {
+      "en": "→ right ear",
+      "as": "→ সোঁ কাণ"
+     },
+     "answerText": {
+      "en": "nose → right ear",
+      "as": "নাক → সোঁ কাণ"
+     },
+     "why": {
+      "en": "His right ear was slit.",
+      "as": "তেওঁৰ সোঁ কাণ কটা হৈছিল।"
+     },
+     "id": "prd.u1.05"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "hill",
+   "title": {
+    "en": "Ala Mingi's army",
+    "as": "আলা মিংগিৰ সৈন্য"
+   },
+   "learned": [
+    {
+     "en": "Badan's friends fled to Burma and brought a new army",
+     "as": "বদনৰ বন্ধুসকল বাৰ্মালৈ পলাই নতুন সৈন্য আনিলে"
+    },
+    {
+     "en": "General Ala Mingi beat the Ahoms at Nazira, February 1819",
+     "as": "সেনাপতি আলা মিংগিয়ে ১৮১৯ চনৰ ফেব্ৰুৱাৰীত নাজিৰাত আহোমক হৰুৱালে"
+    },
+    {
+     "en": "Purandar fled to Guwahati, then into British territory",
+     "as": "পুৰন্দৰ গুৱাহাটী, তাৰ পিছত ব্ৰিটিছ এলেকালৈ পলাল"
+    },
+    {
+     "en": "He offered the British three lakhs a year for help; they refused",
+     "as": "তেওঁ সহায়ৰ বাবে বছৰি তিনি লাখ দিব খুজিলে; ব্ৰিটিছে অস্বীকাৰ কৰিলে"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Chandrakanta's right ear was slit.",
+      "as": "মনত পেলোৱা: চন্দ্ৰকান্তৰ সোঁ কাণ কটা হৈছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "prd.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "A king made by a slit ear.",
+       "as": "কাণ কটাৰে পতা ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "nazira.webp",
+     "title": {
+      "en": "Nazira",
+      "as": "নাজিৰা"
+     },
+     "text": [
+      {
+       "en": "The murdered Badan's friends fled to Burma. A new army under <mark>Ala Mingi</mark> reached Assam in <mark>February 1819</mark>.",
+       "as": "নিহত বদনৰ বন্ধুসকল বাৰ্মালৈ পলাল। <mark>আলা মিংগি</mark>ৰ নেতৃত্বত নতুন সৈন্য <mark>১৮১৯ চনৰ ফেব্ৰুৱাৰীত</mark> অসম পালেহি।"
+      },
+      {
+       "en": "The Ahoms fought well at [[nazira]], until their commander lost his nerve. Purandar fled to Guwahati, and then out of the kingdom.",
+       "as": "[[nazira]]ত আহোমে ভালদৰে যুঁজিলে, যেতিয়ালৈকে সেনাপতিৰ সাহস নেহেৰাল। পুৰন্দৰ গুৱাহাটী, তাৰ পিছত ৰাজ্যৰ বাহিৰলৈ পলাল।"
+      }
+     ],
+     "id": "prd.u2.02"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Nazira, where the Ahoms lost in 1819.",
+      "as": "১৮১৯ চনত আহোম হৰা নাজিৰা টিপা।"
+     },
+     "target": "nazira",
+     "choices": [
+      "nazira",
+      "guwahati",
+      "jorhat",
+      "majuli"
+     ],
+     "answerText": {
+      "en": "Nazira",
+      "as": "নাজিৰা"
+     },
+     "why": {
+      "en": "Nazira, near Garhgaon.",
+      "as": "গড়গাঁৱৰ ওচৰৰ নাজিৰা।"
+     },
+     "id": "prd.u2.03"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put Purandar's first reign in order.",
+      "as": "পুৰন্দৰৰ প্ৰথম ৰাজত্ব ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Ruchinath takes Jorhat",
+       "as": "ৰুচিনাথে যোৰহাট লয়"
+      },
+      {
+       "en": "Purandar crowned",
+       "as": "পুৰন্দৰৰ অভিষেক"
+      },
+      {
+       "en": "Defeat at Nazira",
+       "as": "নাজিৰাত পৰাজয়"
+      },
+      {
+       "en": "Flight to British land",
+       "as": "ব্ৰিটিছ এলেকালৈ পলায়ন"
+      }
+     ],
+     "why": {
+      "en": "One year, February 1818 to 1819.",
+      "as": "এবছৰ, ১৮১৮ৰ ফেব্ৰুৱাৰীৰ পৰা ১৮১৯।"
+     },
+     "id": "prd.u2.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember P-N-F",
+      "as": "মনত ৰাখা পু-না-প"
+     },
+     "text": [
+      {
+       "en": "Purandar's first reign in a breath: <mark>P</mark>urandar crowned (1818), <mark>N</mark>azira lost (1819), <mark>F</mark>light. But he will be back, in lesson 41.",
+       "as": "পুৰন্দৰৰ প্ৰথম ৰাজত্ব এক উশাহত: <mark>পু</mark>ৰন্দৰৰ অভিষেক (১৮১৮), <mark>না</mark>জিৰাত পৰাজয় (১৮১৯), <mark>প</mark>লায়ন। কিন্তু তেওঁ ঘূৰি আহিব, ৪১ নম্বৰ পাঠত।"
+      }
+     ],
+     "id": "prd.u2.05"
+    },
+    {
+     "type": "picture",
+     "q": {
+      "en": "Which picture shows the second Burmese invasion?",
+      "as": "কোনখন ছবিত দ্বিতীয় মান আক্ৰমণ দেখুওৱা হৈছে?"
+     },
+     "options": [
+      "nazira.webp",
+      "crowned.webp",
+      "purandar-singha-portrait.webp"
+     ],
+     "answer": 0,
+     "answerText": {
+      "en": "1819",
+      "as": "১৮১৯"
+     },
+     "why": {
+      "en": "Ala Mingi's army.",
+      "as": "আলা মিংগিৰ সৈন্য।"
+     },
+     "id": "prd.u2.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Purandar Singha",
+    "as": "তুমি স্বৰ্গদেউ পুৰন্দৰ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was crowned in 1818.",
+      "as": "মই ১৮১৮ চনত অভিষিক্ত।"
+     },
+     {
+      "en": "I lost at Nazira.",
+      "as": "মই নাজিৰাত হাৰিলোঁ।"
+     },
+     {
+      "en": "My father was Brajanath.",
+      "as": "মোৰ পিতৃ ব্ৰজনাথ।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Purandar Singha",
+      "as": "পুৰন্দৰ সিংহ"
+     },
+     {
+      "en": "Chandrakanta Singha",
+      "as": "চন্দ্ৰকান্ত সিংহ"
+     },
+     {
+      "en": "Ruchinath",
+      "as": "ৰুচিনাথ"
+     },
+     {
+      "en": "Jogeswar Singha",
+      "as": "যোগেশ্বৰ সিংহ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Purandar Singha.",
+     "as": "পুৰন্দৰ সিংহ।"
+    },
+    "id": "prd.test.01"
+   },
+   {
+    "type": "map",
+    "q": {
+     "en": "Tap Nazira.",
+     "as": "নাজিৰা টিপা।"
+    },
+    "target": "nazira",
+    "choices": [
+     "nazira",
+     "guwahati",
+     "jorhat",
+     "majuli"
+    ],
+    "answerText": {
+     "en": "Nazira",
+     "as": "নাজিৰা"
+    },
+    "why": {
+     "en": "Nazira.",
+     "as": "নাজিৰা।"
+    },
+    "id": "prd.test.02"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "The British agreed to restore Purandar in 1819.",
+     "as": "১৮১৯ চনত ব্ৰিটিছে পুৰন্দৰক পুনৰ প্ৰতিষ্ঠা কৰিবলৈ মান্তি হৈছিল।"
+    },
+    "answer": false,
+    "why": {
+     "en": "False; they refused to interfere.",
+     "as": "অশুদ্ধ; তেওঁলোকে হস্তক্ষেপ কৰিবলৈ অস্বীকাৰ কৰিলে।"
+    },
+    "id": "prd.test.03"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Brajanath",
+       "as": "ব্ৰজনাথ"
+      },
+      {
+       "en": "Mutilated, could not rule",
+       "as": "অংগহানি, ৰজা হ'ব নোৱাৰে"
+      }
+     ],
+     [
+      {
+       "en": "Ala Mingi",
+       "as": "আলা মিংগি"
+      },
+      {
+       "en": "Burmese general, 1819",
+       "as": "মান সেনাপতি, ১৮১৯"
+      }
+     ],
+     [
+      {
+       "en": "Ruchinath",
+       "as": "ৰুচিনাথ"
+      },
+      {
+       "en": "Crowned Purandar",
+       "as": "পুৰন্দৰক ৰজা পাতিলে"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Purandar's first reign.",
+     "as": "পুৰন্দৰৰ প্ৰথম ৰাজত্ব।"
+    },
+    "id": "prd.test.04"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Purandar Singha was first crowned in 1818.<br>2. The Ahoms defeated Ala Mingi at Nazira.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. পুৰন্দৰ সিংহ প্ৰথমে ১৮১৮ চনত অভিষিক্ত হৈছিল।<br>২. নাজিৰাত আহোমে আলা মিংগিক হৰুৱাইছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. The Ahoms lost at Nazira.",
+     "as": "কেৱল ১। নাজিৰাত আহোম হাৰিছিল।"
+    },
+    "small": true,
+    "id": "prd.test.05"
+   }
+  ]
+ }
+}

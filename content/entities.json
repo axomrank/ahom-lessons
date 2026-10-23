@@ -2425,5 +2425,248 @@
    "en": "Manipuri princess married to Rajeswar Singha; later helped overthrow the Moamoria leader Ragha (1770)",
    "as": "ৰাজেশ্বৰ সিংহক বিয়া দিয়া মণিপুৰী কুমাৰী; পিছত মোৱামৰীয়া নেতা ৰাঘৱৰ পতনত সহায় কৰে (১৭৭০)"
   }
+ },
+ "lakshmi-singha": {
+  "type": "person",
+  "name": {
+   "en": "Lakshmi Singha",
+   "as": "লক্ষ্মী সিংহ"
+  },
+  "meaning": {
+   "en": "Sunyeophaa, youngest son of Rudra Singha; king 1769–1780; captured in the first Moamoria rebellion",
+   "as": "চুন্যেওফা, ৰুদ্ৰ সিংহৰ সৰু পুত্ৰ; ১৭৬৯–১৭৮০ লৈকে ৰজা; প্ৰথম মোৱামৰীয়া বিদ্ৰোহত বন্দী"
+  }
+ },
+ "ragha-moran": {
+  "type": "person",
+  "name": {
+   "en": "Ragha Moran",
+   "as": "ৰাঘ মৰাণ"
+  },
+  "meaning": {
+   "en": "Moran leader of the Moamoria rebels; made himself Borbarua in 1769; killed on the eve of Bihu, 1770",
+   "as": "মোৱামৰীয়া বিদ্ৰোহীৰ মৰাণ নেতা; ১৭৬৯ চনত নিজকে বৰবৰুৱা পাতে; ১৭৭০ চনত বিহুৰ আগদিনা নিহত"
+  }
+ },
+ "ramakanta": {
+  "type": "person",
+  "name": {
+   "en": "Ramakanta",
+   "as": "ৰমাকান্ত"
+  },
+  "meaning": {
+   "en": "Son of the Moamara Gosain's family, set on the throne by the rebels in 1769",
+   "as": "মোৱামৰা গোঁসাইৰ পৰিয়ালৰ পুত্ৰ; ১৭৬৯ চনত বিদ্ৰোহীয়ে সিংহাসনত বহুৱায়"
+  }
+ },
+ "gaurinath-singha": {
+  "type": "person",
+  "name": {
+   "en": "Gaurinath Singha",
+   "as": "গৌৰীনাথ সিংহ"
+  },
+  "meaning": {
+   "en": "Suhitpangphaa, son of Lakshmi Singha; king 1780–1795; fled the Moamorias and called in the British",
+   "as": "চুহিতপাংফা, লক্ষ্মী সিংহৰ পুত্ৰ; ১৭৮০–১৭৯৫ লৈকে ৰজা; মোৱামৰীয়াৰ ভয়ত পলাই ব্ৰিটিছক মাতিলে"
+  }
+ },
+ "purnananda": {
+  "type": "person",
+  "name": {
+   "en": "Purnananda Burhagohain",
+   "as": "পূৰ্ণানন্দ বুঢ়াগোহাঁই"
+  },
+  "meaning": {
+   "en": "Burhagohain who held back the Moamorias for years and ruled for Kamaleswar and Chandrakanta; died 1817",
+   "as": "বছৰ বছৰ ধৰি মোৱামৰীয়াক ৰখা বুঢ়াগোহাঁই; কমলেশ্বৰ আৰু চন্দ্ৰকান্তৰ হৈ শাসন কৰে; ১৮১৭ চনত মৃত্যু"
+  }
+ },
+ "welsh": {
+  "type": "person",
+  "name": {
+   "en": "Captain Welsh",
+   "as": "কেপ্তেইন ৱেল্‌চ"
+  },
+  "meaning": {
+   "en": "Thomas Welsh, East India Company officer who led sepoys to restore Gaurinath, 1792–94",
+   "as": "টমাছ ৱেল্‌চ, ১৭৯২–৯৪ চনত গৌৰীনাথক পুনৰ প্ৰতিষ্ঠা কৰিবলৈ চিপাহী লৈ অহা ইষ্ট ইণ্ডিয়া কোম্পানীৰ বিষয়া"
+  }
+ },
+ "jorhat": {
+  "type": "place",
+  "name": {
+   "en": "Jorhat",
+   "as": "যোৰহাট"
+  },
+  "meaning": {
+   "en": "Last capital of the Ahom kingdom, from 1794",
+   "as": "১৭৯৪ চনৰ পৰা আহোম ৰাজ্যৰ শেষ ৰাজধানী"
+  },
+  "geo": [
+   26.75,
+   94.22
+  ]
+ },
+ "bengmara": {
+  "type": "place",
+  "name": {
+   "en": "Bengmara",
+   "as": "বেংমৰা"
+  },
+  "meaning": {
+   "en": "Moamoria capital of Sarbananda Singha, today's Tinsukia",
+   "as": "চৰ্বানন্দ সিংহৰ মোৱামৰীয়া ৰাজধানী, আজিৰ তিনিচুকীয়া"
+  },
+  "geo": [
+   27.49,
+   95.36
+  ]
+ },
+ "matak": {
+  "type": "term",
+  "name": {
+   "en": "Matak rajya",
+   "as": "মটক ৰাজ্য"
+  },
+  "meaning": {
+   "en": "Autonomous Moamoria territory east of the Dibru, under a Barsenapati, from 1805",
+   "as": "১৮০৫ চনৰ পৰা ডিব্ৰুৰ পূবৰ স্বায়ত্তশাসিত মোৱামৰীয়া অঞ্চল, বৰসেনাপতিৰ অধীনত"
+  }
+ },
+ "kamaleswar-singha": {
+  "type": "person",
+  "name": {
+   "en": "Kamaleswar Singha",
+   "as": "কমলেশ্বৰ সিংহ"
+  },
+  "meaning": {
+   "en": "Suklingphaa, a descendant of Gadadhar Singha; king 1795–1811 as a boy, with Purnananda ruling",
+   "as": "চুক্লিংফা, গদাধৰ সিংহৰ বংশধৰ; ১৭৯৫–১৮১১ লৈকে কিশোৰ ৰজা, পূৰ্ণানন্দৰ শাসনত"
+  }
+ },
+ "chandrakanta-singha": {
+  "type": "person",
+  "name": {
+   "en": "Chandrakanta Singha",
+   "as": "চন্দ্ৰকান্ত সিংহ"
+  },
+  "meaning": {
+   "en": "Sudingphaa, brother of Kamaleswar; king 1811–18 and 1819–21; his ear was slit to bar him from the throne",
+   "as": "চুডিংফা, কমলেশ্বৰৰ ভাই; ১৮১১–১৮ আৰু ১৮১৯–২১ লৈকে ৰজা; সিংহাসনৰ অযোগ্য কৰিবলৈ কাণ কটা হৈছিল"
+  }
+ },
+ "badan-chandra": {
+  "type": "person",
+  "name": {
+   "en": "Badan Chandra Borphukan",
+   "as": "বদনচন্দ্ৰ বৰফুকন"
+  },
+  "meaning": {
+   "en": "Borphukan who fled to Burma and brought the Burmese army into Assam in 1817; killed the same year",
+   "as": "বৰফুকন; বাৰ্মালৈ গৈ ১৮১৭ চনত মানৰ সৈন্য অসমলৈ আনে; একে বছৰতে নিহত"
+  }
+ },
+ "manor-din": {
+  "type": "term",
+  "name": {
+   "en": "Manor Din",
+   "as": "মানৰ দিন"
+  },
+  "meaning": {
+   "en": "'The days of the Burmese', 1817–1826: invasions, massacres and flight",
+   "as": "'মানৰ দিন', ১৮১৭–১৮২৬: আক্ৰমণ, হত্যা আৰু পলায়ন"
+  }
+ },
+ "purandar-singha": {
+  "type": "person",
+  "name": {
+   "en": "Purandar Singha",
+   "as": "পুৰন্দৰ সিংহ"
+  },
+  "meaning": {
+   "en": "Great-great-grandson of Rajeswar Singha; king 1818–19 and, under the British, 1833–38; the last Ahom king",
+   "as": "ৰাজেশ্বৰ সিংহৰ বংশধৰ; ১৮১৮–১৯ আৰু ব্ৰিটিছৰ অধীনত ১৮৩৩–৩৮ লৈকে ৰজা; শেষ আহোম ৰজা"
+  }
+ },
+ "ruchinath": {
+  "type": "person",
+  "name": {
+   "en": "Ruchinath Burhagohain",
+   "as": "ৰুচিনাথ বুঢ়াগোহাঁই"
+  },
+  "meaning": {
+   "en": "Son of Purnananda; drove out Chandrakanta in 1818 and crowned Purandar Singha",
+   "as": "পূৰ্ণানন্দৰ পুত্ৰ; ১৮১৮ চনত চন্দ্ৰকান্তক খেদি পুৰন্দৰ সিংহক ৰজা পাতে"
+  }
+ },
+ "nazira": {
+  "type": "place",
+  "name": {
+   "en": "Nazira",
+   "as": "নাজিৰা"
+  },
+  "meaning": {
+   "en": "Town near Garhgaon; site of the 1819 defeat by the Burmese",
+   "as": "গড়গাঁৱৰ ওচৰৰ নগৰ; ১৮১৯ চনত মানৰ হাতত পৰাজয়ৰ ঠাই"
+  },
+  "geo": [
+   26.91,
+   94.73
+  ]
+ },
+ "jogeswar-singha": {
+  "type": "person",
+  "name": {
+   "en": "Jogeswar Singha",
+   "as": "যোগেশ্বৰ সিংহ"
+  },
+  "meaning": {
+   "en": "Puppet king set up by the Burmese in 1821; brother of Hemo Aideo, sent to the Burmese king's court",
+   "as": "১৮২১ চনত মানে পতা পুতলা ৰজা; মান ৰজাৰ ওচৰলৈ পঠোৱা হেমো আইদেউৰ ভাই"
+  }
+ },
+ "yandabo": {
+  "type": "term",
+  "name": {
+   "en": "Treaty of Yandabo",
+   "as": "ইয়াণ্ডাবু সন্ধি"
+  },
+  "meaning": {
+   "en": "24 February 1826: Burma gave up Assam to the East India Company, ending the First Anglo-Burmese War",
+   "as": "২৪ ফেব্ৰুৱাৰী ১৮২৬: বাৰ্মাই অসম ইষ্ট ইণ্ডিয়া কোম্পানীক এৰি দিলে; প্ৰথম ইংগ-বৰ্মী যুদ্ধৰ অন্ত"
+  }
+ },
+ "david-scott": {
+  "type": "person",
+  "name": {
+   "en": "David Scott",
+   "as": "ডেভিড স্কট"
+  },
+  "meaning": {
+   "en": "British Agent for the North-East Frontier who governed Assam after 1824",
+   "as": "১৮২৪ চনৰ পিছত অসম শাসন কৰা উত্তৰ-পূব সীমান্তৰ ব্ৰিটিছ এজেণ্ট"
+  }
+ },
+ "gomdhar-konwar": {
+  "type": "person",
+  "name": {
+   "en": "Gomdhar Konwar",
+   "as": "গোমধৰ কোঁৱৰ"
+  },
+  "meaning": {
+   "en": "Ahom prince crowned by nobles in 1828 in the first armed rising against British rule in Assam",
+   "as": "১৮২৮ চনত অসমত ব্ৰিটিছ শাসনৰ বিৰুদ্ধে প্ৰথম সশস্ত্ৰ বিদ্ৰোহত বিষয়াসকলে অভিষেক কৰা আহোম কোঁৱৰ"
+  }
+ },
+ "piyali-phukan": {
+  "type": "person",
+  "name": {
+   "en": "Piyali Phukan",
+   "as": "পিয়লি ফুকন"
+  },
+  "meaning": {
+   "en": "Son of Badan Chandra; hanged by the British in 1830 for a plot to restore Ahom rule",
+   "as": "বদনচন্দ্ৰৰ পুত্ৰ; আহোম শাসন ঘূৰাই আনাৰ ষড়যন্ত্ৰৰ বাবে ১৮৩০ চনত ব্ৰিটিছে ফাঁচী দিয়ে"
+  }
  }
 }

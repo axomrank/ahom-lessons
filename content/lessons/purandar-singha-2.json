@@ -1,0 +1,916 @@
+{
+ "id": "purandar-singha-2",
+ "no": 41,
+ "version": 1,
+ "king": {
+  "en": "Swargadeo Purandar Singha",
+  "as": "স্বৰ্গদেউ পুৰন্দৰ সিংহ"
+ },
+ "reign": {
+  "en": "Reign 1833–1838",
+  "as": "ৰাজত্বকাল ১৮৩৩–১৮৩৮"
+ },
+ "portrait": "purandar-singha-2-portrait.webp",
+ "sources": [
+  {
+   "title": "E. A. Gait, A History of Assam (1906), ch. XIV, pp. 291–304",
+   "url": "https://archive.org/details/historyofassam00gait",
+   "used_for": "British administration under David Scott; decision to restore a native ruler in Upper Assam; Purandar Singh installed early 1833 east of the Dhansiri (except Sadiya and Matak), Jorhat capital, tribute Rs. 50,000; Robertson's opinion of him; default and misgovernment; deposed and pensioned October 1838; districts of Sibsagar and Lakhimpur; McCosh's description"
+  },
+  {
+   "title": "AHOM catalogue (scene rows), /AHOM/data/ahom.csv",
+   "url": "https://en.wikipedia.org/wiki/Purandar_Singha",
+   "used_for": "Scenes AHOM-229, 230, 233, 276, 277; Gomdhar Konwar (1828) and Piyali Phukan (1830)"
+  }
+ ],
+ "review_notes": "Gomdhar Konwar's revolt (1828) and the hanging of Piyali Phukan and Jiuram Dulia Baruah (1830) come from the catalogue and Wikipedia. Gait judges Purandar harshly; the catalogue stresses that the tribute was nearly impossible for a ruined land. The lesson gives both views.",
+ "buildsOn": {
+  "no": 40,
+  "title": {
+   "en": "Jogeswar Singha",
+   "as": "যোগেশ্বৰ সিংহ"
+  },
+  "id": "jogeswar-singha"
+ },
+ "guide": {
+  "timeline": [
+   {
+    "y": "1826",
+    "t": {
+     "en": "Assam under the British",
+     "as": "অসম ব্ৰিটিছৰ অধীনত"
+    }
+   },
+   {
+    "y": "1828",
+    "t": {
+     "en": "Gomdhar Konwar's revolt",
+     "as": "গোমধৰ কোঁৱৰৰ বিদ্ৰোহ"
+    }
+   },
+   {
+    "y": "1830",
+    "t": {
+     "en": "Piyali Phukan hanged",
+     "as": "পিয়লি ফুকনৰ ফাঁচী"
+    }
+   },
+   {
+    "y": "1833",
+    "t": {
+     "en": "Purandar restored in Upper Assam",
+     "as": "উজনি অসমত পুৰন্দৰ পুনৰ ৰজা"
+    }
+   },
+   {
+    "y": "1838",
+    "t": {
+     "en": "Deposed; Ahom rule ends",
+     "as": "পদচ্যুত; আহোম শাসনৰ অন্ত"
+    }
+   }
+  ]
+ },
+ "map": {
+  "box": [
+   90.6,
+   25.6,
+   95.8,
+   27.8
+  ],
+  "show": [
+   "brahmaputra",
+   "guwahati",
+   "jorhat",
+   "rangpur",
+   "nazira",
+   "majuli"
+  ],
+  "routes": [],
+  "texts": [],
+  "labels": {
+   "guwahati": {
+    "pos": "s"
+   },
+   "jorhat": {
+    "pos": "w"
+   },
+   "rangpur": {
+    "pos": "n"
+   },
+   "nazira": {
+    "pos": "e"
+   },
+   "majuli": {
+    "pos": "n"
+   },
+   "brahmaputra": {
+    "at": [
+     26.35,
+     91.6
+    ],
+    "pos": "n"
+   }
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "icon": "hill",
+   "title": {
+    "en": "Revolts against the new masters",
+    "as": "নতুন প্ৰভুৰ বিৰুদ্ধে বিদ্ৰোহ"
+   },
+   "learned": [
+    {
+     "en": "After 1826 David Scott governed Assam for the British",
+     "as": "১৮২৬ৰ পিছত ডেভিড স্কটে ব্ৰিটিছৰ হৈ অসম শাসন কৰিলে"
+    },
+    {
+     "en": "In 1828 nobles crowned Gomdhar Konwar and rose against the British",
+     "as": "১৮২৮ চনত বিষয়াসকলে গোমধৰ কোঁৱৰক ৰজা পাতি ব্ৰিটিছৰ বিৰুদ্ধে উঠিল"
+    },
+    {
+     "en": "It was the first armed rising against British rule in Assam",
+     "as": "এয়া অসমত ব্ৰিটিছ শাসনৰ বিৰুদ্ধে প্ৰথম সশস্ত্ৰ বিদ্ৰোহ"
+    },
+    {
+     "en": "In 1830 Piyali Phukan and Jiuram Dulia Baruah were hanged",
+     "as": "১৮৩০ চনত পিয়লি ফুকন আৰু জীউৰাম দুলীয়া বৰুৱাক ফাঁচী দিয়া হ'ল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "story",
+     "img": "gomdhar.webp",
+     "title": {
+      "en": "A prince crowned in revolt",
+      "as": "বিদ্ৰোহত অভিষিক্ত কোঁৱৰ"
+     },
+     "text": [
+      {
+       "en": "The Burmese were gone, but the British stayed. [[david-scott]] ran Assam. In <mark>1828</mark> Ahom nobles crowned [[gomdhar-konwar]] near Jorhat and marched on Rangpur.",
+       "as": "মান গ'ল, কিন্তু ব্ৰিটিছ ৰৈ গ'ল। [[david-scott]]ই অসম চলালে। <mark>১৮২৮</mark> চনত আহোম বিষয়াসকলে যোৰহাটৰ ওচৰত [[gomdhar-konwar]]ক অভিষেক কৰি ৰংপুৰলৈ আগবাঢ়িল।"
+      },
+      {
+       "en": "British troops beat them, and Gomdhar was captured and banished. It was the <mark>first armed rising against British rule</mark> in Assam.",
+       "as": "ব্ৰিটিছ সৈন্যই তেওঁলোকক হৰুৱালে, আৰু গোমধৰক ধৰি নিৰ্বাসন দিয়া হ'ল। এয়া অসমত <mark>ব্ৰিটিছ শাসনৰ বিৰুদ্ধে প্ৰথম সশস্ত্ৰ বিদ্ৰোহ</mark>।"
+      }
+     ],
+     "id": "pr2.u1.01",
+     "link": {
+      "lesson": 40,
+      "lessonId": "jogeswar-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The British come, the Burmese go",
+       "as": "ব্ৰিটিছ আহে, মান যায়"
+      },
+      "note": {
+       "en": "Yandabo gave Assam to the British.",
+       "as": "ইয়াণ্ডাবুৱে অসম ব্ৰিটিছক দিছিল।"
+      }
+     }
+    },
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Nobles crowned me in 1828.",
+       "as": "১৮২৮ চনত বিষয়াসকলে মোক ৰজা পাতিছিল।"
+      },
+      {
+       "en": "I rose against the British.",
+       "as": "মই ব্ৰিটিছৰ বিৰুদ্ধে উঠিছিলোঁ।"
+      },
+      {
+       "en": "I was captured and banished.",
+       "as": "মোক ধৰি নিৰ্বাসন দিয়া হৈছিল।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Gomdhar Konwar",
+       "as": "গোমধৰ কোঁৱৰ"
+      },
+      {
+       "en": "Piyali Phukan",
+       "as": "পিয়লি ফুকন"
+      },
+      {
+       "en": "Purandar Singha",
+       "as": "পুৰন্দৰ সিংহ"
+      },
+      {
+       "en": "Jogeswar Singha",
+       "as": "যোগেশ্বৰ সিংহ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gomdhar Konwar.",
+      "as": "গোমধৰ কোঁৱৰ।"
+     },
+     "id": "pr2.u1.02"
+    },
+    {
+     "type": "story",
+     "img": "piyali.webp",
+     "title": {
+      "en": "Two at the gallows",
+      "as": "ফাঁচীকাঠত দুজন"
+     },
+     "text": [
+      {
+       "en": "In <mark>1830</mark> a wider plot to drive out the British was discovered. Its leaders, [[piyali-phukan]] (Badan Chandra's son) and <mark>Jiuram Dulia Baruah</mark>, were hanged.",
+       "as": "<mark>১৮৩০</mark> চনত ব্ৰিটিছক খেদাৰ এটা ডাঙৰ ষড়যন্ত্ৰ ধৰা পৰিল। ইয়াৰ নেতা [[piyali-phukan]] (বদনচন্দ্ৰৰ পুত্ৰ) আৰু <mark>জীউৰাম দুলীয়া বৰুৱা</mark>ক ফাঁচী দিয়া হ'ল।"
+      }
+     ],
+     "id": "pr2.u1.03"
+    },
+    {
+     "type": "tf",
+     "s": {
+      "en": "Piyali Phukan was the son of Badan Chandra Borphukan.",
+      "as": "পিয়লি ফুকন বদনচন্দ্ৰ বৰফুকনৰ পুত্ৰ আছিল।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True: the father brought the Burmese in; the son died fighting the British.",
+      "as": "শুদ্ধ: পিতৃয়ে মান আনিছিল; পুত্ৰই ব্ৰিটিছৰ বিৰুদ্ধে যুঁজি প্ৰাণ দিলে।"
+     },
+     "id": "pr2.u1.04",
+     "link": {
+      "lesson": 37,
+      "lessonId": "chandrakanta-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "The traitor goes to Ava",
+       "as": "বিশ্বাসঘাতক আভালৈ"
+      },
+      "note": {
+       "en": "Badan Chandra went to Ava.",
+       "as": "বদনচন্দ্ৰ আভালৈ গৈছিল।"
+      }
+     }
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Put the risings in order.",
+      "as": "বিদ্ৰোহবোৰ ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Treaty of Yandabo (1826)",
+       "as": "ইয়াণ্ডাবু সন্ধি (১৮২৬)"
+      },
+      {
+       "en": "Gomdhar Konwar's revolt (1828)",
+       "as": "গোমধৰ কোঁৱৰৰ বিদ্ৰোহ (১৮২৮)"
+      },
+      {
+       "en": "Piyali Phukan hanged (1830)",
+       "as": "পিয়লি ফুকনৰ ফাঁচী (১৮৩০)"
+      }
+     ],
+     "why": {
+      "en": "1826 → 1828 → 1830.",
+      "as": "১৮২৬ → ১৮২৮ → ১৮৩০।"
+     },
+     "id": "pr2.u1.05"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "icon": "crown",
+   "title": {
+    "en": "A king again, on terms",
+    "as": "চৰ্তসাপেক্ষে পুনৰ ৰজা"
+   },
+   "learned": [
+    {
+     "en": "In 1833 the British made Purandar king of Upper Assam",
+     "as": "১৮৩৩ চনত ব্ৰিটিছে পুৰন্দৰক উজনি অসমৰ ৰজা পাতিলে"
+    },
+    {
+     "en": "Jorhat was his capital",
+     "as": "যোৰহাট তেওঁৰ ৰাজধানী"
+    },
+    {
+     "en": "He had to pay a tribute of 50,000 rupees a year",
+     "as": "তেওঁ বছৰি ৫০,০০০ টকা কৰ দিব লাগিছিল"
+    },
+    {
+     "en": "Sadiya and the Matak land stayed outside his rule",
+     "as": "শদিয়া আৰু মটক তেওঁৰ শাসনৰ বাহিৰত থাকিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "whoami",
+     "clues": [
+      {
+       "en": "Warm-up: I was hanged in 1830.",
+       "as": "মনত পেলোৱা: ১৮৩০ চনত মোক ফাঁচী দিয়া হৈছিল।"
+      },
+      {
+       "en": "My father brought the Burmese.",
+       "as": "মোৰ পিতৃয়ে মান আনিছিল।"
+      },
+      {
+       "en": "I plotted against the British.",
+       "as": "মই ব্ৰিটিছৰ বিৰুদ্ধে ষড়যন্ত্ৰ কৰিছিলোঁ।"
+      }
+     ],
+     "options": [
+      {
+       "en": "Piyali Phukan",
+       "as": "পিয়লি ফুকন"
+      },
+      {
+       "en": "Gomdhar Konwar",
+       "as": "গোমধৰ কোঁৱৰ"
+      },
+      {
+       "en": "Ruchinath",
+       "as": "ৰুচিনাথ"
+      },
+      {
+       "en": "Satram",
+       "as": "সত্ৰাম"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Piyali Phukan.",
+      "as": "পিয়লি ফুকন।"
+     },
+     "id": "pr2.u2.01",
+     "link": {
+      "unit": "u1",
+      "note": {
+       "en": "Revolts against the new masters.",
+       "as": "নতুন প্ৰভুৰ বিৰুদ্ধে বিদ্ৰোহ।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "restored-1833.webp",
+     "title": {
+      "en": "Restored, with a price",
+      "as": "মূল্যৰ বিনিময়ত পুনৰ ৰজা"
+     },
+     "text": [
+      {
+       "en": "The British did not want to rule all of Assam yet. In <mark>1833</mark> they gave Upper Assam, east of the Dhansiri, to [[purandar-singha]], now about 25, 'mild and pacific'. His capital was <mark>Jorhat</mark>.",
+       "as": "ব্ৰিটিছে তেতিয়াও গোটেই অসম শাসন কৰিব বিচৰা নাছিল। <mark>১৮৩৩</mark> চনত তেওঁলোকে ধনশিৰিৰ পূবৰ উজনি অসম প্ৰায় ২৫ বছৰীয়া, 'কোমল আৰু শান্ত' [[purandar-singha]]ক দিলে। তেওঁৰ ৰাজধানী <mark>যোৰহাট</mark>।"
+      },
+      {
+       "en": "The price: a tribute of <mark>50,000 rupees a year</mark>.",
+       "as": "মূল্য: বছৰি <mark>৫০,০০০ টকা</mark> কৰ।"
+      }
+     ],
+     "id": "pr2.u2.02",
+     "link": {
+      "lesson": 38,
+      "lessonId": "purandar-singha",
+      "unitNo": 2,
+      "unitTitle": {
+       "en": "Ala Mingi's army",
+       "as": "আলা মিংগিৰ সৈন্য"
+      },
+      "note": {
+       "en": "Purandar had fled after Nazira in 1819.",
+       "as": "১৮১৯ চনত নাজিৰাৰ পিছত পুৰন্দৰ পলাইছিল।"
+      }
+     }
+    },
+    {
+     "type": "fill",
+     "before": {
+      "en": "Purandar had to pay a yearly tribute of",
+      "as": "পুৰন্দৰে বছৰি কৰ দিব লাগিছিল"
+     },
+     "after": {
+      "en": "rupees.",
+      "as": "টকা।"
+     },
+     "answer": "50,000",
+     "asOptions": [
+      "৩,০০,০০০",
+      "৫০,০০০",
+      "৫৮,০০০",
+      "১,২০,০০০"
+     ],
+     "asAnswer": 1,
+     "answerText": {
+      "en": "50,000",
+      "as": "৫০,০০০"
+     },
+     "why": {
+      "en": "Rs 50,000, from a revenue of about Rs 1,20,000.",
+      "as": "প্ৰায় ১,২০,০০০ টকা ৰাজহৰ পৰা ৫০,০০০ টকা।"
+     },
+     "id": "pr2.u2.03"
+    },
+    {
+     "type": "map",
+     "q": {
+      "en": "Tap Jorhat, Purandar's capital.",
+      "as": "পুৰন্দৰৰ ৰাজধানী যোৰহাট টিপা।"
+     },
+     "target": "jorhat",
+     "choices": [
+      "jorhat",
+      "guwahati",
+      "rangpur",
+      "nazira"
+     ],
+     "answerText": {
+      "en": "Jorhat",
+      "as": "যোৰহাট"
+     },
+     "why": {
+      "en": "Jorhat.",
+      "as": "যোৰহাট।"
+     },
+     "id": "pr2.u2.04"
+    },
+    {
+     "type": "odd",
+     "q": {
+      "en": "Which was NOT part of Purandar's state in 1833?",
+      "as": "১৮৩৩ চনত কোনটো পুৰন্দৰৰ ৰাজ্যৰ অংশ নাছিল?"
+     },
+     "options": [
+      {
+       "en": "Jorhat",
+       "as": "যোৰহাট"
+      },
+      {
+       "en": "Sivasagar area",
+       "as": "শিৱসাগৰ অঞ্চল"
+      },
+      {
+       "en": "Land east of the Dhansiri",
+       "as": "ধনশিৰিৰ পূবৰ মাটি"
+      },
+      {
+       "en": "Sadiya",
+       "as": "শদিয়া"
+      }
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Sadiya and Matak stayed under the British.",
+      "as": "শদিয়া আৰু মটক ব্ৰিটিছৰ অধীনত থাকিল।"
+     },
+     "id": "pr2.u2.05"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "icon": "moon",
+   "title": {
+    "en": "The end of six hundred years",
+    "as": "ছশ বছৰৰ অন্ত"
+   },
+   "learned": [
+    {
+     "en": "A ruined land could not pay; revenue fell and payments failed",
+     "as": "ধ্বংসপ্ৰাপ্ত দেশে দিব নোৱাৰিলে; ৰাজহ কমিল, কৰ বাকী পৰিল"
+    },
+    {
+     "en": "The British blamed misrule and corruption",
+     "as": "ব্ৰিটিছে কুশাসন আৰু দুৰ্নীতিক দোষ দিলে"
+    },
+    {
+     "en": "In October 1838 Purandar was deposed and pensioned",
+     "as": "১৮৩৮ চনৰ অক্টোবৰত পুৰন্দৰক পদচ্যুত কৰি পেঞ্চন দিয়া হ'ল"
+    },
+    {
+     "en": "Ahom rule, begun by Sukaphaa in 1228, was over",
+     "as": "১২২৮ চনত চুকাফাই আৰম্ভ কৰা আহোম শাসনৰ অন্ত পৰিল"
+    }
+   ],
+   "steps": [
+    {
+     "type": "tf",
+     "s": {
+      "en": "Warm-up: Purandar's capital in 1833 was Jorhat.",
+      "as": "মনত পেলোৱা: ১৮৩৩ চনত পুৰন্দৰৰ ৰাজধানী যোৰহাট।"
+     },
+     "answer": true,
+     "why": {
+      "en": "True.",
+      "as": "শুদ্ধ।"
+     },
+     "id": "pr2.u3.01",
+     "link": {
+      "unit": "u2",
+      "note": {
+       "en": "A king again, on terms.",
+       "as": "চৰ্তসাপেক্ষে পুনৰ ৰজা।"
+      }
+     }
+    },
+    {
+     "type": "story",
+     "img": "taxes.webp",
+     "title": {
+      "en": "An impossible bill",
+      "as": "অসম্ভৱ দাবী"
+     },
+     "text": [
+      {
+       "en": "Upper Assam was emptied by war and the Manor Din. Purandar squeezed taxes from a ruined people, but within three years he was <mark>behind on the tribute</mark> and begged for a cut.",
+       "as": "যুদ্ধ আৰু মানৰ দিনে উজনি অসম উদং কৰিছিল। পুৰন্দৰে ধ্বংসপ্ৰাপ্ত প্ৰজাৰ পৰা কৰ চেপি উলিয়ালে, কিন্তু তিনি বছৰৰ ভিতৰতে <mark>কৰ বাকী পৰিল</mark> আৰু তেওঁ কমাবলৈ কাকুতি কৰিলে।"
+      },
+      {
+       "en": "The British blamed corruption and misrule. Gait agrees; others say no one could have paid.",
+       "as": "ব্ৰিটিছে দুৰ্নীতি আৰু কুশাসনক দোষ দিলে। গেইট একমত; আনে কয়, কোনেও দিব নোৱাৰিলেহেঁতেন।"
+      }
+     ],
+     "id": "pr2.u3.02"
+    },
+    {
+     "type": "story",
+     "img": "deposed.webp",
+     "title": {
+      "en": "October 1838",
+      "as": "অক্টোবৰ ১৮৩৮"
+     },
+     "text": [
+      {
+       "en": "In <mark>October 1838</mark> Purandar was <mark>deposed and pensioned</mark>. His land became the British districts of Sibsagar and Lakhimpur.",
+       "as": "<mark>১৮৩৮ চনৰ অক্টোবৰত</mark> পুৰন্দৰক <mark>পদচ্যুত কৰি পেঞ্চন দিয়া হ'ল</mark>। তেওঁৰ ৰাজ্য শিৱসাগৰ আৰু লখিমপুৰ নামৰ ব্ৰিটিছ জিলা হ'ল।"
+      },
+      {
+       "en": "The kingdom Sukaphaa founded in <mark>1228</mark> had lasted about <mark>600 years</mark>. It was over.",
+       "as": "<mark>১২২৮</mark> চনত চুকাফাই পতা ৰাজ্য প্ৰায় <mark>৬০০ বছৰ</mark> টিকিছিল। তাৰ অন্ত পৰিল।"
+      }
+     ],
+     "id": "pr2.u3.03",
+     "link": {
+      "lesson": 1,
+      "lessonId": "sukaphaa",
+      "unitNo": 1,
+      "unitTitle": {
+       "en": "The journey",
+       "as": "যাত্ৰা"
+      },
+      "note": {
+       "en": "Where it all began: Sukaphaa, 1228.",
+       "as": "য'ৰ পৰা আৰম্ভ: চুকাফা, ১২২৮।"
+      }
+     }
+    },
+    {
+     "type": "timeline",
+     "q": {
+      "en": "Place each on the 600-year line.",
+      "as": "৬০০ বছৰৰ ৰেখাত প্ৰতিটো বহুওৱা।"
+     },
+     "anchors": [
+      {
+       "y": "1228",
+       "l": {
+        "en": "Sukaphaa founds the kingdom",
+        "as": "চুকাফাই ৰাজ্য পাতে"
+       }
+      },
+      {
+       "y": "1838",
+       "l": {
+        "en": "Purandar deposed",
+        "as": "পুৰন্দৰ পদচ্যুত"
+       }
+      }
+     ],
+     "items": [
+      {
+       "t": {
+        "en": "Battle of Saraighat",
+        "as": "শৰাইঘাটৰ যুদ্ধ"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Moamoria rebellion",
+        "as": "মোৱামৰীয়া বিদ্ৰোহ"
+       },
+       "slot": 0
+      },
+      {
+       "t": {
+        "en": "Ahom kingdom gone",
+        "as": "আহোম ৰাজ্য নাই"
+       },
+       "slot": 1
+      }
+     ],
+     "why": {
+      "en": "1228 → 1671 → 1769 → 1838 → after.",
+      "as": "১২২৮ → ১৬৭১ → ১৭৬৯ → ১৮৩৮ → পিছত।"
+     },
+     "id": "pr2.u3.04"
+    },
+    {
+     "type": "story",
+     "art": "scroll",
+     "title": {
+      "en": "Remember G-P-R-D",
+      "as": "মনত ৰাখা গো-পি-পু-প"
+     },
+     "text": [
+      {
+       "en": "The last chapter: <mark>G</mark>omdhar's revolt (1828), <mark>P</mark>iyali hanged (1830), <mark>R</mark>estored (1833), <mark>D</mark>eposed (1838). Six centuries, from the Patkai to Jorhat: you have walked them all.",
+       "as": "শেষ অধ্যায়: <mark>গো</mark>মধৰৰ বিদ্ৰোহ (১৮২৮), <mark>পি</mark>য়লিৰ ফাঁচী (১৮৩০), <mark>পু</mark>নৰ ৰজা (১৮৩৩), <mark>প</mark>দচ্যুত (১৮৩৮)। পাটকাইৰ পৰা যোৰহাটলৈ ছশ বছৰ: তুমি সকলোখিনি খোজ কাঢ়িলা।"
+      }
+     ],
+     "id": "pr2.u3.05"
+    },
+    {
+     "type": "order",
+     "q": {
+      "en": "Use G-P-R-D: put the last chapter in order.",
+      "as": "গো-পি-পু-প ব্যৱহাৰ কৰি শেষ অধ্যায় ক্ৰমত সজোৱা।"
+     },
+     "items": [
+      {
+       "en": "Gomdhar's revolt",
+       "as": "গোমধৰৰ বিদ্ৰোহ"
+      },
+      {
+       "en": "Piyali hanged",
+       "as": "পিয়লিৰ ফাঁচী"
+      },
+      {
+       "en": "Purandar restored",
+       "as": "পুৰন্দৰ পুনৰ ৰজা"
+      },
+      {
+       "en": "Purandar deposed",
+       "as": "পুৰন্দৰ পদচ্যুত"
+      }
+     ],
+     "why": {
+      "en": "1828 → 1830 → 1833 → 1838.",
+      "as": "১৮২৮ → ১৮৩০ → ১৮৩৩ → ১৮৩৮।"
+     },
+     "id": "pr2.u3.06"
+    }
+   ]
+  }
+ ],
+ "test": {
+  "id": "test",
+  "title": {
+   "en": "Lesson test",
+   "as": "পাঠৰ পৰীক্ষা"
+  },
+  "learned": [
+   {
+    "en": "You have completed the reign of Swargadeo Purandar Singha",
+    "as": "তুমি স্বৰ্গদেউ পুৰন্দৰ সিংহৰ ৰাজত্বকাল সম্পূৰ্ণ কৰিলা"
+   }
+  ],
+  "steps": [
+   {
+    "type": "whoami",
+    "clues": [
+     {
+      "en": "I was the last Ahom king.",
+      "as": "মই শেষ আহোম ৰজা।"
+     },
+     {
+      "en": "The British restored me in 1833.",
+      "as": "১৮৩৩ চনত ব্ৰিটিছে মোক পুনৰ ৰজা পাতিলে।"
+     },
+     {
+      "en": "I was deposed in 1838.",
+      "as": "১৮৩৮ চনত মোক পদচ্যুত কৰা হ'ল।"
+     }
+    ],
+    "options": [
+     {
+      "en": "Purandar Singha",
+      "as": "পুৰন্দৰ সিংহ"
+     },
+     {
+      "en": "Chandrakanta Singha",
+      "as": "চন্দ্ৰকান্ত সিংহ"
+     },
+     {
+      "en": "Jogeswar Singha",
+      "as": "যোগেশ্বৰ সিংহ"
+     },
+     {
+      "en": "Gomdhar Konwar",
+      "as": "গোমধৰ কোঁৱৰ"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Purandar Singha.",
+     "as": "পুৰন্দৰ সিংহ।"
+    },
+    "id": "pr2.test.01"
+   },
+   {
+    "type": "picture",
+    "q": {
+     "en": "Which picture shows the end of Ahom rule?",
+     "as": "কোনখন ছবিত আহোম শাসনৰ অন্ত দেখুওৱা হৈছে?"
+    },
+    "options": [
+     "deposed.webp",
+     "restored-1833.webp",
+     "gomdhar.webp",
+     "taxes.webp"
+    ],
+    "answer": 0,
+    "answerText": {
+     "en": "October 1838",
+     "as": "অক্টোবৰ ১৮৩৮"
+    },
+    "why": {
+     "en": "Purandar deposed.",
+     "as": "পুৰন্দৰ পদচ্যুত।"
+    },
+    "id": "pr2.test.02"
+   },
+   {
+    "type": "match",
+    "q": {
+     "en": "Tap the matching pairs.",
+     "as": "যোৰাবোৰ মিলোৱা।"
+    },
+    "pairs": [
+     [
+      {
+       "en": "Sukaphaa",
+       "as": "চুকাফা"
+      },
+      {
+       "en": "1228, the first king",
+       "as": "১২২৮, প্ৰথম ৰজা"
+      }
+     ],
+     [
+      {
+       "en": "Lachit Borphukan",
+       "as": "লাচিত বৰফুকন"
+      },
+      {
+       "en": "Saraighat, 1671",
+       "as": "শৰাইঘাট, ১৬৭১"
+      }
+     ],
+     [
+      {
+       "en": "Rudra Singha",
+       "as": "ৰুদ্ৰ সিংহ"
+      },
+      {
+       "en": "Rangpur and Joysagar",
+       "as": "ৰংপুৰ আৰু জয়সাগৰ"
+      }
+     ],
+     [
+      {
+       "en": "Purandar Singha",
+       "as": "পুৰন্দৰ সিংহ"
+      },
+      {
+       "en": "1838, the last king",
+       "as": "১৮৩৮, শেষ ৰজা"
+      }
+     ]
+    ],
+    "why": {
+     "en": "Six hundred years in four names.",
+     "as": "চাৰিটা নামত ছশ বছৰ।"
+    },
+    "id": "pr2.test.03"
+   },
+   {
+    "type": "tf",
+    "s": {
+     "en": "Gomdhar Konwar's revolt of 1828 was against the Burmese.",
+     "as": "১৮২৮ চনৰ গোমধৰ কোঁৱৰৰ বিদ্ৰোহ মানৰ বিৰুদ্ধে আছিল।"
+    },
+    "answer": false,
+    "why": {
+     "en": "False. Against the British.",
+     "as": "অশুদ্ধ। ব্ৰিটিছৰ বিৰুদ্ধে।"
+    },
+    "id": "pr2.test.04"
+   },
+   {
+    "type": "order",
+    "q": {
+     "en": "Put the last five kings in order.",
+     "as": "শেষৰ পাঁচজন ৰজাক ক্ৰমত সজোৱা।"
+    },
+    "items": [
+     {
+      "en": "Kamaleswar",
+      "as": "কমলেশ্বৰ"
+     },
+     {
+      "en": "Chandrakanta",
+      "as": "চন্দ্ৰকান্ত"
+     },
+     {
+      "en": "Purandar (1818)",
+      "as": "পুৰন্দৰ (১৮১৮)"
+     },
+     {
+      "en": "Jogeswar",
+      "as": "যোগেশ্বৰ"
+     },
+     {
+      "en": "Purandar (1833)",
+      "as": "পুৰন্দৰ (১৮৩৩)"
+     }
+    ],
+    "why": {
+     "en": "1795 → 1811 → 1818 → 1821 → 1833.",
+     "as": "১৭৯৫ → ১৮১১ → ১৮১৮ → ১৮২১ → ১৮৩৩।"
+    },
+    "id": "pr2.test.05"
+   },
+   {
+    "type": "unscramble",
+    "q": {
+     "en": "Unscramble the last Ahom king's name.",
+     "as": "শেষ আহোম ৰজাৰ নাম সজাই লিখা।"
+    },
+    "word": {
+     "en": [
+      "P",
+      "U",
+      "R",
+      "A",
+      "N",
+      "D",
+      "A",
+      "R"
+     ],
+     "as": [
+      "পু",
+      "ৰন্",
+      "দৰ"
+     ]
+    },
+    "answerText": {
+     "en": "PURANDAR",
+     "as": "পুৰন্দৰ"
+    },
+    "why": {
+     "en": "Purandar Singha.",
+     "as": "পুৰন্দৰ সিংহ।"
+    },
+    "id": "pr2.test.06"
+   },
+   {
+    "type": "mcq",
+    "q": {
+     "en": "Consider the statements:<br>1. Purandar Singha was deposed by the British in 1838.<br>2. Purandar's restored state included Sadiya.<br>Which is/are correct?",
+     "as": "উক্তিবোৰ বিবেচনা কৰা:<br>১. ১৮৩৮ চনত ব্ৰিটিছে পুৰন্দৰ সিংহক পদচ্যুত কৰিছিল।<br>২. পুৰন্দৰৰ পুনৰ প্ৰতিষ্ঠিত ৰাজ্যত শদিয়া অন্তৰ্ভুক্ত আছিল।<br>কোনটো/কোনবোৰ শুদ্ধ?"
+    },
+    "options": [
+     {
+      "en": "1 only",
+      "as": "কেৱল ১"
+     },
+     {
+      "en": "2 only",
+      "as": "কেৱল ২"
+     },
+     {
+      "en": "Both 1 and 2",
+      "as": "১ আৰু ২ দুয়োটা"
+     },
+     {
+      "en": "Neither 1 nor 2",
+      "as": "১ বা ২ কোনোটো নহয়"
+     }
+    ],
+    "answer": 0,
+    "why": {
+     "en": "Only 1. Sadiya and Matak were kept out.",
+     "as": "কেৱল ১। শদিয়া আৰু মটক বাহিৰত ৰখা হৈছিল।"
+    },
+    "small": true,
+    "id": "pr2.test.07"
+   }
+  ]
+ }
+}

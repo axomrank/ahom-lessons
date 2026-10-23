@@ -2599,6 +2599,446 @@
     "en": "Manipur, under Rajeswar Singha.",
     "as": "মণিপুৰ, ৰাজেশ্বৰ সিংহৰ দিনত।"
    }
+  },
+  {
+   "id": "bank.decline.10",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "lakshmi-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first Moamoria rebellion broke out in the reign of:",
+    "as": "প্ৰথম মোৱামৰীয়া বিদ্ৰোহ কাৰ ৰাজত্বকালত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Lakshmi Singha",
+     "as": "লক্ষ্মী সিংহ"
+    },
+    {
+     "en": "Rajeswar Singha",
+     "as": "ৰাজেশ্বৰ সিংহ"
+    },
+    {
+     "en": "Gaurinath Singha",
+     "as": "গৌৰীনাথ সিংহ"
+    },
+    {
+     "en": "Siva Singha",
+     "as": "শিৱ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Lakshmi Singha, 1769.",
+    "as": "লক্ষ্মী সিংহ, ১৭৬৯।"
+   }
+  },
+  {
+   "id": "bank.decline.11",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "lakshmi-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Ragha Moran was killed in 1770 on the eve of:",
+    "as": "১৭৭০ চনত ৰাঘ মৰাণ কিহৰ আগদিনা নিহত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Bihu",
+     "as": "বিহু"
+    },
+    {
+     "en": "Durga Puja",
+     "as": "দুৰ্গা পূজা"
+    },
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-ডাম-মে-ফি"
+    },
+    {
+     "en": "Diwali",
+     "as": "দীপাৱলী"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Bohag Bihu, April 1770.",
+    "as": "ব'হাগ বিহু, ১৭৭০ চনৰ এপ্ৰিল।"
+   }
+  },
+  {
+   "id": "bank.decline.01",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Captain Welsh's expedition came to Assam at the request of:",
+    "as": "কেপ্তেইন ৱেল্‌চৰ অভিযান কাৰ অনুৰোধত অসমলৈ আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "Gaurinath Singha",
+     "as": "গৌৰীনাথ সিংহ"
+    },
+    {
+     "en": "Lakshmi Singha",
+     "as": "লক্ষ্মী সিংহ"
+    },
+    {
+     "en": "Kamaleswar Singha",
+     "as": "কমলেশ্বৰ সিংহ"
+    },
+    {
+     "en": "Purandar Singha",
+     "as": "পুৰন্দৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Gaurinath Singha, 1792.",
+    "as": "গৌৰীনাথ সিংহ, ১৭৯২।"
+   }
+  },
+  {
+   "id": "bank.decline.02",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The last capital of the Ahom kingdom was:",
+    "as": "আহোম ৰাজ্যৰ শেষ ৰাজধানী:"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Rangpur",
+     "as": "ৰংপুৰ"
+    },
+    {
+     "en": "Garhgaon",
+     "as": "গড়গাঁও"
+    },
+    {
+     "en": "Charaideo",
+     "as": "চৰাইদেউ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Jorhat, from 1794.",
+    "as": "১৭৯৪ চনৰ পৰা যোৰহাট।"
+   }
+  },
+  {
+   "id": "bank.decline.03",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Captain Welsh was recalled in 1794 by Governor General:",
+    "as": "১৭৯৪ চনত কোন গৱৰ্ণৰ জেনেৰেলে ৱেল্‌চক ঘূৰাই মাতিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sir John Shore",
+     "as": "চাৰ জন শ্বৰ"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলি"
+    },
+    {
+     "en": "Lord Amherst",
+     "as": "লৰ্ড এমহাৰ্স্ট"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Sir John Shore, policy of non-interference.",
+    "as": "চাৰ জন শ্বৰ, হস্তক্ষেপ নকৰা নীতি।"
+   }
+  },
+  {
+   "id": "bank.decline.04",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Who brought the Burmese into Assam in 1817?",
+    "as": "১৮১৭ চনত কোনে মানক অসমলৈ আনিছিল?"
+   },
+   "options": [
+    {
+     "en": "Badan Chandra Borphukan",
+     "as": "বদনচন্দ্ৰ বৰফুকন"
+    },
+    {
+     "en": "Purnananda Burhagohain",
+     "as": "পূৰ্ণানন্দ বুঢ়াগোহাঁই"
+    },
+    {
+     "en": "Ruchinath Burhagohain",
+     "as": "ৰুচিনাথ বুঢ়াগোহাঁই"
+    },
+    {
+     "en": "Kirti Chandra Borbarua",
+     "as": "কীৰ্তিচন্দ্ৰ বৰবৰুৱা"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Badan Chandra.",
+    "as": "বদনচন্দ্ৰ।"
+   }
+  },
+  {
+   "id": "bank.decline.05",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Treaty of Yandabo was signed in:",
+    "as": "ইয়াণ্ডাবু সন্ধি কেতিয়া স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1817",
+     "as": "১৮১৭"
+    },
+    {
+     "en": "1824",
+     "as": "১৮২৪"
+    },
+    {
+     "en": "1826",
+     "as": "১৮২৬"
+    },
+    {
+     "en": "1838",
+     "as": "১৮৩৮"
+    }
+   ],
+   "answer": 2,
+   "why": {
+    "en": "24 February 1826.",
+    "as": "২৪ ফেব্ৰুৱাৰী ১৮২৬।"
+   }
+  },
+  {
+   "id": "bank.decline.06",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The Matak settlement of 1805 recognised Sarbananda as:",
+    "as": "১৮০৫ চনৰ মটক বুজাবুজিয়ে চৰ্বানন্দক কি হিচাপে স্বীকৃতি দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Barsenapati",
+     "as": "বৰসেনাপতি"
+    },
+    {
+     "en": "Borphukan",
+     "as": "বৰফুকন"
+    },
+    {
+     "en": "Swargadeo",
+     "as": "স্বৰ্গদেউ"
+    },
+    {
+     "en": "Burhagohain",
+     "as": "বুঢ়াগোহাঁই"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Barsenapati of the Matak.",
+    "as": "মটকৰ বৰসেনাপতি।"
+   }
+  },
+  {
+   "id": "bank.decline.07",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "hard",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "Chandrakanta Singha was defeated by Maha Bandula at:",
+    "as": "মহাবান্দুলাই চন্দ্ৰকান্ত সিংহক ক'ত হৰুৱাইছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahgarh",
+     "as": "মহগড়"
+    },
+    {
+     "en": "Nazira",
+     "as": "নাজিৰা"
+    },
+    {
+     "en": "Saraighat",
+     "as": "শৰাইঘাট"
+    },
+    {
+     "en": "Itakhuli",
+     "as": "ইটাখুলি"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Mahgarh, 1822.",
+    "as": "মহগড়, ১৮২২।"
+   }
+  },
+  {
+   "id": "bank.decline.08",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "medium",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The first armed rising against British rule in Assam (1828) was led in the name of:",
+    "as": "অসমত ব্ৰিটিছ শাসনৰ বিৰুদ্ধে প্ৰথম সশস্ত্ৰ বিদ্ৰোহ (১৮২৮) কাৰ নামত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Gomdhar Konwar",
+     "as": "গোমধৰ কোঁৱৰ"
+    },
+    {
+     "en": "Piyali Phukan",
+     "as": "পিয়লি ফুকন"
+    },
+    {
+     "en": "Maniram Dewan",
+     "as": "মণিৰাম দেৱান"
+    },
+    {
+     "en": "Purandar Singha",
+     "as": "পুৰন্দৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Gomdhar Konwar.",
+    "as": "গোমধৰ কোঁৱৰ।"
+   }
+  },
+  {
+   "id": "bank.decline.09",
+   "type": "mcq",
+   "era": "decline",
+   "lesson": "gaurinath-singha",
+   "difficulty": "easy",
+   "exams": [
+    "ADRE",
+    "SI",
+    "APSC",
+    "TET"
+   ],
+   "q": {
+    "en": "The last Ahom king, deposed in 1838, was:",
+    "as": "১৮৩৮ চনত পদচ্যুত শেষ আহোম ৰজা:"
+   },
+   "options": [
+    {
+     "en": "Purandar Singha",
+     "as": "পুৰন্দৰ সিংহ"
+    },
+    {
+     "en": "Chandrakanta Singha",
+     "as": "চন্দ্ৰকান্ত সিংহ"
+    },
+    {
+     "en": "Jogeswar Singha",
+     "as": "যোগেশ্বৰ সিংহ"
+    },
+    {
+     "en": "Kamaleswar Singha",
+     "as": "কমলেশ্বৰ সিংহ"
+    }
+   ],
+   "answer": 0,
+   "why": {
+    "en": "Purandar Singha.",
+    "as": "পুৰন্দৰ সিংহ।"
+   }
   }
  ]
 }
