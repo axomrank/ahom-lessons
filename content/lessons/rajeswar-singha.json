@@ -593,12 +593,16 @@
      },
      "text": [
       {
-       "en": "The Burmese had invaded [[manipur]] and driven out its king, Jai Singh. He came to Rajeswar and begged for help. Rajeswar agreed.",
-       "as": "বাৰ্মাই [[manipur]] আক্ৰমণ কৰি তাৰ ৰজা জয় সিংহক খেদিছিল। তেওঁ ৰাজেশ্বৰৰ ওচৰলৈ আহি সহায় বিচাৰিলে। ৰাজেশ্বৰ মান্তি হ'ল।"
+       "en": "The Burmese had driven Jai Singh, king of [[manipur]], from his throne. He begged Rajeswar for help.",
+       "as": "বাৰ্মাই [[manipur]]ৰ ৰজা জয় সিংহক সিংহাসনৰ পৰা খেদিছিল। তেওঁ ৰাজেশ্বৰৰ ওচৰত সহায় বিচাৰিলে।"
       },
       {
-       "en": "The first army tried to go straight through the hills. The jungle was so thick that soldiers spent their days cutting creepers. Many died; the army was recalled. It is remembered as the <mark>Lata-Kata Ran</mark>, 'the war of cutting creepers'.",
-       "as": "প্ৰথম সৈন্যই পোনে পোনে পাহাৰৰ মাজেদি যাবলৈ চেষ্টা কৰিলে। জংঘল ইমান ঘন আছিল যে সৈন্যই দিনটো লতা কাটিয়েই কটালে। বহুতৰ মৃত্যু হ'ল; সৈন্যক ঘূৰাই মতা হ'ল। ইয়াক <mark>লতা-কটা ৰণ</mark> বুলি মনত ৰখা হয়।"
+       "en": "The first army tried to cut straight through the hills, but the jungle was so thick that soldiers spent their days cutting creepers.",
+       "as": "প্ৰথম সৈন্যই পোনে পোনে পাহাৰ ফালি যাবলৈ চেষ্টা কৰিলে, কিন্তু জংঘল ইমান ঘন আছিল যে সৈন্যই দিনটো লতা কাটিয়েই কটালে।"
+      },
+      {
+       "en": "Many died. It is remembered as the <mark>Lata-Kata Ran</mark>, 'the war of cutting creepers'.",
+       "as": "বহুতৰ মৃত্যু হ'ল। ইয়াক <mark>লতা-কটা ৰণ</mark> বুলি মনত ৰখা হয়।"
       }
      ],
      "id": "rjs.u3.02"

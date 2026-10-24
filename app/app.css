@@ -137,8 +137,33 @@ body:has(#as:checked) .prompt, body:has(#as:checked) h1.t { line-height: 1.5; }
 .frame.art svg { width: 70%; height: 70%; }
 .frame.art.full svg { width: 100%; height: 100%; }
 .frame.mapframe { aspect-ratio: auto; border-radius: 22px; background: none; overflow: visible; }
-.story p { font-size: 19px; line-height: 1.55; font-weight: 600; margin: 0 0 10px; }
-.story mark { background: linear-gradient(transparent 60%, var(--gold-soft) 60%); color: inherit; font-weight: 800; padding: 0 2px; }
+/* ---------- story card standard (README "Story cards") ----------
+   kicker + beat dots · hero with year stamp · title (≤6 words) · lede · beats revealed one tap at a time
+   three kinds of emphasis, never mixed up: <mark> key fact (gold sweep, ≤3 a card) · name chips (dotted, tappable) · years (terra, auto) */
+.kicker .dots { margin-left: auto; display: flex; gap: 5px; }
+.kicker .dots i { width: 18px; height: 6px; border-radius: 99px; background: var(--line-2); transition: background .25s, width .25s; }
+.kicker .dots i.on { background: var(--terra); width: 26px; }
+.frame .stamp { position: absolute; left: 12px; bottom: 10px; font-size: 22px; font-weight: 900; letter-spacing: .02em; font-variant-numeric: tabular-nums; color: #FFF8EF; background: var(--terra); padding: 2px 12px 3px; border-radius: 12px; box-shadow: 0 3px 0 var(--terra-dark), 0 8px 20px rgba(0,0,0,.25); }
+.story { position: relative; }
+.story p { font-size: 18px; line-height: 1.55; font-weight: 600; margin: 0 0 12px; }
+.story p.lede { font-size: 20px; font-weight: 700; }
+.story p.later { padding-left: 14px; border-left: 3px solid var(--terra-soft); }
+.story p.hold { display: none; }
+.story p.on { animation: beatIn .35s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes beatIn { from { opacity: 0; transform: translateY(8px); } }
+.story mark { color: inherit; font-weight: 800; padding: 0 2px; background: linear-gradient(transparent 58%, var(--gold-soft) 58%) no-repeat 0 0 / 0% 100%; animation: sweep .55s .25s ease-out forwards; }
+@keyframes sweep { to { background-size: 100% 100%; } }
+.story .ent { background: none; border-bottom: 2px dotted var(--terra); color: var(--ink); }
+.story .yr { font-weight: 900; color: var(--terra-dark); font-variant-numeric: tabular-nums; }
+.story b { font-weight: 900; }
+.story.memo b { display: inline-grid; place-items: center; min-width: 1.6em; height: 1.6em; margin: 0 1px; border-radius: 8px; background: var(--terra); color: #FFF8EF; font-size: .9em; line-height: 1; }
+.story.memo p { font-size: 18px; }
+.story .more { margin-top: 4px; font-size: 13px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); display: flex; align-items: center; gap: 6px; animation: nudge 1.4s ease-in-out infinite; }
+.story .more::before { content: "▾"; color: var(--terra); font-size: 16px; }
+@keyframes nudge { 50% { transform: translateY(3px); } }
+body:has(#as:checked) .story .more { letter-spacing: 0; text-transform: none; }
+@media (prefers-color-scheme: dark) { .story .yr { color: var(--terra); } }
+@media (prefers-reduced-motion: reduce) { .story mark { animation: none; background-size: 100% 100%; } .story p.on, .story .more { animation: none; } }
 body:has(#as:checked) .story p { line-height: 1.75; }
 
 /* tiles */

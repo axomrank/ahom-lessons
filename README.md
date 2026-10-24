@@ -69,3 +69,24 @@ Exercise types: story, mcq, tf, inline, fill, match, order, unscramble, odd, pic
 Add `?all` to the course home or a lesson to unlock everything for review.
 
 Services and deployment: see [SETUP.md](SETUP.md).
+
+## Story cards: the one design
+
+Every story card is built the same way, by the engine, so a lesson author only writes text and picks a picture.
+
+**Layout, top to bottom**
+1. **Kicker**: "STORY", with one progress dot per paragraph on the right.
+2. **Hero**: an AHOM painting (or the lesson map, or line art). If the card mentions a year, the first year appears as a terra stamp on the painting.
+3. **Title**: at most 6 words, a hook rather than a label ("Blood on the forehead", not "Phuleswari's Durga Puja").
+4. **Lede**: the first paragraph, larger. It must make sense alone.
+5. **Beats**: each further paragraph appears on the next tap, with a left rule, so the reader never faces a wall of text. Continue reveals the next beat before moving on.
+
+**Word limits (the build fails if broken)**
+- At most 3 paragraphs, 35 words per paragraph, 55 words per card (counted in English).
+- One idea per paragraph; if a card needs more, split it into two cards.
+
+**Emphasis: three kinds, never mixed**
+- `<mark>` = **the key fact** to remember. A gold highlighter sweeps across it as the beat appears. At most 3 per card.
+- `[[entity]]` = **a name you can tap** for its meaning. Shown with a dotted underline, never highlighted.
+- **Years** are styled automatically (bold terra), so do not mark a year only to make it stand out.
+- `<b>` = plain bold, for lists of names and the letters of a memory trick. On "Remember …" cards each `<b>` letter becomes a round terra badge.

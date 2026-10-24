@@ -449,7 +449,7 @@ function renderStep(animate) {
   const scr = $("#screen");
   scr.classList.remove("enter"); void scr.offsetWidth; if (animate) scr.classList.add("enter");
   const from = s._lesson && s._lesson !== L.id ? `<span class="from">${T(B(s._lesson[0].toUpperCase() + s._lesson.slice(1), s._lesson[0].toUpperCase() + s._lesson.slice(1)))}</span>` : "";
-  const kick = s.type === "story" ? `<div class="kicker story">${T(KICK.story)}</div>`
+  const kick = s.type === "story" ? `<div class="kicker story">${T(KICK.story)}${s.text.length > 1 ? `<span class="dots">${s.text.map((_, k) => `<i class="${k ? "" : "on"}"></i>`).join("")}</span>` : ""}</div>`
     : it.retry ? `<div class="kicker retry">${T(B("Previous mistake", "আগৰ ভুল"))}</div>`
     : `<div class="kicker">${T(KICK[s.type])}${from}${s.link && !VIRTUAL ? `<button class="linkchip" data-link>${CHAIN}${T(linkLabel(s.link))}</button>` : ""}${s.type === "whoami" ? `<span class="xp" id="who-xp"></span>` : ""}</div>`;
   scr.innerHTML = kick + RENDER[s.type](s) + (s.type === "story" && s.link ? linkCallout(s.link) : "");
@@ -460,12 +460,31 @@ function renderStep(animate) {
 const img = (f, size, lid = L.id) => media(f.startsWith("shared/") ? f : `${lid}/${f}`, size);
 const picture = (f, lid) => `<img src="${img(f, 0, lid)}" srcset="${img(f, 480, lid)} 480w, ${img(f, 0, lid)} 1080w" sizes="(max-width: 440px) 92vw, 360px" alt="">`;
 const mapOf = (s) => s._map || L.map;
+// years in story text get their own style; only text between tags is touched
+const years = (html) => html.split(/(<[^>]+>)/).map((x) => (x.startsWith("<") ? x : x.replace(/(^|[^\w\u0980-\u09FF])(1[0-9]{3}|১[০-৯]{3})(?![\w০-৯])/g, '$1<span class="yr">$2</span>'))).join("");
+// a story card shows its first beat; each tap (or Continue) reveals the next before moving on
+function storyBeat() {
+  const held = $("#screen").querySelector(".beat.hold"); if (!held) return false;
+  held.classList.remove("hold"); held.classList.add("on");
+  const dots = $("#screen").querySelectorAll(".kicker.story .dots i"), n = $("#screen").querySelectorAll(".beat.on").length;
+  dots.forEach((d, k) => d.classList.toggle("on", k < n));
+  if (!$("#screen").querySelector(".beat.hold")) $("#screen").querySelector(".story .more")?.remove();
+  held.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  return true;
+}
 const RENDER = {
-  story: (s) => `<h1 class="t">${T(s.title)}</h1>
-    ${s.img ? `<figure class="frame ${s.top ? "top" : ""}">${picture(s.img, lessonOf(s))}<span class="credit">${T(B("Artistic reconstruction", "শিল্পীৰ কল্পনা"))}</span></figure>`
+  story: (s) => {
+    // Story card standard: kicker + beat dots, hero with year stamp, title, lede, then one beat per tap (see README "Story cards")
+    const yr = (s.text.map((p) => p.en).join(" ").match(/\b(1[0-9]{3})\b/) || [])[1];
+    const stamp = yr && s.img ? `<span class="stamp">${T(B(yr, asNum(yr)))}</span>` : "";
+    const memo = /^Remember\b/.test(s.title.en);
+    return `<h1 class="t">${T(s.title)}</h1>
+    ${s.img ? `<figure class="frame ${s.top ? "top" : ""}">${picture(s.img, lessonOf(s))}${stamp}<span class="credit">${T(B("Artistic reconstruction", "শিল্পীৰ কল্পনা"))}</span></figure>`
       : s.map ? `<figure class="frame mapframe">${mapSVG(mapOf(s), { story: true, route: s.map.route })}</figure>`
       : `<figure class="frame art${s.art === "rooster" ? " full" : ""}">${ART[s.art]}</figure>`}
-    <div class="story">${s.text.map((p) => `<p>${TR(p)}</p>`).join("")}</div>`,
+    <div class="story${memo ? " memo" : ""}">${s.text.map((p, k) => `<p class="beat${k ? " later" : " lede"}${k ? " hold" : " on"}">${years(TR(p))}</p>`).join("")}
+    ${s.text.length > 1 ? `<div class="more" aria-hidden="true">${T(B("Tap to read on", "পঢ়ি যাবলৈ টিপা"))}</div>` : ""}</div>`;
+  },
   mcq: (s) => `<p class="prompt" ${s.small ? 'style="font-size:18px"' : ""}>${T(s.q)}</p>
     <div class="opts">${s.options.map((o, k) => `<button class="tile opt" data-opt="${k}"><span class="k">${"ABCD"[k]}</span><span>${T(o)}</span></button>`).join("")}</div>`,
   odd: (s) => `<p class="prompt">${T(s.q)}</p><div class="opts grid2">${s.options.map((o, k) => `<button class="tile opt" data-opt="${k}"><span>${T(o)}</span></button>`).join("")}</div>`,
@@ -741,7 +760,8 @@ document.addEventListener("click", (e) => {
     refreshSlotsHint(); SFX.tap(); return refresh();
   }
 });
-$("#action").addEventListener("click", () => { if (U.phase === "feedback" || step().s.type === "story") return next(); if (ready()) check(); });
+$("#action").addEventListener("click", () => { if (step().s.type === "story" && U.phase !== "feedback" && storyBeat()) return; if (U.phase === "feedback" || step().s.type === "story") return next(); if (ready()) check(); });
+$("#screen").addEventListener("click", (e) => { if (step() && step().s.type === "story" && !e.target.closest("button, a, .ent")) storyBeat(); });
 document.addEventListener("input", (e) => { if (!$("#v-play").classList.contains("on") || step().s.type !== "fill") return; e.target.value = e.target.value.replace(/[^a-zA-Z]/g, ""); refresh(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Enter" && $("#v-play").classList.contains("on") && !$("#action").disabled && !$("#sheet-root").innerHTML) { e.preventDefault(); $("#action").click(); } });
 langBox.addEventListener("change", () => {

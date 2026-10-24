@@ -843,8 +843,8 @@
      },
      "text": [
       {
-       "en": "Gaurinath in three steps: <mark>T</mark>orch-bearers attack (1782), <mark>W</mark>elsh comes (1792), <mark>J</mark>orhat becomes capital (1794). He died in <mark>December 1794</mark>, 'a poor debilitated man', in Welsh's words.",
-       "as": "গৌৰীনাথ তিনিটা খোজত: <mark>জো</mark>ৰ-বোকাৰ আক্ৰমণ (১৭৮২), <mark>ৱে</mark>ল্‌চৰ আগমন (১৭৯২), <mark>যো</mark>ৰহাট ৰাজধানী (১৭৯৪)। <mark>১৭৯৪ চনৰ ডিচেম্বৰত</mark> তেওঁৰ মৃত্যু হয়; ৱেল্‌চৰ ভাষাত 'এজন দুৰ্বল মানুহ'।"
+       "en": "Gaurinath in three steps: <b>T</b>orch-bearers attack (1782), <b>W</b>elsh comes (1792), <b>J</b>orhat becomes capital (1794). He died in <mark>December 1794</mark>, 'a poor debilitated man', in Welsh's words.",
+       "as": "গৌৰীনাথ তিনিটা খোজত: <b>জো</b>ৰ-বোকাৰ আক্ৰমণ (১৭৮২), <b>ৱে</b>ল্‌চৰ আগমন (১৭৯২), <b>যো</b>ৰহাট ৰাজধানী (১৭৯৪)। <mark>১৭৯৪ চনৰ ডিচেম্বৰত</mark> তেওঁৰ মৃত্যু হয়; ৱেল্‌চৰ ভাষাত 'এজন দুৰ্বল মানুহ'।"
       }
      ],
      "id": "gnt.u4.05"

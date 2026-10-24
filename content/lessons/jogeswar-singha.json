@@ -157,8 +157,8 @@
      "type": "story",
      "img": "manor-din.webp",
      "title": {
-      "en": "A king who was not a king",
-      "as": "ৰজা নোহোৱা ৰজা"
+      "en": "A king with no power",
+      "as": "ক্ষমতাহীন ৰজা"
      },
      "text": [
       {
@@ -231,12 +231,12 @@
      },
      "text": [
       {
-       "en": "These were the darkest years. Burmese soldiers robbed, burnt villages and temples, and killed without cause. Bandits disguised as Burmese did even worse. People fled to the hills, to Jaintia and Manipur, or fought back as guerrillas.",
-       "as": "এয়া আছিল আটাইতকৈ আন্ধাৰ বছৰ। মান সৈন্যই লুট কৰিলে, গাঁও আৰু মন্দিৰ জ্বলালে, অকাৰণে হত্যা কৰিলে। মানৰ ছদ্মবেশত ডকাইতে আৰু বেয়া কৰিলে। মানুহ পাহাৰ, জয়ন্তীয়া, মণিপুৰলৈ পলাল, বা গুপ্ত যুঁজ দিলে।"
+       "en": "These were the darkest years. Burmese soldiers robbed, burnt villages and temples, and killed without cause. Bandits disguised as Burmese did even worse.",
+       "as": "এয়া আছিল আটাইতকৈ আন্ধাৰ বছৰ। মান সৈন্যই লুট কৰিলে, গাঁও আৰু মন্দিৰ জ্বলালে, অকাৰণে হত্যা কৰিলে। মানৰ ছদ্মবেশত ডকাইতে আৰু বেয়া কৰিলে।"
       },
       {
-       "en": "Assamese memory still calls them the [[manor-din]].",
-       "as": "অসমীয়াৰ স্মৃতিত ইয়াক আজিও [[manor-din]] বোলা হয়।"
+       "en": "People fled to the hills, to Jaintia and Manipur, or fought back as guerrillas. Assamese memory still calls them the [[manor-din]].",
+       "as": "মানুহ পাহাৰ, জয়ন্তীয়া, মণিপুৰলৈ পলাল, বা গুপ্ত যুঁজ দিলে। অসমীয়াৰ স্মৃতিত ইয়াক আজিও [[manor-din]] বোলা হয়।"
       }
      ],
      "id": "jgs.u1.03"

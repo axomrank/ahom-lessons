@@ -18,6 +18,22 @@ NEED = {"mcq": ["q", "options", "answer", "why"], "tf": ["s", "answer", "why"], 
 errors = []
 def err(msg): errors.append(msg)
 
+# ---------- story card standard (see README "Story cards") ----------
+CARD_WORDS, PARA_WORDS, MAX_PARAS, MAX_MARKS, TITLE_WORDS = 55, 35, 3, 3, 6
+def words(t):
+    t = re.sub(r"\[\[[^|\]]+\|([^\]]+)\]\]", r"\1", t); t = re.sub(r"\[\[([^\]]+)\]\]", r"\1", t)
+    return len(re.sub(r"<[^>]+>", " ", t).split())
+def story_rules(s, where):
+    ps = [words(p["en"]) for p in s.get("text", [])]
+    if not ps: return err(f"{where}: story has no text")
+    if len(ps) > MAX_PARAS: err(f"{where}: {len(ps)} paragraphs (max {MAX_PARAS})")
+    if max(ps) > PARA_WORDS: err(f"{where}: a paragraph has {max(ps)} words (max {PARA_WORDS})")
+    if sum(ps) > CARD_WORDS: err(f"{where}: card has {sum(ps)} words (max {CARD_WORDS})")
+    for lang in ("en", "as"):
+        m = sum(p[lang].count("<mark>") for p in s["text"])
+        if m > MAX_MARKS: err(f"{where}: {m} highlights in {lang} (max {MAX_MARKS}; use <b> for lists and memory letters)")
+    if words(s["title"]["en"]) > TITLE_WORDS: err(f"{where}: title longer than {TITLE_WORDS} words")
+
 # Make the small @480 copy of every image that does not have one yet.
 try:
     from PIL import Image
@@ -67,6 +83,7 @@ for lid, L in lessons.items():
             for k in NEED.get(s["type"], []):
                 if k not in s: err(f"{where}: '{s['type']}' needs '{k}'")
             if s["type"] == "story" and not (s.get("img") or s.get("map") or s.get("art")): err(f"{where}: story needs img, map or art")
+            if s["type"] == "story": story_rules(s, f"{where}/{sid}")
             if s.get("img"): need_img(s["img"], where)
             if s["type"] == "picture": [need_img(o, where) for o in s["options"]]
             if s["type"] == "map" and s["target"] not in s["choices"]: err(f"{where}: map target must be one of the choices")
