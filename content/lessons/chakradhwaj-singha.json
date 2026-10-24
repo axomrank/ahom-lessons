@@ -97,7 +97,9 @@
    "saraighat",
    "kaliabor",
    "garhgaon",
-   "samdhara"
+   "samdhara",
+   "tezpur",
+   "nagaon"
   ],
   "routes": [
    [
@@ -166,7 +168,12 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "kamrup-metro",
+   "nagaon",
+   "sonitpur"
+  ]
  },
  "units": [
   {

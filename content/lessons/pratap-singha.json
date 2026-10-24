@@ -123,7 +123,9 @@
    "samdhara",
    "kaliabor",
    "biswanath",
-   "dergaon"
+   "dergaon",
+   "tezpur",
+   "nagaon"
   ],
   "routes": [
    [
@@ -227,7 +229,12 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "sonitpur",
+   "darrang",
+   "kamrup-rural"
+  ]
  },
  "units": [
   {

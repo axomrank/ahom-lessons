@@ -459,6 +459,8 @@ html.no-motion *, html.no-motion *::before, html.no-motion *::after { animation:
 /* map built from real district and river shapes */
 .map .sea { fill: var(--surface-2); }
 .map .district { fill: var(--land); stroke: var(--line-2); stroke-width: .8; stroke-linejoin: round; }
+.map .district.named { fill: var(--terra-soft); stroke: var(--terra); stroke-width: 1; stroke-dasharray: 3 2; }
+.map .lbl.dlbl { font-size: 8.5px; font-weight: 800; font-style: italic; letter-spacing: .08em; text-transform: uppercase; fill: var(--terra-dark); opacity: .75; }
 .map .river { fill: none; stroke: var(--river); stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
 .map .river.main { stroke-width: 6; }
 .map .river.faint { stroke-width: 1.2; opacity: .45; }

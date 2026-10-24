@@ -133,7 +133,11 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "tinsukia",
+   "sibsagar"
+  ]
  },
  "units": [
   {

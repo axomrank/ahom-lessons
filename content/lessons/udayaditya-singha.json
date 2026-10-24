@@ -85,7 +85,9 @@
    "kaliabor",
    "garhgaon",
    "charaideo",
-   "jogighopa"
+   "jogighopa",
+   "tezpur",
+   "nagaon"
   ],
   "routes": [],
   "texts": [],
@@ -129,7 +131,10 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "kamrup-metro"
+  ]
  },
  "units": [
   {

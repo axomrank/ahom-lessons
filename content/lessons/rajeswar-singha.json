@@ -84,14 +84,12 @@
    "garhgaon",
    "rangpur",
    "manipur",
-   "maibong"
+   "maibong",
+   "kohima"
   ],
   "routes": [
    [
-    [
-     26.3,
-     92.6
-    ],
+    "nagaon",
     [
      25.5,
      93.0
@@ -108,7 +106,11 @@
     "pos": "w"
    },
    "manipur": {
-    "pos": "e"
+    "pos": "e",
+    "t": {
+     "en": "Manipur (Imphal)",
+     "as": "মণিপুৰ (ইম্ফল)"
+    }
    },
    "maibong": {
     "pos": "w"
@@ -127,7 +129,11 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "nagaon",
+   "dima-hasao"
+  ]
  },
  "units": [
   {

@@ -99,7 +99,8 @@
    "narayanpur",
    "kaliabor",
    "charaideo",
-   "sivasagar"
+   "sivasagar",
+   "tezpur"
   ],
   "routes": [
    [
@@ -107,10 +108,7 @@
      26.55,
      91.6
     ],
-    [
-     26.75,
-     92.6
-    ],
+    "tezpur",
     [
      26.95,
      93.5
@@ -178,7 +176,11 @@
     ],
     "pos": "s"
    }
-  }
+  },
+  "districts": [
+   "sonitpur",
+   "lakhimpur"
+  ]
  },
  "units": [
   {

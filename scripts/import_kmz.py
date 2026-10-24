@@ -35,8 +35,15 @@ def dp(pts, eps):   # Douglas-Peucker in degrees
         return dp(pts[: idx + 1], eps)[:-1] + dp(pts[idx:], eps)
     return [pts[0], pts[-1]]
 
+def dp_ring(pts, eps):   # a closed ring starts and ends on the same point, so simplify its two halves separately
+    if len(pts) < 8: return pts
+    m = len(pts) // 2
+    return dp(pts[: m + 1], eps)[:-1] + dp(pts[m:], eps)
+
 r4 = lambda pts: [[round(a, 3), round(b, 3)] for a, b in pts]
 slug = lambda s: re.sub(r"[^a-z0-9]+", "-", s.lower().split("/")[0].strip()).strip("-")
+DISTRICT_AS = {'baksa': 'বাক্সা', 'barpeta': 'বৰপেটা', 'biswanath': 'বিশ্বনাথ', 'bongaigaon': 'বঙাইগাঁও', 'cachar': 'কাছাৰ', 'charaideo': 'চৰাইদেউ', 'chirang': 'চিৰাং', 'darrang': 'দৰং', 'dhemaji': 'ধেমাজি', 'dhubri': 'ধুবুৰী', 'dibrugarh': 'ডিব্ৰুগড়', 'dima-hasao': 'ডিমা হাছাও', 'goalpara': 'গোৱালপাৰা', 'golaghat': 'গোলাঘাট', 'hailakandi': 'হাইলাকান্দি', 'hojai': 'হোজাই', 'jorhat': 'যোৰহাট', 'kamrup-metro': 'কামৰূপ মহানগৰ', 'kamrup-rural': 'কামৰূপ', 'karbi-anglong': 'কাৰ্বি আংলং', 'karimganj': 'শ্ৰীভূমি', 'kokrajhar': 'কোকৰাঝাৰ', 'lakhimpur': 'লখিমপুৰ', 'majuli': 'মাজুলী', 'marigaon': 'মৰিগাঁও', 'nagaon': 'নগাঁও', 'nalbari': 'নলবাৰী', 'sibsagar': 'শিৱসাগৰ', 'sonitpur': 'শোণিতপুৰ', 'south-salmara-mancachar': 'দক্ষিণ শালমাৰা-মানকাচৰ', 'tinsukia': 'তিনিচুকীয়া', 'udalguri': 'ওদালগুৰি', 'west-karbi-anglong': 'পশ্চিম কাৰ্বি আংলং'}
+DISTRICT_EN = {"sibsagar": "Sivasagar", "karimganj": "Sribhumi"}   # present-day names
 RIVER_IDS = {"Dehing": "dihing", "Teok River": "teok", "Pachoni River": "pachoni", "Dhansiri(S)/Doyang": "dhansiri-south", "Puthimari/ Bornadi": "puthimari"}
 
 folders = [e for e in root.iter() if tag(e) == "Folder"]
@@ -53,8 +60,8 @@ for f in folders:
         elif name == "Assam Districts":
             if n.isupper() and n not in seen:
                 seen.add(n)
-                rings = [r4(dp(coords(g), 0.008)) for g in geoms]
-                districts[slug(n)] = {"name": n.title(), "rings": [r for r in rings if len(r) > 3]}
+                rings = [r4(dp_ring(coords(g), 0.008)) for g in geoms]
+                districts[slug(n)] = {"name": DISTRICT_EN.get(slug(n), n.title()), "as": DISTRICT_AS.get(slug(n), n.title()), "rings": [r for r in rings if len(r) > 3]}
             elif not n.isupper() and geoms:
                 sites[slug(n)] = coords(geoms[0])[0]
         elif name.startswith("Imporatnt Ahom Site") and geoms:

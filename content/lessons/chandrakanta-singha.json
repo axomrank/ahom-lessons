@@ -82,16 +82,16 @@
    "brahmaputra",
    "jorhat",
    "rangpur",
-   "guwahati",
    "bengmara",
-   "namrup"
+   "namrup",
+   "pangsau",
+   "ledo"
   ],
   "routes": [
    [
-    [
-     27.1,
-     96.4
-    ],
+    "hukawng",
+    "pangsau",
+    "ledo",
     "namrup",
     "jorhat"
    ]
@@ -117,7 +117,11 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "jorhat",
+   "tinsukia"
+  ]
  },
  "units": [
   {
@@ -645,7 +649,7 @@
      "target": "jorhat",
      "choices": [
       "jorhat",
-      "guwahati",
+      "rangpur",
       "bengmara",
       "namrup"
      ],
@@ -1036,7 +1040,7 @@
     "target": "jorhat",
     "choices": [
      "jorhat",
-     "guwahati",
+     "rangpur",
      "bengmara",
      "namrup"
     ],

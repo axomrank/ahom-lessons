@@ -126,7 +126,10 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "tinsukia"
+  ]
  },
  "units": [
   {

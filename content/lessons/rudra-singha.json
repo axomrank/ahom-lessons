@@ -92,7 +92,8 @@
    "majuli",
    "maibong",
    "jaintiapur",
-   "dimapur"
+   "dimapur",
+   "kohima"
   ],
   "routes": [
    [
@@ -180,7 +181,10 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "dima-hasao"
+  ]
  },
  "units": [
   {

@@ -113,7 +113,9 @@
    "majuli",
    "narayanpur",
    "dikhowmukh",
-   "namrup"
+   "namrup",
+   "tezpur",
+   "nagaon"
   ],
   "routes": [
    [
@@ -121,10 +123,7 @@
      26.3,
      91.7
     ],
-    [
-     26.6,
-     92.8
-    ],
+    "tezpur",
     [
      26.85,
      93.9
@@ -188,7 +187,11 @@
     ],
     "pos": "s"
    }
-  }
+  },
+  "districts": [
+   "sonitpur",
+   "sibsagar"
+  ]
  },
  "units": [
   {

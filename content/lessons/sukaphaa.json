@@ -118,12 +118,12 @@
    "namrup",
    "charaideo",
    "habung",
-   "mongmao"
+   "ledo"
   ],
   "routes": [
    [
-    "mongmao",
     "pangsau",
+    "ledo",
     "namrup"
    ]
   ],
@@ -173,7 +173,12 @@
     ],
     "pos": "s"
    }
-  }
+  },
+  "districts": [
+   "charaideo",
+   "sibsagar",
+   "dibrugarh"
+  ]
  },
  "units": [
   {
@@ -239,6 +244,107 @@
       }
      ],
      "id": "suk.u1.01"
+    },
+    {
+     "type": "story",
+     "id": "suk.m1",
+     "title": {
+      "en": "A world of Tai states",
+      "as": "তাই ৰাজ্যৰ জগত"
+     },
+     "map": {
+      "labels": {
+       "mongmao": {
+        "pos": "e"
+       },
+       "mong-yang": {
+        "pos": "w"
+       },
+       "mungkang": {
+        "pos": "e"
+       },
+       "hukawng": {
+        "pos": "e"
+       },
+       "pangsau": {
+        "pos": "ne"
+       },
+       "ledo": {
+        "pos": "s"
+       },
+       "namrup": {
+        "pos": "w"
+       },
+       "brahmaputra": {
+        "at": [
+         27.55,
+         95.3
+        ],
+        "pos": "n"
+       }
+      },
+      "route": false,
+      "box": [
+       94.6,
+       23.6,
+       98.4,
+       27.75
+      ],
+      "districts": [
+       "tinsukia",
+       "dibrugarh"
+      ],
+      "texts": [
+       {
+        "t": {
+         "en": "YUNNAN",
+         "as": "ইউনান"
+        },
+        "at": [
+         23.85,
+         97.3
+        ]
+       },
+       {
+        "t": {
+         "en": "UPPER BURMA",
+         "as": "উজনি বাৰ্মা"
+        },
+        "at": [
+         25.0,
+         95.2
+        ]
+       },
+       {
+        "t": {
+         "en": "ASSAM",
+         "as": "অসম"
+        },
+        "at": [
+         27.6,
+         94.75
+        ]
+       }
+      ],
+      "show": [
+       "mongmao",
+       "mong-yang",
+       "mungkang",
+       "hukawng",
+       "patkai"
+      ],
+      "routes": []
+     },
+     "text": [
+      {
+       "en": "Mong Mao was one of many Tai states, each called a <i>mong</i>: Mong Yang, Mungkang and more, across today's Yunnan and Upper Burma.",
+       "as": "মং মাও আছিল বহুতো তাই ৰাজ্যৰ এখন, প্ৰতিখনক <i>মং</i> বোলা হৈছিল: মং য়াং, মুংকাং আৰু আন, আজিৰ ইউনান আৰু উজনি বাৰ্মাজুৰি।"
+      },
+      {
+       "en": "Burmese and Manipuri records call the Mao lands <mark>Pong</mark>, so some books say Mong Pong.",
+       "as": "বৰ্মী আৰু মণিপুৰী বুৰঞ্জীত মাও দেশক <mark>পং</mark> বোলা হৈছে, সেয়ে কিছুমান পুথিত মং পং বুলি লিখা।"
+      }
+     ]
     },
     {
      "type": "mcq",
@@ -319,8 +425,99 @@
     {
      "type": "story",
      "map": {
-      "labels": true,
-      "route": true
+      "labels": {
+       "mongmao": {
+        "pos": "e"
+       },
+       "mong-yang": {
+        "pos": "w"
+       },
+       "mungkang": {
+        "pos": "e"
+       },
+       "hukawng": {
+        "pos": "e"
+       },
+       "pangsau": {
+        "pos": "ne"
+       },
+       "ledo": {
+        "pos": "s"
+       },
+       "namrup": {
+        "pos": "w"
+       },
+       "brahmaputra": {
+        "at": [
+         27.55,
+         95.3
+        ],
+        "pos": "n"
+       }
+      },
+      "route": true,
+      "box": [
+       94.6,
+       23.6,
+       98.4,
+       27.75
+      ],
+      "districts": [
+       "tinsukia",
+       "dibrugarh"
+      ],
+      "texts": [
+       {
+        "t": {
+         "en": "YUNNAN",
+         "as": "ইউনান"
+        },
+        "at": [
+         23.85,
+         97.3
+        ]
+       },
+       {
+        "t": {
+         "en": "UPPER BURMA",
+         "as": "উজনি বাৰ্মা"
+        },
+        "at": [
+         25.0,
+         95.2
+        ]
+       },
+       {
+        "t": {
+         "en": "ASSAM",
+         "as": "অসম"
+        },
+        "at": [
+         27.6,
+         94.75
+        ]
+       }
+      ],
+      "show": [
+       "brahmaputra",
+       "patkai",
+       "mongmao",
+       "mungkang",
+       "hukawng",
+       "pangsau",
+       "ledo",
+       "namrup"
+      ],
+      "routes": [
+       [
+        "mongmao",
+        "mungkang",
+        "hukawng",
+        "pangsau",
+        "ledo",
+        "namrup"
+       ]
+      ]
      },
      "title": {
       "en": "Across the Patkai",
@@ -1386,7 +1583,7 @@
       "charaideo",
       "namrup",
       "habung",
-      "mongmao"
+      "ledo"
      ],
      "answerText": {
       "en": "Charaideo, near Sivasagar",
@@ -1941,7 +2138,7 @@
      "namrup",
      "charaideo",
      "habung",
-     "mongmao"
+     "ledo"
     ],
     "answerText": {
      "en": "Namrup",

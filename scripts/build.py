@@ -101,6 +101,17 @@ for lid, L in lessons.items():
 ENT = json.load(open("content/entities.json", encoding="utf-8"))
 BASE = json.load(open("content/maps/assam.json", encoding="utf-8"))
 base_ids = set(BASE.get("rivers", {})) | set(BASE.get("ridges", {}))
+BASE_DISTRICTS = set(BASE.get("districts", {}))
+# story cards with their own map: every place shown needs a position, every district must exist
+for lid, Lx in lessons.items():
+    for u in Lx["units"]:
+        for s in u["steps"]:
+            m = s.get("map") if s["type"] == "story" else None
+            if isinstance(m, dict) and m.get("box"):
+                for i in m.get("show", []) + [r for route in m.get("routes", []) for r in route if isinstance(r, str)]:
+                    if i not in base_ids and not (i in ENT and ENT[i].get("geo")): err(f"{lid}/{s['id']}: card map uses '{i}' with no position")
+                for d in m.get("districts", []):
+                    if d not in BASE_DISTRICTS: err(f"{lid}/{s['id']}: unknown district '{d}'")
 for eid, e in ENT.items():
     for k in ("type", "name", "meaning"):
         if k not in e: err(f"entities: '{eid}' needs '{k}'")
@@ -113,6 +124,8 @@ for lid, L in lessons.items():
         if k not in mp: err(f"{lid}: map needs '{k}'")
     for i in mp.get("show", []):
         if i not in base_ids and not (i in ENT and ENT[i].get("geo")): err(f"{lid}: map shows '{i}' but it is neither in the base map nor an entity with geo")
+    for d in mp.get("districts", []):
+        if d not in BASE_DISTRICTS: err(f"{lid}: map names district '{d}', which is not in content/maps/assam.json")
     for rt in mp.get("routes", []):
         for ref in rt:
             if isinstance(ref, str) and not (ref in ENT and ENT[ref].get("geo")): err(f"{lid}: route point '{ref}' has no geo")

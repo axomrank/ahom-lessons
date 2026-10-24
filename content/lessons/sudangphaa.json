@@ -131,7 +131,11 @@
     ],
     "pos": "n"
    }
-  }
+  },
+  "districts": [
+   "lakhimpur",
+   "charaideo"
+  ]
  },
  "units": [
   {

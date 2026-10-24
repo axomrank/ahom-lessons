@@ -151,7 +151,15 @@ function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
     return clamp(use[Math.round((use.length - 1) * (at ?? def))]);
   };
   let out = `<svg class="map" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map"><defs><marker id="arrowhead" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--terra)"/></marker><clipPath id="mapclip"><rect width="${W}" height="${H}" rx="18"/></clipPath></defs><g clip-path="url(#mapclip)"><rect class="sea" width="${W}" height="${H}"/>`;
-  Object.values(BASE.districts).forEach((d) => d.rings.forEach((r) => (out += `<path class="district" d="M${r.map((p) => P(p).map((v) => v.toFixed(1)).join(" ")).join(" L")} Z"/>`)));
+  // present-day districts: always drawn faintly; a lesson can name some (spec.districts) to help place the story today
+  const named = new Set(spec.districts || []);
+  Object.entries(BASE.districts).forEach(([id, d]) => d.rings.forEach((r) => (out += `<path class="district${named.has(id) ? " named" : ""}" d="M${r.map((p) => P(p).map((v) => v.toFixed(1)).join(" ")).join(" L")} Z"/>`)));
+  const dlabels = [...named].filter((id) => BASE.districts[id]).map((id) => {
+    const ring = BASE.districts[id].rings.reduce((a, r) => (r.length > a.length ? r : a), []);
+    const c = ring.reduce((a, p) => [a[0] + p[0] / ring.length, a[1] + p[1] / ring.length], [0, 0]), [x, y] = P(c);
+    const nm = BASE.districts[id].name, as = BASE.districts[id].as || nm;
+    return `<text class="lbl dlbl" x="${x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle"><tspan class="en">${nm}</tspan></text><text class="lbl dlbl as" x="${x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle">${as}</text>`;
+  }).join("");
   if (story) (spec.texts || []).forEach((t) => { const [x, y] = P(t.at); out += `<text class="lbl big" x="${x.toFixed(1)}" y="${y.toFixed(1)}"><tspan class="en">${t.t.en}</tspan></text><text class="lbl big as" x="${x.toFixed(1)}" y="${y.toFixed(1)}">${t.t.as}</text>`; });
   Object.entries(BASE.rivers).forEach(([id, r]) => {
     const main = id === "brahmaputra", pts = r.pts.map(P);
@@ -169,6 +177,7 @@ function mapSVG(spec, { story = false, route = false, choices = [] } = {}) {
     out += label(id, labelAt(id, pts, 0.5), "w");
   });
   if (story && route) (spec.routes || []).forEach((r) => { const pts = r.map((ref) => (Array.isArray(ref) ? P(ref) : clamp(P(ENT[ref].geo)))); out += `<path class="route" d="${smoothPath(pts)}" marker-end="url(#arrowhead)"/>`; });
+  out += dlabels;
   [...show].filter((id) => ENT[id] && ENT[id].geo).forEach((id) => {
     const e = ENT[id], [x, y] = clamp(P(e.geo)), pass = e.type === "pass";
     if (!story && !isChoice(id) && !pass) return;
@@ -460,7 +469,8 @@ function renderStep(animate) {
 }
 const img = (f, size, lid = L.id) => media(f.startsWith("shared/") ? f : `${lid}/${f}`, size);
 const picture = (f, lid) => `<img src="${img(f, 0, lid)}" srcset="${img(f, 480, lid)} 480w, ${img(f, 0, lid)} 1080w" sizes="(max-width: 440px) 92vw, 360px" alt="">`;
-const mapOf = (s) => s._map || L.map;
+// a story card may carry its own map ({box, show, routes, texts, labels, districts}); otherwise it uses the lesson map
+const mapOf = (s) => s._map || (s.map && s.map.box ? s.map : L.map);
 // years in story text get their own style; only text between tags is touched
 const years = (html) => html.split(/(<[^>]+>)/).map((x) => (x.startsWith("<") ? x : x.replace(/(^|[^\w\u0980-\u09FF])(1[0-9]{3}|১[০-৯]{3})(?![\w০-৯])/g, '$1<span class="yr">$2</span>'))).join("");
 // a story card shows its first beat; each tap (or Continue) reveals the next before moving on
