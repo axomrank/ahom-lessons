@@ -1846,7 +1846,11 @@
   "meaning": {
    "en": "Peace of January 1663 between Jayadhwaj Singha and Mir Jumla: a princess, gold, silver, elephants and land west of the Bharali and Kalang given to the Mughals",
    "as": "১৬৬৩ চনৰ জানুৱাৰীত জয়ধ্বজ সিংহ আৰু মীৰজুমলাৰ সন্ধি: কুমাৰী, সোণ, ৰূপ, হাতী আৰু ভৰলী-কলঙৰ পশ্চিমৰ মাটি মোগলক দিয়া হয়"
-  }
+  },
+  "geo": [
+   27.27,
+   95.4
+  ]
  },
  "ramani-gabharu": {
   "type": "person",
@@ -2148,7 +2152,11 @@
   "meaning": {
    "en": "1682: Gadadhar Singha's army drove the Mughals out of Guwahati for good; the last Ahom–Mughal war",
    "as": "১৬৮২: গদাধৰ সিংহৰ সৈন্যই গুৱাহাটীৰ পৰা মোগলক চিৰদিনৰ বাবে খেদিলে; শেষ আহোম-মোগল যুদ্ধ"
-  }
+  },
+  "geo": [
+   26.185,
+   91.746
+  ]
  },
  "umananda": {
   "type": "place",
@@ -3130,6 +3138,38 @@
   "geo": [
    26.1636,
    91.6806
+  ],
+  "lessons": []
+ },
+ "bordowa": {
+  "type": "place",
+  "name": {
+   "en": "Bordowa Than (Batadrava)",
+   "as": "বৰদোৱা থান (বটদ্ৰবা)"
+  },
+  "meaning": {
+   "en": "Village in Nagaon district where Sankardev was born in 1449; about 16 km from Nagaon town",
+   "as": "নগাঁও জিলাৰ গাঁও য'ত ১৪৪৯ চনত শংকৰদেৱৰ জন্ম হৈছিল; নগাঁও নগৰৰ পৰা প্ৰায় ১৬ কিমি"
+  },
+  "geo": [
+   26.3504,
+   92.6796
+  ],
+  "lessons": []
+ },
+ "mong-yang": {
+  "type": "place",
+  "name": {
+   "en": "Mong Yang (Mohnyin)",
+   "as": "মং য়াং (মোহনিয়িন)"
+  },
+  "meaning": {
+   "en": "Old Tai state of Mong Yang, now Mohnyin town in Kachin State, Myanmar; one of the Tai states of the Hukawng-Mogaung country",
+   "as": "পুৰণি টাই ৰাজ্য মং য়াং, এতিয়া মিয়ানমাৰৰ কাচিন ৰাজ্যৰ মোহনিয়িন নগৰ"
+  },
+  "geo": [
+   24.779,
+   96.373
   ],
   "lessons": []
  }
