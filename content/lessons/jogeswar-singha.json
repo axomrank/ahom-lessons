@@ -398,6 +398,28 @@
     },
     {
      "type": "story",
+     "id": "jgs.m1",
+     "title": {
+      "en": "The British advance",
+      "as": "ব্ৰিটিছৰ অগ্ৰগতি"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Follow the British advance: from Guwahati up the river to Jorhat, and on to <mark>Rangpur</mark>.",
+       "as": "ব্ৰিটিছৰ অগ্ৰগতি চোৱা: গুৱাহাটীৰ পৰা নদীৰে উজাই যোৰহাট, তাৰ পিছত <mark>ৰংপুৰ</mark>।"
+      },
+      {
+       "en": "There the Burmese made their last stand.",
+       "as": "তাতেই মানে শেষ যুঁজ দিলে।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "rangpur-surrender.webp",
      "title": {
       "en": "Rangpur falls",

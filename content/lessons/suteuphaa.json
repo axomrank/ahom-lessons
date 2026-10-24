@@ -743,7 +743,8 @@
     {
      "type": "story",
      "map": {
-      "route": true
+      "route": true,
+      "labels": true
      },
      "title": {
       "en": "Where is the Dikhou?",

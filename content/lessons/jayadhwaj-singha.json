@@ -1015,6 +1015,28 @@
      "id": "jds.u4.04"
     },
     {
+     "type": "story",
+     "id": "jds.m1",
+     "title": {
+      "en": "Ten weeks up the valley",
+      "as": "দহ সপ্তাহত উপত্যকা উজাই"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Trace Mir Jumla's road: Jogighopa, Guwahati, Kaliabor, then <mark>Garhgaon</mark>.",
+       "as": "মীৰজুমলাৰ বাট চোৱা: যোগীঘোপা, গুৱাহাটী, কলিয়াবৰ, তাৰ পিছত <mark>গড়গাঁও</mark>।"
+      },
+      {
+       "en": "In about ten weeks his fleet and army climbed the whole valley.",
+       "as": "প্ৰায় দহ সপ্তাহত তেওঁৰ নৌবাহিনী আৰু সৈন্যই গোটেই উপত্যকা উজাই গ'ল।"
+      }
+     ]
+    },
+    {
      "type": "order",
      "q": {
       "en": "Put Mir Jumla's march in order.",

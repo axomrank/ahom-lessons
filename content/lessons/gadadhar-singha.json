@@ -451,6 +451,24 @@
      }
     },
     {
+     "type": "story",
+     "id": "gds.m1",
+     "title": {
+      "en": "Chasing them to the Manas",
+      "as": "মানাহলৈ খেদি"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Follow the chase: from Guwahati the Ahoms drove the Mughals west, all the way to the <mark>Manas</mark>. It would be the Ahom border until the end.",
+       "as": "খেদাৰ বাট চোৱা: গুৱাহাটীৰ পৰা আহোমে মোগলক পশ্চিমে <mark>মানাহ</mark>লৈকে খেদিলে। শেষলৈকে এয়াই আহোম সীমা হৈ থাকিল।"
+      }
+     ]
+    },
+    {
      "type": "map",
      "q": {
       "en": "Tap the river that became the Ahom–Mughal border.",

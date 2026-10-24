@@ -789,6 +789,28 @@
     },
     {
      "type": "story",
+     "id": "cds.m1",
+     "title": {
+      "en": "Down the river",
+      "as": "নদীৰে নামনিলৈ"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Follow the line: from Garhgaon down the Brahmaputra, past Kaliabor, to Mughal-held Guwahati and on towards the Manas.",
+       "as": "ৰেখাডাল চোৱা: গড়গাঁৱৰ পৰা ব্ৰহ্মপুত্ৰেৰে নামনিলৈ, কলিয়াবৰ পাৰ হৈ, মোগলৰ হাতৰ গুৱাহাটী আৰু তাৰ পিছত মানাহৰ ফালে।"
+      },
+      {
+       "en": "More than 300 km of river, and every bend could hide a Mughal post.",
+       "as": "৩০০ কিলোমিটাৰতকৈ বেছি নদীপথ, আৰু প্ৰতিটো বাঁকতে মোগল চকী লুকাই থাকিব পাৰিলে।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "guwahati-liberated.webp",
      "title": {
       "en": "On to Guwahati",

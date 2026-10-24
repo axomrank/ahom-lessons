@@ -112,6 +112,7 @@ const SFX = {   // volumes set for phone speakers
   good: () => { tone([659, 880], "sine", 0.18, 0.09, 0.22); buzz(12); },
   bad: () => { tone([233, 196], "triangle", 0.22, 0.12, 0.2); buzz([30, 40, 30]); },
   done: () => tone([523, 659, 784, 1047], "sine", 0.24, 0.11, 0.2),
+  gift: () => { tone([988, 1319, 1568], "sine", 0.16, 0.07, 0.2); buzz([15, 30, 15]); },
 };
 
 /* ---------- content + media ---------- */

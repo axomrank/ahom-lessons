@@ -595,6 +595,28 @@
     },
     {
      "type": "story",
+     "id": "ck2.m1",
+     "title": {
+      "en": "The road to Mahgarh",
+      "as": "মহগড়লৈ বাট"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "From Guwahati, Chandrakanta pushed up the river towards Jorhat, retaking posts as he went.",
+       "as": "গুৱাহাটীৰ পৰা চন্দ্ৰকান্তই চকীবোৰ পুনৰ দখল কৰি কৰি নদীৰে যোৰহাটৰ ফালে উজাই গ'ল।"
+      },
+      {
+       "en": "Near Jorhat, at Mahgarh, Burma's greatest general was waiting.",
+       "as": "যোৰহাটৰ ওচৰৰ মহগড়ত বাৰ্মাৰ শ্ৰেষ্ঠ সেনাপতি অপেক্ষা কৰি আছিল।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "mahgarh.webp",
      "title": {
       "en": "Mahgarh",

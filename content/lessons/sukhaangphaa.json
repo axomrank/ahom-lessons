@@ -475,7 +475,8 @@
      ],
      "id": "skg.u1.05",
      "map": {
-      "route": true
+      "route": true,
+      "labels": true
      }
     },
     {

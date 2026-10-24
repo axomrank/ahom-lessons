@@ -619,6 +619,25 @@ function guessFeedback(right) {
   U.phase = "feedback"; saveAll(); refresh();
   $("#action").focus({ preventScroll: true });
 }
+// Surprise rewards: now and then a correct answer opens a small gift, so a lesson never feels fully predictable.
+// At most one per unit, never in the first two answers, never on retries, tests-out, jump tests or checkpoints.
+// Gifts: a "Did you know?" card about a name from this lesson (each shown once per device), or bonus XP.
+const SEEN_KEY = "axom.facts";
+const lessonNames = (() => { const ids = new Set(); JSON.stringify(L).replace(/\[\[([a-z0-9-]+)/g, (m, id) => { if (ENT[id] && ENT[id].meaning) ids.add(id); return m; }); return [...ids]; })();
+function surprise(it) {
+  if (mode !== "lesson" || it.retry || U.testout || U.surprised || U.asked < 3 || Math.random() > 0.2) return "";
+  U.surprised = true;
+  let seen = []; try { seen = JSON.parse(localStorage.getItem(SEEN_KEY) || "[]"); } catch { /* storage blocked */ }
+  const fresh = lessonNames.filter((id) => !seen.includes(id));
+  if (fresh.length && Math.random() < 0.7) {
+    const id = fresh[Math.floor(Math.random() * fresh.length)], e = ENT[id];
+    try { localStorage.setItem(SEEN_KEY, JSON.stringify([...seen, id].slice(-400))); } catch { /* storage blocked */ }
+    U.xp += 5; SFX.gift();
+    return `<div class="gift"><span class="gift-ic">🎁</span><div><b>${T(B("Did you know?", "জানানে?"))} <span class="gift-xp">+${N(5)} XP</span></b><span class="gift-t"><strong>${T(e.name)}</strong>: ${T(e.meaning)}</span></div></div>`;
+  }
+  U.xp += 15; SFX.gift();
+  return `<div class="gift"><span class="gift-ic">🎁</span><div><b>${T(B("Surprise bonus!", "আচৰিত বোনাচ!"))} <span class="gift-xp">+${N(15)} XP</span></b><span class="gift-t">${T(B("A little gift for a sharp answer.", "চোকা উত্তৰৰ বাবে সৰু উপহাৰ।"))}</span></div></div>`;
+}
 function feedback(right) {
   if (step().s.guess) return guessFeedback(right);
   const it = step(), s = it.s, slips = s.type === "match" && !right, lid = lessonOf(s);
@@ -642,7 +661,7 @@ function feedback(right) {
     : slips ? T(B(`All matched, ${U.st.misses} slip${U.st.misses > 1 ? "s" : ""}`, `সকলো মিলিল, ${asNum(U.st.misses)}টা ভুল`)) : T(B("Not quite", "হোৱা নাই"));
   $("#fb-xp").innerHTML = gain ? `+${N(gain)} XP` : "";
   $("#fb-ans").innerHTML = right || slips ? "" : `<small>${T(B("Correct answer", "শুদ্ধ উত্তৰ"))}</small>${answerHTML(s)}`;
-  $("#fb-why").innerHTML = TR(s.why);
+  $("#fb-why").innerHTML = TR(s.why) + (right ? surprise(it) : "");
   $("#foot").className = `foot ${right ? "fb-good" : "fb-bad"}`;
   U.phase = "feedback";
   saveAll(); refresh();

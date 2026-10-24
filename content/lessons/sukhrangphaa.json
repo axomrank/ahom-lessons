@@ -492,6 +492,28 @@
      "img": "kamata-envoys.webp"
     },
     {
+     "type": "story",
+     "id": "skr.m1",
+     "title": {
+      "en": "To his mother's people",
+      "as": "মাকৰ মানুহৰ ওচৰলৈ"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Follow Chao Pulai's flight: west from the Ahom land, down the whole valley, to his mother's family in <mark>Kamata</mark>.",
+       "as": "চাও পুলাইৰ পলায়ন চোৱা: আহোম দেশৰ পৰা পশ্চিমে, গোটেই উপত্যকা নামি, মাকৰ পৰিয়াল <mark>কমতা</mark>লৈ।"
+      },
+      {
+       "en": "Soon an army would march back the other way.",
+       "as": "সোনকালে এক সৈন্য বিপৰীত দিশে আগবাঢ়িব।"
+      }
+     ]
+    },
+    {
      "type": "mcq",
      "guess": true,
      "id": "skr.d1",

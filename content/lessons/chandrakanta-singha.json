@@ -597,6 +597,28 @@
     },
     {
      "type": "story",
+     "id": "ckt.m1",
+     "title": {
+      "en": "Sukaphaa's road, reversed",
+      "as": "উলটা পথত চুকাফাৰ বাট"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Trace the invasion: over the <mark>Patkai</mark>, down through Namrup, and west to Jorhat, the capital.",
+       "as": "আক্ৰমণৰ বাট চোৱা: <mark>পাটকাই</mark> পাৰ হৈ, নামৰূপ হৈ, পশ্চিমে ৰাজধানী যোৰহাটলৈ।"
+      },
+      {
+       "en": "It was the road Sukaphaa had taken in 1228, now used against his heirs.",
+       "as": "এয়া সেই বাট যিটোৰে ১২২৮ চনত চুকাফা আহিছিল, এতিয়া তেওঁৰ বংশধৰৰ বিৰুদ্ধে ব্যৱহৃত।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "jorhat-occupied.webp",
      "title": {
       "en": "Masters of Jorhat",

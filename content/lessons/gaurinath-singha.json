@@ -448,6 +448,28 @@
      "id": "gnt.u2.03"
     },
     {
+     "type": "story",
+     "id": "gnt.m1",
+     "title": {
+      "en": "A king's flight",
+      "as": "ৰজাৰ পলায়ন"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Follow his flight: from Rangpur, down the Brahmaputra, to Guwahati, hundreds of kilometres from his capital.",
+       "as": "তেওঁৰ পলায়নৰ বাট চোৱা: ৰংপুৰৰ পৰা ব্ৰহ্মপুত্ৰেৰে নামনিলৈ গুৱাহাটী, ৰাজধানীৰ পৰা শ শ কিলোমিটাৰ দূৰ।"
+      },
+      {
+       "en": "Behind him, Purnananda held the line alone.",
+       "as": "পিছত পূৰ্ণানন্দই অকলে ৰণক্ষেত্ৰ ধৰি ৰাখিলে।"
+      }
+     ]
+    },
+    {
      "type": "map",
      "q": {
       "en": "Tap Guwahati, where Gaurinath fled.",

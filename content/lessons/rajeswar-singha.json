@@ -659,6 +659,28 @@
      "id": "rjs.u3.02"
     },
     {
+     "type": "story",
+     "id": "rjs.m1",
+     "title": {
+      "en": "Into the hills",
+      "as": "পাহাৰৰ ভিতৰলৈ"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Follow the first army: south from the Brahmaputra, straight into the hills towards Manipur.",
+       "as": "প্ৰথম সৈন্যৰ বাট চোৱা: ব্ৰহ্মপুত্ৰৰ পৰা দক্ষিণে, পোনে পোনে পাহাৰৰ মাজেৰে মণিপুৰৰ ফালে।"
+      },
+      {
+       "en": "No road, only jungle: that short line hides weeks of cutting creepers.",
+       "as": "বাট নাই, কেৱল জংঘল: সেই চুটি ৰেখাডালৰ আঁৰত সপ্তাহজুৰি লতা কটাৰ কাহিনী।"
+      }
+     ]
+    },
+    {
      "type": "unscramble",
      "q": {
       "en": "Unscramble the nickname of the failed expedition: ___-Kata Ran.",

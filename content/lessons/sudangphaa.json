@@ -325,6 +325,28 @@
     },
     {
      "type": "story",
+     "id": "sdg.m1",
+     "title": {
+      "en": "The road home",
+      "as": "ঘৰমুৱা বাট"
+     },
+     "map": {
+      "route": true,
+      "labels": true
+     },
+     "text": [
+      {
+       "en": "Trace the boy's road: from the Brahman's village in <mark>Habung</mark>, north of the river, to the royal court.",
+       "as": "ল'ৰাজনৰ বাট চোৱা: নদীৰ উত্তৰৰ <mark>হাবুং</mark>ৰ ব্ৰাহ্মণৰ গাঁৱৰ পৰা ৰাজসভালৈ।"
+      },
+      {
+       "en": "He left as a village boy and arrived as a king.",
+       "as": "গাঁৱৰ ল'ৰা হৈ ওলাল, ৰজা হৈ পালেগৈ।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "A king at fifteen",
       "as": "পোন্ধৰ বছৰৰ ৰজা"
@@ -1288,7 +1310,8 @@
      ],
      "id": "sdg.u4.04",
      "map": {
-      "route": false
+      "route": false,
+      "labels": true
      }
     },
     {

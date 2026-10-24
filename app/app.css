@@ -469,6 +469,14 @@ html.no-motion *, html.no-motion *::before, html.no-motion *::after { animation:
 /* names from the shared list: tap to see what they mean */
 .ent { font: inherit; color: inherit; font-weight: 800; background: linear-gradient(transparent 60%, var(--gold-soft) 60%); border: 0; border-bottom: 2px dotted var(--gold-dark); padding: 0 2px; cursor: pointer; border-radius: 2px; }
 .fb-why .ent { background: none; }
+.gift { display: flex; gap: 10px; align-items: flex-start; margin-top: 10px; padding: 10px 12px; border-radius: 14px; background: var(--gold-soft); border: 2px solid var(--gold); color: var(--ink); animation: giftPop .5s cubic-bezier(.2,1.6,.4,1) both .15s; }
+.gift-ic { font-size: 24px; line-height: 1; animation: giftWiggle .9s ease .5s 2; }
+.gift b { display: block; font-size: 13.5px; font-weight: 900; color: var(--gold-dark); }
+.gift-xp { margin-left: 6px; font-variant-numeric: tabular-nums; }
+.gift-t { display: block; font-size: 14px; font-weight: 600; line-height: 1.4; }
+@keyframes giftPop { from { opacity: 0; transform: scale(.85) translateY(6px); } }
+@keyframes giftWiggle { 25% { transform: rotate(-12deg); } 75% { transform: rotate(12deg); } }
+@media (prefers-reduced-motion: reduce) { .gift, .gift-ic { animation: none; } }
 .ent-type { font-size: 12px; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; color: var(--terra); margin-bottom: 2px; }
 .sheet .also { font-size: 14px; font-weight: 700; color: var(--ink-2); }
 .sheet .also a { color: var(--indigo); }
