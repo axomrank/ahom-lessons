@@ -85,8 +85,31 @@
    "bengmara",
    "guwahati"
   ],
-  "routes": [],
-  "texts": [],
+  "routes": [
+   [
+    [
+     27.35,
+     95.1
+    ],
+    [
+     27.15,
+     94.85
+    ],
+    "rangpur"
+   ]
+  ],
+  "texts": [
+   {
+    "t": {
+     "en": "MORAN COUNTRY",
+     "as": "মৰাণ অঞ্চল"
+    },
+    "at": [
+     27.45,
+     95.1
+    ]
+   }
+  ],
   "labels": {
    "rangpur": {
     "pos": "e"
@@ -139,6 +162,25 @@
     }
    ],
    "steps": [
+    {
+     "type": "story",
+     "id": "lks.hook",
+     "title": {
+      "en": "A blow on Bihu eve",
+      "as": "বিহুৰ আগদিনাৰ আঘাত"
+     },
+     "img": "queen-blow.webp",
+     "text": [
+      {
+       "en": "On the eve of Bihu, 1770, the most feared man in Assam was cut down. Tradition says <mark>the first blow came from a queen</mark>.",
+       "as": "১৭৭০ চনৰ বিহুৰ আগদিনা অসমৰ আটাইতকৈ ভয়ংকৰ মানুহজনক কাটি পেলোৱা হ'ল। পৰম্পৰা মতে <mark>প্ৰথম আঘাতটো এগৰাকী ৰাণীৰ</mark>।"
+      },
+      {
+       "en": "Who was he? Why did she strike? Keep reading: by the end of this lesson, you will know.",
+       "as": "তেওঁ কোন আছিল? ৰাণীয়ে কিয় আঘাত কৰিলে? পঢ়ি যোৱা: পাঠৰ শেষত তুমি জানিবা।"
+      }
+     ]
+    },
     {
      "type": "story",
      "img": "outbreak.webp",
@@ -242,6 +284,38 @@
        "en": "Phuleswari smeared the Gosain with blood.",
        "as": "ফুলেশ্বৰীয়ে গোঁসাইক তেজ সানিছিল।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "lks.g1",
+     "q": {
+      "en": "A proud minister cut off a Moran chief's ears. What do you think the Morans did next?",
+      "as": "এজন অহংকাৰী মন্ত্ৰীয়ে মৰাণ মুখীয়ালৰ কাণ কাটি দিলে। তোমাৰ কি অনুমান, মৰাণসকলে তাৰ পিছত কি কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Complained to the king",
+       "as": "ৰজাৰ ওচৰত গোচৰ দিলে"
+      },
+      {
+       "en": "Rose up and marched on the capital",
+       "as": "বিদ্ৰোহ কৰি ৰাজধানীলৈ আগবাঢ়িল"
+      },
+      {
+       "en": "Left Assam",
+       "as": "অসম এৰি গ'ল"
+      },
+      {
+       "en": "Forgot about it",
+       "as": "পাহৰি গ'ল"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "They rose in 1769, and the rebellion shook the kingdom for 36 years.",
+      "as": "১৭৬৯ চনত তেওঁলোকে বিদ্ৰোহ কৰিলে, আৰু সেই বিদ্ৰোহে ৩৬ বছৰ ধৰি ৰাজ্য কঁপালে।"
      }
     },
     {
@@ -371,6 +445,23 @@
     },
     {
      "type": "story",
+     "id": "lks.march",
+     "title": {
+      "en": "The march on Rangpur",
+      "as": "ৰংপুৰলৈ যাত্ৰা"
+     },
+     "map": {
+      "route": true
+     },
+     "text": [
+      {
+       "en": "The rebels came out of the Moran country in the east. Farmers joined them on the way, and the column headed straight for the capital.",
+       "as": "বিদ্ৰোহীসকল পূবৰ মৰাণ অঞ্চলৰ পৰা ওলাল। বাটত খেতিয়কো যোগ দিলে, আৰু দলটো পোনে পোনে ৰাজধানীলৈ আগবাঢ়িল।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "captive.webp",
      "title": {
       "en": "The first rising",
@@ -425,6 +516,35 @@
       }
      ],
      "id": "lks.u2.04"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "decide": true,
+     "id": "lks.d1",
+     "q": {
+      "en": "You are a loyal noble. The king is a prisoner and Ragha Moran rules Rangpur. What do you do?",
+      "as": "তুমি এজন বিশ্বাসী বিষয়া। ৰজা বন্দী আৰু ৰাঘ মৰাণে ৰংপুৰ শাসন কৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Attack the rebels at once",
+       "as": "লগে লগে বিদ্ৰোহীক আক্ৰমণ"
+      },
+      {
+       "en": "Flee to Guwahati",
+       "as": "গুৱাহাটীলৈ পলায়ন"
+      },
+      {
+       "en": "Bow to Ragha, and wait for a chance",
+       "as": "ৰাঘক মানি লৈ সুযোগৰ বাট চোৱা"
+      }
+     ],
+     "answer": 2,
+     "why": {
+      "en": "That is what the loyalists did: they pretended to serve Ragha, and waited for the right day.",
+      "as": "বিশ্বাসী বিষয়াসকলে তেনেকৈয়ে কৰিছিল: ৰাঘৰ সেৱা কৰাৰ ভাও জুৰি সঠিক দিনটোৰ বাট চাইছিল।"
+     }
     },
     {
      "type": "match",
@@ -581,6 +701,38 @@
        "en": "The rebels take the capital.",
        "as": "বিদ্ৰোহীৰ হাতত ৰাজধানী।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "lks.g2",
+     "q": {
+      "en": "The plotters needed a day when Ragha would be off guard. Which day would you choose?",
+      "as": "ষড়যন্ত্ৰকাৰীক এনে এটা দিন লাগিছিল যেতিয়া ৰাঘ অসাৱধান হ'ব। তুমি কোনটো দিন বাছিবা?"
+     },
+     "options": [
+      {
+       "en": "The eve of Bihu",
+       "as": "বিহুৰ আগদিনা"
+      },
+      {
+       "en": "A day of battle",
+       "as": "যুদ্ধৰ দিন"
+      },
+      {
+       "en": "His wedding day",
+       "as": "তেওঁৰ বিয়াৰ দিন"
+      },
+      {
+       "en": "A rainy night",
+       "as": "বৰষুণৰ ৰাতি"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Bihu eve, April 1770: a festival, crowds, and a ruler who felt safe.",
+      "as": "বিহুৰ আগদিনা, ১৭৭০ চনৰ এপ্ৰিল: উৎসৱ, ভিৰ, আৰু নিজকে সুৰক্ষিত বুলি ভবা শাসক।"
      }
     },
     {
@@ -927,6 +1079,25 @@
       "as": "১৭৬৯ → ১৭৭০ → ১৭৮০।"
      },
      "id": "lks.u4.07"
+    },
+    {
+     "type": "story",
+     "id": "lks.next",
+     "title": {
+      "en": "The fire is not out",
+      "as": "জুই নুমুৱা নাই"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the man was <mark>Ragha Moran</mark>, and the queen was <mark>Kuranganayani</mark>.",
+       "as": "ৰহস্যৰ সমাধান: মানুহজন <mark>ৰাঘ মৰাণ</mark>, আৰু ৰাণীগৰাকী <mark>কুৰংগনয়নী</mark>।"
+      },
+      {
+       "en": "But the Moamorias had not forgotten. Twelve years later, on another Bihu night, men with torches would walk up to a new king...",
+       "as": "কিন্তু মোৱামৰীয়াসকলে পাহৰা নাছিল। বাৰ বছৰ পিছত, আন এক বিহুৰ ৰাতি, জোৰ হাতত কিছুমান মানুহ এজন নতুন ৰজাৰ ওচৰলৈ আগবাঢ়িব..."
+      }
+     ]
     }
    ]
   }

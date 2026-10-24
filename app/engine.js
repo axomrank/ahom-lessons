@@ -451,6 +451,7 @@ function renderStep(animate) {
   const from = s._lesson && s._lesson !== L.id ? `<span class="from">${T(B(s._lesson[0].toUpperCase() + s._lesson.slice(1), s._lesson[0].toUpperCase() + s._lesson.slice(1)))}</span>` : "";
   const kick = s.type === "story" ? `<div class="kicker story">${T(KICK.story)}${s.text.length > 1 ? `<span class="dots">${s.text.map((_, k) => `<i class="${k ? "" : "on"}"></i>`).join("")}</span>` : ""}</div>`
     : it.retry ? `<div class="kicker retry">${T(B("Previous mistake", "আগৰ ভুল"))}</div>`
+    : s.guess ? `<div class="kicker guess">${T(s.decide ? B("You decide", "তুমিয়েই সিদ্ধান্ত লোৱা") : B("Make a guess", "অনুমান কৰা"))}</div>`
     : `<div class="kicker">${T(KICK[s.type])}${from}${s.link && !VIRTUAL ? `<button class="linkchip" data-link>${CHAIN}${T(linkLabel(s.link))}</button>` : ""}${s.type === "whoami" ? `<span class="xp" id="who-xp"></span>` : ""}</div>`;
   scr.innerHTML = kick + RENDER[s.type](s) + (s.type === "story" && s.link ? linkCallout(s.link) : "");
   scr.scrollTop = 0;
@@ -604,7 +605,22 @@ function answerHTML(s) {
   }
   return "";
 }
+// a guess step ({guess: true}) asks the learner to predict before the story reveals it: any answer is welcome,
+// it earns a little XP, is never recorded as a mistake and never comes back
+function guessFeedback(right) {
+  const s = step().s; U.xp += 5; SFX.good();
+  U.done = Math.min(U.total, U.done + 1); $("#progress").style.width = `${(U.done / U.total) * 100}%`;
+  $("#fb-badge").textContent = right ? "✓" : "?";
+  $("#fb-title").innerHTML = right ? T(B("You called it!", "ঠিকেই অনুমান কৰিলা!")) : T(B("Good guess. Here is what happened", "ভাল অনুমান। আচলতে যি হৈছিল"));
+  $("#fb-xp").innerHTML = `+${N(5)} XP`;
+  $("#fb-ans").innerHTML = right ? "" : `<small>${T(B("What really happened", "আচলতে যি হৈছিল"))}</small>${answerHTML(s)}`;
+  $("#fb-why").innerHTML = TR(s.why);
+  $("#foot").className = "foot fb-good fb-guess";
+  U.phase = "feedback"; saveAll(); refresh();
+  $("#action").focus({ preventScroll: true });
+}
 function feedback(right) {
+  if (step().s.guess) return guessFeedback(right);
   const it = step(), s = it.s, slips = s.type === "match" && !right, lid = lessonOf(s);
   let gain = 0;
   if (!it.retry) { U.asked++; AXOM.record(lid, right); }
