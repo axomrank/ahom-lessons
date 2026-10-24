@@ -10,8 +10,8 @@
    "as": "বৰ্তমান চীনৰ ইউনানৰ ৰুইলিৰ ওচৰৰ টাই ৰাজ্য; চুকাফাৰ জন্মভূমি"
   },
   "geo": [
-   24.0,
-   97.85
+   24.018,
+   97.856
   ],
   "lessons": [
    "sukaphaa",
@@ -44,8 +44,8 @@
    "as": "অৰুণাচলৰ চাংলাং জিলাত পাটকাইৰ গিৰিপথ; চুকাফাৰ পথ, পিছত ষ্টিলৱেল (লেডো) পথ"
   },
   "geo": [
-   27.27,
-   96.17
+   27.2476,
+   96.156
   ],
   "lessons": [
    "sukaphaa"
@@ -157,8 +157,8 @@
    "as": "প্ৰথম আহোম ৰাজধানী (১২৫৩), টাই চে-ৰাই-দৈ, 'পাহাৰৰ ওপৰৰ উজ্জ্বল নগৰ'; ৰাজকীয় সমাধিস্থল"
   },
   "geo": [
-   26.94,
-   94.85
+   26.9419,
+   94.8761
   ],
   "lessons": [
    "sukaphaa"
@@ -175,8 +175,8 @@
    "as": "দিখৌ নদীৰ পাৰৰ নগৰ, চৰাইদেউৰ ওচৰত"
   },
   "geo": [
-   26.98,
-   94.64
+   26.9889,
+   94.639
   ]
  },
  "brahmaputra": {
@@ -245,8 +245,8 @@
    "sudangphaa"
   ],
   "geo": [
-   25.3,
-   96.93
+   25.3014,
+   96.9417
   ]
  },
  "moran": {
@@ -1394,8 +1394,8 @@
    "as": "ব্ৰহ্মপুত্ৰৰ ডাঙৰ নদীদ্বীপ; ১৫৬৩ চনৰ আহোম–কোচ শান্তি ইয়াতে হোৱা বুলি কোৱা হয়; পিছলৈ সত্ৰৰ ডাঙৰ কেন্দ্ৰ"
   },
   "geo": [
-   26.95,
-   94.17
+   27.0,
+   94.2167
   ]
  },
  "aikhek": {
@@ -1811,8 +1811,8 @@
    "as": "মাজুলীৰ এখন প্ৰধান সত্ৰ; জয়ধ্বজ সিংহৰ পৃষ্ঠপোষকতাত স্থাপিত"
   },
   "geo": [
-   26.93,
-   94.25
+   26.9402,
+   94.1238
   ]
  },
  "aurangzeb": {
@@ -1940,8 +1940,8 @@
    "as": "গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ঠেক অংশ; ১৬৭১ চনৰ মহা নৌযুদ্ধৰ ঠাই"
   },
   "geo": [
-   26.19,
-   91.66
+   26.1758,
+   91.6722
   ]
  },
  "alaboi": {
@@ -2280,8 +2280,8 @@
    "as": "গুৱাহাটীৰ নীলাচল পাহাৰৰ দেৱী মন্দিৰ"
   },
   "geo": [
-   26.1665,
-   91.7058
+   26.1664,
+   91.7055
   ]
  },
  "siva-singha": {
@@ -2365,8 +2365,8 @@
    "as": "বিহুত খেল আৰু ম'হৰ যুঁজ চাবলৈ ৰংপুৰৰ দুমহলীয়া ৰাজকীয় মণ্ডপ; প্ৰমত্ত সিংহৰ দিনত (১৭৪৬) ইটাৰে নিৰ্মিত"
   },
   "geo": [
-   26.9628,
-   94.6276
+   26.967,
+   94.619
   ]
  },
  "talatal-ghar": {
@@ -2380,8 +2380,8 @@
    "as": "ৰংপুৰৰ ৰাজপ্ৰসাদ; ৰুদ্ৰ সিংহই আৰম্ভ কৰে, ৰাজেশ্বৰ সিংহই বঢ়ায়"
   },
   "geo": [
-   26.9553,
-   94.633
+   26.9663,
+   94.6247
   ]
  },
  "kareng-ghar": {
@@ -2395,8 +2395,8 @@
    "as": "গড়গাঁৱৰ ৰাজপ্ৰসাদ; ৰাজেশ্বৰ সিংহই ইটাৰে পুনৰ নিৰ্মাণ কৰে (১৭৫২)"
   },
   "geo": [
-   26.93,
-   94.73
+   26.9355,
+   94.7443
   ]
  },
  "pramatta-singha": {
@@ -3002,6 +3002,134 @@
   "geo": [
    27.5861,
    91.8594
+  ],
+  "lessons": []
+ },
+ "hukawng": {
+  "type": "place",
+  "name": {
+   "en": "Hukawng Valley",
+   "as": "হুকাং উপত্যকা"
+  },
+  "meaning": {
+   "en": "Forested valley in northern Burma on the Tai route over the Patkai toward Assam",
+   "as": "উত্তৰ ব্ৰহ্মদেশৰ অৰণ্যময় উপত্যকা; পাটকাই পাৰ হৈ অসমলৈ যোৱা টাই পথত"
+  },
+  "geo": [
+   26.4383,
+   96.5589
+  ],
+  "lessons": []
+ },
+ "namdang": {
+  "type": "place",
+  "name": {
+   "en": "Namdang Stone Bridge",
+   "as": "নামদাং শিলৰ দলং"
+  },
+  "meaning": {
+   "en": "Stone bridge near Sivasagar built under Rajeswar Singha; still stands",
+   "as": "ৰাজেশ্বৰ সিংহৰ দিনত সৰ্বসাগৰৰ ওচৰত নিৰ্মিত শিলৰ দলং; আজিও আছে"
+  },
+  "geo": [
+   26.9504,
+   94.5452
+  ],
+  "lessons": []
+ },
+ "hayagriva-madhava": {
+  "type": "place",
+  "name": {
+   "en": "Hayagriva Madhava Temple",
+   "as": "হয়গ্ৰীৱ মাধৱ মন্দিৰ"
+  },
+  "meaning": {
+   "en": "Temple on a hill at Hajo, visited by Hindus and Buddhists alike; rebuilt by Raghudev Narayan in 1583",
+   "as": "হাজোৰ পাহাৰৰ মন্দিৰ; হিন্দু আৰু বৌদ্ধ দুয়োৱে যায়"
+  },
+  "geo": [
+   26.2427,
+   91.5265
+  ],
+  "lessons": []
+ },
+ "dakhinpat": {
+  "type": "place",
+  "name": {
+   "en": "Dakhinpat Satra",
+   "as": "দক্ষিণপাট সত্ৰ"
+  },
+  "meaning": {
+   "en": "Royal satra on Majuli, recognised by Rudra Singha as one of four royal satras",
+   "as": "মাজুলীৰ ৰাজ সত্ৰ; ৰুদ্ৰ সিংহই স্বীকৃতি দিয়া চাৰিটা ৰাজ সত্ৰৰ এটা"
+  },
+  "geo": [
+   26.9181,
+   94.2664
+  ],
+  "lessons": []
+ },
+ "kamalabari": {
+  "type": "place",
+  "name": {
+   "en": "Kamalabari Satra",
+   "as": "কমলাবাৰী সত্ৰ"
+  },
+  "meaning": {
+   "en": "Satra on Majuli famed for Sattriya culture and its boat-building",
+   "as": "মাজুলীৰ সত্ৰ; সত্ৰীয়া সংস্কৃতি আৰু নাও সজাৰ বাবে বিখ্যাত"
+  },
+  "geo": [
+   26.9562,
+   94.1728
+  ],
+  "lessons": []
+ },
+ "garamur": {
+  "type": "place",
+  "name": {
+   "en": "Garamur Satra",
+   "as": "গড়মূৰ সত্ৰ"
+  },
+  "meaning": {
+   "en": "Royal satra on Majuli, one of the four recognised by Rudra Singha",
+   "as": "মাজুলীৰ ৰাজ সত্ৰ; ৰুদ্ৰ সিংহই স্বীকৃতি দিয়া চাৰিটাৰ এটা"
+  },
+  "geo": [
+   26.9832,
+   94.1564
+  ],
+  "lessons": []
+ },
+ "barpeta-satra": {
+  "type": "place",
+  "name": {
+   "en": "Barpeta Satra",
+   "as": "বৰপেটা সত্ৰ"
+  },
+  "meaning": {
+   "en": "Great Vaishnava satra at Barpeta, founded by Madhavdev's disciples; famed for Bhaona and the Doul festival",
+   "as": "বৰপেটাৰ প্ৰধান বৈষ্ণৱ সত্ৰ; মাধৱদেৱৰ শিষ্যই স্থাপন কৰা"
+  },
+  "geo": [
+   26.3226,
+   91.0033
+  ],
+  "lessons": []
+ },
+ "pandu": {
+  "type": "place",
+  "name": {
+   "en": "Pandu",
+   "as": "পাণ্ডু"
+  },
+  "meaning": {
+   "en": "Port on the Brahmaputra at Guwahati, a Mughal river base during the Saraighat years",
+   "as": "গুৱাহাটীৰ ব্ৰহ্মপুত্ৰৰ বন্দৰ; সৰাইঘাটৰ সময়ত মোগলৰ নদী-ঘাঁটি"
+  },
+  "geo": [
+   26.1636,
+   91.6806
   ],
   "lessons": []
  }
