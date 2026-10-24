@@ -137,6 +137,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "rds.hook",
+     "title": {
+      "en": "Seven kings, eleven years",
+      "as": "এঘাৰ বছৰত সাতজন ৰজা"
+     },
+     "img": "debera-rises.webp",
+     "text": [
+      {
+       "en": "From 1670 to 1681 the Ahoms had seven kings. <mark>Not one died a natural death.</mark>",
+       "as": "১৬৭০ৰ পৰা ১৬৮১ লৈ আহোমৰ সাতজন ৰজা হ'ল। <mark>এজনৰো স্বাভাৱিক মৃত্যু নহ'ল।</mark>"
+      },
+      {
+       "en": "Who was killing kings?",
+       "as": "ৰজাক কোনে হত্যা কৰি আছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "debera-rises.webp",
      "title": {
       "en": "A crown taken by force",
@@ -343,6 +362,38 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "rds.g1",
+     "q": {
+      "en": "The king fell ill and ordered his minister Debera's arrest. What do you think Debera did?",
+      "as": "ৰজা অসুস্থ হ'ল আৰু মন্ত্ৰী দেবেৰাক বন্দী কৰিবলৈ আদেশ দিলে। তোমাৰ অনুমানত দেবেৰাই কি কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Fled the kingdom",
+       "as": "ৰাজ্য এৰি পলাল"
+      },
+      {
+       "en": "Struck first and poisoned the king",
+       "as": "আগতে আঘাত কৰি ৰজাক বিষ খুৱালে"
+      },
+      {
+       "en": "Begged for mercy",
+       "as": "ক্ষমা খুজিলে"
+      },
+      {
+       "en": "Joined the Mughals",
+       "as": "মোগলত যোগ দিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Debera struck first and had the king poisoned.",
+      "as": "দেবেৰাই আগতে আঘাত কৰি ৰজাক বিষ খুৱালে।"
+     }
+    },
+    {
      "type": "story",
      "img": "debera-terror.webp",
      "title": {
@@ -503,6 +554,25 @@
       }
      ],
      "id": "rds.u2.06"
+    },
+    {
+     "type": "story",
+     "id": "rds.next",
+     "title": {
+      "en": "The first kingmaker",
+      "as": "প্ৰথম ৰজা-নিৰ্মাতা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: ministers called <mark>kingmakers</mark>, and the first of them was Debera.",
+       "as": "ৰহস্যৰ সমাধান: <mark>ৰজা-নিৰ্মাতা</mark> মন্ত্ৰী, আৰু প্ৰথমজন দেবেৰা।"
+      },
+      {
+       "en": "Debera's next king would last just twenty-one days...",
+       "as": "দেবেৰাৰ পিছৰ ৰজা মাত্ৰ একৈশ দিন টিকিব..."
+      }
+     ]
     }
    ]
   }

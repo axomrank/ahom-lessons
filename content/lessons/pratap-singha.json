@@ -258,6 +258,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "prs.hook",
+     "title": {
+      "en": "A thousand elephants",
+      "as": "এহেজাৰ হাতী"
+     },
+     "img": "mughal-river-war.webp",
+     "text": [
+      {
+       "en": "Even the Mughal chronicle wrote about this king: one who 'has a thousand elephants and a hundred thousand foot'.",
+       "as": "মোগল বুৰঞ্জীয়েও এই ৰজাৰ কথা লিখিছিল: যাৰ 'এহেজাৰ হাতী আৰু এলাখ পদাতিক'।"
+      },
+      {
+       "en": "How did an old king make the Ahoms a match for an empire?",
+       "as": "এজন বুঢ়া ৰজাই আহোমক কেনেকৈ সাম্ৰাজ্যৰ সমকক্ষ কৰিলে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "accession.webp",
      "title": {
       "en": "Three names",
@@ -904,6 +923,35 @@
      "id": "prs3.u3.02"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "prs.d1",
+     "q": {
+      "en": "You are Pratap Singha. Balinarayan, an enemy of the Mughals, asks you for shelter. What do you do?",
+      "as": "তুমি প্ৰতাপ সিংহ। মোগলৰ শত্ৰু বলিনাৰায়ণে তোমাৰ আশ্ৰয় বিচাৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Turn him away",
+       "as": "ঘূৰাই পঠিওৱা"
+      },
+      {
+       "en": "Shelter him, even if the Mughals are angry",
+       "as": "মোগলে খং কৰিলেও আশ্ৰয় দিয়া"
+      },
+      {
+       "en": "Hand him to the Mughals",
+       "as": "মোগলৰ হাতত দিয়া"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He sheltered Balinarayan, one of the causes of the long Ahom–Mughal wars.",
+      "as": "তেওঁ বলিনাৰায়ণক আশ্ৰয় দিলে, দীঘলীয়া আহোম-মোগল যুদ্ধৰ এটা কাৰণ।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "balinarayan.webp",
      "title": {
@@ -1034,6 +1082,38 @@
       }
      ],
      "id": "prs.u4.01"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "prs.g1",
+     "q": {
+      "en": "A Mughal army of 10,000 men and 400 ships has won the first battle. How do you think the Ahoms struck back?",
+      "as": "১০,০০০ সৈন্য আৰু ৪০০ জাহাজৰ মোগল বাহিনীয়ে প্ৰথম যুদ্ধ জিকিছে। তোমাৰ অনুমানত আহোমে কেনেকৈ প্ৰত্যাঘাত কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "They surrendered",
+       "as": "আত্মসমৰ্পণ কৰিলে"
+      },
+      {
+       "en": "A night attack by land and water",
+       "as": "স্থল আৰু জলপথেৰে নিশা আক্ৰমণ"
+      },
+      {
+       "en": "They waited for the rains",
+       "as": "বৰষুণলৈ বাট চালে"
+      },
+      {
+       "en": "They paid tribute",
+       "as": "কৰ দিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "At Samdhara a night attack by land and water destroyed the Mughal army.",
+      "as": "সমধৰাত স্থল আৰু জলপথেৰে নিশা আক্ৰমণে মোগল বাহিনী ধ্বংস কৰিলে।"
+     }
     },
     {
      "type": "story",
@@ -1968,6 +2048,25 @@
       "as": "তেওঁ চুখাম্ফাৰ পুত্ৰ।"
      },
      "id": "prs.u7.07"
+    },
+    {
+     "type": "story",
+     "id": "prs.next",
+     "title": {
+      "en": "Three sons at the bedside",
+      "as": "শয্যাৰ কাষত তিনি পুত্ৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: new officers, a reformed paik system, and <mark>war on the rivers</mark>.",
+       "as": "ৰহস্যৰ সমাধান: নতুন বিষয়া, সংস্কাৰ কৰা পাইক ব্যৱস্থা, আৰু <mark>নদীৰ যুদ্ধ</mark>।"
+      },
+      {
+       "en": "When he died, his three sons stood around the throne, and one had armed men ready...",
+       "as": "তেওঁৰ মৃত্যুৰ সময়ত তিনি পুত্ৰ সিংহাসনৰ চাৰিওফালে, আৰু এজনৰ সশস্ত্ৰ লোক সাজু..."
+      }
+     ]
     }
    ]
   }

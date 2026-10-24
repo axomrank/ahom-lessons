@@ -158,6 +158,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "rjs.hook",
+     "title": {
+      "en": "History on fire",
+      "as": "জ্বলি থকা ইতিহাস"
+     },
+     "img": "burning.webp",
+     "text": [
+      {
+       "en": "A minister had the court chronicles searched, and the pages he disliked were burnt.",
+       "as": "এজন মন্ত্ৰীয়ে ৰাজসভাৰ বুৰঞ্জী বিচাৰ কৰালে, আৰু অপছন্দৰ পাতবোৰ জ্বলোৱা হ'ল।"
+      },
+      {
+       "en": "What was he trying to hide?",
+       "as": "তেওঁ কি লুকুৱাব বিচাৰিছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "accession.webp",
      "title": {
       "en": "A scar decides",
@@ -373,6 +392,38 @@
        "en": "A king who loved palaces.",
        "as": "ৰাজপ্ৰসাদপ্ৰেমী ৰজা।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "rjs.g1",
+     "q": {
+      "en": "Why do you think the Borbarua wanted Buranjis burnt?",
+      "as": "তোমাৰ অনুমানত বৰবৰুৱাই কিয় বুৰঞ্জী জ্বলাব বিচাৰিছিল?"
+     },
+     "options": [
+      {
+       "en": "One doubted his family's origin",
+       "as": "এখনে তেওঁৰ বংশ লৈ সন্দেহ কৰিছিল"
+      },
+      {
+       "en": "They were badly written",
+       "as": "বেয়াকৈ লিখা"
+      },
+      {
+       "en": "To save space",
+       "as": "ঠাই বচাবলৈ"
+      },
+      {
+       "en": "The king hated history",
+       "as": "ৰজাই ইতিহাস ঘৃণা কৰিছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A Buranji cast doubt on Kirti Chandra's ancestry.",
+      "as": "এখন বুৰঞ্জীয়ে কীৰ্তিচন্দ্ৰৰ বংশ লৈ সন্দেহ প্ৰকাশ কৰিছিল।"
      }
     },
     {
@@ -634,6 +685,35 @@
       "as": "লতা-কটা ৰণ।"
      },
      "id": "rjs.u3.03"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "rjs.d1",
+     "q": {
+      "en": "You are Rajeswar. Your first army to Manipur died in the jungle. Jai Singh still begs for help. What do you do?",
+      "as": "তুমি ৰাজেশ্বৰ। মণিপুৰলৈ প্ৰথম সৈন্য জংঘলত শেষ হ'ল। জয় সিংহে এতিয়াও সহায় বিচাৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Give up",
+       "as": "এৰি দিয়া"
+      },
+      {
+       "en": "Send a second army by an easier road",
+       "as": "সহজ বাটেৰে দ্বিতীয় সৈন্য পঠিওৱা"
+      },
+      {
+       "en": "Ask the Burmese to make peace",
+       "as": "বাৰ্মাক শান্তি কৰিবলৈ কোৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In 1768 a second army went via Raha and helped restore Jai Singh.",
+      "as": "১৭৬৮ চনত দ্বিতীয় সৈন্য ৰহাৰে গৈ জয় সিংহক পুনৰ প্ৰতিষ্ঠা কৰাত সহায় কৰিলে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -925,6 +1005,25 @@
       "as": "তেওঁৰ সৰু ভাই লক্ষ্মী সিংহ ৰজা হ'ল।"
      },
      "id": "rjs.u4.06"
+    },
+    {
+     "type": "story",
+     "id": "rjs.next",
+     "title": {
+      "en": "The Morans are angry",
+      "as": "মৰাণৰ খং"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: a Buranji questioned <mark>Kirti Chandra's</mark> ancestry.",
+       "as": "ৰহস্যৰ সমাধান: এখন বুৰঞ্জীয়ে <mark>কীৰ্তিচন্দ্ৰ</mark>ৰ বংশ লৈ প্ৰশ্ন তুলিছিল।"
+      },
+      {
+       "en": "His pride would soon cost the kingdom dearly: the Morans were about to rise...",
+       "as": "তেওঁৰ অহংকাৰৰ মূল্য ৰাজ্যই সোনকালে দিব: মৰাণসকল বিদ্ৰোহ কৰিবলৈ ওলাইছে..."
+      }
+     ]
     }
    ]
   }

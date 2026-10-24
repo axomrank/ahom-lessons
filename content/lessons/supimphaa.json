@@ -151,6 +151,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "spm.hook",
+     "title": {
+      "en": "A careless compliment",
+      "as": "অসাৱধান প্ৰশংসা"
+     },
+     "img": "queen-nagas.webp",
+     "text": [
+      {
+       "en": "A queen praised a visitor's good looks within the king's hearing. The angry king sent her to live in a Naga village.",
+       "as": "এগৰাকী ৰাণীয়ে ৰজাই শুনাকৈ এজন অতিথিৰ ৰূপৰ প্ৰশংসা কৰিলে। খঙত ৰজাই তেওঁক নগা গাঁৱত থাকিবলৈ পঠালে।"
+      },
+      {
+       "en": "That angry moment would one day give the kingdom a new great minister. How?",
+       "as": "সেই খঙৰ মুহূৰ্তই এদিন ৰাজ্যক এজন নতুন প্ৰধান মন্ত্ৰী দিব। কেনেকৈ?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The thirteenth king",
       "as": "ত্ৰয়োদশ ৰজা"
@@ -410,6 +429,38 @@
      ],
      "id": "spm.u2.01",
      "img": "queen-nagas.webp"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "spm.g1",
+     "q": {
+      "en": "The queen was already pregnant when she was sent away. What do you think became of her child?",
+      "as": "পঠিওৱাৰ সময়ত ৰাণী গৰ্ভৱতী আছিল। তোমাৰ অনুমানত তেওঁৰ সন্তানৰ কি হ'ল?"
+     },
+     "options": [
+      {
+       "en": "He died young",
+       "as": "সৰুতে মৃত্যু"
+      },
+      {
+       "en": "He became a great minister",
+       "as": "প্ৰধান মন্ত্ৰী হ'ল"
+      },
+      {
+       "en": "He became a Naga chief",
+       "as": "নগা মুখীয়াল হ'ল"
+      },
+      {
+       "en": "He became king",
+       "as": "ৰজা হ'ল"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Her son Konseng became the first Borpatrogohain.",
+      "as": "তেওঁৰ পুত্ৰ কনচেং প্ৰথম বৰপাত্ৰগোহাঁই হ'ল।"
+     }
     },
     {
      "type": "story",
@@ -895,6 +946,25 @@
       "as": "১২১৫ → ১২২৮ → ১৪০১ → ১৪৯৭ → ১৫২৩।"
      },
      "id": "spm2.u3.07"
+    },
+    {
+     "type": "story",
+     "id": "spm.next",
+     "title": {
+      "en": "The founders' age ends",
+      "as": "প্ৰতিষ্ঠাৰ যুগৰ অন্ত"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: her son <mark>Konseng</mark> became the first Borpatrogohain.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁৰ পুত্ৰ <mark>কনচেং</mark> প্ৰথম বৰপাত্ৰগোহাঁই হ'ল।"
+      },
+      {
+       "en": "The founding era is over. Next comes a king with a Hindu title, firearms, and a kingdom twice the size...",
+       "as": "প্ৰতিষ্ঠাৰ যুগ শেষ। এতিয়া আহিব হিন্দু উপাধি, বন্দুক আৰু দুগুণ ডাঙৰ ৰাজ্যৰ এজন ৰজা..."
+      }
+     ]
     }
    ]
   }

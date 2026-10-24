@@ -140,6 +140,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "srm.hook",
+     "title": {
+      "en": "A grave for the nobles' sons",
+      "as": "বিষয়াৰ পুত্ৰৰ বাবে মৈদাম"
+     },
+     "img": "court-intrigue.webp",
+     "text": [
+      {
+       "en": "A king ordered each great noble to give him a son, to be buried with a dead child.",
+       "as": "এজন ৰজাই প্ৰতিজন প্ৰধান বিষয়াক এজনকৈ পুত্ৰ দিবলৈ আদেশ দিলে, এটি মৃত শিশুৰ সৈতে পুতিবলৈ।"
+      },
+      {
+       "en": "Who gave that order, and what did the nobles do?",
+       "as": "সেই আদেশ কোনে দিছিল, আৰু বিষয়াসকলে কি কৰিলে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "court-intrigue.webp",
      "title": {
       "en": "Three brothers",
@@ -210,6 +229,35 @@
       "as": "মোহৰ: ফুকনৰ নহয়, সিংহৰ।"
      },
      "id": "srm3.u1.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "srm.d1",
+     "q": {
+      "en": "You are the king. Kachari envoys bring a letter sealed as if from an equal king. What do you do?",
+      "as": "তুমি ৰজা। কছাৰী দূতে সমান ৰজাৰ দৰে মোহৰ মৰা চিঠি আনিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Accept it politely",
+       "as": "ভদ্ৰভাৱে গ্ৰহণ কৰা"
+      },
+      {
+       "en": "Send them away in disgrace",
+       "as": "অপমান কৰি ঘূৰাই পঠিওৱা"
+      },
+      {
+       "en": "Declare war",
+       "as": "যুদ্ধ ঘোষণা কৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The court sent the envoys away in disgrace.",
+      "as": "ৰাজসভাই দূতক অপমান কৰি ঘূৰাই পঠালে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -481,6 +529,38 @@
      "id": "srm3.u2.01"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "srm.g1",
+     "q": {
+      "en": "The nobles had had enough of Suramphaa. What do you think they did?",
+      "as": "বিষয়াসকলে চুৰামফাক আৰু সহ্য কৰিব নোৱাৰিলে। তোমাৰ অনুমানত তেওঁলোকে কি কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Obeyed him",
+       "as": "আদেশ মানিলে"
+      },
+      {
+       "en": "Turned to his brother and deposed him",
+       "as": "ভাইৰ ফালে গৈ তেওঁক আঁতৰালে"
+      },
+      {
+       "en": "Fled to the Mughals",
+       "as": "মোগলৰ ওচৰলৈ পলাল"
+      },
+      {
+       "en": "Rose and lost",
+       "as": "বিদ্ৰোহ কৰি হাৰিল"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "They turned to his brother Sutingphaa and took Suramphaa by surprise in 1644.",
+      "as": "তেওঁলোকে ভাই চুতিংফাৰ ফালে গৈ ১৬৪৪ চনত চুৰামফাক আচম্বিতে ধৰিলে।"
+     }
+    },
+    {
      "type": "story",
      "art": "scroll",
      "title": {
@@ -599,6 +679,25 @@
       "as": "মীৰজুমলাৰ সৈতে সন্ধি ১৬৬৩ চনত, জয়ধ্বজ সিংহৰ দিনত।"
      },
      "id": "srm.u2.08"
+    },
+    {
+     "type": "story",
+     "id": "srm.next",
+     "title": {
+      "en": "A crooked crown",
+      "as": "বেঁকা মুকুট"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the order came from <mark>Suramphaa</mark>, the Bhaga Roja, and the nobles replaced him with his brother.",
+       "as": "ৰহস্যৰ সমাধান: আদেশ দিছিল <mark>চুৰামফা</mark>ই, ভগা ৰজা, আৰু বিষয়াসকলে তেওঁৰ ঠাইত ভাইক বহুৱালে।"
+      },
+      {
+       "en": "That brother had a bent back, poor health, and a cruel son...",
+       "as": "সেই ভাইৰ বেঁকা পিঠি, বেয়া স্বাস্থ্য, আৰু এজন নিষ্ঠুৰ পুত্ৰ..."
+      }
+     ]
     }
    ]
   }

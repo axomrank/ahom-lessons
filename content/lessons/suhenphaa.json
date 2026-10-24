@@ -151,6 +151,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "shn.hook",
+     "title": {
+      "en": "Death by bamboo",
+      "as": "বাঁহেৰে মৃত্যু"
+     },
+     "img": "palace-murder.webp",
+     "text": [
+      {
+       "en": "A king was busy repairing his palace when men he had punished crept close with a sharpened bamboo.",
+       "as": "ৰজাই ৰাজপ্ৰসাদ মেৰামতিত ব্যস্ত আছিল, তেতিয়া তেওঁ শাস্তি দিয়া মানুহে জোঙা বাঁহ লৈ ওচৰ চাপিল।"
+      },
+      {
+       "en": "What had he punished them for?",
+       "as": "তেওঁ সিহঁতক কিহৰ বাবে শাস্তি দিছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The Tangsu again",
       "as": "আকৌ টাংচু"
@@ -433,6 +452,35 @@
      "id": "shn.u1.05"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "shn.d1",
+     "q": {
+      "en": "You are Suhenphaa. The Kacharis have beaten you at Dampuk on the Dikhou. What do you do?",
+      "as": "তুমি চুহেনফা। দিখৌৰ পাৰৰ দামপুকত কছাৰীয়ে তোমাক হৰুৱাইছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Attack again at once",
+       "as": "লগে লগে পুনৰ আক্ৰমণ"
+      },
+      {
+       "en": "Ask for peace, with a princess as bride",
+       "as": "এগৰাকী ৰাজকুমাৰী দি শান্তি বিচৰা"
+      },
+      {
+       "en": "Abandon the Dikhou land",
+       "as": "দিখৌৰ মাটি এৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The Ahoms asked for peace and sent a princess to the Kachari king.",
+      "as": "আহোমে শান্তি বিচাৰিলে আৰু কছাৰী ৰজালৈ এগৰাকী ৰাজকুমাৰী পঠালে।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "title": {
       "en": "Peace at a price",
@@ -599,6 +647,38 @@
     }
    ],
    "steps": [
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "shn.g1",
+     "q": {
+      "en": "What do you think the Tairungban men had done to be punished?",
+      "as": "তোমাৰ অনুমানত তাইৰুংবান মানুহে কি কৰাৰ বাবে শাস্তি পাইছিল?"
+     },
+     "options": [
+      {
+       "en": "Stolen paddy from the royal granary",
+       "as": "ৰাজভঁৰালৰ ধান চুৰি"
+      },
+      {
+       "en": "Insulted the queen",
+       "as": "ৰাণীক অপমান"
+      },
+      {
+       "en": "Lost a battle",
+       "as": "যুদ্ধত হৰা"
+      },
+      {
+       "en": "Refused to pay tax",
+       "as": "কৰ দিবলৈ অস্বীকাৰ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "They had stolen paddy from the royal granary, and wanted revenge for their punishment.",
+      "as": "তেওঁলোকে ৰাজভঁৰালৰ ধান চুৰি কৰিছিল, আৰু শাস্তিৰ প্ৰতিশোধ বিচাৰিছিল।"
+     }
+    },
     {
      "type": "story",
      "title": {
@@ -824,6 +904,25 @@
       "as": "১৪৯৩।"
      },
      "id": "shn3.u3.02"
+    },
+    {
+     "type": "story",
+     "id": "shn.next",
+     "title": {
+      "en": "The trail leads high",
+      "as": "সন্ধান ওপৰলৈ যায়"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: they had stolen <mark>paddy</mark> from the royal granary.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁলোকে ৰাজভঁৰালৰ <mark>ধান</mark> চুৰি কৰিছিল।"
+      },
+      {
+       "en": "Next, his son sets out to punish the killers, and finds the trail leads very high...",
+       "as": "পিছলৈ, তেওঁৰ পুত্ৰই হত্যাকাৰীক শাস্তি দিবলৈ ওলায়, আৰু দেখে সন্ধানে বহু ওপৰলৈ লৈ যায়..."
+      }
+     ]
     }
    ]
   }

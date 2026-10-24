@@ -160,6 +160,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "gds.hook",
+     "title": {
+      "en": "A farmer becomes king",
+      "as": "খেতিয়ক হ'ল ৰজা"
+     },
+     "img": "gadadhar-rises.webp",
+     "text": [
+      {
+       "en": "For years a prince lived as a farmer in a Garo woman's house. Then, in 1681, he walked into the capital as king.",
+       "as": "বছৰ বছৰ ধৰি এজন কোঁৱৰ এগৰাকী গাৰো মহিলাৰ ঘৰত খেতিয়ক হৈ থাকিল। তাৰ পিছত ১৬৮১ চনত ৰজা হৈ ৰাজধানীত সোমাল।"
+      },
+      {
+       "en": "What would a king who had been hunted do with power?",
+       "as": "খেদা খোৱা এজন ৰজাই ক্ষমতা পাই কি কৰিব?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "gadadhar-rises.webp",
      "title": {
       "en": "The farmer becomes king",
@@ -365,6 +384,38 @@
        "en": "From hiding to the throne.",
        "as": "লুকাই থকাৰ পৰা সিংহাসনলৈ।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "gds.g1",
+     "q": {
+      "en": "Guwahati had been handed to the Mughals in 1679. What do you think Gadadhar did about it?",
+      "as": "১৬৭৯ চনত গুৱাহাটী মোগলক দিয়া হৈছিল। তোমাৰ অনুমানত গদাধৰে কি কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Left it to them",
+       "as": "সিহঁতকে এৰি দিলে"
+      },
+      {
+       "en": "Sent an army to take it back",
+       "as": "ঘূৰাই আনিবলৈ সৈন্য পঠালে"
+      },
+      {
+       "en": "Bought it back",
+       "as": "কিনি আনিলে"
+      },
+      {
+       "en": "Moved his capital there",
+       "as": "তালৈ ৰাজধানী নিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "His first act: an army to Guwahati. At Itakhuli in 1682 the Mughals were driven out for good.",
+      "as": "তেওঁৰ প্ৰথম কাম: গুৱাহাটীলৈ সৈন্য। ১৬৮২ চনত ইটাখুলিত মোগলক চিৰদিনৰ বাবে খেদা হ'ল।"
      }
     },
     {
@@ -644,6 +695,35 @@
       }
      ],
      "id": "gds.u3.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "gds.d1",
+     "q": {
+      "en": "You are Gadadhar. Gosains claim their disciples need not fight or work, and some refused you shelter. What do you do?",
+      "as": "তুমি গদাধৰ। গোঁসাইসকলে কয় তেওঁলোকৰ শিষ্যই যুঁজিব বা কাম কৰিব নালাগে, আৰু কিছুমানে তোমাক আশ্ৰয় দিয়া নাছিল। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Leave them alone",
+       "as": "এৰি দিয়া"
+      },
+      {
+       "en": "Crack down hard",
+       "as": "কঠোৰ দমন"
+      },
+      {
+       "en": "Make them ministers",
+       "as": "মন্ত্ৰী পতা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He launched a harsh persecution, until no one was safe, then stopped it.",
+      "as": "তেওঁ কঠোৰ নিৰ্যাতন চলালে, কোনো নিৰাপদ নোহোৱালৈকে; তাৰ পিছত বন্ধ কৰিলে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -1183,6 +1263,25 @@
       "as": "নিৰ্যাতনৰ আগত।"
      },
      "id": "gds.u5.06"
+    },
+    {
+     "type": "story",
+     "id": "gds.next",
+     "title": {
+      "en": "Joymoti's son",
+      "as": "জয়মতীৰ পুত্ৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: he crushed the nobles, won <mark>Guwahati</mark> back for good, and measured the land.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁ বিষয়াক দমন কৰিলে, <mark>গুৱাহাটী</mark> চিৰদিনৰ বাবে ঘূৰাই আনিলে, আৰু মাটি জুখালে।"
+      },
+      {
+       "en": "His son by Joymoti would build a city of brick...",
+       "as": "জয়মতীৰ গৰ্ভৰ তেওঁৰ পুত্ৰই ইটাৰ নগৰ সাজিব..."
+      }
+     ]
     }
    ]
   }

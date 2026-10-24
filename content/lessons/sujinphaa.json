@@ -137,6 +137,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "sjn.hook",
+     "title": {
+      "en": "Cannon at the gates",
+      "as": "দুৱাৰত কামান"
+     },
+     "img": "sujinphaa-installed.webp",
+     "text": [
+      {
+       "en": "A new king lined the streets with soldiers, put cannon at his gates and made every officer swear loyalty, twice.",
+       "as": "নতুন ৰজাই ৰাস্তাত সৈন্য ৰাখিলে, দুৱাৰত কামান বহুৱালে আৰু প্ৰতিজন বিষয়াক দুবাৰকৈ আনুগত্যৰ শপত খুৱালে।"
+      },
+      {
+       "en": "Was that enough to save him?",
+       "as": "সেয়া তেওঁক ৰক্ষা কৰিবলৈ যথেষ্ট আছিল নে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "sujinphaa-installed.webp",
      "title": {
       "en": "Seven days of joy",
@@ -344,6 +363,35 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "sjn.d1",
+     "q": {
+      "en": "Armed men surround your palace at night. You are the king. What do you do?",
+      "as": "নিশা সশস্ত্ৰ লোকে তোমাৰ ৰাজপ্ৰসাদ ঘেৰিছে। তুমি ৰজা। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Hide",
+       "as": "লুকোৱা"
+      },
+      {
+       "en": "Rush out, sword in hand",
+       "as": "তৰোৱাল লৈ ওলাই যোৱা"
+      },
+      {
+       "en": "Surrender",
+       "as": "আত্মসমৰ্পণ"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Sujinphaa rushed out sword in hand and drove them off.",
+      "as": "চুজিনফাই তৰোৱাল লৈ ওলাই আহি তেওঁলোকক খেদিলে।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "court-rift.webp",
      "title": {
@@ -361,6 +409,30 @@
       }
      ],
      "id": "sjn.u2.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "sjn.g1",
+     "q": {
+      "en": "The Burhagohain escaped and raised rebels. Do you think the royal army stayed loyal?",
+      "as": "বুঢ়াগোহাঁই পলাই বিদ্ৰোহী গোটালে। তোমাৰ অনুমানত ৰাজকীয় সৈন্য বিশ্বাসী হৈ থাকিল নে?"
+     },
+     "options": [
+      {
+       "en": "Yes, and it won",
+       "as": "হয়, আৰু জিকিল"
+      },
+      {
+       "en": "No, it turned against the king",
+       "as": "নাই, ৰজাৰ বিৰুদ্ধে গ'ল"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Even the royal army turned against him. He was seized and killed in 1677.",
+      "as": "ৰাজকীয় সৈন্যও তেওঁৰ বিৰুদ্ধে গ'ল। ১৬৭৭ চনত তেওঁক ধৰি হত্যা কৰা হ'ল।"
+     }
     },
     {
      "type": "story",
@@ -474,6 +546,25 @@
       "as": "দেবেৰা আগতেই নিহত (১৬৭৫)। বুঢ়াগোহাঁইয়ে চুজিনফাক আঁতৰাইছিল।"
      },
      "id": "sjn.u2.06"
+    },
+    {
+     "type": "story",
+     "id": "sjn.next",
+     "title": {
+      "en": "Oaths make enemies",
+      "as": "শপতে শত্ৰু বঢ়ায়"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: no. The oaths made enemies, and in 1677 he was <mark>blinded and killed</mark>.",
+       "as": "ৰহস্যৰ সমাধান: নাছিল। শপতে শত্ৰু বঢ়ালে, আৰু ১৬৭৭ চনত তেওঁক <mark>অন্ধ কৰি হত্যা</mark> কৰা হ'ল।"
+      },
+      {
+       "en": "The next king would be chosen by the very man who toppled him...",
+       "as": "পিছৰ ৰজাক বাছিব তেওঁক পেলোৱা মানুহজনেই..."
+      }
+     ]
     }
    ]
   }

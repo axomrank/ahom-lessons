@@ -135,6 +135,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "gbr.hook",
+     "title": {
+      "en": "The shortest reign",
+      "as": "আটাইতকৈ চুটি ৰাজত্ব"
+     },
+     "img": "gobar-crowned.webp",
+     "text": [
+      {
+       "en": "This king ruled for about 24 days, the shortest Ahom reign of all.",
+       "as": "এই ৰজাই প্ৰায় ২৪ দিন ৰাজত্ব কৰিলে, আটাইতকৈ চুটি আহোম ৰাজত্ব।"
+      },
+      {
+       "en": "Yet his family would rule Assam until the very end. How?",
+       "as": "তথাপি তেওঁৰ বংশই একেবাৰে শেষলৈকে অসম শাসন কৰিব। কেনেকৈ?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "gobar-crowned.webp",
      "title": {
       "en": "The last puppet",
@@ -340,6 +359,38 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "gbr.g1",
+     "q": {
+      "en": "Gobar was put to death. What do you think happened to his son Gadapani?",
+      "as": "গোবৰক প্ৰাণদণ্ড দিয়া হ'ল। তোমাৰ অনুমানত তেওঁৰ পুত্ৰ গদাপাণিৰ কি হ'ল?"
+     },
+     "options": [
+      {
+       "en": "Killed too",
+       "as": "তেওঁকো হত্যা"
+      },
+      {
+       "en": "He escaped",
+       "as": "পলাই ৰক্ষা পৰিল"
+      },
+      {
+       "en": "Became a monk",
+       "as": "সন্ন্যাসী হ'ল"
+      },
+      {
+       "en": "Went to the Mughals",
+       "as": "মোগলৰ ওচৰলৈ গ'ল"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Gadapani escaped, and in 1681 became Gadadhar Singha.",
+      "as": "গদাপাণি পলাই ৰক্ষা পৰিল, আৰু ১৬৮১ চনত গদাধৰ সিংহ হ'ল।"
+     }
+    },
+    {
      "type": "story",
      "art": "scroll",
      "title": {
@@ -522,6 +573,25 @@
       "as": "গোবৰ গদাধৰ সিংহৰ পিতৃ।"
      },
      "id": "gbr.u2.06"
+    },
+    {
+     "type": "story",
+     "id": "gbr.next",
+     "title": {
+      "en": "A seed survives",
+      "as": "বীজ ৰক্ষা পৰিল"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: his son <mark>Gadapani</mark> escaped, and would found the Tungkhungia line.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁৰ পুত্ৰ <mark>গদাপাণি</mark> পলাই ৰক্ষা পৰিল, আৰু তুংখুঙীয়া বংশ প্ৰতিষ্ঠা কৰিব।"
+      },
+      {
+       "en": "But first, more kings would rise and fall...",
+       "as": "কিন্তু তাৰ আগতে আৰু কেইজনমান ৰজাৰ উত্থান-পতন হ'ব..."
+      }
+     ]
     }
    ]
   }

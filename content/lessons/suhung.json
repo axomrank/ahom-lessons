@@ -137,6 +137,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "shg.hook",
+     "title": {
+      "en": "Twenty-one days",
+      "as": "একৈশ দিন"
+     },
+     "img": "samaguria.webp",
+     "text": [
+      {
+       "en": "A prince was crowned with great show. Three weeks later he was dead.",
+       "as": "এজন কোঁৱৰক বৰ আড়ম্বৰেৰে ৰজা পতা হ'ল। তিনি সপ্তাহ পিছত তেওঁ মৃত।"
+      },
+      {
+       "en": "What did he do wrong?",
+       "as": "তেওঁ কি ভুল কৰিছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "samaguria.webp",
      "title": {
       "en": "A puppet king",
@@ -215,6 +234,38 @@
       "as": "সমগুৰীয়া ৰজা, সমগুৰিৰ পৰা।"
      },
      "id": "shg.u1.03"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "shg.g1",
+     "q": {
+      "en": "Suhung realised Debera controlled him. What do you think he tried to do?",
+      "as": "চুহুঙে বুজিলে দেবেৰাই তেওঁক চলাইছে। তোমাৰ অনুমানত তেওঁ কি কৰিবলৈ চেষ্টা কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Flee",
+       "as": "পলাবলৈ"
+      },
+      {
+       "en": "Kill Debera",
+       "as": "দেবেৰাক হত্যা কৰিবলৈ"
+      },
+      {
+       "en": "Give up the throne",
+       "as": "সিংহাসন এৰিবলৈ"
+      },
+      {
+       "en": "Make Debera king",
+       "as": "দেবেৰাক ৰজা পাতিবলৈ"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He planned to kill Debera, but a servant warned him.",
+      "as": "তেওঁ দেবেৰাক হত্যাৰ পৰিকল্পনা কৰিলে, কিন্তু এজন দাসে সতৰ্ক কৰি দিলে।"
+     }
     },
     {
      "type": "story",
@@ -496,6 +547,25 @@
       "as": "নামতহে ৰজা।"
      },
      "id": "shg.u2.06"
+    },
+    {
+     "type": "story",
+     "id": "shg.next",
+     "title": {
+      "en": "An even shorter reign",
+      "as": "আৰু চুটি ৰাজত্ব"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: he plotted against <mark>Debera</mark>, and a servant gave him away.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁ <mark>দেবেৰা</mark>ৰ বিৰুদ্ধে ষড়যন্ত্ৰ কৰিলে, আৰু এজন দাসে কথা ফাদিলে।"
+      },
+      {
+       "en": "Debera's next puppet would reign even less, but his son would end the whole age...",
+       "as": "দেবেৰাৰ পিছৰ পুতলাৰ ৰাজত্ব আৰু চুটি, কিন্তু তেওঁৰ পুত্ৰই গোটেই যুগটোৰ অন্ত পেলাব..."
+      }
+     ]
     }
    ]
   }

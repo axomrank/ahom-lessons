@@ -144,6 +144,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "ck2.hook",
+     "title": {
+      "en": "A king with a slit ear",
+      "as": "কাণ কটা ৰজা"
+     },
+     "img": "restored.webp",
+     "text": [
+      {
+       "en": "His ear had been slit so that he could never rule again. Yet a foreign army put him back on the throne.",
+       "as": "আৰু কেতিয়াও শাসন কৰিব নোৱাৰাকৈ তেওঁৰ কাণ কটা হৈছিল। তথাপি বিদেশী সৈন্যই তেওঁক পুনৰ সিংহাসনত বহুৱালে।"
+      },
+      {
+       "en": "Why would the Burmese want him, and would he stay their puppet?",
+       "as": "মানে তেওঁক কিয় বিচাৰিলে, আৰু তেওঁ পুতলা হৈয়েই থাকিল নে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "restored.webp",
      "title": {
       "en": "Back on the throne",
@@ -182,6 +201,38 @@
       "as": "অশুদ্ধ। তেওঁ পুতলা আছিল।"
      },
      "id": "ck2.u1.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "ck2.g1",
+     "q": {
+      "en": "The Burmese killed Chandrakanta's Borbarua without even asking him. What do you think he did?",
+      "as": "মানে চন্দ্ৰকান্তক নোসোধাকৈয়ে তেওঁৰ বৰবৰুৱাক হত্যা কৰিলে। তোমাৰ অনুমানত তেওঁ কি কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Obeyed quietly",
+       "as": "নীৰৱে মানি ল'লে"
+      },
+      {
+       "en": "Fled to British territory",
+       "as": "ব্ৰিটিছ এলেকালৈ পলাল"
+      },
+      {
+       "en": "Attacked them at once",
+       "as": "লগে লগে আক্ৰমণ"
+      },
+      {
+       "en": "Gave up the throne",
+       "as": "সিংহাসন এৰিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Fearing he was next, he fled in April 1821.",
+      "as": "পিছৰ পাল তেওঁৰ বুলি ভয় খাই ১৮২১ চনৰ এপ্ৰিলত পলাল।"
+     }
     },
     {
      "type": "story",
@@ -316,6 +367,35 @@
        "as": "সুতাৰে বন্ধা ৰজা।"
       }
      }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "ck2.d1",
+     "q": {
+      "en": "You are Chandrakanta, a king in exile with no army. What do you do?",
+      "as": "তুমি চন্দ্ৰকান্ত, সৈন্যহীন নিৰ্বাসিত ৰজা। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Retire quietly",
+       "as": "নীৰৱে অৱসৰ লোৱা"
+      },
+      {
+       "en": "Hire soldiers and fight back",
+       "as": "সৈন্য ভাৰা কৰি প্ৰতিৰোধ"
+      },
+      {
+       "en": "Beg the Burmese to forgive you",
+       "as": "মানৰ ওচৰত ক্ষমা খোজা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He hired Sikh and Hindustani troops, got muskets, and retook Guwahati.",
+      "as": "তেওঁ শিখ আৰু হিন্দুস্থানী সৈন্য ভাৰা কৰিলে, বন্দুক পালে, আৰু গুৱাহাটী পুনৰ ল'লে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -632,6 +712,25 @@
       "as": "মহাবান্দুলা।"
      },
      "id": "ck2.u3.06"
+    },
+    {
+     "type": "story",
+     "id": "ck2.next",
+     "title": {
+      "en": "The darkest years",
+      "as": "আটাইতকৈ আন্ধাৰ বছৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: a weak king suited the <mark>Burmese</mark>, but he broke free and fought bravely until Mahgarh.",
+       "as": "ৰহস্যৰ সমাধান: দুৰ্বল ৰজা <mark>মান</mark>ৰ বাবে সুবিধাজনক, কিন্তু তেওঁ মুক্ত হৈ মহগড়লৈকে সাহসেৰে যুঁজিলে।"
+      },
+      {
+       "en": "Now Assam had a puppet king, and its darkest years...",
+       "as": "এতিয়া অসমৰ এজন পুতলা ৰজা, আৰু আটাইতকৈ আন্ধাৰ বছৰ..."
+      }
+     ]
     }
    ]
   }

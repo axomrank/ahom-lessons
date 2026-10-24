@@ -209,6 +209,54 @@
    "steps": [
     {
      "type": "story",
+     "id": "skl.hook",
+     "title": {
+      "en": "Can he clear his name?",
+      "as": "নাম নিৰ্মল কৰিব পাৰিব নে?"
+     },
+     "img": "accession.webp",
+     "text": [
+      {
+       "en": "A new king was suspected of killing his own father. He had to clear his name, build a capital, and face the strongest army in the west.",
+       "as": "নতুন ৰজাৰ ওপৰত নিজৰ পিতৃক হত্যাৰ সন্দেহ। তেওঁ নাম নিৰ্মল কৰিব লাগিব, ৰাজধানী সাজিব লাগিব, আৰু পশ্চিমৰ শক্তিশালী সৈন্যৰ মুখামুখি হ'ব লাগিব।"
+      },
+      {
+       "en": "Could he do all three?",
+       "as": "তিনিওটা কৰিব পাৰিলে নে?"
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "skl.d1",
+     "q": {
+      "en": "You are Suklenmung. People whisper that you killed your father. What do you do?",
+      "as": "তুমি চুক্লেনমুং। মানুহে ফুচফুচাইছে তুমি পিতৃক হত্যা কৰিলা। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Ignore it",
+       "as": "উপেক্ষা কৰা"
+      },
+      {
+       "en": "Punish the assassin's family",
+       "as": "হত্যাকাৰীৰ পৰিয়ালক শাস্তি দিয়া"
+      },
+      {
+       "en": "Give up the throne",
+       "as": "সিংহাসন এৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He had all the assassin's brothers put to death, to clear his name.",
+      "as": "নাম নিৰ্মল কৰিবলৈ তেওঁ হত্যাকাৰীৰ সকলো ভাইক প্ৰাণদণ্ড দিলে।"
+     },
+     "decide": true
+    },
+    {
+     "type": "story",
      "img": "accession.webp",
      "title": {
       "en": "A son on the throne",
@@ -553,6 +601,38 @@
       "as": "চিলাৰায় (শুক্লধ্বজ); চিলাৰ দৰে বেগৰ বাবে এই নাম বুলি কোৱা হয়।"
      },
      "id": "skl.u2.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "skl.g1",
+     "q": {
+      "en": "The Koches had beaten the Ahoms again and again. How do you think Suklenmung turned the war?",
+      "as": "কোচে বাৰে বাৰে আহোমক হৰুৱাইছিল। তোমাৰ অনুমানত চুক্লেনমুঙে যুদ্ধ কেনেকৈ ঘূৰালে?"
+     },
+     "options": [
+      {
+       "en": "Dug in and cut their supply line",
+       "as": "দুৰ্গ বান্ধি যোগান কাটি দিলে"
+      },
+      {
+       "en": "Paid them off",
+       "as": "ধন দিলে"
+      },
+      {
+       "en": "Asked the Mughals for help",
+       "as": "মোগলৰ সহায় ল'লে"
+      },
+      {
+       "en": "Moved the capital",
+       "as": "ৰাজধানী সলালে"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "In 1547 he dug in on the Pichala river and cut the Koch supply line; their attack was routed.",
+      "as": "১৫৪৭ চনত তেওঁ পিচলা নদীত দুৰ্গ বান্ধি কোচৰ যোগান কাটিলে; তেওঁলোকৰ আক্ৰমণ ব্যৰ্থ হ'ল।"
+     }
     },
     {
      "type": "story",
@@ -1165,6 +1245,25 @@
       "as": "চুক্লেনমুং, গড়গঞা ৰজা (১৫৩৯–১৫৫২)।"
      },
      "id": "skl.u4.07"
+    },
+    {
+     "type": "story",
+     "id": "skl.next",
+     "title": {
+      "en": "The general returns",
+      "as": "সেনাপতিৰ পুনৰাগমন"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: he cleared his name harshly, built <mark>Garhgaon</mark> and beat the Koches.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁ কঠোৰভাৱে নাম নিৰ্মল কৰিলে, <mark>গড়গাঁও</mark> সাজিলে আৰু কোচক হৰুৱালে।"
+      },
+      {
+       "en": "But the Koches would return under Chilarai, and his son would lose the capital itself...",
+       "as": "কিন্তু চিলাৰায়ৰ নেতৃত্বত কোচ পুনৰ আহিব, আৰু তেওঁৰ পুত্ৰই ৰাজধানীয়েই হেৰুৱাব..."
+      }
+     ]
     }
    ]
   }

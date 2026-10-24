@@ -205,6 +205,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "sut.hook",
+     "title": {
+      "en": "Roosters before dawn",
+      "as": "ৰাতিপুৱাৰ আগতে কুকুৰা"
+     },
+     "img": "charaideo-sunset.webp",
+     "text": [
+      {
+       "en": "On a full-moon night, roosters crowed hours before dawn. Because of them, a whole people gave up their land.",
+       "as": "এক পূৰ্ণিমাৰ ৰাতি ৰাতিপুৱাৰ বহু আগতে কুকুৰাই ডাক দিলে। সেই ডাকৰ বাবেই এটা জাতিয়ে নিজৰ মাটি এৰি দিলে।"
+      },
+      {
+       "en": "Who made the roosters crow, and how can a bird move a border?",
+       "as": "কুকুৰাক কোনে ডাক দিয়ালে, আৰু এটা চৰাইয়ে কেনেকৈ সীমা সলনি কৰে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "suteuphaa-court.webp",
      "title": {
       "en": "The second king",
@@ -961,6 +980,38 @@
      "id": "sut.u3.01"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "sut.g1",
+     "q": {
+      "en": "The Kacharis had one night to dig a canal to the Dikhou. How do you think the Ahoms made them fail?",
+      "as": "কছাৰীসকলে এৰাতিৰ ভিতৰত দিখৌলৈ খাল খান্দিব লাগিছিল। তোমাৰ অনুমানত আহোমে কেনেকৈ তেওঁলোকক বিফল কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Attacked them in the dark",
+       "as": "আন্ধাৰত আক্ৰমণ"
+      },
+      {
+       "en": "Made the roosters crow early",
+       "as": "কুকুৰাক আগতীয়াকৈ ডাক দিয়ালে"
+      },
+      {
+       "en": "Flooded the canal",
+       "as": "খাল বুৰাই দিলে"
+      },
+      {
+       "en": "Bribed the diggers",
+       "as": "খন্দাসকলক ভেটি দিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Hidden soldiers made the roosters crow, and the Kacharis thought morning had come. It is a legend; the real result was the Dikhou border.",
+      "as": "লুকাই থকা সৈন্যই কুকুৰাক ডাক দিয়ালে, কছাৰীয়ে ভাবিলে ৰাতিপুৱা হ'ল। এয়া কিংবদন্তি; প্ৰকৃত ফল আছিল দিখৌ সীমা।"
+     }
+    },
+    {
      "type": "story",
      "art": "rooster",
      "title": {
@@ -1234,6 +1285,35 @@
       "as": "শুদ্ধ, গেইটৰ মতে। দ্বিতীয় সেনাপতি বৰগোহাঁইয়ে যুঁজৰ সলনি চুক্তি কৰিছিল।"
      },
      "id": "sut2.u4.04"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "sut.d1",
+     "q": {
+      "en": "You are the Borgohain, sent against the Naras after the first army was beaten. What do you do?",
+      "as": "তুমি বৰগোহাঁই; প্ৰথম সৈন্য হৰাৰ পিছত তোমাক নৰাৰ বিৰুদ্ধে পঠোৱা হৈছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Attack at once",
+       "as": "লগে লগে আক্ৰমণ"
+      },
+      {
+       "en": "Make a deal with the enemy",
+       "as": "শত্ৰুৰ সৈতে বুজাবুজি"
+      },
+      {
+       "en": "March home",
+       "as": "ঘৰলৈ উভতি অহা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He made a deal instead of fighting. He was imprisoned for it, and later pardoned.",
+      "as": "তেওঁ যুঁজৰ সলনি বুজাবুজি কৰিলে। তাৰ বাবে বন্দী হ'ল, পিছত ক্ষমা পালে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -1728,6 +1808,25 @@
       "as": "চাৰিটা যোৰাত গোটেই ৰাজত্বকাল।"
      },
      "id": "sut2.u5.06"
+    },
+    {
+     "type": "story",
+     "id": "sut.next",
+     "title": {
+      "en": "A border on the Dikhou",
+      "as": "দিখৌত সীমা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: Ahom soldiers made the roosters crow, and the land east of the <mark>Dikhou</mark> became Ahom.",
+       "as": "ৰহস্যৰ সমাধান: আহোম সৈন্যই কুকুৰাক ডাক দিয়াইছিল, আৰু <mark>দিখৌ</mark>ৰ পূবৰ মাটি আহোমৰ হ'ল।"
+      },
+      {
+       "en": "Next, a quiet king does one thing that shapes Ahom power for centuries: he splits his people in two.",
+       "as": "পিছলৈ, এজন শান্ত ৰজাই এনে এটা কাম কৰিব যিয়ে শতিকাজুৰি আহোম ক্ষমতা গঢ়িব: তেওঁ নিজৰ প্ৰজাক দুভাগ কৰিব।"
+      }
+     ]
     }
    ]
   }

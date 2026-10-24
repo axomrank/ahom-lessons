@@ -136,6 +136,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "spk.hook",
+     "title": {
+      "en": "One fact to remember",
+      "as": "মনত ৰাখিবলগীয়া এটা তথ্য"
+     },
+     "img": "suphakphaa-court.webp",
+     "text": [
+      {
+       "en": "This king ruled 17 quiet years. Exams remember him for one thing, and it is not about him at all.",
+       "as": "এই ৰজাই ১৭ বছৰ শান্তিৰে ৰাজত্ব কৰিলে। পৰীক্ষাই তেওঁক এটা কথাৰ বাবে মনত ৰাখে, আৰু সেয়া তেওঁৰ বিষয়েই নহয়।"
+      },
+      {
+       "en": "It is about the mother of his son. Who was she?",
+       "as": "সেয়া তেওঁৰ পুত্ৰৰ মাতৃৰ বিষয়ে। তেওঁ কোন আছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The tenth king",
       "as": "দশম ৰজা"
@@ -164,6 +183,38 @@
        "en": "His father Sujangphaa's reign was quiet too.",
        "as": "তেওঁৰ পিতৃ চুজাংফাৰ ৰাজত্বকালো শান্ত আছিল।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "spk.g1",
+     "q": {
+      "en": "Where do you think the mother of Suphakphaa's heir came from?",
+      "as": "তোমাৰ অনুমানত চুফাকফাৰ উত্তৰাধিকাৰীৰ মাতৃ ক'ৰ আছিল?"
+     },
+     "options": [
+      {
+       "en": "Tipam",
+       "as": "তিপাম"
+      },
+      {
+       "en": "Kamata",
+       "as": "কমতা"
+      },
+      {
+       "en": "Mong Mao",
+       "as": "মং মাও"
+      },
+      {
+       "en": "Manipur",
+       "as": "মণিপুৰ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A Tipam princess: marrying Tipam's daughters kept its proud chiefs loyal.",
+      "as": "তিপামৰ এগৰাকী ৰাজকুমাৰী: তিপামৰ জীয়ৰী বিয়া কৰালে তাৰ গৰ্বী মুখীয়াল বিশ্বাসী হৈ থাকে।"
      }
     },
     {
@@ -642,6 +693,25 @@
       "as": "চুফাকফা।"
      },
      "id": "spk3.u2.01"
+    },
+    {
+     "type": "story",
+     "id": "spk.next",
+     "title": {
+      "en": "A son for 49 years",
+      "as": "৪৯ বছৰৰ পুত্ৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: his son Susenphaa was born to a <mark>Tipam princess</mark>.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁৰ পুত্ৰ চুচেনফাৰ মাতৃ <mark>তিপামৰ ৰাজকুমাৰী</mark>।"
+      },
+      {
+       "en": "That son would rule for 49 years, one of the longest reigns of all...",
+       "as": "সেই পুত্ৰই ৪৯ বছৰ ৰাজত্ব কৰিব, আটাইতকৈ দীঘলীয়া ৰাজত্বৰ এটা..."
+      }
+     ]
     }
    ]
   }

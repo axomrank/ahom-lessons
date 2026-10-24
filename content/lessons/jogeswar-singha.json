@@ -155,6 +155,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "jgs.hook",
+     "title": {
+      "en": "The darkest years",
+      "as": "আটাইতকৈ আন্ধাৰ বছৰ"
+     },
+     "img": "manor-din.webp",
+     "text": [
+      {
+       "en": "People in Assam still speak of a time when villages burned and families fled to the hills.",
+       "as": "অসমৰ মানুহে আজিও এনে এক সময়ৰ কথা কয়, যেতিয়া গাঁও জ্বলিছিল আৰু পৰিয়ালবোৰ পাহাৰলৈ পলাইছিল।"
+      },
+      {
+       "en": "What were the 'Manor Din', and how did they end?",
+       "as": "'মানৰ দিন' কি আছিল, আৰু কেনেকৈ শেষ হ'ল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "manor-din.webp",
      "title": {
       "en": "A king with no power",
@@ -331,6 +350,38 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "jgs.g1",
+     "q": {
+      "en": "Who do you think finally drove the Burmese out of Assam?",
+      "as": "তোমাৰ অনুমানত শেষত মানক অসমৰ পৰা কোনে খেদিলে?"
+     },
+     "options": [
+      {
+       "en": "The Ahom army",
+       "as": "আহোম সৈন্য"
+      },
+      {
+       "en": "The British East India Company",
+       "as": "ব্ৰিটিছ ইষ্ট ইণ্ডিয়া কোম্পানী"
+      },
+      {
+       "en": "Manipur",
+       "as": "মণিপুৰ"
+      },
+      {
+       "en": "The Mughals",
+       "as": "মোগল"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The British, in the First Anglo-Burmese War of 1824–26.",
+      "as": "ব্ৰিটিছে, ১৮২৪–২৬ৰ প্ৰথম ইংগ-বৰ্মী যুদ্ধত।"
+     }
+    },
+    {
      "type": "story",
      "img": "war.webp",
      "title": {
@@ -472,6 +523,25 @@
       "as": "মনত ৰাখা যো-যু-ৰং-ই: ২১, ২৪, ২৫, ২৬।"
      },
      "id": "jgs.u2.07"
+    },
+    {
+     "type": "story",
+     "id": "jgs.next",
+     "title": {
+      "en": "New masters",
+      "as": "নতুন প্ৰভু"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the days of Burmese rule, ended by the British and the <mark>Treaty of Yandabo</mark>.",
+       "as": "ৰহস্যৰ সমাধান: মানৰ শাসনৰ দিন, যাৰ অন্ত পেলালে ব্ৰিটিছে আৰু <mark>ইয়াণ্ডাবু সন্ধি</mark>য়ে।"
+      },
+      {
+       "en": "But the new masters had their own plans for the last Ahom king...",
+       "as": "কিন্তু নতুন প্ৰভুৰ শেষ আহোম ৰজাক লৈ নিজৰ পৰিকল্পনা আছিল..."
+      }
+     ]
     }
    ]
   }

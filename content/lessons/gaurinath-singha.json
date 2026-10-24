@@ -159,6 +159,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "gnt.hook",
+     "title": {
+      "en": "Torches on a Bihu night",
+      "as": "বিহুৰ ৰাতিৰ জোৰ"
+     },
+     "img": "bihu-ambush.webp",
+     "text": [
+      {
+       "en": "In April 1782 the new king was coming home late. Men with torches joined his party to light the way.",
+       "as": "১৭৮২ চনৰ এপ্ৰিলত নতুন ৰজা পলমকৈ ঘৰলৈ উভতিছিল। জোৰ হাতত কিছুমান মানুহে বাট পোহৰাবলৈ তেওঁৰ দলত যোগ দিলে।"
+      },
+      {
+       "en": "They were not servants. Who were they, and what would the king do next?",
+       "as": "তেওঁলোক দাস নাছিল। তেওঁলোক কোন, আৰু ৰজাই তাৰ পিছত কি কৰিব?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "rangpur-falls.webp",
      "title": {
       "en": "The new king",
@@ -381,6 +400,35 @@
      "id": "gnt.u2.02"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "gnt.d1",
+     "q": {
+      "en": "You are the Burhagohain. The rebels are coming and the king wants to flee. What do you do?",
+      "as": "তুমি বুঢ়াগোহাঁই। বিদ্ৰোহী আহি আছে আৰু ৰজাই পলাব বিচাৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Flee with the king",
+       "as": "ৰজাৰ সৈতে পলোৱা"
+      },
+      {
+       "en": "Stay and fight",
+       "as": "থাকি যুঁজা"
+      },
+      {
+       "en": "Join the rebels",
+       "as": "বিদ্ৰোহীত যোগ দিয়া"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Purnananda stayed behind and fought on for years.",
+      "as": "পূৰ্ণানন্দ থাকি গ'ল আৰু বছৰ বছৰ যুঁজি থাকিল।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "flight.webp",
      "title": {
@@ -553,6 +601,38 @@
        "en": "The king runs.",
        "as": "ৰজা পলায়।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "gnt.g1",
+     "q": {
+      "en": "Even Guwahati was not safe. Whose help do you think finally saved Gaurinath?",
+      "as": "গুৱাহাটীও নিৰাপদ নাছিল। তোমাৰ অনুমানত শেষত কাৰ সহায়ে গৌৰীনাথক ৰক্ষা কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "The Mughals",
+       "as": "মোগল"
+      },
+      {
+       "en": "The British East India Company",
+       "as": "ব্ৰিটিছ ইষ্ট ইণ্ডিয়া কোম্পানী"
+      },
+      {
+       "en": "The Kacharis",
+       "as": "কছাৰী"
+      },
+      {
+       "en": "Burma",
+       "as": "বাৰ্মা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The Kacharis and Jaintias refused, and Manipur's help failed. The British sent Captain Welsh.",
+      "as": "কছাৰী আৰু জয়ন্তীয়াই অস্বীকাৰ কৰিলে, মণিপুৰৰ সহায় বিফল হ'ল। ব্ৰিটিছে কেপ্তেইন ৱেল্‌চক পঠালে।"
      }
     },
     {
@@ -891,6 +971,25 @@
       "as": "যোৰহাট, ১৭৯৪।"
      },
      "id": "gnt.u4.06"
+    },
+    {
+     "type": "story",
+     "id": "gnt.next",
+     "title": {
+      "en": "A minister and a boy",
+      "as": "মন্ত্ৰী আৰু এজন ল'ৰা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: they were <mark>Moamoria rebels</mark>, and the king answered with massacres, flight, and the British.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁলোক <mark>মোৱামৰীয়া বিদ্ৰোহী</mark>, আৰু ৰজাই উত্তৰ দিলে হত্যাকাণ্ড, পলায়ন আৰু ব্ৰিটিছেৰে।"
+      },
+      {
+       "en": "When he died, a minister kept the death secret, and ruled through a boy...",
+       "as": "তেওঁৰ মৃত্যুৰ পিছত এজন মন্ত্ৰীয়ে মৃত্যুৰ খবৰ গোপন ৰাখিলে, আৰু এজন ল'ৰাৰ জৰিয়তে শাসন কৰিলে..."
+      }
+     ]
     }
    ]
   }

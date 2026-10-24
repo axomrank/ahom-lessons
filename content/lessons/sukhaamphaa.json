@@ -219,6 +219,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "skp.hook",
+     "title": {
+      "en": "A kite steals a jewel",
+      "as": "চিলনীয়ে অলংকাৰ নিলে"
+     },
+     "img": "chilarai-garhgaon.webp",
+     "text": [
+      {
+       "en": "While the king bathed, a kite swooped down and flew off with one of his ornaments. Soon after, his capital fell to an enemy.",
+       "as": "ৰজাই গা ধুই থাকোঁতে এটা চিলনীয়ে তেওঁৰ এটা অলংকাৰ লৈ উৰি গ'ল। তাৰ অলপ পিছতে তেওঁৰ ৰাজধানী শত্ৰুৰ হাতত পৰিল।"
+      },
+      {
+       "en": "Who was the enemy, and why did the bird matter?",
+       "as": "শত্ৰু কোন আছিল, আৰু চৰাইটো কিয় গুৰুত্বপূৰ্ণ?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "procession.webp",
      "title": {
       "en": "A hunting accident",
@@ -547,6 +566,38 @@
      "id": "skp.u2.06"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "skp.g1",
+     "q": {
+      "en": "The enemy general's name, Chilarai, means 'king of the kites'. How do you think the court read the bird?",
+      "as": "শত্ৰু সেনাপতি চিলাৰায়ৰ নামৰ অৰ্থ 'চিলনীৰ ৰজা'। তোমাৰ অনুমানত ৰাজসভাই চৰাইটোক কেনেকৈ বুজিলে?"
+     },
+     "options": [
+      {
+       "en": "As good luck",
+       "as": "সৌভাগ্য বুলি"
+      },
+      {
+       "en": "As a sign Chilarai would win",
+       "as": "চিলাৰায় জিকিব বুলি চিন"
+      },
+      {
+       "en": "As a call to pray",
+       "as": "প্ৰাৰ্থনাৰ আহ্বান বুলি"
+      },
+      {
+       "en": "They ignored it",
+       "as": "উপেক্ষা কৰিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It was read as a sign that the 'king of the kites' would win.",
+      "as": "'চিলনীৰ ৰজা' জিকিব বুলি ইয়াক চিন হিচাপে লোৱা হ'ল।"
+     }
+    },
+    {
      "type": "story",
      "art": "scroll",
      "title": {
@@ -662,6 +713,35 @@
     }
    ],
    "steps": [
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "skp.d1",
+     "q": {
+      "en": "You are the king, hiding in Namrup. Chilarai holds Garhgaon. What do you do?",
+      "as": "তুমি ৰজা, নামৰূপত লুকাই আছা। চিলাৰায়ে গড়গাঁও দখল কৰি আছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Fight on",
+       "as": "যুঁজি থকা"
+      },
+      {
+       "en": "Ask for peace, whatever the price",
+       "as": "যিকোনো মূল্যত শান্তি বিচৰা"
+      },
+      {
+       "en": "Abandon the kingdom",
+       "as": "ৰাজ্য এৰি দিয়া"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He sent the Burhagohain to make peace: the hard Treaty of Majuli.",
+      "as": "তেওঁ শান্তিৰ বাবে বুঢ়াগোহাঁইক পঠালে: কঠিন মাজুলী সন্ধি।"
+     },
+     "decide": true
+    },
     {
      "type": "story",
      "img": "treaty-majuli.webp",
@@ -1356,6 +1436,25 @@
       "as": "তিনি পুৰুষ: ককা, পিতৃ, পুত্ৰ।"
      },
      "id": "skp.u5.07"
+    },
+    {
+     "type": "story",
+     "id": "skp.next",
+     "title": {
+      "en": "An empire next door",
+      "as": "চুবুৰীয়া সাম্ৰাজ্য"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the enemy was <mark>Chilarai</mark>, and the kite was read as his sign. Sukhaamphaa won it all back and ruled 51 years.",
+       "as": "ৰহস্যৰ সমাধান: শত্ৰু <mark>চিলাৰায়</mark>, আৰু চিলনী তেওঁৰ চিন। চুখামফাই সকলো ঘূৰাই পালে আৰু ৫১ বছৰ ৰাজত্ব কৰিলে।"
+      },
+      {
+       "en": "His son would face an even greater power: the Mughal empire...",
+       "as": "তেওঁৰ পুত্ৰই আৰু ডাঙৰ শক্তিৰ মুখামুখি হ'ব: মোগল সাম্ৰাজ্য..."
+      }
+     ]
     }
    ]
   }

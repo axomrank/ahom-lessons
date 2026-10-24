@@ -204,6 +204,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "suk.hook",
+     "title": {
+      "en": "Nine thousand people, no map",
+      "as": "ন হাজাৰ মানুহ, মানচিত্ৰ নাই"
+     },
+     "img": "leaving-mong-mao.webp",
+     "text": [
+      {
+       "en": "In 1215 a prince walked away from his kingdom in the hills of Yunnan. About <mark>9,000 people</mark> followed him.",
+       "as": "১২১৫ চনত ইউনানৰ পাহাৰৰ এজন ৰাজকুমাৰে নিজৰ ৰাজ্য এৰি খোজ ল'লে। প্ৰায় <mark>৯,০০০ লোকে</mark> তেওঁক অনুসৰণ কৰিলে।"
+      },
+      {
+       "en": "There was no road and no map. What was he looking for, and did he find it?",
+       "as": "বাট নাছিল, মানচিত্ৰ নাছিল। তেওঁ কি বিচাৰিছিল, আৰু পালে নে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "leaving-mong-mao.webp",
      "title": {
       "en": "A prince leaves home",
@@ -264,6 +283,38 @@
       "as": "তেওঁ চীনৰ ইউনানৰ টাই ৰাজ্য মং মাওৰ পৰা আহিছিল। টাইসকল থাইসকলৰ সম্পৰ্কীয়, সেয়ে এইটো এটা সাধাৰণ ফান্দ।"
      },
      "id": "suk.u1.03"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "suk.g1",
+     "q": {
+      "en": "How long do you think the journey from Mong Mao to Assam took?",
+      "as": "তোমাৰ অনুমানত মং মাওৰ পৰা অসমলৈ যাত্ৰাত কিমান সময় লাগিছিল?"
+     },
+     "options": [
+      {
+       "en": "About a month",
+       "as": "প্ৰায় এমাহ"
+      },
+      {
+       "en": "About a year",
+       "as": "প্ৰায় এবছৰ"
+      },
+      {
+       "en": "About 13 years",
+       "as": "প্ৰায় ১৩ বছৰ"
+      },
+      {
+       "en": "About 50 years",
+       "as": "প্ৰায় ৫০ বছৰ"
+      }
+     ],
+     "answer": 2,
+     "why": {
+      "en": "13 years: from 1215 to 1228, through Upper Burma and over the Patkai.",
+      "as": "১৩ বছৰ: ১২১৫ৰ পৰা ১২২৮ লৈ, উজনি বাৰ্মা হৈ পাটকাই পাৰ হৈ।"
+     }
     },
     {
      "type": "story",
@@ -719,6 +770,35 @@
     }
    ],
    "steps": [
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "suk.d1",
+     "q": {
+      "en": "You are Sukaphaa. The valley already has its own people, the Morans and the Barahis. What do you do?",
+      "as": "তুমি চুকাফা। উপত্যকাত আগৰে পৰা মৰাণ আৰু বৰাহী লোক আছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Drive them out",
+       "as": "তেওঁলোকক খেদি পঠিওৱা"
+      },
+      {
+       "en": "Make them family through marriage",
+       "as": "বিয়াৰে তেওঁলোকক আপোন কৰা"
+      },
+      {
+       "en": "Move on to another valley",
+       "as": "আন উপত্যকালৈ গুচি যোৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He married the daughters of the Moran and Barahi chiefs and made their people part of one kingdom.",
+      "as": "তেওঁ মৰাণ আৰু বৰাহী মুখীয়ালৰ জীয়েকক বিয়া কৰাই তেওঁলোকক এক ৰাজ্যৰ অংশ কৰিলে।"
+     },
+     "decide": true
+    },
     {
      "type": "story",
      "img": "marriage-alliance.webp",
@@ -1675,6 +1755,25 @@
       "as": "২ ডিচেম্বৰ আৰু ২৪ নৱেম্বৰ পৰীক্ষাত প্ৰায়ে একেলগে আহে। দুয়োটা পৃথককৈ মনত ৰাখা।"
      },
      "id": "suk.u6.07"
+    },
+    {
+     "type": "story",
+     "id": "suk.next",
+     "title": {
+      "en": "The home he found",
+      "as": "বিচাৰি পোৱা ঘৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: he was <mark>Sukaphaa</mark>, and he found his home in the Brahmaputra valley, with a capital at Charaideo.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁ <mark>চুকাফা</mark>, আৰু ব্ৰহ্মপুত্ৰ উপত্যকাত তেওঁ ঘৰ পালে, চৰাইদেউত ৰাজধানী।"
+      },
+      {
+       "en": "But a kingdom is easier to found than to keep. His son would face a rival people, and a trick played with roosters...",
+       "as": "কিন্তু ৰাজ্য পতাতকৈ ৰখা কঠিন। তেওঁৰ পুত্ৰই এক প্ৰতিদ্বন্দ্বী জাতিৰ মুখামুখি হ'ব, আৰু কুকুৰাৰ এটা কৌশলৰ..."
+      }
+     ]
     }
    ]
   }

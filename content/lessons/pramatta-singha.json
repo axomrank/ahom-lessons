@@ -139,6 +139,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "pms.hook",
+     "title": {
+      "en": "A house of games",
+      "as": "খেলৰ ঘৰ"
+     },
+     "img": "buffalo-fight.webp",
+     "text": [
+      {
+       "en": "One of Assam's most famous buildings is not a palace or a temple. It was built so a king could watch buffalo fights.",
+       "as": "অসমৰ এটা আটাইতকৈ বিখ্যাত নিৰ্মাণ ৰাজপ্ৰসাদো নহয়, মন্দিৰো নহয়। ৰজাই ম'হৰ যুঁজ চাবলৈ ইয়াক সজা হৈছিল।"
+      },
+      {
+       "en": "Who built it, and when?",
+       "as": "কোনে, কেতিয়া সাজিছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "rang-ghar-built.webp",
      "title": {
       "en": "A brother on the throne",
@@ -167,6 +186,38 @@
        "en": "Siva Singha died in 1744.",
        "as": "১৭৪৪ চনত শিৱ সিংহৰ মৃত্যু।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "pms.g1",
+     "q": {
+      "en": "What do you think the king watched from the Rang Ghar?",
+      "as": "তোমাৰ অনুমানত ৰজাই ৰংঘৰৰ পৰা কি চাইছিল?"
+     },
+     "options": [
+      {
+       "en": "Bihu games and buffalo fights",
+       "as": "বিহুৰ খেল আৰু ম'হৰ যুঁজ"
+      },
+      {
+       "en": "Ships on the river",
+       "as": "নদীৰ নাও"
+      },
+      {
+       "en": "The stars",
+       "as": "তৰা"
+      },
+      {
+       "en": "Battles",
+       "as": "যুদ্ধ"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Bihu games and buffalo fights on the field below.",
+      "as": "তলৰ পথাৰত বিহুৰ খেল আৰু ম'হৰ যুঁজ।"
      }
     },
     {
@@ -511,6 +562,25 @@
       "as": "অশুদ্ধ। গেইটৰ মতে ঘটনাবিহীন।"
      },
      "id": "pms.u2.06"
+    },
+    {
+     "type": "story",
+     "id": "pms.next",
+     "title": {
+      "en": "Palaces and fire",
+      "as": "ৰাজপ্ৰসাদ আৰু জুই"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: <mark>Pramatta Singha</mark>, in 1746.",
+       "as": "ৰহস্যৰ সমাধান: <mark>প্ৰমত্ত সিংহ</mark>, ১৭৪৬ চনত।"
+      },
+      {
+       "en": "His brother would build palaces too, while a proud minister burnt history books...",
+       "as": "তেওঁৰ ভায়েও ৰাজপ্ৰসাদ সাজিব, আৰু এজন অহংকাৰী মন্ত্ৰীয়ে ইতিহাসৰ পুথি জ্বলাব..."
+      }
+     ]
     }
    ]
   }

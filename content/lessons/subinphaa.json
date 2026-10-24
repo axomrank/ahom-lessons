@@ -151,6 +151,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "sbn.hook",
+     "title": {
+      "en": "A king who split his people",
+      "as": "প্ৰজাক দুভাগ কৰা ৰজা"
+     },
+     "img": "two-gohains.webp",
+     "text": [
+      {
+       "en": "The third Ahom king fought no great war. Yet one thing he did shaped Ahom politics for 500 years.",
+       "as": "তৃতীয় আহোম ৰজাই কোনো ডাঙৰ যুদ্ধ নকৰিলে। তথাপি তেওঁৰ এটা কামে ৫০০ বছৰ ধৰি আহোম ৰাজনীতি গঢ়িলে।"
+      },
+      {
+       "en": "He took his own people and divided them. Between whom, and why did it matter?",
+       "as": "তেওঁ নিজৰ প্ৰজাক ভাগ কৰিলে। কাৰ মাজত, আৰু কিয় সেয়া গুৰুত্বপূৰ্ণ?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The third king",
       "as": "তৃতীয় ৰজা"
@@ -382,6 +401,38 @@
     }
    ],
    "steps": [
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "sbn.g1",
+     "q": {
+      "en": "Who do you think received the two halves of the Ahom people?",
+      "as": "তোমাৰ অনুমানত আহোম প্ৰজাৰ দুই ভাগ কোনে পালে?"
+     },
+     "options": [
+      {
+       "en": "His two sons",
+       "as": "তেওঁৰ দুই পুত্ৰ"
+      },
+      {
+       "en": "The Burhagohain and the Borgohain",
+       "as": "বুঢ়াগোহাঁই আৰু বৰগোহাঁই"
+      },
+      {
+       "en": "Two temples",
+       "as": "দুটা দেৱালয়"
+      },
+      {
+       "en": "The Morans and the Barahis",
+       "as": "মৰাণ আৰু বৰাহী"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The two great ministers: each now had his own half of the people.",
+      "as": "দুজন প্ৰধান মন্ত্ৰী: প্ৰত্যেকে প্ৰজাৰ আধা ভাগ পালে।"
+     }
+    },
     {
      "type": "story",
      "title": {
@@ -909,6 +960,25 @@
       "as": "অশুদ্ধ। তিনিটা শাসক আৰু চাৰিটা পুৰোহিত খেল।"
      },
      "id": "sbn3.u3.08"
+    },
+    {
+     "type": "story",
+     "id": "sbn.next",
+     "title": {
+      "en": "Ministers with armies",
+      "as": "সৈন্যসহ মন্ত্ৰী"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: half the people went to the <mark>Burhagohain</mark> and half to the <mark>Borgohain</mark>, strong enough now to check kings.",
+       "as": "ৰহস্যৰ সমাধান: আধা প্ৰজা <mark>বুঢ়াগোহাঁই</mark>ক আৰু আধা <mark>বৰগোহাঁই</mark>ক, এতিয়া ৰজাকো ৰখিব পৰাকৈ শক্তিশালী।"
+      },
+      {
+       "en": "His son would lead the Ahoms into their first big war, against a kingdom far down the river...",
+       "as": "তেওঁৰ পুত্ৰই আহোমক প্ৰথম ডাঙৰ যুদ্ধলৈ লৈ যাব, নদীৰ বহু নামনিৰ এখন ৰাজ্যৰ বিৰুদ্ধে..."
+      }
+     ]
     }
    ]
   }

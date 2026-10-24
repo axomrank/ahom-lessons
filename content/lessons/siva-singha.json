@@ -158,6 +158,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "svs.hook",
+     "title": {
+      "en": "A queen called king",
+      "as": "ৰজা নামৰ ৰাণী"
+     },
+     "img": "bar-raja.webp",
+     "text": [
+      {
+       "en": "Astrologers warned the king that his rule would soon end. So he handed the royal umbrella to someone else.",
+       "as": "জ্যোতিষীয়ে ৰজাক সতৰ্ক কৰিলে, তেওঁৰ শাসন সোনকালে শেষ হ'ব। সেয়ে তেওঁ ৰাজছত্ৰ আন কাৰোবাৰ হাতত দিলে।"
+      },
+      {
+       "en": "To whom, and what would she do with it?",
+       "as": "কাক, আৰু তেওঁ তাৰে কি কৰিব?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "krishnaram.webp",
      "title": {
       "en": "The guru on the hill",
@@ -364,6 +383,38 @@
        "en": "A king and his guru.",
        "as": "ৰজা আৰু গুৰু।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "svs.g1",
+     "q": {
+      "en": "To cheat the prediction, who do you think Siva Singha made 'Bar Raja', chief king?",
+      "as": "ভৱিষ্যদ্বাণীক ফাঁকি দিবলৈ শিৱ সিংহই কাক 'বৰ ৰজা' পাতিলে বুলি তোমাৰ অনুমান?"
+     },
+     "options": [
+      {
+       "en": "His son",
+       "as": "পুত্ৰক"
+      },
+      {
+       "en": "His chief queen",
+       "as": "প্ৰধান ৰাণীক"
+      },
+      {
+       "en": "His guru",
+       "as": "গুৰুক"
+      },
+      {
+       "en": "The Burhagohain",
+       "as": "বুঢ়াগোহাঁইক"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "His chief queen, Phuleswari, with the royal umbrella and coins in both names.",
+      "as": "প্ৰধান ৰাণী ফুলেশ্বৰীক, ৰাজছত্ৰ আৰু দুয়োৰে নামৰ মুদ্ৰাৰ সৈতে।"
      }
     },
     {
@@ -584,6 +635,35 @@
        "as": "শাসন কৰা ৰাণী।"
       }
      }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "svs.d1",
+     "q": {
+      "en": "You are Phuleswari. Some Vaishnava leaders will not worship Durga. What do you do?",
+      "as": "তুমি ফুলেশ্বৰী। কিছুমান বৈষ্ণৱ নেতাই দুৰ্গাক পূজা নকৰে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Leave them in peace",
+       "as": "শান্তিৰে থাকিবলৈ দিয়া"
+      },
+      {
+       "en": "Force them to a sacrifice",
+       "as": "বলিলৈ বাধ্য কৰা"
+      },
+      {
+       "en": "Ask the king to decide",
+       "as": "ৰজাক সিদ্ধান্ত ল'বলৈ দিয়া"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "She forced them to a sacrifice and had the Moamara Gosain smeared with blood: an insult never forgiven.",
+      "as": "তেওঁ বলিলৈ বাধ্য কৰি মোৱামৰা গোঁসাইক তেজ সানিলে: কেতিয়াও ক্ষমা নোপোৱা অপমান।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -1074,6 +1154,25 @@
       "as": "১৭২২ → ১৭৩৪ → ১৭৩৯ → ১৭৪৪।"
      },
      "id": "svs.u5.06"
+    },
+    {
+     "type": "story",
+     "id": "svs.next",
+     "title": {
+      "en": "A seed of fifty years",
+      "as": "পঞ্চাশ বছৰৰ বীজ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: to his queen, <mark>Phuleswari</mark>, the first Bar Raja.",
+       "as": "ৰহস্যৰ সমাধান: ৰাণী <mark>ফুলেশ্বৰী</mark>ক, প্ৰথম বৰ ৰজা।"
+      },
+      {
+       "en": "Her insult to the Moamara Gosain was a seed. It would take fifty years to grow...",
+       "as": "মোৱামৰা গোঁসাইক কৰা তেওঁৰ অপমান এটা বীজ। ই গজিবলৈ পঞ্চাশ বছৰ লাগিব..."
+      }
+     ]
     }
    ]
   }

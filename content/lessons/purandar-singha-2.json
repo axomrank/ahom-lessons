@@ -142,6 +142,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "pr2.hook",
+     "title": {
+      "en": "The last king",
+      "as": "শেষ ৰজা"
+     },
+     "img": "restored-1833.webp",
+     "text": [
+      {
+       "en": "In 1833 the British gave a king back his throne. Five years later they took it away, for ever.",
+       "as": "১৮৩৩ চনত ব্ৰিটিছে এজন ৰজাক সিংহাসন ঘূৰাই দিলে। পাঁচ বছৰ পিছত চিৰদিনৰ বাবে কাঢ়ি নিলে।"
+      },
+      {
+       "en": "Why restore him at all, and why remove him?",
+       "as": "তেওঁক কিয় ঘূৰাই দিলে, আৰু কিয় আঁতৰালে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "gomdhar.webp",
      "title": {
       "en": "A prince crowned in revolt",
@@ -212,6 +231,35 @@
       "as": "গোমধৰ কোঁৱৰ।"
      },
      "id": "pr2.u1.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "pr2.d1",
+     "q": {
+      "en": "You are an Ahom noble in 1830. The British now rule Assam. What do you do?",
+      "as": "তুমি ১৮৩০ চনৰ এজন আহোম বিষয়া। ব্ৰিটিছে এতিয়া অসম শাসন কৰে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Accept it",
+       "as": "মানি লোৱা"
+      },
+      {
+       "en": "Plot to drive them out",
+       "as": "খেদাৰ ষড়যন্ত্ৰ কৰা"
+      },
+      {
+       "en": "Leave Assam",
+       "as": "অসম এৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Some did: Piyali Phukan and Jiuram Dulia Baruah plotted, and were hanged in 1830.",
+      "as": "কিছুমানে কৰিছিল: পিয়লি ফুকন আৰু জীউৰাম দুলীয়া বৰুৱাই ষড়যন্ত্ৰ কৰিলে, আৰু ১৮৩০ চনত ফাঁচী পালে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -519,6 +567,38 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "pr2.g1",
+     "q": {
+      "en": "Purandar had to pay Rs 50,000 a year from a ruined land. What do you think happened?",
+      "as": "পুৰন্দৰে ধ্বংসপ্ৰাপ্ত দেশৰ পৰা বছৰি ৫০,০০০ টকা দিব লাগিছিল। তোমাৰ অনুমানত কি হ'ল?"
+     },
+     "options": [
+      {
+       "en": "He paid easily",
+       "as": "সহজে দিলে"
+      },
+      {
+       "en": "He fell behind on the tribute",
+       "as": "কৰ বাকী পৰিল"
+      },
+      {
+       "en": "He rebelled",
+       "as": "বিদ্ৰোহ কৰিলে"
+      },
+      {
+       "en": "He moved to Bengal",
+       "as": "বংগলৈ গ'ল"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Within three years he was behind on the tribute and begged for a cut.",
+      "as": "তিনি বছৰৰ ভিতৰতে কৰ বাকী পৰিল আৰু তেওঁ কমাবলৈ কাকুতি কৰিলে।"
+     }
+    },
+    {
      "type": "story",
      "img": "taxes.webp",
      "title": {
@@ -664,6 +744,25 @@
       "as": "১৮২৮ → ১৮৩০ → ১৮৩৩ → ১৮৩৮।"
      },
      "id": "pr2.u3.06"
+    },
+    {
+     "type": "story",
+     "id": "pr2.next",
+     "title": {
+      "en": "Six hundred years",
+      "as": "ছশ বছৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the British wanted <mark>tribute</mark>; when it failed, they took the land. From Sukaphaa in 1228 to Purandar in 1838, you have walked the whole Ahom story.",
+       "as": "ৰহস্যৰ সমাধান: ব্ৰিটিছে <mark>কৰ</mark> বিচাৰিছিল; নোপোৱাত মাটি ল'লে। ১২২৮ৰ চুকাফাৰ পৰা ১৮৩৮ৰ পুৰন্দৰলৈ, তুমি গোটেই আহোম কাহিনী খোজ কাঢ়িলা।"
+      },
+      {
+       "en": "Now test yourself on the era checkpoints, and come back to review what you missed.",
+       "as": "এতিয়া যুগৰ পৰীক্ষাত নিজকে পৰীক্ষা কৰা, আৰু ভুল হোৱাবোৰ পুনৰীক্ষণ কৰিবলৈ উভতি আহিবা।"
+      }
+     ]
     }
    ]
   }

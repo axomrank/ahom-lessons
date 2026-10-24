@@ -162,6 +162,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "sdg.hook",
+     "title": {
+      "en": "The boy nobody knew",
+      "as": "কোনেও নজনা ল'ৰা"
+     },
+     "img": "birth-habung.webp",
+     "text": [
+      {
+       "en": "In a village in Habung, a boy grew up in a Brahman's house, learning Brahman prayers.",
+       "as": "হাবুঙৰ এখন গাঁৱত এজন ব্ৰাহ্মণৰ ঘৰত এটা ল'ৰা ডাঙৰ হ'ল, ব্ৰাহ্মণৰ প্ৰাৰ্থনা শিকি।"
+      },
+      {
+       "en": "Nobody, not even he, knew who he really was. Who was he, and how was he found?",
+       "as": "কোনেও, তেওঁ নিজেও, নাজানিছিল তেওঁ আচলতে কোন। তেওঁ কোন আছিল, আৰু কেনেকৈ বিচাৰি পোৱা গ'ল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "Where the raft landed",
       "as": "ভূৰ ক'ত লাগিল"
@@ -233,6 +252,38 @@
       }
      ],
      "id": "sdg2.u1.03"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "sdg.g1",
+     "q": {
+      "en": "How do you think the lost prince was finally found?",
+      "as": "তোমাৰ অনুমানত হেৰুৱা কোঁৱৰক শেষত কেনেকৈ পোৱা গ'ল?"
+     },
+     "options": [
+      {
+       "en": "A royal search party",
+       "as": "ৰাজকীয় সন্ধানী দল"
+      },
+      {
+       "en": "A cattle trader noticed his noble looks",
+       "as": "গৰু ব্যৱসায়ীয়ে তেওঁৰ ৰাজকীয় চেহেৰা লক্ষ্য কৰিলে"
+      },
+      {
+       "en": "He wrote to the king",
+       "as": "তেওঁ ৰজালৈ চিঠি লিখিলে"
+      },
+      {
+       "en": "A dream",
+       "as": "এটা সপোন"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Thao Cheoken, trading cattle in Habung, saw the youth and learned the truth.",
+      "as": "হাবুঙত গৰু বেচিবলৈ যোৱা থাও চেওকেনে ডেকাজনক দেখি সত্য জানিলে।"
+     }
     },
     {
      "type": "story",
@@ -853,6 +904,35 @@
        "as": "টিপাম আছিল আহোমে প্ৰথমে বসতি কৰা ঠাইবোৰৰ এটা।"
       }
      }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "sdg.d1",
+     "q": {
+      "en": "You are Sudangphaa. The Tipam chiefs are plotting against you. What do you do?",
+      "as": "তুমি চুদাংফা। তিপামৰ মুখীয়ালে তোমাৰ বিৰুদ্ধে ষড়যন্ত্ৰ কৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Arrest them openly",
+       "as": "খোলাখুলিকৈ বন্দী কৰা"
+      },
+      {
+       "en": "Invite them to a feast, then seize them",
+       "as": "ভোজলৈ মাতি ধৰা"
+      },
+      {
+       "en": "Ignore it",
+       "as": "উপেক্ষা কৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He invited the plotters to a feast and, when suspicion was gone, had them seized.",
+      "as": "তেওঁ ষড়যন্ত্ৰকাৰীক ভোজলৈ মাতিলে আৰু সন্দেহ আঁতৰাৰ পিছত ধৰালে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -1793,6 +1873,25 @@
       "as": "ভু → ব্ৰা → পা → কা।"
      },
      "id": "sdg4.u5.03"
+    },
+    {
+     "type": "story",
+     "id": "sdg.next",
+     "title": {
+      "en": "A quiet son",
+      "as": "শান্ত পুত্ৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: he was the raft-born prince <mark>Sudangphaa</mark>, spotted by a cattle trader.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁ ভূৰত জন্মা কোঁৱৰ <mark>চুদাংফা</mark>, এজন গৰু ব্যৱসায়ীয়ে চিনি পাইছিল।"
+      },
+      {
+       "en": "His son would inherit a kingdom so settled that the chronicles found almost nothing to write...",
+       "as": "তেওঁৰ পুত্ৰই এনে শান্ত ৰাজ্য পাব যে বুৰঞ্জীয়ে প্ৰায় একোৱেই লিখিবলৈ নাপালে..."
+      }
+     ]
     }
    ]
   }

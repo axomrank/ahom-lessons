@@ -148,6 +148,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "ckt.hook",
+     "title": {
+      "en": "A drunk elephant in Guwahati",
+      "as": "গুৱাহাটীত মতলীয়া হাতী"
+     },
+     "img": "ava.webp",
+     "text": [
+      {
+       "en": "A minister's sons fed an elephant bhang and let it loose in Guwahati, laughing as it smashed houses.",
+       "as": "এজন মন্ত্ৰীৰ পুত্ৰই হাতীক ভাং খুৱাই গুৱাহাটীত এৰি দিলে, ঘৰ ভঙা দেখি হাঁহি থাকিল।"
+      },
+      {
+       "en": "Their father would do something far worse: bring a foreign army into Assam. Why?",
+       "as": "তেওঁলোকৰ পিতৃয়ে আৰু ভয়ংকৰ কাম কৰিব: অসমলৈ বিদেশী সৈন্য আনিব। কিয়?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "factions.webp",
      "title": {
       "en": "The boy and the old minister",
@@ -321,6 +340,38 @@
       }
      ],
      "id": "ckt.u2.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "ckt.g1",
+     "q": {
+      "en": "Refused by the British, where do you think Badan Chandra went for help?",
+      "as": "ব্ৰিটিছে প্ৰত্যাখ্যান কৰাৰ পিছত বদনচন্দ্ৰ সহায়ৰ বাবে ক'লৈ গ'ল বুলি তোমাৰ অনুমান?"
+     },
+     "options": [
+      {
+       "en": "The Mughals",
+       "as": "মোগল"
+      },
+      {
+       "en": "The Burmese king at Ava",
+       "as": "আভাৰ মান ৰজা"
+      },
+      {
+       "en": "Manipur",
+       "as": "মণিপুৰ"
+      },
+      {
+       "en": "Bhutan",
+       "as": "ভূটান"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He went to Ava and won a promise of a Burmese army.",
+      "as": "তেওঁ আভালৈ গৈ মান সৈন্যৰ প্ৰতিশ্ৰুতি আনিলে।"
+     }
     },
     {
      "type": "story",
@@ -514,6 +565,35 @@
       "as": "শুদ্ধ।"
      },
      "id": "ckt.u3.03"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "ckt.d1",
+     "q": {
+      "en": "You are Ruchinath. Your father is dead and the Burmese are marching on Jorhat. What do you do?",
+      "as": "তুমি ৰুচিনাথ। তোমাৰ পিতৃৰ মৃত্যু হৈছে আৰু মানে যোৰহাটলৈ আগবাঢ়িছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Stay and fight",
+       "as": "থাকি যুঁজা"
+      },
+      {
+       "en": "Flee west to Guwahati",
+       "as": "পশ্চিমে গুৱাহাটীলৈ পলোৱা"
+      },
+      {
+       "en": "Join the Burmese",
+       "as": "মানত যোগ দিয়া"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Ruchinath fled to Guwahati, and never forgave the king for abandoning him.",
+      "as": "ৰুচিনাথ গুৱাহাটীলৈ পলাল, আৰু তেওঁক এৰি দিয়া ৰজাক কেতিয়াও ক্ষমা নকৰিলে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -774,6 +854,25 @@
       "as": "স → ব → ব → বিদায়।"
      },
      "id": "ckt.u4.06"
+    },
+    {
+     "type": "story",
+     "id": "ckt.next",
+     "title": {
+      "en": "A king who can't be crowned",
+      "as": "অভিষেক হ'ব নোৱাৰা ৰজা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: to destroy his rival, <mark>Purnananda</mark>.",
+       "as": "ৰহস্যৰ সমাধান: প্ৰতিদ্বন্দ্বী <mark>পূৰ্ণানন্দ</mark>ক ধ্বংস কৰিবলৈ।"
+      },
+      {
+       "en": "The Burmese left, Badan was killed, and Ruchinath came back with a new king who could not even be crowned...",
+       "as": "মান উভতিল, বদন নিহত হ'ল, আৰু ৰুচিনাথ এজন নতুন ৰজাৰ সৈতে আহিল, যাৰ অভিষেকেই হ'ব নোৱাৰে..."
+      }
+     ]
     }
    ]
   }

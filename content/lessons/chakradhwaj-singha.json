@@ -197,6 +197,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "cds.hook",
+     "title": {
+      "en": "A king who would not pay",
+      "as": "ধাৰ নিদিয়া ৰজা"
+     },
+     "img": "lachit-command.webp",
+     "text": [
+      {
+       "en": "The Mughals demanded the rest of the war debt. The nobles, remembering Mir Jumla, begged the king to pay.",
+       "as": "মোগলে যুদ্ধৰ বাকী ধাৰ বিচাৰিলে। মীৰজুমলাক মনত পেলাই বিষয়াসকলে ৰজাক ধাৰ দিবলৈ কাকুতি কৰিলে।"
+      },
+      {
+       "en": "He refused. What happened next made a hero of a minister's son.",
+       "as": "তেওঁ অস্বীকাৰ কৰিলে। তাৰ পিছত যি হ'ল, তাৰে এজন মন্ত্ৰীৰ পুত্ৰ বীৰ হ'ল।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "oath.webp",
      "title": {
       "en": "No sons, a new king",
@@ -468,6 +487,38 @@
       }
      ],
      "id": "cds.u2.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "cds.g1",
+     "q": {
+      "en": "Who do you think the king chose to lead the army?",
+      "as": "তোমাৰ অনুমানত ৰজাই সৈন্যৰ নেতৃত্বৰ বাবে কাক বাছিলে?"
+     },
+     "options": [
+      {
+       "en": "The old Borgohain",
+       "as": "বুঢ়া বৰগোহাঁই"
+      },
+      {
+       "en": "Lachit, son of Momai Tamuli",
+       "as": "মোমাই তামুলীৰ পুত্ৰ লাচিত"
+      },
+      {
+       "en": "A Mughal deserter",
+       "as": "এজন মোগল পলাতক"
+      },
+      {
+       "en": "His own son",
+       "as": "নিজৰ পুত্ৰ"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Lachit, son of the first Borbarua, made Borphukan.",
+      "as": "প্ৰথম বৰবৰুৱাৰ পুত্ৰ লাচিত, বৰফুকন পতা হ'ল।"
+     }
     },
     {
      "type": "story",
@@ -1180,6 +1231,35 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "cds.d1",
+     "q": {
+      "en": "You are Chakradhwaj. Ram Singh challenges you to single combat and promises to go home if he loses. What do you do?",
+      "as": "তুমি চক্ৰধ্বজ। ৰাম সিংহে তোমাক দ্বন্দ্বযুদ্ধলৈ আহ্বান জনাইছে, হাৰিলে ঘূৰি যাব বুলি কৈছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Accept the duel",
+       "as": "দ্বন্দ্বযুদ্ধ গ্ৰহণ"
+      },
+      {
+       "en": "Refuse, and let your generals fight on",
+       "as": "অস্বীকাৰ কৰি সেনাপতিক যুঁজিবলৈ দিয়া"
+      },
+      {
+       "en": "Send Lachit to the duel",
+       "as": "লাচিতক পঠিওৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The king refused and ordered his generals to fight on.",
+      "as": "ৰজাই অস্বীকাৰ কৰি সেনাপতিক যুঁজি থাকিবলৈ আদেশ দিলে।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "army-rebuilt.webp",
      "title": {
@@ -1306,6 +1386,25 @@
       "as": "১৬৬৫ → ১৬৬৭ → ১৬৬৯ → ১৬৭০ → ১৬৭১।"
      },
      "id": "cds.u5.06"
+    },
+    {
+     "type": "story",
+     "id": "cds.next",
+     "title": {
+      "en": "To the narrowest river",
+      "as": "আটাইতকৈ ঠেক নদীলৈ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the hero was <mark>Lachit Borphukan</mark>, who won Guwahati back.",
+       "as": "ৰহস্যৰ সমাধান: বীৰ আছিল <mark>লাচিত বৰফুকন</mark>, যি গুৱাহাটী ঘূৰাই আনিলে।"
+      },
+      {
+       "en": "But Ram Singh's army was still coming. The decisive battle would be fought where the river is narrowest...",
+       "as": "কিন্তু ৰাম সিংহৰ সৈন্য তেতিয়াও আহি আছিল। চূড়ান্ত যুদ্ধ হ'ব য'ত নদী আটাইতকৈ ঠেক..."
+      }
+     ]
     }
    ]
   }

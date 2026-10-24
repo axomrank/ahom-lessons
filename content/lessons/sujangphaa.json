@@ -132,6 +132,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "sjg.hook",
+     "title": {
+      "en": "Fifteen silent years",
+      "as": "পোন্ধৰ বছৰৰ নীৰৱতা"
+     },
+     "img": "sujangphaa-court.webp",
+     "text": [
+      {
+       "en": "For fifteen years a king ruled the Ahoms, and the chronicles recorded <mark>nothing of importance</mark>.",
+       "as": "পোন্ধৰ বছৰ এজন ৰজাই আহোমক শাসন কৰিলে, আৰু বুৰঞ্জীয়ে <mark>গুৰুত্বপূৰ্ণ একো</mark> লিখি নাৰাখিলে।"
+      },
+      {
+       "en": "Was he a failure? Or was silence a good sign?",
+       "as": "তেওঁ বিফল আছিল নে? নে নীৰৱতা এক ভাল চিন?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The ninth king",
       "as": "নৱম ৰজা"
@@ -408,6 +427,38 @@
    ],
    "steps": [
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "sjg.g1",
+     "q": {
+      "en": "Why do you think so little happened in Sujangphaa's reign?",
+      "as": "তোমাৰ অনুমানত চুজাংফাৰ দিনত ইমান কম ঘটনা কিয় হৈছিল?"
+     },
+     "options": [
+      {
+       "en": "His father had settled the borders",
+       "as": "পিতৃয়ে সীমা স্থিৰ কৰি গৈছিল"
+      },
+      {
+       "en": "He was always ill",
+       "as": "তেওঁ সদায় অসুস্থ"
+      },
+      {
+       "en": "The chronicles were burnt",
+       "as": "বুৰঞ্জী জ্বলোৱা হৈছিল"
+      },
+      {
+       "en": "He lived abroad",
+       "as": "তেওঁ বিদেশত আছিল"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sudangphaa had fixed the Patkai border and made peace with Kamata: there was little to fight about.",
+      "as": "চুদাংফাই পাটকাই সীমা স্থিৰ কৰি কমতাৰ সৈতে শান্তি কৰিছিল: যুঁজিবলগীয়া একো নাছিল।"
+     }
+    },
+    {
      "type": "story",
      "img": "patkai-treaty.webp",
      "title": {
@@ -616,6 +667,25 @@
       "as": "নংনিয়াং বিলৰ পাৰত দুয়োজন বৰগোহাঁই।"
      },
      "id": "sjg2.u2.07"
+    },
+    {
+     "type": "story",
+     "id": "sjg.next",
+     "title": {
+      "en": "Quiet is not empty",
+      "as": "নীৰৱ মানে খালী নহয়"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: silence meant <mark>peace</mark>. His father had settled the borders.",
+       "as": "ৰহস্যৰ সমাধান: নীৰৱতা মানে <mark>শান্তি</mark>। পিতৃয়ে সীমা স্থিৰ কৰিছিল।"
+      },
+      {
+       "en": "Next: another quiet king, whose one key fact is the mother of his son.",
+       "as": "পিছলৈ: আন এজন শান্ত ৰজা, যাৰ মূল তথ্য তেওঁৰ পুত্ৰৰ মাতৃ।"
+      }
+     ]
     }
    ]
   }

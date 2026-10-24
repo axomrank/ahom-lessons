@@ -137,6 +137,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "slk.hook",
+     "title": {
+      "en": "She never told",
+      "as": "তেওঁ কেতিয়াও নক'লে"
+     },
+     "img": "joymoti.webp",
+     "text": [
+      {
+       "en": "Day after day, soldiers tortured a young woman with one question: 'Where is your husband?'",
+       "as": "দিনৰ পিছত দিন সৈন্যই এগৰাকী যুৱতীক এটাই প্ৰশ্নৰে নিৰ্যাতন কৰিলে: 'তোমাৰ স্বামী ক'ত?'"
+      },
+      {
+       "en": "She never answered. Who was she, and who was her husband?",
+       "as": "তেওঁ কেতিয়াও উত্তৰ নিদিলে। তেওঁ কোন, আৰু তেওঁৰ স্বামী কোন?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "boy-king.webp",
      "title": {
       "en": "A king who could not rule",
@@ -335,6 +354,38 @@
        "en": "The boy king.",
        "as": "ল'ৰা ৰজা।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "slk.g1",
+     "q": {
+      "en": "An Ahom king had to be without blemish. How do you think the boy king's men removed rivals?",
+      "as": "আহোম ৰজাৰ শৰীৰত খুঁত থাকিব নালাগিছিল। তোমাৰ অনুমানত লৰা ৰজাৰ লোকে প্ৰতিদ্বন্দ্বীক কেনেকৈ আঁতৰালে?"
+     },
+     "options": [
+      {
+       "en": "Exiled them",
+       "as": "নিৰ্বাসন দিলে"
+      },
+      {
+       "en": "Maimed or killed the princes",
+       "as": "কোঁৱৰক অংগহানি বা হত্যা কৰিলে"
+      },
+      {
+       "en": "Bribed them",
+       "as": "ভেটি দিলে"
+      },
+      {
+       "en": "Married them off",
+       "as": "বিয়া দি পঠালে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "They maimed or killed several hundred princes, it is said.",
+      "as": "কোৱা হয়, তেওঁলোকে কেইশ কোঁৱৰক অংগহানি বা হত্যা কৰিলে।"
      }
     },
     {
@@ -543,6 +594,35 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "slk.d1",
+     "q": {
+      "en": "You are Joymoti. The king's men demand to know where your husband is hiding. What do you do?",
+      "as": "তুমি জয়মতী। ৰজাৰ লোকে তোমাৰ স্বামী ক'ত লুকাই আছে জানিব বিচাৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Tell them",
+       "as": "কৈ দিয়া"
+      },
+      {
+       "en": "Stay silent, whatever happens",
+       "as": "যিয়েই নহওক, মৌন থকা"
+      },
+      {
+       "en": "Lie and send them the wrong way",
+       "as": "মিছা কৈ ভুল বাটে পঠিওৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Joymoti stayed silent through her torture and died in 1680.",
+      "as": "জয়মতীয়ে নিৰ্যাতনৰ মাজতো মৌন থাকিল আৰু ১৬৮০ চনত মৃত্যুবৰণ কৰিলে।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "joymoti.webp",
      "top": true,
@@ -686,6 +766,25 @@
       }
      ],
      "id": "slk.u3.07"
+    },
+    {
+     "type": "story",
+     "id": "slk.next",
+     "title": {
+      "en": "The farmer comes home",
+      "as": "খেতিয়কৰ ঘৰমুৱা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: she was <mark>Joymoti</mark>, wife of Gadapani. Her silence saved him.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁ গদাপাণিৰ পত্নী <mark>জয়মতী</mark>। তেওঁৰ মৌনতাই স্বামীক ৰক্ষা কৰিলে।"
+      },
+      {
+       "en": "Next, the hidden farmer walks into the capital as king...",
+       "as": "পিছলৈ, লুকাই থকা খেতিয়কজন ৰজা হৈ ৰাজধানীত সোমাব..."
+      }
+     ]
     }
    ]
   }

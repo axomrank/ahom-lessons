@@ -147,6 +147,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "skr.hook",
+     "title": {
+      "en": "A brother with an army",
+      "as": "সৈন্যসহ ভাই"
+     },
+     "img": "kamata-envoys.webp",
+     "text": [
+      {
+       "en": "A king's half-brother plotted against him, was caught, and fled. Soon a foreign army was marching on the Ahom land.",
+       "as": "ৰজাৰ বৈমাত্ৰেয় ভায়েকে ষড়যন্ত্ৰ কৰিলে, ধৰা পৰিল, আৰু পলাল। সোনকালে এক বিদেশী সৈন্য আহোম দেশলৈ আগবাঢ়িল।"
+      },
+      {
+       "en": "Whose army was it, and why did the king make peace without a fight?",
+       "as": "সেয়া কাৰ সৈন্য, আৰু ৰজাই কিয় নুযুঁজাকৈ শান্তি কৰিলে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The fifth king",
       "as": "পঞ্চম ৰজা"
@@ -422,6 +441,38 @@
    ],
    "steps": [
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "skr.g1",
+     "q": {
+      "en": "Chao Pulai's plot failed. Where do you think he fled?",
+      "as": "চাও পুলাইৰ ষড়যন্ত্ৰ বিফল হ'ল। তোমাৰ অনুমানত তেওঁ ক'লৈ পলাল?"
+     },
+     "options": [
+      {
+       "en": "To the Nagas",
+       "as": "নগাৰ ওচৰলৈ"
+      },
+      {
+       "en": "To his mother's family, the king of Kamata",
+       "as": "মাকৰ পৰিয়াল, কমতাৰ ৰজাৰ ওচৰলৈ"
+      },
+      {
+       "en": "To Mong Mao",
+       "as": "মং মাওলৈ"
+      },
+      {
+       "en": "To the Chutias",
+       "as": "চুতীয়াৰ ওচৰলৈ"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "To his kinsman, the king of Kamata, who agreed to help him.",
+      "as": "আত্মীয় কমতাৰ ৰজাৰ ওচৰলৈ, যি সহায় কৰিবলৈ মান্তি হ'ল।"
+     }
+    },
+    {
      "type": "story",
      "title": {
       "en": "A plot",
@@ -439,6 +490,35 @@
      ],
      "id": "skr.u1.04",
      "img": "kamata-envoys.webp"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "skr.d1",
+     "q": {
+      "en": "You are Sukhrangphaa. The Kamata army is at Charing, and you doubt your own troops. What do you do?",
+      "as": "তুমি চুখ্ৰাংফা। কমতাৰ সৈন্য চৰিঙত, আৰু নিজৰ সৈন্যৰ ওপৰত তোমাৰ সন্দেহ। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Fight anyway",
+       "as": "তথাপি যুঁজা"
+      },
+      {
+       "en": "Make peace with your brother",
+       "as": "ভায়েৰৰ সৈতে শান্তি"
+      },
+      {
+       "en": "Flee east",
+       "as": "পূবলৈ পলোৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He opened talks and made peace with Chao Pulai, without a battle.",
+      "as": "তেওঁ আলোচনা কৰি চাও পুলাইৰ সৈতে যুদ্ধ নোহোৱাকৈ শান্তি কৰিলে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -907,6 +987,25 @@
       "as": "চুতুফা (১৩৬৯–১৩৭৬)।"
      },
      "id": "skr2.u3.08"
+    },
+    {
+     "type": "story",
+     "id": "skr.next",
+     "title": {
+      "en": "An empty throne",
+      "as": "খালী সিংহাসন"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the army was <mark>Kamata's</mark>, and the king chose peace because he could not trust his troops.",
+       "as": "ৰহস্যৰ সমাধান: সৈন্য আছিল <mark>কমতাৰ</mark>, আৰু নিজৰ সৈন্যক বিশ্বাস কৰিব নোৱাৰি ৰজাই শান্তি বাছিলে।"
+      },
+      {
+       "en": "When he died, the throne stood empty. The next king would accept a friendly invitation to a boat race...",
+       "as": "তেওঁৰ মৃত্যুৰ পিছত সিংহাসন খালী থাকিল। পিছৰ ৰজাই নাওখেলৰ এটা বন্ধুত্বপূৰ্ণ নিমন্ত্ৰণ গ্ৰহণ কৰিব..."
+      }
+     ]
     }
    ]
   }

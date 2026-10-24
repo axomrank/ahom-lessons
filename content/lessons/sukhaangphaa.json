@@ -154,6 +154,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "skg.hook",
+     "title": {
+      "en": "War, then a wedding",
+      "as": "যুদ্ধ, তাৰ পিছত বিয়া"
+     },
+     "img": "kamata-war.webp",
+     "text": [
+      {
+       "en": "The Ahoms' first big war was not against a neighbour. It was against a kingdom far down the river, and it went on for years.",
+       "as": "আহোমৰ প্ৰথম ডাঙৰ যুদ্ধ ওচৰ-চুবুৰীয়াৰ সৈতে নাছিল। নদীৰ বহু নামনিৰ এখন ৰাজ্যৰ সৈতে, আৰু ই বছৰ বছৰ চলিল।"
+      },
+      {
+       "en": "Nobody could win. So how did it end?",
+       "as": "কোনেও জিকিব নোৱাৰিলে। তেন্তে কেনেকৈ শেষ হ'ল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The fourth king",
       "as": "চতুৰ্থ ৰজা"
@@ -599,6 +618,38 @@
    ],
    "steps": [
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "skg.g1",
+     "q": {
+      "en": "Neither side could win the Kamata war. How do you think it ended?",
+      "as": "কমতা যুদ্ধত কোনো পক্ষই জিকিব নোৱাৰিলে। তোমাৰ অনুমানত কেনেকৈ শেষ হ'ল?"
+     },
+     "options": [
+      {
+       "en": "One side was wiped out",
+       "as": "এটা পক্ষ ধ্বংস হ'ল"
+      },
+      {
+       "en": "A treaty and a marriage",
+       "as": "সন্ধি আৰু বিয়া"
+      },
+      {
+       "en": "The Ahoms fled home",
+       "as": "আহোম ঘৰলৈ পলাল"
+      },
+      {
+       "en": "A plague ended it",
+       "as": "মহামাৰীয়ে শেষ কৰিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Kamata asked for peace and gave Princess Rajani to Sukhaangphaa.",
+      "as": "কমতাই শান্তি বিচাৰিলে আৰু ৰাজকুমাৰী ৰজনীক চুখাংফাক দিলে।"
+     }
+    },
+    {
      "type": "story",
      "title": {
       "en": "Peace by marriage",
@@ -845,6 +896,35 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "skg.d1",
+     "q": {
+      "en": "You are Sukhaangphaa. Mungkang demands tribute, saying the Ahoms still owe the old homeland. What do you do?",
+      "as": "তুমি চুখাংফা। মুংকঙে কৰ বিচাৰিছে, কয় আহোমে এতিয়াও পুৰণি দেশক ধাৰে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Pay it",
+       "as": "কৰ দিয়া"
+      },
+      {
+       "en": "Refuse",
+       "as": "অস্বীকাৰ কৰা"
+      },
+      {
+       "en": "Send hostages",
+       "as": "জামিন পঠিওৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He refused. The Mungkang ruler soon died and the demand was dropped.",
+      "as": "তেওঁ অস্বীকাৰ কৰিলে। মুংকঙৰ শাসক সোনকালে মৰিল আৰু দাবী এৰা হ'ল।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "title": {
       "en": "The demand is dropped",
@@ -1080,6 +1160,25 @@
       "as": "চাও পুলাই। তেওঁৰ তিনিজন বৈমাত্ৰেয় ভাই ৰজা হৈছিল।"
      },
      "id": "skg2.u4.08"
+    },
+    {
+     "type": "story",
+     "id": "skg.next",
+     "title": {
+      "en": "A prince with two families",
+      "as": "দুই পৰিয়ালৰ কোঁৱৰ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the war ended with a <mark>marriage</mark> to Princess Rajani of Kamata.",
+       "as": "ৰহস্যৰ সমাধান: কমতাৰ ৰাজকুমাৰী ৰজনীৰ সৈতে <mark>বিয়াৰে</mark> যুদ্ধ শেষ হ'ল।"
+      },
+      {
+       "en": "But her son, Chao Pulai, had a powerful family in the west. In the next reign, that family would march east...",
+       "as": "কিন্তু তেওঁৰ পুত্ৰ চাও পুলাইৰ পশ্চিমত শক্তিশালী পৰিয়াল আছিল। পিছৰ ৰাজত্বত সেই পৰিয়াল পূবলৈ আগবাঢ়িব..."
+      }
+     ]
     }
    ]
   }

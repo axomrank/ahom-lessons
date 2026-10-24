@@ -205,6 +205,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "jds.hook",
+     "title": {
+      "en": "A spear in the heart",
+      "as": "বুকুত শেল"
+     },
+     "img": "deathbed.webp",
+     "text": [
+      {
+       "en": "A dying king asked his cousin to pull out 'the spear of shame' from his heart.",
+       "as": "মৃত্যুশয্যাত এজন ৰজাই খুৰাই-ককাইক তেওঁৰ বুকুৰ পৰা 'লাজৰ শেল' উলিয়াবলৈ ক'লে।"
+      },
+      {
+       "en": "What shame did he mean?",
+       "as": "তেওঁ কোন লাজৰ কথা কৈছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "coronation.webp",
      "title": {
       "en": "A new king, a new name",
@@ -1135,6 +1154,38 @@
      "id": "jds.u5.02"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "jds.g1",
+     "q": {
+      "en": "Mir Jumla held the Ahom capital. What do you think wore his army down?",
+      "as": "মীৰজুমলাই আহোম ৰাজধানী দখল কৰি আছিল। তোমাৰ অনুমানত তেওঁৰ সৈন্যক কিহে দুৰ্বল কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "One great battle",
+       "as": "এটা ডাঙৰ যুদ্ধ"
+      },
+      {
+       "en": "The monsoon, fever and night raids",
+       "as": "বাৰিষা, জ্বৰ আৰু নিশাৰ আক্ৰমণ"
+      },
+      {
+       "en": "A Mughal civil war",
+       "as": "মোগল গৃহযুদ্ধ"
+      },
+      {
+       "en": "An earthquake",
+       "as": "ভূমিকম্প"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Rains cut the roads, the Ahoms raided by night, and fever spread through the camps.",
+      "as": "বৰষুণে বাট বন্ধ কৰিলে, আহোমে নিশা আক্ৰমণ কৰিলে, আৰু শিবিৰত জ্বৰ বিয়পিল।"
+     }
+    },
+    {
      "type": "story",
      "img": "monsoon-war.webp",
      "title": {
@@ -1327,6 +1378,35 @@
     }
    ],
    "steps": [
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "jds.d1",
+     "q": {
+      "en": "You are Jayadhwaj. Mir Jumla offers peace, at a huge price in gold, land and hostages. What do you do?",
+      "as": "তুমি জয়ধ্বজ। মীৰজুমলাই বিশাল সোণ, মাটি আৰু জামিনৰ বিনিময়ত শান্তি দিব খুজিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Refuse and fight on",
+       "as": "অস্বীকাৰ কৰি যুঁজা"
+      },
+      {
+       "en": "Accept the hard treaty",
+       "as": "কঠিন সন্ধি মানি লোৱা"
+      },
+      {
+       "en": "Flee to Burma",
+       "as": "বাৰ্মালৈ পলোৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He accepted the Treaty of Ghilajharighat in 1663.",
+      "as": "১৬৬৩ চনত তেওঁ ঘিলাঝাৰিঘাটৰ সন্ধি মানি ল'লে।"
+     },
+     "decide": true
+    },
     {
      "type": "story",
      "img": "treaty.webp",
@@ -1771,6 +1851,25 @@
       "as": "১৬৬৩ চনৰ নৱেম্বৰ, বকতাত।"
      },
      "id": "jds.u7.07"
+    },
+    {
+     "type": "story",
+     "id": "jds.next",
+     "title": {
+      "en": "A cousin who won't pay",
+      "as": "ধাৰ নিদিয়া ভাই"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the shame was the <mark>Treaty of Ghilajharighat</mark>.",
+       "as": "ৰহস্যৰ সমাধান: লাজ আছিল <mark>ঘিলাঝাৰিঘাটৰ সন্ধি</mark>।"
+      },
+      {
+       "en": "His cousin Chakradhwaj would refuse to pay, and choose a commander named Lachit...",
+       "as": "তেওঁৰ ভাই চক্ৰধ্বজে ধাৰ দিবলৈ অস্বীকাৰ কৰিব, আৰু লাচিত নামৰ এজন সেনাপতি বাছিব..."
+      }
+     ]
     }
    ]
   }

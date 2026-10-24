@@ -136,6 +136,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "kml.hook",
+     "title": {
+      "en": "A death kept secret",
+      "as": "গোপন ৰখা মৃত্যু"
+     },
+     "img": "regency.webp",
+     "text": [
+      {
+       "en": "When the king died, his chief minister told no one. Using the dead king's name, he summoned his rival to the palace.",
+       "as": "ৰজাৰ মৃত্যুৰ পিছত মুখ্য মন্ত্ৰীয়ে কাকো নক'লে। মৃত ৰজাৰ নাম লৈ তেওঁ প্ৰতিদ্বন্দ্বীক ৰাজপ্ৰসাদলৈ মাতিলে।"
+      },
+      {
+       "en": "What happened to the rival, and who really ruled next?",
+       "as": "প্ৰতিদ্বন্দ্বীৰ কি হ'ল, আৰু পিছত আচলতে কোনে শাসন কৰিলে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "regency.webp",
      "title": {
       "en": "A death kept secret",
@@ -351,6 +370,38 @@
       "as": "বেংমৰা, আজিৰ তিনিচুকীয়া।"
      },
      "id": "kml.u2.03"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "kml.g1",
+     "q": {
+      "en": "After years of war, how do you think Purnananda ended the Moamoria rebellion?",
+      "as": "বছৰ বছৰ যুদ্ধৰ পিছত পূৰ্ণানন্দই মোৱামৰীয়া বিদ্ৰোহ কেনেকৈ শেষ কৰিলে বুলি তোমাৰ অনুমান?"
+     },
+     "options": [
+      {
+       "en": "Killed them all",
+       "as": "সকলোকে হত্যা কৰি"
+      },
+      {
+       "en": "Gave them their own land under their chief",
+       "as": "তেওঁলোকৰ মুখীয়ালৰ অধীনত নিজৰ মাটি দি"
+      },
+      {
+       "en": "Asked the British",
+       "as": "ব্ৰিটিছক মাতি"
+      },
+      {
+       "en": "Gave up the east",
+       "as": "পূব এৰি দি"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In 1805 Sarbananda became Barsenapati of the autonomous Matak land.",
+      "as": "১৮০৫ চনত চৰ্বানন্দ স্বায়ত্তশাসিত মটকৰ বৰসেনাপতি হ'ল।"
+     }
     },
     {
      "type": "story",
@@ -590,6 +641,25 @@
       "as": "পূৰ্ণানন্দ বুঢ়াগোহাঁই।"
      },
      "id": "kml.u3.05"
+    },
+    {
+     "type": "story",
+     "id": "kml.next",
+     "title": {
+      "en": "An enemy in the making",
+      "as": "নতুন শত্ৰুৰ জন্ম"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the rival was killed, and <mark>Purnananda</mark> ruled through the boy king.",
+       "as": "ৰহস্যৰ সমাধান: প্ৰতিদ্বন্দ্বী নিহত হ'ল, আৰু <mark>পূৰ্ণানন্দ</mark>ই কিশোৰ ৰজাৰ জৰিয়তে শাসন কৰিলে।"
+      },
+      {
+       "en": "When smallpox took the king, his brother was crowned, and the old minister made an enemy who would bring a foreign army...",
+       "as": "বসন্তই ৰজাক কাঢ়ি নিয়াৰ পিছত ভায়েকক ৰজা পতা হ'ল, আৰু বুঢ়া মন্ত্ৰীৰ এনে এজন শত্ৰু হ'ল যি বিদেশী সৈন্য আনিব..."
+      }
+     ]
     }
    ]
   }

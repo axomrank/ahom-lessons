@@ -157,6 +157,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "stu.hook",
+     "title": {
+      "en": "An invitation to a boat race",
+      "as": "নাওখেলৰ নিমন্ত্ৰণ"
+     },
+     "img": "safrai-meeting.webp",
+     "text": [
+      {
+       "en": "A neighbouring king, an old enemy, invited the Ahom king to a boat race on a river, as a sign of peace.",
+       "as": "এজন চুবুৰীয়া ৰজাই, পুৰণি শত্ৰু, শান্তিৰ চিন হিচাপে আহোম ৰজাক নদীত নাওখেললৈ মাতিলে।"
+      },
+      {
+       "en": "The Ahom king accepted. Should he have?",
+       "as": "আহোম ৰজা মান্তি হ'ল। উচিত আছিল নে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The sixth king",
       "as": "ষষ্ঠ ৰজা"
@@ -437,6 +456,35 @@
      "id": "stu.u1.03"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "stu.d1",
+     "q": {
+      "en": "You are Sutuphaa. The Chutia king invites you to a regatta on the Safrai. What do you do?",
+      "as": "তুমি চুতুফা। চুতীয়া ৰজাই তোমাক চফ্ৰাইত নাওখেললৈ মাতিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Go, with all your guards",
+       "as": "সকলো ৰক্ষীৰ সৈতে যোৱা"
+      },
+      {
+       "en": "Go, and trust him",
+       "as": "যোৱা, আৰু তেওঁক বিশ্বাস কৰা"
+      },
+      {
+       "en": "Refuse",
+       "as": "অস্বীকাৰ কৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Sutuphaa trusted him, and stepped onto the Chutia king's boat without his attendants.",
+      "as": "চুতুফাই বিশ্বাস কৰিলে, আৰু অনুচৰ নোহোৱাকৈ চুতীয়া ৰজাৰ নাৱত উঠিল।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "title": {
       "en": "An invitation",
@@ -454,6 +502,38 @@
      ],
      "id": "stu.u1.04",
      "img": "safrai-meeting.webp"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "stu.g1",
+     "q": {
+      "en": "Sutuphaa is on the Chutia king's boat, alone. What do you think happened?",
+      "as": "চুতুফা অকলে চুতীয়া ৰজাৰ নাৱত। তোমাৰ অনুমানত কি হ'ল?"
+     },
+     "options": [
+      {
+       "en": "They became friends",
+       "as": "বন্ধু হ'ল"
+      },
+      {
+       "en": "He was killed",
+       "as": "তেওঁক হত্যা কৰা হ'ল"
+      },
+      {
+       "en": "He won the race",
+       "as": "তেওঁ খেলত জিকিল"
+      },
+      {
+       "en": "He was held for ransom",
+       "as": "মুক্তিপণৰ বাবে আটক"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The Chutias killed him there, in 1376.",
+      "as": "১৩৭৬ চনত চুতীয়াই তাতেই তেওঁক হত্যা কৰিলে।"
+     }
     },
     {
      "type": "story",
@@ -856,6 +936,25 @@
       "as": "ৰাজশূন্য কাল: দুটা ৰাজত্বৰ মাজৰ সময়।"
      },
      "id": "stu2.u3.07"
+    },
+    {
+     "type": "story",
+     "id": "stu.next",
+     "title": {
+      "en": "Four years, no king",
+      "as": "চাৰি বছৰ, ৰজা নাই"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: he should not have gone. Sutuphaa was <mark>murdered on the Safrai</mark>, and the ministers ruled for four years.",
+       "as": "ৰহস্যৰ সমাধান: যাব নালাগিছিল। চুতুফা <mark>চফ্ৰাইত নিহত</mark> হ'ল, আৰু চাৰি বছৰ মন্ত্ৰীয়ে শাসন কৰিলে।"
+      },
+      {
+       "en": "The next king would march to avenge him, and leave two jealous queens behind...",
+       "as": "পিছৰ ৰজাই প্ৰতিশোধ ল'বলৈ যাত্ৰা কৰিব, আৰু দুগৰাকী ঈৰ্ষাপৰায়ণ ৰাণীক ঘৰত এৰি যাব..."
+      }
+     ]
     }
    ]
   }

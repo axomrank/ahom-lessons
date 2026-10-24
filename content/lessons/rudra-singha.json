@@ -211,6 +211,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "rud.hook",
+     "title": {
+      "en": "A city of brick",
+      "as": "ইটাৰ নগৰ"
+     },
+     "img": "rangpur.webp",
+     "text": [
+      {
+       "en": "A king wanted a capital of brick. Nobody in his kingdom knew how to build one.",
+       "as": "এজন ৰজাই ইটাৰ ৰাজধানী বিচাৰিলে। তেওঁৰ ৰাজ্যত কোনেও তেনে নগৰ সাজিব নাজানিছিল।"
+      },
+      {
+       "en": "How did he get it, and why was the builder put to death?",
+       "as": "তেওঁ কেনেকৈ পালে, আৰু নিৰ্মাতাক কিয় প্ৰাণদণ্ড দিয়া হ'ল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "coronation.webp",
      "title": {
       "en": "A son remembers",
@@ -488,6 +507,38 @@
      "id": "rud.u2.02"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "rud.g1",
+     "q": {
+      "en": "As the builder left, a paper describing Assam was found on him. What do you think the king believed?",
+      "as": "নিৰ্মাতা যাওঁতে তেওঁৰ ওচৰত অসমৰ বৰ্ণনা থকা এখন কাগজ পোৱা গ'ল। তোমাৰ অনুমানত ৰজাই কি বিশ্বাস কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "It was a gift",
+       "as": "উপহাৰ"
+      },
+      {
+       "en": "He was a spy for the Mughals",
+       "as": "তেওঁ মোগলৰ চোৰাংচোৱা"
+      },
+      {
+       "en": "It was a poem",
+       "as": "এটা কবিতা"
+      },
+      {
+       "en": "A map for traders",
+       "as": "ব্যৱসায়ীৰ মানচিত্ৰ"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It was thought he meant to betray Assam to the Mughals, and he was put to death.",
+      "as": "তেওঁ অসমক মোগলৰ হাতত তুলি দিব বুলি ভবা হ'ল, আৰু প্ৰাণদণ্ড দিয়া হ'ল।"
+     }
+    },
+    {
      "type": "story",
      "art": "scroll",
      "title": {
@@ -728,6 +779,35 @@
       "as": "মাইবং। ডিমাপুৰ আছিল পুৰণি কছাৰী ৰাজধানী।"
      },
      "id": "rud.u3.03"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "rud.d1",
+     "q": {
+      "en": "You are Rudra. The Kachari king who defied you writes in secret: the Jaintia king has seized him. What do you do?",
+      "as": "তুমি ৰুদ্ৰ। তোমাক অমান্য কৰা কছাৰী ৰজাই গোপনে লিখিছে: জয়ন্তীয়া ৰজাই তেওঁক বন্দী কৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Leave him to his fate",
+       "as": "ভাগ্যৰ হাতত এৰা"
+      },
+      {
+       "en": "Rescue him, and take Jaintiapur",
+       "as": "উদ্ধাৰ কৰি জয়ন্তীয়াপুৰ লোৱা"
+      },
+      {
+       "en": "Pay a ransom",
+       "as": "মুক্তিপণ দিয়া"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In 1708 Ahom armies took Jaintiapur and brought both kings before Rudra.",
+      "as": "১৭০৮ চনত আহোম সৈন্যই জয়ন্তীয়াপুৰ ল'লে আৰু দুয়োজন ৰজাক ৰুদ্ৰৰ আগত আনিলে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -1152,6 +1232,25 @@
       "as": "জ → ৰ → মা → ক।"
      },
      "id": "rud.u5.06"
+    },
+    {
+     "type": "story",
+     "id": "rud.next",
+     "title": {
+      "en": "A queen who ruled",
+      "as": "শাসন কৰা ৰাণী"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: a master builder from Koch Bihar, <mark>Ghanashyam</mark>, raised Rangpur, then died as a suspected spy.",
+       "as": "ৰহস্যৰ সমাধান: কোচবিহাৰৰ শিল্পী <mark>ঘনশ্যাম</mark>ে ৰংপুৰ সাজিলে, তাৰ পিছত চোৰাংচোৱা সন্দেহত মৃত্যু।"
+      },
+      {
+       "en": "Rudra's son would let a queen rule as 'king'...",
+       "as": "ৰুদ্ৰৰ পুত্ৰই এগৰাকী ৰাণীক 'ৰজা' হিচাপে শাসন কৰিবলৈ দিব..."
+      }
+     ]
     }
    ]
   }

@@ -151,6 +151,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "ssn.hook",
+     "title": {
+      "en": "A king who fled?",
+      "as": "পলোৱা ৰজা?"
+     },
+     "img": "tangsu-raids.webp",
+     "text": [
+      {
+       "en": "This king ruled for 49 years. Yet one story says that in his greatest battle he fled the field in a litter.",
+       "as": "এই ৰজাই ৪৯ বছৰ ৰাজত্ব কৰিলে। তথাপি এটা কাহিনী কয়, তেওঁৰ ডাঙৰ যুদ্ধত তেওঁ দোলাত উঠি পলাইছিল।"
+      },
+      {
+       "en": "Which story is true? Read both, and decide.",
+       "as": "কোনটো কাহিনী সঁচা? দুয়োটা পঢ়া, আৰু নিজে বিচাৰ কৰা।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "The eleventh king",
       "as": "একাদশ ৰজা"
@@ -459,6 +478,38 @@
      ],
      "id": "ssn.u2.01",
      "img": "tangsu-raids.webp"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "ssn.g1",
+     "q": {
+      "en": "The Tangsu Nagas raided Ahom villages. Who do you think led the army against them?",
+      "as": "টাংচু নগাই আহোম গাঁও আক্ৰমণ কৰিলে। তোমাৰ অনুমানত তেওঁলোকৰ বিৰুদ্ধে সৈন্য কোনে নেতৃত্ব দিলে?"
+     },
+     "options": [
+      {
+       "en": "The king himself",
+       "as": "ৰজা নিজে"
+      },
+      {
+       "en": "The Borgohain",
+       "as": "বৰগোহাঁই"
+      },
+      {
+       "en": "A Kachari ally",
+       "as": "কছাৰী মিত্ৰ"
+      },
+      {
+       "en": "Nobody: they gave up",
+       "as": "কোনেও নহয়: এৰি দিলে"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The king led in person, says the main account.",
+      "as": "মূল বিৱৰণ মতে ৰজাই নিজে নেতৃত্ব দিছিল।"
+     }
     },
     {
      "type": "story",
@@ -1131,6 +1182,25 @@
       "as": "৫১ → ৪৯ → ৪২ → ৪০।"
      },
      "id": "ssn2.u4.02"
+    },
+    {
+     "type": "story",
+     "id": "ssn.next",
+     "title": {
+      "en": "Two versions, one lesson",
+      "as": "দুটা কাহিনী, এটা শিক্ষা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: one account says he led and won; another says he fled and the <mark>Banrukia Gohain</mark> won. Historians weigh both.",
+       "as": "ৰহস্যৰ সমাধান: এটা বিৱৰণে কয় তেওঁ নেতৃত্ব দি জিকিল; আনটোৱে কয় তেওঁ পলাল আৰু <mark>বনৰুকীয়া গোহাঁই</mark>য়ে জিকিল। ইতিহাসবিদে দুয়োটা বিচাৰে।"
+      },
+      {
+       "en": "His son's reign would end in a palace, with a sharpened bamboo...",
+       "as": "তেওঁৰ পুত্ৰৰ ৰাজত্ব শেষ হ'ব ৰাজপ্ৰসাদত, এডাল জোঙা বাঁহেৰে..."
+      }
+     ]
     }
    ]
   }

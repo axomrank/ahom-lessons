@@ -251,6 +251,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "shm.hook",
+     "title": {
+      "en": "Stabbed in his sleep",
+      "as": "টোপনিতে হত্যা"
+     },
+     "img": "assassination.webp",
+     "text": [
+      {
+       "en": "He doubled the kingdom, beat three invasions and brought in firearms. Then, one January night in 1539, he was stabbed in his sleep.",
+       "as": "তেওঁ ৰাজ্য দুগুণ কৰিলে, তিনিটা আক্ৰমণ ৰুধিলে, বন্দুক আনিলে। তাৰ পিছত ১৫৩৯ চনৰ জানুৱাৰীৰ এক ৰাতি টোপনিতে তেওঁক হত্যা কৰা হ'ল।"
+      },
+      {
+       "en": "Who wanted the greatest king of his age dead?",
+       "as": "সেই যুগৰ শ্ৰেষ্ঠ ৰজাৰ মৃত্যু কোনে বিচাৰিছিল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "swarganarayan.webp",
      "title": {
       "en": "A new kind of king",
@@ -909,6 +928,38 @@
       "as": "চুতীয়া ৰাজ্য।"
      },
      "id": "shm3.u3.01"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "shm.g1",
+     "q": {
+      "en": "The Chutias held a steep hill. How do you think the Ahoms took them by surprise?",
+      "as": "চুতীয়াসকল এটা খাড়া পাহাৰত আছিল। তোমাৰ অনুমানত আহোমে তেওঁলোকক কেনেকৈ আচৰিত কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "A long siege",
+       "as": "দীঘলীয়া অৱৰোধ"
+      },
+      {
+       "en": "Climbing up holding on to creepers",
+       "as": "লতা ধৰি বগাই উঠি"
+      },
+      {
+       "en": "Digging a tunnel",
+       "as": "সুৰংগ খান্দি"
+      },
+      {
+       "en": "Bribing the guards",
+       "as": "ৰক্ষীক ভেটি দি"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In 1523 they climbed the steep hill holding on to creepers.",
+      "as": "১৫২৩ চনত তেওঁলোকে লতা ধৰি খাড়া পাহাৰ বগালে।"
+     }
     },
     {
      "type": "story",
@@ -1786,6 +1837,35 @@
      "id": "shm3.u6.01"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "shm.d1",
+     "q": {
+      "en": "You are the wife of a commander who has just fallen fighting Turbak. What do you do?",
+      "as": "তুমি তুৰবকৰ সৈতে যুঁজি নিহত হোৱা এজন সেনাপতিৰ পত্নী। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Flee to safety",
+       "as": "সুৰক্ষিত ঠাইলৈ পলোৱা"
+      },
+      {
+       "en": "Take up his sword and lead",
+       "as": "তেওঁৰ তৰোৱাল লৈ নেতৃত্ব দিয়া"
+      },
+      {
+       "en": "Ask for peace",
+       "as": "শান্তি বিচৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Mula Gabharu took up her husband's sword and died fighting in 1533.",
+      "as": "মূলা গাভৰুৱে স্বামীৰ তৰোৱাল লৈ ১৫৩৩ চনত যুঁজি প্ৰাণ দিলে।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "mula-gabharu.webp",
      "title": {
@@ -2342,6 +2422,25 @@
       "as": "১৫৩৯ জানুৱাৰী, টোপনিতে আঘাত।"
      },
      "id": "shm3.u7.01"
+    },
+    {
+     "type": "story",
+     "id": "shm.next",
+     "title": {
+      "en": "A cloud over the crown",
+      "as": "মুকুটত ছাঁ"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the chronicles blame his own son, <mark>Suklen</mark>.",
+       "as": "ৰহস্যৰ সমাধান: বুৰঞ্জীয়ে তেওঁৰ নিজৰ পুত্ৰ <mark>চুক্লেন</mark>ক দোষ দিয়ে।"
+      },
+      {
+       "en": "Suklen became the next king, with a cloud over his name...",
+       "as": "চুক্লেনেই পিছৰ ৰজা হ'ল, নামত এক ক'লা ছাঁ লৈ..."
+      }
+     ]
     }
    ]
   }

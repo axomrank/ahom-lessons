@@ -170,6 +170,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "stg.hook",
+     "title": {
+      "en": "Generals in women's clothes",
+      "as": "মহিলাৰ সাজত সেনাপতি"
+     },
+     "img": "sickly-king.webp",
+     "text": [
+      {
+       "en": "After a defeat, a king made his two top commanders appear in public in women's clothes.",
+       "as": "এক পৰাজয়ৰ পিছত এজন ৰজাই তেওঁৰ দুজন প্ৰধান সেনাপতিক মহিলাৰ সাজত ৰাজহুৱাকৈ উলিয়ালে।"
+      },
+      {
+       "en": "What had they failed to do, and did the next army do better?",
+       "as": "তেওঁলোকে কি কৰিব নোৱাৰিছিল, আৰু পিছৰ সৈন্য সফল হ'ল নে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "sickly-king.webp",
      "title": {
       "en": "A crooked crown",
@@ -433,6 +452,38 @@
       "as": "ডিক্ৰং ডফলা পাহাৰৰ পৰা আজিৰ উত্তৰ লখিমপুৰৰ কাষেৰে নামি আহে।"
      },
      "id": "stg.u2.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "stg.g1",
+     "q": {
+      "en": "The Daflas shot from the hills and the Ahoms turned back. How do you think the furious king punished the commanders?",
+      "as": "ডফলাই পাহাৰৰ পৰা কাঁড় মাৰিলে আৰু আহোম উভতিল। তোমাৰ অনুমানত ক্ৰুদ্ধ ৰজাই সেনাপতিক কেনে শাস্তি দিলে?"
+     },
+     "options": [
+      {
+       "en": "Executed them",
+       "as": "প্ৰাণদণ্ড দিলে"
+      },
+      {
+       "en": "Paraded them in women's clothes",
+       "as": "মহিলাৰ সাজত ৰাজহুৱাকৈ উলিয়ালে"
+      },
+      {
+       "en": "Fined them",
+       "as": "জৰিমনা কৰিলে"
+      },
+      {
+       "en": "Forgave them",
+       "as": "ক্ষমা কৰিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "He dismissed them and made them appear in women's clothes. A second force then won.",
+      "as": "তেওঁ তেওঁলোকক আঁতৰাই মহিলাৰ সাজত উলিয়ালে। দ্বিতীয় সৈন্যই পিছত জিকিলে।"
+     }
     },
     {
      "type": "story",
@@ -806,6 +857,35 @@
    ],
    "steps": [
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "stg.d1",
+     "q": {
+      "en": "You are a noble. The king is too ill to rule and his cruel son abuses everyone. What do you do?",
+      "as": "তুমি এজন বিষয়া। ৰজা শাসন কৰিব নোৱাৰাকৈ অসুস্থ, আৰু তেওঁৰ নিষ্ঠুৰ পুত্ৰই সকলোকে উৎপীড়ন কৰে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Wait and endure",
+       "as": "সহ্য কৰি অপেক্ষা"
+      },
+      {
+       "en": "Depose the king and crown another son",
+       "as": "ৰজাক আঁতৰাই আন পুত্ৰক ৰজা পতা"
+      },
+      {
+       "en": "Flee",
+       "as": "পলোৱা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In 1648 the nobles deposed Sutingphaa and crowned his son Sutamla.",
+      "as": "১৬৪৮ চনত বিষয়াসকলে চুতিংফাক আঁতৰাই পুত্ৰ চুতামলাক ৰজা পাতিলে।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "sutamla-crowned.webp",
      "top": true,
@@ -1043,6 +1123,25 @@
       "as": "সাত বছৰত তিনিজন ৰজা।"
      },
      "id": "stg.u4.07"
+    },
+    {
+     "type": "story",
+     "id": "stg.next",
+     "title": {
+      "en": "The storm from the west",
+      "as": "পশ্চিমৰ ধুমুহা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: they had lost to the <mark>Daflas</mark>; the second army won.",
+       "as": "ৰহস্যৰ সমাধান: তেওঁলোক <mark>ডফলা</mark>ৰ হাতত হাৰিছিল; দ্বিতীয় সৈন্যই জিকিল।"
+      },
+      {
+       "en": "The nobles then crowned his son as Jayadhwaj Singha. His reign would bring the biggest Mughal invasion yet...",
+       "as": "তাৰ পিছত বিষয়াসকলে তেওঁৰ পুত্ৰক জয়ধ্বজ সিংহ নামেৰে ৰজা পাতিলে। তেওঁৰ দিনত আটাইতকৈ ডাঙৰ মোগল আক্ৰমণ হ'ব..."
+      }
+     ]
     }
    ]
   }

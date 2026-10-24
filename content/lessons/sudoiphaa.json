@@ -132,6 +132,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "sdp.hook",
+     "title": {
+      "en": "The city Lachit died for",
+      "as": "লাচিতে প্ৰাণ দিয়া নগৰ"
+     },
+     "img": "guwahati-surrendered.webp",
+     "text": [
+      {
+       "en": "Eight years after Saraighat, Guwahati was handed back to the Mughals without a fight.",
+       "as": "শৰাইঘাটৰ আঠ বছৰ পিছত গুৱাহাটী যুদ্ধ নোহোৱাকৈ মোগলক ঘূৰাই দিয়া হ'ল।"
+      },
+      {
+       "en": "Who gave it away? Someone very close to Lachit.",
+       "as": "কোনে দি দিলে? লাচিতৰ অতি আপোন কোনোবাই।"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "sudoiphaa-court.webp",
      "title": {
       "en": "Not of royal blood",
@@ -336,6 +355,38 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "sdp.g1",
+     "q": {
+      "en": "Who do you think surrendered Guwahati in 1679?",
+      "as": "তোমাৰ অনুমানত ১৬৭৯ চনত গুৱাহাটী কোনে এৰি দিলে?"
+     },
+     "options": [
+      {
+       "en": "Lachit's own brother, Laluk Sola",
+       "as": "লাচিতৰ নিজৰ ভাই লালুক সোলা"
+      },
+      {
+       "en": "A Mughal spy",
+       "as": "এজন মোগল চোৰাংচোৱা"
+      },
+      {
+       "en": "The king himself",
+       "as": "ৰজা নিজে"
+      },
+      {
+       "en": "The Kacharis",
+       "as": "কছাৰী"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Laluk Sola Borphukan, fearing the Burhagohain, made a deal with the Mughals.",
+      "as": "বুঢ়াগোহাঁইৰ ভয়ত লালুক সোলা বৰফুকনে মোগলৰ সৈতে বুজাবুজি কৰিলে।"
+     }
+    },
+    {
      "type": "story",
      "img": "guwahati-surrendered.webp",
      "title": {
@@ -520,6 +571,25 @@
       "as": "লাচিতৰ ১৬৭২ চনত মৃত্যু; ভাই লালুকে গুৱাহাটী বিক্ৰী কৰিছিল।"
      },
      "id": "sdp.u2.07"
+    },
+    {
+     "type": "story",
+     "id": "sdp.next",
+     "title": {
+      "en": "A boy on the throne",
+      "as": "সিংহাসনত ল'ৰা"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: <mark>Laluk Sola</mark>, Lachit's brother.",
+       "as": "ৰহস্যৰ সমাধান: লাচিতৰ ভাই <mark>লালুক সোলা</mark>।"
+      },
+      {
+       "en": "Next he would put a boy on the throne and hunt down every prince he could find...",
+       "as": "পিছলৈ তেওঁ এটা ল'ৰাক সিংহাসনত বহুৱাব আৰু পোৱা সকলো কোঁৱৰক খেদি ফুৰিব..."
+      }
+     ]
     }
    ]
   }

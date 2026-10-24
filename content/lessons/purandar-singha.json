@@ -128,6 +128,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "prd.hook",
+     "title": {
+      "en": "Coins for a king who wasn't",
+      "as": "ৰজা নোহোৱাজনৰ মুদ্ৰা"
+     },
+     "img": "crowned.webp",
+     "text": [
+      {
+       "en": "A man struck coins in his own name as king. Then everyone remembered why he could never be king.",
+       "as": "এজন মানুহে ৰজা হিচাপে নিজৰ নামত মুদ্ৰা উলিয়ালে। তাৰ পিছত সকলোৰে মনত পৰিল, তেওঁ কিয় কেতিয়াও ৰজা হ'ব নোৱাৰে।"
+      },
+      {
+       "en": "What was the reason, and who wore the crown instead?",
+       "as": "কাৰণ কি, আৰু তেওঁৰ সলনি মুকুট কোনে পিন্ধিলে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "crowned.webp",
      "title": {
       "en": "The coins that came too soon",
@@ -182,6 +201,38 @@
        "en": "The same rule passed over the smallpox-scarred Barjana Gohain.",
        "as": "একে নিয়মত বসন্তৰ দাগ থকা বৰজনা গোহাঁইক এৰা হৈছিল।"
       }
+     }
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "prd.g1",
+     "q": {
+      "en": "How do you think the new rulers made sure Chandrakanta could never return to the throne?",
+      "as": "চন্দ্ৰকান্তই আৰু কেতিয়াও সিংহাসনলৈ ঘূৰিব নোৱাৰাকৈ নতুন শাসকে কি কৰিলে বুলি তোমাৰ অনুমান?"
+     },
+     "options": [
+      {
+       "en": "Exiled him",
+       "as": "নিৰ্বাসন দিলে"
+      },
+      {
+       "en": "Slit his ear",
+       "as": "কাণ কাটি দিলে"
+      },
+      {
+       "en": "Made him a monk",
+       "as": "সন্ন্যাসী কৰিলে"
+      },
+      {
+       "en": "Imprisoned him for life",
+       "as": "আজীৱন বন্দী কৰিলে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "His right ear was slit: a blemished prince could not rule.",
+      "as": "তেওঁৰ সোঁ কাণ কটা হ'ল: খুঁত থকা কোঁৱৰ ৰজা হ'ব নোৱাৰে।"
      }
     },
     {
@@ -443,6 +494,25 @@
       "as": "আলা মিংগিৰ সৈন্য।"
      },
      "id": "prd.u2.06"
+    },
+    {
+     "type": "story",
+     "id": "prd.next",
+     "title": {
+      "en": "The slit-eared king returns",
+      "as": "কাণ কটা ৰজাৰ পুনৰাগমন"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: <mark>Brajanath</mark> had been mutilated, so his son Purandar was crowned.",
+       "as": "ৰহস্যৰ সমাধান: <mark>ব্ৰজনাথ</mark>ৰ অংগহানি হৈছিল, সেয়ে পুত্ৰ পুৰন্দৰক ৰজা পতা হ'ল।"
+      },
+      {
+       "en": "A year later the Burmese came back, and the slit-eared king was on the throne again...",
+       "as": "এবছৰ পিছত মান পুনৰ আহিল, আৰু কাণ কটা ৰজাজন আকৌ সিংহাসনত..."
+      }
+     ]
     }
    ]
   }

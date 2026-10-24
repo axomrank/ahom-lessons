@@ -164,6 +164,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "tyk.hook",
+     "title": {
+      "en": "A queen on a raft",
+      "as": "ভূৰত ৰাণী"
+     },
+     "img": "queen-adrift.webp",
+     "text": [
+      {
+       "en": "While the king was away at war, a pregnant queen was put on a raft and pushed out onto the Brahmaputra.",
+       "as": "ৰজা যুদ্ধলৈ যোৱাৰ সময়ত এগৰাকী গৰ্ভৱতী ৰাণীক ভূৰত তুলি ব্ৰহ্মপুত্ৰত উটুৱাই দিয়া হ'ল।"
+      },
+      {
+       "en": "Who sent her away, and what became of the raft?",
+       "as": "তেওঁক কোনে পঠালে, আৰু ভূৰখনৰ কি হ'ল?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "title": {
       "en": "A king again",
       "as": "আকৌ ৰজা"
@@ -402,6 +421,38 @@
      "art": "scroll"
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "tyk.g1",
+     "q": {
+      "en": "The elder queen ordered the younger queen beheaded. The ministers saw she was pregnant. What do you think they did?",
+      "as": "জেঠী ৰাণীয়ে সৰু ৰাণীৰ মূৰ কাটিবলৈ আদেশ দিলে। মন্ত্ৰীয়ে দেখিলে তেওঁ গৰ্ভৱতী। তোমাৰ অনুমানত তেওঁলোকে কি কৰিলে?"
+     },
+     "options": [
+      {
+       "en": "Obeyed the order",
+       "as": "আদেশ মানিলে"
+      },
+      {
+       "en": "Hid her in the palace",
+       "as": "ৰাজপ্ৰসাদত লুকুৱালে"
+      },
+      {
+       "en": "Set her adrift on a raft",
+       "as": "ভূৰত উটুৱাই দিলে"
+      },
+      {
+       "en": "Sent her to Mong Mao",
+       "as": "মং মাওলৈ পঠালে"
+      }
+     ],
+     "answer": 2,
+     "why": {
+      "en": "They spared her life and set her adrift on the Brahmaputra.",
+      "as": "তেওঁৰ প্ৰাণ ৰক্ষা কৰি ব্ৰহ্মপুত্ৰত উটুৱাই দিলে।"
+     }
+    },
+    {
      "type": "story",
      "title": {
       "en": "Set adrift",
@@ -622,6 +673,35 @@
      ],
      "id": "tyk.u2.01",
      "art": "scroll"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "tyk.d1",
+     "q": {
+      "en": "You are a great noble. The king will not stop the elder queen's cruelty. What do you do?",
+      "as": "তুমি এজন প্ৰধান বিষয়া। ৰজাই জেঠী ৰাণীৰ নিষ্ঠুৰতা বন্ধ নকৰে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Serve quietly",
+       "as": "নীৰৱে সেৱা কৰা"
+      },
+      {
+       "en": "Remove the king",
+       "as": "ৰজাক আঁতৰোৱা"
+      },
+      {
+       "en": "Leave the kingdom",
+       "as": "ৰাজ্য এৰা"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In 1389 the nobles had Tyao Khamti killed.",
+      "as": "১৩৮৯ চনত বিষয়াসকলে ত্যাও খাম্তিক হত্যা কৰালে।"
+     },
+     "decide": true
     },
     {
      "type": "story",
@@ -901,6 +981,25 @@
       "as": "জ্যেষ্ঠ ৰাণীৰ অত্যাচাৰৰ বিৰুদ্ধে ব্যৱস্থা নোলোৱাৰ বাবে তেওঁ প্ৰাণ হেৰুৱালে।"
      },
      "id": "tyk3.u3.01"
+    },
+    {
+     "type": "story",
+     "id": "tyk.next",
+     "title": {
+      "en": "The raft did not sink",
+      "as": "ভূৰ নুবুৰিল"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the <mark>jealous elder queen</mark> sent her away.",
+       "as": "ৰহস্যৰ সমাধান: <mark>ঈৰ্ষাপৰায়ণ জেঠী ৰাণীয়ে</mark> তেওঁক পঠাইছিল।"
+      },
+      {
+       "en": "But the raft did not sink. Far downriver, in a Brahman's house, a baby boy was born: the next king.",
+       "as": "কিন্তু ভূৰখন নুবুৰিল। বহু নামনিত, এজন ব্ৰাহ্মণৰ ঘৰত, এটি ল'ৰাৰ জন্ম হ'ল: পিছৰ ৰজা।"
+      }
+     ]
     }
    ]
   }

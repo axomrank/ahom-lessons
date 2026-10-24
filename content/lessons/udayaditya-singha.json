@@ -160,6 +160,25 @@
    "steps": [
     {
      "type": "story",
+     "id": "uds.hook",
+     "title": {
+      "en": "My uncle is not my country",
+      "as": "মোমাই দেশতকৈ ডাঙৰ নহয়"
+     },
+     "img": "the-wall.webp",
+     "text": [
+      {
+       "en": "A wall was not finished on time. Tradition says the commander had the man in charge put to death, though he was his own uncle.",
+       "as": "এটা গড় সময়ত শেষ নহ'ল। পৰম্পৰা মতে সেনাপতিয়ে দায়িত্বত থকা মানুহজনক প্ৰাণদণ্ড দিলে, যদিও তেওঁ নিজৰ মোমাই।"
+      },
+      {
+       "en": "Why would a hero do that, and what was the wall for?",
+       "as": "এজন বীৰে কিয় তেনে কৰিব, আৰু গড়টো কিহৰ বাবে?"
+      }
+     ]
+    },
+    {
+     "type": "story",
      "img": "war-council.webp",
      "title": {
       "en": "A brother takes over",
@@ -595,6 +614,35 @@
      }
     },
     {
+     "type": "mcq",
+     "guess": true,
+     "id": "uds.d1",
+     "q": {
+      "en": "You are Lachit, very ill. Your ships begin to fall back. What do you do?",
+      "as": "তুমি লাচিত, গুৰুতৰ অসুস্থ। তোমাৰ নাওবোৰ পিছুৱাবলৈ ধৰিছে। তুমি কি কৰিবা?"
+     },
+     "options": [
+      {
+       "en": "Rest, and trust your officers",
+       "as": "জিৰণি লৈ বিষয়াক বিশ্বাস কৰা"
+      },
+      {
+       "en": "Have yourself carried onto a boat to lead",
+       "as": "নাৱত তুলি লৈ যাবলৈ কৈ নেতৃত্ব দিয়া"
+      },
+      {
+       "en": "Order a retreat",
+       "as": "পিছুৱাবলৈ আদেশ"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Lachit had himself carried onto a boat and rallied the fleet.",
+      "as": "লাচিতে নিজকে নাৱত তুলি নিয়ালে আৰু নৌবাহিনীক পুনৰ একত্ৰিত কৰিলে।"
+     },
+     "decide": true
+    },
+    {
      "type": "story",
      "img": "sickbed.webp",
      "title": {
@@ -612,6 +660,38 @@
       }
      ],
      "id": "uds.u3.02"
+    },
+    {
+     "type": "mcq",
+     "guess": true,
+     "id": "uds.g1",
+     "q": {
+      "en": "The Mughal fleet is bigger, but the river at Saraighat is narrow. What do you think happens to big ships there?",
+      "as": "মোগল নৌবাহিনী ডাঙৰ, কিন্তু শৰাইঘাটত নদী ঠেক। তোমাৰ অনুমানত তাত ডাঙৰ জাহাজৰ কি হয়?"
+     },
+     "options": [
+      {
+       "en": "They win easily",
+       "as": "সহজে জিকে"
+      },
+      {
+       "en": "They cannot turn, and are broken",
+       "as": "ঘূৰিব নোৱাৰে, আৰু ভাঙি পৰে"
+      },
+      {
+       "en": "They sail straight past",
+       "as": "পোনে পোনে পাৰ হৈ যায়"
+      },
+      {
+       "en": "A storm sinks them",
+       "as": "ধুমুহাত বুৰে"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In the narrows the big Mughal ships could not turn; Ahom boats closed in from both banks.",
+      "as": "ঠেক ঠাইত ডাঙৰ মোগল জাহাজ ঘূৰিব নোৱাৰিলে; আহোম নাৱে দুয়োপাৰৰ পৰা ঘেৰি ধৰিলে।"
+     }
     },
     {
      "type": "story",
@@ -1178,6 +1258,25 @@
       "as": "১৬৭২।"
      },
      "id": "uds.u5.07"
+    },
+    {
+     "type": "story",
+     "id": "uds.next",
+     "title": {
+      "en": "Seven kings begin",
+      "as": "সাতজন ৰজাৰ আৰম্ভণি"
+     },
+     "art": "scroll",
+     "text": [
+      {
+       "en": "Mystery solved: the wall guarded Guwahati, and <mark>Saraighat</mark> was won in 1671.",
+       "as": "ৰহস্যৰ সমাধান: গড়ে গুৱাহাটী ৰক্ষা কৰিছিল, আৰু ১৬৭১ চনত <mark>শৰাইঘাট</mark> জিকা হ'ল।"
+      },
+      {
+       "en": "But Lachit soon died, and a midnight coup toppled the king. Seven kings in eleven years were about to begin...",
+       "as": "কিন্তু লাচিতৰ সোনকালে মৃত্যু হ'ল, আৰু মাজনিশাৰ অভ্যুত্থানে ৰজাক আঁতৰালে। এঘাৰ বছৰত সাতজন ৰজাৰ যুগ আৰম্ভ হ'বলৈ ওলাল..."
+      }
+     ]
     }
    ]
   }
