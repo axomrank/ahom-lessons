@@ -243,6 +243,10 @@
    "suteuphaa",
    "sukhaangphaa",
    "sudangphaa"
+  ],
+  "geo": [
+   25.3,
+   96.93
   ]
  },
  "moran": {
@@ -2155,7 +2159,11 @@
   "meaning": {
    "en": "Siva temple on Peacock Island in the Brahmaputra at Guwahati, built under Gadadhar Singha",
    "as": "গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ ময়ূৰ দ্বীপৰ শিৱ মন্দিৰ; গদাধৰ সিংহৰ দিনত নিৰ্মিত"
-  }
+  },
+  "geo": [
+   26.195,
+   91.7447
+  ]
  },
  "rangpur": {
   "type": "place",
@@ -2192,7 +2200,11 @@
   "meaning": {
    "en": "Great tank dug by Rudra Singha in memory of his mother Joymoti",
    "as": "মাতৃ জয়মতীৰ স্মৃতিত ৰুদ্ৰ সিংহই খন্দোৱা বিশাল পুখুৰী"
-  }
+  },
+  "geo": [
+   26.9706,
+   94.6869
+  ]
  },
  "ghanashyam": {
   "type": "person",
@@ -2266,7 +2278,11 @@
   "meaning": {
    "en": "Goddess temple on Nilachal hill at Guwahati",
    "as": "গুৱাহাটীৰ নীলাচল পাহাৰৰ দেৱী মন্দিৰ"
-  }
+  },
+  "geo": [
+   26.1665,
+   91.7058
+  ]
  },
  "siva-singha": {
   "type": "person",
@@ -2332,7 +2348,11 @@
   "meaning": {
    "en": "Siva temple on the bank of the Sivasagar tank, built 1734; among the tallest Hindu temples in India",
    "as": "শিৱসাগৰ পুখুৰীৰ পাৰৰ শিৱ মন্দিৰ, ১৭৩৪ চনত নিৰ্মিত; ভাৰতৰ ওখ হিন্দু মন্দিৰবোৰৰ এটা"
-  }
+  },
+  "geo": [
+   26.9856,
+   94.635
+  ]
  },
  "rang-ghar": {
   "type": "term",
@@ -2343,7 +2363,11 @@
   "meaning": {
    "en": "Two-storey royal pavilion at Rangpur for watching games and buffalo fights at Bihu; built in brick under Pramatta Singha (1746)",
    "as": "বিহুত খেল আৰু ম'হৰ যুঁজ চাবলৈ ৰংপুৰৰ দুমহলীয়া ৰাজকীয় মণ্ডপ; প্ৰমত্ত সিংহৰ দিনত (১৭৪৬) ইটাৰে নিৰ্মিত"
-  }
+  },
+  "geo": [
+   26.9628,
+   94.6276
+  ]
  },
  "talatal-ghar": {
   "type": "term",
@@ -2354,7 +2378,11 @@
   "meaning": {
    "en": "Royal palace at Rangpur, begun by Rudra Singha and enlarged by Rajeswar Singha",
    "as": "ৰংপুৰৰ ৰাজপ্ৰসাদ; ৰুদ্ৰ সিংহই আৰম্ভ কৰে, ৰাজেশ্বৰ সিংহই বঢ়ায়"
-  }
+  },
+  "geo": [
+   26.9553,
+   94.633
+  ]
  },
  "kareng-ghar": {
   "type": "term",
@@ -2365,7 +2393,11 @@
   "meaning": {
    "en": "Royal palace at Garhgaon, rebuilt in brick by Rajeswar Singha (1752)",
    "as": "গড়গাঁৱৰ ৰাজপ্ৰসাদ; ৰাজেশ্বৰ সিংহই ইটাৰে পুনৰ নিৰ্মাণ কৰে (১৭৫২)"
-  }
+  },
+  "geo": [
+   26.93,
+   94.73
+  ]
  },
  "pramatta-singha": {
   "type": "person",
@@ -2668,5 +2700,309 @@
    "en": "Son of Badan Chandra; hanged by the British in 1830 for a plot to restore Ahom rule",
    "as": "বদনচন্দ্ৰৰ পুত্ৰ; আহোম শাসন ঘূৰাই আনাৰ ষড়যন্ত্ৰৰ বাবে ১৮৩০ চনত ব্ৰিটিছে ফাঁচী দিয়ে"
   }
+ },
+ "dibrugarh": {
+  "type": "place",
+  "name": {
+   "en": "Dibrugarh",
+   "as": "ডিব্ৰুগড়"
+  },
+  "meaning": {
+   "en": "Town on the Brahmaputra in Upper Assam; the old Ahom heartland's river port",
+   "as": "ব্ৰহ্মপুত্ৰৰ পাৰৰ ঊজনি অসমৰ নগৰ; আহোম ৰাজ্যৰ কেন্দ্ৰস্থলৰ নদী-বন্দৰ"
+  },
+  "geo": [
+   27.4728,
+   94.912
+  ],
+  "lessons": []
+ },
+ "tinsukia": {
+  "type": "place",
+  "name": {
+   "en": "Tinsukia",
+   "as": "তিনিচুকীয়া"
+  },
+  "meaning": {
+   "en": "Far-eastern Assam town near the Patkai foothills, on the old routes to Sadiya and Burma",
+   "as": "পাটকাইৰ আগশাৰীৰ ওচৰৰ অসমৰ পূবৰ নগৰ; চদিয়া আৰু ব্ৰহ্মদেশলৈ যোৱা পুৰণি পথত"
+  },
+  "geo": [
+   27.4922,
+   95.3597
+  ],
+  "lessons": []
+ },
+ "ledo": {
+  "type": "place",
+  "name": {
+   "en": "Ledo",
+   "as": "লেডো"
+  },
+  "meaning": {
+   "en": "Eastern Assam town at the foot of the Pangsau Pass; start of the Stilwell (Ledo) Road",
+   "as": "পাংচাউ গিৰিপথৰ তলিৰ অসমৰ নগৰ; ষ্টিলৱেল (লেডো) পথৰ আৰম্ভণি"
+  },
+  "geo": [
+   27.2905,
+   95.744
+  ],
+  "lessons": []
+ },
+ "golaghat": {
+  "type": "place",
+  "name": {
+   "en": "Golaghat",
+   "as": "গোলাঘাট"
+  },
+  "meaning": {
+   "en": "Town on the Dhansiri; Ahom frontier toward the Naga hills and Kachari lands",
+   "as": "ধনশিৰীৰ পাৰৰ নগৰ; নগা পাহাৰ আৰু কছাৰী দেশৰ ফালে আহোমৰ সীমান্ত"
+  },
+  "geo": [
+   26.5167,
+   93.9667
+  ],
+  "lessons": []
+ },
+ "lakhimpur": {
+  "type": "place",
+  "name": {
+   "en": "North Lakhimpur",
+   "as": "উত্তৰ লক্ষীমপুৰ"
+  },
+  "meaning": {
+   "en": "North-bank town near the Subansiri; gateway to the hill tribes of Arunachal",
+   "as": "সোণশিৰি ওচৰৰ উত্তৰ পাৰৰ নগৰ; অৰুণাচলৰ পাহাৰীয়া জনজাতিৰ সোঁমুখ"
+  },
+  "geo": [
+   27.2357,
+   94.1019
+  ],
+  "lessons": []
+ },
+ "tezpur": {
+  "type": "place",
+  "name": {
+   "en": "Tezpur",
+   "as": "তেজপুৰ"
+  },
+  "meaning": {
+   "en": "Town on the north bank of the Brahmaputra; an old Sonitpur capital, border of the Ahom and Koch lands",
+   "as": "ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ নগৰ; পুৰণি শোণিতপুৰৰ ৰাজধানী, আহোম আৰু কোচ ৰাজ্যৰ সীমা"
+  },
+  "geo": [
+   26.6528,
+   92.7926
+  ],
+  "lessons": []
+ },
+ "nagaon": {
+  "type": "place",
+  "name": {
+   "en": "Nagaon",
+   "as": "নগাঁও"
+  },
+  "meaning": {
+   "en": "Central Assam town on the Kolong; the middle-Brahmaputra country of the Koch, Kachari and Ahom frontier",
+   "as": "কলংৰ পাৰৰ মধ্য অসমৰ নগৰ; কোচ, কছাৰী আৰু আহোমৰ সীমান্ত ঠাই"
+  },
+  "geo": [
+   26.35,
+   92.6833
+  ],
+  "lessons": []
+ },
+ "barpeta": {
+  "type": "place",
+  "name": {
+   "en": "Barpeta",
+   "as": "বৰপেটা"
+  },
+  "meaning": {
+   "en": "Lower Assam town with the great Barpeta Satra, founded by Madhavdev's followers",
+   "as": "তলৰ অসমৰ নগৰ; মাধৱদেৱৰ শিষ্যই স্থাপন কৰা বৰপেটা সত্ৰৰ ঠাই"
+  },
+  "geo": [
+   26.3226,
+   91.0033
+  ],
+  "lessons": []
+ },
+ "goalpara": {
+  "type": "place",
+  "name": {
+   "en": "Goalpara",
+   "as": "গোৱালপাৰা"
+  },
+  "meaning": {
+   "en": "Western Assam river town; the Mughal side of the border after 1639",
+   "as": "পশ্চিম অসমৰ নদীপাৰৰ নগৰ; ১৬৩৯ৰ পিছত মোগলৰ ফালৰ সীমা"
+  },
+  "geo": [
+   26.1667,
+   90.6167
+  ],
+  "lessons": []
+ },
+ "dhubri": {
+  "type": "place",
+  "name": {
+   "en": "Dhubri",
+   "as": "ধুবুৰী"
+  },
+  "meaning": {
+   "en": "Far-western Assam town on the Brahmaputra, the Mughal frontier outpost toward Bengal",
+   "as": "ব্ৰহ্মপুত্ৰৰ পাৰৰ পশ্চিম অসমৰ নগৰ; বংগলৈ মোগলৰ সীমান্ত থানা"
+  },
+  "geo": [
+   26.0207,
+   89.9743
+  ],
+  "lessons": []
+ },
+ "sualkuchi": {
+  "type": "place",
+  "name": {
+   "en": "Sualkuchi",
+   "as": "সুৱালকুছি"
+  },
+  "meaning": {
+   "en": "Weaving town on the north bank near Guwahati; famed for Assam silk",
+   "as": "গুৱাহাটীৰ ওচৰৰ উত্তৰ পাৰৰ তাঁতশালৰ নগৰ; অসমীয়া পাটৰ বাবে বিখ্যাত"
+  },
+  "geo": [
+   26.17,
+   91.57
+  ],
+  "lessons": []
+ },
+ "mayong": {
+  "type": "place",
+  "name": {
+   "en": "Mayong",
+   "as": "মায়ং"
+  },
+  "meaning": {
+   "en": "Village near the Brahmaputra, known in folk memory for magic",
+   "as": "ব্ৰহ্মপুত্ৰৰ ওচৰৰ গাঁও; লোককথাত যাদুৰ বাবে প্ৰসিদ্ধ"
+  },
+  "geo": [
+   26.25,
+   92.0333
+  ],
+  "lessons": []
+ },
+ "kaziranga": {
+  "type": "place",
+  "name": {
+   "en": "Kaziranga",
+   "as": "কাজিৰঙা"
+  },
+  "meaning": {
+   "en": "Floodplain by the Brahmaputra in central Assam, home of the one-horned rhinoceros",
+   "as": "মধ্য অসমৰ ব্ৰহ্মপুত্ৰৰ বানপানী সমতল; এশিঙীয়া গঁড়ৰ আবাস"
+  },
+  "geo": [
+   26.5775,
+   93.1711
+  ],
+  "lessons": []
+ },
+ "kohima": {
+  "type": "place",
+  "name": {
+   "en": "Kohima",
+   "as": "কোহিমা"
+  },
+  "meaning": {
+   "en": "Naga hill town south of the Ahom plain; Ahom-Naga contacts ran along the Naga hills",
+   "as": "আহোম সমতলৰ দক্ষিণৰ নগা পাহাৰী নগৰ; আহোম-নগা সম্পৰ্ক নগা পাহাৰত চলিছিল"
+  },
+  "geo": [
+   25.6747,
+   94.1086
+  ],
+  "lessons": []
+ },
+ "imphal": {
+  "type": "place",
+  "name": {
+   "en": "Imphal",
+   "as": "ইম্ফল"
+  },
+  "meaning": {
+   "en": "Capital of Manipur, over the hills from Assam; Ahom–Manipur ties grew in the 1700s",
+   "as": "মণিপুৰৰ ৰাজধানী; অসমৰ পৰা পাহাৰৰ সিপাৰে; ১৭০০ চনত আহোম-মণিপুৰ সম্পৰ্ক গাঢ় হৈছিল"
+  },
+  "geo": [
+   24.817,
+   93.9368
+  ],
+  "lessons": []
+ },
+ "silchar": {
+  "type": "place",
+  "name": {
+   "en": "Silchar",
+   "as": "শিলচৰ"
+  },
+  "meaning": {
+   "en": "Town in the Barak valley, once part of the Kachari kingdom",
+   "as": "বৰাক উপত্যকাৰ নগৰ; এসময়ত কছাৰী ৰাজ্যৰ অংশ"
+  },
+  "geo": [
+   24.8333,
+   92.7789
+  ],
+  "lessons": []
+ },
+ "cooch-behar": {
+  "type": "place",
+  "name": {
+   "en": "Cooch Behar",
+   "as": "কোচবিহাৰ"
+  },
+  "meaning": {
+   "en": "Capital of the Koch kingdom to the west, beyond Mughal Kamrup",
+   "as": "মোগল কামৰূপৰ সিপাৰে পশ্চিমৰ কোচ ৰাজ্যৰ ৰাজধানী"
+  },
+  "geo": [
+   26.3452,
+   89.4482
+  ],
+  "lessons": []
+ },
+ "bhamo": {
+  "type": "place",
+  "name": {
+   "en": "Bhamo",
+   "as": "ভামো"
+  },
+  "meaning": {
+   "en": "Irrawaddy river town in Upper Burma; the old Shan trade and migration route toward Assam",
+   "as": "ঊজনি ব্ৰহ্মদেশৰ ইৰাৱতী নদীৰ নগৰ; অসমলৈ শান বাণিজ্য আৰু প্ৰব্ৰজনৰ পথ"
+  },
+  "geo": [
+   24.2667,
+   97.2333
+  ],
+  "lessons": []
+ },
+ "tawang": {
+  "type": "place",
+  "name": {
+   "en": "Tawang",
+   "as": "তাৱাং"
+  },
+  "meaning": {
+   "en": "Monastery town in the high Himalaya; an old hill and trade link of the Assam duars",
+   "as": "উচ্চ হিমালয়ৰ মঠ-নগৰ; অসমৰ দুৱাৰৰ পুৰণি পাহাৰীয়া বাণিজ্য পথ"
+  },
+  "geo": [
+   27.5861,
+   91.8594
+  ],
+  "lessons": []
  }
 }
